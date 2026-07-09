@@ -351,6 +351,9 @@
         part: partLabel,
         listening: true,
         title: set.title,
+        // 図表問題:graphic があれば画面に表示する(本番の Look at the graphic. 形式)
+        docType: set.graphic ? "Graphic(図表)" : undefined,
+        passage: set.graphic || null,
         audio: set.audio,
         script: set.audio.map(function (l) { return (l.speaker ? l.speaker + ": " : "") + l.text; }).join("\n"),
         translation: set.translation,

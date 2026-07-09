@@ -114,5 +114,43 @@ window.TOEIC_DATA.part6 = [
         explanation: "Those (who are) interested in 〜(〜に興味のある人々)。Those + 過去分詞/形容詞句は『〜な人々』を表す頻出形。"
       }
     ]
+  },
+  {
+    id: "p6-04",
+    title: "文書 4(社内連絡)",
+    docType: "Memo",
+    passage: "To: All Employees\nFrom: Operations Department\nSubject: New Recycling Program\nDate: April 22\n\nStarting May 1, GreenWorks Consulting will introduce a building-wide recycling program. Color-coded bins will be placed on every floor [1] the elevators: blue for paper, yellow for plastic, and green for cans and bottles.\n\n[2] , all paper documents containing client information must be shredded before disposal. Shredders are available in the copy room on each floor.\n\nPlease sort your waste according to the posted guidelines. [3] Posters explaining the sorting rules will be displayed in all break rooms next week.\n\nWe appreciate your [4] in making this initiative a success.",
+    translation: "宛先:全従業員\n差出人:業務部\n件名:新リサイクルプログラム\n日付:4月22日\n\n5月1日より、グリーンワークス・コンサルティングはビル全体のリサイクルプログラムを導入します。色分けされた回収ボックスを各階のエレベーター付近に設置します:青は紙、黄はプラスチック、緑は缶・ボトルです。\n\nさらに、顧客情報を含む紙の書類は、廃棄前に必ずシュレッダーにかけてください。シュレッダーは各階のコピー室にあります。\n\n掲示されたガイドラインに従ってごみを分別してください。誤ったボックスに入れられたものは処理できません。分別ルールを説明するポスターを、来週すべての休憩室に掲示します。\n\nこの取り組みを成功させるため、皆さまのご協力に感謝いたします。",
+    questions: [
+      {
+        num: 1,
+        choices: ["near", "nearly", "neared", "nearness"],
+        answer: 0,
+        explanation: "空所の後ろが名詞句(the elevators)なので前置詞 near(〜の近くに)。nearly は『ほぼ』という副詞で意味が異なる。品詞と意味の両方を確認する。"
+      },
+      {
+        num: 2,
+        choices: ["In addition", "However", "Instead", "Otherwise"],
+        answer: 0,
+        explanation: "接続副詞の問題。前段(回収ボックス設置)に続けて、新たな指示(書類のシュレッダー処理)を追加しているので In addition(さらに)。逆接・代替・条件の関係ではない。"
+      },
+      {
+        num: 3,
+        choices: [
+          "Items placed in the wrong bin cannot be processed.",
+          "The cafeteria menu will change in June.",
+          "All parking permits must be renewed.",
+          "The old copier has been removed."
+        ],
+        answer: 0,
+        explanation: "文挿入問題。直前の『ガイドラインに従って分別を』という依頼の理由付けとして、『誤ったボックスの物は処理できない』が自然につながる。他の選択肢はリサイクルの文脈と無関係。"
+      },
+      {
+        num: 4,
+        choices: ["cooperation", "competition", "hesitation", "permission"],
+        answer: 0,
+        explanation: "語彙問題。appreciate your cooperation(ご協力に感謝します)は依頼文書の定番の締め。competition(競争)、hesitation(ためらい)、permission(許可)は文意に合わない。"
+      }
+    ]
   }
 ];
