@@ -61,12 +61,16 @@
     keepAlive: null,
 
     // 機械的な旧式ボイスやジョーク用ボイス(iOS/macOSに多数入っている)は
-    // 聞き取りにくいため配役から除外する
+    // 聞き取りにくいため配役から除外する。端末の表示言語が日本語だと
+    // ジョーク用ボイス名は翻訳されて返ってくるため、日本語名も併記する。
     EXCLUDED_NAMES: ["fred", "kathy", "albert", "bad news", "good news", "bahh",
       "bells", "boing", "bubbles", "cellos", "deranged", "eddy", "flo", "grandma",
       "grandpa", "hysterical", "jester", "junior", "organ", "princess", "ralph",
       "reed", "rocko", "sandy", "shelley", "superstar", "trinoids", "whisper",
-      "wobble", "zarvox"],
+      "wobble", "zarvox",
+      "ベル", "震え", "道化", "オルガン", "スーパースター", "トリノイド",
+      "ささやき声", "おばあちゃん", "おじいちゃん", "悪い知らせ", "良い知らせ",
+      "泡", "チェロ", "ジュニア", "プリンセス"],
 
     init: function () {
       if (!this.supported) return;
@@ -75,6 +79,9 @@
         var all = window.speechSynthesis.getVoices();
         self.voices = all.filter(function (v) {
           if (!/^en([-_]|$)/i.test(v.lang)) return false;
+          // 実在の人名ボイス(Karen/Daniel等)は表示言語が変わっても翻訳されない。
+          // ラテン文字を1文字も含まない名前は翻訳されたジョーク用ボイスとみなして除外。
+          if (!/[A-Za-z]/.test(v.name)) return false;
           var n = v.name.toLowerCase();
           for (var i = 0; i < self.EXCLUDED_NAMES.length; i++) {
             if (n.indexOf(self.EXCLUDED_NAMES[i]) !== -1) return false;
