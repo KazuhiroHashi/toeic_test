@@ -235,6 +235,20 @@
       window.speechSynthesis.speak(u);
     },
 
+    // 読み上げ用に略語を展開する。
+    // 一部の音声は Dr. を字読みし(ディーアール)、さらに文分割処理が
+    // 略語のピリオドを文末と誤認して不自然に区切るため、先に展開しておく。
+    normalizeForSpeech: function (text) {
+      return text
+        .replace(/\bDr\./g, "Doctor")
+        .replace(/\bMr\./g, "Mister")
+        .replace(/\bMrs\./g, "Missus")
+        .replace(/\bMs\./g, "Miz")
+        // A.M./P.M. は後ろに大文字が続けば文末のピリオドを残す
+        .replace(/\b([AP])\.M\.(?=\s+[A-Z])/g, "$1M.")
+        .replace(/\b([AP])\.M\./g, "$1M");
+    },
+
     // 長い文の途中停止(ブラウザの制限)を避けるため文単位に分割する
     splitText: function (text) {
       var parts = text.match(/[^.!?]+[.!?]+["')\]]*\s*|[^.!?]+$/g);
@@ -252,7 +266,7 @@
 
       var units = [];
       lines.forEach(function (line) {
-        self.splitText(line.text).forEach(function (s) {
+        self.splitText(self.normalizeForSpeech(line.text)).forEach(function (s) {
           units.push({ speaker: line.speaker || "M", text: s, gap: 150 });
         });
         if (units.length) units[units.length - 1].gap = 650; // 話者交代の間(ま)
