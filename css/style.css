@@ -227,3 +227,8 @@ details.script-box .script-body {
 .voice-name { font-weight: 700; }
 .voice-meta { color: var(--muted); font-size: 0.78rem; margin-left: auto; text-align: right; }
 .voice-star { color: var(--accent); font-weight: 700; }
+
+/* ---------- pick quiz ---------- */
+.pick-row { cursor: pointer; }
+.pick-row:hover { border-color: var(--primary); background: #f4f8fd; }
+.pick-label { font-size: 0.86rem; }

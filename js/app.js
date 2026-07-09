@@ -478,6 +478,11 @@
       '<div class="menu-grid">' + card("part2") + card("part3") + card("part4") + "</div>" +
       "<h2>リーディング</h2>" +
       '<div class="menu-grid">' + card("part5") + card("part6") + card("part7") + "</div>" +
+      "<h2>問題を選んで解く</h2>" +
+      '<div class="menu-grid"><button class="menu-card" id="pick-quiz">' +
+      '<span class="card-title">🎯 問題を選んで解く</span>' +
+      '<span class="card-desc">パートごとの問題一覧から、解きたい問題だけを選んで挑戦できます</span>' +
+      "</button></div>" +
       "<h2>設定</h2>" +
       '<div class="menu-grid"><button class="menu-card" id="voice-settings">' +
       '<span class="card-title">🔊 声の試聴と選択</span>' +
@@ -492,6 +497,102 @@
       btn.addEventListener("click", function () { startQuiz(btn.getAttribute("data-mode")); });
     });
     document.getElementById("voice-settings").addEventListener("click", showVoiceSettings);
+    document.getElementById("pick-quiz").addEventListener("click", showPicker);
+  }
+
+  /* ---------------- 画面:問題を選んで解く ---------------- */
+
+  var PICKABLE = ["part2", "part3", "part4", "part5", "part6", "part7"];
+
+  function showPicker() {
+    speech.stop();
+    var html = '<div class="quiz-header">' +
+      "<span>問題を選んで解く — パートを選択</span>" +
+      '<button class="quit-btn" id="backHome">ホームへ戻る</button>' +
+      "</div>" +
+      '<section class="menu-section"><div class="menu-grid">';
+    PICKABLE.forEach(function (mode) {
+      var m = MODES[mode];
+      html += '<button class="menu-card" data-pick="' + mode + '">' +
+        '<span class="card-title">' + esc(m.label) + "</span>" +
+        '<span class="card-desc">' + countQuestions(buildTasks(mode)) + "問から選べます</span>" +
+        "</button>";
+    });
+    html += "</div></section>";
+
+    app.innerHTML = html;
+    window.scrollTo(0, 0);
+    document.getElementById("backHome").addEventListener("click", showHome);
+    app.querySelectorAll(".menu-card[data-pick]").forEach(function (btn) {
+      btn.addEventListener("click", function () { showTaskList(btn.getAttribute("data-pick")); });
+    });
+  }
+
+  // 一覧に表示する問題の見出し(リスニングの内容を明かしすぎない程度に)
+  function taskLabel(t, mode, idx) {
+    if (t.title) return t.title + "(" + t.questions.length + "問)";
+    var text;
+    if (mode === "part2") {
+      text = t.script.split("\n")[0]; // 質問文の冒頭
+      var tag = idx >= 15 ? "【変化球】" : "";
+      return "No." + (idx + 1) + " " + tag + text.slice(0, 38) + (text.length > 38 ? "…" : "");
+    }
+    text = t.questions[0].prompt;
+    return "No." + (idx + 1) + " " + text.slice(0, 38) + (text.length > 38 ? "…" : "");
+  }
+
+  function showTaskList(mode) {
+    speech.stop();
+    var tasks = buildTasks(mode);
+    var html = '<div class="quiz-header">' +
+      "<span>" + esc(MODES[mode].label) + " — 問題を選択</span>" +
+      '<button class="quit-btn" id="backPicker">パート選択へ戻る</button>' +
+      "</div>" +
+      '<div class="question-card">' +
+      "<p>解きたい問題にチェックを入れて「選んだ問題を解く」を押してください。</p>" +
+      '<div class="nav-row" style="justify-content:flex-start;margin-bottom:10px">' +
+      '<button class="secondary-btn" id="selAll">すべて選択</button>' +
+      '<button class="secondary-btn" id="selNone">すべて解除</button>' +
+      "</div>" +
+      '<div class="voice-list">';
+    tasks.forEach(function (t, i) {
+      html += '<label class="voice-row pick-row">' +
+        '<input type="checkbox" data-i="' + i + '">' +
+        '<span class="pick-label">' + esc(taskLabel(t, mode, i)) + "</span>" +
+        "</label>";
+    });
+    html += "</div>" +
+      '<div class="nav-row"><button class="next-btn" id="startPicked" disabled>選んだ問題を解く</button></div>' +
+      "</div>";
+
+    app.innerHTML = html;
+    window.scrollTo(0, 0);
+    document.getElementById("backPicker").addEventListener("click", showPicker);
+
+    var startBtn = document.getElementById("startPicked");
+    function refresh() {
+      var n = app.querySelectorAll(".pick-row input:checked").length;
+      startBtn.disabled = n === 0;
+      startBtn.textContent = n ? "選んだ問題を解く(" + n + "件)" : "選んだ問題を解く";
+    }
+    app.querySelectorAll(".pick-row input").forEach(function (cb) {
+      cb.addEventListener("change", refresh);
+    });
+    document.getElementById("selAll").addEventListener("click", function () {
+      app.querySelectorAll(".pick-row input").forEach(function (cb) { cb.checked = true; });
+      refresh();
+    });
+    document.getElementById("selNone").addEventListener("click", function () {
+      app.querySelectorAll(".pick-row input").forEach(function (cb) { cb.checked = false; });
+      refresh();
+    });
+    startBtn.addEventListener("click", function () {
+      var indices = [];
+      app.querySelectorAll(".pick-row input:checked").forEach(function (cb) {
+        indices.push(parseInt(cb.getAttribute("data-i"), 10));
+      });
+      if (indices.length) startQuiz(mode, indices);
+    });
   }
 
   /* ---------------- 画面:声の試聴と選択 ---------------- */
@@ -569,10 +670,17 @@
 
   var session = null;
 
-  function startQuiz(mode) {
+  function startQuiz(mode, indices) {
+    var tasks = buildTasks(mode);
+    var custom = indices && indices.length ? indices.slice() : null;
+    if (custom) {
+      tasks = custom.map(function (i) { return tasks[i]; }).filter(Boolean);
+    }
     session = {
       mode: mode,
-      tasks: buildTasks(mode),
+      custom: custom, // 「選んで解く」で選ばれた問題番号(通常出題は null)
+      label: MODES[mode].label + (custom ? "(選択)" : ""),
+      tasks: tasks,
       taskIndex: 0,
       results: [] // {taskPart, prompt, choices, answer, selected, explanation}
     };
@@ -586,7 +694,7 @@
     var answeredBefore = session.results.length;
 
     var html = '<div class="quiz-header">' +
-      "<span>" + esc(MODES[session.mode].label) + " — 問題 " + (answeredBefore + 1) +
+      "<span>" + esc(session.label) + " — 問題 " + (answeredBefore + 1) +
       (t.questions.length > 1 ? "〜" + (answeredBefore + t.questions.length) : "") +
       " / " + session.total + "</span>" +
       '<button class="quit-btn" id="quit">中断してホームへ</button>' +
@@ -750,7 +858,8 @@
     var correct = session.results.filter(function (r) { return r.selected === r.answer; }).length;
     var total = session.results.length;
     var rate = Math.round((correct / total) * 100);
-    saveResult(session.mode, rate);
+    // 「選んで解く」の成績は自己ベストに含めない(1問だけ解いて100%等を防ぐ)
+    if (!session.custom) saveResult(session.mode, rate);
 
     var msg;
     if (rate === 100) msg = "全問正解! この調子で他のパートにも挑戦しましょう。";
@@ -761,7 +870,7 @@
     var wrongs = session.results.filter(function (r) { return r.selected !== r.answer; });
 
     var html = '<div class="result-card">' +
-      "<h2>" + esc(MODES[session.mode].label) + " の結果</h2>" +
+      "<h2>" + esc(session.label) + " の結果</h2>" +
       '<div class="result-score">' + correct + " / " + total + "</div>" +
       '<div class="result-rate">正答率 ' + rate + "%</div>" +
       '<div class="result-msg">' + esc(msg) + "</div>" +
@@ -785,7 +894,9 @@
 
     app.innerHTML = html;
     window.scrollTo(0, 0);
-    document.getElementById("retry").addEventListener("click", function () { startQuiz(session.mode); });
+    document.getElementById("retry").addEventListener("click", function () {
+      startQuiz(session.mode, session.custom);
+    });
     document.getElementById("goHome").addEventListener("click", showHome);
   }
 
