@@ -184,5 +184,53 @@ window.TOEIC_DATA.part3 = [
         explanation: "男性の最後の could you send me a revised invoice today? が根拠。revised が updated に言い換えられている。"
       }
     ]
+  },
+  {
+    id: "p3-05",
+    title: "会話 5(3人の会話:女性2人+男性1人)",
+    audio: [
+      { speaker: "W", text: "Jack, Olivia — do you have a minute? The caterer for Friday's client reception just called. They can't get the seafood platters we ordered." },
+      { speaker: "M", text: "That's not good news, Emma. The reception starts at six, and we're expecting more than thirty guests." },
+      { speaker: "W2", text: "What if we switch to their international buffet option instead? I tried it at the trade show last month, and it was excellent." },
+      { speaker: "W", text: "Good idea. Is it within our budget, though? We can't go over two thousand dollars." },
+      { speaker: "M", text: "I'll call the caterer right now and ask for a revised quote. If it's too expensive, we could drop the dessert course." },
+      { speaker: "W2", text: "And I'll update the invitation e-mail so the guests know about the menu change." }
+    ],
+    translation: "エマ(女性1):ジャック、オリビア——ちょっといい? 金曜のクライアント向けレセプションのケータリング業者から電話があって、注文したシーフードの盛り合わせが用意できないそうなの。\nジャック(男性):それはまずいね、エマ。レセプションは6時開始で、30人以上のゲストが来る予定なのに。\nオリビア(女性2):代わりにインターナショナル・ビュッフェのプランに切り替えるのはどう? 先月の展示会で食べたけど、すごく良かったわよ。\nエマ:いい考えね。ただ、予算内に収まるかしら? 2,000ドルは超えられないの。\nジャック:今すぐ業者に電話して、修正見積もりをもらうよ。高すぎたら、デザートのコースを外せばいい。\nオリビア:じゃあ私は招待メールを更新して、ゲストにメニュー変更を知らせておくわね。",
+    questions: [
+      {
+        q: "What problem does Emma mention?",
+        choices: [
+          "A guest list has not been finalized.",
+          "A caterer cannot provide an ordered item.",
+          "A reception venue was double-booked.",
+          "A budget request was denied."
+        ],
+        answer: 1,
+        explanation: "エマの They can't get the seafood platters we ordered(注文したシーフードの盛り合わせが用意できない)が根拠。3人の会話では『誰が何を言ったか』を名前と声で追うのがポイント。"
+      },
+      {
+        q: "What does Olivia suggest?",
+        choices: [
+          "Postponing the reception",
+          "Choosing a different menu option",
+          "Reducing the number of guests",
+          "Hiring another caterer"
+        ],
+        answer: 1,
+        explanation: "オリビア(2人目の女性)の What if we switch to their international buffet option? が提案。switch to 〜 option が Choosing a different menu option に言い換えられている。"
+      },
+      {
+        q: "What will the man most likely do next?",
+        choices: [
+          "Send an invitation e-mail",
+          "Cancel the dessert course",
+          "Request a new price estimate",
+          "Visit the trade show"
+        ],
+        answer: 2,
+        explanation: "ジャックの I'll call the caterer right now and ask for a revised quote が根拠。quote(見積もり)が estimate に言い換えられている。メール更新はオリビアの役割なのでひっかけ。"
+      }
+    ]
   }
 ];

@@ -57,51 +57,132 @@
   var speech = {
     voices: [],
     supported: ("speechSynthesis" in window),
+    token: 0,       // 停止・画面遷移で再生を打ち切るためのセッション番号
+    keepAlive: null,
 
     init: function () {
       if (!this.supported) return;
       var self = this;
       function pick() {
         var all = window.speechSynthesis.getVoices();
-        self.voices = all.filter(function (v) { return /^en(-|_)/i.test(v.lang); });
+        self.voices = all.filter(function (v) { return /^en([-_]|$)/i.test(v.lang); });
       }
       pick();
-      window.speechSynthesis.onvoiceschanged = pick;
+      if ("onvoiceschanged" in window.speechSynthesis) {
+        window.speechSynthesis.onvoiceschanged = pick;
+      }
     },
 
-    voiceFor: function (speaker) {
-      if (!this.voices.length) return null;
-      // 話者(M/W)ごとに別の声を割り当てる。声が1つしかなければピッチで差を付ける。
-      if (this.voices.length === 1) return this.voices[0];
-      var idx = speaker === "M" ? 0 : 1;
-      // en-US を優先
-      var us = this.voices.filter(function (v) { return /en(-|_)US/i.test(v.lang); });
-      var pool = us.length >= 2 ? us : this.voices;
-      return pool[Math.min(idx, pool.length - 1)];
+    // 代表的な英語音声の名前から性別を推定する(iOS/macOS/Windows/Android/Chrome)
+    MALE_NAMES: ["aaron", "alex", "daniel", "fred", "arthur", "gordon", "rishi",
+      "oliver", "thomas", "james", "david", "mark", "guy", "ryan", "eric",
+      "christopher", "andrew", "brian", "george", "matthew", "russell", "liam"],
+    FEMALE_NAMES: ["samantha", "karen", "moira", "tessa", "martha", "nicky",
+      "serena", "victoria", "allison", "ava", "susan", "kathy", "fiona", "zira",
+      "aria", "jenny", "michelle", "sonia", "libby", "natasha", "emma", "joanna",
+      "kendra", "amy", "salli", "kimberly", "catherine", "hazel", "kate"],
+
+    genderOf: function (v) {
+      var n = v.name.toLowerCase();
+      if (n.indexOf("female") !== -1) return "F";
+      if (n.indexOf("male") !== -1) return "M";
+      var i;
+      for (i = 0; i < this.FEMALE_NAMES.length; i++) {
+        if (n.indexOf(this.FEMALE_NAMES[i]) !== -1) return "F";
+      }
+      for (i = 0; i < this.MALE_NAMES.length; i++) {
+        if (n.indexOf(this.MALE_NAMES[i]) !== -1) return "M";
+      }
+      return "?";
     },
 
+    // 話者(M/W/W2/M2/N)ごとに声を配役する。
+    // 男女の声が見つかればそれを使い、見つからなければピッチ差で強制的に区別する。
+    pickCast: function () {
+      var self = this;
+      var us = this.voices.filter(function (v) { return /en[-_]US/i.test(v.lang); });
+      var pool = us.length ? us : this.voices;
+      var males = pool.filter(function (v) { return self.genderOf(v) === "M"; });
+      var females = pool.filter(function (v) { return self.genderOf(v) === "F"; });
+      if (!males.length) males = this.voices.filter(function (v) { return self.genderOf(v) === "M"; });
+      if (!females.length) females = this.voices.filter(function (v) { return self.genderOf(v) === "F"; });
+      var fallback = pool[0] || this.voices[0] || null;
+
+      var m = males[0] || fallback;
+      var w = females[0] || fallback;
+      var noRealPair = !males.length || !females.length; // 男女どちらかの声が無い
+      return {
+        M: { voice: m, pitch: noRealPair ? 0.6 : 0.9, rate: 0.95 },
+        M2: { voice: males[1] || m, pitch: males[1] ? 0.9 : 0.7, rate: 0.95 },
+        W: { voice: w, pitch: noRealPair ? 1.4 : 1.05, rate: 0.95 },
+        W2: { voice: females[1] || w, pitch: females[1] ? 1.05 : 1.35, rate: 0.95 },
+        N: { voice: m, pitch: noRealPair ? 0.8 : 1.0, rate: 0.9 }
+      };
+    },
+
+    // 長い文の途中停止(ブラウザの制限)を避けるため文単位に分割する
+    splitText: function (text) {
+      var parts = text.match(/[^.!?]+[.!?]+["')\]]*\s*|[^.!?]+$/g);
+      if (!parts) return [text];
+      return parts.map(function (s) { return s.trim(); }).filter(Boolean);
+    },
+
+    // 1文ずつ順番に再生する(まとめてキューに積むと iOS Safari で途中停止するため)
     speakLines: function (lines, onEnd) {
       if (!this.supported) { if (onEnd) onEnd(); return; }
-      window.speechSynthesis.cancel();
       var self = this;
-      var remaining = lines.length;
-      if (!remaining) { if (onEnd) onEnd(); return; }
+      this.stop();
+      var token = ++this.token;
+      var cast = this.pickCast();
+
+      var units = [];
       lines.forEach(function (line) {
-        var u = new SpeechSynthesisUtterance(line.text);
-        u.lang = "en-US";
-        var v = self.voiceFor(line.speaker || "M");
-        if (v) u.voice = v;
-        u.rate = 0.95;
-        u.pitch = line.speaker === "W" ? 1.15 : 0.9;
-        u.onend = u.onerror = function () {
-          remaining -= 1;
-          if (remaining === 0 && onEnd) onEnd();
-        };
-        window.speechSynthesis.speak(u);
+        self.splitText(line.text).forEach(function (s) {
+          units.push({ speaker: line.speaker || "M", text: s, gap: 150 });
+        });
+        if (units.length) units[units.length - 1].gap = 650; // 話者交代の間(ま)
       });
+
+      // デスクトップChromeが長い再生を自動一時停止する問題への対策
+      this.keepAlive = setInterval(function () {
+        if (window.speechSynthesis.speaking) window.speechSynthesis.resume();
+      }, 8000);
+
+      var i = 0;
+      function finish() {
+        if (self.keepAlive) { clearInterval(self.keepAlive); self.keepAlive = null; }
+        if (onEnd) onEnd();
+      }
+      function next() {
+        if (token !== self.token) return;
+        if (i >= units.length) { finish(); return; }
+        var cur = units[i++];
+        var u = new SpeechSynthesisUtterance(cur.text);
+        var conf = cast[cur.speaker] || cast.M;
+        if (conf.voice) { u.voice = conf.voice; u.lang = conf.voice.lang; }
+        else { u.lang = "en-US"; }
+        u.pitch = conf.pitch;
+        u.rate = conf.rate;
+        var done = false;
+        function step() {
+          if (done) return;
+          done = true;
+          clearTimeout(guard);
+          if (token !== self.token) return;
+          setTimeout(next, cur.gap);
+        }
+        // onend が発火しない環境への保険(発話長に応じたタイムアウト)
+        var guard = setTimeout(step, 4000 + cur.text.length * 150);
+        u.onend = step;
+        u.onerror = step;
+        window.speechSynthesis.speak(u);
+      }
+      next();
     },
 
     stop: function () {
+      this.token += 1;
+      if (this.keepAlive) { clearInterval(this.keepAlive); this.keepAlive = null; }
       if (this.supported) window.speechSynthesis.cancel();
     }
   };
@@ -362,11 +443,24 @@
     });
 
     if (t.listening) {
+      // 本番同様、ナレーターの導入文を付けて再生する
+      var intro;
+      if (t.part === "Part 2") {
+        intro = "Number " + (answeredBefore + 1) + ".";
+      } else {
+        var three = t.audio.some(function (l) { return l.speaker === "W2" || l.speaker === "M2"; });
+        intro = "Questions " + (answeredBefore + 1) +
+          (t.questions.length > 1 ? " through " + (answeredBefore + t.questions.length) : "") +
+          " refer to the following " +
+          (t.part === "Part 3" ? "conversation" + (three ? " with three speakers" : "") : "talk") + ".";
+      }
+      var audioLines = [{ speaker: "N", text: intro }].concat(t.audio);
+
       var playBtn = document.getElementById("play");
       playBtn.addEventListener("click", function () {
         playBtn.disabled = true;
         playBtn.textContent = "再生中…";
-        speech.speakLines(t.audio, function () {
+        speech.speakLines(audioLines, function () {
           playBtn.disabled = false;
           playBtn.textContent = "▶ もう一度再生";
         });
@@ -491,6 +585,9 @@
     e.preventDefault();
     showHome();
   });
+
+  // 動作検証用(コンソールから音声の配役を確認できる)
+  window.TOEIC_DEBUG = { speech: speech };
 
   showHome();
 })();
