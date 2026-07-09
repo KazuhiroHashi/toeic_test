@@ -60,12 +60,27 @@
     token: 0,       // 停止・画面遷移で再生を打ち切るためのセッション番号
     keepAlive: null,
 
+    // 機械的な旧式ボイスやジョーク用ボイス(iOS/macOSに多数入っている)は
+    // 聞き取りにくいため配役から除外する
+    EXCLUDED_NAMES: ["fred", "kathy", "albert", "bad news", "good news", "bahh",
+      "bells", "boing", "bubbles", "cellos", "deranged", "eddy", "flo", "grandma",
+      "grandpa", "hysterical", "jester", "junior", "organ", "princess", "ralph",
+      "reed", "rocko", "sandy", "shelley", "superstar", "trinoids", "whisper",
+      "wobble", "zarvox"],
+
     init: function () {
       if (!this.supported) return;
       var self = this;
       function pick() {
         var all = window.speechSynthesis.getVoices();
-        self.voices = all.filter(function (v) { return /^en([-_]|$)/i.test(v.lang); });
+        self.voices = all.filter(function (v) {
+          if (!/^en([-_]|$)/i.test(v.lang)) return false;
+          var n = v.name.toLowerCase();
+          for (var i = 0; i < self.EXCLUDED_NAMES.length; i++) {
+            if (n.indexOf(self.EXCLUDED_NAMES[i]) !== -1) return false;
+          }
+          return true;
+        });
       }
       pick();
       if ("onvoiceschanged" in window.speechSynthesis) {
@@ -74,11 +89,11 @@
     },
 
     // 代表的な英語音声の名前から性別を推定する(iOS/macOS/Windows/Android/Chrome)
-    MALE_NAMES: ["aaron", "alex", "daniel", "fred", "arthur", "gordon", "rishi",
+    MALE_NAMES: ["aaron", "alex", "daniel", "arthur", "gordon", "rishi",
       "oliver", "thomas", "james", "david", "mark", "guy", "ryan", "eric",
       "christopher", "andrew", "brian", "george", "matthew", "russell", "liam"],
     FEMALE_NAMES: ["samantha", "karen", "moira", "tessa", "martha", "nicky",
-      "serena", "victoria", "allison", "ava", "susan", "kathy", "fiona", "zira",
+      "serena", "victoria", "allison", "ava", "susan", "fiona", "zira",
       "aria", "jenny", "michelle", "sonia", "libby", "natasha", "emma", "joanna",
       "kendra", "amy", "salli", "kimberly", "catherine", "hazel", "kate"],
 
@@ -103,10 +118,14 @@
     pickCast: function (seed) {
       seed = seed || 0;
       var self = this;
-      // en-US の声を先頭に、他の英語圏(英・豪・加など)の声も配役に含める
-      var ordered = this.voices.slice().sort(function (a, b) {
-        return (/en[-_]US/i.test(a.lang) ? 0 : 1) - (/en[-_]US/i.test(b.lang) ? 0 : 1);
-      });
+      // en-US の声を先頭に、他の英語圏(英・豪・加など)の声も配役に含める。
+      // 高品質版(Enhanced/Premium/Natural)がある場合はそちらを優先する。
+      function score(v) {
+        var s = /en[-_]US/i.test(v.lang) ? 0 : 2;
+        if (!/enhanced|premium|natural|neural/i.test(v.name)) s += 1;
+        return s;
+      }
+      var ordered = this.voices.slice().sort(function (a, b) { return score(a) - score(b); });
       var males = ordered.filter(function (v) { return self.genderOf(v) === "M"; });
       var females = ordered.filter(function (v) { return self.genderOf(v) === "F"; });
       var fallback = ordered[0] || null;
