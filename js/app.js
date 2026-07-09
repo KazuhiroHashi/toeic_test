@@ -98,25 +98,32 @@
 
     // 話者(M/W/W2/M2/N)ごとに声を配役する。
     // 男女の声が見つかればそれを使い、見つからなければピッチ差で強制的に区別する。
-    pickCast: function () {
+    // seed(問題の通し番号)で声をローテーションし、問題ごとに違うナレーターが
+    // 当たるようにする(本番の米・英・豪など複数ナレーターの雰囲気)。
+    pickCast: function (seed) {
+      seed = seed || 0;
       var self = this;
-      var us = this.voices.filter(function (v) { return /en[-_]US/i.test(v.lang); });
-      var pool = us.length ? us : this.voices;
-      var males = pool.filter(function (v) { return self.genderOf(v) === "M"; });
-      var females = pool.filter(function (v) { return self.genderOf(v) === "F"; });
-      if (!males.length) males = this.voices.filter(function (v) { return self.genderOf(v) === "M"; });
-      if (!females.length) females = this.voices.filter(function (v) { return self.genderOf(v) === "F"; });
-      var fallback = pool[0] || this.voices[0] || null;
+      // en-US の声を先頭に、他の英語圏(英・豪・加など)の声も配役に含める
+      var ordered = this.voices.slice().sort(function (a, b) {
+        return (/en[-_]US/i.test(a.lang) ? 0 : 1) - (/en[-_]US/i.test(b.lang) ? 0 : 1);
+      });
+      var males = ordered.filter(function (v) { return self.genderOf(v) === "M"; });
+      var females = ordered.filter(function (v) { return self.genderOf(v) === "F"; });
+      var fallback = ordered[0] || null;
+      function rot(arr, k) { return arr.length ? arr[k % arr.length] : null; }
 
-      var m = males[0] || fallback;
-      var w = females[0] || fallback;
+      var m = rot(males, seed) || fallback;
+      var m2 = rot(males, seed + 1) || m;
+      var w = rot(females, seed) || fallback;
+      var w2 = rot(females, seed + 1) || w;
       var noRealPair = !males.length || !females.length; // 男女どちらかの声が無い
       return {
-        M: { voice: m, pitch: noRealPair ? 0.6 : 0.9, rate: 0.95 },
-        M2: { voice: males[1] || m, pitch: males[1] ? 0.9 : 0.7, rate: 0.95 },
+        // 男性の声はこもって聞こえやすいため、やや高め(pitch 1.1)に設定
+        M: { voice: m, pitch: noRealPair ? 0.75 : 1.1, rate: 0.95 },
+        M2: { voice: m2, pitch: m2 === m ? 0.9 : 1.1, rate: 0.95 },
         W: { voice: w, pitch: noRealPair ? 1.4 : 1.05, rate: 0.95 },
-        W2: { voice: females[1] || w, pitch: females[1] ? 1.05 : 1.35, rate: 0.95 },
-        N: { voice: m, pitch: noRealPair ? 0.8 : 1.0, rate: 0.9 }
+        W2: { voice: w2, pitch: w2 === w ? 1.35 : 1.05, rate: 0.95 },
+        N: { voice: rot(males, seed + 2) || m, pitch: noRealPair ? 0.85 : 1.05, rate: 0.9 }
       };
     },
 
@@ -128,12 +135,12 @@
     },
 
     // 1文ずつ順番に再生する(まとめてキューに積むと iOS Safari で途中停止するため)
-    speakLines: function (lines, onEnd) {
+    speakLines: function (lines, onEnd, seed) {
       if (!this.supported) { if (onEnd) onEnd(); return; }
       var self = this;
       this.stop();
       var token = ++this.token;
-      var cast = this.pickCast();
+      var cast = this.pickCast(seed);
 
       var units = [];
       lines.forEach(function (line) {
@@ -460,10 +467,11 @@
       playBtn.addEventListener("click", function () {
         playBtn.disabled = true;
         playBtn.textContent = "再生中…";
+        // 問題番号を seed にして、問題ごとに違う声の組を割り当てる
         speech.speakLines(audioLines, function () {
           playBtn.disabled = false;
           playBtn.textContent = "▶ もう一度再生";
-        });
+        }, answeredBefore);
       });
       document.getElementById("stopAudio").addEventListener("click", function () {
         speech.stop();
