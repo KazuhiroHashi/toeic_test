@@ -32,7 +32,7 @@ window.TOEIC_DATA.part4 = [
         explanation: "our clinic has moved to a new location on Fifth Avenue と明言している。"
       },
       {
-        q: "What should the listener do to change the appointment?",
+        q: "What should the listener do if he needs to make a change?",
         choices: [
           "Visit the clinic in person",
           "Send an e-mail",
@@ -53,15 +53,15 @@ window.TOEIC_DATA.part4 = [
     translation: "全社員にお知らせします。ご存じの通り、8月1日から新しい経費管理システムに切り替わります。皆さんに慣れていただくため、IT部門が来週3回の研修を実施します——火曜・水曜・木曜、いずれも午後4時、会議室Bです。各回の内容は同じですので、参加は1回で構いません。今週金曜日までに社内イントラネットで申し込んでください。どの回にも参加できない場合は、録画版が後日イントラネットに掲載されます。",
     questions: [
       {
-        q: "What is the announcement mainly about?",
+        q: "According to the speaker, what will happen on August 1?",
         choices: [
-          "A change in office hours",
-          "Training for a new system",
-          "A company relocation",
-          "New expense limits"
+          "A new expense system will be introduced.",
+          "A branch office will open.",
+          "A holiday schedule will begin.",
+          "A department will be reorganized."
         ],
-        answer: 1,
-        explanation: "新しい経費管理システム導入に伴う研修(training sessions)の案内が主題。"
+        answer: 0,
+        explanation: "冒頭の we'll be switching to the new expense management system on August first が根拠。switching to(切り替える)が introduced(導入される)に言い換えられている。"
       },
       {
         q: "How many sessions does an employee need to attend?",
@@ -109,7 +109,7 @@ window.TOEIC_DATA.part4 = [
       {
         q: "What is offered in October?",
         choices: [
-          "A free trial cleaning",
+          "A free trial service",
           "A gift for all customers",
           "A discount for new customers",
           "Extended service hours"
@@ -163,7 +163,7 @@ window.TOEIC_DATA.part4 = [
       {
         q: "What will Maria do next month?",
         choices: [
-          "Conduct another survey",
+          "Train new employees",
           "Open a distribution center",
           "Present a plan",
           "Visit a customer"

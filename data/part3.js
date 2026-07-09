@@ -59,15 +59,15 @@ window.TOEIC_DATA.part3 = [
     translation: "女性:グランドビューホテルへようこそ。ご用件を承ります。\n男性:こんにちは。サトウで予約しています。チェックインは3時からと知っていますが、飛行機が早く着いてしまって。部屋の準備ができている可能性はありますか?\n女性:確認いたします……あいにく、まだ清掃中でございます。ただ、お荷物はこちらでお預かりできますし、お待ちいただくなら2階のカフェも営業しております。\n男性:いいですね。部屋の準備ができたらカフェに電話をもらえますか? これが私の携帯番号です。",
     questions: [
       {
-        q: "Where most likely are the speakers?",
+        q: "Why did the man arrive at the hotel early?",
         choices: [
-          "At an airport",
-          "At a hotel",
-          "At a restaurant",
-          "At a travel agency"
+          "His flight arrived ahead of schedule.",
+          "His meeting finished sooner than expected.",
+          "He mistook the check-in time.",
+          "He wanted to avoid heavy traffic."
         ],
-        answer: 1,
-        explanation: "冒頭の Welcome to Grandview Hotel と、チェックイン・客室清掃の話題から、ホテルのフロントでの会話だと分かる。"
+        answer: 0,
+        explanation: "男性の my flight arrived early(飛行機が早く着いた)が根拠。チェックインは3時からと知っていた、と自分で言っているので(C)は誤り。"
       },
       {
         q: "Why is the man's room not available?",
@@ -118,23 +118,23 @@ window.TOEIC_DATA.part3 = [
       {
         q: "What does the man think is the cause of the problem?",
         choices: [
-          "The course fee is too high.",
-          "The course is not well publicized.",
-          "The content is outdated.",
-          "The schedule is inconvenient."
+          "The price is too high.",
+          "It has not been advertised enough.",
+          "The material is out of date.",
+          "The timing is inconvenient."
         ],
         answer: 1,
-        explanation: "男性は I think the problem is visibility(問題は露出だ)と述べている。女性が挙げた『受講料が高い』説は男性が否定しているのでひっかけ。"
+        explanation: "男性は I think the problem is visibility(問題は露出=宣伝不足)と述べている。女性が挙げた『料金が高い』説は男性が否定しているのでひっかけ。"
       },
       {
         q: "What will the woman do by tomorrow?",
         choices: [
-          "Lower the course fee",
-          "Cancel the training course",
+          "Revise a schedule",
           "Send a budget proposal",
-          "Publish a newsletter"
+          "Publish a newsletter",
+          "Contact an instructor"
         ],
-        answer: 2,
+        answer: 1,
         explanation: "女性の最後の発言 I'll draft a proposal for the budget and send it to you by tomorrow が根拠。『明日までに』という時間表現が設問のキーになっている。"
       }
     ]
@@ -199,20 +199,20 @@ window.TOEIC_DATA.part3 = [
     translation: "エマ(女性1):ジャック、オリビア——ちょっといい? 金曜のクライアント向けレセプションのケータリング業者から電話があって、注文したシーフードの盛り合わせが用意できないそうなの。\nジャック(男性):それはまずいね、エマ。レセプションは6時開始で、30人以上のゲストが来る予定なのに。\nオリビア(女性2):代わりにインターナショナル・ビュッフェのプランに切り替えるのはどう? 先月の展示会で食べたけど、すごく良かったわよ。\nエマ:いい考えね。ただ、予算内に収まるかしら? 2,000ドルは超えられないの。\nジャック:今すぐ業者に電話して、修正見積もりをもらうよ。高すぎたら、デザートのコースを外せばいい。\nオリビア:じゃあ私は招待メールを更新して、ゲストにメニュー変更を知らせておくわね。",
     questions: [
       {
-        q: "What problem does Emma mention?",
+        q: "What event are the speakers preparing for?",
         choices: [
-          "A guest list has not been finalized.",
-          "A caterer cannot provide an ordered item.",
-          "A reception venue was double-booked.",
-          "A budget request was denied."
+          "A reception for clients",
+          "A product demonstration",
+          "A retirement party",
+          "A job fair"
         ],
-        answer: 1,
-        explanation: "エマの They can't get the seafood platters we ordered(注文したシーフードの盛り合わせが用意できない)が根拠。3人の会話では『誰が何を言ったか』を名前と声で追うのがポイント。"
+        answer: 0,
+        explanation: "エマの最初の発言 Friday's client reception(金曜のクライアント向けレセプション)が根拠。3人の会話では『誰が何を言ったか』を名前と声で追うのがポイント。"
       },
       {
         q: "What does Olivia suggest?",
         choices: [
-          "Postponing the reception",
+          "Postponing the event",
           "Choosing a different menu option",
           "Reducing the number of guests",
           "Hiring another caterer"
