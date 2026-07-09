@@ -180,5 +180,126 @@ window.TOEIC_DATA.part2 = [
     answer: 0,
     translation: "来四半期の予算増額を承認したのは誰ですか?\n(A) 実は私はその会議に出ていなかったんです。\n(B) 約10パーセントです。\n(C) 銀行の隣です。",
     explanation: "Whoに人名で答えず『知らない(会議にいなかった)』と間接的に答える応答。この『わからない系』の応答はPart 2の頻出正解パターン。"
+  },
+  // ここから間接応答(変化球)問題。本番でも15問目あたりから増えてくる难しいタイプ
+  {
+    id: "p2-16",
+    question: { speaker: "W", text: "Where should we hold the year-end reception?" },
+    choices: [
+      "At the end of December.",
+      "Didn't Marketing already book the rooftop hall?",
+      "Yes, I received the invitation."
+    ],
+    answer: 1,
+    translation: "年末のレセプションはどこで開きましょうか?\n(A) 12月の末にです。\n(B) マーケティング部がもう屋上ホールを予約していませんでしたっけ?\n(C) はい、招待状を受け取りました。",
+    explanation: "変化球:場所を答えず『質問に質問で返す』パターン。『もう決まっているのでは?』という切り返しが正解になる。(A)はWhen向けの応答、(C)はreception/receivedの音のひっかけ。"
+  },
+  {
+    id: "p2-17",
+    question: { speaker: "M", text: "When is the deadline for the grant application?" },
+    choices: [
+      "The application fee is forty dollars.",
+      "Yes, by express mail.",
+      "Dr. Okada's assistant would know."
+    ],
+    answer: 2,
+    translation: "助成金申請の締め切りはいつですか?\n(A) 申請料は40ドルです。\n(B) はい、速達でです。\n(C) 岡田先生のアシスタントなら知っていますよ。",
+    explanation: "変化球:日付を答えず『知っている人を教える』パターン。『私は知らないが◯◯に聞けば分かる』は近年頻出の正解。(A)はapplicationの繰り返しによるひっかけ、(B)はWH疑問文にYesで答えており不可。"
+  },
+  {
+    id: "p2-18",
+    question: { speaker: "W", text: "Has the client approved the final design?" },
+    choices: [
+      "We're meeting them tomorrow morning.",
+      "I designed the logo myself.",
+      "No, the sign was removed."
+    ],
+    answer: 0,
+    translation: "クライアントは最終デザインを承認しましたか?\n(A) 明日の朝、先方と打ち合わせをすることになっています。\n(B) ロゴは私が自分でデザインしました。\n(C) いいえ、看板は撤去されました。",
+    explanation: "変化球:Yes/Noを言わず『明日会う』と答えることで『まだ承認されていない』を含意するパターン。推論が必要な間接応答。(B)はdesignの派生語、(C)はdesign/signの音のひっかけ。"
+  },
+  {
+    id: "p2-19",
+    question: { speaker: "M", text: "Why is the parking garage closed today?" },
+    choices: [
+      "It usually closes at midnight.",
+      "There's a notice posted by the entrance.",
+      "Yes, I'll close the window."
+    ],
+    answer: 1,
+    translation: "なぜ今日は駐車場が閉まっているのですか?\n(A) 普段は深夜0時に閉まります。\n(B) 入口に貼り紙がありますよ。\n(C) はい、窓を閉めますね。",
+    explanation: "変化球:理由を直接言わず『情報のありか(貼り紙)』を教えるパターン。『そこを見れば分かる』型の間接応答。(A)は時刻の話で理由になっておらず、(C)はclosed/closeの音のひっかけ+WH疑問文にYesは不可。"
+  },
+  {
+    id: "p2-20",
+    question: { speaker: "W", text: "Should we take the highway or the local roads to the conference center?" },
+    choices: [
+      "The conference starts at ten.",
+      "The traffic report says the highway is backed up.",
+      "Yes, let's take it."
+    ],
+    answer: 1,
+    translation: "会議場までは高速道路で行くべきですか、それとも一般道ですか?\n(A) 会議は10時に始まります。\n(B) 交通情報では高速道路は渋滞しているそうですよ。\n(C) はい、そうしましょう。",
+    explanation: "変化球:どちらとは言わず『高速は渋滞』という事実を伝えて『一般道にしよう』を含意するパターン。(C)は選択疑問文にYesで答えており不可。選択疑問文へのYes/No応答は原則誤り。"
+  },
+  {
+    id: "p2-21",
+    question: { speaker: "M", text: "Who's going to train the new hires next month?" },
+    choices: [
+      "About ten new employees.",
+      "By train, I think.",
+      "Actually, the orientation might be pushed back to September."
+    ],
+    answer: 2,
+    translation: "来月、新入社員の研修は誰が担当するのですか?\n(A) 新入社員は10人ほどです。\n(B) 電車でだと思います。\n(C) 実は、オリエンテーション自体が9月に延期されるかもしれないんです。",
+    explanation: "変化球:担当者を答えず『質問の前提(来月実施)自体が変わるかも』と返すパターン。前提を崩す応答は最難関の間接応答。(B)はtrain(研修する/電車)の多義語ひっかけ。"
+  },
+  {
+    id: "p2-22",
+    question: { speaker: "W", text: "How much did we spend on advertising last quarter?" },
+    choices: [
+      "The finance report isn't ready yet.",
+      "Mostly in online newspapers.",
+      "Yes, it was quite expensive."
+    ],
+    answer: 0,
+    translation: "前四半期の広告費はいくらでしたか?\n(A) 財務報告書がまだできていないんです。\n(B) 主にオンライン新聞にです。\n(C) はい、かなり高額でした。",
+    explanation: "変化球:金額を答えず『まだ分からない(報告書が未完成)』と理由を添えて返すパターン。『今は答えられない』型の正解。(B)はWhere向けの応答、(C)はWH疑問文にYesで不可。"
+  },
+  {
+    id: "p2-23",
+    question: { speaker: "M", text: "Would you mind reviewing my presentation slides this afternoon?" },
+    choices: [
+      "The slides are all in color.",
+      "I'm about to leave for a client visit.",
+      "Yes, the reviews were positive."
+    ],
+    answer: 1,
+    translation: "今日の午後、私のプレゼン資料を見ていただけませんか?\n(A) スライドはすべてカラーです。\n(B) これからクライアント訪問に出るところなんです。\n(C) はい、レビューは好評でした。",
+    explanation: "変化球:依頼に対してYes/Noを言わず『外出する』と伝えて婉曲に断るパターン。都合を述べて断る応答は頻出の正解。(C)はreviewing/reviewsの派生語ひっかけ。"
+  },
+  {
+    id: "p2-24",
+    question: { speaker: "W", text: "Is there a pharmacy near the hotel?" },
+    choices: [
+      "Yes, take two tablets daily.",
+      "No, I'm feeling much better now.",
+      "The front desk should have a map."
+    ],
+    answer: 2,
+    translation: "ホテルの近くに薬局はありますか?\n(A) はい、1日2錠服用してください。\n(B) いいえ、もうだいぶ良くなりました。\n(C) フロントに地図があるはずですよ。",
+    explanation: "変化球:あるかないかを答えず『調べる手段(フロントの地図)』を教えるパターン。(A)(B)はpharmacy(薬局)から連想される『薬・体調』で誤答を誘うひっかけ。"
+  },
+  {
+    id: "p2-25",
+    question: { speaker: "M", text: "The quarterly sales figures look strong, don't they?" },
+    choices: [
+      "December's numbers aren't included yet, though.",
+      "Yes, he exercises every day.",
+      "In the sales department."
+    ],
+    answer: 0,
+    translation: "四半期の売上数値は好調に見えますよね?\n(A) ただ、12月の数字はまだ入っていないんですよ。\n(B) はい、彼は毎日運動しています。\n(C) 営業部でです。",
+    explanation: "変化球:同意を求める付加疑問文に対し、同意せず『判断はまだ早い』と留保を付けるパターン。(B)はstrong(強い→体が丈夫)の連想ひっかけ、(C)はsalesの繰り返しひっかけ。"
   }
 ];
