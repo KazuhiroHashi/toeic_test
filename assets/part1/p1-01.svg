@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f2f2f2"/>
+  <line x1="20" y1="252" x2="380" y2="252" stroke="#9a9a9a" stroke-width="4"/>
+  <!-- desk -->
+  <rect x="180" y="168" width="180" height="10" fill="#3c3c3c"/>
+  <rect x="192" y="178" width="9" height="74" fill="#3c3c3c"/>
+  <rect x="340" y="178" width="9" height="74" fill="#3c3c3c"/>
+  <!-- laptop (side view) -->
+  <rect x="252" y="160" width="62" height="6" rx="2" fill="#3c3c3c"/>
+  <polygon points="252,163 244,112 252,110 262,161" fill="#3c3c3c"/>
+  <!-- chair -->
+  <rect x="88" y="196" width="62" height="9" fill="#3c3c3c"/>
+  <rect x="84" y="138" width="9" height="62" fill="#3c3c3c"/>
+  <rect x="94" y="205" width="8" height="47" fill="#3c3c3c"/>
+  <rect x="136" y="205" width="8" height="47" fill="#3c3c3c"/>
+  <!-- person sitting, facing right, hands to laptop -->
+  <circle cx="152" cy="102" r="17" fill="#3c3c3c"/>
+  <circle cx="135" cy="92" r="8" fill="#3c3c3c"/>
+  <path d="M148 120 Q160 122 162 140 L162 196 L128 196 L128 150 Q128 126 148 120 Z" fill="#3c3c3c"/>
+  <path d="M158 138 Q200 148 238 156" stroke="#3c3c3c" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M150 196 L196 196 L196 210" stroke="#3c3c3c" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M196 208 L196 248 L212 248" stroke="#3c3c3c" stroke-width="12" fill="none" stroke-linecap="round"/>
+</svg>

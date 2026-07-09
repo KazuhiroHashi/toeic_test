@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f2f2f2"/>
+  <line x1="20" y1="262" x2="380" y2="262" stroke="#9a9a9a" stroke-width="4"/>
+  <!-- left man facing right -->
+  <circle cx="130" cy="72" r="19" fill="#3c3c3c"/>
+  <path d="M112 96 Q140 90 148 118 L150 178 L108 178 L106 120 Q106 100 112 96 Z" fill="#3c3c3c"/>
+  <path d="M144 112 L192 138" stroke="#3c3c3c" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <path d="M116 178 L114 258" stroke="#3c3c3c" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M142 178 L146 258" stroke="#3c3c3c" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- right man facing left -->
+  <circle cx="270" cy="72" r="19" fill="#6e6e6e"/>
+  <path d="M288 96 Q260 90 252 118 L250 178 L292 178 L294 120 Q294 100 288 96 Z" fill="#6e6e6e"/>
+  <path d="M256 112 L208 138" stroke="#6e6e6e" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <path d="M284 178 L286 258" stroke="#6e6e6e" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M258 178 L254 258" stroke="#6e6e6e" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- clasped hands -->
+  <circle cx="200" cy="139" r="12" fill="#3c3c3c"/>
+</svg>

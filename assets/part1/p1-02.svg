@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f2f2f2"/>
+  <line x1="15" y1="248" x2="385" y2="248" stroke="#9a9a9a" stroke-width="4"/>
+  <!-- bike rack bar -->
+  <line x1="40" y1="150" x2="360" y2="150" stroke="#c2c2c2" stroke-width="6"/>
+  <rect x="52" y="150" width="7" height="98" fill="#c2c2c2"/>
+  <rect x="341" y="150" width="7" height="98" fill="#c2c2c2"/>
+  <!-- bicycle 1 -->
+  <g stroke="#3c3c3c" stroke-width="7" fill="none">
+    <circle cx="80" cy="215" r="32"/>
+    <circle cx="170" cy="215" r="32"/>
+    <path d="M80 215 L108 168 L152 168 L170 215 L108 215 Z"/>
+    <path d="M108 168 L100 152 L88 152"/>
+    <path d="M152 168 L160 150 L172 150"/>
+  </g>
+  <!-- bicycle 2 -->
+  <g stroke="#6e6e6e" stroke-width="7" fill="none">
+    <circle cx="230" cy="215" r="32"/>
+    <circle cx="320" cy="215" r="32"/>
+    <path d="M230 215 L258 168 L302 168 L320 215 L258 215 Z"/>
+    <path d="M258 168 L250 152 L238 152"/>
+    <path d="M302 168 L310 150 L322 150"/>
+  </g>
+</svg>

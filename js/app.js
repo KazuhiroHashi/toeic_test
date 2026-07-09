@@ -11,6 +11,7 @@
   /* ---------------- モード定義 ---------------- */
 
   var MODES = {
+    part1: { label: "Part 1 写真描写", desc: "イラストを見て正しい描写文を選ぶ(リスニング)", listening: true },
     part2: { label: "Part 2 応答問題", desc: "質問を聞いて応答を選ぶ(リスニング)", listening: true },
     part3: { label: "Part 3 会話問題", desc: "会話を聞いて設問に答える(リスニング)", listening: true },
     part4: { label: "Part 4 説明文問題", desc: "トークを聞いて設問に答える(リスニング)", listening: true },
@@ -321,6 +322,30 @@
   /* ---------------- タスク構築 ----------------
      タスク = 1画面分(音声 or 文書 + 設問1〜n問) */
 
+  function tasksPart1(items) {
+    return items.map(function (it) {
+      return {
+        part: "Part 1",
+        listening: true,
+        hideChoices: true,
+        id: it.id,
+        image: it.image,
+        audio: it.choices.map(function (c, i) {
+          return { speaker: it.speaker || "M", text: LETTERS[i] + ". " + c };
+        }),
+        script: it.choices.map(function (c, i) { return "(" + LETTERS[i] + ") " + c; }).join("\n"),
+        translation: it.translation,
+        questions: [{
+          id: it.id,
+          prompt: "イラストを最もよく描写している文を選んでください。",
+          choices: it.choices,
+          answer: it.answer,
+          explanation: it.explanation
+        }]
+      };
+    });
+  }
+
   function tasksPart2(items) {
     return items.map(function (it) {
       return {
@@ -432,6 +457,7 @@
 
   function buildTasks(mode) {
     switch (mode) {
+      case "part1": return tasksPart1(DATA.part1);
       case "part2": return tasksPart2(DATA.part2);
       case "part3": return tasksSet(DATA.part3, "Part 3");
       case "part4": return tasksSet(DATA.part4, "Part 4");
@@ -440,6 +466,7 @@
       case "part7": return tasksPart7(DATA.part7);
       case "mock":
         return [].concat(
+          tasksPart1(shuffle(DATA.part1).slice(0, 2)),
           tasksPart2(shuffle(DATA.part2).slice(0, 5)),
           tasksSet(shuffle(DATA.part3).slice(0, 1), "Part 3"),
           tasksSet(shuffle(DATA.part4).slice(0, 1), "Part 4"),
@@ -478,7 +505,7 @@
       "<h2>模試に挑戦</h2>" +
       '<div class="menu-grid">' + card("mock", "mock") + "</div>" +
       "<h2>リスニング(音声読み上げ)</h2>" +
-      '<div class="menu-grid">' + card("part2") + card("part3") + card("part4") + "</div>" +
+      '<div class="menu-grid">' + card("part1") + card("part2") + card("part3") + card("part4") + "</div>" +
       "<h2>リーディング</h2>" +
       '<div class="menu-grid">' + card("part5") + card("part6") + card("part7") + "</div>" +
       "<h2>問題を選んで解く</h2>" +
@@ -505,7 +532,7 @@
 
   /* ---------------- 画面:問題を選んで解く ---------------- */
 
-  var PICKABLE = ["part2", "part3", "part4", "part5", "part6", "part7"];
+  var PICKABLE = ["part1", "part2", "part3", "part4", "part5", "part6", "part7"];
 
   function showPicker() {
     speech.stop();
@@ -535,6 +562,10 @@
   function taskLabel(t, mode, idx) {
     if (t.title) return t.title + "(" + t.questions.length + "問)";
     var text;
+    if (mode === "part1") {
+      // 説明文を見せると答えが分かるため、番号のみ表示
+      return "No." + (idx + 1) + "(写真描写)";
+    }
     if (mode === "part2") {
       text = t.script.split("\n")[0]; // 質問文の冒頭
       var tag = idx >= 15 ? "【変化球】" : "";
@@ -721,6 +752,11 @@
         "</div>";
     }
 
+    // 写真(Part 1)
+    if (t.image) {
+      html += '<div class="p1-image"><img src="' + esc(t.image) + '" alt="写真描写問題のイラスト"></div>';
+    }
+
     // 文書(Part 6/7)
     if (t.passage) {
       html += '<div class="passage">' +
@@ -765,7 +801,9 @@
     if (t.listening) {
       // 本番同様、ナレーターの導入文を付けて再生する
       var intro;
-      if (t.part === "Part 2") {
+      if (t.part === "Part 1") {
+        intro = "Number " + (answeredBefore + 1) + ". Look at the picture.";
+      } else if (t.part === "Part 2") {
         intro = "Number " + (answeredBefore + 1) + ".";
       } else {
         var three = t.audio.some(function (l) { return l.speaker === "W2" || l.speaker === "M2"; });

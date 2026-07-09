@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f2f2f2"/>
+  <line x1="20" y1="258" x2="380" y2="258" stroke="#9a9a9a" stroke-width="4"/>
+  <!-- man facing right, watering -->
+  <circle cx="120" cy="78" r="19" fill="#3c3c3c"/>
+  <path d="M102 102 Q130 96 138 124 L140 182 L98 182 L96 126 Q96 106 102 102 Z" fill="#3c3c3c"/>
+  <path d="M134 118 L182 132" stroke="#3c3c3c" stroke-width="13" fill="none" stroke-linecap="round"/>
+  <path d="M106 182 L104 254" stroke="#3c3c3c" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M132 182 L136 254" stroke="#3c3c3c" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- watering can (tilted) -->
+  <g transform="rotate(28 205 140)">
+    <rect x="185" y="126" width="42" height="30" rx="4" fill="#3c3c3c"/>
+    <path d="M185 132 L166 122" stroke="#3c3c3c" stroke-width="7" stroke-linecap="round"/>
+    <path d="M227 134 L252 128" stroke="#3c3c3c" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <!-- water drops -->
+  <g stroke="#8a8a8a" stroke-width="4" stroke-linecap="round">
+    <line x1="262" y1="152" x2="268" y2="170"/>
+    <line x1="274" y1="150" x2="280" y2="168"/>
+    <line x1="286" y1="152" x2="292" y2="170"/>
+  </g>
+  <!-- potted plant -->
+  <polygon points="252,222 312,222 302,258 262,258" fill="#3c3c3c"/>
+  <g stroke="#6e6e6e" stroke-width="7" fill="none" stroke-linecap="round">
+    <path d="M282 222 L282 190"/>
+    <path d="M282 204 Q266 196 258 180"/>
+    <path d="M282 204 Q298 196 306 180"/>
+  </g>
+  <circle cx="256" cy="176" r="9" fill="#6e6e6e"/>
+  <circle cx="308" cy="176" r="9" fill="#6e6e6e"/>
+  <circle cx="282" cy="184" r="9" fill="#6e6e6e"/>
+</svg>

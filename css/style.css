@@ -136,6 +136,12 @@ main {
 }
 .passage .blank-mark { font-weight: 700; color: var(--accent); }
 
+.p1-image { margin: 4px 0 14px; text-align: center; }
+.p1-image img {
+  width: 100%; max-width: 360px;
+  border: 1px solid var(--border); border-radius: 8px; background: #fff;
+}
+
 .audio-controls { margin: 10px 0 14px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
 .play-btn {
   background: var(--accent); color: #fff; border: none; border-radius: 99px;

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f2f2f2"/>
+  <!-- window on wall -->
+  <rect x="270" y="34" width="96" height="66" fill="#e6e6e6" stroke="#9a9a9a" stroke-width="4"/>
+  <line x1="318" y1="34" x2="318" y2="100" stroke="#9a9a9a" stroke-width="4"/>
+  <line x1="20" y1="262" x2="380" y2="262" stroke="#9a9a9a" stroke-width="4"/>
+  <!-- table -->
+  <rect x="110" y="150" width="180" height="16" rx="3" fill="#3c3c3c"/>
+  <rect x="124" y="166" width="9" height="94" fill="#3c3c3c"/>
+  <rect x="267" y="166" width="9" height="94" fill="#3c3c3c"/>
+  <!-- chairs (empty) left and right -->
+  <g fill="#6e6e6e">
+    <rect x="46" y="120" width="9" height="72"/>
+    <rect x="46" y="184" width="52" height="9"/>
+    <rect x="50" y="193" width="8" height="68"/>
+    <rect x="88" y="193" width="8" height="68"/>
+  </g>
+  <g fill="#6e6e6e">
+    <rect x="345" y="120" width="9" height="72"/>
+    <rect x="302" y="184" width="52" height="9"/>
+    <rect x="304" y="193" width="8" height="68"/>
+    <rect x="342" y="193" width="8" height="68"/>
+  </g>
+  <!-- chairs behind the table -->
+  <g fill="#8a8a8a">
+    <rect x="146" y="104" width="8" height="52"/>
+    <rect x="146" y="148" width="42" height="8"/>
+    <rect x="216" y="104" width="8" height="52"/>
+    <rect x="216" y="148" width="42" height="8"/>
+  </g>
+</svg>
