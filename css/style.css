@@ -48,6 +48,18 @@ main {
 }
 
 /* ---------- home ---------- */
+.set-switch {
+  display: flex; align-items: center; gap: 10px;
+  margin: 4px 0 8px;
+}
+.set-switch-label { font-size: 0.82rem; color: var(--muted); }
+.set-tabs { display: inline-flex; border: 1px solid var(--border); border-radius: 99px; overflow: hidden; }
+.set-tab {
+  border: none; background: #fff; color: var(--primary);
+  padding: 7px 18px; font: inherit; font-size: 0.85rem; cursor: pointer;
+}
+.set-tab.active { background: var(--primary); color: #fff; font-weight: 700; }
+
 .menu-section h2 {
   font-size: 1.05rem;
   margin: 20px 0 10px;

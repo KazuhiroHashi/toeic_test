@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f2f2f2"/>
+  <line x1="20" y1="262" x2="380" y2="262" stroke="#9a9a9a" stroke-width="4"/>
+  <!-- whiteboard on wall -->
+  <rect x="180" y="46" width="188" height="128" fill="#ffffff" stroke="#3c3c3c" stroke-width="6"/>
+  <line x1="204" y1="82" x2="320" y2="82" stroke="#b4b4b4" stroke-width="4"/>
+  <line x1="204" y1="108" x2="300" y2="108" stroke="#b4b4b4" stroke-width="4"/>
+  <line x1="204" y1="134" x2="330" y2="134" stroke="#b4b4b4" stroke-width="4"/>
+  <!-- woman standing facing right, arm raised to board -->
+  <circle cx="120" cy="80" r="18" fill="#3c3c3c"/>
+  <circle cx="104" cy="70" r="8" fill="#3c3c3c"/>
+  <path d="M104 102 Q132 96 140 126 L142 200 L98 200 L96 128 Q96 106 104 102 Z" fill="#3c3c3c"/>
+  <!-- raised arm holding marker toward board -->
+  <path d="M136 120 Q168 104 194 96" stroke="#3c3c3c" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <rect x="190" y="90" width="16" height="8" rx="2" transform="rotate(-18 198 94)" fill="#3c3c3c"/>
+  <!-- legs -->
+  <path d="M112 200 L110 260" stroke="#3c3c3c" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M138 200 L142 260" stroke="#3c3c3c" stroke-width="14" fill="none" stroke-linecap="round"/>
+</svg>

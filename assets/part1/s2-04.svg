@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f2f2f2"/>
+  <line x1="20" y1="262" x2="380" y2="262" stroke="#9a9a9a" stroke-width="4"/>
+  <!-- left person facing right, looking down -->
+  <circle cx="132" cy="80" r="18" fill="#3c3c3c"/>
+  <path d="M114 104 Q142 98 150 128 L152 196 L108 196 L106 130 Q106 108 114 104 Z" fill="#3c3c3c"/>
+  <path d="M120 200 L118 260" stroke="#3c3c3c" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M144 200 L148 260" stroke="#3c3c3c" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- right person facing left, looking down -->
+  <circle cx="268" cy="80" r="18" fill="#6e6e6e"/>
+  <path d="M286 104 Q258 98 250 128 L248 196 L292 196 L294 130 Q294 108 286 104 Z" fill="#6e6e6e"/>
+  <path d="M280 200 L282 260" stroke="#6e6e6e" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M256 200 L252 260" stroke="#6e6e6e" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- document held between them -->
+  <rect x="164" y="150" width="72" height="52" fill="#ffffff" stroke="#3c3c3c" stroke-width="4"/>
+  <line x1="176" y1="166" x2="224" y2="166" stroke="#b4b4b4" stroke-width="4"/>
+  <line x1="176" y1="180" x2="224" y2="180" stroke="#b4b4b4" stroke-width="4"/>
+  <line x1="176" y1="192" x2="210" y2="192" stroke="#b4b4b4" stroke-width="4"/>
+  <!-- arms toward document -->
+  <path d="M146 128 L168 158" stroke="#3c3c3c" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M254 128 L232 158" stroke="#6e6e6e" stroke-width="12" fill="none" stroke-linecap="round"/>
+</svg>

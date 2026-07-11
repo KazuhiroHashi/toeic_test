@@ -2,11 +2,32 @@
 (function () {
   "use strict";
 
-  var DATA = window.TOEIC_DATA;
   var app = document.getElementById("app");
 
   var LETTERS = ["A", "B", "C", "D"];
   var STORAGE_KEY = "toeic_test_stats_v1";
+  var SET_PREF_KEY = "toeic_active_set_v1";
+
+  /* ---------------- 問題セット ---------------- */
+  // 同レベルの問題を複数セット用意し、ホームで切り替えられる。
+  var SETS = [
+    { id: "s1", name: "セット1", data: window.TOEIC_DATA || {} }
+  ];
+  // セット2は全パート(part7まで)がそろってから選択肢に出す
+  if (window.TOEIC_DATA_2 && window.TOEIC_DATA_2.part7) {
+    SETS.push({ id: "s2", name: "セット2", data: window.TOEIC_DATA_2 });
+  }
+  var activeSetIdx = 0;
+  (function () {
+    try {
+      var saved = localStorage.getItem(SET_PREF_KEY);
+      for (var i = 0; i < SETS.length; i++) {
+        if (SETS[i].id === saved) { activeSetIdx = i; break; }
+      }
+    } catch (e) { /* ignore */ }
+  })();
+  function activeData() { return SETS[activeSetIdx].data; }
+  function statKey(mode) { return SETS[activeSetIdx].id + ":" + mode; }
 
   /* ---------------- モード定義 ---------------- */
 
@@ -45,11 +66,12 @@
 
   function saveResult(mode, rate) {
     var stats = loadStats();
-    var s = stats[mode] || { best: 0, attempts: 0 };
+    var key = statKey(mode);
+    var s = stats[key] || { best: 0, attempts: 0 };
     s.attempts += 1;
     s.last = rate;
     if (rate > s.best) s.best = rate;
-    stats[mode] = s;
+    stats[key] = s;
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(stats)); } catch (e) { /* ignore */ }
   }
 
@@ -456,6 +478,7 @@
   }
 
   function buildTasks(mode) {
+    var DATA = activeData();
     switch (mode) {
       case "part1": return tasksPart1(DATA.part1);
       case "part2": return tasksPart2(DATA.part2);
@@ -490,8 +513,8 @@
 
     function card(mode, extraClass) {
       var m = MODES[mode];
-      var n = mode === "mock" ? "約25問" : countQuestions(buildTasks(mode)) + "問";
-      var s = stats[mode];
+      var n = mode === "mock" ? "約30問" : countQuestions(buildTasks(mode)) + "問";
+      var s = stats[statKey(mode)];
       var stat = s ? "自己ベスト " + s.best + "%(挑戦 " + s.attempts + "回)" : "未挑戦";
       return '<button class="menu-card ' + (extraClass || "") + '" data-mode="' + mode + '">' +
         '<span class="card-title">' + esc(m.label) + "</span>" +
@@ -500,8 +523,19 @@
         "</button>";
     }
 
+    var setSwitchHtml = "";
+    if (SETS.length > 1) {
+      var setTabs = SETS.map(function (s, i) {
+        return '<button class="set-tab' + (i === activeSetIdx ? " active" : "") +
+          '" data-set="' + i + '">' + esc(s.name) + "</button>";
+      }).join("");
+      setSwitchHtml = '<div class="set-switch"><span class="set-switch-label">問題セット</span>' +
+        '<div class="set-tabs">' + setTabs + "</div></div>";
+    }
+
     app.innerHTML =
       '<section class="menu-section">' +
+      setSwitchHtml +
       "<h2>模試に挑戦</h2>" +
       '<div class="menu-grid">' + card("mock", "mock") + "</div>" +
       "<h2>リスニング(音声読み上げ)</h2>" +
@@ -528,6 +562,13 @@
     });
     document.getElementById("voice-settings").addEventListener("click", showVoiceSettings);
     document.getElementById("pick-quiz").addEventListener("click", showPicker);
+    app.querySelectorAll(".set-tab").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        activeSetIdx = parseInt(btn.getAttribute("data-set"), 10);
+        try { localStorage.setItem(SET_PREF_KEY, SETS[activeSetIdx].id); } catch (e) { /* ignore */ }
+        showHome();
+      });
+    });
   }
 
   /* ---------------- 画面:問題を選んで解く ---------------- */
