@@ -1,49 +1,49 @@
-// セット5 part7(監査反映・正解位置均等化済み)
+// セット5 part7(重複差し替え・正解位置均等化済み)
 window.TOEIC_DATA_5 = window.TOEIC_DATA_5 || {};
 window.TOEIC_DATA_5.part7 = [
   {
     "id": "s5p7-01",
-    "title": "シングル 1(お知らせ)",
+    "title": "シングル 1(テキストメッセージのやり取り)",
     "passages": [
       {
-        "docType": "Notice",
-        "text": "MEADOWBROOK COMMUNITY GARDEN — 2026 Plot Registration Now Open\n\nRegistration for garden plots at Meadowbrook Community Garden opens on February 1 and closes February 28. Plots are assigned in early March, and the growing season runs from April through October.\n\nPlot sizes and annual fees:\n1. Small plot (2m x 2m) — $30\n2. Medium plot (3m x 4m) — $55\n3. Large plot (4m x 6m) — $90\n\nEach fee includes access to shared tools, water, and compost. Returning gardeners from last season may keep their previous plot if they register by February 14.\n\nTo register, complete the form at the garden office or online at meadowbrookgarden.org. A refundable $20 deposit is required and is returned when the plot is cleared at the end of the season."
+        "docType": "Text-message chain",
+        "text": "Owen Brandt (8:32 A.M.)\nHi Priscilla, are you already at the Delmar rooftop? We're filming the client interview there at 9.\n\nPriscilla Vaughn (8:34 A.M.)\nYes, I got here early to set up the lighting. But it's windier than expected — the softbox keeps tipping over.\n\nOwen Brandt (8:35 A.M.)\nCan you weigh down the stands with the sandbags in the van?\n\nPriscilla Vaughn (8:36 A.M.)\nThat's the problem — the van keys are with you.\n\nOwen Brandt (8:37 A.M.)\nAh, right. I'm ten minutes away. Sit tight.\n\nPriscilla Vaughn (8:38 A.M.)\nNo rush on my account, but the client's marketing team arrives at 8:50 for hair and makeup.\n\nOwen Brandt (8:39 A.M.)\nUnderstood. I'll bring the sandbags straight up when I get there."
       }
     ],
-    "translation": "メドウブルック・コミュニティガーデン——2026年 区画登録受付中\n\nメドウブルック・コミュニティガーデンの区画登録は2月1日に開始し、2月28日に締め切ります。区画は3月上旬に割り当てられ、栽培シーズンは4月から10月までです。\n\n区画の広さと年間料金:\n1. 小区画(2m×2m)——30ドル\n2. 中区画(3m×4m)——55ドル\n3. 大区画(4m×6m)——90ドル\n\n各料金には共用の道具、水、堆肥の利用が含まれます。昨シーズンからの継続利用者は、2月14日までに登録すれば以前の区画をそのまま使えます。\n\n登録はガーデン事務所の用紙、またはオンライン(meadowbrookgarden.org)で。返金可能な20ドルの保証金が必要で、シーズン終了時に区画を片付ければ返金されます。",
+    "translation": "オーウェン・ブラント(午前8:32):やあプリシラ、もうデルマーの屋上にいる? 9時にあそこでクライアントのインタビューを撮影するんだ。\nプリシラ・ヴォーン(午前8:34):ええ、照明をセットするために早く来たの。でも思ったより風が強くて——ソフトボックスが倒れ続けるのよ。\nオーウェン・ブラント(午前8:35):バンにある砂袋でスタンドを重しできる?\nプリシラ・ヴォーン(午前8:36):それが問題なの——バンの鍵はあなたが持ってるでしょ。\nオーウェン・ブラント(午前8:37):ああ、そうだった。あと10分で着く。落ち着いて待ってて。\nプリシラ・ヴォーン(午前8:38):私は急がなくて平気だけど、クライアントのマーケティングチームが8時50分にヘアメイクで来るわよ。\nオーウェン・ブラント(午前8:39):了解。着いたらそのまま砂袋を持って上がるよ。",
     "questions": [
       {
-        "q": "What is the purpose of the notice?",
+        "q": "What problem does Ms. Vaughn mention?",
         "choices": [
-          "To describe new gardening tools",
-          "To announce that plot registration has opened",
-          "To report a change in garden fees",
-          "To recruit volunteers for the garden"
+          "The wind is affecting her equipment.",
+          "A camera has stopped working.",
+          "A team member is late.",
+          "A location was double-booked."
         ],
-        "answer": 1,
-        "explanation": "冒頭の『区画登録が2月1日に開始する』という告知が主目的。Registration ... opens on February 1 が根拠。"
+        "answer": 0,
+        "explanation": "プリシラの『it's windier than expected — the softbox keeps tipping over(風が強くソフトボックスが倒れ続ける)』が根拠。機材が風の影響を受けている。"
       },
       {
-        "q": "What can returning gardeners do?",
+        "q": "At 8:38 A.M., what does Ms. Vaughn most likely mean when she writes, \"No rush on my account\"?",
         "choices": [
-          "Avoid paying the annual fee",
-          "Receive a larger plot at no cost",
-          "Use the garden before April",
-          "Keep their previous plot by registering early"
+          "She wants to postpone the shoot.",
+          "She will not attend the shoot.",
+          "She has finished the setup.",
+          "She is not the main reason he needs to hurry."
         ],
         "answer": 3,
-        "explanation": "Returning gardeners ... may keep their previous plot if they register by February 14(2月14日までに登録すれば以前の区画を維持)が根拠。"
+        "explanation": "意図問題。直後に『but the client's marketing team arrives at 8:50』と続くので、『(自分のためではなく)本当に急ぐ理由は別にある=8時50分のチーム到着』という含意。"
       },
       {
-        "q": "What is indicated about the $20 deposit?",
+        "q": "What will Mr. Brandt most likely do next?",
         "choices": [
-          "It must be paid in cash.",
-          "It is returned when the plot is cleared.",
-          "It cannot be refunded.",
-          "It covers the cost of tools."
+          "Bring the sandbags up to the rooftop",
+          "Drive the marketing team",
+          "Reschedule the interview",
+          "Return to the office"
         ],
-        "answer": 1,
-        "explanation": "A refundable $20 deposit ... is returned when the plot is cleared(区画を片付ければ返金)が根拠。refundable なので(A)は誤り。"
+        "answer": 0,
+        "explanation": "最後の『I'll bring the sandbags straight up when I get there(着いたら砂袋を持って上がる)』が根拠。砂袋はバンにあり、鍵はオーウェンが持っている。"
       }
     ]
   },
@@ -53,43 +53,43 @@ window.TOEIC_DATA_5.part7 = [
     "passages": [
       {
         "docType": "Advertisement",
-        "text": "LINGUALEAP — Learn a Language on Your Schedule\n\nLinguaLeap is the mobile app that fits language learning into your daily routine. Choose from 20 languages and study with short lessons, speaking practice, and progress tracking.\n\nPlans:\n1. Free — one lesson per day, one language\n2. Plus ($8/month) — unlimited lessons, one language, offline downloads\n3. Premium ($13/month) — unlimited lessons, all 20 languages, offline downloads, one monthly live group class\n4. Family ($20/month) — all Premium features for up to five accounts\n\nNew subscribers to any paid plan receive a 7-day free trial. Cancel anytime before the trial ends and you will not be charged.\n\nDownload LinguaLeap free from your app store and start today."
+        "text": "GREENHAVEN LANDSCAPE DESIGN — Transform Your Outdoor Space\n\nServing the Riverton area for over fifteen years, Greenhaven creates gardens that are beautiful, low-maintenance, and kind to local wildlife.\n\nOur services:\n1. Design consultation — a landscape designer visits your property and prepares a planting plan\n2. Installation — planting, pathways, raised beds, and irrigation\n3. Seasonal maintenance — pruning, weeding, and mulching on a monthly schedule\n4. Native plant sourcing — plants grown at our own nursery\n\nSpring booking offer (through March 31):\n- Free design consultation (normally $90) with any installation booked before the end of March\n- 10% off native trees and shrubs\n\nPlease note that we do not offer lawn-mowing or snow-removal services. For a quote, call 555-0148 or visit greenhavendesign.com. Consultations fill quickly in spring, so book early."
       }
     ],
-    "translation": "リンガリープ——あなたのペースで言語を学ぶ\n\nリンガリープは、言語学習を毎日の生活に組み込めるモバイルアプリです。20言語から選び、短いレッスン、スピーキング練習、進捗管理で学べます。\n\nプラン:\n1. 無料——1日1レッスン、1言語\n2. プラス(月8ドル)——レッスン無制限、1言語、オフラインダウンロード\n3. プレミアム(月13ドル)——レッスン無制限、20言語すべて、オフラインダウンロード、月1回のライブ・グループクラス\n4. ファミリー(月20ドル)——プレミアムの全機能を最大5アカウントで\n\n有料プランの新規登録者には7日間の無料トライアルが付きます。トライアル終了前ならいつでも解約でき、料金は発生しません。\n\nリンガリープをアプリストアから無料でダウンロードして、今日から始めましょう。",
+    "translation": "グリーンヘイヴン・ランドスケープデザイン——あなたの屋外空間を一新\n\nリバートン地域で15年以上営業しているグリーンヘイヴンは、美しく、手入れが楽で、地元の生き物にやさしい庭を作ります。\n\nサービス:\n1. デザイン相談——造園デザイナーがご自宅を訪問し植栽プランを作成\n2. 施工——植栽、通路、レイズドベッド、灌漑\n3. 季節の手入れ——毎月の剪定・除草・マルチング\n4. 在来植物の調達——自社の苗床で育てた植物\n\n春の予約特典(3月31日まで):\n- 3月末までに施工を予約すると、デザイン相談が無料(通常90ドル)\n- 在来の樹木・低木が10%オフ\n\nなお、芝刈りや除雪のサービスは行っておりません。お見積もりは 555-0148 まで、または greenhavendesign.com へ。相談枠は春に早く埋まりますので、お早めにご予約を。",
     "questions": [
       {
-        "q": "What is NOT a feature of the Premium plan?",
+        "q": "For whom is the advertisement most likely intended?",
         "choices": [
-          "Access for up to five accounts",
-          "Offline downloads",
-          "Unlimited lessons",
-          "A monthly live class"
+          "Gardeners looking for employment",
+          "Plant nursery suppliers",
+          "Farmers buying equipment",
+          "Homeowners wanting to improve their gardens"
         ],
-        "answer": 0,
-        "explanation": "NOT問題。プレミアムはレッスン無制限・全言語・オフライン・月1ライブクラスを含む。5アカウントまでの利用はファミリープランの特徴なので(D)が正解。"
+        "answer": 3,
+        "explanation": "『Transform Your Outdoor Space』や施工・手入れサービスの内容から、自宅の庭をよくしたい住宅所有者向けの広告と分かる。"
       },
       {
-        "q": "How can a new subscriber avoid being charged?",
+        "q": "What service does Greenhaven NOT offer?",
         "choices": [
-          "By canceling before the trial ends",
-          "By referring a friend",
-          "By paying for a full year at once",
-          "By choosing the Free plan"
+          "Lawn-mowing",
+          "Plant installation",
+          "Seasonal pruning",
+          "Design consultation"
         ],
         "answer": 0,
-        "explanation": "Cancel anytime before the trial ends and you will not be charged(トライアル終了前の解約で課金なし)が根拠。"
+        "explanation": "NOT問題。『we do not offer lawn-mowing or snow-removal services(芝刈りと除雪はしない)』が根拠。相談・剪定・施工はサービスに含まれる。"
       },
       {
-        "q": "What is suggested about the Plus plan?",
+        "q": "What is indicated about spring consultations?",
         "choices": [
-          "It is limited to one language.",
-          "It is free for students.",
-          "It has no offline access.",
-          "It includes live group classes."
+          "They include snow removal.",
+          "They are available all year.",
+          "They tend to book up quickly.",
+          "They cost $90 in every case."
         ],
-        "answer": 0,
-        "explanation": "Plus ... one language が根拠。ライブクラスと全言語はプレミアム以上、オフラインはプラスにも含まれる。"
+        "answer": 2,
+        "explanation": "『Consultations fill quickly in spring, so book early(春は早く埋まる)』が根拠。施工予約と組めば無料なので(A)の『必ず90ドル』は誤り。"
       }
     ]
   },
@@ -99,216 +99,216 @@ window.TOEIC_DATA_5.part7 = [
     "passages": [
       {
         "docType": "E-mail",
-        "text": "From: Gerald Okafor, Finance Department\nTo: All Staff\nSubject: New Expense System — Starts April 1\nDate: March 18\n\nDear colleagues,\n\nBeginning April 1, we will replace our paper expense forms with a new online system called ClaimEase. All travel and purchase claims must be submitted through ClaimEase from that date; paper forms will no longer be accepted.\n\nTo help everyone get ready, the Finance team will hold three 30-minute training sessions in Meeting Room B on March 24, 25, and 26, all at 10 A.M. The sessions cover the same material, so please attend only one. No sign-up is needed.\n\nAfter April 1, claims submitted by the 5th of each month will be paid that month; later claims will be paid the following month. If you have receipts from March, please submit them on paper before March 31 as usual.\n\nQuestions? Reply to this e-mail or drop by the Finance office.\n\nBest,\nGerald Okafor"
+        "text": "From: Enrollment Team, Meridian Online Academy\nTo: Hana Okafor\nSubject: Your enrollment in \"Data Visualization Fundamentals\"\nDate: January 9\n\nDear Ms. Okafor,\n\nThank you for enrolling in Data Visualization Fundamentals. The course begins on Monday, January 20, and runs for six weeks. Here is what you need to know before the first session.\n\n1. Live sessions are held every Tuesday and Thursday, 7:00–8:30 P.M., and are recorded for later viewing.\n2. Please install the free software listed on your course dashboard before January 20.\n3. The first assignment is due at the end of week two; assignments make up 60 percent of your final grade.\n\nA certificate of completion is issued to students who attend at least 80 percent of the live sessions and submit all assignments. If you must miss more than two sessions, contact your instructor, Dr. Lund, to discuss alternatives.\n\nWe're excited to have you in the course.\n\nMeridian Online Academy"
       }
     ],
-    "translation": "差出人:ジェラルド・オカフォー(財務部)\n宛先:全社員\n件名:新経費システム——4月1日開始\n日付:3月18日\n\n同僚の皆様\n\n4月1日より、紙の経費精算用紙を『ClaimEase』という新しいオンラインシステムに切り替えます。その日以降、出張費や購入費の申請はすべてClaimEase経由で行い、紙の用紙は受け付けません。\n\n準備のため、財務チームが3月24日・25日・26日の各午前10時、会議室Bで30分の研修を3回行います。内容は同じなので、1回だけ参加してください。申込は不要です。\n\n4月1日以降、毎月5日までに提出された申請はその月に支払われ、それより遅い申請は翌月払いになります。3月分の領収書がある場合は、これまで通り3月31日までに紙で提出してください。\n\nご質問はこのメールへの返信、または財務オフィスまで。\n\nよろしく\nジェラルド・オカフォー",
+    "translation": "差出人:メリディアン・オンライン・アカデミー 受講登録チーム\n宛先:ハナ・オカフォー\n件名:「データ可視化の基礎」へのご登録\n日付:1月9日\n\nオカフォー様\n\n「データ可視化の基礎」へのご登録ありがとうございます。講座は1月20日(月)に始まり、6週間続きます。最初のセッション前に知っておくべきことは以下の通りです。\n\n1. ライブセッションは毎週火曜と木曜の午後7時〜8時30分に行われ、後で視聴できるよう録画されます。\n2. 1月20日までに、受講ダッシュボードに記載の無料ソフトをインストールしてください。\n3. 最初の課題は第2週末が締切です。課題は最終成績の60%を占めます。\n\n修了証は、ライブセッションの80%以上に出席し、すべての課題を提出した受講者に発行されます。2回を超えて欠席せざるを得ない場合は、講師のルンド博士にご連絡のうえ、代替方法をご相談ください。\n\n受講いただけることを楽しみにしています。\nメリディアン・オンライン・アカデミー",
     "questions": [
       {
-        "q": "Why did Mr. Okafor send the e-mail?",
+        "q": "Why was the e-mail sent?",
         "choices": [
-          "To report a budget shortfall",
-          "To request receipts from a client",
-          "To announce a new expense-reporting system",
-          "To schedule a department meeting"
-        ],
-        "answer": 2,
-        "explanation": "we will replace our paper expense forms with a new online system(紙の精算を新システムに切り替える)という案内が主目的。"
-      },
-      {
-        "q": "What is indicated about the training sessions?",
-        "choices": [
-          "They last one hour each.",
-          "They cover the same material.",
-          "They require advance sign-up.",
-          "They are held online."
+          "To announce a brand-new course",
+          "To provide information before a course begins",
+          "To reschedule a live session",
+          "To offer a course discount"
         ],
         "answer": 1,
-        "explanation": "The sessions cover the same material, so please attend only one(内容は同じなので1回だけ)が根拠。各30分・申込不要なので他は誤り。"
+        "explanation": "『Here is what you need to know before the first session』以降、開始前の必要事項をまとめて伝えている。情報提供が目的。"
       },
       {
-        "q": "What should staff do with receipts from March?",
+        "q": "What is indicated about the live sessions?",
         "choices": [
-          "Submit them on paper before March 31",
-          "Wait until April to submit them",
-          "Enter them in ClaimEase",
-          "Send them to Mr. Okafor's home"
+          "They are optional to join.",
+          "They are recorded for later viewing.",
+          "They are held once a week.",
+          "They each last three hours."
         ],
-        "answer": 0,
-        "explanation": "please submit them on paper before March 31 as usual(3月分は紙で3月31日までに)が根拠。切替は4月1日からなのでClaimEaseは使わない。"
+        "answer": 1,
+        "explanation": "『are recorded for later viewing(後で視聴できるよう録画)』が根拠。火曜と木曜の週2回なので(A)は誤り。"
+      },
+      {
+        "q": "What must a student do to receive a certificate?",
+        "choices": [
+          "Install extra software",
+          "Pass a written exam",
+          "Pay an additional fee",
+          "Attend at least 80 percent of the live sessions"
+        ],
+        "answer": 3,
+        "explanation": "『attend at least 80 percent of the live sessions and submit all assignments』が修了証の条件。試験合格や追加料金は述べられていない。"
       }
     ]
   },
   {
     "id": "s5p7-04",
-    "title": "シングル 4(テキストメッセージのやり取り)",
+    "title": "シングル 4(お知らせ)",
     "passages": [
       {
-        "docType": "Text-message chain",
-        "text": "Ravi Desai (11:02 A.M.)\nHi, this is Ravi from Petal Post. I'm outside 14 Corby Street with your flower delivery, but no one is answering the door.\n\nGrace Lim (11:04 A.M.)\nOh! The order was for my mother's house at 40 Corby Street, not 14. I must have typed the wrong number when I placed it.\n\nRavi Desai (11:05 A.M.)\nNo problem at all. Number 40 is just down the road. I can be there in five minutes.\n\nGrace Lim (11:06 A.M.)\nThat's a relief. She's expecting them for her birthday lunch at noon.\n\nRavi Desai (11:07 A.M.)\nPlenty of time, then. I'll leave them at the door if she doesn't answer.\n\nGrace Lim (11:08 A.M.)\nShe'll be home. Thank you so much for sorting this out."
+        "docType": "Notice",
+        "text": "CITY OF ELMWOOD — CHANGES TO CURBSIDE RECYCLING\n\nStarting Monday, April 6, the city will move from weekly to biweekly recycling collection. Your new collection day depends on your zone:\n- Zones A and B: first and third Wednesday of each month\n- Zones C and D: second and fourth Wednesday of each month\n\nTo find your zone, enter your address at elmwood.gov/recycling.\n\nAlong with the schedule change, glass bottles must now be separated from paper and plastic. The city will deliver a second blue bin to every household by April 3 at no cost. Place glass in the smaller bin and all other recyclables in your existing bin.\n\nCollection still begins at 7 A.M., so please set your bins out the night before."
       }
     ],
-    "translation": "ラヴィ・デサイ(午前11:02):こんにちは、ペタル・ポストのラヴィです。お花のお届けでコービー通り14番地の前にいますが、どなたも出てこられません。\nグレース・リム(午前11:04):あら! 注文は14番地ではなく、母の家のコービー通り40番地宛てでした。注文時に番号を打ち間違えたに違いありません。\nラヴィ・デサイ(午前11:05):まったく問題ありません。40番地はすぐそこです。5分で行けます。\nグレース・リム(午前11:06):それは安心しました。母は正午の誕生日ランチにお花を心待ちにしているので。\nラヴィ・デサイ(午前11:07):それなら時間は十分ですね。もし出てこられなければドアの前に置いておきます。\nグレース・リム(午前11:08):母は家にいます。解決してくださって本当にありがとうございます。",
+    "translation": "エルムウッド市——歩道回収リサイクルの変更\n\n4月6日(月)より、リサイクル回収を毎週から隔週に変更します。新しい回収日はお住まいの区域によります。\n- A・B区域:毎月第1・第3水曜日\n- C・D区域:毎月第2・第4水曜日\n\n区域は elmwood.gov/recycling で住所を入力するとわかります。\n\nスケジュール変更に合わせ、ガラス瓶を紙・プラスチックと分別することが必須になります。市は4月3日までに各世帯へ2つ目の青いごみ箱を無料でお届けします。ガラスは小さい箱に、その他の資源はこれまでの箱に入れてください。\n\n回収は引き続き午前7時に始まりますので、前夜のうちに箱を出しておいてください。",
     "questions": [
       {
-        "q": "Why did Mr. Desai contact Ms. Lim?",
+        "q": "What is the main purpose of the notice?",
         "choices": [
-          "To recommend a flower arrangement",
-          "To report a problem with a delivery",
-          "To confirm a payment",
-          "To reschedule an order"
-        ],
-        "answer": 1,
-        "explanation": "no one is answering the door(誰も出てこない)と届け先が違った件を伝えており、配達上の問題の報告。"
-      },
-      {
-        "q": "At 11:06 A.M., what does Ms. Lim most likely mean when she writes, \"That's a relief\"?",
-        "choices": [
-          "She is glad the flowers can still arrive on time.",
-          "She was worried about the price.",
-          "She no longer needs the flowers.",
-          "She will pick up the flowers herself."
+          "To inform residents of collection changes",
+          "To advertise a cleanup event",
+          "To report a service cancellation",
+          "To announce a new recycling fee"
         ],
         "answer": 0,
-        "explanation": "意図問題。直前でラヴィが『5分で行ける』と言い、直後に正午のランチに間に合うと述べているので、『間に合って安心』の意味。"
+        "explanation": "冒頭の『move from weekly to biweekly recycling collection(回収を隔週に変更)』が主題。住民への変更告知が目的。"
       },
       {
-        "q": "What caused the problem?",
+        "q": "What are residents asked to do?",
         "choices": [
-          "An incorrect address was entered.",
-          "The delivery arrived too early.",
-          "The shop ran out of flowers.",
-          "A payment did not go through."
+          "Collect the recyclables themselves",
+          "Choose their own collection day",
+          "Pay a delivery fee for a new bin",
+          "Separate glass from paper and plastic"
         ],
-        "answer": 0,
-        "explanation": "I must have typed the wrong number when I placed it(注文時に番号を打ち間違えた)が原因。"
+        "answer": 3,
+        "explanation": "『glass bottles must now be separated from paper and plastic』が根拠。2つ目の箱は無料なので(B)は誤り、回収日は区域で決まるので(A)も誤り。"
       }
     ]
   },
   {
     "id": "s5p7-05",
-    "title": "シングル 5(記事)",
+    "title": "シングル 5(オンラインチャット)",
     "passages": [
       {
-        "docType": "Article",
-        "text": "CEDAR FALLS (March 9) — Ironwood Brewery, a craft brewery founded in Cedar Falls eight years ago, announced on Monday that it will open a second location on the east side of town this autumn.\n\nThe new site, a former textile warehouse on Depot Road, will house a larger brewing facility and a 120-seat taproom. The company says the expansion will create about 35 jobs.\n\n\"Demand has outgrown our original brewery,\" said founder Nadia Brooks. \"The new taproom will also let us host live music and community events, which we've never had space for.\"\n\nIronwood's beers are currently sold in more than 60 restaurants across the region. Brooks said bottling for supermarket sale will begin at the new facility next year, allowing customers to buy Ironwood products at home for the first time.\n\nThe original taproom on Miller Street will remain open."
+        "docType": "Online chat",
+        "text": "Renee Coates (11:02 A.M.)\nGareth, Dr. Yuen's 11:30 patient just called — she's stuck in traffic and will be about 20 minutes late.\n\nGareth Sowande (11:03 A.M.)\nThat pushes into the 12:00 cleaning. Can we move the 12:00 to the afternoon?\n\nRenee Coates (11:04 A.M.)\nThe afternoon is fully booked. But Dr. Yuen has no one at 11:00 right now — that check-up was cancelled.\n\nGareth Sowande (11:05 A.M.)\nSo if the late patient still isn't here, we start the 12:00 cleaning early and slot her in afterward?\n\nRenee Coates (11:06 A.M.)\nExactly. I'll call the 12:00 patient and ask if she can come in 15 minutes sooner.\n\nGareth Sowande (11:07 A.M.)\nThat works. Let me know what she says."
       }
     ],
-    "translation": "シーダーフォールズ(3月9日)——8年前にシーダーフォールズで創業したクラフトビール醸造所アイアンウッド・ブルワリーは月曜日、今秋、町の東側に2号店を開くと発表した。\n\n新拠点はデポ通りにある元繊維倉庫で、より大きな醸造施設と120席のタップルームが入る。同社によれば、この拡大で約35人の雇用が生まれるという。\n\n『需要が元の醸造所の規模を超えてしまいました』と創業者のナディア・ブルックス氏は語る。『新しいタップルームでは、これまで場所がなくてできなかったライブ音楽や地域イベントも開けるようになります』\n\nアイアンウッドのビールは現在、地域の60を超えるレストランで販売されている。ブルックス氏によると、来年から新施設でスーパー向けの瓶詰めを始め、顧客が初めて自宅用にアイアンウッド製品を購入できるようになるという。\n\nミラー通りの元のタップルームは引き続き営業する。",
+    "translation": "リーニー・コーツ(午前11:02):ガレス、ユエン先生の11時30分の患者さんから今電話があったの——渋滞で20分ほど遅れるって。\nガレス・ソワンデ(午前11:03):それだと12時のクリーニングに食い込むね。12時を午後に動かせる?\nリーニー・コーツ(午前11:04):午後は満杯なの。でも今ユエン先生は11時が空いてる——さっき検診がキャンセルになったから。\nガレス・ソワンデ(午前11:05):じゃあ遅れる患者さんがまだ来ていなければ、12時のクリーニングを早めに始めて、その後に彼女を入れる?\nリーニー・コーツ(午前11:06):その通り。12時の患者さんに電話して、15分早く来られるか聞いてみる。\nガレス・ソワンデ(午前11:07):それでいこう。返事がわかったら教えて。",
     "questions": [
       {
-        "q": "What is the article mainly about?",
+        "q": "Where do the writers most likely work?",
         "choices": [
-          "A new music festival in Cedar Falls",
-          "The closing of a textile warehouse",
-          "A change to local restaurant menus",
-          "A brewery's plan to open a second location"
-        ],
-        "answer": 3,
-        "explanation": "第1段落の『2号店を今秋開く』が記事全体の主題。"
-      },
-      {
-        "q": "What does Ms. Brooks say the new location will allow?",
-        "choices": [
-          "The hosting of community events",
-          "Shorter working hours",
-          "Free brewery tours",
-          "Lower beer prices"
+          "At a dental office",
+          "At a photography studio",
+          "At a bank",
+          "At a fitness center"
         ],
         "answer": 0,
-        "explanation": "let us host live music and community events(ライブや地域イベントを開ける)が根拠。"
+        "explanation": "『Dr. Yuen』『cleaning(歯のクリーニング)』『check-up(検診)』『patient』から歯科医院での勤務と判断できる。"
       },
       {
-        "q": "What does the article indicate about supermarket sales?",
+        "q": "What problem are the writers discussing?",
         "choices": [
-          "They have already started.",
-          "They are limited to one store.",
-          "They will begin next year.",
-          "They have been canceled."
+          "A patient will arrive late.",
+          "A room is double-booked.",
+          "Some equipment is broken.",
+          "A staff member is absent."
         ],
-        "answer": 2,
-        "explanation": "bottling for supermarket sale will begin ... next year(スーパー向け瓶詰めは来年開始)が根拠。for the first time なので現状は未販売。"
+        "answer": 0,
+        "explanation": "冒頭の『she's stuck in traffic and will be about 20 minutes late(渋滞で20分遅れる)』が根拠。患者の遅刻が調整の発端。"
+      },
+      {
+        "q": "At 11:06 A.M., what does Ms. Coates most likely mean when she writes, \"Exactly\"?",
+        "choices": [
+          "She will not call the patient.",
+          "She agrees with Mr. Sowande's plan.",
+          "She wants to cancel the cleaning.",
+          "She has completed an appointment."
+        ],
+        "answer": 1,
+        "explanation": "意図問題。直前でガレスが『クリーニングを早め、その後に遅刻患者を入れる』案を示し、それに『Exactly(その通り)』と同意している。"
       }
     ]
   },
   {
     "id": "s5p7-06",
-    "title": "シングル 6(ウェブページ)",
+    "title": "シングル 6(記事)",
     "passages": [
       {
-        "docType": "Web page",
-        "text": "RIVERBEND BOTANICAL GARDEN — Become a Member\n\nA Riverbend membership gives you a full year of unlimited visits, plus a range of exclusive benefits.\n\nMembership levels:\n1. Individual ($45) — admission for one named member\n2. Dual ($75) — admission for two named adults\n3. Household ($95) — admission for two adults and all children under 16 living at the same address\n\nAll members enjoy 10% off in the garden shop and café, free entry to the summer evening concert series, and early booking for popular workshops.\n\nMembers also receive our quarterly magazine, Bloom, which features seasonal planting guides and behind-the-scenes stories from our horticulture team.\n\nJoin online or at the visitor center. Memberships also make a thoughtful gift — ask about our gift certificates at the front desk."
+        "docType": "Article",
+        "text": "MAPLETON (May 14) — The Mapleton Energy Cooperative switched on its new community solar array this week, a field of 4,000 panels on former grazing land east of town.\n\nUnlike rooftop panels, a community array lets residents who cannot install their own — renters, or those with shaded roofs — buy a share of the output. Members pay a one-time fee to reserve a portion of the panels and then receive a monthly credit on their electricity bill based on how much power their share generates.\n\n\"Demand has been remarkable,\" said cooperative director Ingrid Sato. \"We sold three-quarters of the shares within a month of opening the waiting list.\" The remaining shares are expected to sell out by autumn.\n\nThe cooperative estimates the array will supply enough electricity for roughly 700 homes and will offset about 2,000 tons of carbon dioxide each year. A second phase, doubling the number of panels, is planned for next year if the first proves popular."
       }
     ],
-    "translation": "リバーベンド植物園——会員になる\n\nリバーベンドの会員になると、1年間の入園回数無制限に加え、さまざまな特典が受けられます。\n\n会員種別:\n1. 個人(45ドル)——登録した本人1名の入園\n2. デュアル(75ドル)——登録した成人2名の入園\n3. 世帯(95ドル)——同一住所に住む成人2名と16歳未満の子ども全員の入園\n\n全会員が、園内ショップとカフェで10%オフ、夏の夜間コンサートシリーズへの無料入場、人気ワークショップの先行予約を利用できます。\n\n会員には季刊誌『ブルーム』もお届けします。季節ごとの植栽ガイドや、園芸チームの舞台裏の話が載っています。\n\nご入会はオンラインまたはビジターセンターで。会員権は気の利いた贈り物にもなります——ギフト券については受付でお尋ねください。",
+    "translation": "メープルトン(5月14日)——メープルトン・エネルギー協同組合は今週、町の東側の元牧草地に設置した4,000枚のパネルからなる新しい共同ソーラー発電設備の運転を開始した。\n\n屋根置きのパネルと違い、共同発電設備は、自分では設置できない住民——賃貸住まいの人や屋根が日陰の人——が発電量の持ち分を買えるようにする。会員は一度きりの費用を払ってパネルの一部を確保し、その後は自分の持ち分の発電量に応じて毎月電気料金の割引を受ける。\n\n『需要は目を見張るものがあります』と組合ディレクターのイングリッド・サトウ氏は語った。『待機リストを公開してから1か月で持ち分の4分の3が売れました』。残りの持ち分は秋までに完売する見込みだ。\n\n組合は、この設備が約700世帯分の電力を供給し、年間およそ2,000トンの二酸化炭素を相殺すると見積もっている。第1期が好評なら、パネル数を倍増させる第2期を来年計画している。",
     "questions": [
       {
-        "q": "What is included with the Household membership but not the Dual membership?",
+        "q": "What is the article mainly about?",
         "choices": [
-          "The quarterly magazine",
-          "Entry to the concert series",
-          "Admission for children",
-          "A discount at the garden shop"
+          "The closure of a power plant",
+          "The opening of a community solar project",
+          "A new rooftop-panel regulation",
+          "A rise in local electricity prices"
         ],
-        "answer": 2,
-        "explanation": "世帯会員のみ all children under 16 の入園が含まれる。ショップ割引・雑誌・コンサートは全会員共通なのでひっかけ。"
+        "answer": 1,
+        "explanation": "第1段落の『switched on its new community solar array(共同ソーラー設備の運転開始)』が記事全体の主題。"
       },
       {
-        "q": "The word \"exclusive\" in paragraph 1 is closest in meaning to",
+        "q": "The word \"offset\" in paragraph 4 is closest in meaning to",
         "choices": [
-          "special",
-          "recent",
-          "distant",
-          "costly"
-        ],
-        "answer": 0,
-        "explanation": "語彙問題。exclusive benefits は『会員だけが受けられる特別な特典』の意味なので special が最も近い。"
-      },
-      {
-        "q": "What is suggested about a membership?",
-        "choices": [
-          "It includes free parking.",
-          "It is only for local residents.",
-          "It must be renewed every month.",
-          "It can be purchased as a gift."
+          "measure",
+          "release",
+          "postpone",
+          "counterbalance"
         ],
         "answer": 3,
-        "explanation": "Memberships also make a thoughtful gift ... gift certificates(贈り物にできる・ギフト券あり)が根拠。1年有効なので毎月更新ではない。"
+        "explanation": "語彙問題。ここでの offset は二酸化炭素を『相殺する』意味で、counterbalance(埋め合わせる)が最も近い。release(放出する)は逆の意味のひっかけ。"
+      },
+      {
+        "q": "What is indicated about the shares?",
+        "choices": [
+          "Most have already been sold.",
+          "They are available only to homeowners.",
+          "They are given away for free.",
+          "They must be renewed each month."
+        ],
+        "answer": 0,
+        "explanation": "『We sold three-quarters of the shares within a month(1か月で4分の3が売れた)』が根拠。賃貸住まいの人も買えるので(C)は誤り、費用は一度きりなので(D)も誤り。"
       }
     ]
   },
   {
     "id": "s5p7-07",
-    "title": "シングル 7(オンラインチャット)",
+    "title": "シングル 7(Eメール)",
     "passages": [
       {
-        "docType": "Online chat",
-        "text": "Owen Pratt (3:31 P.M.)\nHi Dana, the shared printer on the fourth floor keeps showing \"offline.\" I've got contracts to print before a 4 o'clock meeting.\n\nDana Fitz (3:32 P.M.)\nIs it just your computer, or can no one print?\n\nOwen Pratt (3:33 P.M.)\nI asked around — nobody on the floor can print to it.\n\nDana Fitz (3:34 P.M.)\nSounds like the printer itself, then. I'll restart it from here. Try again in two minutes.\n\nOwen Pratt (3:35 P.M.)\nYou read my mind. Fingers crossed."
+        "docType": "E-mail",
+        "text": "From: Sabine Reyes, Willowlight Photography\nTo: Marcus Deng\nSubject: Your family portrait session — details\nDate: October 2\n\nDear Mr. Deng,\n\nThank you for booking a family portrait session for Saturday, October 18, at 4 P.M. I chose that time because the soft evening light at Corliss Park is ideal for outdoor portraits.\n\nA few tips to help the session go smoothly:\n1. Coordinated colors photograph better than matching outfits — think of a single palette rather than identical shirts.\n2. Please arrive about ten minutes early so the children can get comfortable before we begin.\n3. If it rains, we will move the session indoors to my studio on Barrow Street; I will text you by noon that day to confirm the location.\n\nYour package includes one hour of shooting and 30 edited digital images, delivered within two weeks. Printed products can be ordered separately from your online gallery.\n\nLooking forward to it,\nSabine Reyes"
       }
     ],
-    "translation": "オーウェン・プラット(午後3:31):やあダナ、4階の共用プリンターがずっと『オフライン』と表示されるんだ。4時の会議までに契約書を印刷しないといけなくて。\nダナ・フィッツ(午後3:32):あなたのパソコンだけ? それとも誰も印刷できないの?\nオーウェン・プラット(午後3:33):周りに聞いたけど、このフロアの誰も印刷できないんだ。\nダナ・フィッツ(午後3:34):それならプリンター自体の問題ね。こっちから再起動するわ。2分後にもう一度試してみて。\nオーウェン・プラット(午後3:35):まさにそれを言おうとしてたんだ。うまくいくといいな。",
+    "translation": "差出人:サビーヌ・レイエス(ウィローライト・フォトグラフィー)\n宛先:マーカス・デン\n件名:家族ポートレート撮影の詳細\n日付:10月2日\n\nデン様\n\n10月18日(土)午後4時の家族ポートレート撮影のご予約ありがとうございます。コーリス公園の夕方の柔らかな光は屋外ポートレートに最適なので、その時間を選びました。\n\n撮影を円滑に進めるためのコツをいくつか。\n1. 揃いの服より、色を合わせるほうがきれいに写ります——同じシャツより一つの色調でまとめることを意識してください。\n2. 撮影前にお子様が慣れられるよう、10分ほど早めにお越しください。\n3. 雨の場合は、バロー通りの私のスタジオへ室内で移して行います。当日正午までに場所を確認するメッセージをお送りします。\n\nプランには1時間の撮影と編集済みデジタル写真30枚が含まれ、2週間以内にお渡しします。プリント商品はオンラインギャラリーから別途ご注文いただけます。\n\nどうぞよろしく。\nサビーヌ・レイエス",
     "questions": [
       {
-        "q": "Why did Mr. Pratt contact Ms. Fitz?",
+        "q": "Why did Ms. Reyes send the e-mail?",
         "choices": [
-          "To ask for a document",
-          "To order a new printer",
-          "To report a printer problem",
-          "To cancel a meeting"
+          "To reschedule a booking",
+          "To provide details about an upcoming session",
+          "To request advance payment",
+          "To promote a seasonal discount"
         ],
-        "answer": 2,
-        "explanation": "the shared printer ... keeps showing \"offline\"(プリンターがオフライン表示)という不具合の報告が目的。"
+        "answer": 1,
+        "explanation": "予約済みの撮影について時間の理由・当日のコツ・雨天対応など詳細を伝えている。案内・詳細提供が目的。"
       },
       {
-        "q": "At 3:35 P.M., what does Mr. Pratt most likely mean when he writes, \"You read my mind\"?",
+        "q": "What does Ms. Reyes recommend?",
         "choices": [
-          "He will arrive at the meeting late.",
-          "He wants Ms. Fitz to guess a password.",
-          "He has already restarted the printer.",
-          "He was about to suggest the same solution."
+          "Wearing identical shirts",
+          "Choosing a single color palette",
+          "Bringing printed photos",
+          "Arriving after the start time"
+        ],
+        "answer": 1,
+        "explanation": "『think of a single palette rather than identical shirts(同じシャツより一つの色調で)』が根拠。identical shirts はひっかけ。"
+      },
+      {
+        "q": "What will happen if it rains?",
+        "choices": [
+          "The session will be cancelled.",
+          "The fee will be refunded.",
+          "The session will be held on Sunday.",
+          "The session will move to a studio."
         ],
         "answer": 3,
-        "explanation": "意図問題。直前でダナが『再起動する』と提案しており、それにオーウェンが『まさにそれを言おうとしていた』=同じ解決策を考えていた、という同意の意味。"
+        "explanation": "『If it rains, we will move the session indoors to my studio(雨ならスタジオへ室内で移す)』が根拠。中止や延期ではない。"
       }
     ]
   },
@@ -318,89 +318,89 @@ window.TOEIC_DATA_5.part7 = [
     "passages": [
       {
         "docType": "Letter",
-        "text": "Dear Mr. Halloran,\n\nWe are writing to inform you of planned maintenance work at Brixton Court, where you are a tenant in apartment 3B.\n\nBeginning Monday, May 12, contractors will replace the water pipes serving the building. The work is expected to last two weeks. During this period, the water supply will be shut off each weekday between 9 A.M. and 3 P.M. Water will be available as normal on evenings and weekends.\n\nWe recommend storing drinking water for use during the daytime shut-off. Bathroom facilities on the ground floor will remain connected to a temporary supply and may be used by any resident when needed.\n\nWe regret any inconvenience. As a gesture of goodwill, all tenants will receive a 5% reduction on May's rent, which will be applied automatically.\n\nIf you have any concerns, please contact the building office at the number below.\n\nSincerely,\nTeresa Vaughn\nBrixton Court Management"
+        "text": "Dear Ms. Albright,\n\nWelcome to Northgate Physiotherapy. Thank you for choosing our clinic for your rehabilitation, and we look forward to helping you recover after your knee surgery.\n\nYour first appointment is confirmed for Thursday, February 12, at 10:00 A.M. with Ms. Petra Vance, one of our senior physiotherapists. Please plan to arrive fifteen minutes early to complete a short health questionnaire, and wear loose clothing that allows easy movement of the knee.\n\nIf your doctor has given you a referral letter or imaging results, please bring them to this first visit, as they help us design the right program for you. There is no need to bring your own exercise equipment.\n\nFree parking is available behind the building; enter from Sennett Lane. Should you need to change your appointment, kindly give us at least 24 hours' notice.\n\nWarm regards,\nDaniel Frost\nPatient Coordinator, Northgate Physiotherapy"
       }
     ],
-    "translation": "ハロラン様\n\nあなたが3B号室の入居者であるブリクストン・コートにて、予定されているメンテナンス工事についてお知らせいたします。\n\n5月12日(月)より、業者が建物の給水管を交換します。工事は2週間続く見込みです。この期間中、給水は平日の午前9時から午後3時まで停止します。夜間と週末は通常通り水が使えます。\n\n日中の断水に備えて、飲料水を蓄えておくことをお勧めします。1階の浴室設備は仮設の給水につながったままなので、必要なときにどの入居者もご利用いただけます。\n\nご不便をおかけし申し訳ありません。お詫びのしるしとして、全入居者に5月分家賃の5%減額を自動的に適用いたします。\n\nご心配な点があれば、下記の番号で管理事務所までご連絡ください。\n\n敬具\nテレサ・ヴォーン\nブリクストン・コート管理事務所",
+    "translation": "オルブライト様\n\nノースゲート理学療法へようこそ。リハビリに当院をお選びいただきありがとうございます。膝の手術後の回復をお手伝いできることを楽しみにしています。\n\n初回のご予約は2月12日(木)午前10時、当院の上級理学療法士ペトラ・ヴァンスとで確定しています。簡単な健康アンケートにご記入いただくため15分ほど早めにお越しになり、膝を動かしやすいゆったりした服装でお願いします。\n\n医師から紹介状や画像検査の結果を受け取っている場合は、適切なプログラム作成に役立ちますので、この初回にお持ちください。運動器具をご自身で持参する必要はありません。\n\n無料駐車場は建物の裏にあり、セネット通りからお入りください。ご予約の変更が必要な場合は、少なくとも24時間前までにご連絡ください。\n\n敬具\nダニエル・フロスト\nノースゲート理学療法 患者コーディネーター",
     "questions": [
       {
         "q": "Why was the letter written?",
         "choices": [
-          "To announce a rent increase",
-          "To request a lease renewal",
-          "To advertise available apartments",
-          "To inform a tenant of upcoming repairs"
+          "To confirm a first appointment with a new patient",
+          "To bill a patient for past treatment",
+          "To offer a job to a physiotherapist",
+          "To cancel a scheduled surgery"
         ],
-        "answer": 3,
-        "explanation": "to inform you of planned maintenance work(予定されたメンテナンス工事の連絡)が目的。家賃は減額なので(A)は誤り。"
+        "answer": 0,
+        "explanation": "『Welcome to ...』『Your first appointment is confirmed ...』から、新規患者への歓迎と初回予約の確認が目的。"
       },
       {
-        "q": "When will water be unavailable?",
+        "q": "What is Ms. Albright asked to bring?",
         "choices": [
-          "On weekday evenings",
-          "On weekday mornings and afternoons",
-          "On weekends only",
-          "At all times for two weeks"
+          "A parking permit",
+          "A referral letter or imaging results",
+          "Her own exercise equipment",
+          "Payment in cash"
         ],
         "answer": 1,
-        "explanation": "shut off each weekday between 9 A.M. and 3 P.M.(平日9時〜15時=午前と午後)が根拠。夜間と週末は通常通り。"
+        "explanation": "『please bring them(=a referral letter or imaging results)』が根拠。運動器具は不要と明記されているので(A)はひっかけ。"
       },
       {
-        "q": "What will tenants receive?",
+        "q": "What is indicated about parking?",
         "choices": [
-          "A store gift certificate",
-          "A reduction on May's rent",
-          "A new water heater",
-          "A free parking space"
+          "It requires an advance reservation.",
+          "It is free and located behind the building.",
+          "It costs a small daily fee.",
+          "It is unavailable to patients."
         ],
         "answer": 1,
-        "explanation": "all tenants will receive a 5% reduction on May's rent(5月分家賃の5%減額)が根拠。"
+        "explanation": "『Free parking is available behind the building(建物の裏に無料駐車場)』が根拠。予約や料金の記述はない。"
       }
     ]
   },
   {
     "id": "s5p7-09",
-    "title": "シングル 9(レビュー)",
+    "title": "シングル 9(ウェブページ)",
     "passages": [
       {
-        "docType": "Review",
-        "text": "Reviewed: Saffron Table (Newport Road)\nRating: 4 out of 5 — Reviewer: Marcus T.\n\nI visited Saffron Table last Friday with three colleagues after reading about it online. We booked a table for 7 P.M. and were seated right away, which was a good start on a busy evening.\n\nThe food was the highlight. The lamb curry and vegetable biryani were excellent, and portions were generous. Prices were reasonable for the quality — our bill came to about $25 per person including drinks.\n\nService was friendly, though a little slow between courses, probably because the room was full. The dining room was also quite loud, so it wasn't ideal for a quiet conversation.\n\nI would happily return, perhaps on a weeknight when it may be calmer. I'd recommend booking ahead, as walk-in tables looked hard to come by."
+        "docType": "Web page",
+        "text": "RIVERBEND COMMUNITY GARDENS — Plot Rentals for the Growing Season\n\nRiverbend offers 60 garden plots for residents who want to grow their own vegetables, herbs, and flowers but lack space at home. The growing season runs from April through October.\n\nPlot sizes and annual fees:\n1. Standard plot (3m x 3m) — $45\n2. Large plot (3m x 6m) — $80\n3. Raised accessible plot (waist-height, for gardeners with limited mobility) — $60\n\nAll plots come with access to shared tools, compost, and a water tap. Gardeners are asked to keep their plots tidy and to volunteer for at least four hours of communal upkeep, such as maintaining pathways, over the season.\n\nDemand is high, and plots are allotted on a first-come basis. Rentals open February 1. A short waiting list operates once all plots are taken, and we will notify you promptly if a plot becomes free."
       }
     ],
-    "translation": "レビュー対象:サフラン・テーブル(ニューポート通り)\n評価:5点満点中4点——レビュー投稿者:マーカスT\n\n先週の金曜、ネットで見て気になり、同僚3人とサフラン・テーブルを訪れました。19時に予約し、混んでいる夜にもかかわらずすぐに案内され、幸先の良いスタートでした。\n\n料理が一番の魅力でした。ラムカレーと野菜のビリヤニは素晴らしく、量もたっぷり。品質に対して値段も手頃で、飲み物込みで1人およそ25ドルでした。\n\n接客は親切でしたが、コースの合間が少し遅めでした。おそらく満席だったせいでしょう。店内はかなり騒がしく、静かに会話したい人には向きません。\n\nまた喜んで行きたいです。もう少し落ち着いていそうな平日の夜にでも。予約を勧めます。飛び込みの席は取りにくそうでしたから。",
+    "translation": "リバーベンド・コミュニティガーデン——栽培シーズンの区画レンタル\n\nリバーベンドは、自宅に場所がないが自分で野菜・ハーブ・花を育てたい住民のために60の区画を用意しています。栽培シーズンは4月から10月までです。\n\n区画の広さと年間料金:\n1. 標準区画(3m×3m):45ドル\n2. 大区画(3m×6m):80ドル\n3. レイズド式バリアフリー区画(腰の高さ、体を動かしにくい方向け):60ドル\n\nすべての区画で、共用の道具・堆肥・水道が利用できます。区画を清潔に保ち、シーズン中に通路の整備など共同管理を最低4時間手伝っていただくようお願いします。\n\n需要が高く、区画は先着順で割り当てます。レンタル受付は2月1日開始。全区画が埋まると短い待機リストで運用し、空きが出たら速やかにお知らせします。",
     "questions": [
       {
-        "q": "Why did Marcus visit Saffron Table?",
+        "q": "What is offered on the Web page?",
         "choices": [
-          "To attend a cooking class",
-          "To celebrate a colleague's birthday",
-          "After reading about it online",
-          "To meet the owner"
+          "Landscaping services",
+          "Gardening classes",
+          "Garden plots for rent",
+          "Plants for sale"
         ],
         "answer": 2,
-        "explanation": "after reading about it online(ネットで見て)が来店のきっかけ。"
+        "explanation": "『offers 60 garden plots ... Plot Rentals(区画レンタル)』が根拠。授業やサービス、植物販売ではない。"
       },
       {
-        "q": "What does Marcus NOT mention as a drawback?",
+        "q": "What are gardeners asked to do?",
         "choices": [
-          "Slow service between courses",
-          "Difficulty getting a walk-in table",
-          "High prices",
-          "A noisy dining room"
+          "Attend a training session",
+          "Pay a monthly fee",
+          "Volunteer for communal upkeep",
+          "Bring their own tools"
         ],
         "answer": 2,
-        "explanation": "NOT問題。遅めの接客・騒がしさ・飛び込み席の取りにくさは述べているが、値段は reasonable(手頃)と評価しているので『高い』は不満として挙げていない。"
+        "explanation": "『volunteer for at least four hours of communal upkeep(共同管理を最低4時間手伝う)』が根拠。道具は共用、料金は年額なので(A)(B)は誤り。"
       },
       {
-        "q": "What does Marcus recommend?",
+        "q": "The word \"allotted\" in paragraph 4 is closest in meaning to",
         "choices": [
-          "Visiting on the weekend",
-          "Ordering the biryani",
-          "Sitting outside",
-          "Making a reservation in advance"
+          "increased",
+          "assigned",
+          "returned",
+          "measured"
         ],
-        "answer": 3,
-        "explanation": "I'd recommend booking ahead(予約を勧める)が根拠。落ち着くのは平日の夜だと述べており週末は勧めていない。"
+        "answer": 1,
+        "explanation": "語彙問題。allotted(割り当てられる)= assigned。『first-come basis(先着順)』の文脈からも『配分・割り当て』の意味と分かる。"
       }
     ]
   },
@@ -410,339 +410,339 @@ window.TOEIC_DATA_5.part7 = [
     "passages": [
       {
         "docType": "Memo",
-        "text": "MEMO\nTo: All Riverside Office Staff\nFrom: Facilities Team\nDate: June 5\nRe: New recycling stations\n\nStarting Monday, June 9, the small bins under each desk will be removed and replaced with central recycling stations near the elevators on every floor. Each station has four clearly labeled containers: paper, plastic, cans, and general waste.\n\nThis change is part of our goal to cut landfill waste by 30% this year. Cleaning staff will no longer empty individual desk bins, so please take your own waste to the nearest station.\n\nConfidential documents should still go in the locked shredding boxes, not the paper container. The shredding boxes remain in their current spots by the printers.\n\nA short guide showing what belongs in each container will be posted above every station. Thank you for helping us make the office greener."
+        "text": "MEMO\nTo: All Faculty, School of Design\nFrom: Dr. Colleen Marsh, Associate Dean\nDate: August 25\nRe: Fall teaching-skills workshops\n\nThe center for teaching excellence will run four optional workshops this fall to help faculty refine their courses. All sessions are held in the Rowan Building, Room 210, from 3 to 5 P.M.\n\n1. September 9 — Writing clear assignment rubrics\n2. September 23 — Using classroom polling tools\n3. October 7 — Giving effective feedback on student work\n4. October 21 — Inclusive teaching practices\n\nFaculty who attend at least three of the four workshops will have a note added to their annual teaching record, which is considered during promotion review. Light refreshments will be served. Space is limited to 25 per session, so please reserve through the faculty portal.\n\nPlease note that these workshops replace the individual teaching consultations previously offered in the fall; those consultations will resume in the spring."
       }
     ],
-    "translation": "メモ\n宛先:リバーサイドオフィス全社員\n差出人:施設管理チーム\n日付:6月5日\n件名:新しいリサイクルステーション\n\n6月9日(月)より、各デスク下の小さなゴミ箱を撤去し、各フロアのエレベーター付近にある中央リサイクルステーションに置き換えます。各ステーションには、紙・プラスチック・缶・一般ごみと明記された4つの容器があります。\n\nこの変更は、今年の埋立ごみを30%削減するという目標の一環です。清掃スタッフは個々のデスクのゴミ箱を回収しなくなるので、各自でごみを最寄りのステーションまでお持ちください。\n\n機密書類は、紙の容器ではなく、これまで通り施錠されたシュレッダーボックスへ。シュレッダーボックスはプリンター横の現在の場所のままです。\n\n各容器に何を入れるかを示す簡単なガイドを、全ステーションの上に掲示します。オフィスをより環境に優しくするためのご協力をお願いします。",
+    "translation": "メモ\n宛先:デザイン学部 全教員\n差出人:コリーン・マーシュ博士(副学部長)\n日付:8月25日\n件名:秋の授業スキル・ワークショップ\n\n教育向上センターが、教員の授業改善を助けるため、この秋に任意参加のワークショップを4回開催します。全セッションはローワン館210号室、午後3時〜5時です。\n\n1. 9月9日——分かりやすい課題ルーブリックの作成\n2. 9月23日——授業内投票ツールの活用\n3. 10月7日——学生の成果への効果的なフィードバック\n4. 10月21日——インクルーシブな教育実践\n\n4回中3回以上に出席した教員は、年次教育記録に記載が加わり、昇進審査で考慮されます。軽食を用意します。各回定員25名のため、教員ポータルからご予約ください。\n\nなお、これらのワークショップは、これまで秋に行っていた個別授業相談の代わりです。個別相談は春に再開します。",
     "questions": [
       {
         "q": "What is the purpose of the memo?",
         "choices": [
-          "To announce a new recycling system",
-          "To report a cleaning schedule",
-          "To request new office supplies",
-          "To introduce new staff members"
-        ],
-        "answer": 0,
-        "explanation": "デスク下のゴミ箱を中央リサイクルステーションに置き換えるという新方式の告知が主目的。"
-      },
-      {
-        "q": "What are employees now expected to do?",
-        "choices": [
-          "Empty their own desk bins each night",
-          "Label their desk drawers",
-          "Buy their own recycling bins",
-          "Take their waste to a central station"
-        ],
-        "answer": 3,
-        "explanation": "please take your own waste to the nearest station(各自で最寄りのステーションへ)が根拠。清掃スタッフは個別ゴミ箱を回収しない。"
-      },
-      {
-        "q": "Where should confidential documents be placed?",
-        "choices": [
-          "In the paper container",
-          "In a desk drawer",
-          "In the locked shredding boxes",
-          "In the general waste container"
+          "To change the academic calendar",
+          "To require attendance at a conference",
+          "To announce optional teaching workshops",
+          "To introduce a new dean"
         ],
         "answer": 2,
-        "explanation": "Confidential documents should still go in the locked shredding boxes(機密書類は施錠シュレッダーボックスへ)が根拠。紙の容器ではない点に注意。"
+        "explanation": "『will run four optional workshops this fall(任意のワークショップを4回開催)』が主題。任意なので(B)『出席必須の会議』は誤り。"
+      },
+      {
+        "q": "What is NOT a topic of the workshops?",
+        "choices": [
+          "Inclusive teaching practices",
+          "Using classroom polling tools",
+          "Grading final examinations",
+          "Writing assignment rubrics"
+        ],
+        "answer": 2,
+        "explanation": "NOT問題。一覧はルーブリック作成・投票ツール・フィードバック・インクルーシブ実践の4つ。『期末試験の採点』は含まれない。"
+      },
+      {
+        "q": "What is indicated about the fall teaching consultations?",
+        "choices": [
+          "They are open to students.",
+          "They will not be offered this fall.",
+          "They cost an extra fee.",
+          "They are held every week."
+        ],
+        "answer": 1,
+        "explanation": "『these workshops replace the individual teaching consultations ... those will resume in the spring(相談は代替され、春に再開)』から、この秋は行われないと分かる。"
       }
     ]
   },
   {
     "id": "s5p7-11",
-    "title": "ダブル 1(ウェブページ+Eメール)",
+    "title": "ダブル 1(お知らせ+Eメール)",
     "passages": [
       {
-        "docType": "Web page",
-        "text": "CORE & FLOW STUDIO — Class Packages\n\nDrop-in class: $18 each\n\nClass packages (valid 3 months):\n1. 5-class pack — $80 ($16 per class)\n2. 10-class pack — $150 ($15 per class)\n3. 20-class pack — $260 ($13 per class)\n\nUnlimited monthly membership: $120/month\n\nAll packages can be used for any class on our schedule: yoga, Pilates, spin, and barre. Packages are non-refundable but may be shared with one family member if that person is registered at the front desk.\n\nNew members: your first class is free. Simply create an account online and mention this offer at check-in."
+        "docType": "Notice",
+        "text": "WESTFORD ELECTRONICS RECYCLING DAY\nSaturday, June 14, 9 A.M.–2 P.M. — Westford Depot parking lot, 88 Kiln Road\n\nResidents may drop off old electronics for safe recycling. Most items are accepted free of charge, but a small handling fee applies to items that contain hazardous components:\n1. Small electronics (phones, cables, keyboards) — Free\n2. Computers and printers — Free\n3. Televisions and monitors — $12 each\n4. Refrigerators and air conditioners — $25 each\n\nWe cannot accept household batteries at this event; these are collected separately at the town hall year-round.\n\nProof of Westford residency (a utility bill or photo ID) is required. Items are dismantled on site by our certified partner, and reusable parts are refurbished rather than discarded. Questions? E-mail recycle@westford.gov."
       },
       {
         "docType": "E-mail",
-        "text": "From: Helen Ashby\nTo: info@coreandflow.com\nSubject: Class package question\nDate: January 6\n\nHello,\n\nI'm a new member and just used my free first class — the barre session was wonderful. I'd now like to buy a package.\n\nI plan to attend about twice a week, so I'm looking at the 20-class pack, which should last me roughly ten weeks. My sister may join me occasionally; can she really use my package if I register her, even though she lives at a different address?\n\nAlso, I noticed the package is valid for three months. Attending twice a week, will I have enough time to use all 20 classes?\n\nThank you,\nHelen Ashby"
+        "text": "From: Trevor Nakamura\nTo: recycle@westford.gov\nSubject: Recycling Day items\nDate: June 9\n\nHello,\n\nI plan to come to the recycling event on the 14th and want to confirm the cost. I have an old laptop, two broken monitors, and a small refrigerator to drop off. I also have a box of used household batteries — can I bring those as well?\n\nOne more question: I share an apartment and the utility bill is in my roommate's name. Would my driver's license showing my Westford address be enough as proof?\n\nThank you,\nTrevor Nakamura"
       }
     ],
-    "translation": "【ウェブページ】コア&フロー・スタジオ——クラスパッケージ\n\nドロップイン(単発):1回18ドル\n\nクラスパッケージ(有効期限3か月):\n1. 5回パック——80ドル(1回16ドル)\n2. 10回パック——150ドル(1回15ドル)\n3. 20回パック——260ドル(1回13ドル)\n\n通い放題の月額会員:月120ドル\n\nすべてのパッケージは、スケジュール上のどのクラス(ヨガ・ピラティス・スピン・バー)にも使えます。パッケージは返金不可ですが、受付で登録すれば家族1名と共有できます。\n\n新規会員:初回クラスは無料。オンラインでアカウントを作成し、受付でこの特典をお伝えください。\n\n【Eメール】\n差出人:ヘレン・アシュビー\n宛先:info@coreandflow.com\n件名:クラスパッケージについての質問\n日付:1月6日\n\nこんにちは。\n\n新規会員で、無料の初回クラスを使ったところです——バーのレッスンは素晴らしかったです。そこでパッケージを買いたいと思っています。\n\n週2回くらい通う予定なので、20回パックを検討中で、だいたい10週間くらいで使い切れそうです。姉が時々一緒に参加するかもしれません。住所が違っても、登録すれば本当に私のパッケージを使えますか?\n\nまた、パッケージの有効期限は3か月とのこと。週2回通って、20回すべて使い切る時間はありますか?\n\nよろしくお願いします。\nヘレン・アシュビー",
+    "translation": "【お知らせ】ウェストフォード電子機器リサイクルの日\n6月14日(土)午前9時〜午後2時——ウェストフォード集積所駐車場、キルン通り88番地\n\n住民は古い電子機器を安全なリサイクルのために持ち込めます。ほとんどの品目は無料ですが、有害な部品を含む品目には少額の取扱料がかかります。\n1. 小型電子機器(電話、ケーブル、キーボード):無料\n2. コンピューターとプリンター:無料\n3. テレビとモニター:1台12ドル\n4. 冷蔵庫とエアコン:1台25ドル\n\n本イベントでは家庭用電池は受け付けられません。これらは市庁舎で年間を通じて別途回収しています。\n\nウェストフォード在住の証明(公共料金の請求書または写真付き身分証)が必要です。品目は認定パートナーがその場で分解し、再利用可能な部品は廃棄せず再生します。ご質問は recycle@westford.gov まで。\n\n【Eメール】\n差出人:トレヴァー・ナカムラ\n宛先:recycle@westford.gov\n件名:リサイクルの日の品物\n日付:6月9日\n\nこんにちは。\n\n14日のリサイクルイベントに行く予定で、費用を確認したいです。古いノートパソコン1台、壊れたモニター2台、小型の冷蔵庫1台を持ち込みます。使用済みの家庭用電池も1箱あるのですが、これも持って行っていいですか?\n\nもう一つ、私はアパートをシェアしていて、公共料金の請求書はルームメイト名義です。ウェストフォードの住所が記載された運転免許証で証明として足りますか?\n\nよろしくお願いします。\nトレヴァー・ナカムラ",
     "questions": [
       {
-        "q": "What is true about the class packages?",
+        "q": "What is required to drop off items?",
         "choices": [
-          "They are valid for three months.",
-          "They can only be used for yoga.",
-          "They can be refunded within 30 days.",
-          "They include personal training."
+          "A recycling membership",
+          "An advance appointment",
+          "Proof of Westford residency",
+          "A completed online form"
         ],
-        "answer": 0,
-        "explanation": "ウェブページの packages (valid 3 months) が根拠。返金不可・全クラス利用可なので他は誤り。"
+        "answer": 2,
+        "explanation": "お知らせの『Proof of Westford residency ... is required(在住の証明が必要)』が根拠。予約や会員登録は求められていない。"
       },
       {
-        "q": "What can be concluded about Ms. Ashby's sister?",
+        "q": "In the notice, the word \"refurbished\" is closest in meaning to",
         "choices": [
-          "She lives at the same address as Ms. Ashby.",
-          "She can use the package if she is registered at the front desk.",
-          "She has attended the studio before.",
-          "She must buy her own package."
+          "returned",
+          "restored",
+          "removed",
+          "reduced"
         ],
         "answer": 1,
-        "explanation": "クロスリファレンス問題。ウェブページ『受付で登録すれば家族1名と共有可』+メール『姉を登録すれば使えるか(住所は別)』を突き合わせる。共有条件は登録であり住所は関係ないので、登録すれば使える。"
+        "explanation": "語彙問題。refurbished(再生される)= restored。『rather than discarded(廃棄する代わりに)』の対比からも『直して使う』意味と分かる。"
       },
       {
-        "q": "If Ms. Ashby buys the 20-class pack and uses all 20 classes, how much will she save compared with paying the drop-in rate?",
+        "q": "How much will Mr. Nakamura most likely pay for the items he plans to recycle?",
         "choices": [
-          "$100",
-          "$80",
-          "$110",
-          "$360"
-        ],
-        "answer": 0,
-        "explanation": "クロスリファレンス計算問題。ドロップイン18ドル×20回=360ドル、20回パックは260ドル。差額は360−260=100ドルの節約。"
-      },
-      {
-        "q": "What did Ms. Ashby do before writing the e-mail?",
-        "choices": [
-          "Registered her sister",
-          "Canceled her membership",
-          "Attended a free class",
-          "Bought a 10-class pack"
+          "$12",
+          "$37",
+          "$49",
+          "$25"
         ],
         "answer": 2,
-        "explanation": "just used my free first class(無料の初回クラスを使った)が根拠。"
+        "explanation": "クロスリファレンス・計算型。ノートパソコン=無料、モニター2台=12ドル×2=24ドル、冷蔵庫=25ドル。合計49ドル。電池はイベント対象外で加算しない。"
       },
       {
-        "q": "In the e-mail, the word \"roughly\" in paragraph 2 is closest in meaning to",
+        "q": "What will Mr. Nakamura be unable to do at the event?",
         "choices": [
-          "exactly",
-          "rarely",
-          "approximately",
-          "harshly"
+          "Drop off his laptop for free",
+          "Show his driver's license",
+          "Recycle the household batteries",
+          "Recycle the two monitors"
         ],
         "answer": 2,
-        "explanation": "語彙問題。roughly ten weeks は『およそ10週間』の意味なので approximately が最も近い。"
+        "explanation": "クロスリファレンス。メールで電池を持ち込みたいとあるが、お知らせに『cannot accept household batteries at this event(電池は本イベントでは受け付け不可)』とある。"
+      },
+      {
+        "q": "What does Mr. Nakamura ask about?",
+        "choices": [
+          "The event's closing time",
+          "Whether his ID will serve as proof of residency",
+          "How to refurbish a monitor",
+          "The cost of recycling batteries"
+        ],
+        "answer": 1,
+        "explanation": "メール後半の『Would my driver's license ... be enough as proof?(免許証で証明として足りるか)』が根拠。請求書がルームメイト名義のための質問。"
       }
     ]
   },
   {
     "id": "s5p7-12",
-    "title": "ダブル 2(請求書+Eメール)",
+    "title": "ダブル 2(ウェブページ+Eメール)",
     "passages": [
       {
-        "docType": "Invoice",
-        "text": "GREENLEAF CATERING — Invoice #4471\nBill to: Delta Marketing — Event date: April 22\n\nDescription:\n1. Sandwich platters × 4 — $40 each — $160\n2. Fruit trays × 3 — $25 each — $75\n3. Coffee service (30 people) — $90\n4. Delivery and setup — $50\nSubtotal — $375\nCorporate client discount (10%) — -$37.50\nTotal due — $337.50\n\nPayment due within 14 days of the event."
+        "docType": "Web page",
+        "text": "CLEARSKY PROFESSIONAL WEBINARS — Spring Series on Sustainable Business\n\nEach live webinar runs 90 minutes and includes a downloadable workbook. Register at clearsky.org.\n\n1. Measuring Your Carbon Footprint — March 5 — $30\n2. Green Supply Chains — March 12 — $30\n3. Financing Renewable Projects — March 19 — $45\n4. Sustainability Reporting — March 26 — $45\n\nRegister for all four webinars as a bundle for $120 and save. Groups of five or more from the same organization receive an additional 15% off the bundle price.\n\nCan't attend live? A recording is sent to all registrants within 48 hours, so you never miss a session."
       },
       {
         "docType": "E-mail",
-        "text": "From: Priscilla Vance, Delta Marketing\nTo: accounts@greenleafcatering.com\nSubject: Invoice #4471\nDate: April 24\n\nHello,\n\nThank you for catering our team event on April 22 — the food was a hit.\n\nI'm reviewing invoice #4471 and I think there may be an error. We ordered three sandwich platters, not four; one of your staff confirmed this when they set up. Could you please check and send a corrected invoice?\n\nEverything else looks right, including the 10% discount we receive as a regular client. Once I have the updated total, I'll arrange payment straight away.\n\nBest regards,\nPriscilla Vance"
+        "text": "From: Yolanda Pierce\nTo: register@clearsky.org\nSubject: Group registration\nDate: February 20\n\nHello,\n\nI'd like to register six people from our sustainability team for the full spring series. I understand there is a bundle price, and since we have more than five attendees from our organization, I believe we also qualify for the group discount.\n\nTwo of my colleagues have a scheduling conflict on March 19 and cannot join that session live. Will they still be able to access it? Also, are the workbooks provided in advance, or only during each session?\n\nThanks,\nYolanda Pierce"
       }
     ],
-    "translation": "【請求書】グリーンリーフ・ケータリング——請求書#4471\n請求先:デルタ・マーケティング——イベント日:4月22日\n\n内訳:\n1. サンドイッチプラッター×4——各40ドル——160ドル\n2. フルーツトレイ×3——各25ドル——75ドル\n3. コーヒーサービス(30名)——90ドル\n4. 配達・セッティング——50ドル\n小計——375ドル\n法人顧客割引(10%)——−37.50ドル\nお支払い合計——337.50ドル\n\nお支払いはイベントから14日以内に。\n\n【Eメール】\n差出人:プリシラ・ヴァンス(デルタ・マーケティング)\n宛先:accounts@greenleafcatering.com\n件名:請求書#4471\n日付:4月24日\n\nこんにちは。\n\n4月22日のチームイベントのケータリングをありがとうございました——料理は大好評でした。\n\n請求書#4471を確認していて、誤りがあるように思います。サンドイッチプラッターは4つではなく3つの注文でした。セッティングの際にスタッフの方も確認してくれています。ご確認のうえ、訂正した請求書をお送りいただけますか?\n\n他は、常連客としての10%割引も含め、正しいようです。更新後の合計が分かり次第、すぐにお支払いを手配します。\n\nよろしくお願いします。\nプリシラ・ヴァンス",
+    "translation": "【ウェブページ】クリアスカイ・プロフェッショナル・ウェビナー——持続可能なビジネスに関する春シリーズ\n\n各ライブウェビナーは90分で、ダウンロード可能なワークブックが付きます。申込は clearsky.org。\n\n1. 自社の二酸化炭素排出量を測る——3月5日——30ドル\n2. グリーンなサプライチェーン——3月12日——30ドル\n3. 再生可能プロジェクトの資金調達——3月19日——45ドル\n4. サステナビリティ報告——3月26日——45ドル\n\n4本すべてをバンドルで申し込むと120ドルでお得です。同一組織から5名以上のグループは、バンドル価格からさらに15%オフになります。\n\nライブに参加できませんか? 録画は全登録者に48時間以内に送られるので、セッションを見逃しません。\n\n【Eメール】\n差出人:ヨランダ・ピアース\n宛先:register@clearsky.org\n件名:グループ登録\n日付:2月20日\n\nこんにちは。\n\n当社のサステナビリティチームから6名を春シリーズ全体に登録したいです。バンドル価格があるのは理解しており、組織から5名を超える参加者がいるので、グループ割引も適用されると思います。\n\n同僚2名は3月19日に予定が重なり、そのセッションにライブで参加できません。それでもアクセスできますか? また、ワークブックは事前に配布されますか、それとも各セッション中だけですか?\n\nよろしくお願いします。\nヨランダ・ピアース",
     "questions": [
       {
-        "q": "What service besides food is listed on the invoice?",
+        "q": "What is indicated about the webinars?",
         "choices": [
-          "Photography",
-          "Delivery and setup",
-          "Live music",
-          "Furniture rental"
-        ],
-        "answer": 1,
-        "explanation": "請求書の Delivery and setup — $50 が根拠。"
-      },
-      {
-        "q": "What error does Ms. Vance mention?",
-        "choices": [
-          "The delivery fee was too high.",
-          "The discount was not applied.",
-          "The event date is wrong.",
-          "She was charged for too many sandwich platters."
-        ],
-        "answer": 3,
-        "explanation": "クロスリファレンス問題。請求書はプラッター×4だが、メールで『注文は3つ』と指摘している。数量の食い違い。"
-      },
-      {
-        "q": "If the invoice is corrected, what will the new total be?",
-        "choices": [
-          "$297.50",
-          "$301.50",
-          "$337.50",
-          "$310.00"
-        ],
-        "answer": 1,
-        "explanation": "計算型クロスリファレンス。プラッター1つ分40ドルを引くと小計335ドル、10%割引で−33.50ドル、合計301.50ドル。"
-      },
-      {
-        "q": "By when was payment originally due?",
-        "choices": [
-          "On the event date",
-          "By May 6",
-          "Within 30 days",
-          "By April 24"
-        ],
-        "answer": 1,
-        "explanation": "計算問題。Payment due within 14 days of the event(イベント4月22日から14日以内)なので5月6日まで。"
-      },
-      {
-        "q": "In the e-mail, the phrase \"a hit\" in paragraph 1 is closest in meaning to",
-        "choices": [
-          "very popular",
-          "surprising",
-          "expensive",
-          "difficult"
+          "A recording is provided to registrants.",
+          "They are free for groups.",
+          "They last three hours each.",
+          "They are held in person."
         ],
         "answer": 0,
-        "explanation": "語彙問題。the food was a hit は『料理が大好評だった』の意味なので very popular が最も近い。"
+        "explanation": "ウェブページの『A recording is sent to all registrants within 48 hours』が根拠。各回90分なので(C)は誤り、グループは割引で無料ではないので(D)も誤り。"
+      },
+      {
+        "q": "Why does Ms. Pierce's group qualify for the additional discount?",
+        "choices": [
+          "They have more than five attendees from one organization.",
+          "They are a nonprofit organization.",
+          "They registered before a deadline.",
+          "They chose the premium series."
+        ],
+        "answer": 0,
+        "explanation": "クロスリファレンス。ウェブページ『5名以上のグループは追加15%オフ』+メール『6名を登録・5名を超える』を突き合わせる。"
+      },
+      {
+        "q": "How much will each person in Ms. Pierce's group pay for the bundle?",
+        "choices": [
+          "$120",
+          "$108",
+          "$138",
+          "$102"
+        ],
+        "answer": 3,
+        "explanation": "クロスリファレンス・計算型。バンドルは1人120ドル、5名以上で15%オフ。120×0.85=102ドル。"
+      },
+      {
+        "q": "What is suggested about the two colleagues with a conflict on March 19?",
+        "choices": [
+          "They must attend a later series.",
+          "They will lose access to that session.",
+          "They will receive a refund.",
+          "They can watch the recording afterward."
+        ],
+        "answer": 3,
+        "explanation": "クロスリファレンス。メールの『3月19日にライブで参加できない』+ウェブページの『録画を全登録者に送付』から、後で録画を見られると分かる。"
+      },
+      {
+        "q": "What does Ms. Pierce ask about?",
+        "choices": [
+          "The location of the venue",
+          "The price of a single webinar",
+          "Whether the workbooks are available in advance",
+          "How to cancel a registration"
+        ],
+        "answer": 2,
+        "explanation": "メール末尾の『are the workbooks provided in advance ...?(ワークブックは事前配布か)』が根拠。"
       }
     ]
   },
   {
     "id": "s5p7-13",
-    "title": "トリプル 1(価格表+Eメール+Eメール)",
+    "title": "トリプル 1(料金表+Eメール+Eメール)",
     "passages": [
       {
         "docType": "Price list",
-        "text": "STAGEPRO RENTALS — Event Equipment Price List (per day)\n1. PA speaker system — $120\n2. Wireless microphone (each) — $15\n3. Projector and screen — $90\n4. LED uplighting (set of 8) — $70\n5. Portable stage (4m x 3m) — $200\n\nDelivery within the city: $40 each way. Setup by our crew: $60 (optional; equipment can also be collected from our depot at no charge).\n\nBookings of $400 or more in equipment receive a 15% discount. Weekend bookings must be reserved at least one week in advance."
+        "text": "AURELIA STUDIOS — Event Photography Packages\n\n1. Bronze — 2 hours of coverage, 100 edited photos — $400\n2. Silver — 4 hours of coverage, 250 edited photos, online gallery — $650\n3. Gold — 6 hours of coverage, 400 edited photos, online gallery, printed album — $950\n\nOptional add-ons (any package):\n- Second photographer — $180\n- Same-day preview slideshow — $120\n- Extra hour of coverage — $90 per hour\n\nA 50% deposit secures your date; the balance is due one week before the event. Bookings made more than three months ahead receive a 10% discount on the package price (add-ons excluded)."
       },
       {
         "docType": "E-mail 1",
-        "text": "From: Nathan Cole, Aurora Nonprofit\nTo: bookings@stageprorentals.com\nDate: May 2\n\nHello,\n\nWe're holding a fundraising evening on Saturday, May 17, and would like to rent the following for one day:\n- 1 PA speaker system\n- 2 wireless microphones\n- 1 projector and screen\n- 1 set of LED uplighting\n\nWe'd like your crew to deliver and set everything up, then collect it afterward. Could you confirm the total cost? As a registered nonprofit, we're hoping the order qualifies for your discount.\n\nThank you,\nNathan Cole"
+        "text": "From: Harriet Blythe\nTo: bookings@aureliastudios.com\nSubject: Photography for our conference\nDate: April 3\n\nHello,\n\nWe're holding a two-day industry conference on August 20–21 and would like photography for the main day, August 20, from 9 A.M. to 3 P.M. I think the Silver package covers four hours, but our event runs six, so we'd need the option that matches that length.\n\nWe'd also like a second photographer to cover the breakout rooms. Since our event is more than three months away, I believe we qualify for the early-booking discount. Could you confirm the total and let me know how to pay the deposit?\n\nBest,\nHarriet Blythe"
       },
       {
         "docType": "E-mail 2",
-        "text": "From: StagePro Rentals\nTo: Nathan Cole\nDate: May 3\n\nDear Mr. Cole,\n\nThank you for your enquiry. Your equipment comes to $310 before extras. As this is under our $400 threshold, the 15% discount does not apply. I'm sorry for any confusion — the discount is based on equipment value, not on organization type.\n\nWith two-way delivery ($80) and crew setup ($60), your total comes to $450.\n\nPlease note that since May 17 is a Saturday, we'll need your confirmation by May 10. Let me know if you'd like to proceed.\n\nBest regards,\nStagePro Rentals"
+        "text": "From: Dominic Vale, Aurelia Studios\nTo: Harriet Blythe\nDate: April 5\n\nDear Ms. Blythe,\n\nThank you for your inquiry. For six hours of coverage on August 20, the Gold package is the best fit, as it includes exactly six hours. With your booking made more than three months ahead, the 10% early-booking discount applies to the package price.\n\nYou also requested a second photographer; please note that add-ons are not discounted. I'll send an invoice once you confirm, and a 50% deposit will secure August 20 on our calendar.\n\nWe'd be delighted to work with you.\n\nDominic Vale"
       }
     ],
-    "translation": "【価格表】ステージプロ・レンタル——イベント機材 価格表(1日あたり)\n1. PAスピーカーシステム——120ドル\n2. ワイヤレスマイク(1本)——15ドル\n3. プロジェクター＆スクリーン——90ドル\n4. LEDアップライト(8台セット)——70ドル\n5. 移動式ステージ(4m×3m)——200ドル\n\n市内配達:片道40ドル。当社スタッフによる設営:60ドル(任意。機材は当社倉庫での引き取りなら無料)。\n\n機材400ドル以上の予約は15%割引。週末の予約は最低1週間前までに。\n\n【Eメール1】(5月2日、ネイサン・コール→ステージプロ)\nこんにちは。5月17日(土)に募金イベントを開催予定で、以下を1日レンタルしたいです:PAスピーカー1式、ワイヤレスマイク2本、プロジェクター＆スクリーン1式、LEDアップライト1セット。御社スタッフに配達・設営と、終了後の引き取りをお願いしたいです。合計金額を教えていただけますか? 登録済みの非営利団体なので、割引の対象になればと思っています。\n\n【Eメール2】(5月3日、ステージプロ→ネイサン・コール)\nコール様、お問い合わせありがとうございます。機材は追加分を除いて310ドルです。当社の400ドルの基準を下回るため、15%割引は適用されません。紛らわしくて申し訳ありませんが、割引は団体の種類ではなく機材の金額で決まります。往復の配達(80ドル)とスタッフ設営(60ドル)を含めると、合計は450ドルになります。なお、5月17日は土曜のため、5月10日までにご確認が必要です。進めてよろしければお知らせください。",
+    "translation": "【料金表】オーレリア・スタジオ——イベント撮影パッケージ\n1. ブロンズ:2時間の撮影、編集済み写真100枚——400ドル\n2. シルバー:4時間の撮影、編集済み写真250枚、オンラインギャラリー——650ドル\n3. ゴールド:6時間の撮影、編集済み写真400枚、オンラインギャラリー、プリントアルバム——950ドル\n\n追加オプション(どのパッケージにも):\n- 2人目のカメラマン——180ドル\n- 当日プレビュー・スライドショー——120ドル\n- 撮影の延長——1時間90ドル\n\n50%の頭金で日程を確保、残金はイベント1週間前が支払期限。3か月以上前の予約はパッケージ価格が10%割引(オプションは対象外)。\n\n【Eメール1】(4月3日、ハリエット・ブライス→予約係)\n8月20〜21日に業界のカンファレンスを2日間開催し、メインの8月20日、午前9時〜午後3時の撮影をお願いしたいです。シルバーは4時間だと思いますが、当日は6時間なので、その長さに合う選択肢が必要です。分科会用に2人目のカメラマンもお願いしたいです。イベントは3か月以上先なので早期予約割引の対象だと思います。合計と頭金の支払方法を教えてください。\n\n【Eメール2】(4月5日、ドミニク・ヴェイル→ブライス)\nお問い合わせありがとうございます。8月20日の6時間撮影には、ちょうど6時間を含むゴールドが最適です。3か月以上前のご予約なので、パッケージ価格に10%の早期割引が適用されます。2人目のカメラマンもご希望ですが、オプションは割引対象外です。ご確認後に請求書をお送りし、50%の頭金で8月20日を確保します。ぜひご一緒できれば幸いです。",
     "questions": [
       {
-        "q": "What is offered at no extra charge?",
+        "q": "How can a client secure a booking date?",
         "choices": [
-          "Crew setup",
-          "Collecting equipment from the depot",
-          "A second microphone",
-          "Weekend delivery"
-        ],
-        "answer": 1,
-        "explanation": "価格表の equipment can also be collected from our depot at no charge(倉庫での引き取りは無料)が根拠。設営は60ドルの任意。"
-      },
-      {
-        "q": "Why does Mr. Cole's order NOT qualify for the discount?",
-        "choices": [
-          "It does not include delivery.",
-          "It is for a nonprofit organization.",
-          "The equipment total is under $400.",
-          "It was booked too late."
-        ],
-        "answer": 2,
-        "explanation": "クロスリファレンス問題。価格表『機材400ドル以上で15%割引』+Eメール2『機材310ドルで基準未満のため割引なし』を突き合わせる。"
-      },
-      {
-        "q": "What is the total cost of Mr. Cole's order?",
-        "choices": [
-          "$450",
-          "$310",
-          "$390",
-          "$435"
+          "By paying a 50% deposit",
+          "By signing a printed contract",
+          "By hiring two photographers",
+          "By paying in full"
         ],
         "answer": 0,
-        "explanation": "計算問題。機材310ドル＋往復配達80ドル＋設営60ドル=450ドル。Eメール2に明示されている。"
+        "explanation": "料金表の『A 50% deposit secures your date(50%の頭金で日程確保)』が根拠。メール2でも『a 50% deposit will secure August 20』と確認できる。"
       },
       {
-        "q": "By when must Mr. Cole confirm the booking?",
+        "q": "Which package will Ms. Blythe most likely book?",
         "choices": [
-          "May 3",
-          "May 17",
-          "May 10",
-          "May 24"
+          "Silver",
+          "Bronze",
+          "A custom package",
+          "Gold"
         ],
-        "answer": 2,
-        "explanation": "クロスリファレンス問題。価格表『週末予約は1週間前まで』+Eメール2『土曜なので5月10日までに確認が必要』が根拠(5月17日の1週間前)。"
+        "answer": 3,
+        "explanation": "クロスリファレンス。メール1『イベントは6時間』+メール2『6時間ならゴールドが最適』から、ゴールドを予約すると分かる。"
       },
       {
-        "q": "What does StagePro clarify to Mr. Cole?",
+        "q": "How much will Ms. Blythe pay for the package and the add-on together?",
         "choices": [
-          "Microphones are sold, not rented.",
-          "Setup is required for all orders.",
-          "The discount depends on equipment value, not organization type.",
-          "Delivery is free for nonprofits."
+          "$1,053",
+          "$855",
+          "$1,035",
+          "$950"
         ],
         "answer": 2,
-        "explanation": "Eメール2の the discount is based on equipment value, not on organization type(割引は機材の金額次第で団体の種類は無関係)が根拠。"
+        "explanation": "クロスリファレンス・計算型。ゴールド950ドルに10%割引=855ドル、これに2人目カメラマン180ドル(割引対象外)を足して1,035ドル。"
+      },
+      {
+        "q": "Why is Ms. Blythe eligible for the discount?",
+        "choices": [
+          "She booked more than three months in advance.",
+          "She chose the Gold package.",
+          "She added a second photographer.",
+          "She is a returning client."
+        ],
+        "answer": 0,
+        "explanation": "料金表『Bookings made more than three months ahead receive a 10% discount』+メールの日付(4月上旬)とイベント(8月)の間隔から、3か月以上前の予約が割引の理由。"
+      },
+      {
+        "q": "What does Mr. Vale say he will do?",
+        "choices": [
+          "Cancel the second photographer",
+          "Reschedule the event",
+          "Send an invoice after confirmation",
+          "Refund the deposit"
+        ],
+        "answer": 2,
+        "explanation": "メール2の『I'll send an invoice once you confirm(確認後に請求書を送る)』が根拠。"
       }
     ]
   },
   {
     "id": "s5p7-14",
-    "title": "トリプル 2(注文確認+Eメール+Eメール)",
+    "title": "トリプル 2(見積書+Eメール+Eメール)",
     "passages": [
       {
-        "docType": "Order confirmation",
-        "text": "FERNWOOD NURSERY — Order #A-3092\nDate: March 15 — Customer: Mr. Leon Marsh\n\nItems:\n1. Japanese maple sapling × 1 — $48\n2. Lavender plants × 6 — $9 each — $54\n3. Ceramic planter (large) — $38\n4. Bag of potting soil × 2 — $12 each — $24\nSubtotal — $164\nDelivery — $20\nTotal — $184\n\nDelivery scheduled for March 22. Plants are guaranteed for 30 days; contact us if any item arrives damaged."
+        "docType": "Estimate",
+        "text": "THORNWOOD GARDENS — Project Estimate #E-3390\nPrepared for: Mr. Elias Ward — 14 Cobb Street\nDate: March 2\n\n1. Remove old lawn and prepare soil — $600\n2. Install stone patio (20 sq. meters) — $2,400\n3. Plant flowering border (native shrubs) — $700\n4. Install drip irrigation — $500\nSubtotal — $4,200\n\nThis estimate is valid for 30 days. Work can begin two weeks after acceptance. Note: the stone patio and the irrigation cannot be installed in the same week, as the patio base must cure first. A 20% deposit is required to schedule the work."
       },
       {
         "docType": "E-mail 1",
-        "text": "From: Leon Marsh\nTo: help@fernwoodnursery.com\nDate: March 23\n\nHello,\n\nMy order #A-3092 arrived yesterday. Most of it is in great condition, but the ceramic planter was cracked in two places, and two of the six lavender plants were badly wilted and haven't recovered.\n\nI'd like a replacement planter if possible. For the two lavender plants, though, I'd prefer a refund rather than replacements, as I've already filled that bed with the healthy ones. Please let me know how to proceed.\n\nRegards,\nLeon Marsh"
+        "text": "From: Elias Ward\nTo: office@thornwoodgardens.com\nSubject: Estimate #E-3390\nDate: March 6\n\nHello,\n\nThank you for the estimate. The overall plan looks great, but my budget is a little tight this year. Could we remove the stone patio from the project for now and possibly add it next spring?\n\nAlso, my back garden gets very little sun in the afternoon. Are the native shrubs you've chosen suitable for shade? If not, I'd rather choose different plants before you order them. Please send an updated total for the remaining items.\n\nRegards,\nElias Ward"
       },
       {
         "docType": "E-mail 2",
-        "text": "From: Fernwood Nursery\nTo: Leon Marsh\nDate: March 24\n\nDear Mr. Marsh,\n\nWe're sorry your order arrived with damage. A new ceramic planter will be delivered free of charge on March 29; you may keep or dispose of the cracked one.\n\nFor the two lavender plants, we've issued a refund to your card at the per-plant price shown on your invoice. You should see it within three business days.\n\nWe've also added a $10 credit to your account for the inconvenience, which you can use on your next order. Thank you for your patience, and please don't hesitate to contact us if the replacement planter has any issues."
+        "text": "From: Bianca Holt, Thornwood Gardens\nTo: Elias Ward\nDate: March 7\n\nDear Mr. Ward,\n\nNo problem at all. Removing the patio leaves the lawn preparation, the flowering border, and the drip irrigation. I've updated your estimate accordingly and attached the new version.\n\nRegarding shade: the shrubs I originally selected do prefer full sun. For your afternoon-shaded garden I recommend hydrangeas and ferns instead, at the same price, so the border cost stays the same. Just confirm and I'll adjust the plant order.\n\nSince the patio is on hold, the curing issue no longer applies, and we can complete everything in a single week. A 20% deposit will secure your start date.\n\nBest,\nBianca Holt"
       }
     ],
-    "translation": "【注文確認】ファーンウッド・ナーサリー——注文#A-3092\n日付:3月15日——お客様:レオン・マーシュ様\n\n商品:\n1. モミジの苗木×1——48ドル\n2. ラベンダーの株×6——各9ドル——54ドル\n3. 陶器のプランター(大)——38ドル\n4. 培養土×2袋——各12ドル——24ドル\n小計——164ドル\n配送——20ドル\n合計——184ドル\n\nお届け予定:3月22日。植物は30日間保証。破損して届いた場合はご連絡ください。\n\n【Eメール1】(3月23日、レオン・マーシュ→ファーンウッド)\nこんにちは。注文#A-3092が昨日届きました。ほとんどは良好な状態ですが、陶器のプランターが2か所割れており、ラベンダー6株のうち2株がひどくしおれて回復しません。可能ならプランターの交換をお願いします。ただ、ラベンダー2株については、健康な株ですでにその花壇を埋めてしまったので、交換ではなく返金を希望します。どう進めればよいか教えてください。\n\n【Eメール2】(3月24日、ファーンウッド→レオン・マーシュ)\nマーシュ様、破損した状態で届いてしまい申し訳ありません。新しい陶器のプランターを3月29日に無料でお届けします。割れたものは保管も廃棄もご自由に。ラベンダー2株については、請求書の1株あたりの価格でカードに返金しました。3営業日以内に反映されます。お詫びとして、次回のご注文に使える10ドルのクレジットもアカウントに追加しました。お待たせして申し訳ありません。交換のプランターに問題があれば遠慮なくご連絡ください。",
+    "translation": "【見積書】ソーンウッド・ガーデンズ——プロジェクト見積 #E-3390\nお客様:イライアス・ウォード様——コブ通り14番地\n日付:3月2日\n\n1. 古い芝を撤去し土壌を整える——600ドル\n2. 石張りテラスの施工(20平方メートル)——2,400ドル\n3. 花の花壇を植える(在来低木)——700ドル\n4. 点滴灌漑の設置——500ドル\n小計——4,200ドル\n\nこの見積は30日間有効。作業は承認から2週間後に開始可能。注:石張りテラスと灌漑は同じ週には施工できません。テラスの基礎を先に固める必要があるためです。作業予約には20%の頭金が必要です。\n\n【Eメール1】(3月6日、ウォード→事務所)\n見積ありがとうございます。全体の計画は素晴らしいのですが、今年は予算が少し厳しいです。石張りテラスをいったん外し、来春に追加することは可能ですか? また、裏庭は午後ほとんど日が当たりません。選ばれた在来低木は日陰に向いていますか? そうでなければ、発注前に別の植物を選びたいです。残りの項目の更新後の合計を送ってください。\n\n【Eメール2】(3月7日、ホルト→ウォード)\nまったく問題ありません。テラスを外すと、芝の整備・花壇・点滴灌漑が残ります。それに合わせて見積を更新し、新版を添付しました。日陰について:最初に選んだ低木は日なたを好みます。午後日陰のお庭には、代わりに同じ価格のアジサイとシダをおすすめするので、花壇の費用は変わりません。ご確認いただければ植物の発注を調整します。テラスを保留にしたので、基礎を固める問題はなくなり、すべてを1週間で完了できます。20%の頭金で開始日を確保します。",
     "questions": [
       {
-        "q": "What is indicated about Fernwood Nursery's plants?",
+        "q": "According to the estimate, why can the patio and irrigation not be installed in the same week?",
         "choices": [
-          "They cannot be returned.",
-          "They come with a 30-day guarantee.",
-          "They are delivered the same day.",
-          "They are grown overseas."
+          "The plants must be ordered first.",
+          "The soil must be tested.",
+          "The patio base must cure first.",
+          "The two crews are unavailable."
         ],
-        "answer": 1,
-        "explanation": "注文確認の Plants are guaranteed for 30 days(30日間保証)が根拠。"
+        "answer": 2,
+        "explanation": "見積の注記『the patio base must cure first(テラスの基礎を先に固める必要がある)』が根拠。"
       },
       {
-        "q": "What does Mr. Marsh request for the lavender plants?",
+        "q": "What will the updated subtotal be after removing the patio?",
         "choices": [
-          "Replacement plants",
-          "A new delivery date",
-          "A larger planter",
-          "A refund"
-        ],
-        "answer": 3,
-        "explanation": "Eメール1の For the two lavender plants ... I'd prefer a refund(ラベンダーは返金希望)が根拠。プランターは交換を希望している点と区別。"
-      },
-      {
-        "q": "How much will Mr. Marsh be refunded for the lavender plants?",
-        "choices": [
-          "$9",
-          "$54",
-          "$27",
-          "$18"
-        ],
-        "answer": 3,
-        "explanation": "計算型クロスリファレンス。Eメール2『請求書の1株あたりの価格で返金』+注文確認『ラベンダーは各9ドル』。2株分で9×2=18ドル。"
-      },
-      {
-        "q": "What is Mr. Marsh told he can do with the cracked planter?",
-        "choices": [
-          "Return it for a refund",
-          "Keep or dispose of it",
-          "Send it back for repair",
-          "Exchange it at a store"
-        ],
-        "answer": 1,
-        "explanation": "Eメール2の you may keep or dispose of the cracked one(保管も廃棄も自由)が根拠。"
-      },
-      {
-        "q": "What did the nursery add for the inconvenience?",
-        "choices": [
-          "A $10 account credit",
-          "A 20% discount coupon",
-          "Free delivery for one year",
-          "An extra plant"
+          "$1,800",
+          "$4,200",
+          "$3,500",
+          "$2,400"
         ],
         "answer": 0,
-        "explanation": "Eメール2の a $10 credit to your account ... use on your next order(次回使える10ドルのクレジット)が根拠。"
+        "explanation": "クロスリファレンス・計算型。小計4,200ドルからテラス2,400ドルを外すと1,800ドル(芝600＋花壇700＋灌漑500)。花壇の価格は据え置き。"
+      },
+      {
+        "q": "Why does Mr. Ward want to change the plants?",
+        "choices": [
+          "They are too costly.",
+          "They are unavailable this year.",
+          "He dislikes shrubs.",
+          "His garden is mostly shaded in the afternoon."
+        ],
+        "answer": 3,
+        "explanation": "メール1の『my back garden gets very little sun in the afternoon(午後ほとんど日が当たらない)』が根拠。日陰に合うか確認している。"
+      },
+      {
+        "q": "What does Ms. Holt recommend?",
+        "choices": [
+          "Adding a second patio",
+          "Postponing the entire project",
+          "Removing the flowering border",
+          "Planting hydrangeas and ferns instead"
+        ],
+        "answer": 3,
+        "explanation": "メール2の『I recommend hydrangeas and ferns instead(代わりにアジサイとシダを勧める)』が根拠。同価格で花壇費用は変わらない。"
+      },
+      {
+        "q": "What is suggested about the project timeline now?",
+        "choices": [
+          "It will start next spring.",
+          "It needs a larger deposit.",
+          "It will now take longer.",
+          "It can be finished in one week."
+        ],
+        "answer": 3,
+        "explanation": "クロスリファレンス。テラス保留で『the curing issue no longer applies ... complete everything in a single week(1週間で完了できる)』とある。頭金は20%のままなので(B)は誤り。"
       }
     ]
   },
@@ -752,73 +752,73 @@ window.TOEIC_DATA_5.part7 = [
     "passages": [
       {
         "docType": "Schedule",
-        "text": "THE COPPER POT COOKING SCHOOL — Spring Evening Classes\nAll classes run 6:30–9:00 P.M. at our Bridge Street kitchen.\n1. April 7 — Fresh Pasta from Scratch — $65\n2. April 14 — Thai Street Food — $70\n3. April 21 — French Pastry Basics — $75\n4. April 28 — Sushi at Home — $80\n\nBook any two classes and take $15 off the total. Book all four and pay just $250. Aprons and ingredients are provided; please bring your own containers for leftovers. Classes are limited to 12 students."
+        "text": "LINDEN VALLEY HEALTH CENTER — Community Wellness Workshops (Autumn)\nHeld in the Center's Education Room. Register at lindenvalley.org/workshops.\n\n1. Sept 6 — Healthy Cooking on a Budget — 10:00–11:30 A.M. — $15\n2. Sept 13 — Managing Stress — 6:00–7:30 P.M. — $15\n3. Sept 20 — Beginner's Yoga (bring a mat) — 10:00–11:30 A.M. — $20\n4. Sept 27 — Understanding Nutrition Labels — 6:00–7:30 P.M. — $15\n\nPatients registered with Linden Valley receive 20% off each workshop. Spaces are limited to 15 per session. A light healthy snack is provided at every workshop except the yoga session."
       },
       {
         "docType": "E-mail 1",
-        "text": "From: Bianca Reyes\nTo: hello@copperpotschool.com\nDate: March 25\n\nHi,\n\nI'd like to book the Thai Street Food and Sushi at Home classes. I see there's a discount for booking two classes — please apply it.\n\nA couple of questions: I have a shellfish allergy. Will the sushi class use shellfish, and can I still take part safely? Also, is there parking near the Bridge Street kitchen?\n\nThanks,\nBianca Reyes"
+        "text": "From: Gordon Aslam\nTo: workshops@lindenvalley.org\nSubject: Autumn workshops\nDate: August 22\n\nHello,\n\nI'd like to sign up for the stress-management and nutrition-label workshops, both in the evening, which suit my work schedule. I'm a registered patient at Linden Valley, so I believe the discount applies to me.\n\nI'd also love to try the yoga session, but I work mornings on weekdays — is there any chance it will be repeated in the evening later in the season? Finally, do I need to bring anything to the two evening sessions?\n\nThank you,\nGordon Aslam"
       },
       {
         "docType": "E-mail 2",
-        "text": "From: The Copper Pot Cooking School\nTo: Bianca Reyes\nDate: March 26\n\nDear Ms. Reyes,\n\nYou're booked for both classes, and the two-class discount has been applied — your total is $135.\n\nAbout the shellfish: our Sushi at Home class does use shrimp, but the chef is happy to prepare a shellfish-free portion for you if we know in advance, which we now do. You'll be able to take part fully.\n\nThere's no dedicated parking at the kitchen, but the public car park on Anchor Lane, a three-minute walk away, is free after 6 P.M. — ideal for our evening classes.\n\nSee you on April 14!"
+        "text": "From: Nadia Fenn, Linden Valley Health Center\nTo: Gordon Aslam\nDate: August 23\n\nDear Mr. Aslam,\n\nThank you for registering. As a Linden Valley patient, your 20% discount applies to both evening workshops, so your total comes to $24.\n\nUnfortunately, the yoga session is offered only on the date listed this autumn, but we plan to add an evening yoga workshop to our winter series — I'll add you to our reminder list. For the two sessions you've booked, you don't need to bring anything; a healthy snack and all materials are provided.\n\nWe look forward to seeing you on September 13.\n\nWarm regards,\nNadia Fenn"
       }
     ],
-    "translation": "【講座一覧】ザ・カッパー・ポット料理教室——春の夜間クラス\n全クラスはブリッジ通りのキッチンで18:30〜21:00。\n1. 4月7日——生パスタを一から——65ドル\n2. 4月14日——タイのストリートフード——70ドル\n3. 4月21日——フランス菓子の基礎——75ドル\n4. 4月28日——おうちで寿司——80ドル\n\nどれでも2クラス予約で合計から15ドルオフ。4クラス全部なら250ドルぽっきり。エプロンと食材は用意します。残り物用の容器はご持参ください。定員は各12名。\n\n【Eメール1】(3月25日、ビアンカ・レイエス→カッパー・ポット)\nこんにちは。タイのストリートフードとおうちで寿司のクラスを予約したいです。2クラス予約の割引があるようなので、適用してください。いくつか質問です。甲殻類アレルギーがあります。寿司のクラスは甲殻類を使いますか、また安全に参加できますか? それと、ブリッジ通りのキッチン近くに駐車場はありますか?\n\n【Eメール2】(3月26日、カッパー・ポット→ビアンカ・レイエス)\nレイエス様、両クラスのご予約を承り、2クラス割引を適用しました——合計は135ドルです。甲殻類について:おうちで寿司のクラスではエビを使いますが、事前にお知らせいただければ(今いただきました)、シェフが甲殻類抜きの分をご用意します。問題なくご参加いただけます。キッチンに専用駐車場はありませんが、アンカー通りの公共駐車場が徒歩3分で、18時以降は無料です——夜間クラスにぴったりです。4月14日にお会いしましょう!",
+    "translation": "【講座一覧】リンデンバレー・ヘルスセンター——地域ウェルネス・ワークショップ(秋)\nセンターの研修室で開催。申込は lindenvalley.org/workshops。\n1. 9月6日——予算内で健康的な料理——午前10:00〜11:30——15ドル\n2. 9月13日——ストレス対処——午後6:00〜7:30——15ドル\n3. 9月20日——初心者ヨガ(マット持参)——午前10:00〜11:30——20ドル\n4. 9月27日——栄養表示の読み方——午後6:00〜7:30——15ドル\n\nリンデンバレーに登録済みの患者は各ワークショップ20%オフ。各回定員15名。ヨガ以外のすべての回で軽い健康的な軽食を提供します。\n\n【Eメール1】(8月22日、アスラム→ワークショップ係)\nストレス対処と栄養表示の2つの、どちらも夜のワークショップに申し込みたいです。仕事の都合に合うので。リンデンバレーの登録患者なので、割引が適用されると思います。ヨガもぜひ試したいのですが、平日は午前中に仕事があります——シーズン後半に夜に再度開催される可能性はありますか? 最後に、夜の2つのセッションに何か持って行く必要はありますか?\n\n【Eメール2】(8月23日、フェン→アスラム)\nご登録ありがとうございます。リンデンバレーの患者として、20%割引が夜の2つのワークショップに適用され、合計は24ドルです。あいにくヨガは今秋は記載の日のみですが、冬のシリーズに夜のヨガを加える予定です——リマインドリストに追加しておきます。ご予約の2回については、何もお持ちいただく必要はありません。軽食と必要な材料はすべてご用意します。9月13日にお会いできるのを楽しみにしています。",
     "questions": [
       {
-        "q": "What are students asked to bring?",
+        "q": "What is provided at most of the workshops?",
         "choices": [
-          "A set of knives",
-          "Their own aprons",
-          "Their own ingredients",
-          "Containers for leftovers"
-        ],
-        "answer": 3,
-        "explanation": "講座一覧の please bring your own containers for leftovers(残り物用の容器を持参)が根拠。エプロンと食材は用意される。"
-      },
-      {
-        "q": "How much will Ms. Reyes pay in total?",
-        "choices": [
-          "$150",
-          "$145",
-          "$250",
-          "$135"
-        ],
-        "answer": 3,
-        "explanation": "計算型クロスリファレンス。タイ70ドル＋寿司80ドル=150ドル、2クラス割引−15ドルで135ドル。Eメール2でも確認できる。"
-      },
-      {
-        "q": "What is indicated about the April 28 class?",
-        "choices": [
-          "It is already fully booked.",
-          "It has been rescheduled.",
-          "It will include shellfish.",
-          "It is the least expensive class."
-        ],
-        "answer": 2,
-        "explanation": "クロスリファレンス問題。講座一覧『4月28日=おうちで寿司』+Eメール2『寿司のクラスはエビを使う』を突き合わせる。甲殻類(エビ)を使う。"
-      },
-      {
-        "q": "What does the school say about Ms. Reyes's allergy?",
-        "choices": [
-          "She should skip the sushi class.",
-          "She must bring her own food.",
-          "The class will not use shrimp.",
-          "The chef can prepare a shellfish-free portion."
-        ],
-        "answer": 3,
-        "explanation": "Eメール2の the chef is happy to prepare a shellfish-free portion(シェフが甲殻類抜きを用意)が根拠。"
-      },
-      {
-        "q": "What is true about the car park on Anchor Lane?",
-        "choices": [
-          "It is only for staff.",
-          "It is free after 6 P.M.",
-          "It closes at 6 P.M.",
-          "It requires a permit."
+          "A printed cookbook",
+          "A healthy snack",
+          "A yoga mat",
+          "A meal voucher"
         ],
         "answer": 1,
-        "explanation": "Eメール2の free after 6 P.M.(18時以降は無料)が根拠。徒歩3分で夜間クラスに好都合とある。"
+        "explanation": "講座一覧の『A light healthy snack is provided at every workshop except the yoga session(ヨガ以外の全回で軽食)』が根拠。ヨガはマット持参なので(A)はひっかけ。"
+      },
+      {
+        "q": "Why does Mr. Aslam prefer the evening sessions?",
+        "choices": [
+          "They include dinner.",
+          "They are less expensive.",
+          "They fit his work schedule.",
+          "They are held near his home."
+        ],
+        "answer": 2,
+        "explanation": "メール1の『both in the evening, which suit my work schedule(夜が仕事の都合に合う)』が根拠。"
+      },
+      {
+        "q": "How much will Mr. Aslam pay in total?",
+        "choices": [
+          "$30",
+          "$24",
+          "$36",
+          "$27"
+        ],
+        "answer": 1,
+        "explanation": "クロスリファレンス・計算型。夜の2回は各15ドルで計30ドル、患者割引20%オフで24ドル。メール2でも金額が確認できる。"
+      },
+      {
+        "q": "What is suggested about the yoga session?",
+        "choices": [
+          "It is free for patients.",
+          "It requires no registration.",
+          "It is already full.",
+          "It will not be repeated this autumn."
+        ],
+        "answer": 3,
+        "explanation": "クロスリファレンス。メール1『夜に再開される可能性は?』+メール2『the yoga session is offered only on the date listed this autumn(今秋は記載日のみ)』から、この秋は再開されない。"
+      },
+      {
+        "q": "What does Ms. Fenn offer to do?",
+        "choices": [
+          "Add him to a reminder list",
+          "Refund part of his payment",
+          "Send him a cookbook",
+          "Reschedule his booked sessions"
+        ],
+        "answer": 0,
+        "explanation": "メール2の『I'll add you to our reminder list(リマインドリストに追加する)』が根拠。冬の夜ヨガの案内のため。"
       }
     ]
   }

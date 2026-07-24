@@ -1,56 +1,56 @@
-// セット6 part6(監査反映・正解位置均等化済み)
+// セット6 part6(重複差し替え・正解位置均等化済み)
 window.TOEIC_DATA_6 = window.TOEIC_DATA_6 || {};
 window.TOEIC_DATA_6.part6 = [
   {
     "id": "s6p6-01",
     "title": "文書 1(Eメール)",
     "docType": "E-mail",
-    "passage": "To: Daniel Okafor\nFrom: Careers, Brightpath Analytics\nSubject: Interview Invitation\n\nDear Mr. Okafor,\n\nThank you for applying for the position of Data Analyst at Brightpath Analytics. After carefully reviewing your application, we would like to [1] you to a first-round interview.\n\nThe interview is scheduled for Tuesday, March 12, at 2:00 P.M. on the fifth floor of our downtown office. When you arrive, please check in [2] the reception desk, where a member of our team will meet you.\n\nThe meeting will last about forty-five minutes and will include a brief practical exercise. [3] If the proposed time is not [4] for you, simply reply to this e-mail and we will gladly arrange an alternative.\n\nWe look forward to meeting you.\n\nBest regards,\nThe Careers Team",
-    "translation": "宛先:ダニエル・オカフォー\n差出人:採用担当、ブライトパス・アナリティクス\n件名:面接のご案内\n\nオカフォー様\n\nブライトパス・アナリティクスのデータアナリスト職にご応募いただきありがとうございます。応募書類を慎重に検討させていただいた結果、一次面接にお招きしたく存じます。\n\n面接は3月12日(火)午後2時、当社ダウンタウンオフィスの5階にて予定しております。ご到着の際は受付にてチェックインしてください。担当者がお迎えにあがります。\n\n面接は約45分で、簡単な実技課題を含みます。この課題は表計算ソフトの習熟度を確認するためのものです。ご提示の日時がご都合に合わない場合は、本メールにご返信いただければ、喜んで別の日程を調整いたします。\n\nお会いできるのを楽しみにしております。\n\n敬具\n採用チーム",
+    "passage": "To: All Store Managers\nFrom: Retail Operations\nSubject: Autumn Collection Rollout\n\nDear Managers,\n\nThe autumn collection will arrive at all Marlowe & Finch branches on September 5. Please make sure that your display windows are updated [1] the shipment is unpacked. Corporate has prepared a styling guide, which will be e-mailed to each store this week.\n\nWe are also launching a new customer loyalty program on the same day. [2] , shoppers earned points only on full-price items. Under the new program, points will be awarded on every purchase, including sale merchandise.\n\n[3] Staff should encourage customers to sign up at checkout using their e-mail address.\n\nThank you for your [4] during this busy season. We are confident the new collection will be well received.\n\nBest regards,\nRetail Operations",
+    "translation": "宛先:全店長\n差出人:小売運営部\n件名:秋コレクションの展開\n\n店長各位\n\n秋コレクションは9月5日にマーロウ・アンド・フィンチの全店舗へ入荷します。入荷分を開梱し次第、ディスプレイのウィンドウを必ず更新してください。本部でスタイリングガイドを用意しており、今週中に各店へメールで送付します。\n\nまた同日より、新しい顧客ロイヤルティプログラムを開始します。これまでは、正価品にのみポイントが付与されていました。新プログラムでは、セール品を含むすべての購入にポイントが付きます。\n\n登録は無料で、1分もかかりません。会計時にお客様のメールアドレスで登録するようスタッフから促してください。\n\n繁忙期にあたり、皆さまのご尽力に感謝します。新コレクションはきっと好評を得ると確信しています。\n\nよろしくお願いします。\n小売運営部",
     "questions": [
       {
         "num": 1,
         "choices": [
-          "invite",
-          "invitation",
-          "inviting",
-          "invited"
+          "even though",
+          "in case",
+          "as soon as",
+          "so that"
         ],
-        "answer": 0,
-        "explanation": "動詞の形。would like to の後は原形なので invite(招く)。to のあとに過去形・-ing・名詞は入らない。『would like to invite you to an interview(面接にお招きしたい)』は定番表現。"
+        "answer": 2,
+        "explanation": "接続表現の問題。『開梱し次第ウィンドウを更新』という時の関係なので as soon as(〜するとすぐに)。in case(念のため)、even though(〜だが)、so that(〜するために)は文意に合わない。"
       },
       {
         "num": 2,
         "choices": [
-          "onto",
-          "at",
-          "into",
-          "among"
+          "Formerly",
+          "Therefore",
+          "Likewise",
+          "Otherwise"
         ],
-        "answer": 1,
-        "explanation": "前置詞問題。『check in at the reception desk(受付でチェックインする)』。特定の地点を表す at が正解。among は『〜の間で(3つ以上)』、into/onto は移動を表し文意に合わない。"
+        "answer": 0,
+        "explanation": "接続副詞の問題。新プログラムとの対比で『以前は正価品のみ』という過去の説明なので Formerly(以前は)。過去形 earned もヒント。Therefore(だから)、Likewise(同様に)、Otherwise(さもないと)は対比を表さない。"
       },
       {
         "num": 3,
         "choices": [
-          "Unfortunately, the position has already been filled.",
-          "We regret that your application was not successful this time.",
-          "Our office will be closed for renovations that entire week.",
-          "The exercise is designed to assess your familiarity with spreadsheet software."
+          "Refunds are not available on sale merchandise.",
+          "All stores will be closed on September 5 for inventory.",
+          "Enrollment is free and takes less than a minute.",
+          "The autumn collection sold out within a week last year."
         ],
-        "answer": 3,
-        "explanation": "文挿入問題。直前の『a brief practical exercise(簡単な実技課題)』を受け、その課題の内容を説明する(A)が自然につながる。(B)(C)(D)はいずれも面接に招くという文書全体の趣旨と矛盾する。"
+        "answer": 2,
+        "explanation": "文挿入問題。直後の『会計時に登録を促すように』につながるのは、登録の手軽さを述べた(C)。(B)は同日入荷という記述と矛盾し、(A)(D)はロイヤルティ登録の流れと無関係。"
       },
       {
         "num": 4,
         "choices": [
-          "convenient",
-          "conveniently",
-          "convenienced",
-          "convenience"
+          "competition",
+          "expansion",
+          "hesitation",
+          "dedication"
         ],
-        "answer": 0,
-        "explanation": "品詞問題。be動詞 is の後の補語には形容詞が入るので convenient(都合のよい)。『the time is not convenient for you(その時間がご都合に合わない)』。convenience は名詞、conveniently は副詞で不可。"
+        "answer": 3,
+        "explanation": "語彙問題。繁忙期の『ご尽力(献身)に感謝』の流れで dedication(献身)。hesitation(ためらい)、competition(競争)、expansion(拡大)は締めの謝辞として不自然。"
       }
     ]
   },
@@ -58,52 +58,52 @@ window.TOEIC_DATA_6.part6 = [
     "id": "s6p6-02",
     "title": "文書 2(お知らせ)",
     "docType": "Notice",
-    "passage": "Notice to Tenants — Parking Garage Resurfacing\n\nAttention all tenants of Maple Court Plaza:\n\nThe underground parking garage will undergo resurfacing work from Monday, August 4, through Wednesday, August 6. During this period, Levels B2 and B3 will be [1] to all vehicles.\n\nTenants who normally park on these levels may use the visitor spaces on Level B1 at no [2] charge. [3] Spaces are limited, so we encourage carpooling wherever possible.\n\nThe work will be carried out overnight whenever it can be, in order to [4] disruption to daily operations. We appreciate your patience while we improve the facility.\n\nBuilding Management",
-    "translation": "テナント各位へのお知らせ——駐車場の路面補修\n\nメープルコート・プラザのテナントの皆様へ\n\n地下駐車場は8月4日(月)から8月6日(水)まで路面補修工事を行います。この期間中、地下2階と地下3階はすべての車両が利用できなくなります。\n\n普段これらの階に駐車されているテナントの方は、地下1階の来客用スペースを追加料金なしでご利用いただけます。これらのスペースは先着順でのご利用となります。台数に限りがありますので、可能な限り相乗りにご協力ください。\n\n工事は日常業務への支障を最小限に抑えるため、可能な限り夜間に行います。施設改善のため、ご辛抱いただきますようお願い申し上げます。\n\nビル管理室",
+    "passage": "Fairlight Concert Hall — Lobby Renovation Notice\n\nFrom August 1 to August 20, the main lobby of Fairlight Concert Hall will undergo a complete [1] . During this period, the west entrance on Chapel Street will remain open for all ticket holders.\n\nPerformances will continue as scheduled; only the lobby area is [2] . Concertgoers are advised to arrive at least twenty minutes early, as security screening will be moved to a temporary tent near the west entrance.\n\n[3] Once the work is finished, the refurbished lobby will feature a new box office, an expanded coat check, and additional seating for patrons.\n\nWe thank our audiences for their patience and look forward to [4] them in our renewed space.",
+    "translation": "フェアライト・コンサートホール——ロビー改修のお知らせ\n\n8月1日から8月20日まで、フェアライト・コンサートホールのメインロビーは全面改修を行います。この期間中、チャペル・ストリート側の西入口はすべてのチケット保有者向けに開放を続けます。\n\n公演は予定どおり行われ、影響を受けるのはロビーのみです。保安検査は西入口近くの仮設テントに移されるため、来場者は少なくとも20分前にはお越しください。\n\nこの改修は、来場体験を向上させる計画の一環です。工事が終われば、改装後のロビーには新しいチケット売場、拡張されたクローク、そして来場者用の追加座席が備わります。\n\nご来場の皆さまのご辛抱に感謝するとともに、新しくなった空間で皆さまをお迎えできることを楽しみにしています。",
     "questions": [
       {
         "num": 1,
         "choices": [
-          "closed",
-          "offered",
-          "opened",
-          "raised"
+          "outcome",
+          "outlook",
+          "overhaul",
+          "overview"
         ],
-        "answer": 0,
-        "explanation": "語彙問題。補修工事中の階なので『closed to all vehicles(すべての車両が利用不可)』。be closed to 〜 で『〜に対して閉鎖される』。opened は逆の意味、raised・offered は文意に合わない。"
+        "answer": 2,
+        "explanation": "語彙問題。complete overhaul(全面改修)。音が似た out-/over- 語のひっかけで、outlook(見通し)、outcome(結果)、overview(概要)はロビー改修の文意に合わない。"
       },
       {
         "num": 2,
         "choices": [
-          "adds",
-          "additionally",
-          "addition",
-          "additional"
+          "affecting",
+          "affected",
+          "affect",
+          "affection"
         ],
-        "answer": 3,
-        "explanation": "品詞問題。名詞 charge(料金)を修飾するのは形容詞 additional(追加の)。『at no additional charge(追加料金なしで)』は定番表現。additionally は副詞、addition は名詞で不可。"
+        "answer": 1,
+        "explanation": "品詞・態の問題。is の後で『ロビーだけが影響を受ける』という受動なので過去分詞 affected。affection(愛情)は名詞で無関係、affect は原形。"
       },
       {
         "num": 3,
         "choices": [
-          "All vehicles must be registered with the front desk by July.",
-          "The garage will be permanently closed after the work is finished.",
-          "These spaces are available on a first-come, first-served basis.",
-          "Monthly parking fees will increase beginning in September."
+          "Refreshments will no longer be served in the lobby.",
+          "Tickets for all summer performances have been sold out.",
+          "The concert hall will permanently close at the end of August.",
+          "The improvements are part of a plan to enhance the concertgoing experience."
         ],
-        "answer": 2,
-        "explanation": "文挿入問題。直後の『Spaces are limited(台数に限りがある)』につながる情報として、来客用スペースが『先着順』である(A)が最も自然。(B)は一時的な工事という文脈と矛盾、(C)(D)は本文の主題と無関係。"
+        "answer": 3,
+        "explanation": "文挿入問題。直後の『工事が終われば新しい設備が備わる』という前向きな説明を導くのは、改修の目的を述べた(D)。(B)は恒久閉鎖で全体と矛盾し、(A)(C)は文脈と無関係。"
       },
       {
         "num": 4,
         "choices": [
-          "organize",
-          "minimize",
-          "maximize",
-          "publicize"
+          "welcomed",
+          "welcome",
+          "to welcome",
+          "welcoming"
         ],
-        "answer": 1,
-        "explanation": "語彙問題。夜間に工事を行う目的は支障を『抑える』ことなので minimize(最小限にする)。maximize(最大化)は逆、publicize(公表する)・organize(組織する)は文意に合わない。"
+        "answer": 3,
+        "explanation": "文法問題。look forward to の to は前置詞なので後ろは動名詞 welcoming。to welcome(不定詞)や原形 welcome は不可。"
       }
     ]
   },
@@ -111,52 +111,52 @@ window.TOEIC_DATA_6.part6 = [
     "id": "s6p6-03",
     "title": "文書 3(記事)",
     "docType": "Article",
-    "passage": "Local Firm Adopts Four-Day Workweek\n\nOAKDALE (September 9) — Trellis Software, a mid-sized technology company based in Oakdale, has announced that it [1] a four-day workweek beginning in October. Under the new schedule, employees will work Monday through Thursday while receiving the same pay.\n\nThe decision follows a six-month trial [2] the company measured productivity and employee satisfaction. According to chief executive Rachel Nguyen, output remained steady while staff reported noticeably lower stress levels. [3]\n\n\"We were surprised by how [4] the results were,\" Ms. Nguyen said. \"Our people are more focused, and turnover has dropped.\" Several other firms in the region are reportedly considering similar changes.",
-    "translation": "地元企業が週休3日制を導入\n\nオークデール(9月9日)——オークデールに拠点を置く中堅テクノロジー企業のトレリス・ソフトウェアは、10月から週4日勤務制を導入すると発表した。新しい勤務体系では、従業員は月曜から木曜まで働き、給与は据え置かれる。\n\nこの決定は、同社が生産性と従業員満足度を測定した6か月間の試験運用を経てのものだ。最高経営責任者のレイチェル・グエン氏によれば、成果は安定を保ちつつ、従業員のストレスレベルは目に見えて低下したという。その結果、同社はこの制度を恒久的なものにすることを決めた。\n\n『結果がこれほど良好だったことに驚きました』とグエン氏は語る。『社員はより集中するようになり、離職率も下がりました』。地域の他の複数の企業も、同様の変更を検討していると報じられている。",
+    "passage": "Halvorsen Builders Wins City Hall Contract\n\nBRIDGEPORT (March 12) — Halvorsen Builders, a construction firm based in Bridgeport, [1] a contract last week to renovate the historic City Hall building on Prospect Avenue.\n\nThe project, valued at 4.5 million dollars, will restore the building's original stonework while adding modern features such as an elevator and energy-efficient windows. Work is scheduled to begin in June and [2] about eighteen months.\n\n\"Preserving the character of the building is our top priority,\" said project manager Dana Ruiz. [3] For that reason, the firm has hired specialists in traditional masonry.\n\nOnce completed, the renovated City Hall will house the mayor's office and several public departments. [4] the construction, city services will operate from a temporary office on Grand Street.",
+    "translation": "ハルヴォーセン・ビルダーズ、市庁舎の契約を受注\n\nブリッジポート(3月12日)——ブリッジポートに拠点を置く建設会社ハルヴォーセン・ビルダーズが先週、プロスペクト・アベニューにある歴史的な市庁舎を改修する契約を受注した。\n\n総額450万ドルのこの事業では、建物本来の石造部分を修復しつつ、エレベーターや省エネ窓などの近代的な設備を加える。工事は6月に始まり、約18か月かかる予定だ。\n\n『建物の趣を保つことが最優先です』とプロジェクトマネージャーのデイナ・ルイズ氏は語った。この建物は1912年に建てられて以来、改修されていない。そのため同社は伝統的な石工の専門家を雇い入れた。\n\n完成すれば、改修後の市庁舎には市長室と複数の公共部門が入る。工事の間、市のサービスはグランド・ストリートの仮事務所で運営される。",
     "questions": [
       {
         "num": 1,
         "choices": [
-          "adopts",
-          "will adopt",
-          "had adopted",
-          "adopted"
+          "will award",
+          "was awarded",
+          "awards",
+          "is awarding"
         ],
         "answer": 1,
-        "explanation": "時制問題。beginning in October(10月から)という未来を表す語句があるので未来形 will adopt。過去形 adopted・過去完了 had adopted は時制が合わない。"
+        "explanation": "時制・態の問題。last week があるので過去、かつ会社は契約を『受注する(与えられる)』側なので受動態 was awarded。firm が award する側ではない点に注意。"
       },
       {
         "num": 2,
         "choices": [
-          "during which",
-          "whose",
-          "in that",
-          "which"
+          "taking",
+          "take",
+          "took",
+          "takes"
         ],
-        "answer": 0,
-        "explanation": "関係詞問題。先行詞 a six-month trial を受け、『その期間中に測定した』という意味にするには前置詞付きの during which が必要。which 単体では前置詞が欠け、whose は所有格、in that は接続詞的用法で文意に合わない。"
+        "answer": 1,
+        "explanation": "並列の問題。is scheduled to begin ... and (to) take と、to 不定詞が並列するので原形 take。前の begin と形をそろえる。"
       },
       {
         "num": 3,
         "choices": [
-          "Ms. Nguyen originally founded the company in another city.",
-          "The office building will be repainted during the winter holidays.",
-          "As a result, the firm has decided to make the arrangement permanent.",
-          "The company plans to return to a five-day schedule next year."
+          "The building was originally constructed in 1912 and has not been updated since.",
+          "Ms. Ruiz plans to retire at the end of the year.",
+          "The new City Hall will be located outside the city.",
+          "The contract was ultimately given to a rival company."
         ],
-        "answer": 2,
-        "explanation": "文挿入問題。直前の『成果は安定・ストレスは低下』という良い結果を受け、『その結果、制度を恒久化することにした』(B)が自然につながり、直後の肯定的な引用にも合う。(A)は逆の内容、(C)(D)は文脈と無関係。"
+        "answer": 0,
+        "explanation": "文挿入問題。直後の『そのため石工の専門家を雇った』の理由付けとして、建物が古く未改修だと述べる(A)が自然。(B)は受注したという記事の趣旨と矛盾し、(C)(D)は文脈と無関係。"
       },
       {
         "num": 4,
         "choices": [
-          "previous",
-          "temporary",
-          "reluctant",
-          "positive"
+          "During",
+          "While",
+          "Among",
+          "Despite"
         ],
-        "answer": 3,
-        "explanation": "語彙問題。直後の引用が『集中力が上がり離職率が下がった』と良い結果を述べているので positive(好ましい)。temporary(一時的な)・reluctant(気が進まない)・previous(以前の)は文意に合わない。"
+        "answer": 0,
+        "explanation": "前置詞の問題。後ろが名詞句 the construction なので During(〜の間)。While は節を導く接続詞、Despite(〜にもかかわらず)は文意に合わない。"
       }
     ]
   },
@@ -164,52 +164,52 @@ window.TOEIC_DATA_6.part6 = [
     "id": "s6p6-04",
     "title": "文書 4(社内連絡)",
     "docType": "Memo",
-    "passage": "To: All Staff\nFrom: Human Resources\nSubject: New Mentorship Program\nDate: November 2\n\nBeginning in January, Delmont Group will launch a company-wide mentorship program designed to support the growth of newer employees. Each participant [1] with an experienced colleague from a different department.\n\nMentors and mentees will meet at least once a month for informal guidance and career discussion. Participation is entirely [2] , and staff at all levels are welcome to join. [3]\n\nEmployees who wish to take part should complete the online form by December 15. [4] we receive your form, a coordinator will contact you to arrange a suitable match.\n\nWe believe this program will strengthen collaboration across teams. Please direct any questions to the Human Resources office.\n\nHuman Resources",
-    "translation": "宛先:全スタッフ\n差出人:人事部\n件名:新メンター制度\n日付:11月2日\n\n1月より、デルモント・グループは新人社員の成長を支援するための全社的なメンター制度を開始します。参加者はそれぞれ、別部署の経験豊富な同僚とペアが組まれます。\n\nメンターとメンティーは、非公式な助言やキャリアの相談のため、月に少なくとも1回面談します。参加は完全に任意で、あらゆる職位のスタッフが歓迎されます。あなたが新入社員であれ長年勤めるベテランであれ、この制度にはあなたの役割があります。\n\n参加を希望する従業員は、12月15日までにオンラインフォームにご記入ください。フォームを受領し次第、コーディネーターがご連絡し、適切な組み合わせを調整いたします。\n\nこの制度がチームを越えた協働を強化すると確信しています。ご質問は人事部までお寄せください。\n\n人事部",
+    "passage": "To: All Production Staff\nFrom: Programming Department\nSubject: Fall Broadcast Schedule\nDate: August 15\n\nBeginning September 1, Meridian Broadcasting will launch its fall lineup. The popular morning talk show \"City Sunrise\" will move to an earlier time slot and [1] from 6:00 to 8:00 A.M.\n\nTo accommodate the new schedule, Studio B has been [2] equipped with an additional camera and updated lighting. Training on the new equipment will be held next Tuesday.\n\n[3] All hosts and technical crew are required to attend.\n\nPlease review the attached schedule carefully and report any conflicts to your supervisor [4] Friday. Your flexibility during this transition is greatly appreciated.",
+    "translation": "宛先:全制作スタッフ\n差出人:編成部\n件名:秋の放送スケジュール\n日付:8月15日\n\n9月1日より、メリディアン・ブロードキャスティングは秋の番組ラインナップを開始します。人気の朝の情報番組『シティ・サンライズ』は放送枠が前倒しとなり、午前6時から8時に放送します。\n\n新スケジュールに対応するため、スタジオBには最近、追加のカメラと新しい照明が設置されました。新機材の研修は来週火曜日に行います。\n\n研修はメイン会議室で午前10時に行います。すべての司会者と技術スタッフは参加が必須です。\n\n添付のスケジュールをよく確認し、都合の合わない点があれば金曜日までに上司へ報告してください。この移行期における皆さまの柔軟なご対応に深く感謝します。",
     "questions": [
       {
         "num": 1,
         "choices": [
-          "has paired",
-          "pairing",
-          "pairs",
-          "will be paired"
+          "will air",
+          "aired",
+          "airing",
+          "airs"
         ],
-        "answer": 3,
-        "explanation": "態と時制の問題。参加者は制度によって『組み合わされる』側なので受動態、かつ1月開始の未来の話。したがって will be paired。能動態の pairs や現在完了 has paired では『参加者が自分でペアを組む』となり不自然。"
+        "answer": 0,
+        "explanation": "時制・並列の問題。will move ... and (will) air と未来の助動詞が並列する。9月以降の未来なので will air。"
       },
       {
         "num": 2,
         "choices": [
-          "voluntarily",
-          "volunteered",
-          "voluntary",
-          "volunteer"
+          "recency",
+          "recentness",
+          "recent",
+          "recently"
         ],
-        "answer": 2,
-        "explanation": "品詞問題。be動詞 is の補語には形容詞が入るので voluntary(任意の)。『Participation is entirely voluntary(参加は完全に任意)』。voluntarily は副詞、volunteer は名詞・動詞で不可。"
+        "answer": 3,
+        "explanation": "品詞の問題。has been ___ equipped と過去分詞を修飾するので副詞 recently(最近)。recent は形容詞、recentness/recency は名詞で不可。"
       },
       {
         "num": 3,
         "choices": [
-          "The cafeteria will introduce a new lunch menu next week.",
-          "All meetings must be held outside of regular working hours.",
-          "Whether you are new to the company or a long-time employee, there is a role for you.",
-          "Previous mentorship programs were canceled due to low interest."
+          "Applications for the host position are now closed.",
+          "No new equipment will be purchased this year.",
+          "The session will take place in the main conference room at 10:00 A.M.",
+          "The morning show has been cancelled due to low ratings."
         ],
         "answer": 2,
-        "explanation": "文挿入問題。直前の『staff at all levels are welcome(あらゆる職位が歓迎)』を言い換え強調する(C)が自然。(A)は無関係、(B)は制度開始という趣旨と矛盾、(D)は『informal(非公式)』という前後の雰囲気に合わない。"
+        "explanation": "文挿入問題。前文『研修は来週火曜』と直後『全員参加必須』の間に入るのは、研修の場所と時刻を補足する(B)。(A)は番組が枠移動する記述と矛盾し、(C)は機材設置の記述と矛盾する。"
       },
       {
         "num": 4,
         "choices": [
-          "During",
-          "Once",
-          "Despite",
-          "Whether"
+          "for",
+          "by",
+          "until",
+          "since"
         ],
         "answer": 1,
-        "explanation": "接続詞問題。空所の後に『we receive your form』という節が続くので、節を導ける接続詞 Once(いったん〜すれば)が正解。『Once we receive your form(フォームを受領し次第)』。During・Despite は前置詞で後ろに名詞が必要、Whether は文意に合わない。"
+        "explanation": "前置詞の問題。『金曜までに報告』という締切なので by(〜までに)。until は継続の終点、since は起点、for は期間で文意に合わない。"
       }
     ]
   }

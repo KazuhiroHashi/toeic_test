@@ -1,4 +1,4 @@
-// セット5 part4(監査反映・正解位置均等化済み)
+// セット5 part4(重複差し替え・正解位置均等化済み)
 window.TOEIC_DATA_5 = window.TOEIC_DATA_5 || {};
 window.TOEIC_DATA_5.part4 = [
   {
@@ -8,280 +8,280 @@ window.TOEIC_DATA_5.part4 = [
     "audio": [
       {
         "speaker": "W",
-        "text": "Hi, this is a message for Mr. Dawson. This is Priya calling from Golden Spoon Catering. I'm confirming your order for the company anniversary luncheon this Friday. We have you down for fifty guests with the vegetarian menu you selected. One quick note — our delivery van can't reach your loading dock because of the road resurfacing on Miller Street, so our staff will carry everything in through the main lobby instead. We'll arrive by eleven to set everything up before your noon start. If anything changes on your end, please reach me at the number I'll leave at the end of this message. Thanks so much."
+        "text": "Hello, this is a message for Mr. Daniel Foster. This is the scheduling office at Riverside Imaging Center. I'm calling to confirm your MRI scan appointment this Friday at nine in the morning. There are a couple of things to remember before you come in. Please don't eat anything for four hours before the scan, though you may drink water as usual. Also, be sure to leave all metal items — such as watches, jewelry, and belts — at home, since they cannot be worn inside the scanning room. The scan itself takes about forty-five minutes. If you have any questions or need to change the date, please call us back at five five five, six one seven zero. Thank you."
       }
     ],
-    "translation": "もしもし、ドーソン様への伝言です。ゴールデン・スプーン・ケータリングのプリヤと申します。今週金曜日の会社設立記念昼食会のご注文の確認でお電話しました。ベジタリアンメニューで50名様と承っております。1点だけご連絡です——ミラー通りの道路舗装工事のため、配送車が搬入口に入れませんので、スタッフが正面ロビーからすべてお運びします。正午開始の前に準備を整えるため、11時までに到着します。そちらで何か変更がありましたら、このメッセージの最後に残す番号までご連絡ください。よろしくお願いいたします。",
+    "translation": "もしもし、ダニエル・フォスター様への伝言です。リバーサイド画像診断センターの予約担当です。今週金曜日の午前9時に予定されているMRI検査のご予約を確認するためお電話しました。ご来院前にいくつか覚えておいていただきたいことがあります。検査の4時間前からは何も召し上がらないでください。水はいつも通り飲んでいただいて構いません。また、時計・宝飾品・ベルトなどの金属類は撮影室内で身につけられませんので、すべてご自宅に置いてきてください。検査自体は約45分かかります。ご質問や日程変更が必要な場合は、555-6170までお電話ください。よろしくお願いいたします。",
     "questions": [
       {
         "q": "Why is the speaker calling?",
         "choices": [
-          "To reschedule an event",
-          "To recommend a new menu",
-          "To apply for a position",
-          "To confirm an order"
+          "To report test results",
+          "To confirm an appointment",
+          "To announce a new service",
+          "To request a payment"
         ],
-        "answer": 3,
-        "explanation": "冒頭の I'm confirming your order（ご注文の確認）が根拠。電話の目的はトーク前半で述べられる定石。『メニューの提案』『日程変更』は本文にない連想のひっかけ。"
+        "answer": 1,
+        "explanation": "『I'm calling to confirm your MRI scan appointment』が根拠。医療機関からの予約確認の電話。report test results(検査結果の報告)は述べていないひっかけ。"
       },
       {
-        "q": "What problem does the speaker mention?",
+        "q": "What does the speaker ask the listener to leave at home?",
         "choices": [
-          "A delivery vehicle cannot use the loading dock.",
-          "Some guests have canceled.",
-          "The event has been postponed.",
-          "A menu item is unavailable."
+          "Insurance documents",
+          "Any metal items",
+          "A list of medications",
+          "A photo ID"
         ],
-        "answer": 0,
-        "explanation": "our delivery van can't reach your loading dock because of the road resurfacing（道路工事で配送車が搬入口に入れない）が根拠。loading dock がそのまま選択肢に使われている。"
+        "answer": 1,
+        "explanation": "『leave all metal items — such as watches, jewelry, and belts — at home』が根拠。時計・宝飾品・ベルトを metal items(金属類)と総称している。"
       },
       {
-        "q": "What will the staff do before noon?",
+        "q": "How long does the scan take?",
         "choices": [
-          "Set up for the event",
-          "Collect a payment",
-          "Deliver invitations",
-          "Park at the loading dock"
+          "About 60 minutes",
+          "About 30 minutes",
+          "About 45 minutes",
+          "About 90 minutes"
         ],
-        "answer": 0,
-        "explanation": "We'll arrive by eleven to set everything up before your noon start（正午開始前に準備を整える）が根拠。set everything up が Set up for the event に対応。"
+        "answer": 2,
+        "explanation": "『The scan itself takes about forty-five minutes』が根拠。数字の聞き取り問題。"
       }
     ]
   },
   {
     "id": "s5p4-02",
     "kind": "announcement",
-    "title": "トーク 2(館内アナウンス)",
+    "title": "トーク 2(学内アナウンス)",
     "audio": [
       {
         "speaker": "M",
-        "text": "Attention, library visitors. We're pleased to announce that starting next Monday, the Westbrook Public Library will stay open two hours later on weekdays, closing at nine instead of seven. This change is part of our effort to better serve students and evening commuters. We've also installed four new self-checkout machines near the main entrance, so you can borrow books without waiting in line. Staff will be nearby all week to show you how they work. And as always, if you're returning items after we close, the outdoor drop box by the parking lot is available any time, day or night. Thank you for being part of our community."
+        "text": "Good afternoon, students. This is an announcement from the Academic Success Center. Registration for our fall series of research skills workshops is now open. These free sessions cover topics such as finding academic sources, citing references correctly, and organizing a long paper. They're especially useful for students working on their senior thesis. Space in each workshop is limited to twenty students, so we encourage you to sign up early through the student portal. One more thing — students who attend at least three workshops will receive a certificate that can be added to their academic record. If you have questions, stop by our office on the second floor of the Baxter Building."
       }
     ],
-    "translation": "図書館をご利用の皆さまにお知らせします。来週月曜日より、ウェストブルック公立図書館は平日の閉館時間を2時間延長し、7時ではなく9時に閉館いたします。これは学生の方や夜間の通勤・通学者により良くお応えするための取り組みの一環です。また、正面入口付近に新しいセルフチェックアウト機を4台設置しましたので、列に並ばずに本を借りられます。今週いっぱいスタッフが近くで使い方をご案内します。そしていつも通り、閉館後に返却される場合は、駐車場横の屋外返却ボックスを昼夜問わずいつでもご利用いただけます。地域の一員でいてくださり、ありがとうございます。",
+    "translation": "皆さん、こんにちは。アカデミック・サクセス・センターからのお知らせです。秋期の研究スキル・ワークショップ・シリーズの受付を開始しました。この無料セッションでは、学術資料の探し方、正しい参考文献の引用、長い論文の構成といったテーマを扱います。卒業論文に取り組む学生に特に役立ちます。各ワークショップの定員は20名ですので、学生ポータルから早めにお申し込みください。もう一点——3回以上参加した学生には、成績記録に加えられる修了証を差し上げます。ご質問はバクスター棟2階の当センター事務室までお越しください。",
     "questions": [
       {
-        "q": "What is being announced?",
+        "q": "What is the purpose of the announcement?",
         "choices": [
-          "A book donation drive",
-          "Longer opening hours",
-          "A new membership fee",
-          "The opening of a new branch"
+          "To announce that registration is open",
+          "To report exam results",
+          "To introduce new faculty members",
+          "To promote a new degree program"
         ],
-        "answer": 1,
-        "explanation": "the library will stay open two hours later ... closing at nine instead of seven（2時間遅くまで開館）が根拠。stay open ... later が Longer opening hours に言い換えられている。"
+        "answer": 0,
+        "explanation": "『Registration for our fall series of research skills workshops is now open』が根拠。学位課程の宣伝ではなく『受付開始』の告知。"
       },
       {
-        "q": "What has recently been installed?",
+        "q": "What are students encouraged to do?",
         "choices": [
-          "Additional parking spaces",
-          "Public computers",
-          "Self-checkout machines",
-          "A children's reading area"
-        ],
-        "answer": 2,
-        "explanation": "We've also installed four new self-checkout machines（セルフチェックアウト機を設置)が根拠。parking や computers は本文の別語(parking lot 等)からの連想ひっかけ。"
-      },
-      {
-        "q": "According to the speaker, what can visitors do at any time?",
-        "choices": [
-          "Reserve a study room",
-          "Attend a class",
-          "Borrow a laptop",
-          "Return books in an outdoor drop box"
+          "Contact a professor",
+          "Buy a textbook",
+          "Choose a major",
+          "Sign up early"
         ],
         "answer": 3,
-        "explanation": "the outdoor drop box ... is available any time, day or night（屋外返却ボックスは昼夜いつでも利用可）が根拠。any time が設問の at any time に対応。"
+        "explanation": "『we encourage you to sign up early through the student portal』が根拠。定員20名で埋まる前に早めの登録を促している。"
+      },
+      {
+        "q": "What will students who attend at least three workshops receive?",
+        "choices": [
+          "A free textbook",
+          "Extra exam credit",
+          "A tuition discount",
+          "A certificate"
+        ],
+        "answer": 3,
+        "explanation": "『students who attend at least three workshops will receive a certificate』が根拠。tuition discount(授業料割引)は述べていないひっかけ。"
       }
     ]
   },
   {
     "id": "s5p4-03",
     "kind": "advertisement",
-    "title": "トーク 3(店舗広告)",
+    "title": "トーク 3(ラジオ広告)",
     "audio": [
       {
         "speaker": "W",
-        "text": "Looking to refresh your home without breaking the bank? This weekend only, Hartwell Furniture is holding its biggest clearance sale of the year. Every sofa, table, and bookshelf in the store is marked down at least forty percent, and select mattresses are half off. Spend more than five hundred dollars on any single item, and we'll deliver it right to your door for free. Our doors open at nine on Saturday, and the first thirty shoppers each receive a twenty-dollar gift card. You'll find us on Oak Avenue, right beside the train station. Come early — once these deals are gone, they're gone."
+        "text": "Thinking about lowering your electricity bills? At Helios Solar Solutions, we make switching to clean energy simple. Our certified technicians design and install rooftop solar panels tailored to your home, and most systems are up and running in just one day. Right now, homeowners who book before the end of September will receive a free energy assessment, plus a ten-year warranty on all equipment. Best of all, many of our customers cut their monthly power costs by more than half. To find out how much you could save, request a free quote on our website, helios-solar dot com. Helios Solar Solutions — power your home with the sun."
       }
     ],
-    "translation": "予算を抑えて家を模様替えしたいとお考えですか? 今週末限定で、ハートウェル・ファニチャーが今年最大のクリアランスセールを開催します。店内のソファ、テーブル、本棚はすべて40パーセント以上値下げ、一部のマットレスは半額です。1点で500ドルを超えるお買い上げなら、ご自宅まで無料で配送します。土曜は9時に開店し、先着30名様には20ドルのギフトカードを差し上げます。オーク通り、鉄道駅のすぐ隣です。お早めに——このお買い得品はなくなり次第終了です。",
+    "translation": "電気代を下げたいとお考えですか? ヘリオス・ソーラー・ソリューションズなら、クリーンエネルギーへの切り替えが簡単です。認定技術者がご自宅に合わせて屋根用ソーラーパネルを設計・設置し、ほとんどのシステムはわずか1日で稼働します。今なら、9月末までにご予約いただいた住宅所有者の方に、無料のエネルギー診断と全機器の10年保証をお付けします。さらに嬉しいことに、多くのお客様が毎月の電気代を半分以上削減しています。どれだけ節約できるかは、当社ウェブサイト helios-solar.com で無料見積もりをご請求ください。ヘリオス・ソーラー・ソリューションズ——太陽で家に電力を。",
     "questions": [
       {
         "q": "What type of business is being advertised?",
         "choices": [
-          "A furniture store",
-          "A moving company",
-          "An interior design firm",
-          "An appliance repair shop"
+          "A roof repair service",
+          "A home appliance store",
+          "A solar panel installer",
+          "An electric utility company"
         ],
-        "answer": 0,
-        "explanation": "Hartwell Furniture がソファやテーブル、本棚(sofa, table, bookshelf)を販売しており furniture store。『引っ越し業者』『内装デザイン』は家に関する連想のひっかけ。"
+        "answer": 2,
+        "explanation": "『our certified technicians design and install rooftop solar panels』が根拠。電力会社(utility)ではなく設置業者。"
       },
       {
-        "q": "What is offered to customers who spend more than $500?",
+        "q": "What are customers who book before the end of September offered?",
         "choices": [
-          "A free gift card",
-          "An extended warranty",
-          "A larger discount",
-          "Free home delivery"
+          "A cash rebate",
+          "A free appliance",
+          "Free monthly maintenance",
+          "A free energy assessment"
         ],
         "answer": 3,
-        "explanation": "Spend more than five hundred dollars ... we'll deliver it right to your door for free（500ドル超で無料配送）が根拠。ギフトカードは『先着30名』の別特典で、条件を取り違えさせるひっかけ。"
+        "explanation": "『homeowners who book before the end of September will receive a free energy assessment』が根拠。9月末までの予約特典。"
       },
       {
-        "q": "What will the first thirty shoppers receive?",
+        "q": "How can listeners get a quote?",
         "choices": [
-          "A free mattress",
-          "A gift card",
-          "A product catalog",
-          "A discount coupon"
+          "By visiting a showroom",
+          "By visiting a store",
+          "By requesting one on the Web site",
+          "By mailing a form"
         ],
-        "answer": 1,
-        "explanation": "the first thirty shoppers each receive a twenty-dollar gift card（先着30名にギフトカード）が根拠。mattress は half off の対象で、こちらもひっかけ。"
+        "answer": 2,
+        "explanation": "『request a free quote on our website』が根拠。店舗来店ではなくウェブサイトでの見積もり請求。"
       }
     ]
   },
   {
     "id": "s5p4-04",
-    "kind": "tour information",
-    "title": "トーク 4(工場見学の案内)",
+    "kind": "excerpt from a meeting",
+    "title": "トーク 4(会議の抜粋)",
     "audio": [
       {
         "speaker": "M",
-        "text": "Welcome, everyone, to the Cocoa Bean Chocolate Factory, and thank you for joining today's tour. Here's how the next ninety minutes will go. We'll start in the roasting room, where you'll see how raw cacao beans are turned into the chocolate you know and love. After that, we'll move to the packaging line, and yes — you'll get to sample a few pieces fresh off the belt. For safety, please stay behind the yellow lines at all times and keep your hairnet on inside the production areas. You're welcome to take photos everywhere except on the packaging line, where some of our equipment is confidential. All right, let's get started."
+        "text": "Okay, let's talk about the Brightwater commercial before we finish. The client approved our storyboard yesterday, so we're clear to move into filming. We've booked the downtown studio for the two shooting days next week, Monday and Tuesday. The one issue is that our usual lighting technician, Carlos, is away on another project, so I've arranged for a freelancer named Priya to join us — please make her feel welcome. Once filming wraps, editing will take about two weeks, which puts our delivery date in early June, right on schedule. Sofia, could you send the updated call sheet to the whole crew by tomorrow? Thanks, everyone."
       }
     ],
-    "translation": "皆さま、ココアビーン・チョコレート工場へようこそ。本日の見学ツアーにご参加いただきありがとうございます。これからの90分の流れをご説明します。まず焙煎室から始め、生のカカオ豆が皆さんのよく知るチョコレートになる様子をご覧いただきます。その後、包装ラインへ移動します。そうです——ベルトから出たばかりのチョコを数個試食していただけます。安全のため、常に黄色い線の内側にとどまり、製造エリア内ではヘアネットを着けたままにしてください。写真は、一部の設備が機密である包装ラインを除き、どこでも撮影可能です。それでは始めましょう。",
+    "translation": "では、終わる前にブライトウォーターのコマーシャルについて話しましょう。クライアントが昨日ストーリーボードを承認してくれたので、撮影に入って問題ありません。来週の撮影2日間、月曜と火曜にダウンタウンのスタジオを予約しました。一つ問題があって、いつもの照明技師のカルロスが別の案件で不在なので、プリヤというフリーランスの方に入ってもらうよう手配しました。どうか歓迎してあげてください。撮影が終われば編集に約2週間かかり、納品は6月初旬、予定通りです。ソフィア、更新した香盤表を明日までにクルー全員に送ってもらえますか? では、皆さんありがとう。",
     "questions": [
       {
-        "q": "Where will the tour begin?",
+        "q": "What is the speaker mainly discussing?",
         "choices": [
-          "In the gift shop",
-          "At the main entrance",
-          "In the tasting room",
-          "In the roasting room"
+          "Hiring a new manager",
+          "Editing a finished film",
+          "Plans for filming a commercial",
+          "Choosing a client"
+        ],
+        "answer": 2,
+        "explanation": "『we're clear to move into filming』撮影開始に向けたコマーシャル制作の打ち合わせが中心。editing は後工程の話でひっかけ。"
+      },
+      {
+        "q": "Why has a freelancer been arranged?",
+        "choices": [
+          "A client requested it",
+          "A regular staff member is unavailable",
+          "The budget increased",
+          "The team is expanding"
+        ],
+        "answer": 1,
+        "explanation": "『our usual lighting technician, Carlos, is away on another project, so I've arranged for a freelancer』が根拠。away on another project を unavailable と言い換え。"
+      },
+      {
+        "q": "What is Sofia asked to do?",
+        "choices": [
+          "Contact the client",
+          "Book a studio",
+          "Edit the video",
+          "Send a call sheet to the crew"
         ],
         "answer": 3,
-        "explanation": "We'll start in the roasting room（焙煎室から始める）が根拠。start が begin に対応。gift shop や tasting room は工場見学の連想ひっかけ。"
-      },
-      {
-        "q": "What are visitors allowed to do?",
-        "choices": [
-          "Operate the machines",
-          "Sample some products",
-          "Take beans home",
-          "Buy items at a discount"
-        ],
-        "answer": 1,
-        "explanation": "you'll get to sample a few pieces fresh off the belt（試食できる)が根拠。sample が選択肢にそのまま使われている。"
-      },
-      {
-        "q": "Where are photographs not permitted?",
-        "choices": [
-          "In the tasting area",
-          "On the packaging line",
-          "In the roasting room",
-          "In the parking lot"
-        ],
-        "answer": 1,
-        "explanation": "take photos everywhere except on the packaging line（包装ラインを除きどこでも撮影可)が根拠。except（〜を除いて）が撮影禁止の場所を示す。roasting room は撮影可なのでひっかけ。"
+        "explanation": "『Sofia, could you send the updated call sheet to the whole crew』が根拠。スタジオ予約は既に済んでおりひっかけ。"
       }
     ]
   },
   {
     "id": "s5p4-05",
-    "kind": "broadcast",
-    "title": "トーク 5(ラジオのローカルニュース)",
+    "kind": "announcement",
+    "graphicKind": "schedule",
+    "title": "トーク 5(園芸店のアナウンス・図表問題)",
+    "graphic": "Saturday Gardening Workshops\n1. Composting Basics — 10:00\n2. Container Vegetables — 11:30\n3. Pruning Fruit Trees — 1:00\n4. Designing a Pollinator Garden — 2:30",
     "audio": [
       {
         "speaker": "W",
-        "text": "And now for local news. The city's newest farmers market will open this Saturday in Riverside Square, giving residents a weekly place to buy fresh produce straight from area growers. More than forty vendors have signed up, offering everything from organic vegetables to homemade bread and cut flowers. The market will run every Saturday morning from eight to noon, continuing through the end of October. Organizers say on-site parking will be limited, so they encourage visitors to take the number twelve bus, which stops right at the square. For a full list of vendors, visit the city's Web site. And now, over to Sam with your weekend weather."
+        "text": "Good morning, and welcome to Greenleaf Garden Center. A quick note about today's free workshops. Unfortunately, our instructor for the eleven-thirty session on growing vegetables in containers has called in sick, so that class has been canceled for today. We're very sorry for the inconvenience, and it will be rescheduled for next Saturday. All the other sessions will run as planned. If you'd like to join one, just sign the list at the information desk near the entrance. And don't forget — anyone who attends a workshop today gets ten percent off seeds and soil in our shop. Enjoy your visit."
       }
     ],
-    "translation": "続いてローカルニュースです。市内で最も新しいファーマーズマーケットが今週土曜日、リバーサイド広場で開場します。地域の生産者から直接、新鮮な農産物を毎週買える場を住民に提供します。40を超える出店者が登録済みで、有機野菜から自家製パン、切り花まで幅広く並びます。マーケットは毎週土曜の午前8時から正午まで開かれ、10月末まで続きます。主催者によると現地の駐車は限られるため、広場のすぐ前に停まる12番バスの利用を勧めています。出店者の一覧は市のウェブサイトをご覧ください。それでは週末の天気をサムから。",
+    "translation": "【図表】土曜日のガーデニング・ワークショップ/1. 堆肥づくりの基礎——10:00/2. コンテナ野菜——11:30/3. 果樹の剪定——1:00/4. 送粉者の庭づくり——2:30\nおはようございます。グリーンリーフ園芸センターへようこそ。本日の無料ワークショップについて一点お知らせです。あいにく、11時30分のコンテナでの野菜栽培のセッションの講師が病欠のため、本日そのクラスは中止となりました。ご不便をおかけして申し訳ございません。来週土曜日に振り替え開催します。他のセッションはすべて予定通り行います。参加をご希望の方は、入口近くの案内デスクにあるリストにご記名ください。そして、本日ワークショップに参加された方は、店内の種と土が10パーセント引きになりますのでお忘れなく。ごゆっくりどうぞ。",
     "questions": [
       {
-        "q": "What is the report mainly about?",
+        "q": "Look at the graphic. Which workshop has been canceled?",
         "choices": [
-          "A new public bus route",
-          "A road repair project",
-          "A community gardening contest",
-          "The opening of a farmers market"
+          "Container Vegetables",
+          "Pruning Fruit Trees",
+          "Composting Basics",
+          "Designing a Pollinator Garden"
+        ],
+        "answer": 0,
+        "explanation": "図表問題。音声の『the eleven-thirty session on growing vegetables in containers ... has been canceled』と、図表の11:30の項目 Container Vegetables を突き合わせる。図表と音声の両方が必要。"
+      },
+      {
+        "q": "Why was the workshop canceled?",
+        "choices": [
+          "A room is unavailable",
+          "Bad weather",
+          "Low enrollment",
+          "The instructor is ill"
         ],
         "answer": 3,
-        "explanation": "The city's newest farmers market will open this Saturday（新しいファーマーズマーケットが開場)が話の中心。バスは移動手段として触れるだけで主題ではない(ひっかけ)。"
+        "explanation": "『our instructor ... has called in sick』が根拠。called in sick を ill と言い換え。天候によるものではない。"
       },
       {
-        "q": "When will the market close for the season?",
+        "q": "How can visitors join a workshop?",
         "choices": [
-          "At the end of October",
-          "At the end of September",
-          "At the end of August",
-          "At the end of November"
+          "By registering online",
+          "By signing a list at the desk",
+          "By calling ahead",
+          "By paying at the entrance"
         ],
-        "answer": 0,
-        "explanation": "continuing through the end of October（10月末まで続く)が根拠。毎回8時〜正午という時刻情報と混同させないよう注意する数値問題。"
-      },
-      {
-        "q": "What does the speaker encourage listeners to do?",
-        "choices": [
-          "Take the number 12 bus",
-          "Bring reusable bags",
-          "Arrive before opening",
-          "Register in advance"
-        ],
-        "answer": 0,
-        "explanation": "they encourage visitors to take the number twelve bus（12番バスの利用を勧める)が根拠。駐車が限られるため公共交通を促している。"
+        "answer": 1,
+        "explanation": "『sign the list at the information desk near the entrance』が根拠。オンライン登録ではなく案内デスクでの記名。"
       }
     ]
   },
   {
     "id": "s5p4-06",
-    "kind": "excerpt from a meeting",
-    "graphicKind": "schedule",
-    "title": "トーク 6(会議の抜粋・図表問題)",
-    "graphic": "Product Launch Timeline\n1. Design finalized — May 5\n2. Prototype testing — May 19\n3. Marketing materials — June 2\n4. Public launch — June 16",
+    "kind": "tour information",
+    "title": "トーク 6(見学案内)",
     "audio": [
       {
         "speaker": "M",
-        "text": "Let's do a quick check on our phone launch timeline. Most of it is on track, but I want to flag one delay. The group handling our marketing materials is short-staffed this month, so that piece will slip by about a week from its original date. Everything before it — the design work and the prototype testing — is already finished on schedule, and I don't expect the public launch date to move at all. To make up the lost time, I've asked the design team to pitch in and help create the promotional graphics. Let's revisit the whole schedule again next Monday."
+        "text": "Welcome, everyone, to the Cape Ridge Wind Farm Visitor Center. Before we head outside to see the turbines up close, let me go over a few points. First, for safety, please wear the hard hats we've provided and stay on the marked path at all times. The turbines you'll see are among the tallest in the region, and each one can power roughly a thousand homes. Our walk will last about an hour, and it does involve some uphill sections, so let me know if you'd prefer the shorter, flat route. When we return, there'll be a short film in the auditorium about how wind energy reaches your home. Alright, please grab a hard hat and follow me."
       }
     ],
-    "translation": "【図表】製品ローンチ工程表/1. デザイン確定 — 5月5日/2. 試作品テスト — 5月19日/3. マーケティング資料 — 6月2日/4. 一般発売 — 6月16日\nスマートフォンのローンチ工程を手短に確認しましょう。ほとんどは順調ですが、1点だけ遅れを指摘しておきます。マーケティング資料を担当するグループが今月は人手不足で、その工程は当初の日程から約1週間ずれ込みます。それより前の作業——デザインと試作品テスト——はすでに予定通り完了しており、一般発売の日程は動かないと見ています。遅れを取り戻すため、デザインチームに応援を頼み、販促用のグラフィック作成を手伝ってもらうことにしました。全体の日程は来週月曜にまた見直しましょう。",
+    "translation": "皆さま、ケープリッジ風力発電所ビジターセンターへようこそ。外に出てタービンを間近で見る前に、いくつか確認させてください。まず安全のため、お配りしたヘルメットを着用し、常に表示された通路を歩いてください。ご覧いただくタービンはこの地域でも最も高い部類で、1基でおよそ1,000世帯分の電力をまかなえます。散策は約1時間で、上り坂の区間もありますので、短くて平坦なルートがよければお知らせください。戻ってきたら、講堂で風力エネルギーが家庭に届く仕組みについての短い映像を上映します。それでは、ヘルメットを取って私についてきてください。",
     "questions": [
       {
-        "q": "Look at the graphic. Which date will most likely change?",
+        "q": "Where most likely are the listeners?",
         "choices": [
-          "June 2",
-          "June 16",
-          "May 19",
-          "May 5"
-        ],
-        "answer": 0,
-        "explanation": "図表問題。音声で『marketing materials の工程が約1週間ずれ込む』と述べ、図表でその工程は 6月2日。図表と音声の両方が必要。design(5/5)と prototype(5/19)は完了済み、public launch(6/16)は動かないと明言されておりひっかけ。"
-      },
-      {
-        "q": "Why will there be a delay?",
-        "choices": [
-          "A supplier shipped late.",
-          "The budget was reduced.",
-          "A team does not have enough staff.",
-          "A test was unsuccessful."
+          "At a car factory",
+          "At a solar power plant",
+          "At a wind farm",
+          "At a national park"
         ],
         "answer": 2,
-        "explanation": "The group ... is short-staffed this month（人手不足)が根拠。short-staffed が does not have enough staff に言い換えられている。"
+        "explanation": "『welcome to the Cape Ridge Wind Farm Visitor Center ... see the turbines』が根拠。turbines(タービン)と wind energy が場所を特定する手がかり。"
       },
       {
-        "q": "What has the speaker asked the design team to do?",
+        "q": "What does the speaker ask the listeners to do for safety?",
         "choices": [
-          "Help create promotional graphics",
-          "Retest the prototype",
-          "Hire additional workers",
-          "Delay the public launch"
+          "Wear hard hats",
+          "Take photographs",
+          "Silence their phones",
+          "Bring drinking water"
         ],
         "answer": 0,
-        "explanation": "I've asked the design team to pitch in and help create the promotional graphics（販促グラフィック作成を手伝う)が根拠。pitch in and help が Help に対応。"
+        "explanation": "『for safety, please wear the hard hats we've provided』が根拠。安全のためのヘルメット着用の指示。"
+      },
+      {
+        "q": "What will the listeners do after the walk?",
+        "choices": [
+          "Visit a gift shop",
+          "Watch a short film",
+          "Have lunch",
+          "Meet an engineer"
+        ],
+        "answer": 1,
+        "explanation": "『When we return, there'll be a short film in the auditorium』が根拠。散策後に映像を上映する。"
       }
     ]
   },
@@ -292,186 +292,186 @@ window.TOEIC_DATA_5.part4 = [
     "audio": [
       {
         "speaker": "W",
-        "text": "Hello, this is a message for Mr. Alvarez. This is Tina from Rideline Auto Service. Good news — your car is ready to pick up. We replaced the brake pads and rotated the tires just as you requested. We also noticed the wiper blades were badly worn, so we went ahead and replaced those for you at no extra charge. Your total comes to two hundred and forty dollars. We're open until six today and from eight to five on Saturday. When you come by, please remember to bring the claim ticket you were given at drop-off. If you have any questions about the work, feel free to call me back. Thanks."
+        "text": "Hi, this message is for Mr. and Mrs. Alvarez. This is Nina from Goldenhour Photography, calling about your outdoor family portrait session scheduled for Saturday at Ridgeway Park. The weather forecast is now predicting heavy rain all day Saturday, so I'd recommend moving the shoot to Sunday, when the skies should be clear. The same morning time, ten o'clock, is available. Alternatively, if the weekend doesn't work for you, we can do the session at our indoor studio instead. Please let me know which you'd prefer by calling me back at five five five, four four two one. Thanks, and I hope we can get some beautiful photos for you."
       }
     ],
-    "translation": "もしもし、アルバレス様への伝言です。ライドライン・オートサービスのティナと申します。良いお知らせです——お車のお引き取り準備が整いました。ご依頼どおり、ブレーキパッドを交換し、タイヤをローテーションしました。また、ワイパーブレードがひどく摩耗していたので、追加料金なしで交換しておきました。お会計は合計240ドルです。本日は6時まで、土曜は8時から5時まで営業しています。お越しの際は、お預かり時にお渡しした引換券を必ずお持ちください。作業についてご質問があれば、折り返しお電話ください。よろしくお願いします。",
+    "translation": "もしもし、アルバレス様ご夫妻への伝言です。ゴールデンアワー・フォトグラフィーのニーナと申します。土曜日にリッジウェイ公園で予定されている屋外での家族ポートレート撮影の件でお電話しました。天気予報が土曜は一日中大雨と出ておりますので、晴れる見込みの日曜日に撮影をずらすことをお勧めします。同じ午前10時の枠が空いています。あるいは、週末のご都合が合わなければ、代わりに当社の屋内スタジオで撮影することもできます。どちらがよろしいか、555-4421まで折り返しお電話いただけますか。それでは、素敵なお写真が撮れることを願っています。",
     "questions": [
       {
         "q": "Why is the speaker calling?",
         "choices": [
-          "To schedule a repair",
-          "To say a vehicle is ready",
-          "To request advance payment",
-          "To report a delay"
-        ],
-        "answer": 1,
-        "explanation": "your car is ready to pick up（車の引き取り準備が整った)が根拠。予約を取る/前払い/遅延はいずれも本文に反するひっかけ。"
-      },
-      {
-        "q": "What did the service center do at no additional cost?",
-        "choices": [
-          "Washed the exterior",
-          "Rotated the tires",
-          "Replaced the brake pads",
-          "Replaced the wiper blades"
-        ],
-        "answer": 3,
-        "explanation": "the wiper blades were badly worn, so we ... replaced those ... at no extra charge（ワイパーを無料で交換)が根拠。タイヤやブレーキは『依頼どおり』の有料作業で、無料の作業はワイパーだけ。"
-      },
-      {
-        "q": "What is the listener asked to bring?",
-        "choices": [
-          "A credit card",
-          "The owner's manual",
-          "A claim ticket",
-          "A spare key"
+          "To cancel the session permanently",
+          "To confirm a payment",
+          "To suggest changing the date",
+          "To offer a discount"
         ],
         "answer": 2,
-        "explanation": "please remember to bring the claim ticket（引換券を持参)が根拠。支払い(240ドル)の連想でクレジットカードを選ばせるひっかけ。"
+        "explanation": "『I'd recommend moving the shoot to Sunday』が根拠。撮影日の変更提案であり、完全なキャンセルではない。"
+      },
+      {
+        "q": "What is the problem?",
+        "choices": [
+          "A photographer is sick",
+          "Rain is forecast",
+          "A location is closed",
+          "Some equipment is broken"
+        ],
+        "answer": 1,
+        "explanation": "『The weather forecast is now predicting heavy rain all day Saturday』が根拠。雨天が問題。"
+      },
+      {
+        "q": "What alternative does the speaker offer?",
+        "choices": [
+          "An indoor studio session",
+          "A shorter session",
+          "A full refund",
+          "A different photographer"
+        ],
+        "answer": 0,
+        "explanation": "『we can do the session at our indoor studio instead』が根拠。屋外が難しい場合の代替案。"
       }
     ]
   },
   {
     "id": "s5p4-08",
-    "kind": "speech",
-    "title": "トーク 8(スピーチ)",
+    "kind": "broadcast",
+    "title": "トーク 8(ラジオ放送)",
     "audio": [
       {
         "speaker": "M",
-        "text": "Good evening, and thank you all for coming to our annual volunteer appreciation dinner. Each year, this shelter depends on people like you — folks who give up their weekends to sort donations, serve meals, and welcome newcomers. Over the past year, our two hundred volunteers contributed more than fifteen thousand hours of service, which is a record for us. Thanks to that effort, we were able to help nearly twice as many families as we did the year before. In a few minutes, we'll be handing out certificates to everyone who reached the one-hundred-hour mark. But first, please help yourselves to the buffet at the back of the room. Enjoy the evening."
+        "text": "You're listening to Community Roundup on KDLT. In local news, the town of Millbrook is launching its Green Streets project this weekend. Volunteers will gather at Central Square on Saturday morning to plant three hundred trees along the main roads over the next two months. Organizers say the trees will provide shade, improve air quality, and give the downtown a fresh look. Anyone interested in helping can register at the town hall or simply show up at eight A.M. Saturday. Gloves and tools will be provided, but you're asked to bring your own water bottle. Coming up after the break, we'll have this week's weather outlook."
       }
     ],
-    "translation": "こんばんは、そして毎年恒例のボランティア感謝の夕食会にお集まりいただきありがとうございます。この保護施設は毎年、皆さんのような方々——週末を割いて寄付品を仕分けし、食事を配り、新しく来た人を迎える方々——に支えられています。この1年で、200名のボランティアが1万5千時間を超える奉仕を提供してくださり、これは当施設の記録です。その努力のおかげで、前年のほぼ2倍の家族を支援することができました。数分後には、100時間に達したすべての方に修了証をお渡しします。ですがまずは、部屋の奥のビュッフェをどうぞご自由にお召し上がりください。夕べをお楽しみください。",
+    "translation": "お聴きの番組はKDLTの『コミュニティ・ラウンドアップ』です。地域のニュースです。ミルブルックの町が今週末、グリーン・ストリート計画を始動します。ボランティアが土曜の朝にセントラル・スクエアに集まり、今後2か月かけて幹線道路沿いに300本の木を植えます。主催者によると、これらの木は日陰を作り、空気の質を改善し、中心街に新しい表情を与えるとのことです。手伝いたい方は町役場で登録するか、土曜午前8時にそのままお越しください。手袋と道具は用意されますが、水筒はご自身でお持ちください。休憩の後は、今週の天気予報をお届けします。",
     "questions": [
       {
-        "q": "What is the purpose of the event?",
+        "q": "What is the news report mainly about?",
         "choices": [
-          "To raise funds",
-          "To recruit new members",
-          "To thank volunteers",
-          "To celebrate an anniversary"
-        ],
-        "answer": 2,
-        "explanation": "annual volunteer appreciation dinner（ボランティア感謝の会)が根拠。appreciation が thank に対応。募金や新規募集は本文に反するひっかけ。"
-      },
-      {
-        "q": "What record was set this past year?",
-        "choices": [
-          "The amount of money raised",
-          "The number of service hours",
-          "The number of donations received",
-          "The number of events held"
+          "A park renovation",
+          "A tree-planting project",
+          "A road repair project",
+          "A recycling contest"
         ],
         "answer": 1,
-        "explanation": "more than fifteen thousand hours of service, which is a record（1万5千時間超という記録)が根拠。donations という語は別文脈(sort donations)で登場するひっかけ。"
+        "explanation": "『the town of Millbrook is launching its Green Streets project ... to plant three hundred trees』が根拠。植樹プロジェクトの紹介。"
       },
       {
-        "q": "What will happen in a few minutes?",
+        "q": "What are volunteers asked to bring?",
         "choices": [
-          "A guest speaker will present.",
-          "A raffle will be held.",
-          "Certificates will be handed out.",
-          "A tour will be given."
+          "Planting tools",
+          "A registration form",
+          "Gardening gloves",
+          "Their own water bottle"
         ],
-        "answer": 2,
-        "explanation": "we'll be handing out certificates to everyone who reached the one-hundred-hour mark（100時間到達者に修了証を渡す)が根拠。"
+        "answer": 3,
+        "explanation": "『you're asked to bring your own water bottle』が根拠。手袋と道具は用意される(Gloves and tools will be provided)のでひっかけ。"
+      },
+      {
+        "q": "What will listeners hear after the break?",
+        "choices": [
+          "A weather forecast",
+          "A sports report",
+          "A music segment",
+          "A traffic update"
+        ],
+        "answer": 0,
+        "explanation": "『Coming up after the break, we'll have this week's weather outlook』が根拠。休憩後は天気の見通し。"
       }
     ]
   },
   {
     "id": "s5p4-09",
-    "kind": "talk",
-    "graphicKind": "list",
-    "title": "トーク 9(教室の案内・図表問題)",
-    "graphic": "Weekend Cooking Classes\n1. Fresh Pasta — $45\n2. Thai Street Food — $50\n3. French Pastries — $60\n4. Sushi Basics — $55",
+    "kind": "excerpt from a meeting",
+    "graphicKind": "invoice",
+    "title": "トーク 9(会議の抜粋・図表問題)",
+    "graphic": "Equipment Order — Nova Studio\n1. Camera body — $2,400\n2. Zoom lens — $1,100\n3. Tripod set — $350\n4. Lighting kit — $1,800",
     "audio": [
       {
         "speaker": "W",
-        "text": "Thanks for signing up for one of our weekend cooking classes here at the Maple Kitchen studio. Before we get to the schedule, I have one update. The instructor for our most expensive class has just moved out of state, so unfortunately we've had to cancel that session for now. Anyone who registered for it will be refunded automatically within three business days — there's nothing you need to do. The other three classes will run exactly as planned. If you'd like to switch into one of them instead, come talk to me right after this and I'll check for open spots. Just so you know, the sushi class already has a short waitlist, so let me know soon."
+        "text": "Let's quickly review the equipment order before I submit it. Finance approved our budget, but with one condition — they've asked us to cut the single most expensive item for now and add it in next quarter instead. So I'm going to remove that item from this order; everything else stays. The good news is the supplier is offering free shipping on orders placed this week, so I'll send the purchase order by Friday. Once it arrives, Tom will check each piece against the packing list before we log it into our inventory system. If anyone thinks we're missing something essential, let me know by end of day."
       }
     ],
-    "translation": "【図表】週末料理教室/1. 生パスタ — 45ドル/2. タイのストリートフード — 50ドル/3. フランス菓子 — 60ドル/4. 寿司の基礎 — 55ドル\nメープル・キッチン・スタジオの週末料理教室にお申し込みいただきありがとうございます。日程の前に1つお知らせです。最も受講料の高いクラスの講師が州外へ引っ越したばかりで、残念ながらそのクラスは当面中止することになりました。申し込まれた方には3営業日以内に自動的に返金されますので、お手続きは不要です。他の3クラスは予定どおり開催します。代わりにどれかに変更したい方は、この後すぐ私にお声がけください。空きを確認します。なお、寿司のクラスはすでに短い順番待ちがありますので、お早めにお知らせください。",
+    "translation": "【図表】機材発注 — ノヴァ・スタジオ/1. カメラ本体 — 2,400ドル/2. ズームレンズ — 1,100ドル/3. 三脚セット — 350ドル/4. 照明キット — 1,800ドル\n発注する前に、機材の注文をざっと確認しましょう。財務部は予算を承認しましたが、一つ条件があります——最も高額な項目を今回は外し、代わりに来四半期に追加してほしいとのことです。ですので、その項目をこの注文から外します。それ以外はそのままです。良い知らせは、仕入先が今週の注文には送料無料を提供していることで、金曜までに発注書を送ります。届いたら、在庫システムに登録する前に、トムが各機材を納品書と照合します。何か必要不可欠なものが抜けていると思う人がいたら、今日の終業までに教えてください。",
     "questions": [
       {
-        "q": "Look at the graphic. Which class has been canceled?",
+        "q": "Look at the graphic. Which item will be removed from the order?",
         "choices": [
-          "Thai Street Food",
-          "Sushi Basics",
-          "French Pastries",
-          "Fresh Pasta"
-        ],
-        "answer": 2,
-        "explanation": "図表問題。音声は『our most expensive class(最も受講料が高いクラス)』が中止と言い、クラス名は言わない。図表で最も高い60ドルは French Pastries。図表と音声の両方が必要。"
-      },
-      {
-        "q": "Why was the class canceled?",
-        "choices": [
-          "The kitchen is being renovated.",
-          "Too few people signed up.",
-          "Some ingredients were unavailable.",
-          "The instructor moved away."
-        ],
-        "answer": 3,
-        "explanation": "The instructor ... has just moved out of state（講師が州外へ引っ越した)が根拠。moved out of state が moved away に対応。"
-      },
-      {
-        "q": "What does the speaker say about refunds?",
-        "choices": [
-          "They will be issued automatically.",
-          "They are not available.",
-          "They will take about a month.",
-          "They must be requested in writing."
+          "Camera body",
+          "Zoom lens",
+          "Lighting kit",
+          "Tripod set"
         ],
         "answer": 0,
-        "explanation": "will be refunded automatically within three business days（3営業日以内に自動返金)が根拠。there's nothing you need to do とも述べ、申請不要である点を確認できる。"
+        "explanation": "図表問題。音声の『cut the single most expensive item』と、図表で最も高額な項目 Camera body(2,400ドル)を突き合わせる。金額の比較が必要。"
+      },
+      {
+        "q": "Why will the item be removed?",
+        "choices": [
+          "To stay within the budget",
+          "It was ordered by mistake",
+          "A better model was found",
+          "The item is out of stock"
+        ],
+        "answer": 0,
+        "explanation": "『Finance approved our budget, but with one condition』予算内に収めるための財務部の指示。在庫切れの話ではない。"
+      },
+      {
+        "q": "What will Tom do when the order arrives?",
+        "choices": [
+          "Submit the order",
+          "Update the budget",
+          "Check the items against a list",
+          "Contact the supplier"
+        ],
+        "answer": 2,
+        "explanation": "『Tom will check each piece against the packing list』が根拠。納品物を packing list と照合する。"
       }
     ]
   },
   {
     "id": "s5p4-10",
-    "kind": "announcement",
-    "title": "トーク 10(施設内アナウンス)",
+    "kind": "speech",
+    "title": "トーク 10(スピーチ)",
     "audio": [
       {
         "speaker": "M",
-        "text": "Good morning, members. This is a quick announcement from the front desk here at Summit Fitness. Please be aware that our swimming pool and hot tub will be closed for deep cleaning this Wednesday and Thursday. They'll reopen on Friday morning at the usual six-o'clock start. During the closure, all of our other facilities — the gym floor, the exercise studios, and the sauna — will stay open as normal. As a thank-you for your patience, we're giving every member a free guest pass this week, so feel free to bring a friend along to try us out. You can pick up your pass anytime at the front desk. Have a great workout."
+        "text": "Thank you all for joining us this evening. It's my great pleasure to announce the launch of the Hartwell Scholarship Fund here at Bayside University. The fund was made possible by a generous donation from alumna Grace Hartwell, who graduated from our engineering program thirty years ago. Starting this fall, the scholarship will cover full tuition for five students each year who show exceptional promise but need financial support. Grace has told me that she received similar help as a student, and she wants to give the next generation the same opportunity. In a moment, Grace herself will come up to share her story. But first, please join me in a warm round of applause to thank her."
       }
     ],
-    "translation": "会員の皆さま、おはようございます。サミット・フィットネスのフロントからの短いお知らせです。今週水曜と木曜、当施設のプールとジャグジーは徹底清掃のため閉鎖されますのでご注意ください。金曜の朝、通常どおり6時に再開します。閉鎖中も、その他の施設——ジムフロア、エクササイズスタジオ、サウナ——は通常どおり営業します。お待ちいただくお礼として、今週は会員の皆さま全員に無料のゲストパスを差し上げます。ぜひお友達を連れて当施設をお試しください。パスはフロントでいつでもお受け取りいただけます。良いトレーニングを。",
+    "translation": "今晩はお集まりいただきありがとうございます。ここベイサイド大学にハートウェル奨学基金が発足したことをご報告できるのは、私にとって大きな喜びです。この基金は、30年前に本学の工学課程を卒業した同窓生グレース・ハートウェルさんの寛大なご寄付によって実現しました。今秋から、この奨学金は、並外れた将来性がありながら経済的支援を必要とする学生5名に対し、毎年全額の授業料を給付します。グレースさんは、自身も学生時代に同様の支援を受けたので、次の世代に同じ機会を与えたいのだと話してくれました。まもなく、グレースさんご本人が登壇してご自身の話をしてくださいます。ですがその前に、彼女に感謝を込めて温かい拍手をお願いします。",
     "questions": [
       {
-        "q": "Which facility will be closed on Wednesday and Thursday?",
+        "q": "What is the purpose of the speech?",
         "choices": [
-          "The gym floor",
-          "The swimming pool",
-          "The exercise studios",
-          "The sauna"
+          "To announce a scholarship fund",
+          "To celebrate a graduation",
+          "To introduce a new course",
+          "To open a new building"
         ],
-        "answer": 1,
-        "explanation": "our swimming pool and hot tub will be closed（プールが閉鎖)が根拠。sauna・gym floor・studios は『通常どおり営業』と明言されておりひっかけ。"
+        "answer": 0,
+        "explanation": "『It's my great pleasure to announce the launch of the Hartwell Scholarship Fund』が根拠。奨学基金の発足を告げるスピーチ。"
       },
       {
-        "q": "When will the facility reopen?",
+        "q": "What did Grace Hartwell do?",
         "choices": [
-          "Wednesday evening",
-          "Friday morning",
-          "Saturday afternoon",
-          "Thursday night"
+          "She designed the campus",
+          "She donated money for the fund",
+          "She won a teaching award",
+          "She taught at the university"
         ],
         "answer": 1,
-        "explanation": "They'll reopen on Friday morning at the usual six-o'clock start（金曜朝6時に再開)が根拠。閉鎖日(水・木)と混同させない時間の聞き取り問題。"
+        "explanation": "『The fund was made possible by a generous donation from alumna Grace Hartwell』が根拠。卒業生グレースが寄付をした。教えていたわけではない。"
       },
       {
-        "q": "What is being offered to members this week?",
+        "q": "What will happen next?",
         "choices": [
-          "A free towel",
-          "A membership discount",
-          "A free guest pass",
-          "A personal training session"
+          "A meal will be served",
+          "A video will be shown",
+          "Awards will be handed out",
+          "Grace will give a speech"
         ],
-        "answer": 2,
-        "explanation": "we're giving every member a free guest pass this week（無料ゲストパス)が根拠。会員料金の割引ではない点に注意。"
+        "answer": 3,
+        "explanation": "『Grace herself will come up to share her story』が根拠。この後グレース本人が話をする。"
       }
     ]
   }

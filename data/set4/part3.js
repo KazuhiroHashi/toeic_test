@@ -1,4 +1,4 @@
-// セット4 part3(監査反映・正解位置均等化済み)
+// セット4 part3(重複差し替え・正解位置均等化済み)
 window.TOEIC_DATA_4 = window.TOEIC_DATA_4 || {};
 window.TOEIC_DATA_4.part3 = [
   {
@@ -6,56 +6,60 @@ window.TOEIC_DATA_4.part3 = [
     "title": "会話 1",
     "audio": [
       {
-        "speaker": "W",
-        "text": "Hi, I'm looking for a cookbook called Coastal Kitchen, but I don't see it anywhere on your shelves."
-      },
-      {
         "speaker": "M",
-        "text": "Let me check our system... I'm afraid we're out of it right now, but I can place a special order for you. It usually arrives within five days."
+        "text": "Hello, this is Greg Naylor from Aldervale Machinery. I'm calling about our order of hydraulic valves, part number VH-22. Can you confirm the shipping date?"
       },
       {
         "speaker": "W",
-        "text": "That would be great. Do I need to pay for it today?"
+        "text": "Let me check, Mr. Naylor. I'm afraid there's a delay. Our steel supplier fell behind schedule, so the valves won't ship until the fifteenth."
       },
       {
         "speaker": "M",
-        "text": "Just a small deposit now, and the rest when you come to collect it. I'll give you a call the moment it comes in."
+        "text": "That's a problem. Our assembly line is set to restart on the twelfth. Is there any way to get part of the order sooner?"
+      },
+      {
+        "speaker": "W",
+        "text": "We could send two hundred units by the tenth and the rest the following week. Would a partial shipment help?"
+      },
+      {
+        "speaker": "M",
+        "text": "Yes, that would keep the line running. Please arrange the partial shipment and e-mail me a revised delivery schedule."
       }
     ],
-    "translation": "女性:すみません、『Coastal Kitchen』という料理本を探しているんですが、棚のどこにも見当たらなくて。\n男性:システムを確認します……あいにく今は在庫を切らしているのですが、お取り寄せができます。通常5日以内に届きます。\n女性:それは助かります。今日、代金を払う必要はありますか?\n男性:今は少額の内金だけで、残りは受け取りにいらしたときで結構です。入荷し次第、お電話しますね。",
+    "translation": "男性:もしもし、アルダーヴェイル機械のグレッグ・ネイラーです。ハイドロリックバルブ、型番VH-22の注文の件でお電話しました。出荷日を確認できますか?\n女性:お調べします、ネイラー様。あいにく遅れが出ております。当社の鋼材サプライヤーが予定より遅れておりまして、バルブの出荷は15日以降になります。\n男性:それは困りますね。うちの組立ラインは12日に稼働を再開する予定なんです。注文の一部だけでも早く手に入れる方法はありませんか?\n女性:200個を10日までにお送りし、残りを翌週にお届けすることは可能です。分割出荷でよろしいでしょうか?\n男性:はい、それならラインを止めずに済みます。分割出荷を手配して、修正した納品スケジュールをメールで送ってください。",
     "questions": [
       {
-        "q": "Where most likely are the speakers?",
+        "q": "Why is the man calling?",
         "choices": [
-          "At a public library",
-          "At a grocery store",
-          "At a restaurant",
-          "At a bookstore"
+          "To request a refund",
+          "To confirm a shipping date",
+          "To place a new order",
+          "To report a defective valve"
         ],
-        "answer": 3,
-        "explanation": "『本を探す→在庫確認→取り寄せ・内金』というやり取りから書店だと分かる。cookbook(料理本)から restaurant(レストラン)を連想させるひっかけに注意。図書館なら『取り寄せて購入・内金』にはならない。"
+        "answer": 1,
+        "explanation": "冒頭で男性は Can you confirm the shipping date?(出荷日を確認できますか)と述べており、出荷日の確認が目的。『新規注文』や『不良品の報告』は本文にない連想のひっかけ。"
       },
       {
-        "q": "What does the man offer to do?",
+        "q": "What caused the delay?",
         "choices": [
-          "Offer a full refund",
-          "Ship the book overseas",
-          "Recommend a different title",
-          "Place a special order"
-        ],
-        "answer": 3,
-        "explanation": "男性の I can place a special order for you が申し出。out of it(在庫切れ)なので別の本を勧めると思わせるひっかけ(A)に注意。"
-      },
-      {
-        "q": "What will the man do when the book arrives?",
-        "choices": [
-          "Hold it for one month",
-          "Mail her a receipt",
-          "Call her when it arrives",
-          "Deliver it to her home"
+          "A machine broke down.",
+          "There was a labor shortage.",
+          "A supplier fell behind schedule.",
+          "A customs inspection was required."
         ],
         "answer": 2,
-        "explanation": "最後の I'll give you a call the moment it comes in が根拠。call が Call her に対応。自宅配送や1か月取り置きは述べていない。"
+        "explanation": "女性の Our steel supplier fell behind schedule(鋼材サプライヤーが予定より遅れた)が原因。『機械の故障』『税関検査』は製造業から連想させるひっかけで、本文の根拠はない。"
+      },
+      {
+        "q": "What does the man ask the woman to send?",
+        "choices": [
+          "A signed contract",
+          "A product sample",
+          "A price quote",
+          "A revised delivery schedule"
+        ],
+        "answer": 3,
+        "explanation": "男性の最後の e-mail me a revised delivery schedule が根拠。revised(修正された)がキー。見積もりや契約書は登場しない。"
       }
     ]
   },
@@ -64,56 +68,60 @@ window.TOEIC_DATA_4.part3 = [
     "title": "会話 2",
     "audio": [
       {
-        "speaker": "M",
-        "text": "Hello, I rented a compact car from your downtown branch, and I'd like to keep it for two extra days. Is that possible?"
-      },
-      {
         "speaker": "W",
-        "text": "Let me pull up your reservation... Yes, we can extend it through Thursday. The daily rate stays the same, so it will be an additional ninety dollars."
+        "text": "Hi, this is Dana at Fenmore Distribution. A pallet from your last delivery arrived with several crushed boxes. About a dozen units are damaged."
       },
       {
         "speaker": "M",
-        "text": "That's fine. Do I need to bring the car in to sign anything?"
+        "text": "I'm sorry to hear that. Do you have the tracking number so I can start a damage claim?"
       },
       {
         "speaker": "W",
-        "text": "No, I can update everything over the phone. I'll email you a revised agreement to confirm the new return date."
+        "text": "Yes, it's on the packing slip. But first, can you arrange a replacement shipment? We need those units for an order leaving Friday."
+      },
+      {
+        "speaker": "M",
+        "text": "I can send replacements today by express, so they'll arrive Wednesday. I'll also e-mail you a claim form."
+      },
+      {
+        "speaker": "W",
+        "text": "Perfect. I'll take photos of the damaged boxes and send them over so everything is documented."
       }
     ],
-    "translation": "男性:もしもし、ダウンタウン店でコンパクトカーを借りたんですが、あと2日延長したいんです。可能ですか?\n女性:ご予約を確認します……はい、木曜まで延長できます。1日あたりの料金は変わりませんので、追加で90ドルになります。\n男性:大丈夫です。何か署名するのに車を持ち込む必要はありますか?\n女性:いいえ、すべて電話で更新できます。新しい返却日を確認するため、修正した契約書をEメールでお送りします。",
+    "translation": "女性:もしもし、フェンモア物流のデイナです。前回の配送のパレットが、いくつかの箱が潰れた状態で届きました。12個ほどが破損しています。\n男性:それは申し訳ありません。破損クレームを始めたいので、追跡番号を教えていただけますか?\n女性:はい、納品書に書いてあります。でもまず、代替品の出荷を手配してもらえますか? 金曜に出荷する注文にそのユニットが必要なんです。\n男性:今日、速達で代替品を送れますので、水曜日には届きます。クレーム用紙もメールでお送りします。\n女性:助かります。破損した箱の写真を撮って送りますので、すべて記録に残しておきます。",
     "questions": [
       {
-        "q": "Why is the man calling?",
+        "q": "What is the problem?",
         "choices": [
-          "To reserve a vehicle",
-          "To report an accident",
-          "To extend a rental",
-          "To request a refund"
-        ],
-        "answer": 2,
-        "explanation": "I'd like to keep it for two extra days(あと2日借りたい)が根拠。keep ... extra days が extend a rental に言い換えられている。新規予約(A)ではない。"
-      },
-      {
-        "q": "What does the woman say about the rate?",
-        "choices": [
-          "It will increase",
-          "It stays the same",
-          "It includes insurance",
-          "It is discounted"
-        ],
-        "answer": 1,
-        "explanation": "女性の The daily rate stays the same が根拠。追加で90ドルという金額から『値上げ』と早合点させるひっかけ(A)に注意。"
-      },
-      {
-        "q": "What will the woman send the man?",
-        "choices": [
-          "A printed receipt",
-          "A city map",
-          "A parking permit",
-          "A revised agreement"
+          "A shipment arrived late.",
+          "An order was incomplete.",
+          "The wrong items were sent.",
+          "Some goods were damaged."
         ],
         "answer": 3,
-        "explanation": "I'll email you a revised agreement が根拠。契約内容の更新版を送る。"
+        "explanation": "女性の crushed boxes / units are damaged(箱が潰れ、ユニットが破損)が根拠。『遅延』『誤配送』『数量不足』はいずれも物流でありがちなひっかけだが、本文の問題は破損。"
+      },
+      {
+        "q": "Why does the woman need the replacements quickly?",
+        "choices": [
+          "To complete an inventory audit",
+          "To fill an order leaving Friday",
+          "To set up a store display",
+          "To prepare product samples"
+        ],
+        "answer": 1,
+        "explanation": "女性の We need those units for an order leaving Friday が根拠。金曜出荷の注文に間に合わせるため。他の選択肢は本文に出てこない。"
+      },
+      {
+        "q": "What does the woman say she will do?",
+        "choices": [
+          "Take photos of the damage",
+          "Contact the delivery driver",
+          "Return the damaged pallet",
+          "Cancel the order"
+        ],
+        "answer": 0,
+        "explanation": "最後の I'll take photos of the damaged boxes が根拠。クレーム用紙を送るのは男性側で、返品や注文取消は述べていない。"
       }
     ]
   },
@@ -123,55 +131,59 @@ window.TOEIC_DATA_4.part3 = [
     "audio": [
       {
         "speaker": "M",
-        "text": "Excuse me, are you from the IT team? I joined the accounting department this morning, and I can't get into my new laptop."
+        "text": "Hi Rina, it's Daniel from the Northgate Herald. I'm calling about your feature on local farmers' markets. It's set for Sunday's edition."
       },
       {
         "speaker": "W",
-        "text": "Yes, I can help with that. Did you receive a temporary password by email earlier today?"
+        "text": "Hi Daniel. The draft is nearly finished. I just need to confirm a couple of quotes with the people I interviewed."
       },
       {
         "speaker": "M",
-        "text": "I did, but when I type it in, it says the password has already expired."
+        "text": "How soon can you send it? Our copy editor needs it by Thursday noon to fit the page layout."
       },
       {
         "speaker": "W",
-        "text": "That happens if it isn't used within a couple of hours. I'll reset it now and walk you through creating a permanent one."
+        "text": "I can get it to you by Wednesday evening. Would it help if I sent the photos separately today?"
+      },
+      {
+        "speaker": "M",
+        "text": "Yes, please. That gives our design team a head start on the page."
       }
     ],
-    "translation": "男性:すみません、ITチームの方ですか? 今朝、経理部に入ったばかりなんですが、新しいノートパソコンにログインできなくて。\n女性:はい、お手伝いします。今日、仮のパスワードをEメールで受け取りましたか?\n男性:受け取りました。でも入力すると、パスワードはすでに期限切れですと表示されるんです。\n女性:数時間以内に使わないとそうなるんです。今リセットして、恒久的なパスワードの作り方をご案内しますね。",
+    "translation": "男性:こんにちは、リナ。ノースゲート・ヘラルドのダニエルです。地元のファーマーズマーケットに関するあなたの特集記事の件で電話しました。日曜版に載る予定です。\n女性:こんにちは、ダニエル。下書きはほぼ完成しています。取材した人たちにいくつかの引用を確認するだけです。\n男性:どのくらいで送れますか? 校閲担当が紙面レイアウトに合わせるために木曜の正午までに必要なんです。\n女性:水曜の夜までにはお渡しできます。今日、写真を別で送っておくと助かりますか?\n男性:ええ、お願いします。そうすればデザインチームが紙面作りを先に始められます。",
     "questions": [
       {
-        "q": "What is the man's problem?",
+        "q": "What is the woman writing?",
         "choices": [
-          "He missed a meeting",
-          "He cannot log in to his laptop",
-          "His inbox is full",
-          "He lost his laptop"
+          "A product advertisement",
+          "A book review",
+          "A press release",
+          "A newspaper feature"
         ],
-        "answer": 1,
-        "explanation": "I can't get into my new laptop(ログインできない)が根拠。get into が log in に対応。紛失(A)ではない。"
+        "answer": 3,
+        "explanation": "男性の your feature ... It's set for Sunday's edition(日曜版に載る特集)が根拠。edition/copy editor/page layout という語から新聞記事とわかる。"
       },
       {
-        "q": "What does the woman ask the man about?",
+        "q": "What does the woman still need to do?",
         "choices": [
-          "His employee ID",
-          "A temporary password",
-          "His department name",
-          "His phone number"
-        ],
-        "answer": 1,
-        "explanation": "Did you receive a temporary password by email? が根拠。仮パスワードの受領を確認している。"
-      },
-      {
-        "q": "What will the woman do next?",
-        "choices": [
-          "Reset the password",
-          "Replace the laptop",
-          "Call his manager",
-          "Schedule a training session"
+          "Confirm some quotes",
+          "Interview a new source",
+          "Rewrite the opening",
+          "Choose a headline"
         ],
         "answer": 0,
-        "explanation": "I'll reset it now が根拠。it は expired password を指す。"
+        "explanation": "女性の confirm a couple of quotes with the people I interviewed が根拠。新たな取材ではなく、既に取材した引用の『確認』。"
+      },
+      {
+        "q": "What does the woman offer to send today?",
+        "choices": [
+          "The photographs",
+          "An invoice",
+          "The final draft",
+          "A list of sources"
+        ],
+        "answer": 0,
+        "explanation": "女性の I sent the photos separately today が根拠。下書き(final draft)は水曜夜の予定なので today のひっかけ。"
       }
     ]
   },
@@ -180,122 +192,126 @@ window.TOEIC_DATA_4.part3 = [
     "title": "会話 4",
     "audio": [
       {
-        "speaker": "M",
-        "text": "Hi, I'm here to pick up a suit I dropped off for alterations. The name is Carter."
-      },
-      {
         "speaker": "W",
-        "text": "Let me find it... Here we are. We took in the waist and shortened the sleeves, just as you requested."
+        "text": "Hello, this is Rachel in suite 305. The heating in our office hasn't worked since yesterday, and it's quite cold in here."
       },
       {
         "speaker": "M",
-        "text": "Great. It was a little loose before, so I hope it fits now."
+        "text": "I'm sorry about that. We've had a few reports from the third floor. A technician is coming this afternoon to inspect the boiler."
       },
       {
         "speaker": "W",
-        "text": "Why don't you try it on to make sure? The fitting room is right around the corner on your left."
+        "text": "That's good to hear. Do you know when it'll be fixed? We have clients visiting tomorrow morning."
+      },
+      {
+        "speaker": "M",
+        "text": "I'll ask the technician for a timeline and let you know by the end of the day. In the meantime, I can bring up a couple of portable heaters."
+      },
+      {
+        "speaker": "W",
+        "text": "That would be a big help. Thank you."
       }
     ],
-    "translation": "男性:こんにちは、直しに出したスーツを受け取りに来ました。カーターです。\n女性:お探しします……ございました。ご依頼どおり、ウエストを詰めて袖を短くしました。\n男性:よかった。前は少しゆるかったので、これで合うといいんですが。\n女性:念のため試着されてはいかがですか? 試着室は角を曲がって左手すぐです。",
+    "translation": "女性:もしもし、305号室のレイチェルです。昨日からオフィスの暖房が効かなくて、かなり寒いんです。\n男性:申し訳ございません。3階からいくつか報告を受けています。今日の午後、技術者がボイラーを点検しに来ます。\n女性:それは良かった。いつ直りそうですか? 明日の朝、クライアントが来るんです。\n男性:技術者に見込み時間を聞いて、今日中にお知らせします。それまでの間、ポータブルヒーターを2台お持ちできますよ。\n女性:それは大変助かります。ありがとうございます。",
     "questions": [
       {
-        "q": "Why is the man at the shop?",
+        "q": "Why is the woman calling?",
         "choices": [
-          "To pick up altered clothing",
-          "To return an item",
-          "To get measured",
-          "To buy a new suit"
-        ],
-        "answer": 0,
-        "explanation": "pick up a suit I dropped off for alterations(直しに出したスーツを受け取りに来た)が根拠。新規購入(B)や採寸(C)ではない。"
-      },
-      {
-        "q": "What was done to the suit?",
-        "choices": [
-          "The waist and sleeves were adjusted",
-          "It was dry-cleaned",
-          "The lining was changed",
-          "A button was replaced"
-        ],
-        "answer": 0,
-        "explanation": "We took in the waist and shortened the sleeves が根拠。took in / shortened が adjusted に言い換えられている。"
-      },
-      {
-        "q": "What does the woman suggest the man do?",
-        "choices": [
-          "Come back later",
-          "Try on the suit",
-          "Pay in advance",
-          "Leave a deposit"
+          "To ask about parking",
+          "To report a heating problem",
+          "To renew a lease",
+          "To schedule a viewing"
         ],
         "answer": 1,
-        "explanation": "Why don't you try it on to make sure? が提案。念のため試着を勧めている。"
+        "explanation": "冒頭の The heating ... hasn't worked(暖房が効かない)が根拠。ビル管理の他業務(賃貸更新・駐車場・内見)はひっかけ。"
+      },
+      {
+        "q": "What does the man say will happen this afternoon?",
+        "choices": [
+          "A new tenant will move in.",
+          "A technician will inspect the boiler.",
+          "The rent will be adjusted.",
+          "The building will close early."
+        ],
+        "answer": 1,
+        "explanation": "男性の A technician is coming this afternoon to inspect the boiler が根拠。this afternoon という時間表現がキー。"
+      },
+      {
+        "q": "What does the man offer to bring?",
+        "choices": [
+          "Extra blankets",
+          "Portable heaters",
+          "Coffee",
+          "A heater manual"
+        ],
+        "answer": 1,
+        "explanation": "男性の I can bring up a couple of portable heaters が根拠。寒さから『毛布』を連想させるが、申し出たのはヒーター。"
       }
     ]
   },
   {
     "id": "s4p3-05",
-    "title": "会話 5(3人の会話:男性2人+女性1人)",
+    "title": "会話 5(3人の会話:女性2人+男性1人)",
     "audio": [
       {
         "speaker": "W",
-        "text": "Thanks for coming, Leo and Sam. We're producing a promotional video for the company website, and we shoot next Wednesday. Let's finalize the plan."
+        "text": "Thanks for coming in, Mr. Alvarez. I'm Sophia, the claims adjuster, and this is my colleague Beatrice, who handled the on-site inspection of your warehouse."
       },
       {
         "speaker": "M",
-        "text": "I'll take care of the camera and lighting. I just need to know how many locations we're filming at."
+        "text": "Nice to meet you, Beatrice. So, will the storm damage to the roof be covered?"
       },
       {
-        "speaker": "W",
-        "text": "Three — the lobby, the workshop, and the rooftop. Sam, can you set up the staff interviews?"
-      },
-      {
-        "speaker": "M2",
-        "text": "Sure, Rachel. I'll line up four employees and prepare the questions ahead of time."
+        "speaker": "W2",
+        "text": "Yes, it will. The wind damage falls under your policy. I've estimated the repair at around eighteen thousand dollars."
       },
       {
         "speaker": "M",
-        "text": "One concern — the rooftop shot depends on the weather. Should we plan a backup?"
+        "text": "That's a relief. How long until I receive the payment?"
       },
       {
         "speaker": "W",
-        "text": "Good point. If it rains, we'll film in the conference room instead. I'll check the forecast on Tuesday."
+        "text": "Once you submit two repair estimates from licensed contractors, we can process the claim within ten business days."
+      },
+      {
+        "speaker": "W2",
+        "text": "And I'll e-mail you our list of approved contractors this afternoon."
       }
     ],
-    "translation": "レイチェル(女性):来てくれてありがとう、レオ、サム。会社ウェブサイト用のプロモーション動画を作るんだけど、撮影は来週水曜よ。計画をまとめましょう。\nレオ(男性1):僕はカメラと照明を担当するよ。撮影場所が何か所か教えてくれれば。\nレイチェル:3か所——ロビー、作業場、屋上よ。サム、スタッフのインタビューの手配をお願いできる?\nサム(男性2):もちろん、レイチェル。従業員を4人手配して、質問を事前に用意しておくよ。\nレオ:一つ気になるのは、屋上の撮影は天気次第だってこと。予備の案を立てておくべきかな?\nレイチェル:いい指摘ね。雨なら代わりに会議室で撮りましょう。火曜に予報を確認するわ。",
+    "translation": "ソフィア(女性1):お越しいただきありがとうございます、アルバレスさん。私は損害査定担当のソフィアで、こちらは同僚のベアトリスです。あなたの倉庫の現地調査を担当しました。\n男性(アルバレス):はじめまして、ベアトリス。それで、屋根の暴風被害は補償されますか?\nベアトリス(女性2):はい、されます。強風による損害はご契約の対象です。修理費用はおよそ1万8千ドルと見積もりました。\n男性:安心しました。支払いを受け取るまでどのくらいかかりますか?\nソフィア:免許を持つ業者からの修理見積もりを2通提出していただければ、10営業日以内に請求を処理できます。\nベアトリス:それと、承認済み業者のリストを今日の午後メールでお送りします。",
     "questions": [
       {
-        "q": "What are the speakers planning?",
+        "q": "What are the speakers mainly discussing?",
         "choices": [
-          "A staff party",
-          "A product launch",
-          "A promotional video for the website",
-          "A photo exhibition"
+          "A storm-damage claim",
+          "A new insurance policy",
+          "A rental agreement",
+          "A building renovation"
+        ],
+        "answer": 0,
+        "explanation": "the storm damage to the roof / The wind damage falls under your policy から、暴風被害の保険請求が主題。新規契約や賃貸契約はひっかけ。"
+      },
+      {
+        "q": "Who inspected the warehouse?",
+        "choices": [
+          "Sophia",
+          "A contractor",
+          "Mr. Alvarez",
+          "Beatrice"
+        ],
+        "answer": 3,
+        "explanation": "発言者特定問題。ソフィアが this is my colleague Beatrice, who handled the on-site inspection と紹介している。3人の会話では名前と役割の対応を追う。"
+      },
+      {
+        "q": "What does the man need to submit?",
+        "choices": [
+          "A photo of the damage",
+          "A signed lease",
+          "Two repair estimates",
+          "A renovation permit"
         ],
         "answer": 2,
-        "explanation": "冒頭 producing a promotional video for the company website が根拠。3人の会話は誰の発言かを声と名前で追う。"
-      },
-      {
-        "q": "What will Sam do?",
-        "choices": [
-          "Arrange staff interviews",
-          "Rent the equipment",
-          "Operate the camera",
-          "Check the weather forecast"
-        ],
-        "answer": 0,
-        "explanation": "サム(2人目の男性)の I'll line up four employees ... prepare the questions が根拠。set up the staff interviews に対応。カメラはレオ、天気確認はレイチェルなのでひっかけ。"
-      },
-      {
-        "q": "What will the speakers do if it rains?",
-        "choices": [
-          "Use the conference room",
-          "Cancel the shoot",
-          "Hire a studio",
-          "Postpone it for one week"
-        ],
-        "answer": 0,
-        "explanation": "If it rains, we'll film in the conference room instead が根拠。中止や延期ではなく場所の変更。"
+        "explanation": "ソフィアの submit two repair estimates from licensed contractors が根拠。写真や許可証、賃貸契約は登場しないひっかけ。"
       }
     ]
   },
@@ -304,186 +320,190 @@ window.TOEIC_DATA_4.part3 = [
     "title": "会話 6",
     "audio": [
       {
+        "speaker": "M",
+        "text": "Hi, this is Owen from Greenfield Organic Farm. I'm calling to confirm your weekly order of vegetables for the co-op."
+      },
+      {
         "speaker": "W",
-        "text": "Good afternoon, Bright Smile Dental. How can I help you?"
+        "text": "Hi Owen. Yes, the usual crates of tomatoes and lettuce, but could you add ten crates of bell peppers this week? We have a promotion coming up."
       },
       {
         "speaker": "M",
-        "text": "Hi, I have a cleaning appointment tomorrow at ten, but something came up at work. Could I move it to Friday?"
+        "text": "Ten crates of peppers... let me check. The peppers are ripening slowly this season, so I can guarantee six crates by Thursday and the rest next week."
       },
       {
         "speaker": "W",
-        "text": "Let me check the schedule... Dr. Nolan has an opening on Friday at two thirty. Would that suit you?"
+        "text": "Six is fine for now. Same delivery time, seven a.m.?"
       },
       {
         "speaker": "M",
-        "text": "Perfect. And do I still need to arrive early to fill out forms?"
-      },
-      {
-        "speaker": "W",
-        "text": "Only the short update form this time, since you're already a patient. It takes just a couple of minutes."
+        "text": "Yes, our truck will be there at seven. I'll e-mail you the updated order total."
       }
     ],
-    "translation": "女性:こんにちは、ブライトスマイル歯科です。ご用件を承ります。\n男性:もしもし、明日10時にクリーニングの予約があるんですが、仕事で急用ができてしまって。金曜に変更できますか?\n女性:予定を確認します……ノーラン先生は金曜の2時半に空きがあります。ご都合いかがですか?\n男性:完璧です。それと、書類記入のために早めに行く必要はまだありますか?\n女性:今回は短い更新用の用紙だけです。すでに患者様なので。数分で終わります。",
+    "translation": "男性:もしもし、グリーンフィールド有機農園のオーウェンです。生協向けの毎週の野菜注文を確認するためお電話しました。\n女性:こんにちは、オーウェン。ええ、いつものトマトとレタスのケースをお願いします。それと今週はベルペッパーを10ケース追加できますか? 販促キャンペーンが控えているんです。\n男性:ペッパー10ケースですね……確認します。今シーズンはペッパーの熟すのが遅くて、木曜までに6ケースを確約でき、残りは来週になります。\n女性:今のところ6ケースで大丈夫です。配達時間は同じ、朝7時ですか?\n男性:はい、うちのトラックが7時に伺います。更新した注文合計をメールで送ります。",
     "questions": [
       {
         "q": "Why is the man calling?",
         "choices": [
-          "To book a first visit",
-          "To cancel a treatment",
-          "To reschedule an appointment",
-          "To ask about a bill"
+          "To report a shipping error",
+          "To reschedule a delivery",
+          "To confirm a produce order",
+          "To negotiate a price"
         ],
         "answer": 2,
-        "explanation": "Could I move it to Friday?(金曜に移せますか)が根拠。move が reschedule に対応。キャンセル(A)ではなく変更。"
+        "explanation": "冒頭の confirm your weekly order of vegetables が根拠。配達の再調整や誤配送、価格交渉は本文になく連想のひっかけ。"
       },
       {
-        "q": "When is the man's new appointment?",
+        "q": "Why can't the man supply all the bell peppers this week?",
         "choices": [
-          "Tomorrow at ten",
-          "Friday at ten",
-          "Friday at two thirty",
-          "Thursday at two"
-        ],
-        "answer": 2,
-        "explanation": "Dr. Nolan has an opening on Friday at two thirty ... 男性は Perfect と了承。明日10時は変更前の予約でひっかけ。"
-      },
-      {
-        "q": "What does the woman say the man must do?",
-        "choices": [
-          "Arrive an hour early",
-          "Bring an insurance card",
-          "Pay a deposit",
-          "Complete an update form"
+          "A worker is on leave.",
+          "Prices have risen.",
+          "A delivery truck broke down.",
+          "The crop is ripening slowly."
         ],
         "answer": 3,
-        "explanation": "Only the short update form this time が根拠。既存患者なので短い更新用紙のみ。"
+        "explanation": "男性の The peppers are ripening slowly this season が根拠。トラックや人員の問題ではなく、作物の生育の遅れ。"
+      },
+      {
+        "q": "What will the man send by e-mail?",
+        "choices": [
+          "An updated order total",
+          "A product photo",
+          "A delivery schedule",
+          "A seasonal price list"
+        ],
+        "answer": 0,
+        "explanation": "最後の I'll e-mail you the updated order total が根拠。updated(更新された)がキー。価格表や写真はひっかけ。"
       }
     ]
   },
   {
     "id": "s4p3-07",
-    "title": "会話 7(3人の会話:女性2人+男性1人)",
+    "title": "会話 7(3人の会話:男性2人+女性1人)",
     "audio": [
       {
-        "speaker": "M",
-        "text": "Priya, Grace — let's finalize the marketing webinar for next month. I'll be the main presenter, covering social media trends."
-      },
-      {
         "speaker": "W",
-        "text": "Sounds good. I'll prepare the slides and set up the live poll. Grace, can you manage the registration page?"
-      },
-      {
-        "speaker": "W2",
-        "text": "Of course. I'll have it ready today. How many people are we expecting?"
+        "text": "Marco, Hassan, I want to finalize the plan for upgrading the packaging line. The new machine arrives in two weeks."
       },
       {
         "speaker": "M",
-        "text": "About two hundred, based on last time. We really should test the streaming software beforehand."
+        "text": "Great, Lena. Should we schedule the installation during the weekend shutdown so we don't lose production time?"
       },
       {
         "speaker": "W",
-        "text": "I'll run a full rehearsal on Thursday so we can catch any audio problems early."
+        "text": "Exactly what I was thinking. Marco, can you coordinate with the maintenance crew?"
       },
       {
-        "speaker": "W2",
-        "text": "And I'll send everyone the login link as soon as registration opens."
+        "speaker": "M",
+        "text": "Sure, I'll set it up."
+      },
+      {
+        "speaker": "M2",
+        "text": "And I'll arrange training for the line operators. The vendor offers a two-day course on the new controls."
+      },
+      {
+        "speaker": "W",
+        "text": "Perfect, Hassan. Book that for the week after installation."
       }
     ],
-    "translation": "ベン(男性):プリヤ、グレース——来月のマーケティングウェビナーをまとめよう。僕がメインの発表者で、SNSのトレンドを扱う。\nプリヤ(女性1):いいわね。私はスライドを用意して、ライブ投票を設定するわ。グレース、登録ページの管理をお願いできる?\nグレース(女性2):もちろん。今日中に準備するわ。何人くらい見込んでいるの?\nベン:前回を踏まえて200人くらいかな。事前に配信ソフトをテストしておくべきだね。\nプリヤ:木曜に通しリハーサルをして、音声の問題を早めに見つけておくわ。\nグレース:じゃあ私は、登録が始まったらすぐ全員にログインリンクを送るわね。",
+    "translation": "女性(リナ):マルコ、ハッサン、包装ラインの更新計画を固めたいの。新しい機械は2週間後に届くわ。\nマルコ(男性1):いいですね、リナ。生産時間を失わないよう、週末の稼働停止中に設置を組みませんか?\n女性:まさにそう考えていたの。マルコ、保守班と調整してくれる?\nマルコ:もちろん、手配します。\nハッサン(男性2):それから、僕はライン作業者向けの研修を手配します。ベンダーが新しい操作系について2日間の講習を提供しています。\n女性:完璧ね、ハッサン。それは設置の翌週に予約して。",
     "questions": [
       {
-        "q": "What are the speakers organizing?",
+        "q": "What are the speakers planning?",
         "choices": [
-          "A trade show",
-          "A press conference",
-          "A webinar",
-          "A job fair"
-        ],
-        "answer": 2,
-        "explanation": "冒頭 the marketing webinar for next month が根拠。オンライン形式の講演。"
-      },
-      {
-        "q": "What will Grace do?",
-        "choices": [
-          "Manage the registration page",
-          "Prepare the slides",
-          "Present the topic",
-          "Run the rehearsal"
-        ],
-        "answer": 0,
-        "explanation": "グレース(2人目の女性)への can you manage the registration page? に Of course と答えている。発表はベン、スライド・リハはプリヤなのでひっかけ。"
-      },
-      {
-        "q": "Why will Priya hold a rehearsal on Thursday?",
-        "choices": [
-          "To train new staff",
-          "To check for technical problems",
-          "To increase attendance",
-          "To finalize the budget"
+          "Reducing production hours",
+          "Upgrading a packaging line",
+          "Hiring new operators",
+          "Relocating the factory"
         ],
         "answer": 1,
-        "explanation": "so we can catch any audio problems early が根拠。audio problems が technical problems に言い換えられている。"
+        "explanation": "リナの upgrading the packaging line が根拠。作業者は既存で、研修が話題になるが『新規採用』ではない。工場移転や生産時間削減は本文にない。"
+      },
+      {
+        "q": "What does Marco agree to do?",
+        "choices": [
+          "Order replacement parts",
+          "Arrange operator training",
+          "Coordinate with the maintenance crew",
+          "Contact the vendor"
+        ],
+        "answer": 2,
+        "explanation": "発言者特定問題。リナの依頼に対しマルコが Sure, I'll set it up と答えており、担当は保守班との調整。研修はハッサンの担当なのでひっかけ。"
+      },
+      {
+        "q": "What will Hassan arrange?",
+        "choices": [
+          "A safety inspection",
+          "Training for the operators",
+          "A delivery date",
+          "A weekend shutdown"
+        ],
+        "answer": 1,
+        "explanation": "ハッサン(2人目の男性)の I'll arrange training for the line operators が根拠。週末停止や納品日は他の話題。"
       }
     ]
   },
   {
     "id": "s4p3-08",
-    "graphicKind": "schedule",
+    "graphicKind": "list",
     "title": "会話 8(図表問題)",
-    "graphic": "Harbor Ferry Departures — Pier 3\n1. 9:00  to Rose Island\n2. 10:30 to Rose Island\n3. 11:00 to Maple Cove\n4. 12:15 to Maple Cove",
+    "graphic": "Warehouse Inventory — Brauthwaite Logistics\n1. Packing tape — Aisle 2 — 45 rolls\n2. Cardboard boxes (large) — Aisle 4 — 120 units\n3. Bubble wrap — Aisle 5 — 8 rolls\n4. Shipping labels — Aisle 7 — 300 sheets",
     "audio": [
       {
         "speaker": "M",
-        "text": "Two tickets to Maple Cove, please. We'd like the earliest boat that goes there."
+        "text": "Nadia, I'm doing the stock check. We're running very low on one item, only eight left, over in aisle five."
       },
       {
         "speaker": "W",
-        "text": "The next departure to Maple Cove leaves at eleven. That gives you about twenty minutes to board."
+        "text": "That won't last through the holiday rush. Go ahead and reorder, get at least twenty more."
       },
       {
         "speaker": "M",
-        "text": "Actually, my friend is still parking the car. Could we take the later one instead?"
+        "text": "Will do. I'll place the order today."
       },
       {
         "speaker": "W",
-        "text": "No problem. I'll put you on the twelve-fifteen. Boarding starts fifteen minutes before departure at gate two."
+        "text": "Thanks. Also double-check the large boxes in aisle four; we shipped a lot of them yesterday."
+      },
+      {
+        "speaker": "M",
+        "text": "Those are fine, still well over a hundred in stock."
       }
     ],
-    "translation": "【図表】ハーバー・フェリー出発案内(3番桟橋)/9:00 ローズ島行き/10:30 ローズ島行き/11:00 メープル入江行き/12:15 メープル入江行き\n男性:メープル入江まで2枚お願いします。そこへ行く一番早い便がいいです。\n女性:メープル入江行きの次の便は11時発です。乗船まで20分ほどありますよ。\n男性:実は、友人がまだ車を停めているところなんです。あとの便にできますか?\n女性:問題ありません。12時15分発にお入れします。乗船は出発の15分前から、2番ゲートで始まります。",
+    "translation": "【図表】在庫一覧(ブラウスウェイト物流)/1. 梱包テープ 通路2 45ロール/2. 段ボール箱(大) 通路4 120個/3. 気泡緩衝材 通路5 8ロール/4. 配送ラベル 通路7 300枚\n男性:ナディア、在庫チェックをしてるんだけど、あるものがすごく少なくなってる。通路5に8個しか残ってない。\n女性:それでは年末の繁忙期はもたないわね。すぐに再発注して。少なくとも20個は追加で。\n男性:了解。今日発注しておくよ。\n女性:ありがとう。あと、通路4の大きい箱も確認しておいて。昨日たくさん出荷したから。\n男性:それは大丈夫、まだ100個以上あるよ。",
     "questions": [
       {
-        "q": "Look at the graphic. Which departure will the speakers take?",
+        "q": "Look at the graphic. Which item will the man reorder?",
         "choices": [
-          "11:00",
-          "9:00",
-          "10:30",
-          "12:15"
-        ],
-        "answer": 3,
-        "explanation": "図表問題。行き先(メープル入江)は11:00と12:15の2便。男性が『あとの便に』と頼んでいるので12:15。9:00・10:30はローズ島行きでひっかけ。"
-      },
-      {
-        "q": "Where most likely does the conversation take place?",
-        "choices": [
-          "At an airport",
-          "At a bus stop",
-          "At a ferry terminal",
-          "At a train station"
+          "Cardboard boxes",
+          "Packing tape",
+          "Bubble wrap",
+          "Shipping labels"
         ],
         "answer": 2,
-        "explanation": "boat(ボート)・departure・boarding・pier(桟橋)から船着き場だと分かる。空港や駅ではない。"
+        "explanation": "図表問題。音声の『通路5に8個』と図表を突き合わせると、Aisle 5・8 rolls は気泡緩衝材(Bubble wrap)。品名は音声で言わず、位置と数量で特定させるタイプ。"
       },
       {
-        "q": "Why does the man want a later departure?",
+        "q": "Why is the item being reordered?",
         "choices": [
-          "The tickets are sold out",
-          "The weather is bad",
-          "His friend is still parking the car",
-          "He wants to eat first"
+          "Stock is low before a busy season.",
+          "It was damaged.",
+          "A customer complained.",
+          "It was discontinued."
         ],
-        "answer": 2,
-        "explanation": "my friend is still parking the car が根拠。連れがまだ駐車中のため遅い便を希望している。"
+        "answer": 0,
+        "explanation": "女性の That won't last through the holiday rush(年末の繁忙期はもたない)が根拠。繁忙期前の在庫不足が理由。"
+      },
+      {
+        "q": "What does the woman ask the man to check?",
+        "choices": [
+          "The large boxes",
+          "The packing tape",
+          "The shipping labels",
+          "The bubble wrap"
+        ],
+        "answer": 0,
+        "explanation": "女性の double-check the large boxes in aisle four が根拠。再発注品(気泡緩衝材)と混同させるひっかけがあるが、確認を頼んだのは大きい箱。"
       }
     ]
   },
@@ -493,59 +513,59 @@ window.TOEIC_DATA_4.part3 = [
     "audio": [
       {
         "speaker": "W",
-        "text": "Tom, the grant proposal has to be submitted online by five o'clock today. How is the budget section coming along?"
+        "text": "Ben, the printer needs the final magazine files by Friday to hit the delivery date."
       },
       {
         "speaker": "M",
-        "text": "It's finished. I'm just waiting for the director to approve the final figures before I upload everything."
+        "text": "This Friday? The photo section still needs color correction."
       },
       {
         "speaker": "W",
-        "text": "The director is in meetings until four thirty."
+        "text": "I know it's tight. The cover story also came in late from the writer."
       },
       {
         "speaker": "M",
-        "text": "I know. I've already messaged her asking her to review it between sessions. If she can't, I'll call her assistant."
+        "text": "Let me prioritize the photos. If I finish them by Thursday, could you do the final proofread?"
       },
       {
         "speaker": "W",
-        "text": "Good thinking. Let me know the moment it's approved so I can double-check the attachments."
+        "text": "Of course. I'll set aside time for it."
       }
     ],
-    "translation": "女性:トム、助成金の申請書は今日の5時までにオンラインで提出しないといけないの。予算のセクションの進み具合はどう?\n男性:できているよ。全部アップロードする前に、部長が最終的な数字を承認するのを待っているだけなんだ。\n女性:部長は4時半まで会議よ。\n男性:分かってる。会議の合間に確認してもらえるよう、もうメッセージを送ったんだ。もし無理なら、アシスタントに電話するよ。\n女性:いい判断ね。承認が下りたらすぐ教えて。添付書類を再確認するから。",
+    "translation": "女性:ベン、印刷所が納品日に間に合わせるために、雑誌の最終ファイルを金曜までに必要としているの。\n男性:今週の金曜? 写真セクションはまだ色補正が必要なんだけど。\n女性:きついのは分かってる。カバーストーリーもライターから遅れて届いたのよ。\n男性:じゃあ写真を優先させて。木曜までに終えられたら、最終校正をやってもらえる?\n女性:もちろん。そのために時間を空けておくわ。",
     "questions": [
       {
-        "q": "What must be submitted by five o'clock?",
+        "q": "What are the speakers preparing?",
         "choices": [
-          "A job application",
-          "A conference agenda",
-          "A budget report",
-          "A grant proposal"
-        ],
-        "answer": 3,
-        "explanation": "the grant proposal has to be submitted ... by five o'clock が根拠。予算(budget)は申請書の一部でありひっかけ。"
-      },
-      {
-        "q": "What does the woman imply when she says, \"The director is in meetings until four thirty\"?",
-        "choices": [
-          "She thinks the deadline should be moved",
-          "She is concerned there is little time for the approval",
-          "The director is away for the whole day",
-          "She wants to attend the meetings"
-        ],
-        "answer": 1,
-        "explanation": "意図問題。提出は5時、承認がまだ、しかも部長は4時半まで会議——つまり承認に使える時間がほとんどないという懸念。文字通りの予定説明ではなく含意を問う。"
-      },
-      {
-        "q": "What will the man do if the director cannot review the figures?",
-        "choices": [
-          "Contact the director's assistant",
-          "Extend the deadline",
-          "Redo the budget",
-          "Submit it without approval"
+          "A magazine issue",
+          "A brochure",
+          "A newspaper",
+          "A textbook"
         ],
         "answer": 0,
-        "explanation": "If she can't, I'll call her assistant が根拠。承認が得られない場合はアシスタントに連絡する。"
+        "explanation": "女性の the final magazine files が根拠。printer(印刷所)や cover story から雑誌の号の準備とわかる。"
+      },
+      {
+        "q": "What does the man imply when he says, \"This Friday\"?",
+        "choices": [
+          "He forgot about the deadline.",
+          "He prefers a different printer.",
+          "He is worried there is little time.",
+          "He wants to change the cover."
+        ],
+        "answer": 2,
+        "explanation": "意図問題。まだ色補正が残る状況で『今週の金曜?』と聞き返すのは、締切までの時間が足りないことへの懸念。文字通りの曜日確認ではない。"
+      },
+      {
+        "q": "What does the man agree to do first?",
+        "choices": [
+          "Proofread the text",
+          "Correct the photos",
+          "Contact the printer",
+          "Write the cover story"
+        ],
+        "answer": 1,
+        "explanation": "男性の Let me prioritize the photos が根拠。最終校正は女性の担当なので、男性がまず行うのは写真の色補正。"
       }
     ]
   },
@@ -555,59 +575,63 @@ window.TOEIC_DATA_4.part3 = [
     "audio": [
       {
         "speaker": "W",
-        "text": "Hi, I just bought this dining table and six chairs. Could you deliver them to my apartment?"
+        "text": "Welcome to Birchgate Residences. You're here to see the two-bedroom unit, right?"
       },
       {
         "speaker": "M",
-        "text": "Certainly. Delivery within the city is free for orders over five hundred dollars, so yours qualifies. When would you like it?"
+        "text": "Yes. I'm moving here for work next month, so I need something available by the first."
       },
       {
         "speaker": "W",
-        "text": "This Saturday, if possible. Also, do the chairs come assembled?"
+        "text": "The unit on the fourth floor is move-in ready. It has a balcony and comes with a reserved parking spot."
       },
       {
         "speaker": "M",
-        "text": "The table does, but the chairs need assembly. For a small fee, our crew can put them together for you during delivery."
+        "text": "That sounds ideal. What's included in the monthly rent?"
       },
       {
         "speaker": "W",
-        "text": "Yes, please add that. I'd rather not deal with it myself."
+        "text": "Rent covers water and building maintenance. Electricity and internet are separate. Would you like to see it now?"
+      },
+      {
+        "speaker": "M",
+        "text": "Yes, please. And could you e-mail me the lease terms afterward?"
       }
     ],
-    "translation": "女性:こんにちは、このダイニングテーブルと椅子6脚を買ったんです。アパートまで配送してもらえますか?\n男性:もちろんです。市内配送は500ドル以上のご注文で無料なので、お客様は対象です。いつがよろしいですか?\n女性:できれば今週土曜に。あと、椅子は組み立て済みで届きますか?\n男性:テーブルは組み立て済みですが、椅子は組み立てが必要です。少額の料金で、配送時に係が組み立てますよ。\n女性:はい、それをお願いします。自分でやるのは避けたいので。",
+    "translation": "女性:バーチゲート・レジデンスへようこそ。2ベッドルームの部屋をご覧になりたいんですよね?\n男性:はい。来月、仕事の都合でこちらに引っ越すので、1日までに入居できる物件が必要なんです。\n女性:4階の部屋なら即入居可能です。バルコニー付きで、専用駐車スペースも付いています。\n男性:理想的ですね。月々の家賃には何が含まれますか?\n女性:家賃には水道代と建物の維持管理費が含まれます。電気とインターネットは別です。今ご覧になりますか?\n男性:はい、お願いします。それと、後で賃貸条件をメールで送ってもらえますか?",
     "questions": [
       {
-        "q": "What did the woman purchase?",
+        "q": "Why is the man looking for an apartment?",
         "choices": [
-          "Kitchen appliances",
-          "A table and chairs",
-          "Office equipment",
-          "Bedroom furniture"
+          "His current lease ended.",
+          "He is starting school.",
+          "He wants a bigger home.",
+          "He is moving for a job."
         ],
-        "answer": 1,
-        "explanation": "I just bought this dining table and six chairs が根拠。ダイニング家具。"
+        "answer": 3,
+        "explanation": "男性の I'm moving here for work next month が根拠。仕事の都合での転居。就学や契約満了、広さ目的はひっかけ。"
       },
       {
-        "q": "Why is delivery free for the woman?",
+        "q": "What is included in the monthly rent?",
         "choices": [
-          "She is a member",
-          "Her order exceeds a certain amount",
-          "It is a store promotion",
-          "She lives nearby"
+          "Electricity and internet",
+          "All utilities",
+          "Water and building maintenance",
+          "Parking and furniture"
         ],
-        "answer": 1,
-        "explanation": "free for orders over five hundred dollars, so yours qualifies が根拠。金額の条件を満たしている。"
+        "answer": 2,
+        "explanation": "女性の Rent covers water and building maintenance が根拠。電気・ネットは別と明言しているので(A)(D)は誤り。"
       },
       {
-        "q": "What does the woman agree to pay extra for?",
+        "q": "What does the man ask the woman to e-mail?",
         "choices": [
-          "Faster shipping",
-          "Assembly of the chairs",
-          "An extended warranty",
-          "Gift wrapping"
+          "A floor plan",
+          "A price comparison",
+          "The lease terms",
+          "A parking permit"
         ],
-        "answer": 1,
-        "explanation": "our crew can put them together for you ... Yes, please add that が根拠。put together が Assembly に対応。"
+        "answer": 2,
+        "explanation": "男性の could you e-mail me the lease terms afterward? が根拠。間取り図や駐車許可証はひっかけ。"
       }
     ]
   },
@@ -616,120 +640,124 @@ window.TOEIC_DATA_4.part3 = [
     "title": "会話 11",
     "audio": [
       {
-        "speaker": "M",
-        "text": "Hi, I currently have the basic gym membership, but I'd like to add access to the swimming pool. How does that work?"
-      },
-      {
         "speaker": "W",
-        "text": "You'd move up to our premium plan. It's fifteen dollars more per month and includes the pool, the sauna, and group classes."
+        "text": "Hi, I'm calling about renewing my home insurance policy. It expires at the end of the month."
       },
       {
         "speaker": "M",
-        "text": "That sounds worth it. Can I switch starting next month?"
+        "text": "I can help with that. I have your current policy here. Would you like to keep the same coverage, or make changes?"
       },
       {
         "speaker": "W",
-        "text": "Absolutely. I'll update your account now, and the new rate applies from the first billing cycle. Your membership card already works for all areas, so nothing else changes."
+        "text": "I recently finished a kitchen renovation, so I'd like to increase the coverage on the property."
+      },
+      {
+        "speaker": "M",
+        "text": "Good idea. I'll update the rebuild value. That will raise your premium slightly, about fifteen dollars a month."
+      },
+      {
+        "speaker": "W",
+        "text": "That's fine. When will the new policy take effect?"
+      },
+      {
+        "speaker": "M",
+        "text": "As soon as you sign the updated agreement. I'll e-mail it today, and it'll be active from the first."
       }
     ],
-    "translation": "男性:こんにちは、今はジムのベーシック会員なんですが、プールの利用を追加したいんです。どうすればいいですか?\n女性:プレミアムプランに上げる形になります。月額が15ドル高くなり、プール、サウナ、グループレッスンが含まれます。\n男性:それは価値がありそうですね。来月から切り替えられますか?\n女性:もちろんです。今アカウントを更新します。新料金は次の請求サイクルから適用されます。会員証はすでに全エリアで使えるので、ほかに変わることはありません。",
+    "translation": "女性:もしもし、住宅保険の契約更新の件でお電話しました。今月末で満期になります。\n男性:承ります。こちらに現在のご契約があります。同じ補償内容を継続されますか、それとも変更されますか?\n女性:最近キッチンのリフォームを終えたので、建物の補償額を増やしたいんです。\n男性:良いお考えです。再建築評価額を更新します。それにより保険料が少し上がり、月におよそ15ドルほどになります。\n女性:それで構いません。新しい契約はいつ有効になりますか?\n男性:更新後の契約書に署名いただき次第です。本日メールでお送りし、1日から有効になります。",
     "questions": [
       {
-        "q": "What does the man want to add to his membership?",
+        "q": "Why is the woman calling?",
         "choices": [
-          "Personal training",
-          "A parking spot",
-          "Access to the pool",
-          "A private locker"
+          "To report a new address",
+          "To cancel coverage",
+          "To file a claim",
+          "To renew a policy"
         ],
-        "answer": 2,
-        "explanation": "add access to the swimming pool が根拠。プール利用の追加。"
+        "answer": 3,
+        "explanation": "冒頭の renewing my home insurance policy が根拠。請求(claim)や解約、住所変更はひっかけ。"
       },
       {
-        "q": "What is included in the premium plan?",
+        "q": "Why does the woman want to increase her coverage?",
         "choices": [
-          "Nutrition counseling",
-          "A free trial month",
-          "The pool, sauna, and group classes",
-          "Only the swimming pool"
+          "She moved to a new house.",
+          "She started a business.",
+          "She renovated her kitchen.",
+          "She bought a new car."
         ],
         "answer": 2,
-        "explanation": "includes the pool, the sauna, and group classes が根拠。プールだけ(B)は一部のみのひっかけ。"
+        "explanation": "女性の I recently finished a kitchen renovation が根拠。リフォームで建物価値が上がったため補償を増やす。転居や開業ではない。"
       },
       {
-        "q": "What does the woman say about the man's membership card?",
+        "q": "When will the new policy take effect?",
         "choices": [
-          "It already works for all areas",
-          "It needs to be reactivated",
-          "It expires next month",
-          "It must be replaced"
+          "On the first of the month",
+          "In ten business days",
+          "At the end of the year",
+          "Immediately"
         ],
         "answer": 0,
-        "explanation": "Your membership card already works for all areas が根拠。カードの作り直しは不要。"
+        "explanation": "男性の it'll be active from the first(1日から有効)が根拠。署名後すぐ書類は送るが、有効になるのは1日から。"
       }
     ]
   },
   {
     "id": "s4p3-12",
-    "graphicKind": "list",
+    "graphicKind": "schedule",
     "title": "会話 12(図表問題)",
-    "graphic": "Deskwave Coworking — Monthly Plans\n1. Hot Desk — $120\n2. Dedicated Desk — $220\n3. Private Office (2 people) — $400\n4. Private Office (4 people) — $650",
+    "graphic": "Production Schedule — Line B (Thursday)\n1. 6:00–10:00 — Product A (Team 1)\n2. 10:00–14:00 — Product C (Team 2)\n3. 14:00–18:00 — Product B (Team 1)\n4. 18:00–22:00 — Cleaning & Maintenance",
     "audio": [
       {
+        "speaker": "M",
+        "text": "We just got a rush order for five hundred units of Product B. Can we fit it into Thursday's run on Line B?"
+      },
+      {
         "speaker": "W",
-        "text": "Welcome to Deskwave. Are you looking for space just for yourself, or for a team?"
+        "text": "Let me look at the schedule. Product B is already slotted in the afternoon block, so we don't need to change anything."
       },
       {
         "speaker": "M",
-        "text": "It's for my startup — there are four of us, and we'd really like our own enclosed room."
+        "text": "Great. Which team is on that shift? I want to give them a heads-up."
       },
       {
         "speaker": "W",
-        "text": "In that case, one of our private offices would suit you. We have rooms for two people or for four."
-      },
-      {
-        "speaker": "M",
-        "text": "We definitely need room for all four. Is there a discount if we sign a longer contract?"
-      },
-      {
-        "speaker": "W",
-        "text": "Yes — ten percent off the monthly rate if you commit to a twelve-month term."
+        "text": "Let me check the roster and confirm. I'll get back to you shortly."
       }
     ],
-    "translation": "【図表】デスクウェーブ・コワーキング 月額プラン/1. ホットデスク 120ドル/2. 専用デスク 220ドル/3. 個室オフィス(2名)400ドル/4. 個室オフィス(4名)650ドル\n女性:デスクウェーブへようこそ。お一人用のスペースをお探しですか、それともチーム用ですか?\n男性:私のスタートアップ用です——4人いて、自分たちだけの仕切られた部屋がほしいんです。\n女性:それでしたら個室オフィスが合いますね。2名用と4名用のお部屋があります。\n男性:4人全員分のスペースが必要です。長めの契約なら割引はありますか?\n女性:はい——12か月契約なら月額から10パーセント引きになります。",
+    "translation": "【図表】生産スケジュール ラインB(木曜)/1. 6:00–10:00 製品A(チーム1)/2. 10:00–14:00 製品C(チーム2)/3. 14:00–18:00 製品B(チーム1)/4. 18:00–22:00 清掃・保守\n男性:製品Bの500個の急ぎの注文が入ったんだ。木曜のラインBの稼働に組み込めるかな?\n女性:スケジュールを見てみるわ。製品Bはもう午後の枠に入っているから、何も変える必要はないわね。\n男性:よかった。そのシフトはどのチームだっけ? 事前に伝えておきたいんだ。\n女性:担当表を確認して知らせるわ。すぐに折り返すわね。",
     "questions": [
       {
-        "q": "Look at the graphic. Which plan will the man most likely choose?",
+        "q": "Look at the graphic. Which team will handle the rush order?",
         "choices": [
-          "Hot Desk",
-          "Private Office (2 people)",
-          "Dedicated Desk",
-          "Private Office (4 people)"
+          "An outside contractor",
+          "Team 1",
+          "A temporary team",
+          "Team 2"
         ],
-        "answer": 3,
-        "explanation": "図表問題。『4人で仕切られた部屋がほしい』『4人全員分』から4名用の個室オフィス。2名用(C)は人数不足のひっかけ。"
+        "answer": 1,
+        "explanation": "図表問題。急ぎの注文は製品B。図表で製品Bは午後(14:00–18:00)にチーム1が担当。音声はチーム名を言わず、製品と時間帯から特定させる。"
       },
       {
-        "q": "What does the man ask about?",
+        "q": "What is the rush order for?",
         "choices": [
-          "A free trial",
-          "The Wi-Fi password",
-          "Nearby restaurants",
-          "A discount for a long-term contract"
+          "Product C",
+          "Product A",
+          "Cleaning supplies",
+          "Product B"
         ],
         "answer": 3,
-        "explanation": "Is there a discount if we sign a longer contract? が根拠。長期契約の割引を尋ねている。"
+        "explanation": "男性の a rush order for five hundred units of Product B が根拠。他の製品や清掃はひっかけ。"
       },
       {
-        "q": "According to the woman, what is required to get the discount?",
+        "q": "What does the woman say she will do?",
         "choices": [
-          "Signing a twelve-month contract",
-          "Booking online",
-          "Referring a friend",
-          "Paying in cash"
+          "Add an extra shift",
+          "Check the roster",
+          "Cancel the maintenance block",
+          "Change the schedule"
         ],
-        "answer": 0,
-        "explanation": "ten percent off ... if you commit to a twelve-month term が根拠。12か月契約が割引の条件。"
+        "answer": 1,
+        "explanation": "女性の Let me check the roster and confirm が根拠。スケジュールは変更不要と述べており、担当表を確認するだけ。"
       }
     ]
   },
@@ -738,64 +766,60 @@ window.TOEIC_DATA_4.part3 = [
     "title": "会話 13",
     "audio": [
       {
-        "speaker": "M",
-        "text": "Hi, I'm picking up a prescription for Alan Reyes."
-      },
-      {
         "speaker": "W",
-        "text": "Let me check... Here it is. Have you taken this medication before? It can cause drowsiness, so please avoid driving after your first dose."
+        "text": "Hi, I'm Maya. I just joined the food-packing team today. Where do I get the gear I need for the floor?"
       },
       {
         "speaker": "M",
-        "text": "Good to know, thanks. It's actually my first time. How often should I take it?"
+        "text": "Welcome, Maya. You'll need a hairnet, gloves, and a clean apron before entering the production area. They're in the supply room by the entrance."
       },
       {
         "speaker": "W",
-        "text": "Twice a day, with food. The full instructions are printed on the label. If you notice any side effects, call us or your doctor."
+        "text": "Got it. Is there anything else I should know before my first shift?"
       },
       {
         "speaker": "M",
-        "text": "Understood. Do I pay here or at the front register?"
+        "text": "Yes. Everyone washes their hands at the station by the door and logs in on the tablet there. Your supervisor will walk you through the line after that."
       },
       {
         "speaker": "W",
-        "text": "You can pay right here."
+        "text": "Thanks. I'll head to the supply room now."
       }
     ],
-    "translation": "男性:こんにちは、アラン・レイエス名義の処方薬を受け取りに来ました。\n女性:確認します……こちらです。このお薬を以前に飲まれたことはありますか? 眠気が出ることがあるので、最初の1回を飲んだ後は運転を避けてください。\n男性:知れてよかったです、ありがとう。実は初めてなんです。どのくらいの頻度で飲めばいいですか?\n女性:1日2回、食事と一緒にです。詳しい説明はラベルに印刷されています。副作用に気づいたら、当店か医師にお電話ください。\n男性:分かりました。支払いはここですか、それとも前のレジですか?\n女性:こちらでお支払いいただけます。",
+    "translation": "女性:こんにちは、マヤです。今日から食品包装チームに入りました。作業フロアに必要な装備はどこで受け取れますか?\n男性:ようこそ、マヤさん。生産エリアに入る前に、ヘアネット、手袋、清潔なエプロンが必要です。入口横の備品室にありますよ。\n女性:分かりました。初めてのシフトの前に、他に知っておくべきことはありますか?\n男性:ええ。全員、ドア横のステーションで手を洗い、そこのタブレットでログインします。その後、監督者がラインを案内してくれます。\n女性:ありがとうございます。今から備品室に向かいます。",
     "questions": [
       {
-        "q": "Where most likely does the conversation take place?",
+        "q": "Who most likely is the woman?",
         "choices": [
-          "At a supermarket",
-          "At a hospital",
-          "At a clinic",
-          "At a pharmacy"
+          "A safety inspector",
+          "A delivery driver",
+          "A visitor",
+          "A new employee"
         ],
         "answer": 3,
-        "explanation": "処方薬の受け取り・服用回数・副作用の説明・その場で会計、から薬局だと分かる。病院や診療所での診察ではない。"
+        "explanation": "女性の I just joined the food-packing team today が根拠。今日入ったばかりの新入社員。検査官や配達員、来訪者はひっかけ。"
       },
       {
-        "q": "What does the woman warn the man about?",
+        "q": "What does the man say the woman needs before entering the production area?",
         "choices": [
-          "It must be refrigerated",
-          "It may cause drowsiness",
-          "It is expensive",
-          "It is out of stock"
+          "A parking pass",
+          "A visitor badge",
+          "Hygiene gear",
+          "A training certificate"
         ],
-        "answer": 1,
-        "explanation": "It can cause drowsiness, so please avoid driving が根拠。眠気への注意喚起。"
+        "answer": 2,
+        "explanation": "男性の a hairnet, gloves, and a clean apron(ヘアネット・手袋・エプロン)が根拠。これらは衛生用装備(hygiene gear)への言い換え。"
       },
       {
-        "q": "How often should the man take the medication?",
+        "q": "What will the woman do next?",
         "choices": [
-          "Twice a day, with food",
-          "Only when needed",
-          "Three times a day",
-          "Once a day"
+          "Go to the supply room",
+          "Meet her supervisor",
+          "Wash her hands",
+          "Log in on the tablet"
         ],
         "answer": 0,
-        "explanation": "Twice a day, with food が根拠。1日2回、食事と一緒に。"
+        "explanation": "女性の最後の I'll head to the supply room now が根拠。手洗いやタブレットのログインはその後の手順でひっかけ。"
       }
     ]
   }

@@ -1,4 +1,4 @@
-// セット4 part7(監査反映・正解位置均等化済み)
+// セット4 part7(重複差し替え・正解位置均等化済み)
 window.TOEIC_DATA_4 = window.TOEIC_DATA_4 || {};
 window.TOEIC_DATA_4.part7 = [
   {
@@ -7,43 +7,43 @@ window.TOEIC_DATA_4.part7 = [
     "passages": [
       {
         "docType": "Text-message chain",
-        "text": "Nadia Foster (11:02 A.M.)\nHi Greg, the sandwich platters for the 12:30 lunch just left our kitchen. Traffic on Route 9 is heavy, so we may be about ten minutes late.\n\nGreg Holt (11:05 A.M.)\nThat's cutting it close. The board members arrive at 12:15 and expect food on the tables.\n\nNadia Foster (11:07 A.M.)\nUnderstood. I can send the driver through the Elm Street back entrance to save time. Will someone be there to let him in?\n\nGreg Holt (11:09 A.M.)\nI'll have our receptionist, Priya, waiting at the loading dock from 12:00.\n\nNadia Foster (11:10 A.M.)\nPerfect. He'll also need a cart — the platters are heavy.\n\nGreg Holt (11:11 A.M.)\nWe have one by the dock. Priya will have it ready.\n\nNadia Foster (11:12 A.M.)\nGreat. I'll text you when he's five minutes out."
+        "text": "Derek Olsson (7:42 A.M.)\nHi Yuki, the produce truck from Greenfield Farms just pulled up at Dock 3, but we weren't scheduled to receive them until 9.\n\nYuki Tanaka (7:44 A.M.)\nEarly again. The trouble is Dock 3 is still loading the outbound order for Melbourne. Can the driver wait?\n\nDerek Olsson (7:45 A.M.)\nHe says he has three more stops and can't hold long. And the crates are refrigerated, so they shouldn't sit in the sun.\n\nYuki Tanaka (7:46 A.M.)\nMove them to Dock 1. It's open, and the cold-storage entrance is right there.\n\nDerek Olsson (7:47 A.M.)\nGood call. I'll redirect him now.\n\nYuki Tanaka (7:48 A.M.)\nThanks. And log the arrival time — this is the third time this month they've come early.\n\nDerek Olsson (7:49 A.M.)\nWill do."
       }
     ],
-    "translation": "ナディア・フォスター(午前11:02):グレッグ、12時半のランチ用のサンドイッチの大皿が今、厨房を出ました。9号線が渋滞しているので、10分ほど遅れるかもしれません。\nグレッグ・ホルト(午前11:05):それはギリギリだな。役員が12時15分に到着して、テーブルに食事が並んでいるものと思っている。\nナディア・フォスター(午前11:07):承知しました。時間短縮のため、ドライバーをエルム通りの裏口に回すこともできます。中に入れてくれる人はいますか?\nグレッグ・ホルト(午前11:09):受付のプリヤを12時から荷さばき場で待たせておくよ。\nナディア・フォスター(午前11:10):完璧です。あと、カートも必要になります——大皿は重いので。\nグレッグ・ホルト(午前11:11):荷さばき場のそばに1台ある。プリヤが用意しておく。\nナディア・フォスター(午前11:12):よかった。あと5分の地点に来たらメッセージします。",
+    "translation": "デレク・オルソン(午前7:42):やあユキ、グリーンフィールド農園の青果トラックが今ドック3に着いたんだけど、受け入れ予定は9時だったよね。\nユキ・タナカ(午前7:44):また早いのね。問題は、ドック3ではまだメルボルン向けの出荷分を積み込み中だってこと。運転手さん、待てる?\nデレク・オルソン(午前7:45):あと3か所回るから長くは待てないって。それにクレートは冷蔵品だから、日なたに置いておけないんだ。\nユキ・タナカ(午前7:46):ドック1に回して。空いてるし、冷蔵庫の入口もすぐそこよ。\nデレク・オルソン(午前7:47):なるほど。今すぐ誘導するよ。\nユキ・タナカ(午前7:48):ありがとう。それと到着時刻を記録しておいて——今月これで3回目の早着だから。\nデレク・オルソン(午前7:49):了解。",
     "questions": [
       {
-        "q": "Why did Ms. Foster contact Mr. Holt?",
+        "q": "What is causing a problem at Dock 3?",
         "choices": [
-          "To confirm a payment",
-          "To cancel a lunch order",
-          "To request a change to the menu",
-          "To warn about a possible delay"
+          "The refrigeration unit has failed.",
+          "A worker did not report for a shift.",
+          "A truck has broken down.",
+          "An outbound order is still being loaded."
         ],
         "answer": 3,
-        "explanation": "最初のメッセージで『渋滞のため10分ほど遅れるかもしれない』と伝えている。遅延の可能性を知らせる連絡=warn about a possible delay。"
+        "explanation": "ユキの Dock 3 is still loading the outbound order for Melbourne(ドック3ではまだ出荷分を積み込み中)が根拠。青果トラックを受け入れられない原因。"
       },
       {
-        "q": "At 11:09 A.M., what does Mr. Holt mean when he writes, \"I'll have our receptionist, Priya, waiting at the loading dock from 12:00\"?",
+        "q": "At 7:46 A.M., what does Ms. Tanaka most likely mean when she writes, \"Move them to Dock 1\"?",
         "choices": [
-          "Priya will be there to let the driver in.",
-          "Priya will prepare the platters.",
-          "He will collect the food himself.",
-          "The lunch has been moved to a later time."
-        ],
-        "answer": 0,
-        "explanation": "意図問題。直前でナディアが『中に入れてくれる人はいるか』と尋ねているので、『プリヤが待機している=ドライバーを入れる人がいる』という返答だと分かる。"
-      },
-      {
-        "q": "What does Ms. Foster say the driver will need?",
-        "choices": [
-          "A parking permit",
-          "A second driver",
-          "A cart",
-          "An access code"
+          "She will drive the truck to another site.",
+          "She wants the outbound order canceled.",
+          "She is offering a different place to unload the truck.",
+          "She needs the crates returned to the farm."
         ],
         "answer": 2,
-        "explanation": "He'll also need a cart — the platters are heavy(大皿が重いのでカートが必要)が根拠。"
+        "explanation": "意図問題。直後に『空いていて冷蔵庫の入口もすぐそこ』と続くので、荷降ろしの代わりの場所を指示している。them は青果のクレートを指す。"
+      },
+      {
+        "q": "What is indicated about Greenfield Farms?",
+        "choices": [
+          "It shares a dock with another supplier.",
+          "Its produce is not refrigerated.",
+          "It cancelled a delivery this morning.",
+          "Its truck has arrived early more than once."
+        ],
+        "answer": 3,
+        "explanation": "ユキの this is the third time this month they've come early(今月3回目の早着)が根拠。more than once への言い換え。"
       }
     ]
   },
@@ -53,43 +53,43 @@ window.TOEIC_DATA_4.part7 = [
     "passages": [
       {
         "docType": "Advertisement",
-        "text": "LINGUABRIDGE — Learn a Language with Real Tutors, Online\n\nPlans:\n1. Starter ($0) — Access to self-study lessons and vocabulary games only\n2. Basic ($29/month) — Self-study lessons plus two 30-minute live tutor sessions per month\n3. Plus ($59/month) — Everything in Basic, plus four 45-minute live sessions and monthly progress reports\n4. Pro ($99/month) — Unlimited live sessions, priority booking, and a certificate on course completion\n\nAll paid plans include access to 15 languages and downloadable lesson materials.\n\nSpring promotion: Subscribe to any paid plan before April 30 and get your first month at 50% off. Refer a friend and you both receive a free week."
+        "text": "WESTON INDUSTRIAL PARK — Warehouse and Light-Manufacturing Units for Lease\n\nLocated just off Highway 9, Weston Industrial Park offers modern units ideal for storage, distribution, and light assembly.\n\nAvailable units:\n1. Unit A ($1,800/month) — 400 m², one loading dock, 6-meter ceiling\n2. Unit B ($2,600/month) — 650 m², two loading docks, 8-meter ceiling, small office\n3. Unit C ($3,900/month) — 1,000 m², three loading docks, 8-meter ceiling, office and staff kitchen\n\nAll units include 24-hour security, sprinkler systems, and access to shared truck parking. Tenants are responsible for their own electricity and water.\n\nSign a two-year lease before September 30 and the first month's rent is waived. Tours available on weekdays; call 555-0142 to book."
       }
     ],
-    "translation": "リンガブリッジ——本物のチューターと学ぶ、オンライン語学\n\nプラン:\n1. スターター(0ドル)——自習レッスンと単語ゲームのみ利用可\n2. ベーシック(月29ドル)——自習レッスンに加え、月2回の30分ライブ授業\n3. プラス(月59ドル)——ベーシックの全内容に加え、月4回の45分ライブ授業と月次の進捗レポート\n4. プロ(月99ドル)——ライブ授業無制限、優先予約、コース修了時の修了証\n\n有料プランはすべて、15言語へのアクセスとダウンロード可能な教材が含まれます。\n\n春のキャンペーン:4月30日までに有料プランに申し込むと、初月が50%オフ。友達を紹介すると、二人とも1週間無料になります。",
+    "translation": "ウェストン工業団地——倉庫・軽製造用ユニット賃貸\n\n9号線のすぐそばに位置するウェストン工業団地は、保管・配送・軽組立に最適な近代的ユニットを提供します。\n\n利用可能ユニット:\n1. ユニットA(月1,800ドル)——400m²、荷降ろしドック1、天井高6m\n2. ユニットB(月2,600ドル)——650m²、荷降ろしドック2、天井高8m、小オフィス\n3. ユニットC(月3,900ドル)——1,000m²、荷降ろしドック3、天井高8m、オフィス・スタッフ用キッチン\n\n全ユニットに24時間警備、スプリンクラー設備、共用トラック駐車場の利用が含まれます。電気・水道はテナントの負担です。\n\n9月30日までに2年契約を結ぶと初月家賃が免除されます。見学は平日可、ご予約は555-0142まで。",
     "questions": [
       {
         "q": "For whom is the advertisement most likely intended?",
         "choices": [
-          "Travel agents",
-          "People who want to learn a language",
-          "Owners of language schools",
-          "Professional translators"
+          "Families searching for a new home",
+          "Retailers seeking a shopping-mall storefront",
+          "Companies looking for warehouse space",
+          "Travelers looking for short-term lodging"
+        ],
+        "answer": 2,
+        "explanation": "storage, distribution, and light assembly 向けの倉庫・軽製造ユニットという内容から、倉庫スペースを探す企業向けの広告。"
+      },
+      {
+        "q": "What is NOT included with the units?",
+        "choices": [
+          "Access to shared truck parking",
+          "Electricity",
+          "A sprinkler system",
+          "24-hour security"
         ],
         "answer": 1,
-        "explanation": "冒頭の Learn a Language with Real Tutors と自習・ライブ授業のプラン紹介から、語学を学びたい個人向けの広告だと分かる。"
+        "explanation": "NOT問題。警備・スプリンクラー・共用トラック駐車場は全ユニット共通。電気は Tenants are responsible for their own electricity(テナント負担)なので含まれない。"
       },
       {
-        "q": "What is included in the Plus plan but NOT in the Basic plan?",
+        "q": "How can a tenant avoid paying the first month's rent?",
         "choices": [
-          "Monthly progress reports",
-          "Self-study lessons",
-          "Downloadable materials",
-          "Access to 15 languages"
+          "By booking a tour online",
+          "By leasing the largest unit",
+          "By paying a full year in advance",
+          "By signing a two-year lease before September 30"
         ],
-        "answer": 0,
-        "explanation": "NOT型の比較問題。進捗レポート(progress reports)はプラス以上のみ。15言語・教材は全有料プラン共通、自習レッスンはベーシックにも含まれるのでひっかけ。"
-      },
-      {
-        "q": "How can a subscriber receive a free week?",
-        "choices": [
-          "By referring a friend",
-          "By upgrading to the Pro plan",
-          "By completing a course",
-          "By subscribing before April 30"
-        ],
-        "answer": 0,
-        "explanation": "Refer a friend and you both receive a free week(友達紹介で二人とも1週間無料)が根拠。4月30日までの申込は『初月50%オフ』の条件なのでひっかけ。"
+        "answer": 3,
+        "explanation": "Sign a two-year lease before September 30 and the first month's rent is waived(9月30日までの2年契約で初月免除)が根拠。"
       }
     ]
   },
@@ -99,43 +99,43 @@ window.TOEIC_DATA_4.part7 = [
     "passages": [
       {
         "docType": "E-mail",
-        "text": "From: Owen Blackwood, Facilities Team\nTo: All Staff\nSubject: Office move to the Chestnut Tower — what you need to know\nDate: February 5\n\nDear colleagues,\n\nOur company will relocate from the Aldgate Building to the 14th floor of the Chestnut Tower on the weekend of March 14–15. Normal work resumes at the new address on Monday, March 16.\n\nTo make the move smooth, please do the following by March 6:\n1. Label all personal boxes with your name and current desk number.\n2. Back up any files stored locally on your computer to the shared drive.\n3. Return any borrowed equipment to the IT room on the 3rd floor.\n\nDesks at the new office are assigned by team; a seating map will be circulated next week. Note that the Chestnut Tower operates a clear-desk policy, so personal items must fit in one drawer unit.\n\nThe tower is a seven-minute walk from Riverside Station. Parking is not provided, but a discounted rate is available at the Miller Street garage for employees who register by March 10.\n\nOwen Blackwood"
+        "text": "From: Helena Barsky, Procurement Manager, Aldervale Appliances\nTo: Raj Menon, Sales, Torrance Components\nSubject: Delivery schedule for aluminum brackets\nDate: February 9\n\nDear Mr. Menon,\n\nThank you for the updated quote on the aluminum mounting brackets (part AB-14). We would like to proceed with the order of 5,000 units.\n\nHowever, our assembly line will switch to a new dishwasher model in mid-March, and we will need the brackets before then. Your quote lists a six-week lead time, which would put delivery in late March — too late for us.\n\nCould you confirm whether a partial shipment is possible? If you could send 2,000 units within three weeks and the remaining 3,000 by the end of March, that would allow us to begin production on schedule.\n\nPlease also let me know if a faster timeline would affect the unit price. We would rather adjust our budget than delay the line.\n\nBest regards,\nHelena Barsky"
       }
     ],
-    "translation": "差出人:オーウェン・ブラックウッド(施設チーム)\n宛先:全社員\n件名:チェスナット・タワーへのオフィス移転——知っておくべきこと\n日付:2月5日\n\n同僚の皆様\n\n当社は3月14〜15日の週末に、アルドゲート・ビルからチェスナット・タワー14階へ移転します。新住所での通常業務は3月16日(月)から再開します。\n\n移転を円滑にするため、3月6日までに以下をお願いします:\n1. すべての私物の箱に、氏名と現在のデスク番号を記入する。\n2. パソコンのローカルに保存したファイルを共有ドライブにバックアップする。\n3. 借りている機材を3階のIT室に返却する。\n\n新オフィスのデスクはチームごとに割り当てられ、座席表は来週配布します。チェスナット・タワーはクリアデスク方針を採用しているため、私物は引き出し1つに収まる必要があります。\n\nタワーはリバーサイド駅から徒歩7分です。駐車場の提供はありませんが、3月10日までに登録した社員は、ミラー通りの駐車場の割引料金を利用できます。\n\nオーウェン・ブラックウッド",
+    "translation": "差出人:ヘレナ・バースキー(アルダーヴェイル家電 調達マネージャー)\n宛先:ラジ・メノン(トーランス・コンポーネンツ 営業)\n件名:アルミブラケットの納期について\n日付:2月9日\n\nメノン様\n\nアルミ製取付ブラケット(部品AB-14)の更新見積もり、ありがとうございました。5,000個の注文を進めたいと思います。\n\nただ、当社の組立ラインは3月中旬に新しい食洗機モデルへ切り替わり、それまでにブラケットが必要です。ご提示のリードタイムは6週間で、これでは納品が3月下旬になり、当社には遅すぎます。\n\n分割出荷が可能かご確認いただけますか? 2,000個を3週間以内に、残り3,000個を3月末までに送っていただければ、予定通り生産を始められます。\n\nまた、納期を早めると単価に影響するかもお知らせください。ライン停止を招くより、予算を調整したいと考えています。\n\nよろしくお願いいたします。\nヘレナ・バースキー",
     "questions": [
       {
-        "q": "What is the main purpose of the e-mail?",
+        "q": "Why is Ms. Barsky writing?",
         "choices": [
-          "To schedule a team meeting",
-          "To introduce a parking service",
-          "To announce a new hiring policy",
-          "To give instructions about an office move"
+          "To ask about adjusting a delivery timeline",
+          "To file a complaint about defective parts",
+          "To apply for a new supplier account",
+          "To cancel an existing order"
         ],
-        "answer": 3,
-        "explanation": "移転の日程と『3月6日までにお願いすること』の一覧が中心で、オフィス移転に関する指示が主目的。"
+        "answer": 0,
+        "explanation": "6週間では遅すぎるとし、分割出荷や納期短縮を打診している。納期の調整依頼が主目的。"
       },
       {
-        "q": "What is indicated about the Chestnut Tower office?",
+        "q": "What is suggested about Aldervale Appliances?",
         "choices": [
-          "It opens to staff on March 14.",
-          "It follows a clear-desk policy.",
-          "It is located on the 3rd floor.",
-          "It provides free parking."
+          "It is opening a second factory.",
+          "It manufactures aluminum brackets itself.",
+          "It is reducing its workforce.",
+          "It will start producing a new model soon."
+        ],
+        "answer": 3,
+        "explanation": "our assembly line will switch to a new dishwasher model in mid-March(3月中旬に新モデルへ切替)から、まもなく新製品の生産を始めると分かる。ブラケットはトーランス社が作るので(C)は誤り。"
+      },
+      {
+        "q": "What does Ms. Barsky indicate she is willing to do?",
+        "choices": [
+          "Reduce the order quantity",
+          "Accept a higher unit price",
+          "Extend the assembly deadline",
+          "Change to a different supplier"
         ],
         "answer": 1,
-        "explanation": "the Chestnut Tower operates a clear-desk policy が根拠。3階はIT室、通常業務再開は3月16日なのでひっかけ。"
-      },
-      {
-        "q": "What can employees do by March 10?",
-        "choices": [
-          "Return borrowed equipment",
-          "Back up their files",
-          "Choose their new desk",
-          "Register for discounted parking"
-        ],
-        "answer": 3,
-        "explanation": "a discounted rate ... for employees who register by March 10(3月10日までの登録で駐車場割引)が根拠。機材返却とバックアップは3月6日が期限でひっかけ。"
+        "explanation": "We would rather adjust our budget than delay the line(ライン停止より予算調整を望む)から、単価が上がっても受け入れる姿勢が読み取れる。"
       }
     ]
   },
@@ -145,32 +145,43 @@ window.TOEIC_DATA_4.part7 = [
     "passages": [
       {
         "docType": "Notice",
-        "text": "GREENFIELD RECYCLING CENTER — Updated Hours Notice\n\nBeginning September 1, the Greenfield Recycling Center will extend its weekday hours to 7 A.M.–7 P.M. to serve residents who cannot visit during the day. Saturday hours remain 8 A.M.–4 P.M., and the center will continue to be closed on Sundays.\n\nA new drop-off area for electronic waste — batteries, cables, and small devices — will open near Gate B. Large appliances such as refrigerators still require an appointment, which can be booked at greenfieldrecycles.gov.\n\nResidents must show proof of address, such as a utility bill, at the entrance."
+        "text": "RIVERSTONE OFFICE PLAZA — TENANT NOTICE\n\nPlease be advised that the water supply to the entire building will be shut off on Wednesday, May 14, from 8:00 A.M. to 1:00 P.M., so that our contractors can replace a section of aging pipe on the third floor.\n\nDuring this time, restrooms and kitchen facilities on all floors will be unavailable. We recommend that tenants store drinking water in advance if needed. The nearest public restrooms are in the lobby of the neighboring Carlton Center, which our tenants are welcome to use.\n\nElevators and electricity will not be affected, and the building management office will remain open. If the work finishes early, we will send an all-clear notice by e-mail.\n\nWe apologize for the inconvenience. Questions may be directed to the management office at extension 200."
       }
     ],
-    "translation": "グリーンフィールド・リサイクルセンター——営業時間変更のお知らせ\n\n9月1日より、日中に来られない住民の方のため、平日の営業時間を午前7時〜午後7時に延長します。土曜日は午前8時〜午後4時のまま、日曜日は引き続き休業です。\n\n電子廃棄物(電池、ケーブル、小型機器)の新しい持ち込みエリアが、B門付近にオープンします。冷蔵庫などの大型家電は引き続き予約が必要で、greenfieldrecycles.gov から予約できます。\n\n住民の方は入口で、公共料金の請求書など、住所を証明するものをご提示ください。",
+    "translation": "リバーストーン・オフィスプラザ——テナント向けお知らせ\n\n3階の老朽化した配管の一部を業者が交換するため、5月14日(水)午前8時から午後1時まで、建物全体の給水を停止しますのでお知らせします。\n\nこの間、全フロアのトイレと給湯設備が使用できなくなります。必要に応じて飲料水を事前に備えておくことをお勧めします。最寄りの公共トイレは隣接するカールトン・センターのロビーにあり、当ビルのテナントはご利用いただけます。\n\nエレベーターと電気には影響がなく、ビル管理事務所も通常通り開いています。作業が早く終わった場合は、Eメールで解除のお知らせをお送りします。\n\nご不便をおかけし申し訳ありません。ご質問は管理事務所(内線200)まで。",
     "questions": [
       {
         "q": "What is the purpose of the notice?",
         "choices": [
-          "To recruit volunteers",
-          "To explain a new fee",
-          "To announce a change in operating hours",
-          "To advertise a new recycling center"
+          "To schedule an elevator inspection",
+          "To announce a rent increase",
+          "To describe a planned water shutoff",
+          "To introduce a new maintenance contractor"
         ],
         "answer": 2,
-        "explanation": "冒頭で『9月1日から平日の営業時間を延長する』と告げており、営業時間の変更が主目的。"
+        "explanation": "冒頭の『5月14日に建物全体の給水を停止する』という告知が主目的。"
       },
       {
-        "q": "What is indicated about large appliances?",
+        "q": "What are tenants advised to do?",
         "choices": [
-          "They are dropped off at Gate B.",
-          "They cannot be accepted.",
-          "They require an appointment.",
-          "They can only be brought on Saturdays."
+          "Report leaks to Carlton Center",
+          "Keep some drinking water on hand",
+          "Leave the building during the work",
+          "Use the stairs instead of elevators"
+        ],
+        "answer": 1,
+        "explanation": "We recommend that tenants store drinking water in advance(飲料水を事前に備える)が根拠。"
+      },
+      {
+        "q": "What will the management do if the work ends early?",
+        "choices": [
+          "Reopen only the third-floor restrooms",
+          "Extend the office's hours",
+          "Notify tenants by e-mail",
+          "Refund part of the rent"
         ],
         "answer": 2,
-        "explanation": "Large appliances ... still require an appointment(大型家電は予約が必要)が根拠。B門は電子廃棄物のエリアなのでひっかけ。"
+        "explanation": "If the work finishes early, we will send an all-clear notice by e-mail(早く終われば解除をメール通知)が根拠。"
       }
     ]
   },
@@ -180,32 +191,32 @@ window.TOEIC_DATA_4.part7 = [
     "passages": [
       {
         "docType": "Online chat",
-        "text": "Tomás Ibarra (9:41 A.M.)\nHi, I can't log in to the travel-booking system. It keeps saying \"account locked.\"\n\nHelen Zhou (9:42 A.M.)\nThat usually happens after three wrong password attempts. When did you last change your password?\n\nTomás Ibarra (9:43 A.M.)\nProbably three months ago. Maybe it expired?\n\nHelen Zhou (9:44 A.M.)\nLikely. I'll send a reset link to your work e-mail now. Click it within 15 minutes or it expires.\n\nTomás Ibarra (9:45 A.M.)\nGot it. I need to book a flight before the fares go up at noon.\n\nHelen Zhou (9:46 A.M.)\nYou'll be fine — the link is on its way. Let me know if it doesn't arrive."
+        "text": "Ravi Deshmukh (4:31 P.M.)\nColin, are the galley proofs for the spring issue back from the printer yet?\n\nColin Whitaker (4:33 P.M.)\nThey just landed on my desk. Why — is there a problem?\n\nRavi Deshmukh (4:34 P.M.)\nThe lead author found two errors in her article this morning. We need them fixed before it goes to print tomorrow.\n\nColin Whitaker (4:35 P.M.)\nHow major? If they're just typos I can slot them in tonight.\n\nRavi Deshmukh (4:36 P.M.)\nOne's a wrong figure in a chart, the other's a misspelled name. Both small.\n\nColin Whitaker (4:37 P.M.)\nI'm on it.\n\nRavi Deshmukh (4:38 P.M.)\nYou're saving the whole issue."
       }
     ],
-    "translation": "トマス・イバラ(午前9:41):すみません、出張予約システムにログインできません。『アカウントがロックされています』と出続けます。\nヘレン・ゾウ(午前9:42):それはたいてい、パスワードを3回間違えると起きます。最後にパスワードを変えたのはいつですか?\nトマス・イバラ(午前9:43):たぶん3か月前です。期限切れかも?\nヘレン・ゾウ(午前9:44):おそらくそうですね。今、リセットのリンクを会社のメールに送ります。15分以内にクリックしてください、切れてしまうので。\nトマス・イバラ(午前9:45):了解です。正午に運賃が上がる前に航空券を予約しないといけなくて。\nヘレン・ゾウ(午前9:46):大丈夫ですよ——リンクはもう送っています。届かなかったら教えてください。",
+    "translation": "ラヴィ・デシュムク(午後4:31):コリン、春号のゲラは印刷所からもう戻ってきた?\nコリン・ウィテカー(午後4:33):今ちょうど机に届いたところ。どうかした?——何か問題?\nラヴィ・デシュムク(午後4:34):筆頭著者が今朝、自分の記事に誤りを2つ見つけたの。明日印刷に回る前に直さないと。\nコリン・ウィテカー(午後4:35):どのくらい大きい? ただの誤字なら今夜差し込めるよ。\nラヴィ・デシュムク(午後4:36):1つはグラフの数値の間違い、もう1つは名前のスペルミス。どちらも小さいわ。\nコリン・ウィテカー(午後4:37):任せて。\nラヴィ・デシュムク(午後4:38):あなたが号全体を救ってくれるのね。",
     "questions": [
       {
-        "q": "Why did Mr. Ibarra contact Ms. Zhou?",
+        "q": "At 4:37 P.M., what does Mr. Whitaker most likely mean when he writes, \"I'm on it\"?",
         "choices": [
-          "To report a billing error",
-          "Because he could not access a system",
-          "To reset a colleague's account",
-          "To cancel a flight"
+          "He will take care of the corrections.",
+          "He has already sent the issue to print.",
+          "He is standing on the proofs.",
+          "He disagrees with the author's changes."
         ],
-        "answer": 1,
-        "explanation": "最初のメッセージ I can't log in ... account locked(ログインできず、ロックされている)が根拠。システムにアクセスできないための連絡。"
+        "answer": 0,
+        "explanation": "意図問題。直前でラヴィが誤り2点の内容を説明した流れなので、『自分が(修正を)引き受ける』の意味。"
       },
       {
-        "q": "At 9:46 A.M., what does Ms. Zhou most likely mean when she writes, \"You'll be fine\"?",
+        "q": "What is indicated about the spring issue?",
         "choices": [
-          "The system error is not serious.",
-          "She will book the flight for him.",
-          "He will be able to book before the deadline.",
-          "The reset link never expires."
+          "It contains no charts.",
+          "It is a week behind schedule.",
+          "It has been cancelled.",
+          "It will be printed the following day."
         ],
-        "answer": 2,
-        "explanation": "意図問題。直前でトマスが『正午の値上げ前に予約したい』と心配しているので、『(リンクは送ったから)間に合う=期限前に予約できる』という励ましだと分かる。"
+        "answer": 3,
+        "explanation": "before it goes to print tomorrow(明日印刷に回る前に)から、翌日に印刷予定と分かる。グラフの数値ミスの話があるので(C)は誤り。"
       }
     ]
   },
@@ -215,43 +226,43 @@ window.TOEIC_DATA_4.part7 = [
     "passages": [
       {
         "docType": "Article",
-        "text": "MAPLETON (March 15) — Mapleton Regional Airport announced on Tuesday that it will begin daily nonstop flights to Denver starting June 1, its first direct route to a major western hub. The service will be operated by Cascade Air using 76-seat regional jets.\n\nAirport officials expect the route to attract business travelers, who currently face a connection in Chicago that adds up to three hours to the journey. \"Cutting out that layover is a real advantage for our local companies,\" said airport director Lorna Pike. Passenger numbers at Mapleton have risen 12 percent over the past two years.\n\nIntroductory one-way fares start at $89 if booked before May 1. Cascade Air also plans to add a second daily flight in the fall if demand is strong."
+        "text": "GREENBELT (April 5) — A cooperative of twelve family farms in the Greenbelt Valley opened a shared packing facility on Monday, allowing members to wash, sort, and box their produce under one roof for the first time.\n\nPreviously, each farm handled packing on its own, and smaller growers often struggled to meet the volume that large grocery chains require. By pooling their harvests, the cooperative can now fill orders that no single member could manage alone.\n\n\"A grocery buyer wants one truckload of uniform carrots, not ten small batches,\" said co-op director Louisa Fenn. \"Now we can deliver that.\" The facility is expected to handle about 40 tons of vegetables per week during peak season.\n\nThe project was funded partly by a regional agricultural grant. Ms. Fenn said the co-op hopes to add a cold-storage unit next year, which would let members hold crops for sale during the winter months."
       }
     ],
-    "translation": "メープルトン(3月15日)——メープルトン地方空港は火曜日、6月1日からデンバー行きの毎日運航のノンストップ便を開始すると発表した。西部の主要拠点への同空港初の直行便となる。運航はカスケード航空が担い、76席の地域ジェット機を使用する。\n\n空港関係者は、この路線がビジネス客を引きつけると期待している。現在ビジネス客は、シカゴでの乗り継ぎに直面しており、移動時間が最大3時間増えている。『あの乗り継ぎをなくせるのは、地元企業にとって大きな利点です』と空港長のローナ・パイク氏は述べた。メープルトンの旅客数は、過去2年で12パーセント増加している。\n\n導入時の片道運賃は、5月1日までの予約で89ドルから。カスケード航空は、需要が強ければ秋に1日2便目を追加する計画だ。",
+    "translation": "グリーンベルト(4月5日)——グリーンベルト渓谷の12の家族経営農場からなる協同組合が月曜、共同の梱包施設を開設し、組合員が初めて一つ屋根の下で農産物の洗浄・選別・箱詰めを行えるようになった。\n\nこれまで各農場は自前で梱包しており、小規模生産者は大手食料品チェーンが求める数量に応えるのに苦労することが多かった。収穫を持ち寄ることで、協同組合は今や単独の組合員では扱えなかった注文にも応じられる。\n\n『バイヤーが欲しいのは、規格のそろったニンジンのトラック1台分であって、小口10バッチではありません』と組合ディレクターのルイーザ・フェン氏。『今ならそれを届けられます』。同施設は最盛期に週約40トンの野菜を扱う見込みだ。\n\n事業は地域の農業助成金の一部で賄われた。フェン氏によれば、組合は来年、冷蔵保管設備の増設を望んでおり、それにより組合員は冬の間、作物を保管して販売できるようになるという。",
     "questions": [
       {
         "q": "What is the article mainly about?",
         "choices": [
-          "An airline merger",
-          "A new flight route",
-          "An airport expansion project",
-          "A change in ticket taxes"
+          "A change in government farming rules",
+          "A recent rise in vegetable prices",
+          "A new grocery store chain",
+          "A shared packing facility for farms"
         ],
-        "answer": 1,
-        "explanation": "第1段落の『デンバー行き直行便を開始する』が記事全体の主題。新しい航空路線(new flight route)への言い換え。"
+        "answer": 3,
+        "explanation": "第1段落の『12農場の協同組合が共同梱包施設を開設した』が記事全体の主題。"
       },
       {
-        "q": "What does Ms. Pike suggest about the new route?",
+        "q": "According to Ms. Fenn, what problem did small farms face before?",
         "choices": [
-          "It will save time for local businesses.",
-          "It will replace the route to Chicago.",
-          "It will require larger aircraft.",
-          "It will lower all ticket prices."
+          "They could not meet buyers' volume needs.",
+          "They could not find enough workers.",
+          "Their crops were of poor quality.",
+          "Their delivery trucks were too small."
         ],
         "answer": 0,
-        "explanation": "Cutting out that layover is a real advantage for our local companies(乗り継ぎをなくせるのは地元企業の利点)が根拠。乗り継ぎで最大3時間増えていたので時間の節約になる。"
+        "explanation": "struggled to meet the volume that large grocery chains require(大手が求める数量に応えられなかった)が根拠。バイヤーは規格のそろった1台分を欲しがるという発言とも一致。"
       },
       {
-        "q": "How can travelers get the introductory fare?",
+        "q": "What does the cooperative hope to do next year?",
         "choices": [
-          "By booking before May 1",
-          "By joining a loyalty program",
-          "By flying in the fall",
-          "By traveling on weekdays"
+          "Open a retail store",
+          "Buy additional farmland",
+          "Add a cold-storage unit",
+          "Double its membership"
         ],
-        "answer": 0,
-        "explanation": "Introductory one-way fares start at $89 if booked before May 1 が根拠。秋は2便目追加の話でひっかけ。"
+        "answer": 2,
+        "explanation": "the co-op hopes to add a cold-storage unit next year(来年、冷蔵設備を増設したい)が根拠。"
       }
     ]
   },
@@ -261,43 +272,43 @@ window.TOEIC_DATA_4.part7 = [
     "passages": [
       {
         "docType": "E-mail",
-        "text": "From: registrations@datawise-academy.com\nTo: Ms. Carol Nunez\nSubject: Your registration — \"Intro to Data Dashboards\" webinar\nDate: August 3\n\nDear Ms. Nunez,\n\nThank you for registering for our live webinar \"Intro to Data Dashboards,\" scheduled for Thursday, August 14, from 2:00 to 3:30 P.M. Eastern Time. A link to join will be e-mailed to you one hour before the start.\n\nTo get the most out of the session, please install the free DataWise Viewer app before the webinar and download the sample spreadsheet from your account page. You do not need any prior programming experience.\n\nThe session will be recorded. If you cannot attend live, the recording will be available in your account for 30 days afterward.\n\nParticipants who complete the optional follow-up quiz will receive a certificate of completion, which many employers accept toward professional development credits.\n\nWe look forward to seeing you online."
+        "text": "From: Gordon Pyke, Meridian Insurance\nTo: Sandra Iqbal\nSubject: Your commercial property policy — renewal\nDate: June 3\n\nDear Ms. Iqbal,\n\nYour commercial property insurance policy (no. CP-77302) for the Fairlight Bakery premises is due to renew on July 1. I am writing to review your coverage before that date.\n\nThis year we recommend one change. Following the equipment you added in March — two new industrial ovens — your current contents limit of $80,000 may no longer be sufficient. We suggest raising it to $110,000. This would increase your annual premium by $240.\n\nYour building coverage and liability terms will remain the same. If you agree to the higher contents limit, simply reply to this e-mail and I will update the policy. If I do not hear from you by June 24, your policy will renew at the current terms.\n\nI am also happy to schedule a call to discuss other options, such as adding flood coverage.\n\nBest regards,\nGordon Pyke"
       }
     ],
-    "translation": "差出人:registrations@datawise-academy.com\n宛先:キャロル・ヌニェス様\n件名:ご登録のお知らせ——『データダッシュボード入門』ウェビナー\n日付:8月3日\n\nヌニェス様\n\nライブウェビナー『データダッシュボード入門』にご登録いただきありがとうございます。開催は8月14日(木)午後2時〜3時30分(東部時間)です。参加リンクは開始1時間前にメールでお送りします。\n\nセッションを最大限に活かすため、ウェビナー前に無料の DataWise Viewer アプリをインストールし、アカウントページからサンプルの表計算ファイルをダウンロードしてください。事前のプログラミング経験は不要です。\n\nセッションは録画されます。ライブで参加できない場合、録画は終了後30日間、アカウント内でご覧いただけます。\n\n任意のフォローアップ小テストを完了した参加者には修了証が発行され、多くの雇用主がこれを専門能力開発の単位として認めています。\n\nオンラインでお会いできるのを楽しみにしています。",
+    "translation": "差出人:ゴードン・パイク(メリディアン保険)\n宛先:サンドラ・イクバル\n件名:あなたの商業用資産保険——更新について\n日付:6月3日\n\nイクバル様\n\nフェアライト・ベーカリー店舗にかかる商業用資産保険(証券番号CP-77302)は7月1日に更新期を迎えます。その前に補償内容を見直したくご連絡します。\n\n今年は1点変更をお勧めします。3月に追加された設備——業務用オーブン2台——を踏まえると、現在の家財補償限度額8万ドルでは不十分かもしれません。11万ドルへの引き上げをご提案します。これにより年間保険料が240ドル上がります。\n\n建物補償と賠償責任の条件は変わりません。高い家財限度額に同意される場合は、本メールにご返信いただければ証券を更新します。6月24日までにご連絡がない場合は、現行条件のまま更新されます。\n\n洪水補償の追加など、他の選択肢についてお電話でご相談することも可能です。\n\nよろしくお願いいたします。\nゴードン・パイク",
     "questions": [
       {
-        "q": "What is the purpose of the e-mail?",
+        "q": "Why did Mr. Pyke write the e-mail?",
         "choices": [
-          "To request a payment",
-          "To reschedule an event",
-          "To advertise a software product",
-          "To confirm a registration"
+          "To report a decision on a claim",
+          "To request an overdue payment",
+          "To sell a new type of insurance",
+          "To review coverage ahead of a renewal"
         ],
         "answer": 3,
-        "explanation": "Thank you for registering ... とウェビナーの日時・準備事項を伝えているので、登録確認が目的。"
+        "explanation": "I am writing to review your coverage before that date(更新日の前に補償内容を見直す)が主目的。"
       },
       {
-        "q": "What is Ms. Nunez asked to do before the webinar?",
+        "q": "What change does Mr. Pyke recommend?",
         "choices": [
-          "Complete a quiz",
-          "Pay a fee",
-          "Write a program",
-          "Install a viewer app"
-        ],
-        "answer": 3,
-        "explanation": "please install the free DataWise Viewer app before the webinar が根拠。小テストは終了後の任意課題なのでひっかけ。"
-      },
-      {
-        "q": "How can a participant receive a certificate?",
-        "choices": [
-          "By watching the recording",
-          "By completing a follow-up quiz",
-          "By installing the app",
-          "By attending live"
+          "Lowering the annual premium",
+          "Raising the contents coverage limit",
+          "Switching to a different provider",
+          "Removing the liability coverage"
         ],
         "answer": 1,
-        "explanation": "Participants who complete the optional follow-up quiz will receive a certificate(小テスト完了で修了証)が根拠。"
+        "explanation": "We suggest raising it to $110,000(家財限度額を11万ドルへ引き上げる)が根拠。"
+      },
+      {
+        "q": "What will happen if Ms. Iqbal does not reply by June 24?",
+        "choices": [
+          "Her policy will renew unchanged.",
+          "Her premium will double.",
+          "A phone call will be scheduled automatically.",
+          "Her policy will be cancelled."
+        ],
+        "answer": 0,
+        "explanation": "If I do not hear from you by June 24, your policy will renew at the current terms(現行条件のまま更新)が根拠。"
       }
     ]
   },
@@ -307,100 +318,89 @@ window.TOEIC_DATA_4.part7 = [
     "passages": [
       {
         "docType": "Letter",
-        "text": "Dear Mr. Feldman,\n\nThank you for your letter of May 8 informing us that your copies of Coastal Living Monthly stopped arriving after the March issue. We apologize for the interruption, which was caused by an error when our distribution center switched to a new mailing system in April.\n\nOur records show that your subscription is paid through December, so no further payment is due. The April and May issues have been re-sent by first-class mail and should reach you within five business days. To make up for the missed issues, we have extended your subscription by two months at no charge, so it will now run through February.\n\nWe have also enclosed a voucher for our online store, redeemable for any single item up to $25. Simply enter the code printed below at checkout before the end of this year.\n\nWe appreciate your patience and are glad to have you as a reader.\n\nSincerely,\nMarion Delgado\nSubscriber Services, Coastal Living Monthly"
+        "text": "Dear Valued Customer,\n\nWe are writing regarding the Cascade portable air pump (model AP-9) that you registered with us. Our quality team has identified a fault in a small number of units produced between January and March: under heavy use, the plastic hose connector may weaken and leak air.\n\nAlthough the issue poses no safety risk, it can reduce the pump's performance. As a precaution, we are offering all affected customers a free replacement connector, which is simple to fit yourself using the enclosed instructions. No tools are required.\n\nTo request your free connector, visit cascade-tools.com/AP9 and enter the serial number printed on the base of your pump. Replacements will be dispatched within five business days at no cost to you.\n\nIf you would prefer to return the entire pump for a full inspection, please call our support line and we will arrange free collection.\n\nWe regret any inconvenience and thank you for your understanding.\n\nSincerely,\nMartin Feld\nCascade Tools"
       }
     ],
-    "translation": "フェルドマン様\n\n5月8日付のお手紙にて、『コースタル・リビング・マンスリー』が3月号を最後に届かなくなったとお知らせいただき、ありがとうございます。当社の配送センターが4月に新しい発送システムへ切り替えた際の手違いによるもので、中断をお詫びいたします。\n\n記録によれば、お客様の購読料は12月まで支払い済みで、追加のお支払いは不要です。4月号と5月号は第一種郵便で再送済みで、5営業日以内に届く見込みです。届かなかった号の埋め合わせとして、購読期間を無料で2か月延長しましたので、今後は2月まで有効となります。\n\nまた、オンラインストアで使えるクーポンを同封しました。25ドルまでの単品1点に利用できます。本年末までに、下記のコードを決済時にご入力ください。\n\nお待たせしたことをお詫びし、読者でいてくださることに感謝申し上げます。\n\n敬具\nマリオン・デルガド\n購読者サービス、コースタル・リビング・マンスリー",
+    "translation": "お客様各位\n\nお客様にご登録いただいたカスケード・ポータブル空気ポンプ(モデルAP-9)についてご連絡します。当社の品質チームが、1月から3月に製造された一部の製品に不具合を確認しました。過度の使用により、プラスチック製ホースコネクターが弱くなり空気が漏れる場合があります。\n\nこの問題に安全上のリスクはありませんが、ポンプの性能を低下させることがあります。念のため、対象のお客様全員に交換用コネクターを無償で提供します。同封の説明書を使えばご自身で簡単に取り付けられ、工具は不要です。\n\n無償コネクターのご請求は、cascade-tools.com/AP9 にアクセスし、ポンプ底面に印字されたシリアル番号を入力してください。交換品は5営業日以内に無料で発送します。\n\nポンプ本体の全体点検をご希望の場合は、サポート窓口までお電話ください。無料で引き取りを手配します。\n\nご不便をおかけしお詫び申し上げるとともに、ご理解に感謝いたします。\n\n敬具\nマーティン・フェルド\nカスケード・ツールズ",
     "questions": [
       {
-        "q": "Why was the letter written?",
+        "q": "What is the main purpose of the letter?",
         "choices": [
-          "To announce a price increase",
-          "To introduce a new magazine",
-          "To respond to a delivery problem",
-          "To request a subscription renewal"
+          "To inform customers about a product defect",
+          "To announce a price reduction",
+          "To request a product review",
+          "To advertise a new pump model"
         ],
-        "answer": 2,
-        "explanation": "3月号以降届かなくなったという手紙への返信で、原因の説明と対応を伝えているので、配送の問題への対応が目的。"
+        "answer": 0,
+        "explanation": "一部製品のコネクター不具合(fault)を知らせ、無償交換を案内している。製品の欠陥の通知が主目的。"
       },
       {
-        "q": "What caused the problem?",
+        "q": "What is indicated about the fault?",
         "choices": [
-          "A printing delay",
-          "An incorrect address",
-          "A payment error",
-          "A change to a new mailing system"
+          "It cannot be fixed by the customer.",
+          "It affects every unit that was sold.",
+          "It requires professional repair.",
+          "It is not a safety concern."
         ],
         "answer": 3,
-        "explanation": "an error when our distribution center switched to a new mailing system(新発送システムへの切替時の手違い)が原因。"
+        "explanation": "the issue poses no safety risk(安全上のリスクはない)が根拠。自分で簡単に取り付けられるとあるので(C)(D)も誤り。"
       },
       {
-        "q": "What is indicated about Mr. Feldman's subscription?",
+        "q": "The word \"dispatched\" in paragraph 3 is closest in meaning to",
         "choices": [
-          "It was canceled at his request.",
-          "It requires immediate payment.",
-          "It has already expired.",
-          "It has been extended at no cost."
+          "sent",
+          "replaced",
+          "delayed",
+          "returned"
         ],
-        "answer": 3,
-        "explanation": "we have extended your subscription by two months at no charge(無料で2か月延長)が根拠。購読料は12月まで支払い済みで追加支払い不要。"
-      },
-      {
-        "q": "What is indicated about the voucher?",
-        "choices": [
-          "It is worth $50.",
-          "It never expires.",
-          "It can be used for a single item.",
-          "It applies to magazine subscriptions."
-        ],
-        "answer": 2,
-        "explanation": "redeemable for any single item up to $25(25ドルまでの単品1点に使える)が根拠。本年末までという期限があるので『無効期限なし』は誤り。"
+        "answer": 0,
+        "explanation": "語彙問題。dispatched(発送された)= sent。交換品を5営業日以内に送るという文脈から判断できる。"
       }
     ]
   },
   {
     "id": "s4p7-09",
-    "title": "シングル 9(広告)",
+    "title": "シングル 9(ウェブページ)",
     "passages": [
       {
-        "docType": "Advertisement",
-        "text": "TIMBER & GRAIN WOODWORKING STUDIO — Now Enrolling for Autumn\n\nLearn to build furniture by hand in our fully equipped workshop on Canal Street.\n\nAutumn courses:\n1. Weekend Intro to Woodworking (2 Saturdays) — $120\n2. Build Your Own Bookshelf (4 Tuesdays) — $220\n3. Fine Joinery (6 Wednesdays) — $340\n\nAll courses include tools, timber, and safety gear, and students keep everything they build.\n\nEnrollment offers (before September 15):\n1. 15% off any course\n2. A free set of chisels with the Fine Joinery course\n3. Bring a friend and share a two-person bench for one course fee\n\nSpaces are limited to eight students per class. Visit timberandgrain.com or drop by Tuesday–Saturday, 10 A.M.–6 P.M."
+        "docType": "Web page",
+        "text": "ORCHARD LANE WHOLESALE\nServing restaurants and grocers across the region with locally grown fruit and vegetables since 1998.\n\nWhy choose us:\n1. Direct from farm — produce picked within 48 hours of delivery\n2. Flexible ordering — order online up to 6 P.M. for next-morning delivery\n3. Seasonal price list updated every Monday\n\nNew accounts: Register online and upload a valid business license. Approved accounts receive a dedicated account manager and access to our full wholesale price list. First-time customers receive free delivery on their opening order.\n\nPlease note: we supply businesses only and do not sell to individual households. A $150 minimum applies to deliveries in outlying areas; there is no minimum within the city."
       }
     ],
-    "translation": "ティンバー&グレイン木工スタジオ——秋期の受講生募集中\n\nキャナル通りの充実した工房で、手作業で家具を作ることを学びましょう。\n\n秋期コース:\n1. 週末・木工入門(土曜2回)——120ドル\n2. 自分だけの本棚づくり(火曜4回)——220ドル\n3. 精密な接ぎ手(水曜6回)——340ドル\n\n全コースに工具・木材・安全用具が含まれ、作ったものはすべて持ち帰れます。\n\n申込特典(9月15日まで):\n1. どのコースも15%オフ\n2. 『精密な接ぎ手』コースにノミのセットを無料進呈\n3. 友達を連れてくれば、2人用の作業台を1コース分の料金で共有可能\n\n定員は1クラス8名です。timberandgrain.com へ、または火曜〜土曜、午前10時〜午後6時にお立ち寄りください。",
+    "translation": "オーチャード・レーン卸売\n1998年以来、地元産の果物と野菜で地域のレストラン・食料品店にお応えしています。\n\n選ばれる理由:\n1. 農場直送——配送の48時間以内に収穫した農産物\n2. 柔軟な発注——午後6時までのオンライン注文で翌朝配送\n3. 季節ごとの価格表を毎週月曜に更新\n\n新規アカウント:オンライン登録のうえ、有効な事業許可証をアップロードしてください。承認されたアカウントには専任の担当者が付き、全卸売価格表を閲覧できます。初回のお客様は初回注文の配送が無料です。\n\nご注意:当社は事業者のみを対象とし、個人家庭には販売しません。郊外への配送には150ドルの最低注文額が適用されます。市内には最低額はありません。",
     "questions": [
       {
-        "q": "What is NOT included in the courses?",
+        "q": "What is indicated about Orchard Lane Wholesale?",
         "choices": [
-          "Safety gear",
-          "Timber",
-          "Lunch",
-          "Tools"
+          "It operates several retail stores.",
+          "It was founded last year.",
+          "It sells only to businesses.",
+          "It grows only fruit."
         ],
         "answer": 2,
-        "explanation": "NOT問題。All courses include tools, timber, and safety gear とあるが、昼食(lunch)には言及がない。"
+        "explanation": "we supply businesses only and do not sell to individual households(事業者専門、個人家庭には販売しない)が根拠。"
       },
       {
-        "q": "What is offered with the Fine Joinery course?",
+        "q": "What is NOT mentioned as a feature of the service?",
         "choices": [
-          "A discount on tools",
-          "A free bookshelf",
-          "A free set of chisels",
-          "A free meal"
+          "A weekly price update",
+          "Next-morning delivery",
+          "A dedicated account manager",
+          "Free delivery on every order"
         ],
-        "answer": 2,
-        "explanation": "A free set of chisels with the Fine Joinery course(精密接ぎ手コースにノミのセット無料)が根拠。"
+        "answer": 3,
+        "explanation": "NOT問題。翌朝配送・毎週の価格更新・専任担当者は記載あり。配送無料は『初回注文のみ』なので、すべての注文が無料(C)とは述べていない。"
       },
       {
-        "q": "What is indicated about the classes?",
+        "q": "What must new customers provide to register?",
         "choices": [
-          "They all last six weeks.",
-          "They are limited to eight students.",
-          "They are held on Sundays.",
-          "They are free for beginners."
+          "A minimum deposit",
+          "A business license",
+          "A credit reference",
+          "A signed annual contract"
         ],
         "answer": 1,
-        "explanation": "Spaces are limited to eight students per class(定員は1クラス8名)が根拠。営業は火曜〜土曜なので日曜は誤り。"
+        "explanation": "Register online and upload a valid business license(事業許可証をアップロード)が根拠。"
       }
     ]
   },
@@ -410,415 +410,415 @@ window.TOEIC_DATA_4.part7 = [
     "passages": [
       {
         "docType": "Memo",
-        "text": "MEMO\nTo: All Employees\nFrom: Angela Ruiz, Finance Department\nDate: January 12\nRe: New expense-reporting system\n\nStarting February 1, we will replace our paper expense forms with an online system called SpendTrack. From that date, all reimbursement requests must be submitted through SpendTrack; paper forms will no longer be accepted.\n\nTo prepare, please attend one of the 45-minute training sessions held in Conference Room A during the week of January 20. A sign-up sheet is on the intranet. If none of the times suit you, a recorded version will be posted afterward.\n\nWhen submitting a claim, remember to photograph each receipt and upload it directly in the app. Receipts under $10 no longer require a paper copy. Claims are approved by your line manager and then processed within five business days.\n\nAngela"
+        "text": "MEMO\nTo: All Warehouse Staff\nFrom: Nadia Cortez, Operations Manager\nDate: October 6\nRe: Annual inventory count\n\nOur annual physical inventory count will take place on Saturday, October 25. Because every item in the warehouse must be counted, all outbound shipping will be suspended that day. Please inform any clients expecting Saturday deliveries.\n\nStaff assignments will be posted on the break-room board by October 20; each team will be responsible for a specific zone. Handheld scanners will be distributed at 7:30 A.M., and counting begins at 8:00 A.M. sharp.\n\nPlease wear closed-toe shoes and bring a jacket, as the cold-storage zones will be counted in the afternoon. Lunch will be provided at noon.\n\nAnyone unable to work that Saturday must notify their supervisor by October 15 so we can arrange coverage.\n\nNadia"
       }
     ],
-    "translation": "メモ\n宛先:全社員\n差出人:アンジェラ・ルイス(経理部)\n日付:1月12日\n件名:新しい経費精算システム\n\n2月1日より、紙の経費申請フォームを SpendTrack というオンラインシステムに置き換えます。その日以降、すべての精算申請は SpendTrack で行う必要があり、紙のフォームは受け付けません。\n\n準備として、1月20日の週に会議室Aで行う45分の研修セッションのいずれかにご参加ください。申込シートはイントラネットにあります。都合の合う時間がなければ、後日、録画版を掲載します。\n\n申請の際は、各領収書を撮影し、アプリに直接アップロードすることを忘れないでください。10ドル未満の領収書は、紙の控えが不要になりました。申請は直属の上司が承認し、その後5営業日以内に処理されます。\n\nアンジェラ",
+    "translation": "メモ\n宛先:倉庫スタッフ全員\n差出人:ナディア・コルテス(オペレーションマネージャー)\n日付:10月6日\n件名:年次棚卸し\n\n年次の実地棚卸しを10月25日(土)に行います。倉庫の全品目を数える必要があるため、その日は出荷業務をすべて停止します。土曜配送を予定しているお客様にはお知らせください。\n\n担当割りは10月20日までに休憩室の掲示板に貼り出します。各チームが特定のゾーンを担当します。ハンディスキャナーは午前7時30分に配布し、カウントは午前8時ちょうどに開始します。\n\nつま先の覆われた靴を履き、上着を持参してください。冷蔵ゾーンは午後にカウントします。正午には昼食を用意します。\n\nその土曜に勤務できない方は、代替を手配できるよう、10月15日までに上司に連絡してください。\n\nナディア",
     "questions": [
       {
-        "q": "What is the purpose of the memo?",
+        "q": "What will happen on October 25?",
         "choices": [
-          "To schedule performance reviews",
-          "To introduce a new reporting system",
-          "To announce a company merger",
-          "To reduce travel budgets"
+          "A new scanner system will be launched.",
+          "Outbound shipping will be suspended.",
+          "The warehouse will close permanently.",
+          "New staff will be trained."
         ],
         "answer": 1,
-        "explanation": "紙のフォームを SpendTrack に置き換えるという告知が主目的。新しい精算システムの導入。"
+        "explanation": "all outbound shipping will be suspended that day(その日は出荷を全面停止)が根拠。棚卸しのため。"
       },
       {
-        "q": "What should employees do during the week of January 20?",
+        "q": "Why should staff bring a jacket?",
         "choices": [
-          "Submit paper forms",
-          "Attend a training session",
-          "Photograph all past receipts",
-          "Meet their line manager"
+          "They will work outdoors.",
+          "They will count cold-storage zones.",
+          "The building's heating will be off.",
+          "The count may run late into the night."
         ],
         "answer": 1,
-        "explanation": "please attend one of the 45-minute training sessions ... during the week of January 20(1月20日の週の研修に参加)が根拠。"
+        "explanation": "bring a jacket, as the cold-storage zones will be counted in the afternoon(午後に冷蔵ゾーンを数えるから)が根拠。"
       },
       {
-        "q": "What is indicated about small receipts?",
+        "q": "What must staff do by October 15?",
         "choices": [
-          "They cannot be claimed.",
-          "They do not require a paper copy.",
-          "They are approved instantly.",
-          "They must be mailed to Finance."
+          "Notify a supervisor of any absence",
+          "Choose their own work zone",
+          "Return their handheld scanners",
+          "Confirm their lunch orders"
         ],
-        "answer": 1,
-        "explanation": "Receipts under $10 no longer require a paper copy(10ドル未満は紙の控え不要)が根拠。"
+        "answer": 0,
+        "explanation": "Anyone unable to work that Saturday must notify their supervisor by October 15(勤務できない人は10月15日までに上司へ連絡)が根拠。"
       }
     ]
   },
   {
     "id": "s4p7-11",
-    "title": "ダブル 1(料金表+Eメール)",
+    "title": "ダブル 1(お知らせ+Eメール)",
     "passages": [
       {
-        "docType": "Web page",
-        "text": "RIVERSTONE EVENT RENTALS — Price List\n\nDelivery within 20 km of our depot: free. Beyond 20 km: $2 per additional kilometer.\n\nItems (per day):\n1. Round table (seats 8) — $12\n2. Folding chair — $2\n3. 3m x 6m marquee tent — $90\n4. Portable stage section — $45\n5. PA speaker set — $60\n\nWeekend rentals (Friday–Sunday) are charged as two days regardless of pickup time. A refundable deposit of $100 is required for tents and stages. Please book at least one week ahead; rush orders placed within seven days of the event add a 10% surcharge to the item total."
+        "docType": "Notice",
+        "text": "BROOKFIELD COMMONS — Retail Units for Lease\nManaged by Halverson Property Group\n\nThree ground-floor retail units are available at Brookfield Commons, a busy shopping plaza on Maple Avenue.\n\n1. Unit 1 — 60 m² — $2,000/month\n2. Unit 2 — 90 m² — $2,900/month\n3. Unit 3 — 120 m² — $3,600/month\n\nAll leases require a security deposit equal to one month's rent, refundable at the end of the lease. A monthly common-area maintenance (CAM) charge of $300 applies to every unit, covering shared parking, exterior lighting, and landscaping.\n\nTenants who sign a three-year lease receive a 10% discount on their monthly rent (the CAM charge is not discounted). To arrange a viewing, contact Diane Halverson at leasing@halversonpg.com."
       },
       {
         "docType": "E-mail",
-        "text": "From: Dev Anand, Bright Meadow Farm\nTo: bookings@riverstonerentals.com\nSubject: Rental for harvest festival\nDate: September 30\n\nHello,\n\nWe are holding our harvest festival on Saturday, October 18, and would like to rent one marquee tent and eight round tables. Our farm is 30 km from your depot. We can receive the delivery any time on Friday and will return everything on Monday.\n\nI'm placing this order today, so I believe we are within your advance-booking window. Please send a total, including the deposit, and let me know your preferred payment method.\n\nThanks,\nDev Anand"
+        "text": "From: Owen Brislin\nTo: leasing@halversonpg.com\nSubject: Unit inquiry — Brookfield Commons\nDate: August 12\n\nDear Ms. Halverson,\n\nI run a growing stationery and gift shop and am looking to open a second location at Brookfield Commons. I would need at least 100 m² to display my full range, so the largest unit looks like the best fit.\n\nI am prepared to commit to a three-year lease to take advantage of the discount you advertise. Before I arrange a viewing, could you confirm two things?\n\nFirst, is the shared parking well lit in the evenings? My current shop gets much of its trade after 6 P.M.\n\nSecond, are tenants permitted to install their own exterior signage?\n\nI look forward to hearing from you.\n\nBest regards,\nOwen Brislin"
       }
     ],
-    "translation": "【料金表】リバーストーン・イベントレンタル——料金表\n\n当社倉庫から20km以内の配送:無料。20kmを超える分:1kmあたり2ドル。\n\n品目(1日あたり):\n1. 丸テーブル(8人掛け)——12ドル\n2. 折りたたみ椅子——2ドル\n3. 3m×6m マーキーテント——90ドル\n4. 組み立てステージ1区画——45ドル\n5. PAスピーカーセット——60ドル\n\n週末レンタル(金〜日)は、引き取り時間に関わらず2日分として課金します。テントとステージには100ドルの返金可能な保証金が必要です。少なくとも1週間前にご予約ください。イベントまで7日以内の駆け込み注文には、品目合計に10%の追加料金がかかります。\n\n【Eメール】\n差出人:デヴ・アナンド(ブライトメドウ農園)\n宛先:bookings@riverstonerentals.com\n件名:収穫祭のレンタル\n日付:9月30日\n\nこんにちは。\n\n10月18日(土)に収穫祭を開催予定で、マーキーテント1張りと丸テーブル8卓を借りたいです。当農園は御社の倉庫から30kmです。配送は金曜のいつでも受け取れ、すべて月曜に返却します。\n\n本日注文しますので、事前予約の期間内だと思います。保証金を含めた合計金額と、希望のお支払い方法をお知らせください。\n\nよろしくお願いします。\nデヴ・アナンド",
+    "translation": "【お知らせ】ブルックフィールド・コモンズ——小売ユニット賃貸\nハルバーソン不動産グループ管理\n\nメープル通りの賑わうショッピングプラザ、ブルックフィールド・コモンズに1階の小売ユニットが3区画あります。\n\n1. ユニット1——60m²——月2,000ドル\n2. ユニット2——90m²——月2,900ドル\n3. ユニット3——120m²——月3,600ドル\n\n全ての賃貸契約に家賃1か月分の敷金(契約満了時に返還)が必要です。共用部維持管理費(CAM)月300ドルが全ユニットに適用され、共用駐車場・外部照明・造園を賄います。\n\n3年契約を結んだテナントは月家賃が10%割引になります(CAMは割引対象外)。内見のご予約はダイアン・ハルバーソン(leasing@halversonpg.com)まで。\n\n【Eメール】\n差出人:オーウェン・ブリスリン\n宛先:leasing@halversonpg.com\n件名:ユニットについての問い合わせ——ブルックフィールド・コモンズ\n日付:8月12日\n\nハルバーソン様\n\n成長中の文具・ギフト店を営んでおり、ブルックフィールド・コモンズに2号店を出したいと考えています。品ぞろえをすべて陳列するには最低100m²が必要で、一番広いユニットが最適に見えます。\n\n広告にある割引を利用するため、3年契約を結ぶ用意があります。内見を予約する前に2点確認させてください。\n\n1点目、共用駐車場は夜間よく照らされていますか? 現在の店は午後6時以降の来客が多いのです。\n\n2点目、テナントは自前の外部看板を設置できますか?\n\nご返信をお待ちしています。\n\nよろしくお願いいたします。\nオーウェン・ブリスリン",
     "questions": [
       {
-        "q": "What is indicated about weekend rentals?",
+        "q": "What does the notice indicate about all of the units?",
         "choices": [
-          "They are discounted.",
-          "They cannot be delivered.",
-          "They require a larger deposit.",
-          "They are charged as two days."
+          "They were recently renovated.",
+          "They come with furniture included.",
+          "They are located on the second floor.",
+          "Each carries a monthly maintenance charge."
         ],
         "answer": 3,
-        "explanation": "Weekend rentals ... are charged as two days(週末レンタルは2日分として課金)が根拠。"
+        "explanation": "A monthly common-area maintenance (CAM) charge of $300 applies to every unit(全ユニットに月300ドルの維持管理費)が根拠。"
       },
       {
-        "q": "How much will Bright Meadow Farm most likely pay for delivery?",
+        "q": "Which unit will Mr. Brislin most likely lease?",
         "choices": [
-          "Nothing",
-          "$20",
-          "$60",
-          "$10"
-        ],
-        "answer": 1,
-        "explanation": "クロスリファレンス問題(計算型)。料金表『20km超は1kmあたり2ドル』+メール『倉庫から30km』を組み合わせ、超過10km×2ドル=20ドル。"
-      },
-      {
-        "q": "What is suggested about Mr. Anand's order?",
-        "choices": [
-          "It was placed more than a week before the event.",
-          "It will be picked up on Sunday.",
-          "It exceeds the delivery limit.",
-          "It requires a rush surcharge."
-        ],
-        "answer": 0,
-        "explanation": "クロスリファレンス問題。注文日は9月30日、イベントは10月18日で7日以上前。料金表の駆け込み注文(7日以内)には当たらないので追加料金は不要。"
-      },
-      {
-        "q": "How much will the tent and the eight tables cost in total, excluding delivery and the deposit?",
-        "choices": [
-          "$472",
-          "$372",
-          "$186",
-          "$276"
-        ],
-        "answer": 1,
-        "explanation": "計算型。週末は2日分課金。テント90ドル×2=180ドル、丸テーブル8卓×12ドル=96ドル×2日=192ドル。合計180+192=372ドル。"
-      },
-      {
-        "q": "In the Web page, the word \"window\" is closest in meaning to",
-        "choices": [
-          "display",
-          "opportunity",
-          "period",
-          "opening"
+          "Unit 1",
+          "Unit 2",
+          "Unit 3",
+          "He will not lease any unit."
         ],
         "answer": 2,
-        "explanation": "語彙問題。advance-booking window(事前予約の期間)の window は period(期間)の意味。"
+        "explanation": "クロスリファレンス問題。メールの『最低100m²必要』とお知らせの区画一覧(120m²はユニット3のみ)を突き合わせると、条件を満たすのはユニット3。"
+      },
+      {
+        "q": "How much will Mr. Brislin most likely pay in monthly rent, not counting the CAM charge?",
+        "choices": [
+          "$3,240",
+          "$3,300",
+          "$3,900",
+          "$3,600"
+        ],
+        "answer": 0,
+        "explanation": "クロスリファレンス(計算型)。ユニット3は月3,600ドル。彼は3年契約を結ぶので家賃が10%割引=3,600×0.9=3,240ドル。CAMは割引対象外だが設問は家賃のみを問うている。"
+      },
+      {
+        "q": "What is one thing Mr. Brislin asks about?",
+        "choices": [
+          "Whether the lease can be shortened",
+          "Whether he may install his own signage",
+          "Whether the parking is free of charge",
+          "Whether he can reduce the deposit"
+        ],
+        "answer": 1,
+        "explanation": "メール末尾の are tenants permitted to install their own exterior signage(自前の看板を設置できるか)が根拠。彼が尋ねたのは駐車場の照明であって料金ではないので(C)はひっかけ。"
+      },
+      {
+        "q": "What is suggested about Mr. Brislin's business?",
+        "choices": [
+          "It sells food products.",
+          "It has ten locations.",
+          "It is about to close its first shop.",
+          "It is busiest in the evening."
+        ],
+        "answer": 3,
+        "explanation": "My current shop gets much of its trade after 6 P.M.(現店は午後6時以降の来客が多い)から、夕方に最も忙しいと分かる。"
       }
     ]
   },
   {
     "id": "s4p7-12",
-    "title": "ダブル 2(求人広告+Eメール)",
+    "title": "ダブル 2(広告+Eメール)",
     "passages": [
       {
         "docType": "Advertisement",
-        "text": "JUNIOR WEB DEVELOPER — Meridian Digital, Downtown Office\n\nMeridian Digital, a growing web-design agency, is hiring a full-time junior web developer.\n\nResponsibilities: building client websites, fixing bugs, supporting senior developers\n\nRequirements:\n1. At least one year of experience with HTML and CSS\n2. Familiarity with at least one JavaScript framework\n3. A portfolio of two or more completed projects\n\nNice to have: experience with content management systems.\n\nWe offer a starting salary of $52,000, remote work up to two days a week, and a yearly learning budget of $1,000 for courses and conferences.\n\nSend your résumé and a link to your portfolio to jobs@meridiandigital.com by June 30. Shortlisted candidates will complete a short coding task."
+        "text": "THE HARBOR LEDGER — Print Advertising Rates\n\nReach over 40,000 readers across the Harbor region. Rates below are per insertion (one printed issue).\n\n1. Quarter page — $200\n2. Half page — $350\n3. Full page — $600\n\nDiscounts:\n- Book the same ad in four or more consecutive issues and save 15% on each insertion.\n- Non-profit organizations receive 10% off (not combinable with the multi-issue discount).\n\nAll ads must be submitted, print-ready, by the Wednesday before the Saturday edition. Our design team can create your ad for a one-time fee of $80. Contact ads@harborledger.com."
       },
       {
         "docType": "E-mail",
-        "text": "From: Ravi Kapoor\nTo: jobs@meridiandigital.com\nSubject: Junior Web Developer application\nDate: June 22\n\nDear Hiring Team,\n\nI am excited to apply for the junior web developer role. I have worked with HTML and CSS for two years and have built four websites using the React framework, three of which are live and linked in my portfolio (URL below).\n\nAlthough the posting lists content management systems only as a bonus, I have also managed sites on two popular platforms, which I hope strengthens my application. I am comfortable working in the office full time but would value the option to work remotely occasionally.\n\nMy résumé and portfolio link are attached. I look forward to the coding task should I be shortlisted.\n\nBest regards,\nRavi Kapoor"
+        "text": "From: Grace Lieu, Lieu Family Orchards\nTo: ads@harborledger.com\nSubject: Advertising our autumn harvest\nDate: September 1\n\nHello,\n\nWe run a fruit orchard and farm store and would like to advertise our autumn apple season in The Harbor Ledger. We're thinking of a half-page ad, and we'd like it to run for four consecutive Saturdays in October to cover the whole season.\n\nWe don't have a designer, so we would need your team to create the ad for us. Could you confirm the total cost, including design?\n\nAlso, do we need to send you our text and photos the same week the ad runs, or earlier?\n\nThanks,\nGrace Lieu"
       }
     ],
-    "translation": "【求人広告】ジュニア・ウェブ開発者——メリディアン・デジタル、ダウンタウン事務所\n\n成長中のウェブデザイン会社メリディアン・デジタルが、常勤のジュニア・ウェブ開発者を募集します。\n\n職務内容:クライアントのウェブサイト構築、バグ修正、シニア開発者のサポート\n\n応募要件:\n1. HTMLとCSSの経験1年以上\n2. 少なくとも1つのJavaScriptフレームワークに精通していること\n3. 完成プロジェクト2件以上のポートフォリオ\n\nあれば尚可:コンテンツ管理システム(CMS)の経験。\n\n初任給52,000ドル、週最大2日の在宅勤務、講座や学会のための年1,000ドルの学習予算を提供します。\n\n履歴書とポートフォリオのリンクを6月30日までに jobs@meridiandigital.com へお送りください。書類選考通過者には簡単なコーディング課題があります。\n\n【Eメール】\n差出人:ラヴィ・カプーア\n宛先:jobs@meridiandigital.com\n件名:ジュニア・ウェブ開発者への応募\n日付:6月22日\n\n採用ご担当者様\n\nジュニア・ウェブ開発者の職に応募できることを嬉しく思います。私はHTMLとCSSを2年間扱い、Reactフレームワークで4つのウェブサイトを構築しました。うち3つは公開中で、ポートフォリオ(下記URL)にリンクしています。\n\n求人ではCMSの経験は『あれば尚可』とされていますが、私は主要な2つのプラットフォームでサイトを運用した経験もあり、これが応募を後押しするものと期待しています。オフィスでの常勤も問題ありませんが、時折在宅で働ける選択肢があればありがたいです。\n\n履歴書とポートフォリオのリンクを添付します。書類選考を通過できましたら、コーディング課題を楽しみにしています。\n\n敬具\nラヴィ・カプーア",
+    "translation": "【広告】ザ・ハーバー・レジャー——紙面広告料金\n\nハーバー地域の4万人超の読者に届きます。以下の料金は1回の掲載(1号分)あたりです。\n\n1. 4分の1ページ——200ドル\n2. 2分の1ページ——350ドル\n3. 1ページ全面——600ドル\n\n割引:\n・同じ広告を4号以上連続で掲載すると、1回あたり15%割引。\n・非営利団体は10%割引(連続掲載割引との併用不可)。\n\n全ての広告は印刷可能な状態で、土曜版の前の水曜までにご提出ください。デザインチームによる広告作成は一律80ドルで承ります。お問い合わせは ads@harborledger.com。\n\n【Eメール】\n差出人:グレース・リュー(リュー家の果樹園)\n宛先:ads@harborledger.com\n件名:秋の収穫の宣伝\n日付:9月1日\n\nこんにちは。\n\n果樹園と農産物直売店を営んでおり、秋のリンゴのシーズンをザ・ハーバー・レジャーで宣伝したいと思っています。2分の1ページの広告を考えており、シーズン全体をカバーするため10月の4回連続の土曜に掲載したいです。\n\nデザイナーがいないので、御社のチームに広告を作成してもらう必要があります。デザイン込みの総額を確認いただけますか?\n\nまた、原稿と写真は掲載と同じ週に送ればよいですか、それとも早めですか?\n\nよろしくお願いします。\nグレース・リュー",
     "questions": [
       {
-        "q": "What is a requirement for the position?",
+        "q": "What is indicated about The Harbor Ledger?",
         "choices": [
-          "Previous management experience",
-          "Five completed projects",
-          "At least one year of experience with HTML and CSS",
-          "A university degree"
-        ],
-        "answer": 2,
-        "explanation": "Requirements の At least one year of experience with HTML and CSS が根拠。ポートフォリオは2件以上でひっかけ。"
-      },
-      {
-        "q": "What benefit does Meridian Digital offer?",
-        "choices": [
-          "A company car",
-          "A yearly learning budget",
-          "Free daily meals",
-          "Unlimited vacation"
+          "It offers only online advertising.",
+          "It is published on Saturdays.",
+          "It employs 40,000 people.",
+          "It is a monthly magazine."
         ],
         "answer": 1,
-        "explanation": "a yearly learning budget of $1,000(年1,000ドルの学習予算)が根拠。"
+        "explanation": "the Saturday edition(土曜版)や per insertion (one printed issue) から、土曜発行の新聞と分かる。40,000は読者数であり従業員数ではないので(C)はひっかけ。"
       },
       {
-        "q": "What is suggested about Mr. Kapoor's qualifications?",
+        "q": "In the advertisement, the word \"insertion\" is closest in meaning to",
         "choices": [
-          "He cannot work in the office.",
-          "He lacks enough portfolio projects.",
-          "He exceeds the experience requirement.",
-          "He has no framework experience."
+          "addition",
+          "introduction",
+          "placement",
+          "repair"
         ],
         "answer": 2,
-        "explanation": "クロスリファレンス問題。要件は『HTML/CSS 1年以上』、カプーア氏は『2年』の経験があり、要件を上回っている。"
+        "explanation": "語彙問題。per insertion (one printed issue) の insertion は『1回の掲載=placement(掲載・配置)』の意味。文字通りの『挿入・追加(addition)』ではない。"
       },
       {
-        "q": "What optional skill does Mr. Kapoor mention having?",
+        "q": "Which discount does Ms. Lieu's order qualify for?",
         "choices": [
-          "Project management",
-          "Graphic design",
-          "Database administration",
-          "Content management systems"
-        ],
-        "answer": 3,
-        "explanation": "クロスリファレンス問題。求人の『あれば尚可=CMS経験』に対し、メールで『2つのプラットフォームでサイトを運用した』と述べている。"
-      },
-      {
-        "q": "In the e-mail, the word \"strengthens\" is closest in meaning to",
-        "choices": [
-          "improves",
-          "replaces",
-          "weakens",
-          "lengthens"
+          "The multi-issue discount",
+          "The non-profit discount",
+          "Both discounts",
+          "No discount"
         ],
         "answer": 0,
-        "explanation": "語彙問題。strengthens my application(応募を後押しする)の strengthens は improves(良くする)に近い。"
+        "explanation": "クロスリファレンス問題。広告の『4号以上連続で15%割引』と、メールの『10月の4回連続の土曜に掲載』を突き合わせる。果樹園は非営利ではないので連続掲載割引のみ。"
+      },
+      {
+        "q": "What is the total cost of Ms. Lieu's advertising, including design?",
+        "choices": [
+          "$1,480",
+          "$1,400",
+          "$1,270",
+          "$1,190"
+        ],
+        "answer": 2,
+        "explanation": "クロスリファレンス(計算型)。2分の1ページ350ドルに15%割引=297.50ドル、それを4回で1,190ドル。デザイン料80ドル(一律)を足して1,270ドル。"
+      },
+      {
+        "q": "What does Ms. Lieu ask about besides the cost?",
+        "choices": [
+          "The refund policy",
+          "The deadline for submitting materials",
+          "The size of the readership",
+          "The paper's delivery area"
+        ],
+        "answer": 1,
+        "explanation": "メール末尾の『原稿と写真は掲載と同じ週か、早めに送るのか』という質問が根拠。提出期限を尋ねている。"
       }
     ]
   },
   {
     "id": "s4p7-13",
-    "title": "トリプル 1(パス案内+Eメール+Eメール)",
+    "title": "トリプル 1(注文確認+Eメール+Eメール)",
     "passages": [
       {
-        "docType": "Web page",
-        "text": "NORTHGATE MARKETING CONFERENCE — June 5–6\n\nPass options:\n1. One-Day Pass ($150) — access to all sessions on your chosen day\n2. Full Conference Pass ($260) — both days, all sessions, lunch included\n3. Student Pass ($90) — both days (valid student ID required at check-in)\n\nOptional add-ons:\n- Networking dinner (evening of June 5) — $40\n- Pre-conference workshop (June 4) — $75\n\nGroups of four or more from the same company receive 15% off Full Conference Passes. Register at northgatemc.com by May 20 to guarantee a printed name badge."
+        "docType": "Order confirmation",
+        "text": "FERROTECH SUPPLY — Order Confirmation #FT-8890\nCustomer: Kestrel Manufacturing\nOrder date: May 3\n\n1. Steel hinges (HG-2) × 500 — $1.20 each — $600\n2. Rubber gaskets (RG-5) × 1,000 — $0.40 each — $400\n3. Brass screws (BS-1) × 2,000 — $0.05 each — $100\nSubtotal — $1,100\nVolume discount (5%) — –$55\nShipping — $45\nTotal — $1,090\n\nDelivery by standard freight, estimated May 12."
       },
       {
         "docType": "E-mail 1",
-        "text": "From: Sylvia Reed, Crestwave Media\nTo: register@northgatemc.com\nSubject: Group registration\nDate: May 12\n\nHello,\n\nI'd like to register four colleagues, including myself, from Crestwave Media for the full conference. I understand our group qualifies for the company discount. Two of us would also like to attend the networking dinner on the first evening.\n\nCould you confirm the total and whether we'll receive printed badges? We're registering well before your deadline.\n\nThank you,\nSylvia Reed"
+        "text": "From: Peter Vance, Kestrel Manufacturing\nTo: orders@ferrotech.com\nDate: May 13\n\nHello,\n\nOrder #FT-8890 arrived today. The hinges and screws are correct, but instead of 1,000 rubber gaskets we received only 600. We need the missing 400 gaskets urgently, as our assembly line will run low by Friday.\n\nCould you ship the shortfall right away? Please also advise how the billing will be handled, since we were charged for the full 1,000.\n\nThank you,\nPeter Vance"
       },
       {
         "docType": "E-mail 2",
-        "text": "From: register@northgatemc.com\nTo: Sylvia Reed\nSubject: RE: Group registration\nDate: May 13\n\nDear Ms. Reed,\n\nThank you for registering four Full Conference Passes. With the 15% group discount applied, the passes come to $884, and the two dinner tickets add $80, for a total of $964. Because you registered before May 20, printed name badges are included for all four attendees.\n\nPlease note the networking dinner has limited seating; your two places are now reserved. Payment instructions are attached.\n\nWe look forward to welcoming your team in June.\n\nNorthgate Marketing Conference"
+        "text": "From: Ferrotech Supply\nTo: Peter Vance\nDate: May 13\n\nDear Mr. Vance,\n\nI apologize for the shortage. The remaining 400 gaskets were shipped this afternoon by express courier at our expense and should reach you tomorrow, well before Friday.\n\nYou were indeed billed for 1,000 gaskets. Because the shortage was our error, we will not charge you for the express shipping. In addition, as a goodwill gesture, we are refunding the cost of the 400 gaskets that were delayed. You will still receive all 1,000, but the refund will be applied to your next invoice.\n\nAgain, we are sorry for the disruption.\n\nRegards,\nFerrotech Supply"
       }
     ],
-    "translation": "【パス案内】ノースゲート・マーケティング会議——6月5〜6日\n\nパスの種類:\n1. 1日券(150ドル)——選んだ1日の全セッションに参加可\n2. 全会期券(260ドル)——両日・全セッション、昼食付き\n3. 学生券(90ドル)——両日(受付で有効な学生証が必要)\n\n任意の追加オプション:\n・ネットワーキングディナー(6月5日夜)——40ドル\n・事前ワークショップ(6月4日)——75ドル\n\n同一企業から4名以上のグループは、全会期券が15%オフ。印刷済みネームバッジを確実に受け取るには、5月20日までに northgatemc.com で登録してください。\n\n【Eメール1】\n差出人:シルヴィア・リード(クレストウェーブ・メディア)\n宛先:register@northgatemc.com\n件名:グループ登録\n日付:5月12日\n\nこんにちは。\n\nクレストウェーブ・メディアから、私を含む4名の同僚を全会期で登録したいです。当グループは企業割引の対象になると理解しています。うち2名は初日の夜のネットワーキングディナーにも参加したいです。\n\n合計金額と、印刷済みバッジを受け取れるかご確認いただけますか? 締切より十分前に登録しています。\n\nよろしくお願いします。\nシルヴィア・リード\n\n【Eメール2】\n差出人:register@northgatemc.com\n宛先:シルヴィア・リード\n件名:RE: グループ登録\n日付:5月13日\n\nリード様\n\n全会期券4枚のご登録ありがとうございます。15%のグループ割引を適用し、パスは884ドル、ディナー券2枚で80ドルが加わり、合計964ドルです。5月20日より前のご登録のため、4名全員に印刷済みネームバッジが含まれます。\n\nネットワーキングディナーは座席数に限りがあります。お二人分の席は確保済みです。お支払い方法は添付します。\n\n6月に皆様のチームをお迎えできるのを楽しみにしています。\n\nノースゲート・マーケティング会議",
+    "translation": "【注文確認】フェロテック・サプライ——注文確認#FT-8890\n顧客:ケストレル製造\n注文日:5月3日\n\n1. スチール蝶番(HG-2)×500——各1.20ドル——600ドル\n2. ゴム製ガスケット(RG-5)×1,000——各0.40ドル——400ドル\n3. 真鍮ネジ(BS-1)×2,000——各0.05ドル——100ドル\n小計——1,100ドル\n数量割引(5%)——−55ドル\n送料——45ドル\n合計——1,090ドル\n\n通常貨物便でのお届け、5月12日着予定。\n\n【Eメール1】(5月13日、ヴァンス→フェロテック)\nこんにちは。注文#FT-8890が本日届きました。蝶番とネジは正しいのですが、ゴム製ガスケットが1,000個のはずが600個しか届いていません。組立ラインが金曜には在庫切れになるので、不足の400個が至急必要です。不足分をすぐ発送していただけますか? また、1,000個分を請求されているので、請求の扱いも教えてください。よろしく、ピーター・ヴァンス。\n\n【Eメール2】(5月13日、フェロテック→ヴァンス)\nヴァンス様、不足のお詫びを申し上げます。残り400個のガスケットは本日午後、当社負担の速達便で発送し、金曜より前の明日には届く見込みです。確かに1,000個分を請求していました。不足は当社のミスのため、速達送料はいただきません。さらにお詫びとして、遅れた400個分の代金を返金します。1,000個はすべてお届けしますが、返金は次回の請求書に反映します。重ねて混乱をお詫びします。フェロテック・サプライ。",
     "questions": [
       {
-        "q": "What is indicated about the Full Conference Pass?",
+        "q": "What is indicated about Order #FT-8890?",
         "choices": [
-          "It includes lunch.",
-          "It requires a student ID.",
-          "It includes the pre-conference workshop.",
-          "It covers only one day."
-        ],
-        "answer": 0,
-        "explanation": "パス案内の Full Conference Pass ... lunch included(昼食付き)が根拠。学生証が必要なのは学生券でひっかけ。"
-      },
-      {
-        "q": "Why does Crestwave Media qualify for a discount?",
-        "choices": [
-          "It is registering four or more attendees.",
-          "It booked the workshop.",
-          "Its staff are students.",
-          "It registered before May 20."
-        ],
-        "answer": 0,
-        "explanation": "クロスリファレンス問題。案内『同一企業4名以上で15%オフ』+メール1『4名を登録したい』を組み合わせる。5月20日前の登録はバッジの条件でひっかけ。"
-      },
-      {
-        "q": "How much do the four passes cost after the discount?",
-        "choices": [
-          "$884",
-          "$1,040",
-          "$780",
-          "$964"
-        ],
-        "answer": 0,
-        "explanation": "計算型。全会期券260ドル×4=1,040ドル、15%オフで1,040×0.85=884ドル。964ドルはディナー込みの総額でひっかけ。"
-      },
-      {
-        "q": "What is indicated about Ms. Reed's group?",
-        "choices": [
-          "They cannot attend the dinner.",
-          "They booked student passes.",
-          "They will attend the workshop.",
-          "They will receive printed badges."
+          "It was paid for in advance.",
+          "It was shipped by air.",
+          "It included an assembly service.",
+          "It qualified for a discount."
         ],
         "answer": 3,
-        "explanation": "クロスリファレンス問題。案内『5月20日までの登録で印刷済みバッジ』+メール1の日付5月12日・メール2『5月20日前なのでバッジ含む』を組み合わせる。"
+        "explanation": "注文確認の Volume discount (5%)(数量割引)が根拠。"
       },
       {
-        "q": "What is NOT stated about the Northgate Marketing Conference?",
+        "q": "What problem does Mr. Vance report?",
         "choices": [
-          "It is held entirely online.",
-          "It offers a pass for students.",
-          "It takes place over two days.",
-          "It provides lunch to full-pass holders."
+          "Fewer items arrived than were ordered.",
+          "An item was damaged in transit.",
+          "An item arrived in the wrong color.",
+          "The whole order arrived late."
         ],
         "answer": 0,
-        "explanation": "NOT問題。会期は2日間、学生券あり、全会期券は昼食付き、はいずれも記載あり。オンライン開催については述べられていない。"
+        "explanation": "instead of 1,000 rubber gaskets we received only 600(1,000個のはずが600個)から、注文数より少なく届いたと分かる。"
+      },
+      {
+        "q": "Which items did Kestrel Manufacturing receive in the correct quantity?",
+        "choices": [
+          "The hinges and screws",
+          "All three items",
+          "The gaskets and screws",
+          "The hinges and gaskets"
+        ],
+        "answer": 0,
+        "explanation": "Eメール1の The hinges and screws are correct(蝶番とネジは正しい)が根拠。不足したのはガスケット。"
+      },
+      {
+        "q": "Why will Ferrotech not charge for the express shipping?",
+        "choices": [
+          "Because the order was very large",
+          "Because the customer is a member",
+          "Because the mistake was the supplier's",
+          "Because shipping is always free"
+        ],
+        "answer": 2,
+        "explanation": "Because the shortage was our error, we will not charge you for the express shipping(不足は当社のミスなので速達送料は請求しない)が根拠。"
+      },
+      {
+        "q": "How much will most likely be refunded to Kestrel Manufacturing?",
+        "choices": [
+          "$160",
+          "$240",
+          "$400",
+          "$55"
+        ],
+        "answer": 0,
+        "explanation": "クロスリファレンス(計算型)。注文確認のガスケット単価0.40ドルと、Eメール2の『遅れた400個分を返金』を組み合わせ、400×0.40=160ドル。"
       }
     ]
   },
   {
     "id": "s4p7-14",
-    "title": "トリプル 2(請求書+Eメール+Eメール)",
+    "title": "トリプル 2(価格表+Eメール+Eメール)",
     "passages": [
       {
-        "docType": "Invoice",
-        "text": "GREENLEAF LANDSCAPING — Invoice #4820\nClient: Ms. Harriet Cole, 14 Oak Crescent\nService date: April 22\n\n1. Lawn mowing and edging — $60\n2. Hedge trimming (3 hedges) — $90\n3. Flower-bed planting (20 plants) — $140\n4. Green-waste removal — $40\nSubtotal — $330\nRegular-client discount (10%) — –$33\nTotal due — $297\n\nPayment due within 14 days. A late payment adds a $15 fee."
+        "docType": "Price list",
+        "text": "VALLEY HARVEST WHOLESALE — Weekly Price List (Week of June 9)\nPrices are per case. Minimum for free delivery: 10 cases.\n\n1. Tomatoes — $18/case\n2. Bell peppers — $22/case\n3. Romaine lettuce — $14/case\n4. Cucumbers — $12/case\n5. Strawberries — $30/case\n\nOrders placed by 4 P.M. are delivered the next morning. Deliveries under 10 cases incur a $20 delivery fee. Prices are held for the full week regardless of market changes."
       },
       {
         "docType": "E-mail 1",
-        "text": "From: Harriet Cole\nTo: accounts@greenleaflandscaping.com\nSubject: Invoice #4820\nDate: April 25\n\nHello,\n\nThank you for the tidy work last week. Looking at the invoice, though, I think there's a mistake: we agreed on planting 20 plants, but only 15 were planted — the crew ran out of the lavender. Could you please correct the charge for the flower-bed planting?\n\nAlso, I'd like to book the same team for monthly maintenance. What would that cost?\n\nBest,\nHarriet Cole"
+        "text": "From: Amara Sène, Birch & Ember Restaurant\nTo: sales@valleyharvest.com\nDate: June 10\n\nHello,\n\nPlease prepare our weekly order:\n- 4 cases of tomatoes\n- 3 cases of bell peppers\n- 3 cases of romaine lettuce\n\nThat comes to 10 cases, so I understand delivery is free. We'd like it tomorrow morning if possible — I'm sending this at 2 P.M. today.\n\nOne question: are your strawberries local this week? If so, please add 2 cases and let me know the new total.\n\nThanks,\nAmara Sène"
       },
       {
         "docType": "E-mail 2",
-        "text": "From: Greenleaf Landscaping\nTo: Harriet Cole\nSubject: RE: Invoice #4820\nDate: April 26\n\nDear Ms. Cole,\n\nYou're quite right, and we apologize. Our planting charge is $7 per plant, so 15 plants should have been billed at $105, not $140. We have issued a corrected invoice reducing that line by $35; your 10% regular-client discount still applies to the new subtotal.\n\nWe'll deliver and plant the remaining five lavender plants free of charge on our next visit.\n\nFor monthly maintenance (mowing, edging, and hedge care), we charge $130 per visit, with the first month free for existing clients. I'll send a separate agreement if you'd like to proceed.\n\nBest regards,\nGreenleaf Landscaping"
+        "text": "From: Valley Harvest Wholesale\nTo: Amara Sène\nDate: June 10\n\nDear Ms. Sène,\n\nThank you for your order. As it arrived before 4 P.M., it will be delivered tomorrow morning.\n\nGood news on the strawberries: yes, they are from Dellwood Farm just outside town this week, so I have added the 2 cases you requested. Your order now totals 12 cases, which keeps your delivery free.\n\nOne note: romaine lettuce sold out this morning. With your approval, I can substitute green-leaf lettuce at the same price, or simply remove it from the order. Please let me know which you prefer.\n\nBest,\nValley Harvest Wholesale"
       }
     ],
-    "translation": "【請求書】グリーンリーフ・ランドスケーピング——請求書 #4820\n顧客:ハリエット・コール様、オーク・クレセント14番地\n作業日:4月22日\n\n1. 芝刈りと縁取り——60ドル\n2. 生け垣の刈り込み(3本)——90ドル\n3. 花壇の植栽(20株)——140ドル\n4. 刈草の処分——40ドル\n小計——330ドル\n常連客割引(10%)——−33ドル\n請求額——297ドル\n\n支払期限は14日以内。支払い遅延には15ドルの手数料が加算されます。\n\n【Eメール1】\n差出人:ハリエット・コール\n宛先:accounts@greenleaflandscaping.com\n件名:請求書 #4820\n日付:4月25日\n\nこんにちは。\n\n先週はきれいに仕上げていただきありがとうございます。ただ、請求書を見ると間違いがあるようです。植栽は20株で合意しましたが、実際は15株しか植えられていません——作業班がラベンダーを切らしてしまって。花壇植栽の料金を訂正していただけますか?\n\nまた、同じチームに月次メンテナンスをお願いしたいのですが、費用はいくらになりますか?\n\nよろしくお願いします。\nハリエット・コール\n\n【Eメール2】\n差出人:グリーンリーフ・ランドスケーピング\n宛先:ハリエット・コール\n件名:RE: 請求書 #4820\n日付:4月26日\n\nコール様\n\nおっしゃる通りで、お詫び申し上げます。当社の植栽料金は1株あたり7ドルですので、15株なら140ドルではなく105ドルで請求すべきでした。当該項目を35ドル減額した訂正請求書を発行しました。10%の常連客割引は新しい小計にも引き続き適用されます。\n\n残りの5株のラベンダーは、次回訪問時に無料でお届けして植えます。\n\n月次メンテナンス(芝刈り・縁取り・生け垣の手入れ)は1回130ドルで、既存のお客様は初月無料です。ご希望でしたら、別途契約書をお送りします。\n\n敬具\nグリーンリーフ・ランドスケーピング",
+    "translation": "【価格表】バレー・ハーベスト卸売——週間価格表(6月9日の週)\n価格はケース単位。無料配送の最低数:10ケース。\n\n1. トマト——1ケース18ドル\n2. ピーマン——1ケース22ドル\n3. ロメインレタス——1ケース14ドル\n4. きゅうり——1ケース12ドル\n5. いちご——1ケース30ドル\n\n午後4時までの注文は翌朝配送。10ケース未満の配送には20ドルの配送料がかかります。価格は市況にかかわらず1週間据え置きます。\n\n【Eメール1】(6月10日、セネ→バレー・ハーベスト)\nこんにちは。週次の注文をお願いします:トマト4ケース、ピーマン3ケース、ロメインレタス3ケース。合計10ケースなので配送は無料と理解しています。可能なら明日の朝に。本日午後2時に送っています。1点質問:今週のいちごは地元産ですか? そうなら2ケース追加して、新しい合計を教えてください。よろしく、アマラ・セネ。\n\n【Eメール2】(6月10日、バレー・ハーベスト→セネ)\nセネ様、ご注文ありがとうございます。午後4時より前に届いたので、明日の朝に配送します。いちごについて朗報です。はい、今週は町外れのデルウッド農園産なので、ご希望の2ケースを追加しました。ご注文は合計12ケースとなり、配送は引き続き無料です。1点、ロメインレタスは今朝売り切れました。ご承認いただければ同価格でグリーンリーフレタスに差し替えるか、注文から外すこともできます。どちらがよいかお知らせください。バレー・ハーベスト卸売。",
     "questions": [
       {
-        "q": "What is NOT listed as a service on the invoice?",
+        "q": "What is indicated about the price list?",
         "choices": [
-          "Green-waste removal",
-          "Hedge trimming",
-          "Lawn mowing",
-          "Tree removal"
+          "Prices exclude sales tax.",
+          "Prices already include a delivery fee.",
+          "Prices are fixed for the week.",
+          "Prices change every day."
         ],
-        "answer": 3,
-        "explanation": "NOT問題。請求書には芝刈り・生け垣の刈り込み・花壇植栽・刈草の処分が並ぶ。樹木の伐採(tree removal)は含まれていない。"
+        "answer": 2,
+        "explanation": "Prices are held for the full week regardless of market changes(市況に関わらず1週間据え置き)が根拠。"
       },
       {
-        "q": "What error does Ms. Cole point out?",
+        "q": "Why does Ms. Sène expect free delivery?",
         "choices": [
-          "She was billed for more plants than were planted.",
-          "The discount was not applied.",
-          "The lawn was not mowed.",
-          "The service date is wrong."
+          "She placed the order early in the day.",
+          "Her order reaches the free-delivery minimum.",
+          "She applied a discount coupon.",
+          "Her restaurant is a regular customer."
+        ],
+        "answer": 1,
+        "explanation": "クロスリファレンス問題。価格表『無料配送は10ケースから』と、メールの『合計10ケースなので無料と理解』を突き合わせる。"
+      },
+      {
+        "q": "If the strawberries are added, what is the total cost of the order?",
+        "choices": [
+          "$260",
+          "$180",
+          "$240",
+          "$300"
+        ],
+        "answer": 2,
+        "explanation": "クロスリファレンス(計算型)。トマト4×18=72、ピーマン3×22=66、レタス3×14=42、いちご2×30=60。合計240ドル。差し替えは同価格、12ケースで配送料もなし。"
+      },
+      {
+        "q": "What problem does Valley Harvest mention?",
+        "choices": [
+          "An item is out of stock.",
+          "A delivery will be delayed.",
+          "Prices have gone up.",
+          "The minimum order was not met."
         ],
         "answer": 0,
-        "explanation": "メール1の『20株で合意したが15株しか植えられていない』が根拠。植えた数より多く請求されている。"
+        "explanation": "romaine lettuce sold out this morning(ロメインレタスが売り切れ)が根拠。在庫切れの品がある。"
       },
       {
-        "q": "What is the corrected charge for the flower-bed planting?",
+        "q": "What is suggested about the strawberries?",
         "choices": [
-          "$140",
-          "$297",
-          "$35",
-          "$105"
+          "They are imported from abroad.",
+          "They are locally grown.",
+          "They are no longer available.",
+          "They cost $20 per case."
         ],
-        "answer": 3,
-        "explanation": "クロスリファレンス問題(計算型)。メール2『1株7ドル』+実際に植えた15株から、15×7=105ドル。"
-      },
-      {
-        "q": "What will Ms. Cole's new total most likely be after the correction?",
-        "choices": [
-          "$265.50",
-          "$264.50",
-          "$297.00",
-          "$262.00"
-        ],
-        "answer": 0,
-        "explanation": "計算型。新小計330−35=295ドル。10%割引で29.50ドル引き、295−29.50=265.50ドル。"
-      },
-      {
-        "q": "What does Greenleaf Landscaping offer for monthly maintenance?",
-        "choices": [
-          "A fixed annual price",
-          "Free plant delivery on every visit",
-          "A 20% discount",
-          "The first month free"
-        ],
-        "answer": 3,
-        "explanation": "with the first month free for existing clients(既存客は初月無料)が根拠。"
+        "answer": 1,
+        "explanation": "they are from Dellwood Farm just outside town(町外れのデルウッド農園産)から、地元産と分かる。メールの『local?』への肯定の返答。"
       }
     ]
   },
   {
     "id": "s4p7-15",
-    "title": "トリプル 3(会員案内+Eメール+Eメール)",
+    "title": "トリプル 3(プラン一覧+Eメール+Eメール)",
     "passages": [
       {
-        "docType": "Web page",
-        "text": "WILLOWBROOK ARTS CENTER — Annual Membership\n\n1. Individual ($60/year) — free entry to all exhibitions, 10% off gift-shop purchases\n2. Family ($100/year) — same as Individual for up to four family members, plus four guest passes\n3. Patron ($250/year) — all Family benefits, plus invitations to preview evenings and a 20% class discount\n\nMembers at all levels may enroll in studio classes. Non-members pay full price; the standard fee for a six-week class is $180.\n\nJoin online at willowbrookarts.org. Membership begins on the day you join and renews automatically unless canceled."
+        "docType": "Information sheet",
+        "text": "KEYSTONE INSURANCE — Small Business Plans (Annual Premiums)\n\n1. Basic — $600/year — property damage up to $50,000\n2. Standard — $960/year — property damage up to $100,000, plus business-interruption cover\n3. Premium — $1,500/year — property damage up to $200,000, business-interruption cover, plus equipment-breakdown cover\n\nAll plans include public-liability cover. Businesses that install an approved alarm system qualify for a 15% discount on the annual premium. Pay annually rather than monthly to avoid a 5% installment surcharge."
       },
       {
         "docType": "E-mail 1",
-        "text": "From: Nathan Poole\nTo: membership@willowbrookarts.org\nSubject: Membership and pottery class\nDate: March 3\n\nHello,\n\nMy partner and I visit your exhibitions often, and our two children enjoy the weekend activities, so a family membership seems right for us. I'd also like to enroll in the six-week evening pottery class.\n\nDoes the class discount apply at the family level, or only at the patron level? And when would our membership start?\n\nThank you,\nNathan Poole"
+        "text": "From: Nils Ostberg, Ostberg Woodworks\nTo: quotes@keystoneinsurance.com\nDate: November 2\n\nHello,\n\nI run a small furniture workshop and am comparing your plans. My main concern is that if a fire or flood shut my workshop for a few weeks, I'd lose income while I recovered. I also rely on several expensive machines that would be costly to repair.\n\nWhich plan covers both of those situations? I have a monitored alarm system installed, and I would pay for the year up front.\n\nThanks,\nNils Ostberg"
       },
       {
         "docType": "E-mail 2",
-        "text": "From: Willowbrook Arts Center\nTo: Nathan Poole\nSubject: RE: Membership and pottery class\nDate: March 4\n\nDear Mr. Poole,\n\nA family membership is a great choice for a household of four. Please note that the 20% class discount is a Patron-level benefit; Family members pay the standard class fee. If you plan to take several classes a year, upgrading to Patron may save you money overall.\n\nFor the pottery class specifically, your membership would begin the day you join, so you'd be enrolled as a member. I've held a place for you in the Tuesday evening group, which still has openings.\n\nWarm regards,\nWillowbrook Arts Center"
+        "text": "From: Keystone Insurance\nTo: Nils Ostberg\nDate: November 3\n\nDear Mr. Ostberg,\n\nBased on your needs — cover for lost income during a closure and for machine repairs — the Premium plan is the right fit, as it is the only plan that includes equipment-breakdown cover.\n\nSince you have a monitored alarm and will pay annually, the 15% alarm discount applies and you avoid the installment surcharge. I have applied the discount to your quote and will e-mail the policy documents once you confirm.\n\nPlease let me know if you would like to proceed.\n\nBest regards,\nKeystone Insurance"
       }
     ],
-    "translation": "【会員案内】ウィローブルック・アートセンター——年間会員\n\n1. 個人(年60ドル)——全展覧会の入場無料、ギフトショップ10%オフ\n2. 家族(年100ドル)——最大4名の家族に個人と同じ特典、さらにゲストパス4枚\n3. パトロン(年250ドル)——家族の全特典に加え、プレビューの夕べへの招待と、講座20%割引\n\nすべての会員レベルでスタジオ講座に申し込めます。非会員は正規料金で、6週間講座の標準料金は180ドルです。\n\nお申し込みは willowbrookarts.org から。会員資格は入会当日から始まり、解約しない限り自動更新されます。\n\n【Eメール1】\n差出人:ネイサン・プール\n宛先:membership@willowbrookarts.org\n件名:会員と陶芸講座について\n日付:3月3日\n\nこんにちは。\n\nパートナーと私はよく展覧会に足を運び、2人の子どもも週末の催しを楽しんでいるので、家族会員が合っていそうです。あわせて、6週間の夜間陶芸講座にも申し込みたいです。\n\n講座割引は家族レベルでも適用されますか、それともパトロンレベルだけですか? また、会員資格はいつから始まりますか?\n\nよろしくお願いします。\nネイサン・プール\n\n【Eメール2】\n差出人:ウィローブルック・アートセンター\n宛先:ネイサン・プール\n件名:RE: 会員と陶芸講座について\n日付:3月4日\n\nプール様\n\n4人家族には家族会員が最適です。20%の講座割引はパトロンレベルの特典で、家族会員は標準料金となる点にご留意ください。年に複数の講座を受講される予定なら、パトロンへの格上げが全体として割安になるかもしれません。\n\n陶芸講座については、会員資格は入会当日から始まるので、会員として受講いただけます。火曜夜のグループにお席を1つ確保しました。まだ空きがあります。\n\n心を込めて\nウィローブルック・アートセンター",
+    "translation": "【プラン一覧】キーストーン保険——小規模事業者向けプラン(年間保険料)\n\n1. ベーシック——年600ドル——物損補償5万ドルまで\n2. スタンダード——年960ドル——物損補償10万ドルまで、加えて事業中断補償\n3. プレミアム——年1,500ドル——物損補償20万ドルまで、事業中断補償、加えて設備故障補償\n\n全プランに賠償責任補償が含まれます。承認済みの警報システムを設置した事業者は、年間保険料が15%割引になります。月払いでなく年払いにすると5%の分割割増を回避できます。\n\n【Eメール1】(11月2日、オストベリ→キーストーン)\nこんにちは。小さな家具工房を営んでおり、プランを比較しています。一番の心配は、火事や洪水で工房が数週間閉まった場合、復旧の間に収入を失うことです。また、修理費のかさむ高価な機械を何台も使っています。両方に対応するのはどのプランですか? 監視付きの警報システムを設置しており、年払いにするつもりです。よろしく、ニルス・オストベリ。\n\n【Eメール2】(11月3日、キーストーン→オストベリ)\nオストベリ様、ご要望——閉鎖中の逸失収入と機械修理の補償——を踏まえると、プレミアムプランが最適です。設備故障補償を含むのはこのプランだけだからです。監視付き警報があり年払いなさるので、15%の警報割引が適用され、分割割増も回避できます。お見積りに割引を反映しました。ご確認いただき次第、証券書類をメールします。お進めになるかお知らせください。キーストーン保険。",
     "questions": [
       {
-        "q": "What benefit is offered only at the Patron level?",
+        "q": "What do all of the plans include?",
         "choices": [
-          "A gift-shop discount",
-          "Free entry to exhibitions",
-          "Invitations to preview evenings",
-          "Guest passes"
-        ],
-        "answer": 2,
-        "explanation": "会員案内で invitations to preview evenings はパトロンの特典として挙げられている。展覧会入場無料とギフトショップ割引は個人から、ゲストパスは家族から付くのでひっかけ。"
-      },
-      {
-        "q": "What does the center suggest Mr. Poole consider?",
-        "choices": [
-          "Upgrading to the Patron level",
-          "Joining as an individual",
-          "Taking a weekend class",
-          "Waiting until next year"
+          "Public-liability cover",
+          "A free alarm system",
+          "Business-interruption cover",
+          "Equipment-breakdown cover"
         ],
         "answer": 0,
-        "explanation": "クロスリファレンス問題。メール2の『年に複数講座を受けるならパトロンへの格上げが割安かも』が根拠。"
+        "explanation": "All plans include public-liability cover(全プランに賠償責任補償)が根拠。設備故障や事業中断は上位プランのみ。"
       },
       {
-        "q": "What does the reply indicate about the class discount?",
+        "q": "Which plan will Mr. Ostberg most likely choose?",
         "choices": [
-          "It is only for children.",
-          "It does not apply at the Family level.",
-          "It requires taking four classes.",
-          "It applies to all members."
+          "Basic",
+          "Premium",
+          "Standard",
+          "None of them"
         ],
         "answer": 1,
-        "explanation": "クロスリファレンス問題。メール1の質問に対し、メール2『20%割引はパトロン特典、家族会員は標準料金』と答えている。"
+        "explanation": "クロスリファレンス問題。メールの『逸失収入と機械修理の両方』という要望と、一覧の『設備故障補償を含むのはプレミアムのみ』を突き合わせると、プレミアムが該当。"
       },
       {
-        "q": "If Mr. Poole joins at the Family level and takes one six-week class, how much will he pay in total?",
+        "q": "How much will Mr. Ostberg most likely pay for the year?",
         "choices": [
-          "$180",
-          "$394",
-          "$280",
-          "$244"
+          "$1,425",
+          "$1,350",
+          "$1,275",
+          "$1,500"
         ],
         "answer": 2,
-        "explanation": "計算型。家族会員100ドル+講座は家族レベルでは割引なしの標準料金180ドル。合計100+180=280ドル。"
+        "explanation": "クロスリファレンス(計算型)。プレミアム1,500ドルに、警報割引15%を適用=1,500×0.85=1,275ドル。年払いなので分割割増はかからない。"
       },
       {
-        "q": "In the second e-mail, the word \"held\" is closest in meaning to",
+        "q": "What is one reason Mr. Ostberg avoids an extra charge?",
         "choices": [
-          "delayed",
-          "reserved",
-          "carried",
-          "owned"
+          "He chose the cheapest plan.",
+          "He is a returning customer.",
+          "He runs his business from home.",
+          "He will pay for the full year at once."
+        ],
+        "answer": 3,
+        "explanation": "Pay annually ... to avoid a 5% installment surcharge(年払いで分割割増を回避)と、メールの『年払いにする』を組み合わせる。"
+      },
+      {
+        "q": "What does Keystone Insurance ask Mr. Ostberg to do?",
+        "choices": [
+          "Visit the office in person",
+          "Confirm before receiving the documents",
+          "Switch to monthly payments",
+          "Install an alarm system"
         ],
         "answer": 1,
-        "explanation": "語彙問題。I've held a place for you(お席を確保しました)の held は reserved(予約・確保した)の意味。"
+        "explanation": "will e-mail the policy documents once you confirm ... let me know if you would like to proceed(確認・承諾の返信を求めている)が根拠。警報はすでに設置済みなので(A)は誤り。"
       }
     ]
   }
