@@ -7,6 +7,7 @@
   var LETTERS = ["A", "B", "C", "D"];
   var STORAGE_KEY = "toeic_test_stats_v1";
   var SET_PREF_KEY = "toeic_active_set_v1";
+  var audioMode = null; // 録音済み音声の有無(null=未確認 / true=あり / false=なし→合成音声)
 
   /* ---------------- 問題セット ---------------- */
   // 同レベルの問題を複数セット用意し、ホームで切り替えられる。
@@ -332,9 +333,41 @@
       next();
     },
 
+    // 録音済み音声ファイル(mp3)を順番に再生する。
+    // ファイルが読み込めない場合(未生成など)は onError を呼ぶ(合成音声へフォールバック)。
+    playFiles: function (urls, onEnd, onError) {
+      this.stop();
+      var self = this;
+      var token = ++this.token;
+      var audios = urls.map(function (u) { var a = new Audio(u); a.preload = "auto"; return a; });
+      this._audios = audios;
+      var failed = false;
+      function fail() {
+        if (failed || token !== self.token) return;
+        failed = true;
+        self.stop();
+        if (onError) onError();
+      }
+      audios.forEach(function (a) { a.addEventListener("error", fail); });
+      var i = 0;
+      function next() {
+        if (token !== self.token || failed) return;
+        if (i >= audios.length) { if (onEnd) onEnd(); return; }
+        var a = audios[i++];
+        a.onended = function () { if (token === self.token) setTimeout(next, 400); };
+        var p = a.play();
+        if (p && p.catch) p.catch(fail);
+      }
+      next();
+    },
+
     stop: function () {
       this.token += 1;
       if (this.keepAlive) { clearInterval(this.keepAlive); this.keepAlive = null; }
+      if (this._audios) {
+        this._audios.forEach(function (a) { try { a.pause(); a.src = ""; } catch (e) { /* ignore */ } });
+        this._audios = null;
+      }
       if (this.supported) window.speechSynthesis.cancel();
     }
   };
@@ -359,7 +392,7 @@
         translation: it.translation,
         questions: [{
           id: it.id,
-          prompt: "写真を最もよく描写している文を選んでください。",
+          prompt: "",
           choices: it.choices,
           answer: it.answer,
           explanation: it.explanation
@@ -374,6 +407,7 @@
         part: "Part 2",
         listening: true,
         hideChoices: true,
+        id: it.id,
         audio: [{ speaker: it.question.speaker, text: it.question.text }].concat(
           it.choices.map(function (c, i) {
             return { speaker: it.question.speaker === "W" ? "M" : "W", text: LETTERS[i] + ". " + c };
@@ -383,7 +417,7 @@
         translation: it.translation,
         questions: [{
           id: it.id,
-          prompt: "音声を聞いて、最も適切な応答を選んでください。",
+          prompt: "",
           choices: it.choices,
           answer: it.answer,
           explanation: it.explanation
@@ -397,6 +431,7 @@
       return {
         part: partLabel,
         listening: true,
+        id: set.id,
         title: set.title,
         // 図表問題:graphic があれば画面に表示する(本番の Look at the graphic. 形式)
         docType: set.graphic ? "Graphic(図表)" : undefined,
@@ -814,8 +849,11 @@
     // 設問
     t.questions.forEach(function (q, qi) {
       html += '<div class="q-block" data-qi="' + qi + '">' +
-        '<p class="q-text"><span class="q-number">Q' + (answeredBefore + qi + 1) + ".</span>" +
-        esc(q.prompt) + "</p>" +
+        // 設問文がある場合のみ表示(Part 1/2 はリスニングのみで設問文なし)
+        (q.prompt
+          ? '<p class="q-text"><span class="q-number">Q' + (answeredBefore + qi + 1) + ".</span>" +
+            esc(q.prompt) + "</p>"
+          : "") +
         '<div class="choices">';
       q.choices.forEach(function (c, ci) {
         var label = t.hideChoices ? "(音声)" : c;
@@ -854,9 +892,9 @@
       // 本番同様、ナレーターの導入文を付けて再生する
       var intro;
       if (t.part === "Part 1") {
-        intro = "Number " + (answeredBefore + 1) + ". Look at the picture.";
+        intro = "Look at the picture marked number " + (answeredBefore + 1) + " in your test book.";
       } else if (t.part === "Part 2") {
-        intro = "Number " + (answeredBefore + 1) + ".";
+        intro = "";
       } else {
         var three = t.audio.some(function (l) { return l.speaker === "W2" || l.speaker === "M2"; });
         intro = "Questions " + (answeredBefore + 1) +
@@ -864,17 +902,33 @@
           " refer to the following " +
           (t.part === "Part 3" ? "conversation" + (three ? " with three speakers" : "") : "talk") + ".";
       }
-      var audioLines = [{ speaker: "N", text: intro }].concat(t.audio);
+      var audioLines = (intro ? [{ speaker: "N", text: intro }] : []).concat(t.audio);
+
+      // 録音済み音声ファイルがあれば優先(無ければ端末の合成音声)
+      var audioKey = SETS[activeSetIdx].id + ":" + t.id;
+      var audioFiles = (window.TOEIC_AUDIO_MANIFEST && t.id) ? window.TOEIC_AUDIO_MANIFEST[audioKey] : null;
 
       var playBtn = document.getElementById("play");
       playBtn.addEventListener("click", function () {
         playBtn.disabled = true;
         playBtn.textContent = "再生中…";
-        // 問題番号を seed にして、問題ごとに違う声の組を割り当てる
-        speech.speakLines(audioLines, function () {
+        function done() {
           playBtn.disabled = false;
           playBtn.textContent = "▶ もう一度再生";
-        }, answeredBefore);
+        }
+        function synth() {
+          // 問題番号を seed にして、問題ごとに違う声の組を割り当てる
+          speech.speakLines(audioLines, done, answeredBefore);
+        }
+        // audioMode: null=未確認 / true=録音あり / false=録音なし
+        if (audioFiles && audioFiles.length && audioMode !== false) {
+          speech.playFiles(audioFiles, function () { audioMode = true; done(); }, function () {
+            audioMode = false; // 以後は合成音声のみ試す
+            synth();
+          });
+        } else {
+          synth();
+        }
       });
       document.getElementById("stopAudio").addEventListener("click", function () {
         speech.stop();

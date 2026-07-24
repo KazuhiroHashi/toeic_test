@@ -35,6 +35,16 @@ TOEIC L&R 形式のオリジナル問題を、ブラウザだけで練習でき�
 
 全問題に日本語の解説と全訳付き。
 
+### 録音音声の生成(edge-tts)
+
+リスニング音声は録音ファイル(mp3)を同梱でき、あれば全端末で同じ声(米・英・豪・加のニューラル音声9声)で再生される。生成は Mac で:
+
+1. `pip3 install edge-tts`
+2. リポジトリのルートで `python3 tools/generate_audio.py`(既存ファイルはスキップ。失敗時は再実行で続きから)
+3. `git add assets/audio && git commit && git push`
+
+問題を追加・変更したら `node tools/build_audio_manifest.js` で一覧を作り直してから再生成する。録音が無い問題は自動的にブラウザの音声合成へフォールバックする。
+
 ### 音声(リスニング)の仕組み
 
 ブラウザの音声合成(Web Speech API)で読み上げます。

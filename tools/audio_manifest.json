@@ -1,0 +1,1117 @@
+[
+  {
+    "file": "assets/audio/s1/p1-01/0.mp3",
+    "text": "Look at the picture marked number 1 in your test book.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-01/1.mp3",
+    "text": "A. A man is sweeping a walkway.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-01/2.mp3",
+    "text": "B. A man is putting on his jacket.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-01/3.mp3",
+    "text": "C. A woman is sitting on a bench.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-01/4.mp3",
+    "text": "D. A man is planting a tree.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-02/0.mp3",
+    "text": "Look at the picture marked number 2 in your test book.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-02/1.mp3",
+    "text": "A. She is wiping down a window.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-02/2.mp3",
+    "text": "B. She is placing a glass on a table.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-02/3.mp3",
+    "text": "C. Customers are being seated.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-02/4.mp3",
+    "text": "D. She is hanging a picture on the wall.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-03/0.mp3",
+    "text": "Look at the picture marked number 3 in your test book.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-03/1.mp3",
+    "text": "A. He is weighing some vegetables.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-03/2.mp3",
+    "text": "B. He is pushing a shopping cart.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-03/3.mp3",
+    "text": "C. He is arranging fruit in a display.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-03/4.mp3",
+    "text": "D. He is paying at the register.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-04/0.mp3",
+    "text": "Look at the picture marked number 4 in your test book.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-04/1.mp3",
+    "text": "A. He is loading boxes onto a truck.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-04/2.mp3",
+    "text": "B. He is operating a forklift.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-04/3.mp3",
+    "text": "C. He is sealing a cardboard box.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-04/4.mp3",
+    "text": "D. He is placing a box on a shelf.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-05/0.mp3",
+    "text": "Look at the picture marked number 5 in your test book.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-05/1.mp3",
+    "text": "A. A man is waiting on a platform.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-05/2.mp3",
+    "text": "B. A man is boarding a train.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-05/3.mp3",
+    "text": "C. A man is climbing the stairs.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-05/4.mp3",
+    "text": "D. Passengers are getting off the train.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-06/0.mp3",
+    "text": "Look at the picture marked number 6 in your test book.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-06/1.mp3",
+    "text": "A. He is writing on the whiteboard.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-06/2.mp3",
+    "text": "B. He is typing on a laptop.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-06/3.mp3",
+    "text": "C. He is setting a stack of papers on a table.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p1-06/4.mp3",
+    "text": "D. He is pouring coffee into a cup.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-01/0.mp3",
+    "text": "Where is the marketing report I asked for?",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-01/1.mp3",
+    "text": "A. It's on your desk, next to the phone.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-01/2.mp3",
+    "text": "B. Yes, the market opens at nine.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-01/3.mp3",
+    "text": "C. She reported it yesterday.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-02/0.mp3",
+    "text": "When does the workshop start?",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-02/1.mp3",
+    "text": "A. In the main conference room.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-02/2.mp3",
+    "text": "B. At ten thirty, right after the break.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-02/3.mp3",
+    "text": "C. It lasted two hours.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-03/0.mp3",
+    "text": "Who's going to lead the new project?",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-03/1.mp3",
+    "text": "A. It starts next Monday.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-03/2.mp3",
+    "text": "B. A new client in Osaka.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-03/3.mp3",
+    "text": "C. Ms. Tanaka from the sales team.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-04/0.mp3",
+    "text": "Have you finished reviewing the contract?",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-04/1.mp3",
+    "text": "A. Not yet, I'll be done by noon.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-04/2.mp3",
+    "text": "B. Sure, I'd love another view.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-04/3.mp3",
+    "text": "C. The contractor is here.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-05/0.mp3",
+    "text": "Would you like to attend the seminar online or in person?",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-05/1.mp3",
+    "text": "A. Yes, I would.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-05/2.mp3",
+    "text": "B. Online works better for me.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-05/3.mp3",
+    "text": "C. About fifty attendees.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-06/0.mp3",
+    "text": "Why was the flight to Chicago delayed?",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-06/1.mp3",
+    "text": "A. Because of the heavy snow.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-06/2.mp3",
+    "text": "B. At gate twenty-two.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-06/3.mp3",
+    "text": "C. For about three days.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-07/0.mp3",
+    "text": "How often do you back up the customer database?",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-07/1.mp3",
+    "text": "A. It's backed by the IT team.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-07/2.mp3",
+    "text": "B. Every night at eleven.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-07/3.mp3",
+    "text": "C. About two hundred customers.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-08/0.mp3",
+    "text": "The printer on the third floor isn't working again.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-08/1.mp3",
+    "text": "A. I'll print it in color.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-08/2.mp3",
+    "text": "B. Yes, he works on the third floor.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-08/3.mp3",
+    "text": "C. I'll call the repair service right away.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-09/0.mp3",
+    "text": "Could you send me the agenda before the meeting?",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-09/1.mp3",
+    "text": "A. Sure, I'll e-mail it to you this afternoon.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-09/2.mp3",
+    "text": "B. The meeting room was crowded.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-09/3.mp3",
+    "text": "C. No, I haven't met her before.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-10/0.mp3",
+    "text": "You've met the new director, haven't you?",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-10/1.mp3",
+    "text": "A. In the director's office.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-10/2.mp3",
+    "text": "B. Yes, at last week's orientation.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-10/3.mp3",
+    "text": "C. He'll direct the next film.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-11/0.mp3",
+    "text": "Which vendor did we choose for the office supplies?",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-11/1.mp3",
+    "text": "A. The one with the fastest delivery.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-11/2.mp3",
+    "text": "B. Yes, we need more paper.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-11/3.mp3",
+    "text": "C. It's a surprise party.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-12/0.mp3",
+    "text": "Do you know where I can find the expense report form?",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-12/1.mp3",
+    "text": "A. It was very expensive.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-12/2.mp3",
+    "text": "B. Check the shared drive under 'Finance'.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-12/3.mp3",
+    "text": "C. He found it interesting.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-13/0.mp3",
+    "text": "Why don't we take a short break before the next session?",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-13/1.mp3",
+    "text": "A. Because the brake didn't work.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-13/2.mp3",
+    "text": "B. Good idea. I could use some coffee.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-13/3.mp3",
+    "text": "C. It won't break easily.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-14/0.mp3",
+    "text": "How much will it cost to ship these samples overseas?",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-14/1.mp3",
+    "text": "A. By express mail.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-14/2.mp3",
+    "text": "B. Around eighty dollars, I believe.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-14/3.mp3",
+    "text": "C. The ship leaves at noon.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-15/0.mp3",
+    "text": "Who approved the budget increase for next quarter?",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-15/1.mp3",
+    "text": "A. I wasn't at that meeting, actually.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-15/2.mp3",
+    "text": "B. About ten percent.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-15/3.mp3",
+    "text": "C. Next to the bank.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-16/0.mp3",
+    "text": "Where should we hold the year-end reception?",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-16/1.mp3",
+    "text": "A. At the end of December.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-16/2.mp3",
+    "text": "B. Didn't Marketing already book the rooftop hall?",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-16/3.mp3",
+    "text": "C. Yes, I received the invitation.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-17/0.mp3",
+    "text": "When is the deadline for the grant application?",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-17/1.mp3",
+    "text": "A. The application fee is forty dollars.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-17/2.mp3",
+    "text": "B. Yes, by express mail.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-17/3.mp3",
+    "text": "C. Dr. Okada's assistant would know.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-18/0.mp3",
+    "text": "Has the client approved the final design?",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-18/1.mp3",
+    "text": "A. We're meeting them tomorrow morning.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-18/2.mp3",
+    "text": "B. I designed the logo myself.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-18/3.mp3",
+    "text": "C. No, the sign was removed.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-19/0.mp3",
+    "text": "Why is the parking garage closed today?",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-19/1.mp3",
+    "text": "A. It usually closes at midnight.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-19/2.mp3",
+    "text": "B. There's a notice posted by the entrance.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-19/3.mp3",
+    "text": "C. Yes, I'll close the window.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-20/0.mp3",
+    "text": "Should we take the highway or the local roads to the conference center?",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-20/1.mp3",
+    "text": "A. The conference starts at ten.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-20/2.mp3",
+    "text": "B. The traffic report says the highway is backed up.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-20/3.mp3",
+    "text": "C. Yes, let's take it.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-21/0.mp3",
+    "text": "Who's going to train the new hires next month?",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-21/1.mp3",
+    "text": "A. About ten new employees.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-21/2.mp3",
+    "text": "B. By train, I think.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-21/3.mp3",
+    "text": "C. Actually, the orientation might be pushed back to September.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-22/0.mp3",
+    "text": "How much did we spend on advertising last quarter?",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-22/1.mp3",
+    "text": "A. The finance report isn't ready yet.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-22/2.mp3",
+    "text": "B. Mostly in online newspapers.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-22/3.mp3",
+    "text": "C. Yes, it was quite expensive.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-23/0.mp3",
+    "text": "Would you mind reviewing my presentation slides this afternoon?",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-23/1.mp3",
+    "text": "A. The slides are all in color.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-23/2.mp3",
+    "text": "B. I'm about to leave for a client visit.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-23/3.mp3",
+    "text": "C. Yes, the reviews were positive.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-24/0.mp3",
+    "text": "Is there a pharmacy near the hotel?",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-24/1.mp3",
+    "text": "A. Yes, take two tablets daily.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-24/2.mp3",
+    "text": "B. No, I'm feeling much better now.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-24/3.mp3",
+    "text": "C. The front desk should have a map.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-25/0.mp3",
+    "text": "The quarterly sales figures look strong, don't they?",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-25/1.mp3",
+    "text": "A. December's numbers aren't included yet, though.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-25/2.mp3",
+    "text": "B. Yes, he exercises every day.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-25/3.mp3",
+    "text": "C. In the sales department.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-01/0.mp3",
+    "text": "Questions refer to the following conversation.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-01/1.mp3",
+    "text": "Hi, Emily. I heard the client moved our presentation up to Thursday morning. Do you think the slides will be ready in time?",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-01/2.mp3",
+    "text": "The sales figures are done, but I'm still waiting for the product photos from the design team. They said tomorrow at the earliest.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-01/3.mp3",
+    "text": "That's cutting it close. Why don't I call Mark in design and ask him to prioritize our request?",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-01/4.mp3",
+    "text": "That would help a lot. In the meantime, I'll finish the summary section so we can review the whole deck tomorrow afternoon.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-02/0.mp3",
+    "text": "Questions refer to the following conversation.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-02/1.mp3",
+    "text": "Welcome to Grandview Hotel. How may I help you?",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-02/2.mp3",
+    "text": "Hi, I have a reservation under Sato. I know check-in starts at three, but my flight arrived early. Is there any chance my room is ready?",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-02/3.mp3",
+    "text": "Let me check... I'm afraid housekeeping is still working on it. But you're welcome to leave your luggage here, and our café on the second floor is open if you'd like to wait.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-02/4.mp3",
+    "text": "That sounds good. Could you call me at the café when the room is ready? Here's my mobile number.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-03/0.mp3",
+    "text": "Questions refer to the following conversation.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-03/1.mp3",
+    "text": "Rachel, the registration numbers for our online training course are lower than we expected. We've only got forty sign-ups so far.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-03/2.mp3",
+    "text": "Hmm, that's about half of our target. Maybe the course fee is too high compared to similar programs.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-03/3.mp3",
+    "text": "Actually, our price is pretty standard. I think the problem is visibility — we've only promoted it in our newsletter.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-03/4.mp3",
+    "text": "Good point. Let's run some ads on social media this week. I'll draft a proposal for the budget and send it to you by tomorrow.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-04/0.mp3",
+    "text": "Questions refer to the following conversation.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-04/1.mp3",
+    "text": "Hi, this is Karen from Beacon Office Interiors. I'm calling about the standing desks you ordered. The gray model is out of stock until the end of the month.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-04/2.mp3",
+    "text": "Oh no, we're moving into our new office next week. Is there anything similar you could deliver sooner?",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-04/3.mp3",
+    "text": "We have the same model in white, available for delivery this Friday. It's actually ten percent cheaper, too.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-04/4.mp3",
+    "text": "White would work fine. Please go ahead and change the order — and could you send me a revised invoice today?",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-05/0.mp3",
+    "text": "Questions refer to the following conversation with three speakers.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-05/1.mp3",
+    "text": "Jack, Olivia — do you have a minute? The caterer for Friday's client reception just called. They can't get the seafood platters we ordered.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-05/2.mp3",
+    "text": "That's not good news, Emma. The reception starts at six, and we're expecting more than thirty guests.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-05/3.mp3",
+    "text": "What if we switch to their international buffet option instead? I tried it at the trade show last month, and it was excellent.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-05/4.mp3",
+    "text": "Good idea. Is it within our budget, though? We can't go over two thousand dollars.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-05/5.mp3",
+    "text": "I'll call the caterer right now and ask for a revised quote. If it's too expensive, we could drop the dessert course.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-05/6.mp3",
+    "text": "And I'll update the invitation e-mail so the guests know about the menu change.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-06/0.mp3",
+    "text": "Questions refer to the following conversation.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-06/1.mp3",
+    "text": "Hi, this is Yuki Sato from Crestline Accounting. Our copier on the second floor keeps jamming — this is the third time this week.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-06/2.mp3",
+    "text": "Sorry to hear that. It might be a worn roller. Could you tell me the model number? It's on a sticker on the back of the machine.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-06/3.mp3",
+    "text": "Let me see... It's a TX-450.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-06/4.mp3",
+    "text": "Thanks. I have the parts for that model in stock, so I can come by tomorrow morning between nine and eleven, if that works.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-06/5.mp3",
+    "text": "That's fine. I'll let the front desk know you're coming.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-07/0.mp3",
+    "text": "Questions refer to the following conversation with three speakers.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-07/1.mp3",
+    "text": "Ken, Daniel — quick update on this weekend. The movers will arrive on Saturday at eight, so everything needs to be packed by Friday evening.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-07/2.mp3",
+    "text": "We're almost done with the file cabinets. What about the computers?",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-07/3.mp3",
+    "text": "The IT team will handle those. I just need you two to label your boxes with your names and new desk numbers.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-07/4.mp3",
+    "text": "The labels ran out this morning, though. Should I pick some up from the supply store at lunch?",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-07/5.mp3",
+    "text": "Yes, please do, Daniel. Keep the receipt and I'll reimburse you this afternoon.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-07/6.mp3",
+    "text": "And I'll e-mail everyone a reminder about the Friday deadline.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-08/0.mp3",
+    "text": "Questions refer to the following conversation.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-08/1.mp3",
+    "text": "Hannah, I'm booking a room for Thursday's project review. Twelve people have signed up so far.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-08/2.mp3",
+    "text": "Don't forget the two engineers from the Osaka office — they're joining remotely, so we'll need the video conference system.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-08/3.mp3",
+    "text": "Good point. That narrows it down to one room, then. I'll reserve it for two o'clock.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-08/4.mp3",
+    "text": "Better make it two thirty. The sales team has that room until quarter past two.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-09/0.mp3",
+    "text": "Questions refer to the following conversation.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-09/1.mp3",
+    "text": "Marcus, could you help me put together the handouts for Friday's client workshop? I still have thirty pages of slides to finish.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-09/2.mp3",
+    "text": "It's already Wednesday, Aya.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-09/3.mp3",
+    "text": "I know, I know. The client changed the topic on Monday, so I had to start over.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-09/4.mp3",
+    "text": "All right. Send me the draft tonight, and I'll format the handouts tomorrow while you finish the slides.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-09/5.mp3",
+    "text": "Thank you! I'll buy you lunch after the workshop.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-10/0.mp3",
+    "text": "Questions refer to the following conversation.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-10/1.mp3",
+    "text": "Hi, I'd like to return this jacket. I bought it here last weekend, but it's too small.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-10/2.mp3",
+    "text": "Do you have the receipt with you?",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-10/3.mp3",
+    "text": "Actually, no. I think I left it at home, and I paid in cash, so it's not on my card statement either.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-10/4.mp3",
+    "text": "In that case, I can't give you a cash refund, but I can offer you store credit for the current price, or you could exchange it for a larger size.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-10/5.mp3",
+    "text": "A larger size would be perfect, if you have one.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-10/6.mp3",
+    "text": "Let me check our stock. If we don't have it here, I can have one sent from our Riverside branch by Thursday.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-11/0.mp3",
+    "text": "Questions refer to the following conversation.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-11/1.mp3",
+    "text": "Hello, I'm calling about my reservation on flight two-oh-seven to Denver this Friday. I'd like to move to an earlier flight on the same day, if possible.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-11/2.mp3",
+    "text": "Let me check... We have seats available on the ten-fifteen departure. Normally there's a thirty-dollar change fee, but I see you're a Sky Club member, so the fee will be waived.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-11/3.mp3",
+    "text": "That's great. Could I also get an aisle seat?",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-11/4.mp3",
+    "text": "Certainly — seat fourteen C. You'll receive an updated itinerary by e-mail within the hour.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-12/0.mp3",
+    "text": "Questions refer to the following conversation.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-12/1.mp3",
+    "text": "Hello, this is Robert Lin. I just received invoice eighty-eight forty-one, and there seems to be a mistake. I ordered only one desk lamp, but I was charged for two.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-12/2.mp3",
+    "text": "I'm very sorry about that, Mr. Lin. Let me pull up your order... You're right. I'll refund the difference to your card today.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-12/3.mp3",
+    "text": "Thank you. Also, could you send me a corrected invoice for our records?",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-12/4.mp3",
+    "text": "Of course. I'll e-mail it within the hour, and the refund should appear on your statement in three to five business days.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-13/0.mp3",
+    "text": "Questions refer to the following conversation.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-13/1.mp3",
+    "text": "Hi, Tom. I just started in the marketing department on Monday. Could you tell me how to get a parking permit for the staff garage?",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-13/2.mp3",
+    "text": "Sure. You apply through the facilities page on the intranet — it usually takes about a week to process.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-13/3.mp3",
+    "text": "A week? I drove here today. Is there anything I can do in the meantime?",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-13/4.mp3",
+    "text": "Ask the security desk in the lobby for a temporary pass. They can issue one on the spot — just show your employee ID.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-01/0.mp3",
+    "text": "Questions refer to the following talk.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-01/1.mp3",
+    "text": "Hello, this message is for Mr. Nakamura. This is Lisa from Downtown Dental Clinic. I'm calling to remind you of your appointment tomorrow at two P.M. Please note that our clinic has moved to a new location on Fifth Avenue, just across from the central library. Parking is available behind the building. If you need to reschedule, please call us back before six o'clock today. Thank you, and we look forward to seeing you.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-02/0.mp3",
+    "text": "Questions refer to the following talk.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-02/1.mp3",
+    "text": "Attention, all staff. As you know, we'll be switching to the new expense management system on August first. To help everyone get familiar with it, the IT department will hold three training sessions next week — Tuesday, Wednesday, and Thursday, all at four P.M. in Meeting Room B. Each session covers the same content, so you only need to attend one. Please sign up on the company intranet by this Friday. If you can't make any of the sessions, a recorded version will be posted on the intranet afterward.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-03/0.mp3",
+    "text": "Questions refer to the following talk.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-03/1.mp3",
+    "text": "Are you tired of spending your weekends cleaning? Let Sparkle Home Services take care of it! Our trained staff will clean your entire home using only environmentally friendly products. And now, for the month of October only, first-time customers receive twenty percent off any cleaning package. Booking is easy — just visit sparklehome dot com and choose a time that works for you. Slots fill up quickly, so don't wait. Sparkle Home Services — because your weekend belongs to you.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-04/0.mp3",
+    "text": "Questions refer to the following talk.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-04/1.mp3",
+    "text": "Before we wrap up, let me share some good news. Our customer satisfaction survey results came in yesterday, and our overall score improved from three point eight to four point three out of five. The biggest jump was in delivery speed, thanks to the new distribution center we opened in March. However, the survey also showed that customers find our return process complicated. So next quarter, our top priority will be simplifying returns. Maria will lead that project, and she'll present a detailed plan at our meeting next month.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-05/0.mp3",
+    "text": "Questions refer to the following talk.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-05/1.mp3",
+    "text": "Attention, passengers on Flight three ten to Chicago. Due to maintenance work near the boarding area, your departure gate has been changed. Please proceed to Gate twenty-six, located next to the food court. Boarding will begin as scheduled at four forty-five. Also, please note that this flight is now expected to arrive in Chicago about twenty minutes ahead of schedule, thanks to favorable winds. We apologize for the inconvenience and thank you for your patience.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-06/0.mp3",
+    "text": "Questions refer to the following talk.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-06/1.mp3",
+    "text": "Good morning, everyone, and welcome to the Harlow Museum of Modern Art. Before we begin, a few reminders. Photography is allowed in most galleries, but please turn off your flash — it can damage the artwork over time. We'll start our tour in the east wing, where the new glass sculpture exhibit opened just last week, and we'll finish in the main hall around noon. After the tour, don't forget to stop by the gift shop. Show your tour ticket at the register, and you'll receive fifteen percent off any purchase. Now, if you'll follow me, let's get started.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-07/0.mp3",
+    "text": "Questions refer to the following talk.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-07/1.mp3",
+    "text": "Hello, this message is for Kevin Brooks. This is Amanda Reyes calling from Northgate Publishing about the graphic designer position you applied for. We were impressed with your application, and we'd like to invite you for an interview next Tuesday, July eighth, at ten A.M. at our downtown office. Please bring a portfolio of your recent work and a list of two professional references. Also, could you call me back by Wednesday to confirm the time? My direct number is five five five, two nine eight four. I look forward to meeting you.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-08/0.mp3",
+    "text": "Questions refer to the following talk.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-08/1.mp3",
+    "text": "Good morning, this is Dave Carter with your seven-o'clock traffic update on Radio Eighty-Eight. If you're heading downtown this morning, expect delays on the Harbor Bridge — the left lane is closed for repair work through the end of the week. City officials recommend taking the Route Nine tunnel instead, which is moving smoothly right now. Also, a reminder that the summer music festival kicks off in Redwood Park this evening at six. Streets around the park will be closed to traffic from four P.M. So plan to use public transportation if you're attending. I'll be back with another update at seven thirty.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-09/0.mp3",
+    "text": "Questions refer to the following talk.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-09/1.mp3",
+    "text": "Before we get started, one change to today's agenda. Devon, who's been leading the Web site redesign, is out sick today, so we'll postpone that discussion until he's back next week. Everything else stays the same, which means we'll move straight from the new employee introductions to the customer feedback results at ten. Speaking of which, please have a quick look at the feedback summary I e-mailed you yesterday — we'll be voting on two of its recommendations, and I'd like everyone's input. All right, let's begin with the budget.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-10/0.mp3",
+    "text": "Questions refer to the following talk.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-10/1.mp3",
+    "text": "Thank you all for coming tonight. As you know, we're here to celebrate Margaret Liu, who is retiring after twenty-five years with Fairbanks Logistics. Margaret joined us as a part-time clerk and worked her way up to director of the warehouse division, where she introduced the barcode system that cut our shipping errors in half. On behalf of everyone at the company, we'd like to present her with this plaque and a travel voucher — we hear she's planning a long trip to Spain. Margaret, would you come up and say a few words?",
+    "voice": "en-GB-RyanNeural"
+  }
+]
