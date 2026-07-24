@@ -1,10 +1,18 @@
 # リスニング音声の作り方(edge-tts)
 
-端末の合成音声(iPhoneの読み上げ)は声が機械的で聞き取りにくいため、**Macで高品質な音声ファイル(mp3)を作ってアプリに同梱**する。こうすると、iPhoneでもAndroidでもPCでも全員が同じきれいな音声で聞ける。
+> このページは iPhone でも読めます。実際のコマンド実行は Mac のターミナルで行います。
+> コードブロックの右上にコピーボタンが出るので、押してそのまま貼り付けられます。
 
-使うのは **edge-tts**(Microsoftのニューラル音声)。**完全無料・APIキー不要・課金設定なし**。ChatGPTの契約やOpenAI APIとは無関係。
+## なぜやるのか
 
-## Macでの手順(コピペで実行)
+いまはスマホの読み上げ機能で音を作っているため、声が機械的で聞き取りにくい。
+Mac で高品質な音声ファイル(mp3)を作ってアプリに入れると、**iPhone でも Android でも PC でも全員が同じきれいな音声**で聞けるようになります。
+
+使うのは **edge-tts**(Microsoft のニューラル音声)。**完全無料・APIキー不要・課金設定なし**です。ChatGPT の契約や OpenAI API とは無関係なので、追加料金は一切かかりません。
+
+## 手順
+
+ターミナルを開く(Command+スペース →「ターミナル」→ Enter)。
 
 ### 1. 準備(初回だけ)
 
@@ -12,35 +20,35 @@
 pip3 install edge-tts
 ```
 
-### 2. リポジトリを取得(初回だけ)
+### 2. データを取得(初回だけ)
 
 ```bash
-cd ~/Desktop
-git clone https://github.com/KazuhiroHashi/toeic_test.git
-cd toeic_test
+cd ~/Desktop && git clone https://github.com/KazuhiroHashi/toeic_test.git && cd toeic_test
 ```
 
-※ すでに持っている場合は `cd ~/Desktop/toeic_test && git pull` で最新にする。
+すでに持っている場合は、代わりにこちら:
 
-### 3. 音声を生成(これ1回で全部できる)
+```bash
+cd ~/Desktop/toeic_test && git pull
+```
+
+### 3. 音声を作る(メインの作業)
 
 ```bash
 python3 tools/generate_audio.py
 ```
 
-- 全1925クリップを順に生成する。所要時間の目安は**30〜60分**(ネット速度による)。
-- 途中で止めても、もう一度実行すれば**続きから**再開する(既に作った分は飛ばす)。
-- 生成先: `assets/audio/` フォルダ。
+- 全 1925 クリップを順に生成します。目安は **30〜60分**。
+- 途中で止めても、もう一度同じコマンドを実行すれば **続きから** 再開します。
+- 放置しておけば終わるので、この間に Part 1 の写真作りを進めるのが効率的です。
 
-### 4. GitHubに反映
+### 4. GitHub に反映(これで全端末に反映)
 
 ```bash
-git add assets/audio
-git commit -m "リスニング音声を追加"
-git push
+git add assets/audio && git commit -m "リスニング音声を追加" && git push
 ```
 
-これで完了。アプリは**音声ファイルがあればそれを再生**し、無ければ従来通り端末の合成音声にフォールバックする。
+完了です。アプリは音声ファイルがあればそれを再生し、無ければ従来どおり端末の合成音声を使います。
 
 ## 使われる声(本番と同じ4カ国)
 
@@ -54,16 +62,18 @@ git push
 - `en-US-GuyNeural`
 - `en-US-JennyNeural`
 
-米・英・豪・加をローテーションし、問題ごとに違う話者が当たる。ナレーター(導入文・設問読み上げ)は別の声。
+米・英・豪・加をローテーションし、問題ごとに違う話者が当たります。ナレーター(導入文・設問読み上げ)は別の声です。
 
-## 収録される内容(本番形式)
+## 収録される内容(本番と同じ形式)
 
-- Part 1: 「Look at the picture marked number N in your test book.」+ A.〜D. の4文
-- Part 2: 「Number N.」+ 質問 + A.〜C. の3応答
-- Part 3/4: 「Questions X through Y refer to the following ...」+ 会話/トーク + 設問読み上げ(各8秒ポーズ)
+- **Part 1**: 「Look at the picture marked number N in your test book.」+ A.〜D. の4文
+- **Part 2**: 「Number N.」+ 質問 + A.〜C. の3応答
+- **Part 3/4**: 「Questions X through Y refer to the following ...」+ 会話/トーク + 設問読み上げ(各8秒ポーズ)
 
 ## 困ったとき
 
-- `pip3: command not found` → Macに Python が入っていない。`brew install python3` か python.org からインストール。
-- 途中でエラーが出た → もう一度 `python3 tools/generate_audio.py` を実行すれば続きから再開する。
-- 音声を作り直したい → `rm -rf assets/audio/s1`(該当セットのフォルダ)を消してから再実行。
+| 症状 | 対処 |
+|---|---|
+| `pip3: command not found` | Mac に Python が未導入。`brew install python3` を実行、または python.org からインストール |
+| 途中でエラーが出た | もう一度 `python3 tools/generate_audio.py` を実行すれば続きから再開する |
+| 音声を作り直したい | `rm -rf assets/audio` で消してから再実行 |
