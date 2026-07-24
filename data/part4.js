@@ -3,6 +3,7 @@ window.TOEIC_DATA = window.TOEIC_DATA || {};
 window.TOEIC_DATA.part4 = [
   {
     id: "p4-01",
+    kind: "telephone message",
     title: "トーク 1(電話メッセージ)",
     audio: [
       { speaker: "W", text: "Hello, this message is for Mr. Nakamura. This is Lisa from Downtown Dental Clinic. I'm calling to remind you of your appointment tomorrow at two P.M. Please note that our clinic has moved to a new location on Fifth Avenue, just across from the central library. Parking is available behind the building. If you need to reschedule, please call us back before six o'clock today. Thank you, and we look forward to seeing you." }
@@ -46,6 +47,7 @@ window.TOEIC_DATA.part4 = [
   },
   {
     id: "p4-02",
+    kind: "announcement",
     title: "トーク 2(社内アナウンス)",
     audio: [
       { speaker: "M", text: "Attention, all staff. As you know, we'll be switching to the new expense management system on August first. To help everyone get familiar with it, the IT department will hold three training sessions next week — Tuesday, Wednesday, and Thursday, all at four P.M. in Meeting Room B. Each session covers the same content, so you only need to attend one. Please sign up on the company intranet by this Friday. If you can't make any of the sessions, a recorded version will be posted on the intranet afterward." }
@@ -89,6 +91,7 @@ window.TOEIC_DATA.part4 = [
   },
   {
     id: "p4-03",
+    kind: "advertisement",
     title: "トーク 3(ラジオ広告)",
     audio: [
       { speaker: "W", text: "Are you tired of spending your weekends cleaning? Let Sparkle Home Services take care of it! Our trained staff will clean your entire home using only environmentally friendly products. And now, for the month of October only, first-time customers receive twenty percent off any cleaning package. Booking is easy — just visit sparklehome dot com and choose a time that works for you. Slots fill up quickly, so don't wait. Sparkle Home Services — because your weekend belongs to you." }
@@ -132,6 +135,7 @@ window.TOEIC_DATA.part4 = [
   },
   {
     id: "p4-04",
+    kind: "excerpt from a meeting",
     title: "トーク 4(会議の抜粋)",
     audio: [
       { speaker: "M", text: "Before we wrap up, let me share some good news. Our customer satisfaction survey results came in yesterday, and our overall score improved from three point eight to four point three out of five. The biggest jump was in delivery speed, thanks to the new distribution center we opened in March. However, the survey also showed that customers find our return process complicated. So next quarter, our top priority will be simplifying returns. Maria will lead that project, and she'll present a detailed plan at our meeting next month." }
@@ -175,6 +179,8 @@ window.TOEIC_DATA.part4 = [
   },
   {
     id: "p4-05",
+    kind: "announcement",
+    graphicKind: "schedule",
     title: "トーク 5(空港アナウンス・図表問題)",
     graphic: "Departures\n1. Flight 118 — Boston — Gate 4\n2. Flight 205 — Denver — Gate 9\n3. Flight 310 — Chicago — Gate 15\n4. Flight 442 — Miami — Gate 21",
     audio: [
@@ -214,6 +220,7 @@ window.TOEIC_DATA.part4 = [
   },
   {
     id: "p4-06",
+    kind: "talk",
     title: "トーク 6(ツアーガイド)",
     audio: [
       { speaker: "M", text: "Good morning, everyone, and welcome to the Harlow Museum of Modern Art. Before we begin, a few reminders. Photography is allowed in most galleries, but please turn off your flash — it can damage the artwork over time. We'll start our tour in the east wing, where the new glass sculpture exhibit opened just last week, and we'll finish in the main hall around noon. After the tour, don't forget to stop by the gift shop. Show your tour ticket at the register, and you'll receive fifteen percent off any purchase. Now, if you'll follow me, let's get started." }
@@ -257,6 +264,7 @@ window.TOEIC_DATA.part4 = [
   },
   {
     id: "p4-07",
+    kind: "telephone message",
     title: "トーク 7(電話メッセージ)",
     audio: [
       { speaker: "W", text: "Hello, this message is for Kevin Brooks. This is Amanda Reyes calling from Northgate Publishing about the graphic designer position you applied for. We were impressed with your application, and we'd like to invite you for an interview next Tuesday, July eighth, at ten A.M. at our downtown office. Please bring a portfolio of your recent work and a list of two professional references. Also, could you call me back by Wednesday to confirm the time? My direct number is five five five, two nine eight four. I look forward to meeting you." }
@@ -300,6 +308,7 @@ window.TOEIC_DATA.part4 = [
   },
   {
     id: "p4-08",
+    kind: "broadcast",
     title: "トーク 8(ラジオ交通情報)",
     audio: [
       { speaker: "M", text: "Good morning, this is Dave Carter with your seven-o'clock traffic update on Radio Eighty-Eight. If you're heading downtown this morning, expect delays on the Harbor Bridge — the left lane is closed for repair work through the end of the week. City officials recommend taking the Route Nine tunnel instead, which is moving smoothly right now. Also, a reminder that the summer music festival kicks off in Redwood Park this evening at six. Streets around the park will be closed to traffic from four P.M. So plan to use public transportation if you're attending. I'll be back with another update at seven thirty." }
@@ -343,6 +352,8 @@ window.TOEIC_DATA.part4 = [
   },
   {
     id: "p4-09",
+    kind: "excerpt from a meeting",
+    graphicKind: "agenda",
     title: "トーク 9(会議の抜粋・図表問題)",
     graphic: "Staff Meeting Agenda — April 4\n1. Budget review (9:00)\n2. New employee introductions (9:30)\n3. Web site redesign (10:00)\n4. Customer feedback results (10:30)",
     audio: [
@@ -387,6 +398,7 @@ window.TOEIC_DATA.part4 = [
   },
   {
     id: "p4-10",
+    kind: "speech",
     title: "トーク 10(スピーチ)",
     audio: [
       { speaker: "M", text: "Thank you all for coming tonight. As you know, we're here to celebrate Margaret Liu, who is retiring after twenty-five years with Fairbanks Logistics. Margaret joined us as a part-time clerk and worked her way up to director of the warehouse division, where she introduced the barcode system that cut our shipping errors in half. On behalf of everyone at the company, we'd like to present her with this plaque and a travel voucher — we hear she's planning a long trip to Spain. Margaret, would you come up and say a few words?" }

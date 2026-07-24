@@ -293,7 +293,8 @@
         self.splitText(self.normalizeForSpeech(line.text)).forEach(function (s) {
           units.push({ speaker: line.speaker || "M", text: s, gap: 150 });
         });
-        if (units.length) units[units.length - 1].gap = 650; // 話者交代の間(ま)
+        // 行末の間(ま): 指定があればそれを使う(設問読み上げ後の8秒ポーズ等)
+        if (units.length) units[units.length - 1].gap = line.gapAfter || 650;
       });
 
       // デスクトップChromeが長い再生を自動一時停止する問題への対策
@@ -334,13 +335,20 @@
     },
 
     // 録音済み音声ファイル(mp3)を順番に再生する。
+    // clips は URL文字列 または {f: URL, g: 再生後ポーズms} の配列。
     // ファイルが読み込めない場合(未生成など)は onError を呼ぶ(合成音声へフォールバック)。
-    playFiles: function (urls, onEnd, onError) {
+    playFiles: function (clips, onEnd, onError) {
       this.stop();
       var self = this;
       var token = ++this.token;
-      var audios = urls.map(function (u) { var a = new Audio(u); a.preload = "auto"; return a; });
-      this._audios = audios;
+      var items = clips.map(function (c) {
+        var url = typeof c === "string" ? c : c.f;
+        var gap = typeof c === "string" ? 400 : (c.g || 400);
+        var a = new Audio(url);
+        a.preload = "auto";
+        return { a: a, gap: gap };
+      });
+      this._audios = items.map(function (it) { return it.a; });
       var failed = false;
       function fail() {
         if (failed || token !== self.token) return;
@@ -348,14 +356,14 @@
         self.stop();
         if (onError) onError();
       }
-      audios.forEach(function (a) { a.addEventListener("error", fail); });
+      items.forEach(function (it) { it.a.addEventListener("error", fail); });
       var i = 0;
       function next() {
         if (token !== self.token || failed) return;
-        if (i >= audios.length) { if (onEnd) onEnd(); return; }
-        var a = audios[i++];
-        a.onended = function () { if (token === self.token) setTimeout(next, 400); };
-        var p = a.play();
+        if (i >= items.length) { if (onEnd) onEnd(); return; }
+        var it = items[i++];
+        it.a.onended = function () { if (token === self.token) setTimeout(next, it.gap); };
+        var p = it.a.play();
         if (p && p.catch) p.catch(fail);
       }
       next();
@@ -385,8 +393,9 @@
         hideChoices: true,
         id: it.id,
         image: it.image,
-        audio: it.choices.map(function (c, i) {
-          return { speaker: it.speaker || "M", text: LETTERS[i] + ". " + c };
+        // 本番同様、記号(A)〜(D)は読み上げず英文のみを順に流す
+        audio: it.choices.map(function (c) {
+          return { speaker: it.speaker || "M", text: c, gapAfter: 1000 };
         }),
         script: it.choices.map(function (c, i) { return "(" + LETTERS[i] + ") " + c; }).join("\n"),
         translation: it.translation,
@@ -408,9 +417,10 @@
         listening: true,
         hideChoices: true,
         id: it.id,
-        audio: [{ speaker: it.question.speaker, text: it.question.text }].concat(
-          it.choices.map(function (c, i) {
-            return { speaker: it.question.speaker === "W" ? "M" : "W", text: LETTERS[i] + ". " + c };
+        // 本番同様、記号(A)〜(C)は読み上げず、質問→3つの応答を順に流す
+        audio: [{ speaker: it.question.speaker, text: it.question.text, gapAfter: 1000 }].concat(
+          it.choices.map(function (c) {
+            return { speaker: it.question.speaker === "W" ? "M" : "W", text: c, gapAfter: 1000 };
           })
         ),
         script: it.question.text + "\n" + it.choices.map(function (c, i) { return "(" + LETTERS[i] + ") " + c; }).join("\n"),
@@ -432,6 +442,8 @@
         part: partLabel,
         listening: true,
         id: set.id,
+        kind: set.kind,               // Part 4 のトーク種別(telephone message 等)
+        graphicKind: set.graphicKind, // 図表問題の図表種別(list / invoice / schedule / agenda)
         title: set.title,
         // 図表問題:graphic があれば画面に表示する(本番の Look at the graphic. 形式)
         docType: set.graphic ? "Graphic(図表)" : undefined,
@@ -891,18 +903,28 @@
     if (t.listening) {
       // 本番同様、ナレーターの導入文を付けて再生する
       var intro;
+      var questionLines = [];
       if (t.part === "Part 1") {
         intro = "Look at the picture marked number " + (answeredBefore + 1) + " in your test book.";
       } else if (t.part === "Part 2") {
-        intro = "";
+        intro = "Number " + (answeredBefore + 1) + ".";
       } else {
+        // 本番形式: Questions 32 through 34 refer to the following
+        //   conversation [with three speakers] [and list].  /  telephone message. など
         var three = t.audio.some(function (l) { return l.speaker === "W2" || l.speaker === "M2"; });
+        var kindText = t.part === "Part 3"
+          ? "conversation" + (three ? " with three speakers" : "")
+          : (t.kind || "talk");
         intro = "Questions " + (answeredBefore + 1) +
           (t.questions.length > 1 ? " through " + (answeredBefore + t.questions.length) : "") +
-          " refer to the following " +
-          (t.part === "Part 3" ? "conversation" + (three ? " with three speakers" : "") : "talk") + ".";
+          " refer to the following " + kindText +
+          (t.graphicKind ? " and " + t.graphicKind : "") + ".";
+        // 本番同様、音声の後にナレーターが設問文を読み上げる(各設問の後にポーズ)
+        questionLines = t.questions.map(function (q, qi) {
+          return { speaker: "N", text: "Number " + (answeredBefore + qi + 1) + ". " + q.prompt, gapAfter: 8000 };
+        });
       }
-      var audioLines = (intro ? [{ speaker: "N", text: intro }] : []).concat(t.audio);
+      var audioLines = (intro ? [{ speaker: "N", text: intro }] : []).concat(t.audio).concat(questionLines);
 
       // 録音済み音声ファイルがあれば優先(無ければ端末の合成音声)
       var audioKey = SETS[activeSetIdx].id + ":" + t.id;

@@ -330,6 +330,7 @@ window.TOEIC_DATA.part3 = [
   },
   {
     id: "p3-08",
+    graphicKind: "list",
     title: "会話 8(図表問題)",
     graphic: "Meeting Rooms — Hartwell Office\n1. Room A — seats 6 / TV monitor\n2. Room B — seats 10 / whiteboard\n3. Room C — seats 14 / whiteboard\n4. Room D — seats 16 / video conference system",
     audio: [
@@ -503,6 +504,7 @@ window.TOEIC_DATA.part3 = [
   },
   {
     id: "p3-12",
+    graphicKind: "invoice",
     title: "会話 12(図表問題)",
     graphic: "Invoice #8841 — Coretti Office Furnishings\n1. Desk lamp ($30 × 2) — $60\n2. Office chair — $120\n3. Bookshelf — $85\n4. Delivery — $20\nTotal — $285",
     audio: [

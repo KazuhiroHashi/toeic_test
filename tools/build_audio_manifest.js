@@ -3,10 +3,15 @@
  *   node tools/build_audio_manifest.js
  *
  * 出力:
- *   assets/audio/manifest.js   … アプリが読む(task → 音声ファイルの並び)
+ *   assets/audio/manifest.js   … アプリが読む(task → [{f: ファイル, g: 再生後ポーズms}])
  *   tools/audio_manifest.json  … 生成スクリプト(generate_audio.py)が読む(各ファイルの英文と声)
  *
- * 音声ファイル本体(mp3)は generate_audio.py が edge-tts で作る。
+ * 本番TOEICの音声形式に準拠:
+ *   Part 1: 「Look at the picture marked number N in your test book.」→ 記号なしで4つの説明文
+ *   Part 2: 「Number N.」→ 質問 → 記号なしで3つの応答
+ *   Part 3: 「Questions X through Y refer to the following conversation
+ *            [with three speakers][ and 図表種別].」→ 会話 → 設問読み上げ(各8秒ポーズ)
+ *   Part 4: 同上(conversation の代わりにトーク種別: telephone message / announcement 等)
  */
 "use strict";
 var fs = require("fs");
@@ -20,7 +25,6 @@ global.window = {};
 });
 var DATA = global.window.TOEIC_DATA;
 
-var LETTERS = ["A", "B", "C", "D"];
 var SETID = "s1"; // 当面はセット1のみ(セット2は完成後に対応)
 
 // 本番と同じ4カ国の声(edge-tts のニューラル音声)
@@ -43,7 +47,7 @@ function voiceFor(speaker, c0, c1) {
 
 var gi = 0;
 var clips = [];       // {file, text, voice}
-var manifest = {};    // "s1:taskid" -> [file, ...]
+var manifest = {};    // "s1:taskid" -> [{f, g}, ...]
 
 function addTask(taskid, lines) {
   var c0 = COUNTRIES[gi % 4];
@@ -53,44 +57,58 @@ function addTask(taskid, lines) {
   lines.forEach(function (ln, idx) {
     var file = "assets/audio/" + SETID + "/" + taskid + "/" + idx + ".mp3";
     clips.push({ file: file, text: ln.text, voice: voiceFor(ln.speaker, c0, c1) });
-    files.push(file);
+    files.push({ f: file, g: ln.gapAfter || 600 });
   });
   manifest[SETID + ":" + taskid] = files;
 }
 
-// Part 1:「Look at the picture marked number X in your test book.」+ 4つの描写文
+// Part 1: 導入 + 記号なしの4つの説明文
 DATA.part1.forEach(function (it, idx) {
-  var lines = [{ speaker: "N", text: "Look at the picture marked number " + (idx + 1) + " in your test book." }];
-  it.choices.forEach(function (c, i) {
-    lines.push({ speaker: it.speaker || "M", text: LETTERS[i] + ". " + c });
+  var lines = [{ speaker: "N", text: "Look at the picture marked number " + (idx + 1) + " in your test book.", gapAfter: 1000 }];
+  it.choices.forEach(function (c) {
+    lines.push({ speaker: it.speaker || "M", text: c, gapAfter: 1000 });
   });
   addTask(it.id, lines);
 });
 
-// Part 2: 質問 + 3つの応答(導入なし)
-DATA.part2.forEach(function (it) {
+// Part 2: 「Number N.」 + 質問 + 記号なしの3つの応答
+DATA.part2.forEach(function (it, idx) {
   var qsp = it.question.speaker;
   var osp = qsp === "W" ? "M" : "W";
-  var lines = [{ speaker: qsp, text: it.question.text }];
-  it.choices.forEach(function (c, i) {
-    lines.push({ speaker: osp, text: LETTERS[i] + ". " + c });
+  var lines = [
+    { speaker: "N", text: "Number " + (idx + 1) + ".", gapAfter: 700 },
+    { speaker: qsp, text: it.question.text, gapAfter: 1000 }
+  ];
+  it.choices.forEach(function (c) {
+    lines.push({ speaker: osp, text: c, gapAfter: 1000 });
   });
   addTask(it.id, lines);
 });
 
-// Part 3: 導入 + 会話
-DATA.part3.forEach(function (set) {
-  var three = set.audio.some(function (l) { return l.speaker === "W2" || l.speaker === "M2"; });
-  var lines = [{ speaker: "N", text: "Questions refer to the following conversation" + (three ? " with three speakers" : "") + "." }];
-  set.audio.forEach(function (l) { lines.push({ speaker: l.speaker || "M", text: l.text }); });
+// Part 3/4 共通: 導入 + 本文 + 設問読み上げ(各8秒ポーズ)
+function addSet(set, i, kindText) {
+  var qStart = i * 3 + 1;
+  var qEnd = i * 3 + set.questions.length;
+  var lines = [{
+    speaker: "N",
+    text: "Questions " + qStart + " through " + qEnd + " refer to the following " + kindText +
+      (set.graphicKind ? " and " + set.graphicKind : "") + ".",
+    gapAfter: 1000
+  }];
+  set.audio.forEach(function (l) { lines.push({ speaker: l.speaker || "M", text: l.text, gapAfter: 600 }); });
+  set.questions.forEach(function (q, qi) {
+    lines.push({ speaker: "N", text: "Number " + (qStart + qi) + ". " + q.q, gapAfter: 8000 });
+  });
   addTask(set.id, lines);
+}
+
+DATA.part3.forEach(function (set, i) {
+  var three = set.audio.some(function (l) { return l.speaker === "W2" || l.speaker === "M2"; });
+  addSet(set, i, "conversation" + (three ? " with three speakers" : ""));
 });
 
-// Part 4: 導入 + トーク
-DATA.part4.forEach(function (set) {
-  var lines = [{ speaker: "N", text: "Questions refer to the following talk." }];
-  set.audio.forEach(function (l) { lines.push({ speaker: l.speaker || "M", text: l.text }); });
-  addTask(set.id, lines);
+DATA.part4.forEach(function (set, i) {
+  addSet(set, i, set.kind || "talk");
 });
 
 fs.writeFileSync(path.join(__dirname, "audio_manifest.json"), JSON.stringify(clips, null, 2));

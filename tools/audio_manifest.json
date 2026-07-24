@@ -6,22 +6,22 @@
   },
   {
     "file": "assets/audio/s1/p1-01/1.mp3",
-    "text": "A. A man is sweeping a walkway.",
+    "text": "A man is sweeping a walkway.",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p1-01/2.mp3",
-    "text": "B. A man is putting on his jacket.",
+    "text": "A man is putting on his jacket.",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p1-01/3.mp3",
-    "text": "C. A woman is sitting on a bench.",
+    "text": "A woman is sitting on a bench.",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p1-01/4.mp3",
-    "text": "D. A man is planting a tree.",
+    "text": "A man is planting a tree.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -31,22 +31,22 @@
   },
   {
     "file": "assets/audio/s1/p1-02/1.mp3",
-    "text": "A. She is wiping down a window.",
+    "text": "She is wiping down a window.",
     "voice": "en-GB-SoniaNeural"
   },
   {
     "file": "assets/audio/s1/p1-02/2.mp3",
-    "text": "B. She is placing a glass on a table.",
+    "text": "She is placing a glass on a table.",
     "voice": "en-GB-SoniaNeural"
   },
   {
     "file": "assets/audio/s1/p1-02/3.mp3",
-    "text": "C. Customers are being seated.",
+    "text": "Customers are being seated.",
     "voice": "en-GB-SoniaNeural"
   },
   {
     "file": "assets/audio/s1/p1-02/4.mp3",
-    "text": "D. She is hanging a picture on the wall.",
+    "text": "She is hanging a picture on the wall.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -56,22 +56,22 @@
   },
   {
     "file": "assets/audio/s1/p1-03/1.mp3",
-    "text": "A. He is weighing some vegetables.",
+    "text": "He is weighing some vegetables.",
     "voice": "en-AU-WilliamNeural"
   },
   {
     "file": "assets/audio/s1/p1-03/2.mp3",
-    "text": "B. He is pushing a shopping cart.",
+    "text": "He is pushing a shopping cart.",
     "voice": "en-AU-WilliamNeural"
   },
   {
     "file": "assets/audio/s1/p1-03/3.mp3",
-    "text": "C. He is arranging fruit in a display.",
+    "text": "He is arranging fruit in a display.",
     "voice": "en-AU-WilliamNeural"
   },
   {
     "file": "assets/audio/s1/p1-03/4.mp3",
-    "text": "D. He is paying at the register.",
+    "text": "He is paying at the register.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -81,22 +81,22 @@
   },
   {
     "file": "assets/audio/s1/p1-04/1.mp3",
-    "text": "A. He is loading boxes onto a truck.",
+    "text": "He is loading boxes onto a truck.",
     "voice": "en-CA-LiamNeural"
   },
   {
     "file": "assets/audio/s1/p1-04/2.mp3",
-    "text": "B. He is operating a forklift.",
+    "text": "He is operating a forklift.",
     "voice": "en-CA-LiamNeural"
   },
   {
     "file": "assets/audio/s1/p1-04/3.mp3",
-    "text": "C. He is sealing a cardboard box.",
+    "text": "He is sealing a cardboard box.",
     "voice": "en-CA-LiamNeural"
   },
   {
     "file": "assets/audio/s1/p1-04/4.mp3",
-    "text": "D. He is placing a box on a shelf.",
+    "text": "He is placing a box on a shelf.",
     "voice": "en-CA-LiamNeural"
   },
   {
@@ -106,22 +106,22 @@
   },
   {
     "file": "assets/audio/s1/p1-05/1.mp3",
-    "text": "A. A man is waiting on a platform.",
+    "text": "A man is waiting on a platform.",
     "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p1-05/2.mp3",
-    "text": "B. A man is boarding a train.",
+    "text": "A man is boarding a train.",
     "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p1-05/3.mp3",
-    "text": "C. A man is climbing the stairs.",
+    "text": "A man is climbing the stairs.",
     "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p1-05/4.mp3",
-    "text": "D. Passengers are getting off the train.",
+    "text": "Passengers are getting off the train.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -131,527 +131,652 @@
   },
   {
     "file": "assets/audio/s1/p1-06/1.mp3",
-    "text": "A. He is writing on the whiteboard.",
+    "text": "He is writing on the whiteboard.",
     "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s1/p1-06/2.mp3",
-    "text": "B. He is typing on a laptop.",
+    "text": "He is typing on a laptop.",
     "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s1/p1-06/3.mp3",
-    "text": "C. He is setting a stack of papers on a table.",
+    "text": "He is setting a stack of papers on a table.",
     "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s1/p1-06/4.mp3",
-    "text": "D. He is pouring coffee into a cup.",
+    "text": "He is pouring coffee into a cup.",
     "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s1/p2-01/0.mp3",
+    "text": "Number 1.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-01/1.mp3",
     "text": "Where is the marketing report I asked for?",
     "voice": "en-AU-NatashaNeural"
   },
   {
-    "file": "assets/audio/s1/p2-01/1.mp3",
-    "text": "A. It's on your desk, next to the phone.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-01/2.mp3",
-    "text": "B. Yes, the market opens at nine.",
+    "text": "It's on your desk, next to the phone.",
     "voice": "en-AU-WilliamNeural"
   },
   {
     "file": "assets/audio/s1/p2-01/3.mp3",
-    "text": "C. She reported it yesterday.",
+    "text": "Yes, the market opens at nine.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-01/4.mp3",
+    "text": "She reported it yesterday.",
     "voice": "en-AU-WilliamNeural"
   },
   {
     "file": "assets/audio/s1/p2-02/0.mp3",
+    "text": "Number 2.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-02/1.mp3",
     "text": "When does the workshop start?",
     "voice": "en-CA-LiamNeural"
   },
   {
-    "file": "assets/audio/s1/p2-02/1.mp3",
-    "text": "A. In the main conference room.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-02/2.mp3",
-    "text": "B. At ten thirty, right after the break.",
+    "text": "In the main conference room.",
     "voice": "en-CA-ClaraNeural"
   },
   {
     "file": "assets/audio/s1/p2-02/3.mp3",
-    "text": "C. It lasted two hours.",
+    "text": "At ten thirty, right after the break.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-02/4.mp3",
+    "text": "It lasted two hours.",
     "voice": "en-CA-ClaraNeural"
   },
   {
     "file": "assets/audio/s1/p2-03/0.mp3",
+    "text": "Number 3.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-03/1.mp3",
     "text": "Who's going to lead the new project?",
     "voice": "en-US-JennyNeural"
   },
   {
-    "file": "assets/audio/s1/p2-03/1.mp3",
-    "text": "A. It starts next Monday.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-03/2.mp3",
-    "text": "B. A new client in Osaka.",
+    "text": "It starts next Monday.",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-03/3.mp3",
-    "text": "C. Ms. Tanaka from the sales team.",
+    "text": "A new client in Osaka.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-03/4.mp3",
+    "text": "Ms. Tanaka from the sales team.",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-04/0.mp3",
+    "text": "Number 4.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-04/1.mp3",
     "text": "Have you finished reviewing the contract?",
     "voice": "en-GB-RyanNeural"
   },
   {
-    "file": "assets/audio/s1/p2-04/1.mp3",
-    "text": "A. Not yet, I'll be done by noon.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-04/2.mp3",
-    "text": "B. Sure, I'd love another view.",
+    "text": "Not yet, I'll be done by noon.",
     "voice": "en-GB-SoniaNeural"
   },
   {
     "file": "assets/audio/s1/p2-04/3.mp3",
-    "text": "C. The contractor is here.",
+    "text": "Sure, I'd love another view.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-04/4.mp3",
+    "text": "The contractor is here.",
     "voice": "en-GB-SoniaNeural"
   },
   {
     "file": "assets/audio/s1/p2-05/0.mp3",
+    "text": "Number 5.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-05/1.mp3",
     "text": "Would you like to attend the seminar online or in person?",
     "voice": "en-AU-NatashaNeural"
   },
   {
-    "file": "assets/audio/s1/p2-05/1.mp3",
-    "text": "A. Yes, I would.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-05/2.mp3",
-    "text": "B. Online works better for me.",
+    "text": "Yes, I would.",
     "voice": "en-AU-WilliamNeural"
   },
   {
     "file": "assets/audio/s1/p2-05/3.mp3",
-    "text": "C. About fifty attendees.",
+    "text": "Online works better for me.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-05/4.mp3",
+    "text": "About fifty attendees.",
     "voice": "en-AU-WilliamNeural"
   },
   {
     "file": "assets/audio/s1/p2-06/0.mp3",
+    "text": "Number 6.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-06/1.mp3",
     "text": "Why was the flight to Chicago delayed?",
     "voice": "en-CA-LiamNeural"
   },
   {
-    "file": "assets/audio/s1/p2-06/1.mp3",
-    "text": "A. Because of the heavy snow.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-06/2.mp3",
-    "text": "B. At gate twenty-two.",
+    "text": "Because of the heavy snow.",
     "voice": "en-CA-ClaraNeural"
   },
   {
     "file": "assets/audio/s1/p2-06/3.mp3",
-    "text": "C. For about three days.",
+    "text": "At gate twenty-two.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-06/4.mp3",
+    "text": "For about three days.",
     "voice": "en-CA-ClaraNeural"
   },
   {
     "file": "assets/audio/s1/p2-07/0.mp3",
+    "text": "Number 7.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-07/1.mp3",
     "text": "How often do you back up the customer database?",
     "voice": "en-US-JennyNeural"
   },
   {
-    "file": "assets/audio/s1/p2-07/1.mp3",
-    "text": "A. It's backed by the IT team.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-07/2.mp3",
-    "text": "B. Every night at eleven.",
+    "text": "It's backed by the IT team.",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-07/3.mp3",
-    "text": "C. About two hundred customers.",
+    "text": "Every night at eleven.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-07/4.mp3",
+    "text": "About two hundred customers.",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-08/0.mp3",
+    "text": "Number 8.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-08/1.mp3",
     "text": "The printer on the third floor isn't working again.",
     "voice": "en-GB-RyanNeural"
   },
   {
-    "file": "assets/audio/s1/p2-08/1.mp3",
-    "text": "A. I'll print it in color.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-08/2.mp3",
-    "text": "B. Yes, he works on the third floor.",
+    "text": "I'll print it in color.",
     "voice": "en-GB-SoniaNeural"
   },
   {
     "file": "assets/audio/s1/p2-08/3.mp3",
-    "text": "C. I'll call the repair service right away.",
+    "text": "Yes, he works on the third floor.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-08/4.mp3",
+    "text": "I'll call the repair service right away.",
     "voice": "en-GB-SoniaNeural"
   },
   {
     "file": "assets/audio/s1/p2-09/0.mp3",
+    "text": "Number 9.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-09/1.mp3",
     "text": "Could you send me the agenda before the meeting?",
     "voice": "en-AU-NatashaNeural"
   },
   {
-    "file": "assets/audio/s1/p2-09/1.mp3",
-    "text": "A. Sure, I'll e-mail it to you this afternoon.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-09/2.mp3",
-    "text": "B. The meeting room was crowded.",
+    "text": "Sure, I'll e-mail it to you this afternoon.",
     "voice": "en-AU-WilliamNeural"
   },
   {
     "file": "assets/audio/s1/p2-09/3.mp3",
-    "text": "C. No, I haven't met her before.",
+    "text": "The meeting room was crowded.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-09/4.mp3",
+    "text": "No, I haven't met her before.",
     "voice": "en-AU-WilliamNeural"
   },
   {
     "file": "assets/audio/s1/p2-10/0.mp3",
+    "text": "Number 10.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-10/1.mp3",
     "text": "You've met the new director, haven't you?",
     "voice": "en-CA-LiamNeural"
   },
   {
-    "file": "assets/audio/s1/p2-10/1.mp3",
-    "text": "A. In the director's office.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-10/2.mp3",
-    "text": "B. Yes, at last week's orientation.",
+    "text": "In the director's office.",
     "voice": "en-CA-ClaraNeural"
   },
   {
     "file": "assets/audio/s1/p2-10/3.mp3",
-    "text": "C. He'll direct the next film.",
+    "text": "Yes, at last week's orientation.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-10/4.mp3",
+    "text": "He'll direct the next film.",
     "voice": "en-CA-ClaraNeural"
   },
   {
     "file": "assets/audio/s1/p2-11/0.mp3",
+    "text": "Number 11.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-11/1.mp3",
     "text": "Which vendor did we choose for the office supplies?",
     "voice": "en-US-JennyNeural"
   },
   {
-    "file": "assets/audio/s1/p2-11/1.mp3",
-    "text": "A. The one with the fastest delivery.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-11/2.mp3",
-    "text": "B. Yes, we need more paper.",
+    "text": "The one with the fastest delivery.",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-11/3.mp3",
-    "text": "C. It's a surprise party.",
+    "text": "Yes, we need more paper.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-11/4.mp3",
+    "text": "It's a surprise party.",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-12/0.mp3",
+    "text": "Number 12.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-12/1.mp3",
     "text": "Do you know where I can find the expense report form?",
     "voice": "en-GB-RyanNeural"
   },
   {
-    "file": "assets/audio/s1/p2-12/1.mp3",
-    "text": "A. It was very expensive.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-12/2.mp3",
-    "text": "B. Check the shared drive under 'Finance'.",
+    "text": "It was very expensive.",
     "voice": "en-GB-SoniaNeural"
   },
   {
     "file": "assets/audio/s1/p2-12/3.mp3",
-    "text": "C. He found it interesting.",
+    "text": "Check the shared drive under 'Finance'.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-12/4.mp3",
+    "text": "He found it interesting.",
     "voice": "en-GB-SoniaNeural"
   },
   {
     "file": "assets/audio/s1/p2-13/0.mp3",
+    "text": "Number 13.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-13/1.mp3",
     "text": "Why don't we take a short break before the next session?",
     "voice": "en-AU-NatashaNeural"
   },
   {
-    "file": "assets/audio/s1/p2-13/1.mp3",
-    "text": "A. Because the brake didn't work.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-13/2.mp3",
-    "text": "B. Good idea. I could use some coffee.",
+    "text": "Because the brake didn't work.",
     "voice": "en-AU-WilliamNeural"
   },
   {
     "file": "assets/audio/s1/p2-13/3.mp3",
-    "text": "C. It won't break easily.",
+    "text": "Good idea. I could use some coffee.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-13/4.mp3",
+    "text": "It won't break easily.",
     "voice": "en-AU-WilliamNeural"
   },
   {
     "file": "assets/audio/s1/p2-14/0.mp3",
+    "text": "Number 14.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-14/1.mp3",
     "text": "How much will it cost to ship these samples overseas?",
     "voice": "en-CA-LiamNeural"
   },
   {
-    "file": "assets/audio/s1/p2-14/1.mp3",
-    "text": "A. By express mail.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-14/2.mp3",
-    "text": "B. Around eighty dollars, I believe.",
+    "text": "By express mail.",
     "voice": "en-CA-ClaraNeural"
   },
   {
     "file": "assets/audio/s1/p2-14/3.mp3",
-    "text": "C. The ship leaves at noon.",
+    "text": "Around eighty dollars, I believe.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-14/4.mp3",
+    "text": "The ship leaves at noon.",
     "voice": "en-CA-ClaraNeural"
   },
   {
     "file": "assets/audio/s1/p2-15/0.mp3",
+    "text": "Number 15.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-15/1.mp3",
     "text": "Who approved the budget increase for next quarter?",
     "voice": "en-US-JennyNeural"
   },
   {
-    "file": "assets/audio/s1/p2-15/1.mp3",
-    "text": "A. I wasn't at that meeting, actually.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-15/2.mp3",
-    "text": "B. About ten percent.",
+    "text": "I wasn't at that meeting, actually.",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-15/3.mp3",
-    "text": "C. Next to the bank.",
+    "text": "About ten percent.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-15/4.mp3",
+    "text": "Next to the bank.",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-16/0.mp3",
+    "text": "Number 16.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-16/1.mp3",
     "text": "Where should we hold the year-end reception?",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s1/p2-16/1.mp3",
-    "text": "A. At the end of December.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-16/2.mp3",
-    "text": "B. Didn't Marketing already book the rooftop hall?",
+    "text": "At the end of December.",
     "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s1/p2-16/3.mp3",
-    "text": "C. Yes, I received the invitation.",
+    "text": "Didn't Marketing already book the rooftop hall?",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-16/4.mp3",
+    "text": "Yes, I received the invitation.",
     "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s1/p2-17/0.mp3",
+    "text": "Number 17.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-17/1.mp3",
     "text": "When is the deadline for the grant application?",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s1/p2-17/1.mp3",
-    "text": "A. The application fee is forty dollars.",
-    "voice": "en-AU-NatashaNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-17/2.mp3",
-    "text": "B. Yes, by express mail.",
+    "text": "The application fee is forty dollars.",
     "voice": "en-AU-NatashaNeural"
   },
   {
     "file": "assets/audio/s1/p2-17/3.mp3",
-    "text": "C. Dr. Okada's assistant would know.",
+    "text": "Yes, by express mail.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-17/4.mp3",
+    "text": "Dr. Okada's assistant would know.",
     "voice": "en-AU-NatashaNeural"
   },
   {
     "file": "assets/audio/s1/p2-18/0.mp3",
+    "text": "Number 18.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-18/1.mp3",
     "text": "Has the client approved the final design?",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s1/p2-18/1.mp3",
-    "text": "A. We're meeting them tomorrow morning.",
-    "voice": "en-CA-LiamNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-18/2.mp3",
-    "text": "B. I designed the logo myself.",
+    "text": "We're meeting them tomorrow morning.",
     "voice": "en-CA-LiamNeural"
   },
   {
     "file": "assets/audio/s1/p2-18/3.mp3",
-    "text": "C. No, the sign was removed.",
+    "text": "I designed the logo myself.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-18/4.mp3",
+    "text": "No, the sign was removed.",
     "voice": "en-CA-LiamNeural"
   },
   {
     "file": "assets/audio/s1/p2-19/0.mp3",
+    "text": "Number 19.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-19/1.mp3",
     "text": "Why is the parking garage closed today?",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s1/p2-19/1.mp3",
-    "text": "A. It usually closes at midnight.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-19/2.mp3",
-    "text": "B. There's a notice posted by the entrance.",
+    "text": "It usually closes at midnight.",
     "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-19/3.mp3",
-    "text": "C. Yes, I'll close the window.",
+    "text": "There's a notice posted by the entrance.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-19/4.mp3",
+    "text": "Yes, I'll close the window.",
     "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-20/0.mp3",
+    "text": "Number 20.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-20/1.mp3",
     "text": "Should we take the highway or the local roads to the conference center?",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s1/p2-20/1.mp3",
-    "text": "A. The conference starts at ten.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-20/2.mp3",
-    "text": "B. The traffic report says the highway is backed up.",
+    "text": "The conference starts at ten.",
     "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s1/p2-20/3.mp3",
-    "text": "C. Yes, let's take it.",
+    "text": "The traffic report says the highway is backed up.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-20/4.mp3",
+    "text": "Yes, let's take it.",
     "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s1/p2-21/0.mp3",
+    "text": "Number 21.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-21/1.mp3",
     "text": "Who's going to train the new hires next month?",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s1/p2-21/1.mp3",
-    "text": "A. About ten new employees.",
-    "voice": "en-AU-NatashaNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-21/2.mp3",
-    "text": "B. By train, I think.",
+    "text": "About ten new employees.",
     "voice": "en-AU-NatashaNeural"
   },
   {
     "file": "assets/audio/s1/p2-21/3.mp3",
-    "text": "C. Actually, the orientation might be pushed back to September.",
+    "text": "By train, I think.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-21/4.mp3",
+    "text": "Actually, the orientation might be pushed back to September.",
     "voice": "en-AU-NatashaNeural"
   },
   {
     "file": "assets/audio/s1/p2-22/0.mp3",
+    "text": "Number 22.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-22/1.mp3",
     "text": "How much did we spend on advertising last quarter?",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s1/p2-22/1.mp3",
-    "text": "A. The finance report isn't ready yet.",
-    "voice": "en-CA-LiamNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-22/2.mp3",
-    "text": "B. Mostly in online newspapers.",
+    "text": "The finance report isn't ready yet.",
     "voice": "en-CA-LiamNeural"
   },
   {
     "file": "assets/audio/s1/p2-22/3.mp3",
-    "text": "C. Yes, it was quite expensive.",
+    "text": "Mostly in online newspapers.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-22/4.mp3",
+    "text": "Yes, it was quite expensive.",
     "voice": "en-CA-LiamNeural"
   },
   {
     "file": "assets/audio/s1/p2-23/0.mp3",
+    "text": "Number 23.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-23/1.mp3",
     "text": "Would you mind reviewing my presentation slides this afternoon?",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s1/p2-23/1.mp3",
-    "text": "A. The slides are all in color.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-23/2.mp3",
-    "text": "B. I'm about to leave for a client visit.",
+    "text": "The slides are all in color.",
     "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-23/3.mp3",
-    "text": "C. Yes, the reviews were positive.",
+    "text": "I'm about to leave for a client visit.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-23/4.mp3",
+    "text": "Yes, the reviews were positive.",
     "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-24/0.mp3",
+    "text": "Number 24.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-24/1.mp3",
     "text": "Is there a pharmacy near the hotel?",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s1/p2-24/1.mp3",
-    "text": "A. Yes, take two tablets daily.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-24/2.mp3",
-    "text": "B. No, I'm feeling much better now.",
+    "text": "Yes, take two tablets daily.",
     "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s1/p2-24/3.mp3",
-    "text": "C. The front desk should have a map.",
+    "text": "No, I'm feeling much better now.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-24/4.mp3",
+    "text": "The front desk should have a map.",
     "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s1/p2-25/0.mp3",
+    "text": "Number 25.",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-25/1.mp3",
     "text": "The quarterly sales figures look strong, don't they?",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s1/p2-25/1.mp3",
-    "text": "A. December's numbers aren't included yet, though.",
-    "voice": "en-AU-NatashaNeural"
-  },
-  {
     "file": "assets/audio/s1/p2-25/2.mp3",
-    "text": "B. Yes, he exercises every day.",
+    "text": "December's numbers aren't included yet, though.",
     "voice": "en-AU-NatashaNeural"
   },
   {
     "file": "assets/audio/s1/p2-25/3.mp3",
-    "text": "C. In the sales department.",
+    "text": "Yes, he exercises every day.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p2-25/4.mp3",
+    "text": "In the sales department.",
     "voice": "en-AU-NatashaNeural"
   },
   {
     "file": "assets/audio/s1/p3-01/0.mp3",
-    "text": "Questions refer to the following conversation.",
+    "text": "Questions 1 through 3 refer to the following conversation.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -675,8 +800,23 @@
     "voice": "en-CA-ClaraNeural"
   },
   {
+    "file": "assets/audio/s1/p3-01/5.mp3",
+    "text": "Number 1. What are the speakers mainly discussing?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-01/6.mp3",
+    "text": "Number 2. What is the woman waiting for?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-01/7.mp3",
+    "text": "Number 3. What does the man offer to do?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
     "file": "assets/audio/s1/p3-02/0.mp3",
-    "text": "Questions refer to the following conversation.",
+    "text": "Questions 4 through 6 refer to the following conversation.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -700,8 +840,23 @@
     "voice": "en-US-GuyNeural"
   },
   {
+    "file": "assets/audio/s1/p3-02/5.mp3",
+    "text": "Number 4. Why did the man arrive at the hotel early?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-02/6.mp3",
+    "text": "Number 5. Why is the man's room not available?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-02/7.mp3",
+    "text": "Number 6. What does the man ask the woman to do?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
     "file": "assets/audio/s1/p3-03/0.mp3",
-    "text": "Questions refer to the following conversation.",
+    "text": "Questions 7 through 9 refer to the following conversation.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -725,8 +880,23 @@
     "voice": "en-GB-SoniaNeural"
   },
   {
+    "file": "assets/audio/s1/p3-03/5.mp3",
+    "text": "Number 7. What problem are the speakers discussing?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-03/6.mp3",
+    "text": "Number 8. What does the man think is the cause of the problem?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-03/7.mp3",
+    "text": "Number 9. What will the woman do by tomorrow?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
     "file": "assets/audio/s1/p3-04/0.mp3",
-    "text": "Questions refer to the following conversation.",
+    "text": "Questions 10 through 12 refer to the following conversation.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -750,8 +920,23 @@
     "voice": "en-AU-WilliamNeural"
   },
   {
+    "file": "assets/audio/s1/p3-04/5.mp3",
+    "text": "Number 10. Why is the woman calling?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-04/6.mp3",
+    "text": "Number 11. What will happen next week?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-04/7.mp3",
+    "text": "Number 12. What does the man ask the woman to send?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
     "file": "assets/audio/s1/p3-05/0.mp3",
-    "text": "Questions refer to the following conversation with three speakers.",
+    "text": "Questions 13 through 15 refer to the following conversation with three speakers.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -785,8 +970,23 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s1/p3-05/7.mp3",
+    "text": "Number 13. What event are the speakers preparing for?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-05/8.mp3",
+    "text": "Number 14. What does Olivia suggest?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-05/9.mp3",
+    "text": "Number 15. What will the man most likely do next?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
     "file": "assets/audio/s1/p3-06/0.mp3",
-    "text": "Questions refer to the following conversation.",
+    "text": "Questions 16 through 18 refer to the following conversation.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -815,8 +1015,23 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s1/p3-06/6.mp3",
+    "text": "Number 16. Why is the woman calling?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-06/7.mp3",
+    "text": "Number 17. What does the man ask the woman to provide?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-06/8.mp3",
+    "text": "Number 18. What does the woman say she will do?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
     "file": "assets/audio/s1/p3-07/0.mp3",
-    "text": "Questions refer to the following conversation with three speakers.",
+    "text": "Questions 19 through 21 refer to the following conversation with three speakers.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -850,8 +1065,23 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s1/p3-07/7.mp3",
+    "text": "Number 19. What will happen on Saturday?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-07/8.mp3",
+    "text": "Number 20. What does Daniel offer to do?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-07/9.mp3",
+    "text": "Number 21. What does the woman say she will do this afternoon?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
     "file": "assets/audio/s1/p3-08/0.mp3",
-    "text": "Questions refer to the following conversation.",
+    "text": "Questions 22 through 24 refer to the following conversation and list.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -875,8 +1105,23 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s1/p3-08/5.mp3",
+    "text": "Number 22. Look at the graphic. Which room will the man most likely reserve?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-08/6.mp3",
+    "text": "Number 23. Who will join the meeting remotely?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-08/7.mp3",
+    "text": "Number 24. What time will the meeting most likely start?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
     "file": "assets/audio/s1/p3-09/0.mp3",
-    "text": "Questions refer to the following conversation.",
+    "text": "Questions 25 through 27 refer to the following conversation.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -905,8 +1150,23 @@
     "voice": "en-CA-ClaraNeural"
   },
   {
+    "file": "assets/audio/s1/p3-09/6.mp3",
+    "text": "Number 25. What is the woman preparing for?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-09/7.mp3",
+    "text": "Number 26. What does the man imply when he says, \"It's already Wednesday\"?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-09/8.mp3",
+    "text": "Number 27. What does the man agree to do?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
     "file": "assets/audio/s1/p3-10/0.mp3",
-    "text": "Questions refer to the following conversation.",
+    "text": "Questions 28 through 30 refer to the following conversation.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -940,8 +1200,23 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s1/p3-10/7.mp3",
+    "text": "Number 28. Why does the man want to return the jacket?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-10/8.mp3",
+    "text": "Number 29. What problem does the man have?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-10/9.mp3",
+    "text": "Number 30. What does the woman say about the Riverside branch?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
     "file": "assets/audio/s1/p3-11/0.mp3",
-    "text": "Questions refer to the following conversation.",
+    "text": "Questions 31 through 33 refer to the following conversation.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -965,8 +1240,23 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s1/p3-11/5.mp3",
+    "text": "Number 31. What does the woman want to do?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-11/6.mp3",
+    "text": "Number 32. Why will the fee be waived?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-11/7.mp3",
+    "text": "Number 33. What will the woman receive by e-mail?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
     "file": "assets/audio/s1/p3-12/0.mp3",
-    "text": "Questions refer to the following conversation.",
+    "text": "Questions 34 through 36 refer to the following conversation and invoice.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -990,8 +1280,23 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s1/p3-12/5.mp3",
+    "text": "Number 34. Look at the graphic. How much will the man be refunded?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-12/6.mp3",
+    "text": "Number 35. What does the man ask the woman to send?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-12/7.mp3",
+    "text": "Number 36. According to the woman, when will the refund appear?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
     "file": "assets/audio/s1/p3-13/0.mp3",
-    "text": "Questions refer to the following conversation.",
+    "text": "Questions 37 through 39 refer to the following conversation.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -1015,8 +1320,23 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s1/p3-13/5.mp3",
+    "text": "Number 37. What does the woman ask about?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-13/6.mp3",
+    "text": "Number 38. According to the man, how long does the application take?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p3-13/7.mp3",
+    "text": "Number 39. What does the man suggest the woman do?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
     "file": "assets/audio/s1/p4-01/0.mp3",
-    "text": "Questions refer to the following talk.",
+    "text": "Questions 1 through 3 refer to the following telephone message.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -1025,8 +1345,23 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s1/p4-01/2.mp3",
+    "text": "Number 1. Why is the speaker calling?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-01/3.mp3",
+    "text": "Number 2. What does the speaker say about the clinic?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-01/4.mp3",
+    "text": "Number 3. What should the listener do if he needs to make a change?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
     "file": "assets/audio/s1/p4-02/0.mp3",
-    "text": "Questions refer to the following talk.",
+    "text": "Questions 4 through 6 refer to the following announcement.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -1035,8 +1370,23 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s1/p4-02/2.mp3",
+    "text": "Number 4. According to the speaker, what will happen on August 1?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-02/3.mp3",
+    "text": "Number 5. How many sessions does an employee need to attend?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-02/4.mp3",
+    "text": "Number 6. According to the speaker, what will be available on the intranet?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
     "file": "assets/audio/s1/p4-03/0.mp3",
-    "text": "Questions refer to the following talk.",
+    "text": "Questions 7 through 9 refer to the following advertisement.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -1045,8 +1395,23 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s1/p4-03/2.mp3",
+    "text": "Number 7. What type of business is being advertised?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-03/3.mp3",
+    "text": "Number 8. What is offered in October?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-03/4.mp3",
+    "text": "Number 9. How can listeners make a booking?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
     "file": "assets/audio/s1/p4-04/0.mp3",
-    "text": "Questions refer to the following talk.",
+    "text": "Questions 10 through 12 refer to the following excerpt from a meeting.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -1055,8 +1420,23 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s1/p4-04/2.mp3",
+    "text": "Number 10. What is the speaker mainly discussing?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-04/3.mp3",
+    "text": "Number 11. According to the speaker, why did delivery speed improve?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-04/4.mp3",
+    "text": "Number 12. What will Maria do next month?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
     "file": "assets/audio/s1/p4-05/0.mp3",
-    "text": "Questions refer to the following talk.",
+    "text": "Questions 13 through 15 refer to the following announcement and schedule.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -1065,8 +1445,23 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s1/p4-05/2.mp3",
+    "text": "Number 13. Look at the graphic. Which gate information is no longer correct?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-05/3.mp3",
+    "text": "Number 14. Why has the gate been changed?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-05/4.mp3",
+    "text": "Number 15. What does the speaker say about the arrival time?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
     "file": "assets/audio/s1/p4-06/0.mp3",
-    "text": "Questions refer to the following talk.",
+    "text": "Questions 16 through 18 refer to the following talk.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -1075,8 +1470,23 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s1/p4-06/2.mp3",
+    "text": "Number 16. What does the speaker remind the listeners to do?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-06/3.mp3",
+    "text": "Number 17. Where will the tour begin?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-06/4.mp3",
+    "text": "Number 18. How can the listeners receive a discount?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
     "file": "assets/audio/s1/p4-07/0.mp3",
-    "text": "Questions refer to the following talk.",
+    "text": "Questions 19 through 21 refer to the following telephone message.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -1085,8 +1495,23 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s1/p4-07/2.mp3",
+    "text": "Number 19. Which position did the listener apply for?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-07/3.mp3",
+    "text": "Number 20. What is the listener asked to bring?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-07/4.mp3",
+    "text": "Number 21. Why should the listener call back by Wednesday?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
     "file": "assets/audio/s1/p4-08/0.mp3",
-    "text": "Questions refer to the following talk.",
+    "text": "Questions 22 through 24 refer to the following broadcast.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -1095,8 +1520,23 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s1/p4-08/2.mp3",
+    "text": "Number 22. What is causing delays on the Harbor Bridge?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-08/3.mp3",
+    "text": "Number 23. What does the speaker recommend?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-08/4.mp3",
+    "text": "Number 24. According to the speaker, what will happen at 4 P.M.?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
     "file": "assets/audio/s1/p4-09/0.mp3",
-    "text": "Questions refer to the following talk.",
+    "text": "Questions 25 through 27 refer to the following excerpt from a meeting and agenda.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -1105,13 +1545,43 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s1/p4-09/2.mp3",
+    "text": "Number 25. Look at the graphic. Which agenda item will be postponed?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-09/3.mp3",
+    "text": "Number 26. Why will an item be postponed?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-09/4.mp3",
+    "text": "Number 27. What are the listeners asked to do?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
     "file": "assets/audio/s1/p4-10/0.mp3",
-    "text": "Questions refer to the following talk.",
+    "text": "Questions 28 through 30 refer to the following speech.",
     "voice": "en-US-AriaNeural"
   },
   {
     "file": "assets/audio/s1/p4-10/1.mp3",
     "text": "Thank you all for coming tonight. As you know, we're here to celebrate Margaret Liu, who is retiring after twenty-five years with Fairbanks Logistics. Margaret joined us as a part-time clerk and worked her way up to director of the warehouse division, where she introduced the barcode system that cut our shipping errors in half. On behalf of everyone at the company, we'd like to present her with this plaque and a travel voucher — we hear she's planning a long trip to Spain. Margaret, would you come up and say a few words?",
     "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-10/2.mp3",
+    "text": "Number 28. How long has Ms. Liu worked at the company?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-10/3.mp3",
+    "text": "Number 29. According to the speaker, what did Ms. Liu introduce?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s1/p4-10/4.mp3",
+    "text": "Number 30. What will Ms. Liu most likely do next?",
+    "voice": "en-US-AriaNeural"
   }
 ]
