@@ -14,10 +14,16 @@
   var SETS = [
     { id: "s1", name: "セット1", data: window.TOEIC_DATA || {} }
   ];
-  // セット2は全パート(part7まで)がそろってから選択肢に出す
-  if (window.TOEIC_DATA_2 && window.TOEIC_DATA_2.part7) {
-    SETS.push({ id: "s2", name: "セット2", data: window.TOEIC_DATA_2 });
-  }
+  // セット2以降は全パート(part7まで)がそろってから選択肢に出す
+  [
+    { id: "s2", name: "セット2", data: window.TOEIC_DATA_2 },
+    { id: "s3", name: "セット3", data: window.TOEIC_DATA_3 },
+    { id: "s4", name: "セット4", data: window.TOEIC_DATA_4 },
+    { id: "s5", name: "セット5", data: window.TOEIC_DATA_5 },
+    { id: "s6", name: "セット6", data: window.TOEIC_DATA_6 }
+  ].forEach(function (s) {
+    if (s.data && s.data.part7) SETS.push({ id: s.id, name: s.name, data: s.data });
+  });
   var activeSetIdx = 0;
   (function () {
     try {
