@@ -1,89 +1,89 @@
-// Part 1: 写真描写問題(モノクロのオリジナルイラスト使用。イラストは自作のため著作権フリー)
-// 本番同様、説明文は印刷されず音声のみ。イラストを見て最も適切な描写文を選ぶ。
+// Part 1: 写真描写問題(実写モノクロ写真を使用)
+// 本番同様、説明文は印刷されず音声のみ。写真を見て最も適切な描写文を選ぶ。
 window.TOEIC_DATA = window.TOEIC_DATA || {};
 window.TOEIC_DATA.part1 = [
   {
     id: "p1-01",
-    image: "assets/part1/p1-01.svg",
-    speaker: "W",
+    image: "assets/part1/p1-01.jpg",
+    speaker: "M",
     choices: [
-      "She is talking on the phone.",
-      "She is typing on a computer.",
-      "She is opening a window.",
-      "She is filing some documents."
+      "A man is sweeping a walkway.",
+      "A man is putting on his jacket.",
+      "A woman is sitting on a bench.",
+      "A man is planting a tree."
     ],
-    answer: 1,
-    translation: "(A) 彼女は電話で話しています。\n(B) 彼女はコンピューターで入力しています。\n(C) 彼女は窓を開けています。\n(D) 彼女は書類をファイルしています。",
-    explanation: "机に向かいノートパソコンに手を伸ばしている=typing on a computer。Part 1は『今している動作』を現在進行形で正しく描写した文を選ぶ。電話・窓・書類は絵に存在しない。"
+    answer: 0,
+    translation: "(A) 男性が歩道を掃いています。\n(B) 男性が上着を着ているところです。\n(C) 女性がベンチに座っています。\n(D) 男性が木を植えています。",
+    explanation: "男性がほうきで落ち葉のある歩道を掃いている=sweeping a walkway。(B)の put on は『着る動作』で、すでに着ているので誤り。ベンチには誰も座っておらず、木を植えてもいない。"
   },
   {
     id: "p1-02",
-    image: "assets/part1/p1-02.svg",
-    speaker: "M",
+    image: "assets/part1/p1-02.jpg",
+    speaker: "W",
     choices: [
-      "A man is repairing a bicycle.",
-      "Some people are riding bicycles.",
-      "Some bicycles are parked in a row.",
-      "A bicycle is lying on the ground."
+      "She is wiping down a window.",
+      "She is placing a glass on a table.",
+      "Customers are being seated.",
+      "She is hanging a picture on the wall."
     ],
-    answer: 2,
-    translation: "(A) 男性が自転車を修理しています。\n(B) 何人かの人が自転車に乗っています。\n(C) 何台かの自転車が並んで停められています。\n(D) 自転車が地面に倒れています。",
-    explanation: "人が写っていない写真では、人の動作(repairing / riding)を含む選択肢は自動的に誤り。物の状態を受動態で表した parked in a row(並んで停められている)が正解。"
+    answer: 1,
+    translation: "(A) 彼女は窓を拭いています。\n(B) 彼女はテーブルにグラスを置いています。\n(C) 客が席に案内されています。\n(D) 彼女は壁に絵を掛けています。",
+    explanation: "エプロン姿の女性がテーブルにグラスを置いている=placing a glass on a table。店内は無人なので(C)『客が案内されている』は誤り。窓拭きや絵を掛ける動作もしていない。"
   },
   {
     id: "p1-03",
-    image: "assets/part1/p1-03.svg",
-    speaker: "W",
+    image: "assets/part1/p1-03.jpg",
+    speaker: "M",
     choices: [
-      "The men are shaking hands.",
-      "The men are moving a table.",
-      "One of the men is writing on a board.",
-      "The men are putting on their jackets."
+      "He is weighing some vegetables.",
+      "He is pushing a shopping cart.",
+      "He is arranging fruit in a display.",
+      "He is paying at the register."
     ],
-    answer: 0,
-    translation: "(A) 男性たちは握手をしています。\n(B) 男性たちはテーブルを動かしています。\n(C) 男性の1人がボードに書いています。\n(D) 男性たちは上着を着ているところです。",
-    explanation: "2人が手を取り合っている=shaking hands。(D)の put on は『着る』という動作。すでに着ている状態なら wear を使うので、着る動作をしていないこの絵では誤り(put on / wear の区別はPart 1頻出)。"
+    answer: 2,
+    translation: "(A) 彼は野菜の重さを量っています。\n(B) 彼はショッピングカートを押しています。\n(C) 彼は陳列棚に果物を並べています。\n(D) 彼はレジで支払いをしています。",
+    explanation: "エプロン姿の店員が木箱にリンゴを並べている=arranging fruit in a display。量りやカート、レジは絵になく、店員は客ではないので支払いもしていない。"
   },
   {
     id: "p1-04",
-    image: "assets/part1/p1-04.svg",
+    image: "assets/part1/p1-04.jpg",
     speaker: "M",
     choices: [
-      "A man is pushing a cart.",
-      "Some boxes are being opened.",
-      "A cart is being loaded onto a truck.",
-      "Some boxes have been stacked on a cart."
+      "He is loading boxes onto a truck.",
+      "He is operating a forklift.",
+      "He is sealing a cardboard box.",
+      "He is placing a box on a shelf."
     ],
     answer: 3,
-    translation: "(A) 男性が台車を押しています。\n(B) 箱が開けられているところです。\n(C) 台車がトラックに積み込まれているところです。\n(D) 箱が台車の上に積み重ねられています。",
-    explanation: "have been + 過去分詞は『すでに〜された状態』。箱は積まれた状態なので(D)。(B)(C)の be being + 過去分詞は『今まさに人が〜している最中』の意味で、作業する人が写っていないため誤り。この区別がPart 1最大の得点ポイント。"
+    translation: "(A) 彼は箱をトラックに積み込んでいます。\n(B) 彼はフォークリフトを操作しています。\n(C) 彼は段ボール箱を封しています。\n(D) 彼は棚に箱を置いています。",
+    explanation: "倉庫で男性が箱を棚に載せている=placing a box on a shelf。トラックやフォークリフトは写っておらず、箱を封じる動作もしていない。手前の台車(pallet jack)に注意を引くひっかけに惑わされないこと。"
   },
   {
     id: "p1-05",
-    image: "assets/part1/p1-05.svg",
+    image: "assets/part1/p1-05.jpg",
     speaker: "W",
     choices: [
-      "A man is planting a tree.",
-      "A man is trimming some bushes.",
-      "A man is watering a plant.",
-      "A man is carrying a ladder."
+      "A man is waiting on a platform.",
+      "A man is boarding a train.",
+      "A man is climbing the stairs.",
+      "Passengers are getting off the train."
     ],
-    answer: 2,
-    translation: "(A) 男性が木を植えています。\n(B) 男性が茂みを刈り込んでいます。\n(C) 男性が植物に水をやっています。\n(D) 男性がはしごを運んでいます。",
-    explanation: "じょうろで鉢植えに水をやっている=watering a plant。plant(植える)/ water(水をやる)/ trim(刈る)は同じ園芸の場面で混同を誘う定番の動詞セット。"
+    answer: 0,
+    translation: "(A) 男性がホームで待っています。\n(B) 男性が電車に乗り込んでいます。\n(C) 男性が階段を上っています。\n(D) 乗客が電車から降りています。",
+    explanation: "スーツケースの取っ手を持った男性が、ホームに立って電車を見ている=waiting on a platform。まだ乗り込んでおらず(boarding は誤り)、階段も他の乗客も写っていない。"
   },
   {
     id: "p1-06",
-    image: "assets/part1/p1-06.svg",
+    image: "assets/part1/p1-06.jpg",
     speaker: "M",
     choices: [
-      "People are seated around the table.",
-      "Chairs have been arranged around a table.",
-      "Chairs are being moved into a room.",
-      "The table is being cleaned."
+      "He is writing on the whiteboard.",
+      "He is typing on a laptop.",
+      "He is setting a stack of papers on a table.",
+      "He is pouring coffee into a cup."
     ],
-    answer: 1,
-    translation: "(A) 人々がテーブルの周りに座っています。\n(B) 椅子がテーブルの周りに配置されています。\n(C) 椅子が部屋に運び込まれているところです。\n(D) テーブルが掃除されているところです。",
-    explanation: "無人の部屋の写真。人がいないので(A)(C)(D)はすべて誤り。物の配置済みの状態を表す have been arranged(配置されている)が正解。『無人の部屋+状態受動態』はPart 1の頻出パターン。"
+    answer: 2,
+    translation: "(A) 彼はホワイトボードに書いています。\n(B) 彼はノートパソコンで入力しています。\n(C) 彼は書類の束をテーブルに置いています。\n(D) 彼はカップにコーヒーを注いでいます。",
+    explanation: "会議室で男性が書類の束をテーブルに置いている=setting a stack of papers on a table。ホワイトボードは空白で書いておらず、パソコンやコーヒーカップは机上にあるが、彼はそれらを操作・注いではいない(存在する物で誤答を誘うひっかけ)。"
   }
 ];

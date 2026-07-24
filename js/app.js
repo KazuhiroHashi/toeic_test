@@ -835,6 +835,17 @@
     app.innerHTML = html;
     window.scrollTo(0, 0);
 
+    // 写真がまだアップロードされていない場合、壊れた画像アイコンの代わりに案内を出す
+    var p1img = app.querySelector(".p1-image img");
+    if (p1img) {
+      p1img.addEventListener("error", function () {
+        p1img.style.display = "none";
+        p1img.insertAdjacentHTML("afterend",
+          '<p class="audio-note">写真ファイル(' + esc(t.image) +
+          ')が見つかりません。リポジトリの assets/part1/ に画像を追加してください。</p>');
+      });
+    }
+
     document.getElementById("quit").addEventListener("click", function () {
       if (confirm("中断してホームに戻りますか?(このセッションの結果は保存されません)")) showHome();
     });
