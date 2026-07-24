@@ -393,9 +393,9 @@
         hideChoices: true,
         id: it.id,
         image: it.image,
-        // 本番同様、記号(A)〜(D)は読み上げず英文のみを順に流す
-        audio: it.choices.map(function (c) {
-          return { speaker: it.speaker || "M", text: c, gapAfter: 1000 };
+        // 本番同様、各説明文の前に記号(A.〜D.)を読み上げる
+        audio: it.choices.map(function (c, i) {
+          return { speaker: it.speaker || "M", text: LETTERS[i] + ". " + c, gapAfter: 1000 };
         }),
         script: it.choices.map(function (c, i) { return "(" + LETTERS[i] + ") " + c; }).join("\n"),
         translation: it.translation,
@@ -417,10 +417,10 @@
         listening: true,
         hideChoices: true,
         id: it.id,
-        // 本番同様、記号(A)〜(C)は読み上げず、質問→3つの応答を順に流す
+        // 本番同様、質問の後、各応答の前に記号(A.〜C.)を読み上げる
         audio: [{ speaker: it.question.speaker, text: it.question.text, gapAfter: 1000 }].concat(
-          it.choices.map(function (c) {
-            return { speaker: it.question.speaker === "W" ? "M" : "W", text: c, gapAfter: 1000 };
+          it.choices.map(function (c, i) {
+            return { speaker: it.question.speaker === "W" ? "M" : "W", text: LETTERS[i] + ". " + c, gapAfter: 1000 };
           })
         ),
         script: it.question.text + "\n" + it.choices.map(function (c, i) { return "(" + LETTERS[i] + ") " + c; }).join("\n"),

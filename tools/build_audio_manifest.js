@@ -7,8 +7,8 @@
  *   tools/audio_manifest.json  … 生成スクリプト(generate_audio.py)が読む(各ファイルの英文と声)
  *
  * 本番TOEICの音声形式に準拠:
- *   Part 1: 「Look at the picture marked number N in your test book.」→ 記号なしで4つの説明文
- *   Part 2: 「Number N.」→ 質問 → 記号なしで3つの応答
+ *   Part 1: 「Look at the picture marked number N in your test book.」→ A.〜D. 付きで4つの説明文
+ *   Part 2: 「Number N.」→ 質問 → A.〜C. 付きで3つの応答
  *   Part 3: 「Questions X through Y refer to the following conversation
  *            [with three speakers][ and 図表種別].」→ 会話 → 設問読み上げ(各8秒ポーズ)
  *   Part 4: 同上(conversation の代わりにトーク種別: telephone message / announcement 等)
@@ -62,16 +62,18 @@ function addTask(taskid, lines) {
   manifest[SETID + ":" + taskid] = files;
 }
 
-// Part 1: 導入 + 記号なしの4つの説明文
+var LETTERS = ["A", "B", "C", "D"];
+
+// Part 1: 導入 + A.〜D. 付きの4つの説明文
 DATA.part1.forEach(function (it, idx) {
   var lines = [{ speaker: "N", text: "Look at the picture marked number " + (idx + 1) + " in your test book.", gapAfter: 1000 }];
-  it.choices.forEach(function (c) {
-    lines.push({ speaker: it.speaker || "M", text: c, gapAfter: 1000 });
+  it.choices.forEach(function (c, i) {
+    lines.push({ speaker: it.speaker || "M", text: LETTERS[i] + ". " + c, gapAfter: 1000 });
   });
   addTask(it.id, lines);
 });
 
-// Part 2: 「Number N.」 + 質問 + 記号なしの3つの応答
+// Part 2: 「Number N.」 + 質問 + A.〜C. 付きの3つの応答
 DATA.part2.forEach(function (it, idx) {
   var qsp = it.question.speaker;
   var osp = qsp === "W" ? "M" : "W";
@@ -79,8 +81,8 @@ DATA.part2.forEach(function (it, idx) {
     { speaker: "N", text: "Number " + (idx + 1) + ".", gapAfter: 700 },
     { speaker: qsp, text: it.question.text, gapAfter: 1000 }
   ];
-  it.choices.forEach(function (c) {
-    lines.push({ speaker: osp, text: c, gapAfter: 1000 });
+  it.choices.forEach(function (c, i) {
+    lines.push({ speaker: osp, text: LETTERS[i] + ". " + c, gapAfter: 1000 });
   });
   addTask(it.id, lines);
 });
