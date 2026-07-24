@@ -359,7 +359,7 @@
         translation: it.translation,
         questions: [{
           id: it.id,
-          prompt: "イラストを最もよく描写している文を選んでください。",
+          prompt: "写真を最もよく描写している文を選んでください。",
           choices: it.choices,
           answer: it.answer,
           explanation: it.explanation
@@ -795,7 +795,7 @@
 
     // 写真(Part 1)
     if (t.image) {
-      html += '<div class="p1-image"><img src="' + esc(t.image) + '" alt="写真描写問題のイラスト"></div>';
+      html += '<div class="p1-image"><img src="' + esc(t.image) + '" alt="写真描写問題の写真"></div>';
     }
 
     // 文書(Part 6/7)
