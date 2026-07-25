@@ -6,47 +6,23 @@
     "rate": "-8%"
   },
   {
-    "file": "assets/audio/letters/en-US-GuyNeural/A.mp3",
-    "text": "A.",
-    "voice": "en-US-GuyNeural",
-    "prebuilt": true
+    "file": "assets/audio/s1/p1-01/1.mp3",
+    "text": "A. A man is sweeping a walkway.",
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p1-01/2.mp3",
-    "text": "A man is sweeping a walkway.",
+    "text": "B. A man is putting on his jacket.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/letters/en-US-GuyNeural/B.mp3",
-    "text": "B.",
-    "voice": "en-US-GuyNeural",
-    "prebuilt": true
+    "file": "assets/audio/s1/p1-01/3.mp3",
+    "text": "C. A woman is sitting on a bench.",
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p1-01/4.mp3",
-    "text": "A man is putting on his jacket.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/letters/en-US-GuyNeural/C.mp3",
-    "text": "C.",
-    "voice": "en-US-GuyNeural",
-    "prebuilt": true
-  },
-  {
-    "file": "assets/audio/s1/p1-01/6.mp3",
-    "text": "A woman is sitting on a bench.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/letters/en-US-GuyNeural/D.mp3",
-    "text": "D.",
-    "voice": "en-US-GuyNeural",
-    "prebuilt": true
-  },
-  {
-    "file": "assets/audio/s1/p1-01/8.mp3",
-    "text": "A man is planting a tree.",
+    "text": "D. A man is planting a tree.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -56,47 +32,23 @@
     "rate": "-8%"
   },
   {
-    "file": "assets/audio/letters/en-GB-SoniaNeural/A.mp3",
-    "text": "A.",
-    "voice": "en-GB-SoniaNeural",
-    "prebuilt": true
+    "file": "assets/audio/s1/p1-02/1.mp3",
+    "text": "A. She is wiping down a window.",
+    "voice": "en-GB-SoniaNeural"
   },
   {
     "file": "assets/audio/s1/p1-02/2.mp3",
-    "text": "She is wiping down a window.",
+    "text": "B. She is placing a glass on a table.",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/letters/en-GB-SoniaNeural/B.mp3",
-    "text": "B.",
-    "voice": "en-GB-SoniaNeural",
-    "prebuilt": true
+    "file": "assets/audio/s1/p1-02/3.mp3",
+    "text": "C. Customers are being seated.",
+    "voice": "en-GB-SoniaNeural"
   },
   {
     "file": "assets/audio/s1/p1-02/4.mp3",
-    "text": "She is placing a glass on a table.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/letters/en-GB-SoniaNeural/C.mp3",
-    "text": "C.",
-    "voice": "en-GB-SoniaNeural",
-    "prebuilt": true
-  },
-  {
-    "file": "assets/audio/s1/p1-02/6.mp3",
-    "text": "Customers are being seated.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/letters/en-GB-SoniaNeural/D.mp3",
-    "text": "D.",
-    "voice": "en-GB-SoniaNeural",
-    "prebuilt": true
-  },
-  {
-    "file": "assets/audio/s1/p1-02/8.mp3",
-    "text": "She is hanging a picture on the wall.",
+    "text": "D. She is hanging a picture on the wall.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -106,47 +58,23 @@
     "rate": "-8%"
   },
   {
-    "file": "assets/audio/letters/en-AU-WilliamNeural/A.mp3",
-    "text": "A.",
-    "voice": "en-AU-WilliamNeural",
-    "prebuilt": true
+    "file": "assets/audio/s1/p1-03/1.mp3",
+    "text": "A. He is weighing some vegetables.",
+    "voice": "en-AU-WilliamNeural"
   },
   {
     "file": "assets/audio/s1/p1-03/2.mp3",
-    "text": "He is weighing some vegetables.",
+    "text": "B. He is pushing a shopping cart.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/letters/en-AU-WilliamNeural/B.mp3",
-    "text": "B.",
-    "voice": "en-AU-WilliamNeural",
-    "prebuilt": true
+    "file": "assets/audio/s1/p1-03/3.mp3",
+    "text": "C. He is arranging fruit in a display.",
+    "voice": "en-AU-WilliamNeural"
   },
   {
     "file": "assets/audio/s1/p1-03/4.mp3",
-    "text": "He is pushing a shopping cart.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/letters/en-AU-WilliamNeural/C.mp3",
-    "text": "C.",
-    "voice": "en-AU-WilliamNeural",
-    "prebuilt": true
-  },
-  {
-    "file": "assets/audio/s1/p1-03/6.mp3",
-    "text": "He is arranging fruit in a display.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/letters/en-AU-WilliamNeural/D.mp3",
-    "text": "D.",
-    "voice": "en-AU-WilliamNeural",
-    "prebuilt": true
-  },
-  {
-    "file": "assets/audio/s1/p1-03/8.mp3",
-    "text": "He is paying at the register.",
+    "text": "D. He is paying at the register.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -156,47 +84,23 @@
     "rate": "-8%"
   },
   {
-    "file": "assets/audio/letters/en-CA-LiamNeural/A.mp3",
-    "text": "A.",
-    "voice": "en-CA-LiamNeural",
-    "prebuilt": true
+    "file": "assets/audio/s1/p1-04/1.mp3",
+    "text": "A. He is loading boxes onto a truck.",
+    "voice": "en-CA-LiamNeural"
   },
   {
     "file": "assets/audio/s1/p1-04/2.mp3",
-    "text": "He is loading boxes onto a truck.",
+    "text": "B. He is operating a forklift.",
     "voice": "en-CA-LiamNeural"
   },
   {
-    "file": "assets/audio/letters/en-CA-LiamNeural/B.mp3",
-    "text": "B.",
-    "voice": "en-CA-LiamNeural",
-    "prebuilt": true
+    "file": "assets/audio/s1/p1-04/3.mp3",
+    "text": "C. He is sealing a cardboard box.",
+    "voice": "en-CA-LiamNeural"
   },
   {
     "file": "assets/audio/s1/p1-04/4.mp3",
-    "text": "He is operating a forklift.",
-    "voice": "en-CA-LiamNeural"
-  },
-  {
-    "file": "assets/audio/letters/en-CA-LiamNeural/C.mp3",
-    "text": "C.",
-    "voice": "en-CA-LiamNeural",
-    "prebuilt": true
-  },
-  {
-    "file": "assets/audio/s1/p1-04/6.mp3",
-    "text": "He is sealing a cardboard box.",
-    "voice": "en-CA-LiamNeural"
-  },
-  {
-    "file": "assets/audio/letters/en-CA-LiamNeural/D.mp3",
-    "text": "D.",
-    "voice": "en-CA-LiamNeural",
-    "prebuilt": true
-  },
-  {
-    "file": "assets/audio/s1/p1-04/8.mp3",
-    "text": "He is placing a box on a shelf.",
+    "text": "D. He is placing a box on a shelf.",
     "voice": "en-CA-LiamNeural"
   },
   {
@@ -206,47 +110,23 @@
     "rate": "-8%"
   },
   {
-    "file": "assets/audio/letters/en-US-JennyNeural/A.mp3",
-    "text": "A.",
-    "voice": "en-US-JennyNeural",
-    "prebuilt": true
+    "file": "assets/audio/s1/p1-05/1.mp3",
+    "text": "A. A man is waiting on a platform.",
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p1-05/2.mp3",
-    "text": "A man is waiting on a platform.",
+    "text": "B. A man is boarding a train.",
     "voice": "en-US-JennyNeural"
   },
   {
-    "file": "assets/audio/letters/en-US-JennyNeural/B.mp3",
-    "text": "B.",
-    "voice": "en-US-JennyNeural",
-    "prebuilt": true
+    "file": "assets/audio/s1/p1-05/3.mp3",
+    "text": "C. A man is climbing the stairs.",
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p1-05/4.mp3",
-    "text": "A man is boarding a train.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
-    "file": "assets/audio/letters/en-US-JennyNeural/C.mp3",
-    "text": "C.",
-    "voice": "en-US-JennyNeural",
-    "prebuilt": true
-  },
-  {
-    "file": "assets/audio/s1/p1-05/6.mp3",
-    "text": "A man is climbing the stairs.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
-    "file": "assets/audio/letters/en-US-JennyNeural/D.mp3",
-    "text": "D.",
-    "voice": "en-US-JennyNeural",
-    "prebuilt": true
-  },
-  {
-    "file": "assets/audio/s1/p1-05/8.mp3",
-    "text": "Passengers are getting off the train.",
+    "text": "D. Passengers are getting off the train.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -256,47 +136,23 @@
     "rate": "-8%"
   },
   {
-    "file": "assets/audio/letters/en-GB-RyanNeural/A.mp3",
-    "text": "A.",
-    "voice": "en-GB-RyanNeural",
-    "prebuilt": true
+    "file": "assets/audio/s1/p1-06/1.mp3",
+    "text": "A. He is writing on the whiteboard.",
+    "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s1/p1-06/2.mp3",
-    "text": "He is writing on the whiteboard.",
+    "text": "B. He is typing on a laptop.",
     "voice": "en-GB-RyanNeural"
   },
   {
-    "file": "assets/audio/letters/en-GB-RyanNeural/B.mp3",
-    "text": "B.",
-    "voice": "en-GB-RyanNeural",
-    "prebuilt": true
+    "file": "assets/audio/s1/p1-06/3.mp3",
+    "text": "C. He is setting a stack of papers on a table.",
+    "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s1/p1-06/4.mp3",
-    "text": "He is typing on a laptop.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/letters/en-GB-RyanNeural/C.mp3",
-    "text": "C.",
-    "voice": "en-GB-RyanNeural",
-    "prebuilt": true
-  },
-  {
-    "file": "assets/audio/s1/p1-06/6.mp3",
-    "text": "He is setting a stack of papers on a table.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/letters/en-GB-RyanNeural/D.mp3",
-    "text": "D.",
-    "voice": "en-GB-RyanNeural",
-    "prebuilt": true
-  },
-  {
-    "file": "assets/audio/s1/p1-06/8.mp3",
-    "text": "He is pouring coffee into a cup.",
+    "text": "D. He is pouring coffee into a cup.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -311,18 +167,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s1/p2-01/2.mp3",
+    "text": "A. It's on your desk, next to the phone.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-01/3.mp3",
-    "text": "It's on your desk, next to the phone.",
+    "text": "B. Yes, the market opens at nine.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s1/p2-01/5.mp3",
-    "text": "Yes, the market opens at nine.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-01/7.mp3",
-    "text": "She reported it yesterday.",
+    "file": "assets/audio/s1/p2-01/4.mp3",
+    "text": "C. She reported it yesterday.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -337,36 +193,18 @@
     "voice": "en-CA-LiamNeural"
   },
   {
-    "file": "assets/audio/letters/en-CA-ClaraNeural/A.mp3",
-    "text": "A.",
-    "voice": "en-CA-ClaraNeural",
-    "prebuilt": true
+    "file": "assets/audio/s1/p2-02/2.mp3",
+    "text": "A. In the main conference room.",
+    "voice": "en-CA-ClaraNeural"
   },
   {
     "file": "assets/audio/s1/p2-02/3.mp3",
-    "text": "In the main conference room.",
+    "text": "B. At ten thirty, right after the break.",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/letters/en-CA-ClaraNeural/B.mp3",
-    "text": "B.",
-    "voice": "en-CA-ClaraNeural",
-    "prebuilt": true
-  },
-  {
-    "file": "assets/audio/s1/p2-02/5.mp3",
-    "text": "At ten thirty, right after the break.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/letters/en-CA-ClaraNeural/C.mp3",
-    "text": "C.",
-    "voice": "en-CA-ClaraNeural",
-    "prebuilt": true
-  },
-  {
-    "file": "assets/audio/s1/p2-02/7.mp3",
-    "text": "It lasted two hours.",
+    "file": "assets/audio/s1/p2-02/4.mp3",
+    "text": "C. It lasted two hours.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -381,18 +219,18 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s1/p2-03/2.mp3",
+    "text": "A. It starts next Monday.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-03/3.mp3",
-    "text": "It starts next Monday.",
+    "text": "B. A new client in Osaka.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s1/p2-03/5.mp3",
-    "text": "A new client in Osaka.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-03/7.mp3",
-    "text": "Ms. Tanaka from the sales team.",
+    "file": "assets/audio/s1/p2-03/4.mp3",
+    "text": "C. Ms. Tanaka from the sales team.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -407,18 +245,18 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s1/p2-04/2.mp3",
+    "text": "A. Not yet, I'll be done by noon.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-04/3.mp3",
-    "text": "Not yet, I'll be done by noon.",
+    "text": "B. Sure, I'd love another view.",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s1/p2-04/5.mp3",
-    "text": "Sure, I'd love another view.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-04/7.mp3",
-    "text": "The contractor is here.",
+    "file": "assets/audio/s1/p2-04/4.mp3",
+    "text": "C. The contractor is here.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -433,18 +271,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s1/p2-05/2.mp3",
+    "text": "A. Yes, I would.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-05/3.mp3",
-    "text": "Yes, I would.",
+    "text": "B. Online works better for me.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s1/p2-05/5.mp3",
-    "text": "Online works better for me.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-05/7.mp3",
-    "text": "About fifty attendees.",
+    "file": "assets/audio/s1/p2-05/4.mp3",
+    "text": "C. About fifty attendees.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -459,18 +297,18 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s1/p2-06/2.mp3",
+    "text": "A. Because of the heavy snow.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-06/3.mp3",
-    "text": "Because of the heavy snow.",
+    "text": "B. At gate twenty-two.",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s1/p2-06/5.mp3",
-    "text": "At gate twenty-two.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-06/7.mp3",
-    "text": "For about three days.",
+    "file": "assets/audio/s1/p2-06/4.mp3",
+    "text": "C. For about three days.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -485,18 +323,18 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s1/p2-07/2.mp3",
+    "text": "A. It's backed by the IT team.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-07/3.mp3",
-    "text": "It's backed by the IT team.",
+    "text": "B. Every night at eleven.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s1/p2-07/5.mp3",
-    "text": "Every night at eleven.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-07/7.mp3",
-    "text": "About two hundred customers.",
+    "file": "assets/audio/s1/p2-07/4.mp3",
+    "text": "C. About two hundred customers.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -511,18 +349,18 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s1/p2-08/2.mp3",
+    "text": "A. I'll print it in color.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-08/3.mp3",
-    "text": "I'll print it in color.",
+    "text": "B. Yes, he works on the third floor.",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s1/p2-08/5.mp3",
-    "text": "Yes, he works on the third floor.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-08/7.mp3",
-    "text": "I'll call the repair service right away.",
+    "file": "assets/audio/s1/p2-08/4.mp3",
+    "text": "C. I'll call the repair service right away.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -537,18 +375,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s1/p2-09/2.mp3",
+    "text": "A. Sure, I'll e-mail it to you this afternoon.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-09/3.mp3",
-    "text": "Sure, I'll e-mail it to you this afternoon.",
+    "text": "B. The meeting room was crowded.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s1/p2-09/5.mp3",
-    "text": "The meeting room was crowded.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-09/7.mp3",
-    "text": "No, I haven't met her before.",
+    "file": "assets/audio/s1/p2-09/4.mp3",
+    "text": "C. No, I haven't met her before.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -563,18 +401,18 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s1/p2-10/2.mp3",
+    "text": "A. In the director's office.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-10/3.mp3",
-    "text": "In the director's office.",
+    "text": "B. Yes, at last week's orientation.",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s1/p2-10/5.mp3",
-    "text": "Yes, at last week's orientation.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-10/7.mp3",
-    "text": "He'll direct the next film.",
+    "file": "assets/audio/s1/p2-10/4.mp3",
+    "text": "C. He'll direct the next film.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -589,18 +427,18 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s1/p2-11/2.mp3",
+    "text": "A. The one with the fastest delivery.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-11/3.mp3",
-    "text": "The one with the fastest delivery.",
+    "text": "B. Yes, we need more paper.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s1/p2-11/5.mp3",
-    "text": "Yes, we need more paper.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-11/7.mp3",
-    "text": "It's a surprise party.",
+    "file": "assets/audio/s1/p2-11/4.mp3",
+    "text": "C. It's a surprise party.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -615,18 +453,18 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s1/p2-12/2.mp3",
+    "text": "A. It was very expensive.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-12/3.mp3",
-    "text": "It was very expensive.",
+    "text": "B. Check the shared drive under 'Finance'.",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s1/p2-12/5.mp3",
-    "text": "Check the shared drive under 'Finance'.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-12/7.mp3",
-    "text": "He found it interesting.",
+    "file": "assets/audio/s1/p2-12/4.mp3",
+    "text": "C. He found it interesting.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -641,18 +479,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s1/p2-13/2.mp3",
+    "text": "A. Because the brake didn't work.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-13/3.mp3",
-    "text": "Because the brake didn't work.",
+    "text": "B. Good idea. I could use some coffee.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s1/p2-13/5.mp3",
-    "text": "Good idea. I could use some coffee.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-13/7.mp3",
-    "text": "It won't break easily.",
+    "file": "assets/audio/s1/p2-13/4.mp3",
+    "text": "C. It won't break easily.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -667,18 +505,18 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s1/p2-14/2.mp3",
+    "text": "A. By express mail.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-14/3.mp3",
-    "text": "By express mail.",
+    "text": "B. Around eighty dollars, I believe.",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s1/p2-14/5.mp3",
-    "text": "Around eighty dollars, I believe.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-14/7.mp3",
-    "text": "The ship leaves at noon.",
+    "file": "assets/audio/s1/p2-14/4.mp3",
+    "text": "C. The ship leaves at noon.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -693,18 +531,18 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s1/p2-15/2.mp3",
+    "text": "A. I wasn't at that meeting, actually.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-15/3.mp3",
-    "text": "I wasn't at that meeting, actually.",
+    "text": "B. About ten percent.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s1/p2-15/5.mp3",
-    "text": "About ten percent.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-15/7.mp3",
-    "text": "Next to the bank.",
+    "file": "assets/audio/s1/p2-15/4.mp3",
+    "text": "C. Next to the bank.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -719,18 +557,18 @@
     "voice": "en-GB-SoniaNeural"
   },
   {
+    "file": "assets/audio/s1/p2-16/2.mp3",
+    "text": "A. At the end of December.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-16/3.mp3",
-    "text": "At the end of December.",
+    "text": "B. Didn't Marketing already book the rooftop hall?",
     "voice": "en-GB-RyanNeural"
   },
   {
-    "file": "assets/audio/s1/p2-16/5.mp3",
-    "text": "Didn't Marketing already book the rooftop hall?",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-16/7.mp3",
-    "text": "Yes, I received the invitation.",
+    "file": "assets/audio/s1/p2-16/4.mp3",
+    "text": "C. Yes, I received the invitation.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -745,36 +583,18 @@
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/letters/en-AU-NatashaNeural/A.mp3",
-    "text": "A.",
-    "voice": "en-AU-NatashaNeural",
-    "prebuilt": true
+    "file": "assets/audio/s1/p2-17/2.mp3",
+    "text": "A. The application fee is forty dollars.",
+    "voice": "en-AU-NatashaNeural"
   },
   {
     "file": "assets/audio/s1/p2-17/3.mp3",
-    "text": "The application fee is forty dollars.",
+    "text": "B. Yes, by express mail.",
     "voice": "en-AU-NatashaNeural"
   },
   {
-    "file": "assets/audio/letters/en-AU-NatashaNeural/B.mp3",
-    "text": "B.",
-    "voice": "en-AU-NatashaNeural",
-    "prebuilt": true
-  },
-  {
-    "file": "assets/audio/s1/p2-17/5.mp3",
-    "text": "Yes, by express mail.",
-    "voice": "en-AU-NatashaNeural"
-  },
-  {
-    "file": "assets/audio/letters/en-AU-NatashaNeural/C.mp3",
-    "text": "C.",
-    "voice": "en-AU-NatashaNeural",
-    "prebuilt": true
-  },
-  {
-    "file": "assets/audio/s1/p2-17/7.mp3",
-    "text": "Dr. Okada's assistant would know.",
+    "file": "assets/audio/s1/p2-17/4.mp3",
+    "text": "C. Dr. Okada's assistant would know.",
     "voice": "en-AU-NatashaNeural"
   },
   {
@@ -789,18 +609,18 @@
     "voice": "en-CA-ClaraNeural"
   },
   {
+    "file": "assets/audio/s1/p2-18/2.mp3",
+    "text": "A. We're meeting them tomorrow morning.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-18/3.mp3",
-    "text": "We're meeting them tomorrow morning.",
+    "text": "B. I designed the logo myself.",
     "voice": "en-CA-LiamNeural"
   },
   {
-    "file": "assets/audio/s1/p2-18/5.mp3",
-    "text": "I designed the logo myself.",
-    "voice": "en-CA-LiamNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-18/7.mp3",
-    "text": "No, the sign was removed.",
+    "file": "assets/audio/s1/p2-18/4.mp3",
+    "text": "C. No, the sign was removed.",
     "voice": "en-CA-LiamNeural"
   },
   {
@@ -815,18 +635,18 @@
     "voice": "en-US-GuyNeural"
   },
   {
+    "file": "assets/audio/s1/p2-19/2.mp3",
+    "text": "A. It usually closes at midnight.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-19/3.mp3",
-    "text": "It usually closes at midnight.",
+    "text": "B. There's a notice posted by the entrance.",
     "voice": "en-US-JennyNeural"
   },
   {
-    "file": "assets/audio/s1/p2-19/5.mp3",
-    "text": "There's a notice posted by the entrance.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-19/7.mp3",
-    "text": "Yes, I'll close the window.",
+    "file": "assets/audio/s1/p2-19/4.mp3",
+    "text": "C. Yes, I'll close the window.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -841,18 +661,18 @@
     "voice": "en-GB-SoniaNeural"
   },
   {
+    "file": "assets/audio/s1/p2-20/2.mp3",
+    "text": "A. The conference starts at ten.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-20/3.mp3",
-    "text": "The conference starts at ten.",
+    "text": "B. The traffic report says the highway is backed up.",
     "voice": "en-GB-RyanNeural"
   },
   {
-    "file": "assets/audio/s1/p2-20/5.mp3",
-    "text": "The traffic report says the highway is backed up.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-20/7.mp3",
-    "text": "Yes, let's take it.",
+    "file": "assets/audio/s1/p2-20/4.mp3",
+    "text": "C. Yes, let's take it.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -867,18 +687,18 @@
     "voice": "en-AU-WilliamNeural"
   },
   {
+    "file": "assets/audio/s1/p2-21/2.mp3",
+    "text": "A. About ten new employees.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-21/3.mp3",
-    "text": "About ten new employees.",
+    "text": "B. By train, I think.",
     "voice": "en-AU-NatashaNeural"
   },
   {
-    "file": "assets/audio/s1/p2-21/5.mp3",
-    "text": "By train, I think.",
-    "voice": "en-AU-NatashaNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-21/7.mp3",
-    "text": "Actually, the orientation might be pushed back to September.",
+    "file": "assets/audio/s1/p2-21/4.mp3",
+    "text": "C. Actually, the orientation might be pushed back to September.",
     "voice": "en-AU-NatashaNeural"
   },
   {
@@ -893,18 +713,18 @@
     "voice": "en-CA-ClaraNeural"
   },
   {
+    "file": "assets/audio/s1/p2-22/2.mp3",
+    "text": "A. The finance report isn't ready yet.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-22/3.mp3",
-    "text": "The finance report isn't ready yet.",
+    "text": "B. Mostly in online newspapers.",
     "voice": "en-CA-LiamNeural"
   },
   {
-    "file": "assets/audio/s1/p2-22/5.mp3",
-    "text": "Mostly in online newspapers.",
-    "voice": "en-CA-LiamNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-22/7.mp3",
-    "text": "Yes, it was quite expensive.",
+    "file": "assets/audio/s1/p2-22/4.mp3",
+    "text": "C. Yes, it was quite expensive.",
     "voice": "en-CA-LiamNeural"
   },
   {
@@ -919,18 +739,18 @@
     "voice": "en-US-GuyNeural"
   },
   {
+    "file": "assets/audio/s1/p2-23/2.mp3",
+    "text": "A. The slides are all in color.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-23/3.mp3",
-    "text": "The slides are all in color.",
+    "text": "B. I'm about to leave for a client visit.",
     "voice": "en-US-JennyNeural"
   },
   {
-    "file": "assets/audio/s1/p2-23/5.mp3",
-    "text": "I'm about to leave for a client visit.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-23/7.mp3",
-    "text": "Yes, the reviews were positive.",
+    "file": "assets/audio/s1/p2-23/4.mp3",
+    "text": "C. Yes, the reviews were positive.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -945,18 +765,18 @@
     "voice": "en-GB-SoniaNeural"
   },
   {
+    "file": "assets/audio/s1/p2-24/2.mp3",
+    "text": "A. Yes, take two tablets daily.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-24/3.mp3",
-    "text": "Yes, take two tablets daily.",
+    "text": "B. No, I'm feeling much better now.",
     "voice": "en-GB-RyanNeural"
   },
   {
-    "file": "assets/audio/s1/p2-24/5.mp3",
-    "text": "No, I'm feeling much better now.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-24/7.mp3",
-    "text": "The front desk should have a map.",
+    "file": "assets/audio/s1/p2-24/4.mp3",
+    "text": "C. The front desk should have a map.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -971,18 +791,18 @@
     "voice": "en-AU-WilliamNeural"
   },
   {
+    "file": "assets/audio/s1/p2-25/2.mp3",
+    "text": "A. December's numbers aren't included yet, though.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
     "file": "assets/audio/s1/p2-25/3.mp3",
-    "text": "December's numbers aren't included yet, though.",
+    "text": "B. Yes, he exercises every day.",
     "voice": "en-AU-NatashaNeural"
   },
   {
-    "file": "assets/audio/s1/p2-25/5.mp3",
-    "text": "Yes, he exercises every day.",
-    "voice": "en-AU-NatashaNeural"
-  },
-  {
-    "file": "assets/audio/s1/p2-25/7.mp3",
-    "text": "In the sales department.",
+    "file": "assets/audio/s1/p2-25/4.mp3",
+    "text": "C. In the sales department.",
     "voice": "en-AU-NatashaNeural"
   },
   {
@@ -1894,23 +1714,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s2/s2p1-01/1.mp3",
+    "text": "A. A man is reading a newspaper.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p1-01/2.mp3",
-    "text": "A man is reading a newspaper.",
+    "text": "B. A man is closing a drawer.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s2/s2p1-01/3.mp3",
+    "text": "C. A man is talking on the phone.",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p1-01/4.mp3",
-    "text": "A man is closing a drawer.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p1-01/6.mp3",
-    "text": "A man is talking on the phone.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p1-01/8.mp3",
-    "text": "A man is turning off a lamp.",
+    "text": "D. A man is turning off a lamp.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -1920,23 +1740,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s2/s2p1-02/1.mp3",
+    "text": "A. The shelves are completely empty.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p1-02/2.mp3",
-    "text": "The shelves are completely empty.",
+    "text": "B. Some boxes are being carried away.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s2/s2p1-02/3.mp3",
+    "text": "C. A man is stocking the shelves.",
     "voice": "en-GB-SoniaNeural"
   },
   {
     "file": "assets/audio/s2/s2p1-02/4.mp3",
-    "text": "Some boxes are being carried away.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p1-02/6.mp3",
-    "text": "A man is stocking the shelves.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p1-02/8.mp3",
-    "text": "Some items have been arranged on the shelves.",
+    "text": "D. Some items have been arranged on the shelves.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -1946,23 +1766,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s2/s2p1-03/1.mp3",
+    "text": "A. A woman is writing on a board.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p1-03/2.mp3",
-    "text": "A woman is writing on a board.",
+    "text": "B. A woman is erasing a whiteboard.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s2/s2p1-03/3.mp3",
+    "text": "C. A woman is putting on her glasses.",
     "voice": "en-AU-WilliamNeural"
   },
   {
     "file": "assets/audio/s2/s2p1-03/4.mp3",
-    "text": "A woman is erasing a whiteboard.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p1-03/6.mp3",
-    "text": "A woman is putting on her glasses.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p1-03/8.mp3",
-    "text": "A woman is hanging a picture on the wall.",
+    "text": "D. A woman is hanging a picture on the wall.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -1972,29 +1792,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s2/s2p1-04/1.mp3",
+    "text": "A. They are looking at a document.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p1-04/2.mp3",
-    "text": "They are looking at a document.",
+    "text": "B. They are shaking hands.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s2/s2p1-04/3.mp3",
+    "text": "C. They are typing on laptops.",
     "voice": "en-CA-ClaraNeural"
   },
   {
     "file": "assets/audio/s2/s2p1-04/4.mp3",
-    "text": "They are shaking hands.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p1-04/6.mp3",
-    "text": "They are typing on laptops.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/letters/en-CA-ClaraNeural/D.mp3",
-    "text": "D.",
-    "voice": "en-CA-ClaraNeural",
-    "prebuilt": true
-  },
-  {
-    "file": "assets/audio/s2/s2p1-04/8.mp3",
-    "text": "One of them is leaving the room.",
+    "text": "D. One of them is leaving the room.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -2004,23 +1818,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s2/s2p1-05/1.mp3",
+    "text": "A. A ladder is lying on the floor.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p1-05/2.mp3",
-    "text": "A ladder is lying on the floor.",
+    "text": "B. A ladder is leaning against a wall.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s2/s2p1-05/3.mp3",
+    "text": "C. A man is climbing a ladder.",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p1-05/4.mp3",
-    "text": "A ladder is leaning against a wall.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p1-05/6.mp3",
-    "text": "A man is climbing a ladder.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p1-05/8.mp3",
-    "text": "A ladder is being folded up.",
+    "text": "D. A ladder is being folded up.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -2030,23 +1844,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s2/s2p1-06/1.mp3",
+    "text": "A. A bench is being repaired.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p1-06/2.mp3",
-    "text": "A bench is being repaired.",
+    "text": "B. A bench is unoccupied.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s2/s2p1-06/3.mp3",
+    "text": "C. Leaves are being swept up.",
     "voice": "en-GB-SoniaNeural"
   },
   {
     "file": "assets/audio/s2/s2p1-06/4.mp3",
-    "text": "A bench is unoccupied.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p1-06/6.mp3",
-    "text": "Leaves are being swept up.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p1-06/8.mp3",
-    "text": "People are sitting on a bench.",
+    "text": "D. People are sitting on a bench.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -2061,18 +1875,18 @@
     "voice": "en-AU-WilliamNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-01/2.mp3",
+    "text": "A. In the main office.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-01/3.mp3",
-    "text": "In the main office.",
+    "text": "B. By the end of the week.",
     "voice": "en-AU-NatashaNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-01/5.mp3",
-    "text": "By the end of the week.",
-    "voice": "en-AU-NatashaNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-01/7.mp3",
-    "text": "About twenty pages.",
+    "file": "assets/audio/s2/s2p2-01/4.mp3",
+    "text": "C. About twenty pages.",
     "voice": "en-AU-NatashaNeural"
   },
   {
@@ -2087,18 +1901,18 @@
     "voice": "en-CA-ClaraNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-02/2.mp3",
+    "text": "A. It starts at nine.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-02/3.mp3",
-    "text": "It starts at nine.",
+    "text": "B. On the bulletin board by the entrance.",
     "voice": "en-CA-LiamNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-02/5.mp3",
-    "text": "On the bulletin board by the entrance.",
-    "voice": "en-CA-LiamNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-02/7.mp3",
-    "text": "Ms. Perez organized it.",
+    "file": "assets/audio/s2/s2p2-02/4.mp3",
+    "text": "C. Ms. Perez organized it.",
     "voice": "en-CA-LiamNeural"
   },
   {
@@ -2113,18 +1927,18 @@
     "voice": "en-US-GuyNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-03/2.mp3",
+    "text": "A. Ms. Yamada from HR.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-03/3.mp3",
-    "text": "Ms. Yamada from HR.",
+    "text": "B. It lasts three hours.",
     "voice": "en-US-JennyNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-03/5.mp3",
-    "text": "It lasts three hours.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-03/7.mp3",
-    "text": "In the second-floor lab.",
+    "file": "assets/audio/s2/s2p2-03/4.mp3",
+    "text": "C. In the second-floor lab.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -2139,18 +1953,18 @@
     "voice": "en-GB-SoniaNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-04/2.mp3",
+    "text": "A. Yes, this morning.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-04/3.mp3",
-    "text": "Yes, this morning.",
+    "text": "B. A new client from Osaka.",
     "voice": "en-GB-RyanNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-04/5.mp3",
-    "text": "A new client from Osaka.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-04/7.mp3",
-    "text": "The envelope is on the desk.",
+    "file": "assets/audio/s2/s2p2-04/4.mp3",
+    "text": "C. The envelope is on the desk.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -2165,18 +1979,18 @@
     "voice": "en-AU-WilliamNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-05/2.mp3",
+    "text": "A. Yes, I'd like that.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-05/3.mp3",
-    "text": "Yes, I'd like that.",
+    "text": "B. At the airport.",
     "voice": "en-AU-NatashaNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-05/5.mp3",
-    "text": "At the airport.",
-    "voice": "en-AU-NatashaNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-05/7.mp3",
-    "text": "The morning one, please.",
+    "file": "assets/audio/s2/s2p2-05/4.mp3",
+    "text": "C. The morning one, please.",
     "voice": "en-AU-NatashaNeural"
   },
   {
@@ -2191,18 +2005,18 @@
     "voice": "en-CA-ClaraNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-06/2.mp3",
+    "text": "A. Because some items were damaged.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-06/3.mp3",
-    "text": "Because some items were damaged.",
+    "text": "B. To the loading dock.",
     "voice": "en-CA-LiamNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-06/5.mp3",
-    "text": "To the loading dock.",
-    "voice": "en-CA-LiamNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-06/7.mp3",
-    "text": "By truck on Friday.",
+    "file": "assets/audio/s2/s2p2-06/4.mp3",
+    "text": "C. By truck on Friday.",
     "voice": "en-CA-LiamNeural"
   },
   {
@@ -2217,18 +2031,18 @@
     "voice": "en-US-GuyNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-07/2.mp3",
+    "text": "A. Twice a day.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-07/3.mp3",
-    "text": "Twice a day.",
+    "text": "B. It's a large airport.",
     "voice": "en-US-JennyNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-07/5.mp3",
-    "text": "It's a large airport.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-07/7.mp3",
-    "text": "About forty minutes by train.",
+    "file": "assets/audio/s2/s2p2-07/4.mp3",
+    "text": "C. About forty minutes by train.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -2243,18 +2057,18 @@
     "voice": "en-GB-SoniaNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-08/2.mp3",
+    "text": "A. I'll call maintenance right away.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-08/3.mp3",
-    "text": "I'll call maintenance right away.",
+    "text": "B. On the fourth floor.",
     "voice": "en-GB-RyanNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-08/5.mp3",
-    "text": "On the fourth floor.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-08/7.mp3",
-    "text": "I ordered it last week.",
+    "file": "assets/audio/s2/s2p2-08/4.mp3",
+    "text": "C. I ordered it last week.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -2269,18 +2083,18 @@
     "voice": "en-AU-WilliamNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-09/2.mp3",
+    "text": "A. The meeting was productive.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-09/3.mp3",
-    "text": "The meeting was productive.",
+    "text": "B. No, I haven't seen it.",
     "voice": "en-AU-NatashaNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-09/5.mp3",
-    "text": "No, I haven't seen it.",
-    "voice": "en-AU-NatashaNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-09/7.mp3",
-    "text": "Sure, I'll be there in five minutes.",
+    "file": "assets/audio/s2/s2p2-09/4.mp3",
+    "text": "C. Sure, I'll be there in five minutes.",
     "voice": "en-AU-NatashaNeural"
   },
   {
@@ -2295,18 +2109,18 @@
     "voice": "en-CA-ClaraNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-10/2.mp3",
+    "text": "A. A reasonable budget.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-10/3.mp3",
-    "text": "A reasonable budget.",
+    "text": "B. In the finance department.",
     "voice": "en-CA-LiamNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-10/5.mp3",
-    "text": "In the finance department.",
-    "voice": "en-CA-LiamNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-10/7.mp3",
-    "text": "Yes, I finished it yesterday.",
+    "file": "assets/audio/s2/s2p2-10/4.mp3",
+    "text": "C. Yes, I finished it yesterday.",
     "voice": "en-CA-LiamNeural"
   },
   {
@@ -2321,18 +2135,18 @@
     "voice": "en-US-GuyNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-11/2.mp3",
+    "text": "A. Twice a month.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-11/3.mp3",
-    "text": "Twice a month.",
+    "text": "B. Yes, we need more paper.",
     "voice": "en-US-JennyNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-11/5.mp3",
-    "text": "Yes, we need more paper.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-11/7.mp3",
-    "text": "The one on Maple Street.",
+    "file": "assets/audio/s2/s2p2-11/4.mp3",
+    "text": "C. The one on Maple Street.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -2347,18 +2161,18 @@
     "voice": "en-GB-SoniaNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-12/2.mp3",
+    "text": "A. Let me check their website.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-12/3.mp3",
-    "text": "Let me check their website.",
+    "text": "B. I bought it there.",
     "voice": "en-GB-RyanNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-12/5.mp3",
-    "text": "I bought it there.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-12/7.mp3",
-    "text": "It's a clothing store.",
+    "file": "assets/audio/s2/s2p2-12/4.mp3",
+    "text": "C. It's a clothing store.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -2373,18 +2187,18 @@
     "voice": "en-AU-WilliamNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-13/2.mp3",
+    "text": "A. Sounds great — how about the café downstairs?",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-13/3.mp3",
-    "text": "Sounds great — how about the café downstairs?",
+    "text": "B. He presented the results.",
     "voice": "en-AU-NatashaNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-13/5.mp3",
-    "text": "He presented the results.",
-    "voice": "en-AU-NatashaNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-13/7.mp3",
-    "text": "It was well received.",
+    "file": "assets/audio/s2/s2p2-13/4.mp3",
+    "text": "C. It was well received.",
     "voice": "en-AU-NatashaNeural"
   },
   {
@@ -2399,18 +2213,18 @@
     "voice": "en-CA-ClaraNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-14/2.mp3",
+    "text": "A. About fifty new hires.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-14/3.mp3",
-    "text": "About fifty new hires.",
+    "text": "B. Yes, he handed it over.",
     "voice": "en-CA-LiamNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-14/5.mp3",
-    "text": "Yes, he handed it over.",
-    "voice": "en-CA-LiamNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-14/7.mp3",
-    "text": "Not yet — it's still being edited.",
+    "file": "assets/audio/s2/s2p2-14/4.mp3",
+    "text": "C. Not yet — it's still being edited.",
     "voice": "en-CA-LiamNeural"
   },
   {
@@ -2425,18 +2239,18 @@
     "voice": "en-US-GuyNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-15/2.mp3",
+    "text": "A. About thirty participants.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-15/3.mp3",
-    "text": "About thirty participants.",
+    "text": "B. In Room 302.",
     "voice": "en-US-JennyNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-15/5.mp3",
-    "text": "In Room 302.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-15/7.mp3",
-    "text": "I'm not sure — the schedule keeps changing.",
+    "file": "assets/audio/s2/s2p2-15/4.mp3",
+    "text": "C. I'm not sure — the schedule keeps changing.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -2451,18 +2265,18 @@
     "voice": "en-GB-SoniaNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-16/2.mp3",
+    "text": "A. He replaced the batteries.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-16/3.mp3",
-    "text": "He replaced the batteries.",
+    "text": "B. In the interview room.",
     "voice": "en-GB-RyanNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-16/5.mp3",
-    "text": "In the interview room.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-16/7.mp3",
-    "text": "Hasn't the position already been posted?",
+    "file": "assets/audio/s2/s2p2-16/4.mp3",
+    "text": "C. Hasn't the position already been posted?",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -2477,18 +2291,18 @@
     "voice": "en-AU-WilliamNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-17/2.mp3",
+    "text": "A. It's a spacious room.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-17/3.mp3",
-    "text": "It's a spacious room.",
+    "text": "B. Ask Diana — she used them last.",
     "voice": "en-AU-NatashaNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-17/5.mp3",
-    "text": "Ask Diana — she used them last.",
-    "voice": "en-AU-NatashaNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-17/7.mp3",
-    "text": "Yes, I locked it.",
+    "file": "assets/audio/s2/s2p2-17/4.mp3",
+    "text": "C. Yes, I locked it.",
     "voice": "en-AU-NatashaNeural"
   },
   {
@@ -2503,18 +2317,18 @@
     "voice": "en-CA-ClaraNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-18/2.mp3",
+    "text": "A. In the design studio.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-18/3.mp3",
-    "text": "In the design studio.",
+    "text": "B. They haven't seen it yet.",
     "voice": "en-CA-LiamNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-18/5.mp3",
-    "text": "They haven't seen it yet.",
-    "voice": "en-CA-LiamNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-18/7.mp3",
-    "text": "A colorful design.",
+    "file": "assets/audio/s2/s2p2-18/4.mp3",
+    "text": "C. A colorful design.",
     "voice": "en-CA-LiamNeural"
   },
   {
@@ -2529,18 +2343,18 @@
     "voice": "en-US-GuyNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-19/2.mp3",
+    "text": "A. How many people are attending?",
+    "voice": "en-US-JennyNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-19/3.mp3",
-    "text": "How many people are attending?",
+    "text": "B. Yes, I read the book.",
     "voice": "en-US-JennyNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-19/5.mp3",
-    "text": "Yes, I read the book.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-19/7.mp3",
-    "text": "The seminar was informative.",
+    "file": "assets/audio/s2/s2p2-19/4.mp3",
+    "text": "C. The seminar was informative.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -2555,18 +2369,18 @@
     "voice": "en-GB-SoniaNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-20/2.mp3",
+    "text": "A. It saved us a lot of money.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-20/3.mp3",
-    "text": "It saved us a lot of money.",
+    "text": "B. There's construction on the highway today.",
     "voice": "en-GB-RyanNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-20/5.mp3",
-    "text": "There's construction on the highway today.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-20/7.mp3",
-    "text": "About two hours away.",
+    "file": "assets/audio/s2/s2p2-20/4.mp3",
+    "text": "C. About two hours away.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -2581,18 +2395,18 @@
     "voice": "en-AU-WilliamNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-21/2.mp3",
+    "text": "A. About three hundred dollars.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-21/3.mp3",
-    "text": "About three hundred dollars.",
+    "text": "B. That's actually a question for Accounting.",
     "voice": "en-AU-NatashaNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-21/5.mp3",
-    "text": "That's actually a question for Accounting.",
-    "voice": "en-AU-NatashaNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-21/7.mp3",
-    "text": "Next to the printer.",
+    "file": "assets/audio/s2/s2p2-21/4.mp3",
+    "text": "C. Next to the printer.",
     "voice": "en-AU-NatashaNeural"
   },
   {
@@ -2607,18 +2421,18 @@
     "voice": "en-CA-ClaraNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-22/2.mp3",
+    "text": "A. Yes, I reported it.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-22/3.mp3",
-    "text": "Yes, I reported it.",
+    "text": "B. My computer just crashed, unfortunately.",
     "voice": "en-CA-LiamNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-22/5.mp3",
-    "text": "My computer just crashed, unfortunately.",
-    "voice": "en-CA-LiamNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-22/7.mp3",
-    "text": "The sales were strong.",
+    "file": "assets/audio/s2/s2p2-22/4.mp3",
+    "text": "C. The sales were strong.",
     "voice": "en-CA-LiamNeural"
   },
   {
@@ -2633,18 +2447,18 @@
     "voice": "en-US-GuyNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-23/2.mp3",
+    "text": "A. It was moved to the following week.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-23/3.mp3",
-    "text": "It was moved to the following week.",
+    "text": "B. Yes, she scheduled the call.",
     "voice": "en-US-JennyNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-23/5.mp3",
-    "text": "Yes, she scheduled the call.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-23/7.mp3",
-    "text": "At the grand ballroom.",
+    "file": "assets/audio/s2/s2p2-23/4.mp3",
+    "text": "C. At the grand ballroom.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -2659,18 +2473,18 @@
     "voice": "en-GB-SoniaNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-24/2.mp3",
+    "text": "A. Let's see what the competitors are doing first.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-24/3.mp3",
-    "text": "Let's see what the competitors are doing first.",
+    "text": "B. It ran for six weeks.",
     "voice": "en-GB-RyanNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-24/5.mp3",
-    "text": "It ran for six weeks.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-24/7.mp3",
-    "text": "Yes, it was expensive.",
+    "file": "assets/audio/s2/s2p2-24/4.mp3",
+    "text": "C. Yes, it was expensive.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -2685,18 +2499,18 @@
     "voice": "en-AU-WilliamNeural"
   },
   {
+    "file": "assets/audio/s2/s2p2-25/2.mp3",
+    "text": "A. Yes, I updated my address.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
     "file": "assets/audio/s2/s2p2-25/3.mp3",
-    "text": "Yes, I updated my address.",
+    "text": "B. Well, the login is actually slower now.",
     "voice": "en-AU-NatashaNeural"
   },
   {
-    "file": "assets/audio/s2/s2p2-25/5.mp3",
-    "text": "Well, the login is actually slower now.",
-    "voice": "en-AU-NatashaNeural"
-  },
-  {
-    "file": "assets/audio/s2/s2p2-25/7.mp3",
-    "text": "In the IT department.",
+    "file": "assets/audio/s2/s2p2-25/4.mp3",
+    "text": "C. In the IT department.",
     "voice": "en-AU-NatashaNeural"
   },
   {
@@ -3593,23 +3407,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s3/s3p1-01/1.mp3",
+    "text": "A. A woman is filing folders in a cabinet.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p1-01/2.mp3",
-    "text": "A woman is filing folders in a cabinet.",
+    "text": "B. A woman is talking on the phone.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s3/s3p1-01/3.mp3",
+    "text": "C. A woman is typing on a keyboard.",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p1-01/4.mp3",
-    "text": "A woman is talking on the phone.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p1-01/6.mp3",
-    "text": "A woman is typing on a keyboard.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p1-01/8.mp3",
-    "text": "A woman is examining a document.",
+    "text": "D. A woman is examining a document.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -3619,23 +3433,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s3/s3p1-02/1.mp3",
+    "text": "A. A worker is climbing a ladder.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p1-02/2.mp3",
-    "text": "A worker is climbing a ladder.",
+    "text": "B. A worker is wearing a hard hat.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s3/s3p1-02/3.mp3",
+    "text": "C. A worker is putting on his gloves.",
     "voice": "en-GB-SoniaNeural"
   },
   {
     "file": "assets/audio/s3/s3p1-02/4.mp3",
-    "text": "A worker is wearing a hard hat.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p1-02/6.mp3",
-    "text": "A worker is putting on his gloves.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p1-02/8.mp3",
-    "text": "Some bricks are being stacked.",
+    "text": "D. Some bricks are being stacked.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -3645,23 +3459,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s3/s3p1-03/1.mp3",
+    "text": "A. A chef is chopping some vegetables.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p1-03/2.mp3",
-    "text": "A chef is chopping some vegetables.",
+    "text": "B. A chef is stirring a pot on the stove.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s3/s3p1-03/3.mp3",
+    "text": "C. A chef is washing dishes in a sink.",
     "voice": "en-AU-WilliamNeural"
   },
   {
     "file": "assets/audio/s3/s3p1-03/4.mp3",
-    "text": "A chef is stirring a pot on the stove.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p1-03/6.mp3",
-    "text": "A chef is washing dishes in a sink.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p1-03/8.mp3",
-    "text": "A chef is taking food out of an oven.",
+    "text": "D. A chef is taking food out of an oven.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -3671,23 +3485,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s3/s3p1-04/1.mp3",
+    "text": "A. People are strolling through the park.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p1-04/2.mp3",
-    "text": "People are strolling through the park.",
+    "text": "B. Some benches have been placed along the path.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s3/s3p1-04/3.mp3",
+    "text": "C. Leaves are being raked into piles.",
     "voice": "en-CA-ClaraNeural"
   },
   {
     "file": "assets/audio/s3/s3p1-04/4.mp3",
-    "text": "Some benches have been placed along the path.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p1-04/6.mp3",
-    "text": "Leaves are being raked into piles.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p1-04/8.mp3",
-    "text": "A gardener is trimming the hedges.",
+    "text": "D. A gardener is trimming the hedges.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -3697,23 +3511,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s3/s3p1-05/1.mp3",
+    "text": "A. Some vehicles are stopped at an intersection.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p1-05/2.mp3",
-    "text": "Some vehicles are stopped at an intersection.",
+    "text": "B. A bus is pulling out of a station.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s3/s3p1-05/3.mp3",
+    "text": "C. A traffic light is being installed.",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p1-05/4.mp3",
-    "text": "A bus is pulling out of a station.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p1-05/6.mp3",
-    "text": "A traffic light is being installed.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p1-05/8.mp3",
-    "text": "Pedestrians are crossing the street.",
+    "text": "D. Pedestrians are crossing the street.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -3723,23 +3537,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s3/s3p1-06/1.mp3",
+    "text": "A. A customer is pouring some coffee.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p1-06/2.mp3",
-    "text": "A customer is pouring some coffee.",
+    "text": "B. Some pastries are being arranged in a case.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s3/s3p1-06/3.mp3",
+    "text": "C. A cup is being handed to a customer.",
     "voice": "en-GB-SoniaNeural"
   },
   {
     "file": "assets/audio/s3/s3p1-06/4.mp3",
-    "text": "Some pastries are being arranged in a case.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p1-06/6.mp3",
-    "text": "A cup is being handed to a customer.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p1-06/8.mp3",
-    "text": "A barista is wiping down the counter.",
+    "text": "D. A barista is wiping down the counter.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -3754,18 +3568,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-01/2.mp3",
+    "text": "A. At nine in the evening.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-01/3.mp3",
-    "text": "At nine in the evening.",
+    "text": "B. It's a busy street.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-01/5.mp3",
-    "text": "It's a busy street.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-01/7.mp3",
-    "text": "About ten prescriptions.",
+    "file": "assets/audio/s3/s3p2-01/4.mp3",
+    "text": "C. About ten prescriptions.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -3780,18 +3594,18 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-02/2.mp3",
+    "text": "A. Ms. Reed printed them.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-02/3.mp3",
-    "text": "Ms. Reed printed them.",
+    "text": "B. They arrived this morning.",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-02/5.mp3",
-    "text": "They arrived this morning.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-02/7.mp3",
-    "text": "In the storage closet down the hall.",
+    "file": "assets/audio/s3/s3p2-02/4.mp3",
+    "text": "C. In the storage closet down the hall.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -3806,18 +3620,18 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-03/2.mp3",
+    "text": "A. A freelance artist named Kevin.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-03/3.mp3",
-    "text": "A freelance artist named Kevin.",
+    "text": "B. About sixty pages long.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-03/5.mp3",
-    "text": "About sixty pages long.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-03/7.mp3",
-    "text": "It comes out in March.",
+    "file": "assets/audio/s3/s3p2-03/4.mp3",
+    "text": "C. It comes out in March.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -3832,18 +3646,18 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-04/2.mp3",
+    "text": "A. Yes, she called an hour ago.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-04/3.mp3",
-    "text": "Yes, she called an hour ago.",
+    "text": "B. A three-course dinner.",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-04/5.mp3",
-    "text": "A three-course dinner.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-04/7.mp3",
-    "text": "The banker is on line two.",
+    "file": "assets/audio/s3/s3p2-04/4.mp3",
+    "text": "C. The banker is on line two.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -3858,18 +3672,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-05/2.mp3",
+    "text": "A. It's a spacious office.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-05/3.mp3",
-    "text": "It's a spacious office.",
+    "text": "B. Yes, the news was good.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-05/5.mp3",
-    "text": "Yes, the news was good.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-05/7.mp3",
-    "text": "Renewing would be simpler for now.",
+    "file": "assets/audio/s3/s3p2-05/4.mp3",
+    "text": "C. Renewing would be simpler for now.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -3884,18 +3698,18 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-06/2.mp3",
+    "text": "A. For about two weeks.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-06/3.mp3",
-    "text": "For about two weeks.",
+    "text": "B. In the exhibition hall.",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-06/5.mp3",
-    "text": "In the exhibition hall.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-06/7.mp3",
-    "text": "The keynote speaker fell ill.",
+    "file": "assets/audio/s3/s3p2-06/4.mp3",
+    "text": "C. The keynote speaker fell ill.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -3910,18 +3724,18 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-07/2.mp3",
+    "text": "A. The chairperson agreed.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-07/3.mp3",
-    "text": "The chairperson agreed.",
+    "text": "B. Enough for forty guests.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-07/5.mp3",
-    "text": "Enough for forty guests.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-07/7.mp3",
-    "text": "In the auditorium.",
+    "file": "assets/audio/s3/s3p2-07/4.mp3",
+    "text": "C. In the auditorium.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -3936,18 +3750,18 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-08/2.mp3",
+    "text": "A. I'll let the building manager know.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-08/3.mp3",
-    "text": "I'll let the building manager know.",
+    "text": "B. On the ground floor.",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-08/5.mp3",
-    "text": "On the ground floor.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-08/7.mp3",
-    "text": "Yes, it's a warm welcome.",
+    "file": "assets/audio/s3/s3p2-08/4.mp3",
+    "text": "C. Yes, it's a warm welcome.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -3962,18 +3776,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-09/2.mp3",
+    "text": "A. Under the blue cover.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-09/3.mp3",
-    "text": "Under the blue cover.",
+    "text": "B. Not at all, I'm free that day.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-09/5.mp3",
-    "text": "Not at all, I'm free that day.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-09/7.mp3",
-    "text": "No, the shift key is stuck.",
+    "file": "assets/audio/s3/s3p2-09/4.mp3",
+    "text": "C. No, the shift key is stuck.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -3988,18 +3802,18 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-10/2.mp3",
+    "text": "A. At the reception desk.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-10/3.mp3",
-    "text": "At the reception desk.",
+    "text": "B. A business trip to Denver.",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-10/5.mp3",
-    "text": "A business trip to Denver.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-10/7.mp3",
-    "text": "Yes, last Thursday.",
+    "file": "assets/audio/s3/s3p2-10/4.mp3",
+    "text": "C. Yes, last Thursday.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -4014,18 +3828,18 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-11/2.mp3",
+    "text": "A. Yes, I ordered lunch.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-11/3.mp3",
-    "text": "Yes, I ordered lunch.",
+    "text": "B. Six new interns this summer.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-11/5.mp3",
-    "text": "Six new interns this summer.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-11/7.mp3",
-    "text": "The lightweight one is cheaper.",
+    "file": "assets/audio/s3/s3p2-11/4.mp3",
+    "text": "C. The lightweight one is cheaper.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -4040,18 +3854,18 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-12/2.mp3",
+    "text": "A. The brochure should say.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-12/3.mp3",
-    "text": "The brochure should say.",
+    "text": "B. He joined last month.",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-12/5.mp3",
-    "text": "He joined last month.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-12/7.mp3",
-    "text": "It's a modern gym.",
+    "file": "assets/audio/s3/s3p2-12/4.mp3",
+    "text": "C. It's a modern gym.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -4066,18 +3880,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-13/2.mp3",
+    "text": "A. He parked the car outside.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-13/3.mp3",
-    "text": "He parked the car outside.",
+    "text": "B. It was a huge show.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-13/5.mp3",
-    "text": "It was a huge show.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-13/7.mp3",
-    "text": "Good idea — I can drive.",
+    "file": "assets/audio/s3/s3p2-13/4.mp3",
+    "text": "C. Good idea — I can drive.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -4092,18 +3906,18 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-14/2.mp3",
+    "text": "A. Yes, the inspector was polite.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-14/3.mp3",
-    "text": "Yes, the inspector was polite.",
+    "text": "B. About twelve floors.",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-14/5.mp3",
-    "text": "About twelve floors.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-14/7.mp3",
-    "text": "Not yet — they're coming this afternoon.",
+    "file": "assets/audio/s3/s3p2-14/4.mp3",
+    "text": "C. Not yet — they're coming this afternoon.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -4118,18 +3932,18 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-15/2.mp3",
+    "text": "A. About twenty guests.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-15/3.mp3",
-    "text": "About twenty guests.",
+    "text": "B. I'd have to look it up.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-15/5.mp3",
-    "text": "I'd have to look it up.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-15/7.mp3",
-    "text": "In the meeting room.",
+    "file": "assets/audio/s3/s3p2-15/4.mp3",
+    "text": "C. In the meeting room.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -4144,18 +3958,18 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-16/2.mp3",
+    "text": "A. In the supply room.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-16/3.mp3",
-    "text": "In the supply room.",
+    "text": "B. Hasn't that been put on hold?",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-16/5.mp3",
-    "text": "Hasn't that been put on hold?",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-16/7.mp3",
-    "text": "A fresh coat of paint.",
+    "file": "assets/audio/s3/s3p2-16/4.mp3",
+    "text": "C. A fresh coat of paint.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -4170,18 +3984,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-17/2.mp3",
+    "text": "A. Raj installed it, so he can walk you through it.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-17/3.mp3",
-    "text": "Raj installed it, so he can walk you through it.",
+    "text": "B. The presentation went well.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-17/5.mp3",
-    "text": "The presentation went well.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-17/7.mp3",
-    "text": "Yes, I saw the video.",
+    "file": "assets/audio/s3/s3p2-17/4.mp3",
+    "text": "C. Yes, I saw the video.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -4196,18 +4010,18 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-18/2.mp3",
+    "text": "A. No, the boards were delivered.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-18/3.mp3",
-    "text": "No, the boards were delivered.",
+    "text": "B. They meet again next week.",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-18/5.mp3",
-    "text": "They meet again next week.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-18/7.mp3",
-    "text": "I painted the boardroom.",
+    "file": "assets/audio/s3/s3p2-18/4.mp3",
+    "text": "C. I painted the boardroom.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -4222,18 +4036,18 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-19/2.mp3",
+    "text": "A. It closes at three normally.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-19/3.mp3",
-    "text": "It closes at three normally.",
+    "text": "B. There's a memo on the door.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-19/5.mp3",
-    "text": "There's a memo on the door.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-19/7.mp3",
-    "text": "Yes, I had a big lunch.",
+    "file": "assets/audio/s3/s3p2-19/4.mp3",
+    "text": "C. Yes, I had a big lunch.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -4248,18 +4062,18 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-20/2.mp3",
+    "text": "A. At the shipping dock.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-20/3.mp3",
-    "text": "At the shipping dock.",
+    "text": "B. Yes, let's ship it.",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-20/5.mp3",
-    "text": "Yes, let's ship it.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-20/7.mp3",
-    "text": "The customer needs it by Monday.",
+    "file": "assets/audio/s3/s3p2-20/4.mp3",
+    "text": "C. The customer needs it by Monday.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -4274,18 +4088,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-21/2.mp3",
+    "text": "A. Actually, the client asked to reschedule it.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-21/3.mp3",
-    "text": "Actually, the client asked to reschedule it.",
+    "text": "B. About twenty attendees.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-21/5.mp3",
-    "text": "About twenty attendees.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-21/7.mp3",
-    "text": "It's a great software package.",
+    "file": "assets/audio/s3/s3p2-21/4.mp3",
+    "text": "C. It's a great software package.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -4300,18 +4114,18 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-22/2.mp3",
+    "text": "A. It's a very wide road.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-22/3.mp3",
-    "text": "It's a very wide road.",
+    "text": "B. The city hasn't announced a timeline.",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-22/5.mp3",
-    "text": "The city hasn't announced a timeline.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-22/7.mp3",
-    "text": "Yes, they repaired it.",
+    "file": "assets/audio/s3/s3p2-22/4.mp3",
+    "text": "C. Yes, they repaired it.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -4326,18 +4140,18 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-23/2.mp3",
+    "text": "A. Yes, the release was approved.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-23/3.mp3",
-    "text": "Yes, the release was approved.",
+    "text": "B. I'm swamped with the audit right now.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-23/5.mp3",
-    "text": "I'm swamped with the audit right now.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-23/7.mp3",
-    "text": "The press conference is at noon.",
+    "file": "assets/audio/s3/s3p2-23/4.mp3",
+    "text": "C. The press conference is at noon.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -4352,18 +4166,18 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-24/2.mp3",
+    "text": "A. The concierge keeps a list of recommendations.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-24/3.mp3",
-    "text": "The concierge keeps a list of recommendations.",
+    "text": "B. No, I already had dinner.",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-24/5.mp3",
-    "text": "No, I already had dinner.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-24/7.mp3",
-    "text": "Yes, I love salmon rolls.",
+    "file": "assets/audio/s3/s3p2-24/4.mp3",
+    "text": "C. Yes, I love salmon rolls.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -4378,18 +4192,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s3/s3p2-25/2.mp3",
+    "text": "A. It's only been her first week, though.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s3/s3p2-25/3.mp3",
-    "text": "It's only been her first week, though.",
+    "text": "B. Yes, the bill was settled.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s3/s3p2-25/5.mp3",
-    "text": "Yes, the bill was settled.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s3/s3p2-25/7.mp3",
-    "text": "In the training room.",
+    "file": "assets/audio/s3/s3p2-25/4.mp3",
+    "text": "C. In the training room.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -5311,23 +5125,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s4/s4p1-01/1.mp3",
+    "text": "A. A worker is stacking crates in a warehouse.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p1-01/2.mp3",
-    "text": "A worker is stacking crates in a warehouse.",
+    "text": "B. A worker is driving a forklift.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s4/s4p1-01/3.mp3",
+    "text": "C. A worker is sealing a carton with tape.",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-01/4.mp3",
-    "text": "A worker is driving a forklift.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p1-01/6.mp3",
-    "text": "A worker is sealing a carton with tape.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p1-01/8.mp3",
-    "text": "A worker is weighing produce on a scale.",
+    "text": "D. A worker is weighing produce on a scale.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -5337,23 +5151,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s4/s4p1-02/1.mp3",
+    "text": "A. Some books are being taken out of a box.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p1-02/2.mp3",
-    "text": "Some books are being taken out of a box.",
+    "text": "B. A woman is reading at a desk.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s4/s4p1-02/3.mp3",
+    "text": "C. A woman is stacking books onto a cart.",
     "voice": "en-GB-SoniaNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-02/4.mp3",
-    "text": "A woman is reading at a desk.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p1-02/6.mp3",
-    "text": "A woman is stacking books onto a cart.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p1-02/8.mp3",
-    "text": "A woman is reaching for a book on a shelf.",
+    "text": "D. A woman is reaching for a book on a shelf.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -5363,23 +5177,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s4/s4p1-03/1.mp3",
+    "text": "A. A man is locking up a bicycle.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p1-03/2.mp3",
-    "text": "A man is locking up a bicycle.",
+    "text": "B. Some bicycles have been lined up along a railing.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s4/s4p1-03/3.mp3",
+    "text": "C. A bicycle is being loaded onto a rack.",
     "voice": "en-AU-WilliamNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-03/4.mp3",
-    "text": "Some bicycles have been lined up along a railing.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p1-03/6.mp3",
-    "text": "A bicycle is being loaded onto a rack.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p1-03/8.mp3",
-    "text": "People are riding their bicycles down a path.",
+    "text": "D. People are riding their bicycles down a path.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -5389,23 +5203,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s4/s4p1-04/1.mp3",
+    "text": "A. A car is being washed.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p1-04/2.mp3",
-    "text": "A car is being washed.",
+    "text": "B. A man is pumping gas into a vehicle.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s4/s4p1-04/3.mp3",
+    "text": "C. A car is parked inside a garage.",
     "voice": "en-CA-ClaraNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-04/4.mp3",
-    "text": "A man is pumping gas into a vehicle.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p1-04/6.mp3",
-    "text": "A car is parked inside a garage.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p1-04/8.mp3",
-    "text": "A man is changing a flat tire.",
+    "text": "D. A man is changing a flat tire.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -5415,23 +5229,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s4/s4p1-05/1.mp3",
+    "text": "A. A worker is watering some plants.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p1-05/2.mp3",
-    "text": "A worker is watering some plants.",
+    "text": "B. A worker is sweeping the driveway.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s4/s4p1-05/3.mp3",
+    "text": "C. A worker is painting a fence.",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-05/4.mp3",
-    "text": "A worker is sweeping the driveway.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p1-05/6.mp3",
-    "text": "A worker is painting a fence.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p1-05/8.mp3",
-    "text": "A worker is mowing the lawn.",
+    "text": "D. A worker is mowing the lawn.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -5441,23 +5255,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s4/s4p1-06/1.mp3",
+    "text": "A. Some boats are tied up at a dock.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p1-06/2.mp3",
-    "text": "Some boats are tied up at a dock.",
+    "text": "B. A boat is being pulled out of the water.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
+    "file": "assets/audio/s4/s4p1-06/3.mp3",
+    "text": "C. Passengers are boarding a ferry.",
     "voice": "en-GB-SoniaNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-06/4.mp3",
-    "text": "A boat is being pulled out of the water.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p1-06/6.mp3",
-    "text": "Passengers are boarding a ferry.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p1-06/8.mp3",
-    "text": "People are fishing from a boat.",
+    "text": "D. People are fishing from a boat.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -5472,18 +5286,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-01/2.mp3",
+    "text": "A. She submitted hers already.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-01/3.mp3",
-    "text": "She submitted hers already.",
+    "text": "B. Yes, I could use a break.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-01/5.mp3",
-    "text": "Yes, I could use a break.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-01/7.mp3",
-    "text": "Through the HR portal online.",
+    "file": "assets/audio/s4/s4p2-01/4.mp3",
+    "text": "C. Through the HR portal online.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -5498,18 +5312,18 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-02/2.mp3",
+    "text": "A. In the fourth-floor kitchen.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-02/3.mp3",
-    "text": "In the fourth-floor kitchen.",
+    "text": "B. It was quite delicious.",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-02/5.mp3",
-    "text": "It was quite delicious.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-02/7.mp3",
-    "text": "At eleven thirty sharp.",
+    "file": "assets/audio/s4/s4p2-02/4.mp3",
+    "text": "C. At eleven thirty sharp.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -5524,18 +5338,18 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-03/2.mp3",
+    "text": "A. Near the loading bay.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-03/3.mp3",
-    "text": "Near the loading bay.",
+    "text": "B. It takes about an hour.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-03/5.mp3",
-    "text": "It takes about an hour.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-03/7.mp3",
-    "text": "Mr. Alvarez from operations.",
+    "file": "assets/audio/s4/s4p2-03/4.mp3",
+    "text": "C. Mr. Alvarez from operations.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -5550,18 +5364,18 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-04/2.mp3",
+    "text": "A. No, they're still at the printer's.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-04/3.mp3",
-    "text": "No, they're still at the printer's.",
+    "text": "B. Her name is on the list.",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-04/5.mp3",
-    "text": "Her name is on the list.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-04/7.mp3",
-    "text": "Yes, I arrived early today.",
+    "file": "assets/audio/s4/s4p2-04/4.mp3",
+    "text": "C. Yes, I arrived early today.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -5576,18 +5390,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-05/2.mp3",
+    "text": "A. The printer is out of ink.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-05/3.mp3",
-    "text": "The printer is out of ink.",
+    "text": "B. Yes, I bought two of them.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-05/5.mp3",
-    "text": "Yes, I bought two of them.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-05/7.mp3",
-    "text": "Emailed would be great, thanks.",
+    "file": "assets/audio/s4/s4p2-05/4.mp3",
+    "text": "C. Emailed would be great, thanks.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -5602,18 +5416,18 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-06/2.mp3",
+    "text": "A. Because it's being renovated.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-06/3.mp3",
-    "text": "Because it's being renovated.",
+    "text": "B. For about three weeks, I heard.",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-06/5.mp3",
-    "text": "For about three weeks, I heard.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-06/7.mp3",
-    "text": "On the second floor.",
+    "file": "assets/audio/s4/s4p2-06/4.mp3",
+    "text": "C. On the second floor.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -5628,18 +5442,18 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-07/2.mp3",
+    "text": "A. In the central park.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-07/3.mp3",
-    "text": "In the central park.",
+    "text": "B. About twenty should be enough.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-07/5.mp3",
-    "text": "About twenty should be enough.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-07/7.mp3",
-    "text": "It runs every spring.",
+    "file": "assets/audio/s4/s4p2-07/4.mp3",
+    "text": "C. It runs every spring.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -5654,18 +5468,18 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-08/2.mp3",
+    "text": "A. Yes, it works very well.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-08/3.mp3",
-    "text": "Yes, it works very well.",
+    "text": "B. I'll put in a maintenance request.",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-08/5.mp3",
-    "text": "I'll put in a maintenance request.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-08/7.mp3",
-    "text": "On the fifth floor, that's right.",
+    "file": "assets/audio/s4/s4p2-08/4.mp3",
+    "text": "C. On the fifth floor, that's right.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -5680,18 +5494,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-09/2.mp3",
+    "text": "A. The press conference went well.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-09/3.mp3",
-    "text": "The press conference went well.",
+    "text": "B. Of course, give me ten minutes.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-09/5.mp3",
-    "text": "Of course, give me ten minutes.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-09/7.mp3",
-    "text": "No, I mailed it yesterday.",
+    "file": "assets/audio/s4/s4p2-09/4.mp3",
+    "text": "C. No, I mailed it yesterday.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -5706,18 +5520,18 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-10/2.mp3",
+    "text": "A. The fairgrounds are enormous.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-10/3.mp3",
-    "text": "The fairgrounds are enormous.",
+    "text": "B. Yes, I fly out on Monday.",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-10/5.mp3",
-    "text": "Yes, I fly out on Monday.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-10/7.mp3",
-    "text": "It seems like a fair price.",
+    "file": "assets/audio/s4/s4p2-10/4.mp3",
+    "text": "C. It seems like a fair price.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -5732,18 +5546,18 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-11/2.mp3",
+    "text": "A. The brochure is quite glossy.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-11/3.mp3",
-    "text": "The brochure is quite glossy.",
+    "text": "B. Yes, print a hundred copies.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-11/5.mp3",
-    "text": "Yes, print a hundred copies.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-11/7.mp3",
-    "text": "A bold, modern one.",
+    "file": "assets/audio/s4/s4p2-11/4.mp3",
+    "text": "C. A bold, modern one.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -5758,18 +5572,18 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-12/2.mp3",
+    "text": "A. Yes, I'll show you how.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-12/3.mp3",
-    "text": "Yes, I'll show you how.",
+    "text": "B. It's a brand-new machine.",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-12/5.mp3",
-    "text": "It's a brand-new machine.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-12/7.mp3",
-    "text": "In the break room.",
+    "file": "assets/audio/s4/s4p2-12/4.mp3",
+    "text": "C. In the break room.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -5784,18 +5598,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-13/2.mp3",
+    "text": "A. Because it was too expensive.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-13/3.mp3",
-    "text": "Because it was too expensive.",
+    "text": "B. He sat in the front row.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-13/5.mp3",
-    "text": "He sat in the front row.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-13/7.mp3",
-    "text": "That's a great idea — mine is broken.",
+    "file": "assets/audio/s4/s4p2-13/4.mp3",
+    "text": "C. That's a great idea — mine is broken.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -5810,18 +5624,18 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-14/2.mp3",
+    "text": "A. At the appliance store downtown.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-14/3.mp3",
-    "text": "At the appliance store downtown.",
+    "text": "B. Two years, parts and labor.",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-14/5.mp3",
-    "text": "Two years, parts and labor.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-14/7.mp3",
-    "text": "It's a fairly large model.",
+    "file": "assets/audio/s4/s4p2-14/4.mp3",
+    "text": "C. It's a fairly large model.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -5836,18 +5650,18 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-15/2.mp3",
+    "text": "A. I just started this week, so I'm not sure.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-15/3.mp3",
-    "text": "I just started this week, so I'm not sure.",
+    "text": "B. About five hundred copies.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-15/5.mp3",
-    "text": "About five hundred copies.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-15/7.mp3",
-    "text": "In the supply room.",
+    "file": "assets/audio/s4/s4p2-15/4.mp3",
+    "text": "C. In the supply room.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -5862,18 +5676,18 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-16/2.mp3",
+    "text": "A. Isn't the basement storage nearly empty?",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-16/3.mp3",
-    "text": "Isn't the basement storage nearly empty?",
+    "text": "B. About forty of them, I think.",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-16/5.mp3",
-    "text": "About forty of them, I think.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-16/7.mp3",
-    "text": "Yes, they're all stackable.",
+    "file": "assets/audio/s4/s4p2-16/4.mp3",
+    "text": "C. Yes, they're all stackable.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -5888,18 +5702,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-17/2.mp3",
+    "text": "A. The safety officer keeps that schedule.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-17/3.mp3",
-    "text": "The safety officer keeps that schedule.",
+    "text": "B. Yes, it was certified last year.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-17/5.mp3",
-    "text": "Yes, it was certified last year.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-17/7.mp3",
-    "text": "About four hours of instruction.",
+    "file": "assets/audio/s4/s4p2-17/4.mp3",
+    "text": "C. About four hours of instruction.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -5914,18 +5728,18 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-18/2.mp3",
+    "text": "A. Up on the top floor.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-18/3.mp3",
-    "text": "Up on the top floor.",
+    "text": "B. I signed the form myself.",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-18/5.mp3",
-    "text": "I signed the form myself.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-18/7.mp3",
-    "text": "They're meeting again on Thursday.",
+    "file": "assets/audio/s4/s4p2-18/4.mp3",
+    "text": "C. They're meeting again on Thursday.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -5940,18 +5754,18 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-19/2.mp3",
+    "text": "A. It's all explained in the letter they sent.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-19/3.mp3",
-    "text": "It's all explained in the letter they sent.",
+    "text": "B. The rate seems quite high.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-19/5.mp3",
-    "text": "The rate seems quite high.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-19/7.mp3",
-    "text": "Yes, prices are going up everywhere.",
+    "file": "assets/audio/s4/s4p2-19/4.mp3",
+    "text": "C. Yes, prices are going up everywhere.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -5966,18 +5780,18 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-20/2.mp3",
+    "text": "A. The steakhouse is closed on Mondays.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-20/3.mp3",
-    "text": "The steakhouse is closed on Mondays.",
+    "text": "B. It was a delicious meal.",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-20/5.mp3",
-    "text": "It was a delicious meal.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-20/7.mp3",
-    "text": "Yes, I'm getting quite hungry.",
+    "file": "assets/audio/s4/s4p2-20/4.mp3",
+    "text": "C. Yes, I'm getting quite hungry.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -5992,18 +5806,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-21/2.mp3",
+    "text": "A. Actually, the keynote slot was dropped from the program.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-21/3.mp3",
-    "text": "Actually, the keynote slot was dropped from the program.",
+    "text": "B. About three hundred developers.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-21/5.mp3",
-    "text": "About three hundred developers.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-21/7.mp3",
-    "text": "In the main auditorium.",
+    "file": "assets/audio/s4/s4p2-21/4.mp3",
+    "text": "C. In the main auditorium.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -6018,18 +5832,18 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-22/2.mp3",
+    "text": "A. It's held every Saturday.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-22/3.mp3",
-    "text": "It's held every Saturday.",
+    "text": "B. Registration doesn't close until Friday.",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-22/5.mp3",
-    "text": "Registration doesn't close until Friday.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-22/7.mp3",
-    "text": "In the demonstration kitchen.",
+    "file": "assets/audio/s4/s4p2-22/4.mp3",
+    "text": "C. In the demonstration kitchen.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -6044,18 +5858,18 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-23/2.mp3",
+    "text": "A. Yes, I've already had lunch.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-23/3.mp3",
-    "text": "Yes, I've already had lunch.",
+    "text": "B. The desk is right by the entrance.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-23/5.mp3",
-    "text": "The desk is right by the entrance.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-23/7.mp3",
-    "text": "I'm heading to a dentist appointment myself.",
+    "file": "assets/audio/s4/s4p2-23/4.mp3",
+    "text": "C. I'm heading to a dentist appointment myself.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -6070,18 +5884,18 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-24/2.mp3",
+    "text": "A. Yes, I stopped by there earlier.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-24/3.mp3",
-    "text": "Yes, I stopped by there earlier.",
+    "text": "B. The route map is posted right by the door.",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-24/5.mp3",
-    "text": "The route map is posted right by the door.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-24/7.mp3",
-    "text": "It's a very busy terminal.",
+    "file": "assets/audio/s4/s4p2-24/4.mp3",
+    "text": "C. It's a very busy terminal.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -6096,18 +5910,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s4/s4p2-25/2.mp3",
+    "text": "A. The electrical work still isn't finished, though.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s4/s4p2-25/3.mp3",
-    "text": "The electrical work still isn't finished, though.",
+    "text": "B. Up on the third floor.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s4/s4p2-25/5.mp3",
-    "text": "Up on the third floor.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s4/s4p2-25/7.mp3",
-    "text": "Yes, I renovated my kitchen last year.",
+    "file": "assets/audio/s4/s4p2-25/4.mp3",
+    "text": "C. Yes, I renovated my kitchen last year.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -7064,23 +6878,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s5/s5p1-01/1.mp3",
+    "text": "A. A woman is filling a bucket with soil.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p1-01/2.mp3",
-    "text": "A woman is filling a bucket with soil.",
+    "text": "B. A woman is watering some plants.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s5/s5p1-01/3.mp3",
+    "text": "C. A woman is putting on a pair of gloves.",
     "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p1-01/4.mp3",
-    "text": "A woman is watering some plants.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p1-01/6.mp3",
-    "text": "A woman is putting on a pair of gloves.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p1-01/8.mp3",
-    "text": "A woman is trimming a hedge.",
+    "text": "D. A woman is trimming a hedge.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -7090,23 +6904,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s5/s5p1-02/1.mp3",
+    "text": "A. A man is setting up a microphone stand.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p1-02/2.mp3",
-    "text": "A man is setting up a microphone stand.",
+    "text": "B. A man is folding a chair.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s5/s5p1-02/3.mp3",
+    "text": "C. A man is playing a guitar.",
     "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s5/s5p1-02/4.mp3",
-    "text": "A man is folding a chair.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p1-02/6.mp3",
-    "text": "A man is playing a guitar.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p1-02/8.mp3",
-    "text": "A man is tuning a piano.",
+    "text": "D. A man is tuning a piano.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -7116,23 +6930,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s5/s5p1-03/1.mp3",
+    "text": "A. A man is closing the hood of a car.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p1-03/2.mp3",
-    "text": "A man is closing the hood of a car.",
+    "text": "B. A man is examining the engine of a car.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
+    "file": "assets/audio/s5/s5p1-03/3.mp3",
+    "text": "C. A man is changing a tire.",
     "voice": "en-AU-WilliamNeural"
   },
   {
     "file": "assets/audio/s5/s5p1-03/4.mp3",
-    "text": "A man is examining the engine of a car.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p1-03/6.mp3",
-    "text": "A man is changing a tire.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p1-03/8.mp3",
-    "text": "A man is driving a vehicle.",
+    "text": "D. A man is driving a vehicle.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -7142,23 +6956,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s5/s5p1-04/1.mp3",
+    "text": "A. Some documents are being handed out.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p1-04/2.mp3",
-    "text": "Some documents are being handed out.",
+    "text": "B. People are gathered for a meeting.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s5/s5p1-04/3.mp3",
+    "text": "C. A projector is being adjusted.",
     "voice": "en-CA-ClaraNeural"
   },
   {
     "file": "assets/audio/s5/s5p1-04/4.mp3",
-    "text": "People are gathered for a meeting.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p1-04/6.mp3",
-    "text": "A projector is being adjusted.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p1-04/8.mp3",
-    "text": "Chairs have been arranged around a table.",
+    "text": "D. Chairs have been arranged around a table.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -7168,23 +6982,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s5/s5p1-05/1.mp3",
+    "text": "A. A woman is rolling paint onto a wall.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p1-05/2.mp3",
-    "text": "A woman is rolling paint onto a wall.",
+    "text": "B. A woman is climbing a ladder.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s5/s5p1-05/3.mp3",
+    "text": "C. A woman is opening a can of paint.",
     "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p1-05/4.mp3",
-    "text": "A woman is climbing a ladder.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p1-05/6.mp3",
-    "text": "A woman is opening a can of paint.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p1-05/8.mp3",
-    "text": "A woman is hanging wallpaper.",
+    "text": "D. A woman is hanging wallpaper.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -7194,23 +7008,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s5/s5p1-06/1.mp3",
+    "text": "A. A customer's hair is being cut.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p1-06/2.mp3",
-    "text": "A customer's hair is being cut.",
+    "text": "B. A barber is sweeping the floor.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s5/s5p1-06/3.mp3",
+    "text": "C. A man is washing his hands.",
     "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s5/s5p1-06/4.mp3",
-    "text": "A barber is sweeping the floor.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p1-06/6.mp3",
-    "text": "A man is washing his hands.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p1-06/8.mp3",
-    "text": "A man is looking in a mirror.",
+    "text": "D. A man is looking in a mirror.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -7225,18 +7039,18 @@
     "voice": "en-AU-WilliamNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-01/2.mp3",
+    "text": "A. At the front counter of the studio.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-01/3.mp3",
-    "text": "At the front counter of the studio.",
+    "text": "B. It costs about sixty dollars.",
     "voice": "en-AU-NatashaNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-01/5.mp3",
-    "text": "It costs about sixty dollars.",
-    "voice": "en-AU-NatashaNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-01/7.mp3",
-    "text": "Yes, I signed the form already.",
+    "file": "assets/audio/s5/s5p2-01/4.mp3",
+    "text": "C. Yes, I signed the form already.",
     "voice": "en-AU-NatashaNeural"
   },
   {
@@ -7251,18 +7065,18 @@
     "voice": "en-CA-ClaraNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-02/2.mp3",
+    "text": "A. Starting next Tuesday.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-02/3.mp3",
-    "text": "Starting next Tuesday.",
+    "text": "B. In the corner display case.",
     "voice": "en-CA-LiamNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-02/5.mp3",
-    "text": "In the corner display case.",
-    "voice": "en-CA-LiamNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-02/7.mp3",
-    "text": "They were quite popular.",
+    "file": "assets/audio/s5/s5p2-02/4.mp3",
+    "text": "C. They were quite popular.",
     "voice": "en-CA-LiamNeural"
   },
   {
@@ -7277,18 +7091,18 @@
     "voice": "en-US-GuyNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-03/2.mp3",
+    "text": "A. It opens at nine in the morning.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-03/3.mp3",
-    "text": "It opens at nine in the morning.",
+    "text": "B. A marine biologist named Ms. Reyes.",
     "voice": "en-US-JennyNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-03/5.mp3",
-    "text": "A marine biologist named Ms. Reyes.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-03/7.mp3",
-    "text": "About forty visitors joined.",
+    "file": "assets/audio/s5/s5p2-03/4.mp3",
+    "text": "C. About forty visitors joined.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -7303,18 +7117,18 @@
     "voice": "en-GB-SoniaNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-04/2.mp3",
+    "text": "A. No, the cleaning crew comes at night.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-04/3.mp3",
-    "text": "No, the cleaning crew comes at night.",
+    "text": "B. Not yet, I'll take it on my way home.",
     "voice": "en-GB-RyanNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-04/5.mp3",
-    "text": "Not yet, I'll take it on my way home.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-04/7.mp3",
-    "text": "Sure, the suite has a nice view.",
+    "file": "assets/audio/s5/s5p2-04/4.mp3",
+    "text": "C. Sure, the suite has a nice view.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -7329,18 +7143,18 @@
     "voice": "en-AU-WilliamNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-05/2.mp3",
+    "text": "A. Yes, I'd rather not.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-05/3.mp3",
-    "text": "Yes, I'd rather not.",
+    "text": "B. The rent is due on the first.",
     "voice": "en-AU-NatashaNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-05/5.mp3",
-    "text": "The rent is due on the first.",
-    "voice": "en-AU-NatashaNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-05/7.mp3",
-    "text": "Renting a bike sounds fun.",
+    "file": "assets/audio/s5/s5p2-05/4.mp3",
+    "text": "C. Renting a bike sounds fun.",
     "voice": "en-AU-NatashaNeural"
   },
   {
@@ -7355,18 +7169,18 @@
     "voice": "en-CA-ClaraNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-06/2.mp3",
+    "text": "A. For about three weeks.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-06/3.mp3",
-    "text": "For about three weeks.",
+    "text": "B. To make room for the new paintings.",
     "voice": "en-CA-LiamNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-06/5.mp3",
-    "text": "To make room for the new paintings.",
-    "voice": "en-CA-LiamNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-06/7.mp3",
-    "text": "On the second floor, near the cafe.",
+    "file": "assets/audio/s5/s5p2-06/4.mp3",
+    "text": "C. On the second floor, near the cafe.",
     "voice": "en-CA-LiamNeural"
   },
   {
@@ -7381,18 +7195,18 @@
     "voice": "en-US-GuyNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-07/2.mp3",
+    "text": "A. Every other Wednesday.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-07/3.mp3",
-    "text": "Every other Wednesday.",
+    "text": "B. About ten large containers.",
     "voice": "en-US-JennyNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-07/5.mp3",
-    "text": "About ten large containers.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-07/7.mp3",
-    "text": "Just leave the bins by the curb.",
+    "file": "assets/audio/s5/s5p2-07/4.mp3",
+    "text": "C. Just leave the bins by the curb.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -7407,18 +7221,18 @@
     "voice": "en-GB-SoniaNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-08/2.mp3",
+    "text": "A. I'll put in a maintenance request.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-08/3.mp3",
-    "text": "I'll put in a maintenance request.",
+    "text": "B. Yes, the room was freshly painted.",
     "voice": "en-GB-RyanNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-08/5.mp3",
-    "text": "Yes, the room was freshly painted.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-08/7.mp3",
-    "text": "I like mine with extra foam.",
+    "file": "assets/audio/s5/s5p2-08/4.mp3",
+    "text": "C. I like mine with extra foam.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -7433,18 +7247,18 @@
     "voice": "en-AU-WilliamNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-09/2.mp3",
+    "text": "A. The vacant office is upstairs.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-09/3.mp3",
-    "text": "The vacant office is upstairs.",
+    "text": "B. Of course, I'll come by every few days.",
     "voice": "en-AU-NatashaNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-09/5.mp3",
-    "text": "Of course, I'll come by every few days.",
-    "voice": "en-AU-NatashaNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-09/7.mp3",
-    "text": "No, the water pressure is low.",
+    "file": "assets/audio/s5/s5p2-09/4.mp3",
+    "text": "C. No, the water pressure is low.",
     "voice": "en-AU-NatashaNeural"
   },
   {
@@ -7459,18 +7273,18 @@
     "voice": "en-CA-ClaraNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-10/2.mp3",
+    "text": "A. The tour guide was very helpful.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-10/3.mp3",
-    "text": "The tour guide was very helpful.",
+    "text": "B. Yes, the landlord showed me around on Sunday.",
     "voice": "en-CA-LiamNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-10/5.mp3",
-    "text": "Yes, the landlord showed me around on Sunday.",
-    "voice": "en-CA-LiamNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-10/7.mp3",
-    "text": "In the downtown district.",
+    "file": "assets/audio/s5/s5p2-10/4.mp3",
+    "text": "C. In the downtown district.",
     "voice": "en-CA-LiamNeural"
   },
   {
@@ -7485,18 +7299,18 @@
     "voice": "en-US-GuyNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-11/2.mp3",
+    "text": "A. Yes, please handle them with care.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-11/3.mp3",
-    "text": "Yes, please handle them with care.",
+    "text": "B. It was delivered this morning.",
     "voice": "en-US-JennyNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-11/5.mp3",
-    "text": "It was delivered this morning.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-11/7.mp3",
-    "text": "The one that offers extra padding.",
+    "file": "assets/audio/s5/s5p2-11/4.mp3",
+    "text": "C. The one that offers extra padding.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -7511,18 +7325,18 @@
     "voice": "en-GB-SoniaNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-12/2.mp3",
+    "text": "A. It was a fascinating novel.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-12/3.mp3",
-    "text": "It was a fascinating novel.",
+    "text": "B. She returned from Paris last week.",
     "voice": "en-GB-RyanNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-12/5.mp3",
-    "text": "She returned from Paris last week.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-12/7.mp3",
-    "text": "There's a drop box by the main entrance.",
+    "file": "assets/audio/s5/s5p2-12/4.mp3",
+    "text": "C. There's a drop box by the main entrance.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -7537,18 +7351,18 @@
     "voice": "en-AU-WilliamNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-13/2.mp3",
+    "text": "A. Sounds great, I'll drive.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-13/3.mp3",
-    "text": "Sounds great, I'll drive.",
+    "text": "B. Because the car wouldn't start.",
     "voice": "en-AU-NatashaNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-13/5.mp3",
-    "text": "Because the car wouldn't start.",
-    "voice": "en-AU-NatashaNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-13/7.mp3",
-    "text": "The market sells fresh vegetables.",
+    "file": "assets/audio/s5/s5p2-13/4.mp3",
+    "text": "C. The market sells fresh vegetables.",
     "voice": "en-AU-NatashaNeural"
   },
   {
@@ -7563,18 +7377,18 @@
     "voice": "en-CA-ClaraNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-14/2.mp3",
+    "text": "A. Twenty-five dollars for a standard size.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-14/3.mp3",
-    "text": "Twenty-five dollars for a standard size.",
+    "text": "B. The photographer took it last year.",
     "voice": "en-CA-LiamNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-14/5.mp3",
-    "text": "The photographer took it last year.",
-    "voice": "en-CA-LiamNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-14/7.mp3",
-    "text": "In a wooden frame, I think.",
+    "file": "assets/audio/s5/s5p2-14/4.mp3",
+    "text": "C. In a wooden frame, I think.",
     "voice": "en-CA-LiamNeural"
   },
   {
@@ -7589,18 +7403,18 @@
     "voice": "en-US-GuyNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-15/2.mp3",
+    "text": "A. On the sixth floor.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-15/3.mp3",
-    "text": "On the sixth floor.",
+    "text": "B. Around two o'clock.",
     "voice": "en-US-JennyNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-15/5.mp3",
-    "text": "Around two o'clock.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-15/7.mp3",
-    "text": "I just started here last week, actually.",
+    "file": "assets/audio/s5/s5p2-15/4.mp3",
+    "text": "C. I just started here last week, actually.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -7615,18 +7429,18 @@
     "voice": "en-GB-SoniaNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-16/2.mp3",
+    "text": "A. Didn't the organizers assign us a spot already?",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-16/3.mp3",
-    "text": "Didn't the organizers assign us a spot already?",
+    "text": "B. Yes, I set up the table.",
     "voice": "en-GB-RyanNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-16/5.mp3",
-    "text": "Yes, I set up the table.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-16/7.mp3",
-    "text": "The fair runs until Sunday.",
+    "file": "assets/audio/s5/s5p2-16/4.mp3",
+    "text": "C. The fair runs until Sunday.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -7641,18 +7455,18 @@
     "voice": "en-AU-WilliamNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-17/2.mp3",
+    "text": "A. The concierge posts the times in the lobby.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-17/3.mp3",
-    "text": "The concierge posts the times in the lobby.",
+    "text": "B. The ticket office is closed now.",
     "voice": "en-AU-NatashaNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-17/5.mp3",
-    "text": "The ticket office is closed now.",
-    "voice": "en-AU-NatashaNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-17/7.mp3",
-    "text": "Yes, it was a smooth ride.",
+    "file": "assets/audio/s5/s5p2-17/4.mp3",
+    "text": "C. Yes, it was a smooth ride.",
     "voice": "en-AU-NatashaNeural"
   },
   {
@@ -7667,18 +7481,18 @@
     "voice": "en-CA-ClaraNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-18/2.mp3",
+    "text": "A. He's coming back tomorrow with more soil.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-18/3.mp3",
-    "text": "He's coming back tomorrow with more soil.",
+    "text": "B. The plant is on the windowsill.",
     "voice": "en-CA-LiamNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-18/5.mp3",
-    "text": "The plant is on the windowsill.",
-    "voice": "en-CA-LiamNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-18/7.mp3",
-    "text": "No, the land was quite large.",
+    "file": "assets/audio/s5/s5p2-18/4.mp3",
+    "text": "C. No, the land was quite large.",
     "voice": "en-CA-LiamNeural"
   },
   {
@@ -7693,18 +7507,18 @@
     "voice": "en-US-GuyNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-19/2.mp3",
+    "text": "A. It usually opens at six.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-19/3.mp3",
-    "text": "It usually opens at six.",
+    "text": "B. There's a sign taped to the gate.",
     "voice": "en-US-JennyNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-19/5.mp3",
-    "text": "There's a sign taped to the gate.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-19/7.mp3",
-    "text": "Yes, I'll close the locker.",
+    "file": "assets/audio/s5/s5p2-19/4.mp3",
+    "text": "C. Yes, I'll close the locker.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -7719,18 +7533,18 @@
     "voice": "en-GB-SoniaNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-20/2.mp3",
+    "text": "A. The party starts at six.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-20/3.mp3",
-    "text": "The party starts at six.",
+    "text": "B. Yes, let's celebrate.",
     "voice": "en-GB-RyanNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-20/5.mp3",
-    "text": "Yes, let's celebrate.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-20/7.mp3",
-    "text": "A lot of the guests have dietary restrictions.",
+    "file": "assets/audio/s5/s5p2-20/4.mp3",
+    "text": "C. A lot of the guests have dietary restrictions.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -7745,18 +7559,18 @@
     "voice": "en-AU-WilliamNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-21/2.mp3",
+    "text": "A. About two hundred guests.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-21/3.mp3",
-    "text": "About two hundred guests.",
+    "text": "B. Actually, the ceremony may be moved online.",
     "voice": "en-AU-NatashaNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-21/5.mp3",
-    "text": "Actually, the ceremony may be moved online.",
-    "voice": "en-AU-NatashaNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-21/7.mp3",
-    "text": "In the grand ballroom.",
+    "file": "assets/audio/s5/s5p2-21/4.mp3",
+    "text": "C. In the grand ballroom.",
     "voice": "en-AU-NatashaNeural"
   },
   {
@@ -7771,18 +7585,18 @@
     "voice": "en-CA-ClaraNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-22/2.mp3",
+    "text": "A. Mostly reds from Italy.",
+    "voice": "en-CA-LiamNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-22/3.mp3",
-    "text": "Mostly reds from Italy.",
+    "text": "B. Yes, it was quite crowded.",
     "voice": "en-CA-LiamNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-22/5.mp3",
-    "text": "Yes, it was quite crowded.",
-    "voice": "en-CA-LiamNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-22/7.mp3",
-    "text": "The sign-up form just went live this morning.",
+    "file": "assets/audio/s5/s5p2-22/4.mp3",
+    "text": "C. The sign-up form just went live this morning.",
     "voice": "en-CA-LiamNeural"
   },
   {
@@ -7797,18 +7611,18 @@
     "voice": "en-US-GuyNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-23/2.mp3",
+    "text": "A. The proposal was accepted.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-23/3.mp3",
-    "text": "The proposal was accepted.",
+    "text": "B. Yes, the lunch menu changed.",
     "voice": "en-US-JennyNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-23/5.mp3",
-    "text": "Yes, the lunch menu changed.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-23/7.mp3",
-    "text": "I'm swamped with the audit right now.",
+    "file": "assets/audio/s5/s5p2-23/4.mp3",
+    "text": "C. I'm swamped with the audit right now.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -7823,18 +7637,18 @@
     "voice": "en-GB-SoniaNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-24/2.mp3",
+    "text": "A. No, the train was delayed.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-24/3.mp3",
-    "text": "No, the train was delayed.",
+    "text": "B. The tourist kiosk can point you to one.",
     "voice": "en-GB-RyanNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-24/5.mp3",
-    "text": "The tourist kiosk can point you to one.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-24/7.mp3",
-    "text": "Yes, I need to fix the shelf.",
+    "file": "assets/audio/s5/s5p2-24/4.mp3",
+    "text": "C. Yes, I need to fix the shelf.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -7849,18 +7663,18 @@
     "voice": "en-AU-WilliamNeural"
   },
   {
+    "file": "assets/audio/s5/s5p2-25/2.mp3",
+    "text": "A. In the reading room upstairs.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
     "file": "assets/audio/s5/s5p2-25/3.mp3",
-    "text": "In the reading room upstairs.",
+    "text": "B. Yes, I finished the whole novel.",
     "voice": "en-AU-NatashaNeural"
   },
   {
-    "file": "assets/audio/s5/s5p2-25/5.mp3",
-    "text": "Yes, I finished the whole novel.",
-    "voice": "en-AU-NatashaNeural"
-  },
-  {
-    "file": "assets/audio/s5/s5p2-25/7.mp3",
-    "text": "The regulars just haven't shown up today.",
+    "file": "assets/audio/s5/s5p2-25/4.mp3",
+    "text": "C. The regulars just haven't shown up today.",
     "voice": "en-AU-NatashaNeural"
   },
   {
@@ -8797,23 +8611,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s6/s6p1-01/1.mp3",
+    "text": "A. A waiter is wiping off an outdoor table.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p1-01/2.mp3",
-    "text": "A waiter is wiping off an outdoor table.",
+    "text": "B. The umbrellas are being folded up.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
+    "file": "assets/audio/s6/s6p1-01/3.mp3",
+    "text": "C. A server is carrying a tray of beverages.",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-01/4.mp3",
-    "text": "The umbrellas are being folded up.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p1-01/6.mp3",
-    "text": "A server is carrying a tray of beverages.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p1-01/8.mp3",
-    "text": "Some diners are seated under an umbrella.",
+    "text": "D. Some diners are seated under an umbrella.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -8823,23 +8637,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s6/s6p1-02/1.mp3",
+    "text": "A. A worker is measuring a wooden board.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p1-02/2.mp3",
-    "text": "A worker is measuring a wooden board.",
+    "text": "B. A worker is climbing onto a roof.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s6/s6p1-02/3.mp3",
+    "text": "C. A worker is sweeping the floor.",
     "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-02/4.mp3",
-    "text": "A worker is climbing onto a roof.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p1-02/6.mp3",
-    "text": "A worker is sweeping the floor.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p1-02/8.mp3",
-    "text": "A worker is unloading bricks from a truck.",
+    "text": "D. A worker is unloading bricks from a truck.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -8849,29 +8663,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s6/s6p1-03/1.mp3",
+    "text": "A. A woman is watering plants with a hose.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p1-03/2.mp3",
-    "text": "A woman is watering plants with a hose.",
+    "text": "B. A woman is planting flowers in a garden bed.",
+    "voice": "en-AU-NatashaNeural"
+  },
+  {
+    "file": "assets/audio/s6/s6p1-03/3.mp3",
+    "text": "C. A woman is mowing the lawn.",
     "voice": "en-AU-NatashaNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-03/4.mp3",
-    "text": "A woman is planting flowers in a garden bed.",
-    "voice": "en-AU-NatashaNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p1-03/6.mp3",
-    "text": "A woman is mowing the lawn.",
-    "voice": "en-AU-NatashaNeural"
-  },
-  {
-    "file": "assets/audio/letters/en-AU-NatashaNeural/D.mp3",
-    "text": "D.",
-    "voice": "en-AU-NatashaNeural",
-    "prebuilt": true
-  },
-  {
-    "file": "assets/audio/s6/s6p1-03/8.mp3",
-    "text": "A woman is trimming a hedge with shears.",
+    "text": "D. A woman is trimming a hedge with shears.",
     "voice": "en-AU-NatashaNeural"
   },
   {
@@ -8881,23 +8689,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s6/s6p1-04/1.mp3",
+    "text": "A. A customer is trying on a coat.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p1-04/2.mp3",
-    "text": "A customer is trying on a coat.",
+    "text": "B. A clerk is folding garments.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
+    "file": "assets/audio/s6/s6p1-04/3.mp3",
+    "text": "C. The shelves have been emptied.",
     "voice": "en-CA-ClaraNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-04/4.mp3",
-    "text": "A clerk is folding garments.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p1-04/6.mp3",
-    "text": "The shelves have been emptied.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p1-04/8.mp3",
-    "text": "Clothing has been hung on racks.",
+    "text": "D. Clothing has been hung on racks.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -8907,23 +8715,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s6/s6p1-05/1.mp3",
+    "text": "A. A performer is tuning an instrument.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p1-05/2.mp3",
-    "text": "A performer is tuning an instrument.",
+    "text": "B. The audience is leaving the hall.",
+    "voice": "en-US-JennyNeural"
+  },
+  {
+    "file": "assets/audio/s6/s6p1-05/3.mp3",
+    "text": "C. Musicians are performing on a stage.",
     "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-05/4.mp3",
-    "text": "The audience is leaving the hall.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p1-05/6.mp3",
-    "text": "Musicians are performing on a stage.",
-    "voice": "en-US-JennyNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p1-05/8.mp3",
-    "text": "Chairs are being carried off the stage.",
+    "text": "D. Chairs are being carried off the stage.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -8933,23 +8741,23 @@
     "rate": "-8%"
   },
   {
+    "file": "assets/audio/s6/s6p1-06/1.mp3",
+    "text": "A. A teller is counting money.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p1-06/2.mp3",
-    "text": "A teller is counting money.",
+    "text": "B. A customer is signing a document.",
+    "voice": "en-GB-RyanNeural"
+  },
+  {
+    "file": "assets/audio/s6/s6p1-06/3.mp3",
+    "text": "C. People are waiting in line.",
     "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-06/4.mp3",
-    "text": "A customer is signing a document.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p1-06/6.mp3",
-    "text": "People are waiting in line.",
-    "voice": "en-GB-RyanNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p1-06/8.mp3",
-    "text": "A door is being locked.",
+    "text": "D. A door is being locked.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -8964,18 +8772,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-01/2.mp3",
+    "text": "A. There's one just around the corner on Fifth Street.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-01/3.mp3",
-    "text": "There's one just around the corner on Fifth Street.",
+    "text": "B. About two kilograms, I'd guess.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-01/5.mp3",
-    "text": "About two kilograms, I'd guess.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-01/7.mp3",
-    "text": "I'll post the announcement tomorrow.",
+    "file": "assets/audio/s6/s6p2-01/4.mp3",
+    "text": "C. I'll post the announcement tomorrow.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -8990,18 +8798,18 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-02/2.mp3",
+    "text": "A. In the licensing office upstairs.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-02/3.mp3",
-    "text": "In the licensing office upstairs.",
+    "text": "B. It's ninety dollars a year.",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-02/5.mp3",
-    "text": "It's ninety dollars a year.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-02/7.mp3",
-    "text": "At the end of this month.",
+    "file": "assets/audio/s6/s6p2-02/4.mp3",
+    "text": "C. At the end of this month.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -9016,18 +8824,18 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-03/2.mp3",
+    "text": "A. Sometime next Friday.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-03/3.mp3",
-    "text": "Sometime next Friday.",
+    "text": "B. His teammates are handling it.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-03/5.mp3",
-    "text": "His teammates are handling it.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-03/7.mp3",
-    "text": "In the fourth-floor lounge.",
+    "file": "assets/audio/s6/s6p2-03/4.mp3",
+    "text": "C. In the fourth-floor lounge.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -9042,18 +8850,18 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-04/2.mp3",
+    "text": "A. Yes, I added everyone's new numbers this morning.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-04/3.mp3",
-    "text": "Yes, I added everyone's new numbers this morning.",
+    "text": "B. She contacted me last week.",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-04/5.mp3",
-    "text": "She contacted me last week.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-04/7.mp3",
-    "text": "That door is for emergencies only.",
+    "file": "assets/audio/s6/s6p2-04/4.mp3",
+    "text": "C. That door is for emergencies only.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -9068,18 +8876,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-05/2.mp3",
+    "text": "A. About fifty copies should do.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-05/3.mp3",
-    "text": "About fifty copies should do.",
+    "text": "B. Yes, please print them now.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-05/5.mp3",
-    "text": "Yes, please print them now.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-05/7.mp3",
-    "text": "Color would be better for the charts.",
+    "file": "assets/audio/s6/s6p2-05/4.mp3",
+    "text": "C. Color would be better for the charts.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -9094,18 +8902,18 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-06/2.mp3",
+    "text": "A. I'll call the supplier back soon.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-06/3.mp3",
-    "text": "I'll call the supplier back soon.",
+    "text": "B. At this morning's press briefing.",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-06/5.mp3",
-    "text": "At this morning's press briefing.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-06/7.mp3",
-    "text": "A faulty sensor was found in some units.",
+    "file": "assets/audio/s6/s6p2-06/4.mp3",
+    "text": "C. A faulty sensor was found in some units.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -9120,18 +8928,18 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-07/2.mp3",
+    "text": "A. They just scan their ID badges at the door.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-07/3.mp3",
-    "text": "They just scan their ID badges at the door.",
+    "text": "B. Usually around eight in the morning.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-07/5.mp3",
-    "text": "Usually around eight in the morning.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-07/7.mp3",
-    "text": "The clock in the lobby runs a bit fast.",
+    "file": "assets/audio/s6/s6p2-07/4.mp3",
+    "text": "C. The clock in the lobby runs a bit fast.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -9146,18 +8954,18 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-08/2.mp3",
+    "text": "A. Try the one in the break room instead.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-08/3.mp3",
-    "text": "Try the one in the break room instead.",
+    "text": "B. I'll have a bottle of water, thanks.",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-08/5.mp3",
-    "text": "I'll have a bottle of water, thanks.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-08/7.mp3",
-    "text": "Yes, it was installed just last month.",
+    "file": "assets/audio/s6/s6p2-08/4.mp3",
+    "text": "C. Yes, it was installed just last month.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -9172,18 +8980,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-09/2.mp3",
+    "text": "A. The water cooler needs refilling.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-09/3.mp3",
-    "text": "The water cooler needs refilling.",
+    "text": "B. Of course, I'll look after them.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-09/5.mp3",
-    "text": "Of course, I'll look after them.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-09/7.mp3",
-    "text": "They were planted last spring.",
+    "file": "assets/audio/s6/s6p2-09/4.mp3",
+    "text": "C. They were planted last spring.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -9198,18 +9006,18 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-10/2.mp3",
+    "text": "A. Right, we'll need to decide whether to renew it.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-10/3.mp3",
-    "text": "Right, we'll need to decide whether to renew it.",
+    "text": "B. The copies are already on your desk.",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-10/5.mp3",
-    "text": "The copies are already on your desk.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-10/7.mp3",
-    "text": "It's leased from a downtown vendor.",
+    "file": "assets/audio/s6/s6p2-10/4.mp3",
+    "text": "C. It's leased from a downtown vendor.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -9224,18 +9032,18 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-11/2.mp3",
+    "text": "A. The one we started using back in March.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-11/3.mp3",
-    "text": "The one we started using back in March.",
+    "text": "B. To the downtown warehouse.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-11/5.mp3",
-    "text": "To the downtown warehouse.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-11/7.mp3",
-    "text": "Yes, it arrived right on time.",
+    "file": "assets/audio/s6/s6p2-11/4.mp3",
+    "text": "C. Yes, it arrived right on time.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -9250,18 +9058,18 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-12/2.mp3",
+    "text": "A. The kit costs about thirty dollars.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-12/3.mp3",
-    "text": "The kit costs about thirty dollars.",
+    "text": "B. It's mounted on the wall by the kitchen.",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-12/5.mp3",
-    "text": "It's mounted on the wall by the kitchen.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-12/7.mp3",
-    "text": "He was first in line this morning.",
+    "file": "assets/audio/s6/s6p2-12/4.mp3",
+    "text": "C. He was first in line this morning.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -9276,18 +9084,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-13/2.mp3",
+    "text": "A. The website is being redesigned.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-13/3.mp3",
-    "text": "The website is being redesigned.",
+    "text": "B. It's a lovely view from the site.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-13/5.mp3",
-    "text": "It's a lovely view from the site.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-13/7.mp3",
-    "text": "Good idea — everyone's free that day.",
+    "file": "assets/audio/s6/s6p2-13/4.mp3",
+    "text": "C. Good idea — everyone's free that day.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -9302,18 +9110,18 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-14/2.mp3",
+    "text": "A. Five hundred dollars for the day.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-14/3.mp3",
-    "text": "Five hundred dollars for the day.",
+    "text": "B. The weather should be fair tomorrow.",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-14/5.mp3",
-    "text": "The weather should be fair tomorrow.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-14/7.mp3",
-    "text": "In the main exhibition hall.",
+    "file": "assets/audio/s6/s6p2-14/4.mp3",
+    "text": "C. In the main exhibition hall.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -9328,18 +9136,18 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-15/2.mp3",
+    "text": "A. In the executive boardroom.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-15/3.mp3",
-    "text": "In the executive boardroom.",
+    "text": "B. About twelve items long.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-15/5.mp3",
-    "text": "About twelve items long.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-15/7.mp3",
-    "text": "I haven't seen the agenda yet, actually.",
+    "file": "assets/audio/s6/s6p2-15/4.mp3",
+    "text": "C. I haven't seen the agenda yet, actually.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -9354,18 +9162,18 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-16/2.mp3",
+    "text": "A. Isn't the front window reserved for seasonal items?",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-16/3.mp3",
-    "text": "Isn't the front window reserved for seasonal items?",
+    "text": "B. Yes, I got a free sample too.",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-16/5.mp3",
-    "text": "Yes, I got a free sample too.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-16/7.mp3",
-    "text": "At the very end of the month.",
+    "file": "assets/audio/s6/s6p2-16/4.mp3",
+    "text": "C. At the very end of the month.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -9380,18 +9188,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-17/2.mp3",
+    "text": "A. Yes, in the training room.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-17/3.mp3",
-    "text": "Yes, in the training room.",
+    "text": "B. The HR coordinator posted the dates online.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-17/5.mp3",
-    "text": "The HR coordinator posted the dates online.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-17/7.mp3",
-    "text": "The program was very popular last year.",
+    "file": "assets/audio/s6/s6p2-17/4.mp3",
+    "text": "C. The program was very popular last year.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -9406,18 +9214,18 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-18/2.mp3",
+    "text": "A. I earned a small bonus last year.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-18/3.mp3",
-    "text": "I earned a small bonus last year.",
+    "text": "B. Yes, the payment process was simple.",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-18/5.mp3",
-    "text": "Yes, the payment process was simple.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-18/7.mp3",
-    "text": "The accounting office is still closed for the audit.",
+    "file": "assets/audio/s6/s6p2-18/4.mp3",
+    "text": "C. The accounting office is still closed for the audit.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -9432,18 +9240,18 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-19/2.mp3",
+    "text": "A. It leads up to the rooftop terrace.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-19/3.mp3",
-    "text": "It leads up to the rooftop terrace.",
+    "text": "B. There's a notice taped by the door explaining it.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-19/5.mp3",
-    "text": "There's a notice taped by the door explaining it.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-19/7.mp3",
-    "text": "Yes, I'll block out the whole afternoon.",
+    "file": "assets/audio/s6/s6p2-19/4.mp3",
+    "text": "C. Yes, I'll block out the whole afternoon.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -9458,18 +9266,18 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-20/2.mp3",
+    "text": "A. Most of the team is already fully booked next week.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-20/3.mp3",
-    "text": "Most of the team is already fully booked next week.",
+    "text": "B. Yes, that sounds fine to me.",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-20/5.mp3",
-    "text": "Yes, that sounds fine to me.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-20/7.mp3",
-    "text": "The temperature dropped sharply last night.",
+    "file": "assets/audio/s6/s6p2-20/4.mp3",
+    "text": "C. The temperature dropped sharply last night.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -9484,18 +9292,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-21/2.mp3",
+    "text": "A. We received a very warm welcome.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-21/3.mp3",
-    "text": "We received a very warm welcome.",
+    "text": "B. Actually, the conference has been switched to online only.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-21/5.mp3",
-    "text": "Actually, the conference has been switched to online only.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-21/7.mp3",
-    "text": "In the main lobby, as usual.",
+    "file": "assets/audio/s6/s6p2-21/4.mp3",
+    "text": "C. In the main lobby, as usual.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -9510,18 +9318,18 @@
     "voice": "en-CA-LiamNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-22/2.mp3",
+    "text": "A. The campaign ran for six weeks.",
+    "voice": "en-CA-ClaraNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-22/3.mp3",
-    "text": "The campaign ran for six weeks.",
+    "text": "B. Yes, it turned out rather costly.",
     "voice": "en-CA-ClaraNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-22/5.mp3",
-    "text": "Yes, it turned out rather costly.",
-    "voice": "en-CA-ClaraNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-22/7.mp3",
-    "text": "The final figures won't be ready until Friday.",
+    "file": "assets/audio/s6/s6p2-22/4.mp3",
+    "text": "C. The final figures won't be ready until Friday.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -9536,18 +9344,18 @@
     "voice": "en-US-JennyNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-23/2.mp3",
+    "text": "A. The database was upgraded just recently.",
+    "voice": "en-US-GuyNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-23/3.mp3",
-    "text": "The database was upgraded just recently.",
+    "text": "B. I'll be at the regional office until Thursday.",
     "voice": "en-US-GuyNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-23/5.mp3",
-    "text": "I'll be at the regional office until Thursday.",
-    "voice": "en-US-GuyNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-23/7.mp3",
-    "text": "Yes, the trains were running late today.",
+    "file": "assets/audio/s6/s6p2-23/4.mp3",
+    "text": "C. Yes, the trains were running late today.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -9562,18 +9370,18 @@
     "voice": "en-GB-RyanNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-24/2.mp3",
+    "text": "A. Yes, I bought some envelopes there yesterday.",
+    "voice": "en-GB-SoniaNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-24/3.mp3",
-    "text": "Yes, I bought some envelopes there yesterday.",
+    "text": "B. The building directory in the lobby would list one.",
     "voice": "en-GB-SoniaNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-24/5.mp3",
-    "text": "The building directory in the lobby would list one.",
-    "voice": "en-GB-SoniaNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-24/7.mp3",
-    "text": "No, I'm not moving offices.",
+    "file": "assets/audio/s6/s6p2-24/4.mp3",
+    "text": "C. No, I'm not moving offices.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -9588,18 +9396,18 @@
     "voice": "en-AU-NatashaNeural"
   },
   {
+    "file": "assets/audio/s6/s6p2-25/2.mp3",
+    "text": "A. The schedule is posted on the board.",
+    "voice": "en-AU-WilliamNeural"
+  },
+  {
     "file": "assets/audio/s6/s6p2-25/3.mp3",
-    "text": "The schedule is posted on the board.",
+    "text": "B. Yes, I run a few kilometers every morning.",
     "voice": "en-AU-WilliamNeural"
   },
   {
-    "file": "assets/audio/s6/s6p2-25/5.mp3",
-    "text": "Yes, I run a few kilometers every morning.",
-    "voice": "en-AU-WilliamNeural"
-  },
-  {
-    "file": "assets/audio/s6/s6p2-25/7.mp3",
-    "text": "We haven't tried it during a busy week yet, though.",
+    "file": "assets/audio/s6/s6p2-25/4.mp3",
+    "text": "C. We haven't tried it during a busy week yet, though.",
     "voice": "en-AU-WilliamNeural"
   },
   {

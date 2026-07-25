@@ -86,25 +86,8 @@ var LETTERS = ["A", "B", "C", "D"];
 // 本番TOEICの通し番号(js/app.js の PART_START と必ず一致させること)
 var PART_START = { part1: 1, part2: 7, part3: 32, part4: 71 };
 
-// 記号は「A.」のようにピリオドを付け、説明文とは別クリップにして一度切る。
-// 続けて読ませると記号の A が冠詞の a に潰れて「ア」に聞こえるため。
-// 無音除去(tools/trim_silence.py)をかけた前提の値。かけていない場合は 0 でよい
-// (未処理の mp3 には前後に0.2〜0.4秒の無音が焼き付いているため)。
-// コマンドの後ろに数字を付けると、その回だけ上書きできる(音声の作り直しは不要)。
-//   node tools/build_audio_manifest.js 700   → 記号の後の間隔を700msにして作り直す
-var LETTER_GAP = 200;
-if (process.argv[2] && /^\d+$/.test(process.argv[2])) {
-  LETTER_GAP = parseInt(process.argv[2], 10);
-}
-function letterText(i) { return LETTERS[i] + "."; }
-
-// 記号(A.〜D.)の音声は声ごとの共有部品を使う。
-// edge-tts は「A.」のような極端に短い発話が苦手で、かすれた音になるため、
-// tools/build_letters.py で「A. B. C. D.」を1本作って4つに切り分けたものを使い回す。
-// 記号の音は全問題で同じなので、8声×4文字=32ファイルで足りる。
-function letterFile(voice, i) {
-  return "assets/audio/letters/" + voice + "/" + LETTERS[i] + ".mp3";
-}
+// 本番同様、各選択肢の前に記号(A.〜D.)を読み上げる。記号と本文は1つの音声にまとめる。
+function choiceText(i, text) { return LETTERS[i] + ". " + text; }
 
 var clips = [];       // {file, text, voice}
 var manifest = {};    // "s1:taskid" -> [{f, g}, ...]
@@ -121,18 +104,11 @@ SET_SOURCES.forEach(function (SRC) {
     var files = [];
     lines.forEach(function (ln, idx) {
       var voice = voiceFor(ln.speaker, c0, c1);
-      var file, clip;
-      if (ln.letterIndex != null) {
-        // 記号は声ごとの共有ファイル(tools/build_letters.py が作る)を指す
-        file = letterFile(voice, ln.letterIndex);
-        clip = { file: file, text: ln.text, voice: voice, prebuilt: true };
-      } else {
-        file = "assets/audio/" + SETID + "/" + taskid + "/" + idx + ".mp3";
-        clip = { file: file, text: ln.text, voice: voice };
-        if (voice === NARRATOR) {
-          if (NARRATOR_RATE) clip.rate = NARRATOR_RATE;
-          if (NARRATOR_PITCH) clip.pitch = NARRATOR_PITCH;
-        }
+      var file = "assets/audio/" + SETID + "/" + taskid + "/" + idx + ".mp3";
+      var clip = { file: file, text: ln.text, voice: voice };
+      if (voice === NARRATOR) {
+        if (NARRATOR_RATE) clip.rate = NARRATOR_RATE;
+        if (NARRATOR_PITCH) clip.pitch = NARRATOR_PITCH;
       }
       clips.push(clip);
       files.push({ f: file, g: ln.gapAfter == null ? 600 : ln.gapAfter });
@@ -141,13 +117,10 @@ SET_SOURCES.forEach(function (SRC) {
   }
 
   // Part 1: 導入 + A.〜D. 付きの4つの説明文
-  // 記号(A/B/C/D)は説明文と別クリップにして間を空ける。
-  // 「A. A man is ...」と続けて読ませると、記号の A が冠詞の a に潰れて「ア」に聞こえるため。
   DATA.part1.forEach(function (it, idx) {
     var lines = [{ speaker: "N", text: "Look at the picture marked number " + (PART_START.part1 + idx) + " in your test book.", gapAfter: 1000 }];
     it.choices.forEach(function (c, i) {
-      lines.push({ speaker: it.speaker || "M", text: letterText(i), letterIndex: i, gapAfter: LETTER_GAP });
-      lines.push({ speaker: it.speaker || "M", text: c, gapAfter: 1000 });
+      lines.push({ speaker: it.speaker || "M", text: choiceText(i, c), gapAfter: 1000 });
     });
     addTask(it.id, lines);
   });
@@ -161,8 +134,7 @@ SET_SOURCES.forEach(function (SRC) {
       { speaker: qsp, text: it.question.text, gapAfter: 1000 }
     ];
     it.choices.forEach(function (c, i) {
-      lines.push({ speaker: osp, text: letterText(i), letterIndex: i, gapAfter: LETTER_GAP });
-      lines.push({ speaker: osp, text: c, gapAfter: 1000 });
+      lines.push({ speaker: osp, text: choiceText(i, c), gapAfter: 1000 });
     });
     addTask(it.id, lines);
   });
@@ -197,19 +169,11 @@ SET_SOURCES.forEach(function (SRC) {
   });
 });
 
-// 共有部品(記号)は何度も参照されるので、生成用の一覧では重複を取り除く
-var seenFile = {};
-var uniqueClips = clips.filter(function (c) {
-  if (seenFile[c.file]) return false;
-  seenFile[c.file] = 1;
-  return true;
-});
-fs.writeFileSync(path.join(__dirname, "audio_manifest.json"), JSON.stringify(uniqueClips, null, 2));
+fs.writeFileSync(path.join(__dirname, "audio_manifest.json"), JSON.stringify(clips, null, 2));
 fs.writeFileSync(
   path.join(ROOT, "assets", "audio", "manifest.js"),
   "window.TOEIC_AUDIO_MANIFEST = " + JSON.stringify(manifest) + ";\n"
 );
 console.log("sets:", SET_SOURCES.map(function (s) { return s.id; }).join(","),
   "/ tasks:", Object.keys(manifest).length,
-  "/ clips:", uniqueClips.length,
-  "(うち記号の共有部品:", uniqueClips.filter(function (c) { return c.prebuilt; }).length + ")");
+  "/ clips:", clips.length);
