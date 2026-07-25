@@ -50,8 +50,10 @@ VOICES = [
 LETTERS = ["A", "B", "C", "D"]
 TEXT = "A. B. C. D."
 PAD = 0.05          # 切り出しの前後に残す余白(秒)
-# 無音の検出条件。1つ目でうまく3か所に分かれなければ、順に緩めて試す
-DETECT = [(-40, 0.12), (-35, 0.10), (-45, 0.15), (-30, 0.08), (-50, 0.18)]
+MIN_SEG = 0.15      # 切り出した1文字が最低これだけの長さは必要(秒)
+# 無音の検出条件。声によって文字間の間の長さが違うので、条件を変えながら探す
+NOISES = [-30, -35, -40, -45, -25, -50]
+DURATIONS = [0.04, 0.06, 0.08, 0.10, 0.14]
 
 
 def die(msg: str) -> None:
@@ -87,6 +89,27 @@ def silences(path: Path, noise: int, dur: float) -> list:
     return out
 
 
+def find_bounds(path: Path):
+    """4文字を切り出す区間 [(start,end) x4] を探す。見つからなければ (None, 診断) を返す。"""
+    total = duration(path)
+    tried = []
+    for noise in NOISES:
+        for d in DURATIONS:
+            gaps = silences(path, noise, d)
+            tried.append(f"{noise}dB/{d}s→{len(gaps)}")
+            if len(gaps) < 3:
+                continue
+            # 長い無音の上位3つを区切りとみなし、時間順に並べ直す
+            top = sorted(sorted(gaps, key=lambda g: g[1] - g[0], reverse=True)[:3])
+            bounds = [(0.0, top[0][0]),
+                      (top[0][1], top[1][0]),
+                      (top[1][1], top[2][0]),
+                      (top[2][1], total)]
+            if all(e - s >= MIN_SEG for s, e in bounds):
+                return bounds, tried
+    return None, tried
+
+
 def cut(src: Path, dst: Path, start: float, end: float) -> None:
     dst.parent.mkdir(parents=True, exist_ok=True)
     subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-ss", f"{max(0, start):.3f}",
@@ -120,22 +143,14 @@ async def main() -> None:
             ng += 1
             continue
 
-        gaps = []
-        for noise, d in DETECT:
-            gaps = silences(whole, noise, d)
-            if len(gaps) == 3:
-                break
-        if len(gaps) != 3:
-            print(f"区切りを3か所に特定できませんでした(検出 {len(gaps)} か所)。"
-                  f"この声は手動で確認してください: {whole}")
+        bounds, tried = find_bounds(whole)
+        if bounds is None:
+            print("区切りを見つけられませんでした。")
+            print("  試した条件: " + ", ".join(tried))
+            print(f"  この声は手動で確認してください: {whole}")
             ng += 1
             continue
 
-        total = duration(whole)
-        bounds = [(0.0, gaps[0][0]),
-                  (gaps[0][1], gaps[1][0]),
-                  (gaps[1][1], gaps[2][0]),
-                  (gaps[2][1], total)]
         for i, (s, e) in enumerate(bounds):
             cut(whole, OUT / voice / f"{LETTERS[i]}.mp3", s - PAD, e + PAD)
         whole.unlink(missing_ok=True)
