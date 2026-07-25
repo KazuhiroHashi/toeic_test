@@ -6,10 +6,16 @@
   「A. B. C. D.」と続けて読ませると、どれも正しく『エイ・ビー・シー・ディー』と発音される。
   そこで1本の音声として作り、4つに切り分けて部品として使い回す。
 
+なぜ「A.」単独ではダメか:
+  edge-tts は文中の A を『文字のエイ』ではなく『冠詞の a(ア)』として読む。
+  冠詞は弱く短く発音されるため、かすれた不明瞭な音になる。
+  文字を連続させたときだけ『文字として読む』と判定される。
+
 切り分け方:
-  edge-tts は音声と一緒に『どの語が何秒目から何秒間か』(WordBoundary)を返す。
-  これを使って正確に切る。声によっては文字の間にほとんど無音が無いため、
-  無音を探す方式では切れない(その場合の保険として無音検出も残してある)。
+  文字と文字のあいだは完全な無音ではなく『小さい音』なので、
+  検出の閾値を高め(-12dB など)まで含めて段階的に探す。
+  edge-tts 7.x は WordBoundary(語ごとの位置)を返さないため、
+  タイムスタンプ方式は使えない(将来返すようになれば自動でそちらを使う)。
 
 記号の音は全問題で共通なので、声ごとに4ファイル(全8声で32ファイル)あれば足りる。
 
@@ -57,11 +63,13 @@ TEXT = "A. B. C. D."
 
 HEAD_PAD = 0.06     # 各文字の前に残す余白(秒)
 TAIL_PAD = 0.16     # 各文字の後に残す余白(秒)。語尾の余韻を切らないため
-MIN_SEG = 0.15      # 切り出した1文字の最低の長さ(秒)
+MIN_SEG = 0.18      # 切り出した1文字の最低の長さ(秒)
+MAX_SEG = 1.00      # 切り出した1文字の最大の長さ(秒)。長すぎ=切れていない
 
-# 保険(タイムスタンプが取れなかった声)用の無音検出条件
-NOISES = [-25, -30, -35, -40, -45, -50]
-DURATIONS = [0.03, 0.04, 0.06, 0.08, 0.10]
+# 文字と文字のあいだは「完全な無音」ではなく「小さい音」なので、
+# 閾値を高め(-12dB など)にしないと検出できない声がある。
+NOISES = [-12, -15, -18, -20, -22, -25, -30, -35, -40]
+DURATIONS = [0.03, 0.04, 0.05, 0.07, 0.09]
 
 
 def die(msg: str) -> None:
@@ -109,9 +117,13 @@ def bounds_from_marks(marks: list, total: float):
             end = min(end, marks[i + 1][0] - 0.02)   # 次の文字に食い込ませない
         end = min(end, total)
         out.append((start, end))
-    if all(e - s >= MIN_SEG for s, e in out):
+    if valid(out):
         return out
     return None
+
+
+def valid(bounds) -> bool:
+    return all(MIN_SEG <= e - s <= MAX_SEG for s, e in bounds)
 
 
 def silences(path: Path, noise: int, dur: float) -> list:
@@ -140,15 +152,22 @@ def bounds_from_silence(path: Path, total: float):
             top = sorted(sorted(gaps, key=lambda g: g[1] - g[0], reverse=True)[:3])
             out = [(0.0, top[0][0]), (top[0][1], top[1][0]),
                    (top[1][1], top[2][0]), (top[2][1], total)]
-            if all(e - s >= MIN_SEG for s, e in out):
+            if valid(out):
                 return out
     return None
+
+
+# 切り出した各ファイルの前後の無音を整える(末尾に長い無音が残ると間延びするため)
+TIDY = ("silenceremove=start_periods=1:start_duration=0:start_silence=0.08"
+        ":start_threshold=-45dB:detection=peak,areverse,"
+        "silenceremove=start_periods=1:start_duration=0:start_silence=0.08"
+        ":start_threshold=-45dB:detection=peak,areverse")
 
 
 def cut(src: Path, dst: Path, start: float, end: float) -> None:
     dst.parent.mkdir(parents=True, exist_ok=True)
     subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-ss", f"{max(0, start):.3f}",
-                    "-to", f"{end:.3f}", "-i", str(src),
+                    "-to", f"{end:.3f}", "-i", str(src), "-af", TIDY,
                     "-codec:a", "libmp3lame", "-b:a", "64k", str(dst)],
                    check=True, capture_output=True)
 
@@ -178,15 +197,18 @@ async def main() -> None:
             how = "無音検出"
             bounds = bounds_from_silence(whole, total)
         if bounds is None:
-            print(f"切り分けできませんでした(語の位置 {len(marks)} 個)。"
-                  f"手動で確認してください: {whole}")
+            print("切り分けできませんでした。検出できた区切りの数:")
+            for noise in NOISES:
+                row = " ".join(f"{d}s→{len(silences(whole, noise, d))}" for d in DURATIONS)
+                print(f"    {noise}dB: {row}")
+            print(f"  手動で確認してください: {whole}")
             ng += 1
             continue
 
         for i, (s, e) in enumerate(bounds):
             cut(whole, OUT / voice / f"{LETTERS[i]}.mp3", s, e)
         whole.unlink(missing_ok=True)
-        lens = " ".join(f"{e - s:.2f}s" for s, e in bounds)
+        lens = " ".join(f"{duration(OUT / voice / (L + '.mp3')):.2f}s" for L in LETTERS)
         print(f"OK({how}: {lens})")
         ok += 1
 
