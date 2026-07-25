@@ -1,56 +1,56 @@
-// セット2 part6(解説の選択肢記号を修正)
+// セット2 part6(難易度調整:文脈依存の空所を増やし、難問2問を配置)
 window.TOEIC_DATA_2 = window.TOEIC_DATA_2 || {};
 window.TOEIC_DATA_2.part6 = [
   {
     "id": "s2p6-01",
     "title": "文書 1(Eメール)",
     "docType": "E-mail",
-    "passage": "To: Jordan Parker\nFrom: Bright Path Learning\nSubject: Your Registration Is Confirmed\n\nDear Mr. Parker,\n\nThank you for registering for our upcoming webinar, \"Fundamentals of Digital Marketing,\" scheduled for Thursday, September 18. We are [1] to have you join us.\n\nThe session will begin at 2:00 P.M. and last about ninety minutes. A link to the live stream will be e-mailed to you the day before the event. [2] , we recommend testing your audio and video settings.\n\nA recording will be made available to all registered participants afterward. [3] \n\nIf you are unable to attend, please notify us at least twenty-four hours [4] so that we can offer your seat to someone on the waiting list.\n\nBest regards,\nBright Path Learning",
-    "translation": "宛先:ジョーダン・パーカー\n差出人:ブライト・パス・ラーニング\n件名:ご登録が確定しました\n\nパーカー様\n\nこのたびは、9月18日(木)開催予定のウェビナー『デジタルマーケティングの基礎』にお申し込みいただきありがとうございます。ご参加いただけることを嬉しく思います。\n\nセッションは午後2時に始まり、約90分間続きます。ライブ配信へのリンクは、イベント前日にEメールでお送りします。それまでの間に、音声と映像の設定を確認しておくことをお勧めします。\n\n録画は、後日、登録済みの全参加者にご提供します。これにより、ご自身のペースで内容を復習していただけます。\n\nご都合により参加できない場合は、キャンセル待ちの方に席をご案内できるよう、遅くとも24時間前までにお知らせください。\n\n敬具\nブライト・パス・ラーニング",
+    "passage": "To: Jordan Parker\nFrom: Bright Path Learning\nSubject: Your Registration Is Confirmed\n\nDear Mr. Parker,\n\nThank you for registering for our webinar, \"Fundamentals of Digital Marketing,\" which will be held on Thursday, September 18.\n\nThe session begins at 2:00 P.M. and runs about ninety minutes. We will e-mail you a link to the live stream the day before the event. [1] , please test your audio and video settings, as technical support will not be available once the broadcast has started.\n\nA recording will be posted to your account within three business days. [2] \n\nParticipants who registered at the early rate were asked to confirm their attendance by September 10; [3] have already done so will receive the course materials this week.\n\nIf your plans change, please let us know at least twenty-four hours [4] the session so that we can offer your seat to someone on the waiting list.\n\nBest regards,\nBright Path Learning",
+    "translation": "宛先:ジョーダン・パーカー\n差出人:ブライト・パス・ラーニング\n件名:ご登録が確定しました\n\nパーカー様\n\nこのたびは、9月18日(木)開催のウェビナー『デジタルマーケティングの基礎』にお申し込みいただきありがとうございます。\n\nセッションは午後2時に始まり、約90分間続きます。ライブ配信へのリンクは、イベント前日にEメールでお送りします。それまでの間に、音声と映像の設定をご確認ください。配信開始後は技術サポートをご利用いただけないためです。\n\n録画は3営業日以内にお客様のアカウントに掲載されます。録画は年末までそちらでご覧いただけます。\n\n早期料金でお申し込みの方には、9月10日までに出席のご確認をお願いしておりました。すでにご確認いただいた方には、今週中に講座資料をお送りします。\n\nご予定が変わった場合は、キャンセル待ちの方に席をご案内できるよう、セッションの少なくとも24時間前までにお知らせください。\n\n敬具\nブライト・パス・ラーニング",
     "questions": [
       {
         "num": 1,
         "choices": [
-          "please",
-          "pleasing",
-          "pleasure",
-          "pleased"
+          "As a result",
+          "In the meantime",
+          "On the contrary",
+          "Even so"
         ],
-        "answer": 3,
-        "explanation": "品詞問題。be動詞 are の後で主語(We)の状態を表す補語には形容詞が入る。人が『喜んでいる』は過去分詞由来の形容詞 pleased。pleasing は『(相手を)喜ばせる』、pleasure は名詞、please は動詞・副詞で不適。"
+        "answer": 1,
+        "explanation": "接続副詞の問題。前の文は『配信リンクは前日に送る』、空所の文は『音声と映像の設定を試しておいてほしい』。リンクが届くまでの間にやっておくこと、という時間のつながりなので (B) In the meantime(それまでの間に)。(A) As a result(その結果)は因果、(C) On the contrary(それどころか)は否定の後を受ける表現、(D) Even so(それでも)は逆接で、いずれも前後の論理に合わない。空所を含む文だけでは決められず、前の文との関係を読む必要がある。"
       },
       {
         "num": 2,
         "choices": [
-          "For instance",
-          "In the meantime",
-          "On the contrary",
-          "Otherwise"
+          "Refunds are issued only for cancellations made in writing.",
+          "The venue is a short walk from the central station.",
+          "Our next webinar will cover search engine optimization.",
+          "It will remain available there until the end of the year."
         ],
-        "answer": 1,
-        "explanation": "接続副詞の問題。『リンクは前日に送る』→『それまでの間に設定を確認して』という時間的なつなぎなので In the meantime(それまでの間に)。Otherwise(さもないと)、On the contrary(それどころか)、For instance(例えば)は文脈に合わない。"
+        "answer": 3,
+        "explanation": "文挿入問題。直前は『録画は3営業日以内にアカウントに掲載される』。(D) の It は『録画』、there は『アカウント』を指し、いつまで見られるかを補足する流れが自然。(A) の返金規定と (C) の次回ウェビナー案内は録画の話とつながらない。(B) は会場の話で、オンライン開催という設定と矛盾する。"
       },
       {
         "num": 3,
         "choices": [
-          "Please bring a printed copy of your ticket to the venue.",
-          "This will allow you to review the material at your own pace.",
-          "Unfortunately, the webinar has been canceled.",
-          "The instructor will not be available for questions."
+          "Those who",
+          "Whoever",
+          "Anyone who",
+          "Each of whom"
         ],
-        "answer": 1,
-        "explanation": "文挿入問題。直前の『録画を後日提供する』を受けて、その利点を説明する『ご自身のペースで復習できる』が自然。(A)は開催の趣旨と矛盾、他の選択肢は会場のないオンライン開催と矛盾、(D)は録画の話とつながらない。"
+        "answer": 0,
+        "explanation": "難問。関係詞と主述の一致を同時に問う。空所の後ろは have already done so … will receive … で動詞が2つあるため、空所には『先行詞+関係代名詞』のはたらきをする (A) Those who が必要。(B) Whoever、(C) Anyone who は単数扱いで has となり、have とかみ合わない。(D) Each of whom は関係詞のかたまりを作るだけで、セミコロンの後の新しい節の主語にはなれない。done so が前半の confirm their attendance を受けている点も手がかり。"
       },
       {
         "num": 4,
         "choices": [
-          "formerly",
-          "lately",
-          "recently",
-          "beforehand"
+          "prior",
+          "beforehand",
+          "ahead of",
+          "in advance"
         ],
-        "answer": 3,
-        "explanation": "語彙問題。『24時間前までに(前もって)知らせる』の文意に合う副詞は beforehand(前もって)。recently・lately(最近)、formerly(以前は)はいずれも過去を指し、未来の期限には合わない。"
+        "answer": 2,
+        "explanation": "空所の後ろに名詞 the session が続くので、前置詞のはたらきをする語句が必要。(C) ahead of(〜に先立って)が正解。(A) prior は prior to、(D) in advance は in advance of の形にしないと名詞を続けられない。(B) beforehand は副詞で目的語を取れない。意味はどれも『前に』で近く、形で決める問題。"
       }
     ]
   },
@@ -58,52 +58,52 @@ window.TOEIC_DATA_2.part6 = [
     "id": "s2p6-02",
     "title": "文書 2(お知らせ)",
     "docType": "Notice",
-    "passage": "Harbor Fitness Center — Membership Renewal\n\nDear Member,\n\nYour annual membership at Harbor Fitness Center is scheduled to [1] on August 31. To continue enjoying full access to our facilities, please renew before that date.\n\nRenewing is easy. You can complete the process online, at the front desk, or by phone. Members who renew before August 15 will receive a ten percent [2] on the annual fee.\n\n[3] These include two new yoga studios and an expanded weight-training area.\n\nWe value your [4] and look forward to supporting your fitness goals for another year.\n\nSincerely,\nThe Harbor Fitness Team",
-    "translation": "ハーバー・フィットネスセンター——会員更新のお知らせ\n\n会員の皆さまへ\n\nハーバー・フィットネスセンターの年間会員資格は、8月31日で満了となる予定です。施設のフルアクセスを引き続きご利用いただくため、その日までに更新をお願いします。\n\n更新は簡単です。オンライン、フロントデスク、またはお電話で手続きが完了します。8月15日までに更新された会員の方には、年会費が10パーセント割引となります。\n\n昨年、当センターは施設にいくつかの改良を行いました。これには、2つの新しいヨガスタジオと拡張されたウェイトトレーニングエリアが含まれます。\n\n皆さまのご愛顧に感謝するとともに、来年もフィットネスの目標達成をお手伝いできることを楽しみにしています。\n\n敬具\nハーバー・フィットネス一同",
+    "passage": "Harbor Fitness Center — Membership Renewal\n\nDear Member,\n\nYour annual membership expires on August 31. Renewing takes only a few minutes and can be done online, at the front desk, or by telephone.\n\nMembers who renew before August 15 will pay the current rate of $480 a year. [1] September 1, the standard rate rises to $520, so there is a clear advantage to acting early.\n\n[2] These include two additional yoga studios and a larger weight-training area, both of which opened in June.\n\nPlease note that the reduced rate applies only to members [3] accounts are fully paid. If a balance remains on your account, contact the billing office before you renew.\n\nWe appreciate your continued [4] and hope to see you at the center soon.\n\nSincerely,\nThe Harbor Fitness Team",
+    "translation": "ハーバー・フィットネスセンター——会員更新のお知らせ\n\n会員の皆さまへ\n\n年間会員資格は8月31日で満了となります。更新は数分で終わり、オンライン、フロントデスク、またはお電話で手続きできます。\n\n8月15日より前に更新された方は、現行料金の年額480ドルでご利用いただけます。9月1日以降は標準料金が520ドルに上がりますので、早めのお手続きに明らかな利点があります。\n\n会員の皆さまは、施設のいくつかの改善にもお気づきになるはずです。これには、6月にオープンした2つのヨガスタジオと、拡張されたウェイトトレーニングエリアが含まれます。\n\nなお、割引料金は、料金が完納されているアカウントの会員の方のみが対象です。未払い残高がある場合は、更新の前に請求担当までご連絡ください。\n\n変わらぬご愛顧に感謝いたします。近くセンターでお目にかかれますよう。\n\n敬具\nハーバー・フィットネス一同",
     "questions": [
       {
         "num": 1,
         "choices": [
-          "expand",
-          "express",
-          "expire",
-          "explore"
+          "Owing to",
+          "Rather than",
+          "As of",
+          "Aside from"
         ],
         "answer": 2,
-        "explanation": "語彙問題。会員資格が『満了する・失効する』は expire。8月31日という期限とセットで用いる。expand(拡大する)、explore(探検する)、express(表現する)は文意に合わない。音の似た ex- 語のひっかけ。"
+        "explanation": "日付を起点に『〜以降は』と示す (C) As of が正解。前の文の『8月15日より前なら480ドル』と、空所の文の『520ドルに上がる』という2つの料金を読み比べて初めて、日付が切り替わりの起点だと分かる。(A) Owing to(〜のせいで)、(B) Rather than(〜ではなく)、(D) Aside from(〜は別として)はいずれも時点の起点を表さない。"
       },
       {
         "num": 2,
         "choices": [
-          "invoice",
-          "discount",
-          "refund",
-          "deposit"
+          "Members will also notice several improvements to our facilities.",
+          "The center will close permanently at the end of the season.",
+          "All membership cards must be returned to the front desk.",
+          "Personal training is no longer included in any plan."
         ],
-        "answer": 1,
-        "explanation": "語彙問題。早期更新の特典として年会費が『10パーセント割引』になる文脈なので discount(割引)。refund(返金)、deposit(手付金)、invoice(請求書)はいずれも割引の意味を持たない。"
+        "answer": 0,
+        "explanation": "文挿入問題。直後の These include 〜(これらには〜が含まれる)の These が受けられるのは複数の『改善点』。(A) を入れると、ヨガスタジオ2室と拡張されたウェイトエリアがその具体例として続き、自然につながる。(B)(C)(D) はいずれも更新を促すという文書全体の趣旨と矛盾し、These の受け皿にもならない。"
       },
       {
         "num": 3,
         "choices": [
-          "All membership cards must be returned immediately.",
-          "Over the past year, we have made several improvements to our facilities.",
-          "The center will be permanently closed at the end of the month.",
-          "Personal training sessions are no longer offered."
+          "who",
+          "which",
+          "that",
+          "whose"
         ],
-        "answer": 1,
-        "explanation": "文挿入問題。直後の These include 〜(これらには〜が含まれる)の These が受けるのは『改良点』。よって『昨年、施設に改良を行った』が正解。(A)(B)(C)は更新を促す文書全体の趣旨(継続利用)と矛盾する。"
+        "answer": 3,
+        "explanation": "関係詞の問題。空所の後ろは accounts are fully paid と『名詞+動詞』が続いており、その accounts は members のもの。したがって所有格の関係代名詞 (D) whose が正解。(A) who と (C) that は直後に動詞または不完全な節が必要で、名詞が続く形にはならない。(B) which は人を先行詞に取らない。"
       },
       {
         "num": 4,
         "choices": [
-          "loyal",
-          "loyally",
-          "loyalty",
-          "loyalties"
+          "supportive",
+          "support",
+          "supported",
+          "supportively"
         ],
-        "answer": 2,
-        "explanation": "品詞問題。動詞 value(を大切にする)の目的語には名詞が必要。『ご愛顧』にあたる不可算名詞 loyalty が正解。loyal は形容詞、loyally は副詞、loyalties は複数形で文意に合わない。"
+        "answer": 1,
+        "explanation": "品詞問題。所有格 your と形容詞 continued の後ろには名詞が来るので (B) support(支援・ご愛顧)が正解。(A) supportive は形容詞、(D) supportively は副詞、(C) supported は過去分詞で、いずれも名詞の位置に置けない。"
       }
     ]
   },
@@ -111,52 +111,52 @@ window.TOEIC_DATA_2.part6 = [
     "id": "s2p6-03",
     "title": "文書 3(記事)",
     "docType": "Article",
-    "passage": "New Coworking Space to Open Downtown\n\nMAPLETON (July 8) — HiveDesk, a coworking company based in the capital, [1] a new location in downtown Mapleton this autumn. The company signed a lease for the entire third floor of the Carter Building last week.\n\nThe 1,200-square-meter space will offer private offices, shared desks, and several meeting rooms. Membership will be available on a monthly basis, with rates [2] depending on the type of workspace chosen.\n\n\"Mapleton has a growing community of freelancers and small startups,\" said regional director Alan Choi. \"We wanted to give them a professional place to work and connect.\" [3] \n\nHiveDesk expects the location to open in early October. [4] , the company plans to host a free open house so that residents can tour the facilities before deciding to join.",
-    "translation": "新しいコワーキングスペース、中心街にオープンへ\n\nメープルトン(7月8日)——首都に拠点を置くコワーキング企業ハイブデスクが、この秋、メープルトン中心街に新拠点をオープンする。同社は先週、カーター・ビルの3階全フロアの賃貸契約を結んだ。\n\n1,200平方メートルのスペースには、個室オフィス、共有デスク、複数の会議室が設けられる。会員資格は月単位で利用可能で、料金は選ぶワークスペースの種類によって異なる。\n\n『メープルトンにはフリーランサーや小規模スタートアップのコミュニティが育っています』と地域ディレクターのアラン・チョイ氏は語る。『彼らに、働き、つながるためのプロ仕様の場所を提供したかったのです』。このスペースは、会員同士の協働を促すよう設計されている。\n\nハイブデスクは、この拠点が10月初旬に開業すると見込んでいる。それに先立ち、同社は、住民が入会を決める前に施設を見学できるよう、無料の内覧会を開催する予定だ。",
+    "passage": "New Coworking Space to Open Downtown\n\nMAPLETON (July 8) — HiveDesk, a coworking company based in the capital, signed a lease last week for the entire third floor of the Carter Building. The 1,200-square-meter space [1] to members in early October.\n\nTenants will have a choice of private offices, shared desks, and meeting rooms that can be reserved by the hour. Rates will vary [2] the type of workspace chosen.\n\n\"Mapleton has a growing community of freelancers and small firms,\" regional director Alan Choi said. \"We wanted to give them a professional place to work and to meet clients.\" [3] \n\n[4] does the third floor offer flexible workspace, but it also gives members the use of a rooftop terrace. Before the official opening, HiveDesk will hold a free open house so that residents can tour the floor and ask questions.",
+    "translation": "新しいコワーキングスペース、中心街にオープンへ\n\nメープルトン(7月8日)——首都に拠点を置くコワーキング企業ハイブデスクが先週、カーター・ビルの3階全フロアの賃貸契約を結んだ。1,200平方メートルのこのスペースは、10月初旬に会員向けにオープンする。\n\n入居者は、個室オフィス、共有デスク、時間単位で予約できる会議室から選べる。料金は、選ぶワークスペースの種類によって異なる。\n\n『メープルトンには、フリーランサーや小規模企業のコミュニティが育っています』と地域ディレクターのアラン・チョイ氏は語る。『彼らに、働き、顧客と会うためのプロ仕様の場所を提供したかったのです』。この配置は、会員同士が並んで働きやすいように意図されている。\n\n3階は柔軟な仕事場を提供するだけでなく、会員が屋上テラスを利用できるようにもなっている。正式オープンに先立ち、ハイブデスクは無料の内覧会を開き、住民がフロアを見学し質問できるようにする予定だ。",
     "questions": [
       {
         "num": 1,
         "choices": [
-          "has opened",
           "opened",
-          "opening",
+          "had opened",
+          "has opened",
           "will open"
         ],
         "answer": 3,
-        "explanation": "時制問題。this autumn(この秋)や後段の『10月初旬に開業する見込み』から、未来の出来事なので will open。過去形 opened・現在完了 has opened は過去を表し不適。opening は動詞の働きをしない。"
+        "explanation": "時制の一貫性を問う問題。記事の日付は7月8日で、空所の文は in early October(10月初旬)のこと。まだ起きていない出来事なので (D) will open が正解。(A) opened、(B) had opened、(C) has opened はいずれも過去の出来事を表す。空所の文だけを見ると『先週契約した』という直前の過去形に引きずられやすく、記事冒頭の日付と October を突き合わせて判断する必要がある。"
       },
       {
         "num": 2,
         "choices": [
-          "varying",
-          "varied",
-          "vary",
-          "varies"
+          "in spite of",
+          "depending on",
+          "as far as",
+          "rather than"
         ],
-        "answer": 0,
-        "explanation": "分詞の問題。with + 名詞 + 分詞(付帯状況)の形。rates(料金)が『異なる』という能動関係なので現在分詞 varying。定形動詞 vary/varies は接続詞なしで置けず、過去分詞 varied は受動で不自然。"
+        "answer": 1,
+        "explanation": "料金が『選ぶワークスペースの種類によって』変わるという文意なので (B) depending on(〜次第で)が正解。(A) in spite of(〜にもかかわらず)、(C) as far as(〜する限り)、(D) rather than(〜ではなく)はいずれも vary と結びつかない。"
       },
       {
         "num": 3,
         "choices": [
-          "Downtown Mapleton has no available office buildings.",
-          "Mr. Choi will be retiring at the end of the year.",
-          "The space is designed to encourage collaboration among members.",
-          "The company has decided to cancel the project."
+          "Mr. Choi has managed the Carter Building since it was completed.",
+          "The lease covers only a small portion of the building.",
+          "The layout is intended to make it easy for members to work alongside one another.",
+          "Similar spaces in the capital have recently closed."
         ],
         "answer": 2,
-        "explanation": "文挿入問題。『働き、つながる場を提供したい』というチョイ氏の発言に続くので、『会員同士の協働を促す設計』がテーマに合う。(B)は開業予定と矛盾、他の選択肢は契約済みという事実と矛盾、(D)は文脈に無関係。"
+        "explanation": "文挿入問題。直前のチョイ氏の発言『働き、顧客と会うためのプロ仕様の場を提供したかった』を受けて、その意図を施設の作りの面から補う (C) が最も自然。(A) はチョイ氏の経歴の話で文脈に無関係、(B) は『3階全フロアを借りた』という第1段落と矛盾、(D) は新規開業を伝える記事の流れとつながらない。"
       },
       {
         "num": 4,
         "choices": [
-          "Beforehand",
-          "However",
-          "Otherwise",
-          "In contrast"
+          "Not only",
+          "No sooner",
+          "Rarely",
+          "Only after"
         ],
         "answer": 0,
-        "explanation": "接続副詞の問題。『10月初旬に開業』→『(それに先立ち)無料内覧会を開く』という時間の前後関係なので Beforehand(それに先立って)。However(しかし)、Otherwise(さもないと)、In contrast(対照的に)は文脈に合わない。"
+        "explanation": "難問。相関接続詞と倒置の組み合わせ。後半に but it also があるので、これと呼応するのは (A) Not only。否定語句が文頭に出たため does the third floor offer という倒置になっている点も確認したい。(B) No sooner は than と、(C) Rarely と (D) Only after は but … also と呼応せず、文の後半とつながらない。4つとも文頭に置いて倒置を作れるため、形だけでは絞れず後半との呼応で決める。"
       }
     ]
   },
@@ -164,52 +164,52 @@ window.TOEIC_DATA_2.part6 = [
     "id": "s2p6-04",
     "title": "文書 4(社内連絡)",
     "docType": "Memo",
-    "passage": "To: All Employees\nFrom: Security Office\nSubject: Updated Visitor Procedure\nDate: March 5\n\nBeginning next Monday, all visitors to the Northgate office must register at the security desk in the main lobby. Upon arrival, each visitor will be issued a temporary badge that must be worn [1] at all times while inside the building.\n\nEmployees are responsible for escorting their guests to and from meeting areas. Visitors are not [2] to move through the building unaccompanied.\n\n[3] Please inform them that photo identification will be required at check-in.\n\nWe understand that these changes may add a few minutes to the arrival process. [4] , they are necessary to keep our workplace safe and secure.\n\nThank you for your support.\nSecurity Office",
-    "translation": "宛先:全従業員\n差出人:警備室\n件名:来訪者受付手順の変更\n日付:3月5日\n\n来週月曜日より、ノースゲート・オフィスへのすべての来訪者は、メインロビーの警備デスクで受付を行う必要があります。到着時に、各来訪者には仮のバッジが発行され、建物内にいる間は常にそれを見えるように着用しなければなりません。\n\n従業員は、来客を会議エリアまで送迎する責任があります。来訪者が付き添いなしで建物内を移動することは認められていません。\n\n来客の予定がある場合は、事前に警備室までお知らせください。受付時に写真付き身分証明書が必要になることを、来客の方にお伝えください。\n\nこれらの変更により、到着時の手続きに数分余分にかかる場合があることは承知しています。それでも、職場の安全とセキュリティを保つために必要な措置です。\n\nご協力に感謝いたします。\n警備室",
+    "passage": "To: All Employees\nFrom: Security Office\nSubject: Updated Visitor Procedure\nDate: March 5\n\nBeginning next Monday, everyone visiting the Northgate office must sign in at the security desk in the main lobby. Each visitor will be issued a temporary badge, which must be worn [1] at all times inside the building.\n\nEmployees are responsible for escorting their guests to and from meeting areas. Visitors are not [2] to move through the building unaccompanied.\n\n[3] Doing so lets us print their badges before they arrive, which will keep the sign-in line short on busy mornings.\n\nWe realize that the new procedure may add a few minutes to each arrival. [4] , it is necessary to keep the workplace safe.\n\nThank you for your cooperation.\nSecurity Office",
+    "translation": "宛先:全従業員\n差出人:警備室\n件名:来訪者受付手順の変更\n日付:3月5日\n\n来週月曜日より、ノースゲート・オフィスを訪れるすべての方は、メインロビーの警備デスクで受付をする必要があります。各来訪者には仮のバッジが発行され、建物内では常に見えるように着用しなければなりません。\n\n従業員は、来客を会議エリアまで送迎する責任があります。来訪者が付き添いなしで建物内を移動することは認められていません。\n\n来客のご予定がある場合は、前日の午後までに来客のお名前を警備室までメールでお知らせください。そうしていただければ、到着前にバッジを印刷でき、混み合う朝でも受付の列を短く保てます。\n\n新しい手順によって、到着時に数分余分にかかる場合があることは承知しています。それでも、職場の安全を守るために必要な措置です。\n\nご協力に感謝いたします。\n警備室",
     "questions": [
       {
         "num": 1,
         "choices": [
-          "visibility",
-          "visualize",
           "visibly",
-          "visible"
+          "visible",
+          "visibility",
+          "visualize"
         ],
-        "answer": 2,
-        "explanation": "品詞問題。動詞 be worn(着用される)を修飾するのは副詞 visibly(見えるように)。visible は形容詞、visibility は名詞、visualize は動詞で、いずれも動詞を修飾できない。"
+        "answer": 0,
+        "explanation": "品詞問題。動詞のかたまり be worn(着用される)を修飾するので副詞 (A) visibly(見えるように)が正解。(B) visible は形容詞、(C) visibility は名詞、(D) visualize は動詞で、いずれも動詞を修飾できない。"
       },
       {
         "num": 2,
         "choices": [
-          "permitted",
           "reminded",
           "promoted",
+          "permitted",
           "persuaded"
         ],
-        "answer": 0,
-        "explanation": "語彙問題。be permitted to do(〜することを許される)。『付き添いなしで移動することは認められていない』の文意に合う。persuaded(説得された)、promoted(昇進・促進された)、reminded(思い出させられた)は文意に合わない。"
+        "answer": 2,
+        "explanation": "語彙問題。be permitted to do(〜することを許される)の形。『付き添いなしで移動することは認められていない』という文意に合うのは (C) permitted。(A) reminded、(B) promoted、(D) persuaded はどれも後ろに to do を取れるため形だけでは絞れないが、前文の『従業員が来客を送迎する』という内容と合うのは『許可』の意味だけ。"
       },
       {
         "num": 3,
         "choices": [
-          "If you are expecting visitors, please notify the security office in advance.",
-          "The company picnic has been rescheduled.",
-          "The cafeteria will be renovated later this year.",
-          "Parking permits are available at the front desk."
+          "Deliveries should be taken to the loading dock at the rear of the building.",
+          "If you are expecting guests, e-mail their names to the security office by the previous afternoon.",
+          "Badges must be returned to the security desk at the end of each visit.",
+          "The security office will be closed for staff training on March 12."
         ],
-        "answer": 0,
-        "explanation": "文挿入問題。直後の Please inform them 〜(彼らに伝えてください)の them が指すのは『来客』。よって来客の予定を扱う『来客の予定があれば事前に警備室へ』が正解。(A)(B)(C)は来訪者手順の話とつながらない。"
+        "answer": 1,
+        "explanation": "難しめの文挿入問題。直後の Doing so lets us print their badges before they arrive の Doing so が指す行為と、their / they が指す人の両方を満たす必要がある。(B) なら Doing so は『来客の名前を事前にメールで知らせること』、their と they は guests を指し、到着前にバッジを用意できるという流れが通る。(A) は配送の話で Doing so の受け皿にならず、(D) も同様。(C) はバッジに触れているが『訪問後に返却する』内容で、到着前に印刷するという後続文と時間の前後が合わない。"
       },
       {
         "num": 4,
         "choices": [
-          "For example",
           "Therefore",
+          "For example",
           "In other words",
           "Nevertheless"
         ],
         "answer": 3,
-        "explanation": "接続副詞の問題。『数分余分にかかる』(デメリット)→『それでも必要な措置だ』という逆接の関係なので Nevertheless(それでも)。Therefore(したがって)、For example(例えば)、In other words(言い換えれば)は文脈に合わない。"
+        "explanation": "接続副詞の問題。前の文の『数分余分にかかるかもしれない』(欠点)と、空所の文の『安全のために必要だ』(擁護)は逆接の関係なので (D) Nevertheless(それでも)。(A) Therefore(したがって)は因果、(B) For example(例えば)は例示、(C) In other words(言い換えれば)は言い換えで、いずれも前後の関係に合わない。"
       }
     ]
   }

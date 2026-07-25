@@ -1,139 +1,139 @@
-// セット2 part5(監査反映・正解位置均等化済み)
+// セット2 part5(難易度調整版:やさしめ8問/標準17問/難問5問。正解位置 A8/B7/C7/D8)
 window.TOEIC_DATA_2 = window.TOEIC_DATA_2 || {};
 window.TOEIC_DATA_2.part5 = [
   {
     "id": "s2p5-01",
-    "q": "The board will not approve the merger ______ a thorough risk assessment has been completed.",
+    "q": "Delivery drivers may not enter the loading bay ______ a dock supervisor is present.",
     "choices": [
-      "during",
-      "until",
+      "without",
+      "unless",
       "besides",
-      "despite"
+      "during"
     ],
     "answer": 1,
-    "translation": "取締役会は、徹底的なリスク評価が完了するまで合併を承認しない。",
-    "explanation": "空所の後ろが節(S+V)なので接続詞が必要。until(〜するまで)は接続詞として使える。despite/during/besides は前置詞で節を取れない。"
+    "translation": "配送ドライバーは、荷役監督者が立ち会っていない限り、荷さばき場に入ってはならない。",
+    "explanation": "空所の後ろが『a dock supervisor is present』という節なので接続詞が必要。(B) unless は『〜でない限り』という条件を表す接続詞。(A) without、(C) besides、(D) during はいずれも前置詞で、後ろに節を取れない。"
   },
   {
     "id": "s2p5-02",
-    "q": "The consultant's recommendations were ______ with the company's long-term strategy.",
+    "q": "The hotel's new booking software is fully ______ with the reservation systems used at its overseas branches, so guest data no longer has to be entered twice.",
     "choices": [
-      "consistent",
-      "persistent",
-      "insistent",
-      "resistant"
+      "compatible",
+      "comparable",
+      "considerate",
+      "competitive"
     ],
     "answer": 0,
-    "translation": "コンサルタントの提言は、会社の長期戦略と一致していた。",
-    "explanation": "語彙問題。be consistent with 〜(〜と一致している)。persistent(粘り強い)、resistant(抵抗する)、insistent(しつこい)は with とこの意味を作らない。"
+    "translation": "そのホテルの新しい予約ソフトは海外支店で使われている予約システムと完全な互換性があり、宿泊客の情報を二度入力する必要がなくなった。",
+    "explanation": "語彙問題。『データを二度入力しなくてよくなった』とあるので、システム同士に『互換性がある』を表す (A) compatible。be compatible with 〜 の形で使う。(B) comparable は『匹敵する』、(C) considerate は『思いやりのある』、(D) competitive は『競争力のある』で、システム間の接続の話にならない。"
   },
   {
     "id": "s2p5-03",
-    "q": "______ the negative reviews, the restaurant remained fully booked throughout the month.",
+    "q": "______ the sudden drop in temperature, the outdoor market drew record crowds last weekend.",
     "choices": [
-      "Despite",
-      "Because",
       "Although",
+      "Because",
+      "Despite",
       "However"
     ],
-    "answer": 0,
-    "translation": "否定的なレビューにもかかわらず、そのレストランは月を通して予約で満席のままだった。",
-    "explanation": "空所の後ろは名詞句なので前置詞。逆接の Despite が正解。Although/Because は接続詞、However は副詞。"
+    "answer": 2,
+    "translation": "急激な気温の低下にもかかわらず、その屋外マーケットは先週末に記録的な人出となった。",
+    "explanation": "空所の後ろは『the sudden drop in temperature』という名詞句なので前置詞を選ぶ。逆接を表す (C) Despite が正解。(A) Although と (B) Because は接続詞で節が必要、(D) However は副詞で名詞句をつなげない。"
   },
   {
     "id": "s2p5-e1",
-    "q": "Please submit your timesheet to the manager ______ Friday afternoon.",
+    "q": "All expense receipts must be submitted to the finance team ______ the fifth of each month.",
     "choices": [
-      "by",
-      "into",
       "among",
-      "of"
+      "into",
+      "of",
+      "by"
     ],
-    "answer": 0,
-    "translation": "タイムシートを金曜の午後までにマネージャーに提出してください。",
-    "explanation": "『〜までに(期限)』は by。基礎的な前置詞問題。of/into/among は文意に合わない。"
+    "answer": 3,
+    "translation": "経費の領収書はすべて、毎月5日までに経理チームへ提出しなければならない。",
+    "explanation": "『〜までに』という期限を表すのは (D) by。空所の前後だけで解ける基礎的な前置詞問題。(A) among は『〜の中で』、(B) into は『〜の中へ』、(C) of は所属・所有を表し、いずれも期限を表さない。"
   },
   {
     "id": "s2p5-04",
-    "q": "The technicians worked overtime to ensure that the system upgrade was completed ______.",
+    "q": "The maintenance crew worked overnight so that the escalators would operate ______ throughout the holiday sale.",
     "choices": [
-      "succeed",
-      "success",
-      "successful",
-      "successfully"
+      "safely",
+      "safe",
+      "safety",
+      "safer"
     ],
-    "answer": 3,
-    "translation": "技術者たちは、システムのアップグレードが無事に完了するよう残業して働いた。",
-    "explanation": "was completed(受動態の動詞)を修飾するのは副詞 successfully。動詞・分詞の直後の空所は副詞を疑う。"
+    "answer": 0,
+    "translation": "保守作業班は、セール期間中エスカレーターが安全に稼働するよう、夜通し作業した。",
+    "explanation": "動詞 operate を修飾するので副詞の (A) safely。(B) safe と (D) safer は形容詞、(C) safety は名詞で動詞を修飾できない。動詞の直後の空所はまず副詞を疑う。"
   },
   {
     "id": "s2p5-05",
-    "q": "Not only ______ the deadline, but the team also exceeded the client's expectations.",
+    "q": "Not only ______ the revised warehouse layout speed up order picking, but it also reduced the number of packing errors.",
     "choices": [
-      "met they",
-      "they met",
-      "they did meet",
-      "did they meet"
+      "has",
+      "does",
+      "did",
+      "was"
     ],
-    "answer": 3,
-    "translation": "彼らは締め切りを守っただけでなく、クライアントの期待をも上回った。",
-    "explanation": "否定の副詞句 Not only が文頭に出ると倒置が起こり、疑問文の語順 did they meet になる。倒置は上級頻出構文。"
+    "answer": 2,
+    "translation": "改良された倉庫のレイアウトは、ピッキング作業を速めただけでなく、梱包ミスの件数も減らした。",
+    "explanation": "否定語句 Not only が文頭に出ると倒置が起き、疑問文と同じ語順になる。空所の後ろが原形 speed up なので助動詞 do が必要で、さらに後半の reduced が過去形であることから時制も過去。よって (C) did。(A) has と (D) was は原形 speed up と結べない。(B) does は形は作れるが、対になっている後半の節と時制が合わない。倒置を見抜いたうえで、but 以下の並列関係から時制を決める必要がある。"
   },
   {
     "id": "s2p5-06",
-    "q": "All visitors must sign in at the reception desk ______ arrival.",
+    "q": "Conference delegates will receive their name badges ______ arrival at the main entrance.",
     "choices": [
+      "toward",
       "upon",
       "against",
-      "toward",
       "beneath"
     ],
-    "answer": 0,
-    "translation": "すべての来訪者は、到着時に受付で記帳しなければならない。",
-    "explanation": "upon arrival(到着時に)は定型表現。upon + 名詞で『〜するとすぐに』。toward/against/beneath は文意に合わない。"
+    "answer": 1,
+    "translation": "会議の出席者は、正面玄関に到着した際に名札を受け取る。",
+    "explanation": "upon arrival(到着時に)は定型表現なので (B) upon。upon＋名詞で『〜するとすぐに』を表す。(A) toward(〜の方へ)、(C) against(〜に対して)、(D) beneath(〜の下に)は文意に合わない。"
   },
   {
     "id": "s2p5-07",
-    "q": "The manager requested that each department ______ its budget proposal by the end of the week.",
+    "q": "The list of contractors approved by the city's building department ______ revised at the start of every fiscal year.",
     "choices": [
-      "submits",
-      "submit",
-      "submitting",
-      "submitted"
+      "are",
+      "have been",
+      "being",
+      "is"
     ],
-    "answer": 1,
-    "translation": "マネージャーは、各部門が週末までに予算案を提出するよう求めた。",
-    "explanation": "request that + 節では動詞は原形(仮定法現在)。主語が each department でも submit のまま。上級の定番。"
+    "answer": 3,
+    "translation": "市の建築部門が承認した業者の一覧は、各会計年度の初めに更新される。",
+    "explanation": "主語は『The list』で単数。of contractors approved by the city's building department は長い修飾語にすぎない。よって単数で受ける (D) is が正解。(A) are と (B) have been は複数扱いで一致しない。(C) being では文の動詞がなくなる。空所の直前にある複数名詞 contractors や department に引きずられないことがポイントで、主語と動詞が大きく離れる典型的な難問。"
   },
   {
     "id": "s2p5-08",
-    "q": "The company's profits have risen ______ since it expanded into overseas markets.",
+    "q": "Ms. Okonjo ______ with the exhibit design team since the gallery expansion began last spring.",
     "choices": [
-      "steadier",
-      "steadiness",
-      "steady",
-      "steadily"
+      "works",
+      "worked",
+      "has been working",
+      "will work"
     ],
-    "answer": 3,
-    "translation": "海外市場に進出して以来、会社の利益は着実に増加している。",
-    "explanation": "have risen(動詞)を修飾する副詞 steadily。rise/increase + steadily/significantly は頻出コロケーション。"
+    "answer": 2,
+    "translation": "オコンジョさんは、昨春に美術館の増築が始まって以来、展示デザインチームと一緒に仕事をしている。",
+    "explanation": "since＋過去の起点(the gallery expansion began last spring)があるので、過去から現在まで続く動作を表す現在完了進行形の (C) has been working。(A) works(現在形)、(B) worked(過去形)、(D) will work(未来)はいずれも since と結びつかない。"
   },
   {
     "id": "s2p5-09",
-    "q": "The proposal was rejected on the grounds that it was not ______ feasible.",
+    "q": "The relocation plan was set aside on the grounds that it was not ______ practical.",
     "choices": [
-      "finances",
-      "financial",
-      "finance",
-      "financially"
+      "operationally",
+      "operational",
+      "operations",
+      "operate"
     ],
-    "answer": 3,
-    "translation": "その提案は、財務的に実現可能ではないという理由で却下された。",
-    "explanation": "形容詞 feasible(実現可能な)を修飾するのは副詞 financially(財務的に)。形容詞を修飾するのは副詞。"
+    "answer": 0,
+    "translation": "その移転計画は、運用面で現実的ではないという理由で見送られた。",
+    "explanation": "空所は形容詞 practical を修飾する位置なので副詞の (A) operationally(運用面で)。(B) operational は形容詞、(C) operations は名詞、(D) operate は動詞。形容詞を修飾できるのは副詞だけ。"
   },
   {
     "id": "s2p5-e2",
-    "q": "The new intern is responsible ______ organizing the weekly team meetings.",
+    "q": "The new intern is responsible ______ updating the delivery schedule each morning.",
     "choices": [
       "to",
       "for",
@@ -141,103 +141,103 @@ window.TOEIC_DATA_2.part5 = [
       "with"
     ],
     "answer": 1,
-    "translation": "新しいインターンは、毎週のチーム会議の準備を担当している。",
-    "explanation": "be responsible for 〜(〜に責任がある・担当する)はセットで覚える前置詞。基礎的な語法問題。"
+    "translation": "新しいインターンは、毎朝、配送スケジュールを更新することを担当している。",
+    "explanation": "be responsible for 〜(〜を担当している・〜に責任がある)はセットで覚える語法なので (B) for。(A) to、(C) on、(D) with は responsible と結びつかない。"
   },
   {
     "id": "s2p5-10",
-    "q": "The keynote speaker, ______ presentation drew a standing ovation, will return next year.",
+    "q": "The consultant ______ we believe knows the municipal permit process best has not yet responded to our invitation.",
     "choices": [
-      "which",
       "whom",
-      "who",
-      "whose"
+      "which",
+      "whose",
+      "who"
     ],
     "answer": 3,
-    "translation": "そのプレゼンがスタンディングオベーションを浴びた基調講演者は、来年も登壇する。",
-    "explanation": "空所の後ろに名詞(presentation)が続くので所有格の関係代名詞 whose。人でも所有格は whose。"
+    "translation": "自治体の許認可手続きを最もよく知っていると私たちが考えているコンサルタントは、まだ招請に返答していない。",
+    "explanation": "we believe は挿入で、取り除くと『The consultant ______ knows the municipal permit process best』となる。空所は knows の主語にあたるので、主格の (D) who が正解。挿入句 we believe の直後という位置につられて (A) whom を選ばせるのが狙いだが、目的格は入らない。先行詞が人なので (B) which は使えず、(C) whose は後ろに名詞が必要。"
   },
   {
     "id": "s2p5-11",
-    "q": "Sales representatives are expected to respond to customer inquiries in a ______ manner.",
+    "q": "Front-desk staff are expected to handle guest complaints in a ______ manner.",
     "choices": [
-      "times",
       "timely",
+      "times",
       "timed",
       "time"
     ],
-    "answer": 1,
-    "translation": "営業担当者は、顧客からの問い合わせに迅速な形で対応することが求められる。",
-    "explanation": "名詞 manner を修飾する形容詞 timely(タイムリーな・迅速な)。-ly で終わるが timely は形容詞である点に注意。in a timely manner は定型句。"
+    "answer": 0,
+    "translation": "フロント係は、宿泊客からの苦情に迅速に対応することが求められる。",
+    "explanation": "名詞 manner を修飾する形容詞が必要なので (A) timely(迅速な・時宜を得た)。-ly で終わるが副詞ではなく形容詞である点がひっかけ。in a timely manner は定型句。(B) times と (D) time は名詞、(C) timed は『時間を計った』で意味が合わない。"
   },
   {
     "id": "s2p5-12",
-    "q": "______ for the generous funding from local sponsors, the youth program would not exist.",
+    "q": "Every incoming shipment ______ for water damage before it is moved into the cold-storage room.",
     "choices": [
-      "Should it",
-      "If it were",
-      "Were it not",
-      "Had it"
+      "inspect",
+      "inspecting",
+      "is inspected",
+      "have inspected"
     ],
     "answer": 2,
-    "translation": "地元スポンサーの手厚い資金援助がなければ、この青少年プログラムは存在しないだろう。",
-    "explanation": "Were it not for 〜(〜がなければ)は If it were not for 〜 の倒置形。帰結節 would not exist(仮定法過去)に対応。"
+    "translation": "入荷した荷はすべて、冷蔵保管室に移される前に、水濡れがないか検査される。",
+    "explanation": "主語 Every incoming shipment は『検査される』側なので受動態の (C) is inspected。every＋単数名詞は単数扱いである点も確認したい。(A) inspect と (D) have inspected は能動で目的語が必要になり、数も合わない。(B) inspecting だけでは文の動詞にならない。"
   },
   {
     "id": "s2p5-13",
-    "q": "The warranty covers all repairs ______ the damage results from normal use.",
+    "q": "The extended warranty covers replacement parts ______ the appliance has been serviced by an authorized technician.",
     "choices": [
       "such as",
       "in spite of",
-      "regardless",
+      "owing to",
       "as long as"
     ],
     "answer": 3,
-    "translation": "損傷が通常使用によるものである限り、保証はすべての修理を対象とする。",
-    "explanation": "空所の後ろが節なので接続詞。as long as 〜(〜する限り)は条件を表す。in spite of/such as は前置詞句、regardless は of が必要。"
+    "translation": "延長保証は、その家電が正規の技術者による点検を受けている限り、交換部品を対象とする。",
+    "explanation": "空所の後ろが『the appliance has been serviced 〜』という節なので接続詞が必要。条件を表す (D) as long as(〜する限り)が正解。(A) such as、(B) in spite of、(C) owing to はいずれも名詞句を取る表現で、節を導けない。"
   },
   {
     "id": "s2p5-14",
-    "q": "The auditor's report highlighted several ______ in the company's accounting procedures.",
+    "q": "The inspector noted several ______ between the shipping manifest and the contents of the container.",
     "choices": [
-      "premises",
       "referrals",
       "discrepancies",
+      "premises",
       "occasions"
     ],
-    "answer": 2,
-    "translation": "監査人の報告書は、会社の会計手続きにおけるいくつかの不一致を指摘した。",
-    "explanation": "語彙問題。accounting procedures(会計手続き)で問題になるのは discrepancies(不一致・食い違い)。occasions(機会)、referrals(紹介)、premises(敷地)は文意に合わない。"
+    "answer": 1,
+    "translation": "検査官は、積荷目録とコンテナの中身の間にいくつかの食い違いがあることを指摘した。",
+    "explanation": "語彙問題。書類と実際の中身の『間』に見つかるものなので、(B) discrepancies(食い違い・不一致)が適切。(A) referrals(紹介)、(C) premises(敷地)、(D) occasions(機会)は between A and B の対比の文脈に合わない。"
   },
   {
     "id": "s2p5-15",
-    "q": "The renovation is expected to be completed by June, ______ construction stays on schedule.",
+    "q": "The new terminal will open to passengers in October, ______ the final safety inspection goes smoothly.",
     "choices": [
-      "regarding",
       "assuming",
+      "regarding",
       "following",
       "concerning"
     ],
-    "answer": 1,
-    "translation": "工事が予定通り進めば、改装は6月までに完了する見込みだ。",
-    "explanation": "assuming (that) + 節で『〜と仮定すれば』という接続詞的用法。regarding/concerning/following は名詞を取る前置詞で、後ろの節を導けない。"
+    "answer": 0,
+    "translation": "最終の安全検査が問題なく進めば、新しいターミナルは10月に利用者へ開放される。",
+    "explanation": "空所の後ろは『the final safety inspection goes smoothly』という節。assuming (that)＋節で『〜だと仮定すれば』という接続詞的な使い方ができるので (A) assuming が正解。(B) regarding、(C) following、(D) concerning は名詞を取る前置詞で、節を導けない。"
   },
   {
     "id": "s2p5-16",
-    "q": "Employees who commute by public transit are ______ for a monthly travel subsidy.",
+    "q": "Staff members who have completed the safety course are ______ for the overnight shift allowance.",
     "choices": [
-      "eligible",
-      "available",
       "capable",
-      "responsible"
+      "available",
+      "responsible",
+      "eligible"
     ],
-    "answer": 0,
-    "translation": "公共交通機関で通勤する従業員は、月額の交通費補助を受ける資格がある。",
-    "explanation": "語彙+語法。be eligible for 〜(〜の資格がある)。capable は of、responsible は for でも意味が違い、available は物・時間に使う。"
+    "answer": 3,
+    "translation": "安全講習を修了した従業員は、深夜勤務手当を受け取る資格がある。",
+    "explanation": "be eligible for 〜(〜を受ける資格がある)の形なので (D) eligible。『講習を修了した従業員』という条件から資格の話だと分かる。(A) capable は of を取り、(B) available は人については『手が空いている』の意味。(C) responsible for は『〜を担当する』で、手当を受け取る側の話にならない。"
   },
   {
     "id": "s2p5-17",
-    "q": "The instructions were so ______ that even first-time users assembled the shelf easily.",
+    "q": "The training video was so ______ that new hires were able to operate the labeling machine on their first day.",
     "choices": [
       "complex",
       "confusing",
@@ -245,150 +245,150 @@ window.TOEIC_DATA_2.part5 = [
       "hidden"
     ],
     "answer": 2,
-    "translation": "説明書はとても明確だったので、初めて使う人でも簡単に棚を組み立てられた。",
-    "explanation": "語彙問題。so ... that(とても〜なので)の結果『簡単に組み立てられた』のだから、原因は clear(明確な)。confusing(紛らわしい)/complex(複雑な)では結果と矛盾する。"
+    "translation": "その研修動画はとても分かりやすかったので、新入社員は初日からラベル貼り機を操作することができた。",
+    "explanation": "so 〜 that ... の構文で、結果は『初日から機械を操作できた』。したがって原因は (C) clear(分かりやすい)。(A) complex(複雑な)と (B) confusing(紛らわしい)では結果と矛盾し、(D) hidden(隠された)は文意を成さない。"
   },
   {
     "id": "s2p5-e3",
-    "q": "The store offers a full refund to any customer who is not ______ with a purchase.",
+    "q": "The online retailer offers a full refund to any customer who is not ______ with an order.",
     "choices": [
-      "satisfaction",
       "satisfying",
       "satisfied",
+      "satisfaction",
       "satisfy"
     ],
-    "answer": 2,
-    "translation": "その店は、購入品に満足していない顧客に全額返金を提供している。",
-    "explanation": "be satisfied with 〜(〜に満足している)。人が『満足させられる』ので過去分詞 satisfied。基礎的な分詞の問題。"
+    "answer": 1,
+    "translation": "そのオンライン小売業者は、注文品に満足しなかった顧客には全額返金を行っている。",
+    "explanation": "be satisfied with 〜(〜に満足している)。人は『満足させられる』側なので過去分詞の (B) satisfied。(A) satisfying は『満足させるような』で物について使う。(C) satisfaction は名詞、(D) satisfy は動詞の原形で、be動詞の後には置けない。"
   },
   {
     "id": "s2p5-18",
-    "q": "The committee will announce its decision ______ reviewing all the submitted applications.",
+    "q": "The board has postponed ______ the merger proposal until the external review is complete.",
     "choices": [
-      "during",
-      "while",
-      "since",
-      "after"
+      "to discuss",
+      "discuss",
+      "discussed",
+      "discussing"
     ],
     "answer": 3,
-    "translation": "委員会は、提出されたすべての応募書類を審査した後に決定を発表する。",
-    "explanation": "after + 動名詞(reviewing)で『〜した後に』。during は名詞のみ、while は文意が不自然、since は現在完了と共に使う。"
+    "translation": "取締役会は、外部レビューが完了するまで、合併案の議論を延期した。",
+    "explanation": "postpone は目的語に動名詞を取る動詞なので (D) discussing。(A) to discuss の不定詞は postpone とは結べない。(B) discuss は原形、(C) discussed は過去形・過去分詞で、has postponed の目的語にならない。"
   },
   {
     "id": "s2p5-19",
-    "q": "The city council approved the plan to build a new library, ______ has been debated for years.",
+    "q": "The employee handbook lists several situations ______ a supervisor must be notified before any repair is attempted.",
     "choices": [
-      "what",
-      "that",
+      "in which",
       "which",
-      "it"
+      "that",
+      "of which"
     ],
-    "answer": 2,
-    "translation": "市議会は、長年議論されてきた新しい図書館の建設計画を承認した。",
-    "explanation": "カンマの後の非制限用法の関係代名詞は which。that は非制限用法に使えず、what は先行詞を取らず、it は接続詞なしで節をつなげない。"
+    "answer": 0,
+    "translation": "従業員ハンドブックには、修理を試みる前に監督者へ連絡しなければならない状況がいくつか挙げられている。",
+    "explanation": "空所の後ろは『a supervisor must be notified 〜』という要素の欠けていない完全な文。したがって関係代名詞だけでは入れられず、前置詞を伴った (A) in which が必要(in the situations の in が関係詞の前に出た形)。(B) which と (C) that は空所が主語または目的語になっている場合にしか使えない。(D) of which は situations との結びつきが意味を成さない。完全文か不完全文かを見分けられるかを問う難問。"
   },
   {
     "id": "s2p5-20",
-    "q": "Management attributed the drop in productivity ______ the outdated equipment.",
+    "q": "The morning and afternoon shifts ______ by half an hour so that the outgoing team can brief the incoming one.",
     "choices": [
-      "for",
-      "to",
-      "with",
-      "from"
+      "overturn",
+      "overlook",
+      "overlap",
+      "overtake"
     ],
-    "answer": 1,
-    "translation": "経営陣は、生産性の低下を老朽化した設備のせいだとした。",
-    "explanation": "attribute A to B(AをBのせい・おかげだとする)。動詞と結びつく前置詞を問う語法問題。to が正解。"
+    "answer": 2,
+    "translation": "午前と午後のシフトは30分重なっており、退勤する班が出勤する班に引き継ぎをできるようになっている。",
+    "explanation": "『引き継ぎができるように』という後半から、2つのシフトが30分『重なる』と判断できるので (C) overlap。(A) overturn(覆す)、(B) overlook(見落とす)、(D) overtake(追い越す)は綴りが似ているだけで文意に合わない。"
   },
   {
     "id": "s2p5-21",
-    "q": "The safety training is mandatory for new hires and ______ recommended for all other staff.",
+    "q": "Please direct any questions about the revised rotation to your shift ______.",
     "choices": [
-      "strongly",
-      "strong",
-      "strength",
-      "strengthen"
+      "supervise",
+      "supervisor",
+      "supervisory",
+      "supervising"
     ],
-    "answer": 0,
-    "translation": "安全研修は新入社員には必須で、他のすべてのスタッフにも強く推奨されている。",
-    "explanation": "recommended(過去分詞)を修飾するのは副詞 strongly。strongly recommended は定型のコロケーション。"
+    "answer": 1,
+    "translation": "変更後のシフト表について質問があれば、担当のシフト監督者にお尋ねください。",
+    "explanation": "your shift ______ と所有格＋名詞の並びになるので、人を表す名詞の (B) supervisor。(A) supervise は動詞、(C) supervisory は形容詞、(D) supervising は動名詞・現在分詞で、ここでは名詞句を締めくくれない。"
   },
   {
     "id": "s2p5-22",
-    "q": "The firm has grown rapidly, ______ its workforce from fifty to over three hundred in five years.",
+    "q": "The courier company grew quickly after 2019, ______ its service area from a single district to the entire metropolitan region.",
     "choices": [
       "expanded",
       "expand",
-      "expanding",
-      "expands"
+      "expands",
+      "expanding"
     ],
-    "answer": 2,
-    "translation": "その会社は急成長し、5年で従業員を50人から300人超に拡大した。",
-    "explanation": "分詞構文。主節の主語 the firm が『拡大した』という能動関係なので現在分詞 expanding。カンマの後で主節を補足説明する形。"
+    "answer": 3,
+    "translation": "その宅配会社は2019年以降急速に成長し、サービス地域を1つの地区から都市圏全体へと広げた。",
+    "explanation": "カンマの後ろで主節を補足説明する分詞構文。意味上の主語は主節の主語 The courier company で、会社が『自ら広げた』という能動関係なので現在分詞の (D) expanding。(A) expanded、(B) expand、(C) expands はいずれも接続詞なしに主節と並べることができない。"
   },
   {
     "id": "s2p5-23",
-    "q": "Visitors are kindly reminded to ______ from smoking anywhere on the hospital grounds.",
+    "q": "Cleaning crews are asked to ______ the corridors outside the conference rooms clear during business hours.",
     "choices": [
-      "refrain",
-      "avoid",
-      "prevent",
-      "prohibit"
+      "keep",
+      "stay",
+      "remain",
+      "hold"
     ],
     "answer": 0,
-    "translation": "来訪者の方は、病院敷地内のいかなる場所でも喫煙をお控えいただくようお願いいたします。",
-    "explanation": "語法問題。refrain from -ing(〜を控える)は自動詞+from。prevent/prohibit は from の前に目的語が必要、avoid は直後に動名詞を取り from を使わない。"
+    "translation": "清掃スタッフは、営業時間中は会議室の外の廊下を何も置かれていない状態にしておくよう求められている。",
+    "explanation": "keep＋目的語＋形容詞で『〜を…の状態に保つ』という形を作れるのは (A) keep。(B) stay と (C) remain は自動詞なので目的語 the corridors を取れない。(D) hold は『手に持つ・開催する』の意味で、廊下を clear な状態に保つという文脈に合わない。"
   },
   {
     "id": "s2p5-24",
-    "q": "The two proposals are similar, but the second one is far more ______ in its use of resources.",
+    "q": "The two floor plans are similar, but the second one is far more ______ in its use of natural light.",
     "choices": [
+      "efficiencies",
       "efficiently",
       "efficient",
-      "efficiencies",
       "efficiency"
     ],
-    "answer": 1,
-    "translation": "2つの提案は似ているが、2つ目のほうが資源の使い方がはるかに効率的だ。",
-    "explanation": "be動詞 is の後の補語で、more に修飾されるのは形容詞 efficient。副詞 efficiently は補語になれない。"
+    "answer": 2,
+    "translation": "2つの間取り案は似ているが、2つ目のほうが自然光の使い方がはるかに効率的だ。",
+    "explanation": "is の後ろの補語で、far more に修飾されるのは形容詞の (C) efficient。(B) efficiently は副詞で補語になれず、(A) efficiencies と (D) efficiency は名詞なので more と組み合わせても意味が通らない。"
   },
   {
     "id": "s2p5-25",
-    "q": "______ the storm damaged the crops, the cooperative was able to fulfill most of its orders.",
+    "q": "Only the members of the planning committee have seen the draft budget; the rest of the staff will receive ______ after Friday's review.",
     "choices": [
-      "So that",
-      "In case",
-      "Even though",
-      "As if"
+      "one",
+      "it",
+      "them",
+      "some"
     ],
-    "answer": 2,
-    "translation": "嵐が作物に損害を与えたにもかかわらず、その協同組合はほとんどの注文に応えることができた。",
-    "explanation": "前半(損害)と後半(注文に応えられた)は逆接の関係なので Even though(〜だけれども)。in case/so that/as if は文意に合わない。"
+    "answer": 1,
+    "translation": "その予算案の草案を見ているのは企画委員会のメンバーだけで、他の職員は金曜日の検討会の後にそれを受け取ることになる。",
+    "explanation": "前半で話題になっているのは『the draft budget』という特定の1つの文書。同じものを指す代名詞は (B) it。(A) one は『同じ種類の別のもの』を指すため、同一の予算案を配るという文脈に合わない。(C) them は複数を受ける形で数が合わず、(D) some は不特定の一部を指すので特定の文書を受けられない。何を指しているのかを前半から読み取らないと決まらない難問。"
   },
   {
     "id": "s2p5-e4",
-    "q": "Ms. Reyes will lead the project because she has the most ______ in this field.",
+    "q": "The Saturday workshop was ______ because fewer than ten people had registered.",
     "choices": [
-      "experiences",
-      "experience",
-      "experienced",
-      "experiencing"
+      "canceled",
+      "reserved",
+      "delivered",
+      "attended"
     ],
-    "answer": 1,
-    "translation": "レイエスさんはこの分野で最も経験があるので、プロジェクトを率いることになる。",
-    "explanation": "the most の後に入る名詞 experience(経験)。experience は『経験』の意味では不可算名詞なので複数形 experiences は不自然。基礎的な品詞問題。"
+    "answer": 0,
+    "translation": "土曜日の講習は、申込者が10人に満たなかったため中止された。",
+    "explanation": "『申込者が10人に満たなかった』という理由から、講習は『中止された』と判断できるので (A) canceled。(B) reserved(予約された)、(C) delivered(配達された)、(D) attended(出席された)は理由と噛み合わない。"
   },
   {
     "id": "s2p5-26",
-    "q": "The new policy applies to all employees, ______ of their department or job title.",
+    "q": "The updated dress code applies to all staff, ______ of whether they meet with clients.",
     "choices": [
-      "regardless",
-      "aside",
+      "instead",
       "apart",
-      "instead"
+      "aside",
+      "regardless"
     ],
-    "answer": 0,
-    "translation": "新しい方針は、部署や役職に関係なく、すべての従業員に適用される。",
-    "explanation": "regardless of 〜(〜に関係なく)は定型句。instead of/aside from/apart from も of/from を伴うが、ここでは意味的に regardless of が正しい。"
+    "answer": 3,
+    "translation": "改定された服装規定は、顧客と会う仕事かどうかに関係なく、全従業員に適用される。",
+    "explanation": "regardless of 〜(〜に関係なく)という定型句なので (D) regardless。(A) instead は instead of の形はあるが意味が逆になり、(B) apart と (C) aside は apart from / aside from のように from を取るのが普通で、of とは結びつかない。"
   }
 ];
