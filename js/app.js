@@ -399,14 +399,18 @@
     part5: 101, part6: 131, part7: 147
   };
 
+  // 記号(A.〜D.)は説明文と別の発話にして、そこで一度切る。
+  // 続けて読ませると記号の A が冠詞の a に潰れて「ア」に聞こえるため。
+  // 音声ファイルの前後には元々無音の余白があるので、指定する間隔は短くてよい。
+  var LETTER_GAP = 150;
+  function letterText(i) { return LETTERS[i] + "."; }
+
   function tasksPart1(items) {
     return items.map(function (it, idx) {
-      // 本番同様、各説明文の前に記号(A.〜D.)を読み上げる。
-      // 記号は説明文と別の発話にして間を空ける
-      // (続けて読ませると「エイ」が冠詞の「ア」に潰れてしまうため)
+      // 本番同様、各説明文の前に記号(A.〜D.)を読み上げる
       var lines = [];
       it.choices.forEach(function (c, i) {
-        lines.push({ speaker: it.speaker || "M", text: LETTERS[i], gapAfter: 500 });
+        lines.push({ speaker: it.speaker || "M", text: letterText(i), gapAfter: LETTER_GAP });
         lines.push({ speaker: it.speaker || "M", text: c, gapAfter: 1000 });
       });
       return {
@@ -432,11 +436,11 @@
 
   function tasksPart2(items) {
     return items.map(function (it, idx) {
-      // 本番同様、質問の後、各応答の前に記号(A.〜C.)を読み上げる(記号は別の発話にして間を空ける)
+      // 本番同様、質問の後、各応答の前に記号(A.〜C.)を読み上げる
       var other = it.question.speaker === "W" ? "M" : "W";
       var lines = [{ speaker: it.question.speaker, text: it.question.text, gapAfter: 1000 }];
       it.choices.forEach(function (c, i) {
-        lines.push({ speaker: other, text: LETTERS[i], gapAfter: 500 });
+        lines.push({ speaker: other, text: letterText(i), gapAfter: LETTER_GAP });
         lines.push({ speaker: other, text: c, gapAfter: 1000 });
       });
       return {

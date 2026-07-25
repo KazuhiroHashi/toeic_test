@@ -85,6 +85,12 @@ var LETTERS = ["A", "B", "C", "D"];
 
 // 本番TOEICの通し番号(js/app.js の PART_START と必ず一致させること)
 var PART_START = { part1: 1, part2: 7, part3: 32, part4: 71 };
+
+// 記号は「A.」のようにピリオドを付け、説明文とは別クリップにして一度切る。
+// 続けて読ませると記号の A が冠詞の a に潰れて「ア」に聞こえるため。
+// mp3 の前後には元々無音の余白があるので、指定する間隔は短くてよい。
+var LETTER_GAP = 150;
+function letterText(i) { return LETTERS[i] + "."; }
 var clips = [];       // {file, text, voice}
 var manifest = {};    // "s1:taskid" -> [{f, g}, ...]
 
@@ -118,7 +124,7 @@ SET_SOURCES.forEach(function (SRC) {
   DATA.part1.forEach(function (it, idx) {
     var lines = [{ speaker: "N", text: "Look at the picture marked number " + (PART_START.part1 + idx) + " in your test book.", gapAfter: 1000 }];
     it.choices.forEach(function (c, i) {
-      lines.push({ speaker: it.speaker || "M", text: LETTERS[i], gapAfter: 500 });
+      lines.push({ speaker: it.speaker || "M", text: letterText(i), gapAfter: LETTER_GAP });
       lines.push({ speaker: it.speaker || "M", text: c, gapAfter: 1000 });
     });
     addTask(it.id, lines);
@@ -133,7 +139,7 @@ SET_SOURCES.forEach(function (SRC) {
       { speaker: qsp, text: it.question.text, gapAfter: 1000 }
     ];
     it.choices.forEach(function (c, i) {
-      lines.push({ speaker: osp, text: LETTERS[i], gapAfter: 500 });
+      lines.push({ speaker: osp, text: letterText(i), gapAfter: LETTER_GAP });
       lines.push({ speaker: osp, text: c, gapAfter: 1000 });
     });
     addTask(it.id, lines);
