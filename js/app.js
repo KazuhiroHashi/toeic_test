@@ -166,32 +166,9 @@
       return rank;
     },
 
-    // ユーザーが「声の設定」画面で選んだ声(この端末のみ)。null = 自動
-    VOICE_PREF_KEY: "toeic_voice_enabled_v1",
-    enabledNames: null,
-    loadPrefs: function () {
-      try {
-        var raw = localStorage.getItem(this.VOICE_PREF_KEY);
-        this.enabledNames = raw ? JSON.parse(raw) : null;
-      } catch (e) { this.enabledNames = null; }
-    },
-    savePrefs: function (names) {
-      this.enabledNames = names && names.length ? names : null;
-      try {
-        if (this.enabledNames) localStorage.setItem(this.VOICE_PREF_KEY, JSON.stringify(this.enabledNames));
-        else localStorage.removeItem(this.VOICE_PREF_KEY);
-      } catch (e) { /* ignore */ }
-    },
-
-    // 配役に使う声のプール。ユーザー選択 > 推奨の声のみ > 全声 の順で決まる
+    // 配役に使う声のプール。推奨の声があればそれだけを使う
     castPool: function () {
       var self = this;
-      if (this.enabledNames) {
-        var set = {};
-        this.enabledNames.forEach(function (n) { set[n] = 1; });
-        var chosen = this.voices.filter(function (v) { return set[v.name]; });
-        if (chosen.length) return chosen;
-      }
       var pref = this.voices.filter(function (v) { return self.isPreferred(v); });
       var hasM = pref.some(function (v) { return self.genderOf(v) === "M"; });
       var hasF = pref.some(function (v) { return self.genderOf(v) === "F"; });
@@ -252,19 +229,6 @@
       };
     },
 
-    // 「声の設定」画面の試聴用
-    preview: function (v) {
-      if (!this.supported) return;
-      this.stop();
-      var u = new SpeechSynthesisUtterance(
-        "Hello, my name is " + v.name.replace(/\(.*\)/, "") +
-        ". Questions one through three refer to the following conversation."
-      );
-      u.voice = v;
-      u.lang = v.lang;
-      u.rate = 0.95;
-      window.speechSynthesis.speak(u);
-    },
 
     // 読み上げ用に略語を展開する。
     // 一部の音声は Dr. を字読みし(ディーアール)、さらに文分割処理が
@@ -388,7 +352,6 @@
     }
   };
   speech.init();
-  speech.loadPrefs();
 
   /* ---------------- タスク構築 ----------------
      タスク = 1画面分(音声 or 文書 + 設問1〜n問) */
@@ -670,20 +633,12 @@
       '<span class="card-title">🎯 問題を選んで解く</span>' +
       '<span class="card-desc">パートごとの問題一覧から、解きたい問題だけを選んで挑戦できます</span>' +
       "</button></div>" +
-      "<h2>設定</h2>" +
-      '<div class="menu-grid"><button class="menu-card" id="voice-settings">' +
-      '<span class="card-title">🔊 声の試聴と選択</span>' +
-      '<span class="card-desc">端末の英語音声を名前付きで試聴し、出題に使う声を選べます</span>' +
-      '<span class="card-stat">' +
-      (speech.enabledNames ? "手動選択中(" + speech.enabledNames.length + "件)" : "自動(発音の評判が良い声のみ)") +
-      "</span></button></div>" +
-      '<p class="history-note">成績と声の選択はこの端末のブラウザにのみ保存されます。</p>' +
+      '<p class="history-note">成績はこの端末のブラウザにのみ保存されます。</p>' +
       "</section>";
 
     app.querySelectorAll(".menu-card[data-mode]").forEach(function (btn) {
       btn.addEventListener("click", function () { startQuiz(btn.getAttribute("data-mode")); });
     });
-    document.getElementById("voice-settings").addEventListener("click", showVoiceSettings);
     document.getElementById("pick-quiz").addEventListener("click", showPicker);
     app.querySelectorAll(".set-tab").forEach(function (btn) {
       btn.addEventListener("click", function () {
@@ -793,77 +748,6 @@
         indices.push(parseInt(cb.getAttribute("data-i"), 10));
       });
       if (indices.length) startQuiz(mode, indices);
-    });
-  }
-
-  /* ---------------- 画面:声の試聴と選択 ---------------- */
-
-  function showVoiceSettings() {
-    speech.stop();
-    var pool = speech.castPool();
-    var inPool = {};
-    pool.forEach(function (v) { inPool[v.name] = true; });
-    var vs = speech.voices.slice().sort(function (a, b) {
-      return speech.qualityRank(a) - speech.qualityRank(b);
-    });
-    var genderLabel = { M: "男性", F: "女性", "?": "不明" };
-    var countryLabel = { US: "🇺🇸米", GB: "🇬🇧英", AU: "🇦🇺豪", CA: "🇨🇦加", IE: "🇮🇪愛", IN: "🇮🇳印", ZA: "🇿🇦南ア" };
-
-    var html = '<div class="quiz-header">' +
-      "<span>声の試聴と選択</span>" +
-      '<button class="quit-btn" id="backHome">ホームへ戻る</button>' +
-      "</div>" +
-      '<div class="question-card">' +
-      "<p>▶ で試聴し、出題に使いたい声にチェックを入れてください(選択はこの端末に保存されます)。" +
-      "チェックを1つも入れない場合は、発音の評判が良い声が自動で使われます。</p>";
-
-    if (!speech.supported || !vs.length) {
-      html += '<p class="audio-note">このブラウザでは英語の音声合成が利用できません。</p>';
-    } else {
-      html += '<div class="voice-list">';
-      vs.forEach(function (v, i) {
-        var cm = /en[-_]([A-Za-z]{2})/.exec(v.lang);
-        var c = cm ? cm[1].toUpperCase() : "";
-        html += '<div class="voice-row">' +
-          '<input type="checkbox" data-name="' + esc(v.name) + '"' + (inPool[v.name] ? " checked" : "") + ">" +
-          '<button class="stop-btn voice-play" data-i="' + i + '">▶</button>' +
-          '<span class="voice-name">' + esc(v.name) + "</span>" +
-          '<span class="voice-meta">' + (countryLabel[c] || esc(v.lang)) + " / " +
-          genderLabel[speech.genderOf(v)] +
-          (speech.isPreferred(v) ? ' / <span class="voice-star">★推奨</span>' : "") +
-          "</span></div>";
-      });
-      html += "</div>" +
-        '<div class="nav-row" style="justify-content:flex-start">' +
-        '<button class="secondary-btn" id="resetVoices">自動(推奨)に戻す</button>' +
-        "</div>";
-    }
-    html += "</div>";
-
-    app.innerHTML = html;
-    window.scrollTo(0, 0);
-    document.getElementById("backHome").addEventListener("click", showHome);
-
-    var reset = document.getElementById("resetVoices");
-    if (reset) {
-      reset.addEventListener("click", function () {
-        speech.savePrefs(null);
-        showVoiceSettings();
-      });
-    }
-    app.querySelectorAll(".voice-play").forEach(function (btn) {
-      btn.addEventListener("click", function () {
-        speech.preview(vs[parseInt(btn.getAttribute("data-i"), 10)]);
-      });
-    });
-    app.querySelectorAll('.voice-row input[type="checkbox"]').forEach(function (cb) {
-      cb.addEventListener("change", function () {
-        var names = [];
-        app.querySelectorAll('.voice-row input[type="checkbox"]').forEach(function (c) {
-          if (c.checked) names.push(c.getAttribute("data-name"));
-        });
-        speech.savePrefs(names);
-      });
     });
   }
 
