@@ -7,7 +7,6 @@
   var LETTERS = ["A", "B", "C", "D"];
   var STORAGE_KEY = "toeic_test_stats_v1";
   var SET_PREF_KEY = "toeic_active_set_v1";
-  var audioMode = null; // 録音済み音声の有無(null=未確認 / true=あり / false=なし→合成音声)
 
   /* ---------------- 問題セット ---------------- */
   // 同レベルの問題を複数セット用意し、ホームで切り替えられる。
@@ -123,244 +122,16 @@
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(stats)); } catch (e) { /* ignore */ }
   }
 
-  /* ---------------- 音声(Web Speech API) ---------------- */
+  /* ---------------- 音声(録音済みmp3の再生のみ) ----------------
+     リスニングは必ず同梱の録音音声で再生する。
+     端末の音声合成は「声が人によって変わる」「発音が不安定」という理由で使わない。
+     音声が読み込めない場合は、代替再生をせずエラーを表示する。 */
 
   var speech = {
-    voices: [],
-    supported: ("speechSynthesis" in window),
-    token: 0,       // 停止・画面遷移で再生を打ち切るためのセッション番号
-    keepAlive: null,
+    token: 0,        // 停止・画面遷移で再生を打ち切るためのセッション番号
+    _audios: null,
 
-    // 機械的な旧式ボイスやジョーク用ボイス(iOS/macOSに多数入っている)は
-    // 聞き取りにくいため配役から除外する。端末の表示言語が日本語だと
-    // ジョーク用ボイス名は翻訳されて返ってくるため、日本語名も併記する。
-    EXCLUDED_NAMES: ["fred", "kathy", "albert", "bad news", "good news", "bahh",
-      "bells", "boing", "bubbles", "cellos", "deranged", "eddy", "flo", "grandma",
-      "grandpa", "hysterical", "jester", "junior", "organ", "princess", "ralph",
-      "reed", "rocko", "sandy", "shelley", "superstar", "trinoids", "whisper",
-      "wobble", "zarvox",
-      "ベル", "震え", "道化", "オルガン", "スーパースター", "トリノイド",
-      "ささやき声", "おばあちゃん", "おじいちゃん", "悪い知らせ", "良い知らせ",
-      "泡", "チェロ", "ジュニア", "プリンセス"],
-
-    init: function () {
-      if (!this.supported) return;
-      var self = this;
-      function pick() {
-        var all = window.speechSynthesis.getVoices();
-        self.voices = all.filter(function (v) {
-          if (!/^en([-_]|$)/i.test(v.lang)) return false;
-          // 実在の人名ボイス(Karen/Daniel等)は表示言語が変わっても翻訳されない。
-          // ラテン文字を1文字も含まない名前は翻訳されたジョーク用ボイスとみなして除外。
-          if (!/[A-Za-z]/.test(v.name)) return false;
-          var n = v.name.toLowerCase();
-          for (var i = 0; i < self.EXCLUDED_NAMES.length; i++) {
-            if (n.indexOf(self.EXCLUDED_NAMES[i]) !== -1) return false;
-          }
-          return true;
-        });
-      }
-      pick();
-      if ("onvoiceschanged" in window.speechSynthesis) {
-        window.speechSynthesis.onvoiceschanged = pick;
-      }
-    },
-
-    // 代表的な英語音声の名前から性別を推定する(iOS/macOS/Windows/Android/Chrome)
-    MALE_NAMES: ["aaron", "alex", "daniel", "arthur", "gordon", "rishi",
-      "oliver", "thomas", "james", "david", "mark", "guy", "ryan", "eric",
-      "christopher", "andrew", "brian", "george", "matthew", "russell", "liam",
-      "evan", "nathan", "tom", "william", "richard"],
-    FEMALE_NAMES: ["samantha", "karen", "moira", "tessa", "martha", "nicky",
-      "serena", "victoria", "allison", "ava", "susan", "fiona", "zira",
-      "aria", "jenny", "michelle", "sonia", "libby", "natasha", "emma", "joanna",
-      "kendra", "amy", "salli", "kimberly", "catherine", "hazel", "kate",
-      "zoe", "joelle", "matilda", "clara", "linda", "stephanie", "noelle"],
-
-    // 発音の評判が良い声(前にあるほど優先)。端末に存在するものだけが使われる。
-    // iOSの高品質版(Ava/Zoe/Evan/Nathan等)、英Daniel/Kate/Serena、
-    // 豪Karen/Matilda/Lee、加Clara/Liam(Edge/Windowsの自然音声)など。
-    PREFERRED_NAMES: ["ava", "zoe", "evan", "nathan", "samantha", "allison",
-      "joelle", "susan", "tom", "daniel", "kate", "serena", "oliver",
-      "stephanie", "karen", "matilda", "clara", "liam", "aria", "jenny",
-      "guy", "christopher", "sonia", "ryan", "natasha", "william", "michelle",
-      "libby", "emma", "andrew", "aaron", "nicky", "martha", "moira", "tessa"],
-
-    isPreferred: function (v) {
-      var n = v.name.toLowerCase();
-      for (var i = 0; i < this.PREFERRED_NAMES.length; i++) {
-        if (n.indexOf(this.PREFERRED_NAMES[i]) !== -1) return true;
-      }
-      return false;
-    },
-
-    // 品質スコア(小さいほど優先)。高品質版(Enhanced/Premium/Natural)を最優先し、
-    // 次に評判リストの順位で並べる。
-    qualityRank: function (v) {
-      var n = v.name.toLowerCase();
-      var rank = this.PREFERRED_NAMES.length + 10;
-      for (var i = 0; i < this.PREFERRED_NAMES.length; i++) {
-        if (n.indexOf(this.PREFERRED_NAMES[i]) !== -1) { rank = i; break; }
-      }
-      if (/enhanced|premium|natural|neural/i.test(n)) rank -= 100;
-      return rank;
-    },
-
-    // 配役に使う声のプール。推奨の声があればそれだけを使う
-    castPool: function () {
-      var self = this;
-      var pref = this.voices.filter(function (v) { return self.isPreferred(v); });
-      var hasM = pref.some(function (v) { return self.genderOf(v) === "M"; });
-      var hasF = pref.some(function (v) { return self.genderOf(v) === "F"; });
-      return (hasM && hasF) ? pref : this.voices;
-    },
-
-    genderOf: function (v) {
-      var n = v.name.toLowerCase();
-      if (n.indexOf("female") !== -1) return "F";
-      if (n.indexOf("male") !== -1) return "M";
-      var i;
-      for (i = 0; i < this.FEMALE_NAMES.length; i++) {
-        if (n.indexOf(this.FEMALE_NAMES[i]) !== -1) return "F";
-      }
-      for (i = 0; i < this.MALE_NAMES.length; i++) {
-        if (n.indexOf(this.MALE_NAMES[i]) !== -1) return "M";
-      }
-      return "?";
-    },
-
-    // 話者(M/W/W2/M2/N)ごとに声を配役する。
-    // 本番と同じ4カ国(米・英・豪・加)を seed(問題の通し番号)でローテーション。
-    // その国の声が端末に無ければ、品質順の上位で代用する。
-    pickCast: function (seed) {
-      seed = seed || 0;
-      var self = this;
-      var pool = this.castPool().slice().sort(function (a, b) {
-        return self.qualityRank(a) - self.qualityRank(b);
-      });
-      var males = pool.filter(function (v) { return self.genderOf(v) === "M"; });
-      var females = pool.filter(function (v) { return self.genderOf(v) === "F"; });
-      var fallback = pool[0] || null;
-
-      var order = ["US", "GB", "AU", "CA"];
-      function country(v) {
-        var m = /en[-_]([A-Za-z]{2})/.exec(v.lang);
-        return m ? m[1].toUpperCase() : "US";
-      }
-      function pickFrom(arr, k) {
-        if (!arr.length) return null;
-        var natives = arr.filter(function (v) { return country(v) === order[k % order.length]; });
-        return natives.length ? natives[0] : arr[k % arr.length];
-      }
-      var m = pickFrom(males, seed) || fallback;
-      var m2 = pickFrom(males, seed + 1) || m;
-      var w = pickFrom(females, seed) || fallback;
-      var w2 = pickFrom(females, seed + 1) || w;
-      if (m2 === m && males.length > 1) m2 = males[(males.indexOf(m) + 1) % males.length];
-      if (w2 === w && females.length > 1) w2 = females[(females.indexOf(w) + 1) % females.length];
-      var noRealPair = !males.length || !females.length; // 男女どちらかの声が無い
-
-      // ナレーター(問題番号・導入文・設問読み上げ)は必ず女性にする。
-      // 録音音声側も女性(en-US-MichelleNeural)なので、どちらで再生しても印象を揃える。
-      // 会話に出てくる女性(W)とは別の声を選び、同じ人に聞こえないようにする。
-      var n = pickFrom(females, seed + 2) || w || fallback;
-      if (females.length > 1 && (n === w || n === w2)) {
-        for (var fi = 0; fi < females.length; fi++) {
-          if (females[fi] !== w && females[fi] !== w2) { n = females[fi]; break; }
-        }
-      }
-
-      return {
-        // 男性の声はこもって聞こえやすいため、やや高め(pitch 1.1)に設定
-        M: { voice: m, pitch: noRealPair ? 0.75 : 1.1, rate: 0.95 },
-        M2: { voice: m2, pitch: m2 === m ? 0.9 : 1.1, rate: 0.95 },
-        W: { voice: w, pitch: noRealPair ? 1.4 : 1.05, rate: 0.95 },
-        W2: { voice: w2, pitch: w2 === w ? 1.35 : 1.05, rate: 0.95 },
-        // 進行役と分かるよう、少し低め・ゆっくりにする
-        N: { voice: n, pitch: n === w ? 0.9 : 0.98, rate: 0.9 }
-      };
-    },
-
-
-    // 読み上げ用に略語を展開する。
-    // 一部の音声は Dr. を字読みし(ディーアール)、さらに文分割処理が
-    // 略語のピリオドを文末と誤認して不自然に区切るため、先に展開しておく。
-    normalizeForSpeech: function (text) {
-      return text
-        .replace(/\bDr\./g, "Doctor")
-        .replace(/\bMr\./g, "Mister")
-        .replace(/\bMrs\./g, "Missus")
-        .replace(/\bMs\./g, "Miz")
-        // A.M./P.M. は後ろに大文字が続けば文末のピリオドを残す
-        .replace(/\b([AP])\.M\.(?=\s+[A-Z])/g, "$1M.")
-        .replace(/\b([AP])\.M\./g, "$1M");
-    },
-
-    // 長い文の途中停止(ブラウザの制限)を避けるため文単位に分割する
-    splitText: function (text) {
-      var parts = text.match(/[^.!?]+[.!?]+["')\]]*\s*|[^.!?]+$/g);
-      if (!parts) return [text];
-      return parts.map(function (s) { return s.trim(); }).filter(Boolean);
-    },
-
-    // 1文ずつ順番に再生する(まとめてキューに積むと iOS Safari で途中停止するため)
-    speakLines: function (lines, onEnd, seed) {
-      if (!this.supported) { if (onEnd) onEnd(); return; }
-      var self = this;
-      this.stop();
-      var token = ++this.token;
-      var cast = this.pickCast(seed);
-
-      var units = [];
-      lines.forEach(function (line) {
-        self.splitText(self.normalizeForSpeech(line.text)).forEach(function (s) {
-          units.push({ speaker: line.speaker || "M", text: s, gap: 150 });
-        });
-        // 行末の間(ま): 指定があればそれを使う(設問読み上げ後の8秒ポーズ等)
-        // gapAfter が 0 のときも 0 として扱う(|| だと既定値に化けるため)
-        if (units.length) units[units.length - 1].gap = line.gapAfter == null ? 650 : line.gapAfter;
-      });
-
-      // デスクトップChromeが長い再生を自動一時停止する問題への対策
-      this.keepAlive = setInterval(function () {
-        if (window.speechSynthesis.speaking) window.speechSynthesis.resume();
-      }, 8000);
-
-      var i = 0;
-      function finish() {
-        if (self.keepAlive) { clearInterval(self.keepAlive); self.keepAlive = null; }
-        if (onEnd) onEnd();
-      }
-      function next() {
-        if (token !== self.token) return;
-        if (i >= units.length) { finish(); return; }
-        var cur = units[i++];
-        var u = new SpeechSynthesisUtterance(cur.text);
-        var conf = cast[cur.speaker] || cast.M;
-        if (conf.voice) { u.voice = conf.voice; u.lang = conf.voice.lang; }
-        else { u.lang = "en-US"; }
-        u.pitch = conf.pitch;
-        u.rate = conf.rate;
-        var done = false;
-        function step() {
-          if (done) return;
-          done = true;
-          clearTimeout(guard);
-          if (token !== self.token) return;
-          setTimeout(next, cur.gap);
-        }
-        // onend が発火しない環境への保険(発話長に応じたタイムアウト)
-        var guard = setTimeout(step, 4000 + cur.text.length * 150);
-        u.onend = step;
-        u.onerror = step;
-        window.speechSynthesis.speak(u);
-      }
-      next();
-    },
-
-    // 録音済み音声ファイル(mp3)を順番に再生する。
-    // clips は URL文字列 または {f: URL, g: 再生後ポーズms} の配列。
-    // ファイルが読み込めない場合(未生成など)は onError を呼ぶ(合成音声へフォールバック)。
+    // clips: [{f: URL, g: 再生後のポーズms}, ...]
     playFiles: function (clips, onEnd, onError) {
       this.stop();
       var self = this;
@@ -395,15 +166,12 @@
 
     stop: function () {
       this.token += 1;
-      if (this.keepAlive) { clearInterval(this.keepAlive); this.keepAlive = null; }
       if (this._audios) {
         this._audios.forEach(function (a) { try { a.pause(); a.src = ""; } catch (e) { /* ignore */ } });
         this._audios = null;
       }
-      if (this.supported) window.speechSynthesis.cancel();
     }
   };
-  speech.init();
 
   /* ---------------- タスク構築 ----------------
      タスク = 1画面分(音声 or 文書 + 設問1〜n問) */
@@ -954,58 +722,30 @@
     });
 
     if (t.listening) {
-      // 本番同様、ナレーターの導入文を付けて再生する
-      var intro;
-      var questionLines = [];
-      // 本番と同じ通し番号(Part 1:1-6 / Part 2:7-31 / Part 3:32-70 / Part 4:71-100)
-      var no = t.startNo || (answeredBefore + 1);
-      if (t.part === "Part 1") {
-        intro = "Look at the picture marked number " + no + " in your test book.";
-      } else if (t.part === "Part 2") {
-        intro = "Number " + no + ".";
-      } else {
-        // 本番形式: Questions 32 through 34 refer to the following
-        //   conversation [with three speakers] [and list].  /  telephone message. など
-        var three = t.audio.some(function (l) { return l.speaker === "W2" || l.speaker === "M2"; });
-        var kindText = t.part === "Part 3"
-          ? "conversation" + (three ? " with three speakers" : "")
-          : (t.kind || "talk");
-        intro = "Questions " + no +
-          (t.questions.length > 1 ? " through " + (no + t.questions.length - 1) : "") +
-          " refer to the following " + kindText +
-          (t.graphicKind ? " and " + t.graphicKind : "") + ".";
-        // 本番同様、音声の後にナレーターが設問文を読み上げる(各設問の後にポーズ)
-        questionLines = t.questions.map(function (q, qi) {
-          return { speaker: "N", text: "Number " + (no + qi) + ". " + q.prompt, gapAfter: 8000 };
-        });
-      }
-      var audioLines = (intro ? [{ speaker: "N", text: intro }] : []).concat(t.audio).concat(questionLines);
-
-      // 録音済み音声ファイルがあれば優先(無ければ端末の合成音声)
+      // 録音済み音声ファイルだけを再生する(端末の合成音声は使わない)
       var audioKey = SETS[activeSetIdx].id + ":" + t.id;
       var audioFiles = (window.TOEIC_AUDIO_MANIFEST && t.id) ? window.TOEIC_AUDIO_MANIFEST[audioKey] : null;
 
       var playBtn = document.getElementById("play");
+      var noteEl = app.querySelector(".audio-note");
       playBtn.addEventListener("click", function () {
+        if (!audioFiles || !audioFiles.length) {
+          if (noteEl) noteEl.textContent = "この問題の音声が見つかりません。時間をおいて開き直してください。";
+          return;
+        }
         playBtn.disabled = true;
         playBtn.textContent = "再生中…";
-        function done() {
+        if (noteEl) noteEl.textContent = "何度でも再生できます。";
+        speech.playFiles(audioFiles, function () {
           playBtn.disabled = false;
           playBtn.textContent = "▶ もう一度再生";
-        }
-        function synth() {
-          // 問題番号を seed にして、問題ごとに違う声の組を割り当てる
-          speech.speakLines(audioLines, done, answeredBefore);
-        }
-        // audioMode: null=未確認 / true=録音あり / false=録音なし
-        if (audioFiles && audioFiles.length && audioMode !== false) {
-          speech.playFiles(audioFiles, function () { audioMode = true; done(); }, function () {
-            audioMode = false; // 以後は合成音声のみ試す
-            synth();
-          });
-        } else {
-          synth();
-        }
+        }, function () {
+          playBtn.disabled = false;
+          playBtn.textContent = "▶ もう一度再生";
+          if (noteEl) {
+            noteEl.textContent = "音声を読み込めませんでした。通信状況を確認して、もう一度お試しください。";
+          }
+        });
       });
       document.getElementById("stopAudio").addEventListener("click", function () {
         speech.stop();
