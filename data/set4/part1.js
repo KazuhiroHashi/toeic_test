@@ -3,7 +3,7 @@ window.TOEIC_DATA_4 = window.TOEIC_DATA_4 || {};
 window.TOEIC_DATA_4.part1 = [
   {
     "id": "s4p1-01",
-    "image": "assets/part1/s4-01.png",
+    "image": "assets/part1/s4-01.jpg",
     "speaker": "M",
     "choices": [
       "A worker is stacking crates in a warehouse.",
@@ -17,7 +17,7 @@ window.TOEIC_DATA_4.part1 = [
   },
   {
     "id": "s4p1-02",
-    "image": "assets/part1/s4-02.png",
+    "image": "assets/part1/s4-02.jpg",
     "speaker": "W",
     "choices": [
       "Some books are being taken out of a box.",
@@ -31,7 +31,7 @@ window.TOEIC_DATA_4.part1 = [
   },
   {
     "id": "s4p1-03",
-    "image": "assets/part1/s4-03.png",
+    "image": "assets/part1/s4-03.jpg",
     "speaker": "M",
     "choices": [
       "A man is locking up a bicycle.",
@@ -45,7 +45,7 @@ window.TOEIC_DATA_4.part1 = [
   },
   {
     "id": "s4p1-04",
-    "image": "assets/part1/s4-04.png",
+    "image": "assets/part1/s4-04.jpg",
     "speaker": "W",
     "choices": [
       "A car is being washed.",
@@ -59,7 +59,7 @@ window.TOEIC_DATA_4.part1 = [
   },
   {
     "id": "s4p1-05",
-    "image": "assets/part1/s4-05.png",
+    "image": "assets/part1/s4-05.jpg",
     "speaker": "M",
     "choices": [
       "A worker is watering some plants.",
@@ -73,7 +73,7 @@ window.TOEIC_DATA_4.part1 = [
   },
   {
     "id": "s4p1-06",
-    "image": "assets/part1/s4-06.png",
+    "image": "assets/part1/s4-06.jpg",
     "speaker": "W",
     "choices": [
       "Some boats are tied up at a dock.",

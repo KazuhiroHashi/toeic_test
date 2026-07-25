@@ -3,7 +3,7 @@ window.TOEIC_DATA_6 = window.TOEIC_DATA_6 || {};
 window.TOEIC_DATA_6.part1 = [
   {
     "id": "s6p1-01",
-    "image": "assets/part1/s6-01.png",
+    "image": "assets/part1/s6-01.jpg",
     "speaker": "M",
     "choices": [
       "A waiter is wiping off an outdoor table.",
@@ -17,7 +17,7 @@ window.TOEIC_DATA_6.part1 = [
   },
   {
     "id": "s6p1-02",
-    "image": "assets/part1/s6-02.png",
+    "image": "assets/part1/s6-02.jpg",
     "speaker": "M",
     "choices": [
       "A worker is measuring a wooden board.",
@@ -31,7 +31,7 @@ window.TOEIC_DATA_6.part1 = [
   },
   {
     "id": "s6p1-03",
-    "image": "assets/part1/s6-03.png",
+    "image": "assets/part1/s6-03.jpg",
     "speaker": "W",
     "choices": [
       "A woman is watering plants with a hose.",
@@ -45,7 +45,7 @@ window.TOEIC_DATA_6.part1 = [
   },
   {
     "id": "s6p1-04",
-    "image": "assets/part1/s6-04.png",
+    "image": "assets/part1/s6-04.jpg",
     "speaker": "W",
     "choices": [
       "A customer is trying on a coat.",
@@ -59,7 +59,7 @@ window.TOEIC_DATA_6.part1 = [
   },
   {
     "id": "s6p1-05",
-    "image": "assets/part1/s6-05.png",
+    "image": "assets/part1/s6-05.jpg",
     "speaker": "W",
     "choices": [
       "A performer is tuning an instrument.",
@@ -73,7 +73,7 @@ window.TOEIC_DATA_6.part1 = [
   },
   {
     "id": "s6p1-06",
-    "image": "assets/part1/s6-06.png",
+    "image": "assets/part1/s6-06.jpg",
     "speaker": "M",
     "choices": [
       "A teller is counting money.",

@@ -3,7 +3,7 @@ window.TOEIC_DATA_2 = window.TOEIC_DATA_2 || {};
 window.TOEIC_DATA_2.part1 = [
   {
     "id": "s2p1-01",
-    "image": "assets/part1/s2-01.png",
+    "image": "assets/part1/s2-01.jpg",
     "speaker": "M",
     "choices": [
       "A man is reading a newspaper.",
@@ -17,7 +17,7 @@ window.TOEIC_DATA_2.part1 = [
   },
   {
     "id": "s2p1-02",
-    "image": "assets/part1/s2-02.png",
+    "image": "assets/part1/s2-02.jpg",
     "speaker": "W",
     "choices": [
       "The shelves are completely empty.",
@@ -31,7 +31,7 @@ window.TOEIC_DATA_2.part1 = [
   },
   {
     "id": "s2p1-03",
-    "image": "assets/part1/s2-03.png",
+    "image": "assets/part1/s2-03.jpg",
     "speaker": "M",
     "choices": [
       "A woman is writing on a board.",
@@ -45,7 +45,7 @@ window.TOEIC_DATA_2.part1 = [
   },
   {
     "id": "s2p1-04",
-    "image": "assets/part1/s2-04.png",
+    "image": "assets/part1/s2-04.jpg",
     "speaker": "W",
     "choices": [
       "They are looking at a document.",
@@ -59,7 +59,7 @@ window.TOEIC_DATA_2.part1 = [
   },
   {
     "id": "s2p1-05",
-    "image": "assets/part1/s2-05.png",
+    "image": "assets/part1/s2-05.jpg",
     "speaker": "M",
     "choices": [
       "A ladder is lying on the floor.",
@@ -73,7 +73,7 @@ window.TOEIC_DATA_2.part1 = [
   },
   {
     "id": "s2p1-06",
-    "image": "assets/part1/s2-06.png",
+    "image": "assets/part1/s2-06.jpg",
     "speaker": "W",
     "choices": [
       "A bench is being repaired.",

@@ -3,7 +3,7 @@ window.TOEIC_DATA_3 = window.TOEIC_DATA_3 || {};
 window.TOEIC_DATA_3.part1 = [
   {
     "id": "s3p1-01",
-    "image": "assets/part1/s3-01.png",
+    "image": "assets/part1/s3-01.jpg",
     "speaker": "M",
     "choices": [
       "A woman is filing folders in a cabinet.",
@@ -17,7 +17,7 @@ window.TOEIC_DATA_3.part1 = [
   },
   {
     "id": "s3p1-02",
-    "image": "assets/part1/s3-02.png",
+    "image": "assets/part1/s3-02.jpg",
     "speaker": "W",
     "choices": [
       "A worker is climbing a ladder.",
@@ -31,7 +31,7 @@ window.TOEIC_DATA_3.part1 = [
   },
   {
     "id": "s3p1-03",
-    "image": "assets/part1/s3-03.png",
+    "image": "assets/part1/s3-03.jpg",
     "speaker": "M",
     "choices": [
       "A chef is chopping some vegetables.",
@@ -45,7 +45,7 @@ window.TOEIC_DATA_3.part1 = [
   },
   {
     "id": "s3p1-04",
-    "image": "assets/part1/s3-04.png",
+    "image": "assets/part1/s3-04.jpg",
     "speaker": "W",
     "choices": [
       "People are strolling through the park.",
@@ -59,7 +59,7 @@ window.TOEIC_DATA_3.part1 = [
   },
   {
     "id": "s3p1-05",
-    "image": "assets/part1/s3-05.png",
+    "image": "assets/part1/s3-05.jpg",
     "speaker": "M",
     "choices": [
       "Some vehicles are stopped at an intersection.",
@@ -73,7 +73,7 @@ window.TOEIC_DATA_3.part1 = [
   },
   {
     "id": "s3p1-06",
-    "image": "assets/part1/s3-06.png",
+    "image": "assets/part1/s3-06.jpg",
     "speaker": "W",
     "choices": [
       "A customer is pouring some coffee.",

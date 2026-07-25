@@ -3,7 +3,7 @@ window.TOEIC_DATA_5 = window.TOEIC_DATA_5 || {};
 window.TOEIC_DATA_5.part1 = [
   {
     "id": "s5p1-01",
-    "image": "assets/part1/s5-01.png",
+    "image": "assets/part1/s5-01.jpg",
     "speaker": "W",
     "choices": [
       "A woman is filling a bucket with soil.",
@@ -17,7 +17,7 @@ window.TOEIC_DATA_5.part1 = [
   },
   {
     "id": "s5p1-02",
-    "image": "assets/part1/s5-02.png",
+    "image": "assets/part1/s5-02.jpg",
     "speaker": "M",
     "choices": [
       "A man is setting up a microphone stand.",
@@ -31,7 +31,7 @@ window.TOEIC_DATA_5.part1 = [
   },
   {
     "id": "s5p1-03",
-    "image": "assets/part1/s5-03.png",
+    "image": "assets/part1/s5-03.jpg",
     "speaker": "M",
     "choices": [
       "A man is closing the hood of a car.",
@@ -45,7 +45,7 @@ window.TOEIC_DATA_5.part1 = [
   },
   {
     "id": "s5p1-04",
-    "image": "assets/part1/s5-04.png",
+    "image": "assets/part1/s5-04.jpg",
     "speaker": "W",
     "choices": [
       "Some documents are being handed out.",
@@ -59,7 +59,7 @@ window.TOEIC_DATA_5.part1 = [
   },
   {
     "id": "s5p1-05",
-    "image": "assets/part1/s5-05.png",
+    "image": "assets/part1/s5-05.jpg",
     "speaker": "W",
     "choices": [
       "A woman is rolling paint onto a wall.",
@@ -73,7 +73,7 @@ window.TOEIC_DATA_5.part1 = [
   },
   {
     "id": "s5p1-06",
-    "image": "assets/part1/s5-06.png",
+    "image": "assets/part1/s5-06.jpg",
     "speaker": "M",
     "choices": [
       "A customer's hair is being cut.",

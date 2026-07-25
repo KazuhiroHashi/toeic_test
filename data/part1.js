@@ -4,7 +4,7 @@ window.TOEIC_DATA = window.TOEIC_DATA || {};
 window.TOEIC_DATA.part1 = [
   {
     id: "p1-01",
-    image: "assets/part1/p1-01.png",
+    image: "assets/part1/p1-01.jpg",
     speaker: "M",
     choices: [
       "A man is sweeping a walkway.",
@@ -18,7 +18,7 @@ window.TOEIC_DATA.part1 = [
   },
   {
     id: "p1-02",
-    image: "assets/part1/p1-02.png",
+    image: "assets/part1/p1-02.jpg",
     speaker: "W",
     choices: [
       "She is wiping down a window.",
@@ -32,7 +32,7 @@ window.TOEIC_DATA.part1 = [
   },
   {
     id: "p1-03",
-    image: "assets/part1/p1-03.png",
+    image: "assets/part1/p1-03.jpg",
     speaker: "M",
     choices: [
       "He is weighing some vegetables.",
@@ -46,7 +46,7 @@ window.TOEIC_DATA.part1 = [
   },
   {
     id: "p1-04",
-    image: "assets/part1/p1-04.png",
+    image: "assets/part1/p1-04.jpg",
     speaker: "M",
     choices: [
       "He is loading boxes onto a truck.",
@@ -60,7 +60,7 @@ window.TOEIC_DATA.part1 = [
   },
   {
     id: "p1-05",
-    image: "assets/part1/p1-05.png",
+    image: "assets/part1/p1-05.jpg",
     speaker: "W",
     choices: [
       "A man is waiting on a platform.",
@@ -74,7 +74,7 @@ window.TOEIC_DATA.part1 = [
   },
   {
     id: "p1-06",
-    image: "assets/part1/p1-06.png",
+    image: "assets/part1/p1-06.jpg",
     speaker: "M",
     choices: [
       "He is writing on the whiteboard.",
