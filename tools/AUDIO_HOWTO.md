@@ -252,3 +252,20 @@ python3 tools/generate_audio.py
 find assets/audio -name '*.mp3' | wc -l      # 1928 になればOK
 git add assets/audio && git commit -m "リスニング音声を追加" && git push origin main
 ```
+
+---
+
+## 記号(A.)と説明文のあいだが長いとき
+
+edge-tts が作る mp3 には、前後に 0.2〜0.4 秒ほどの無音が焼き付いています。そのぶん、`LETTER_GAP` を 0 にしても間が残ります。これを詰めるには mp3 から無音を削ります(ffmpeg が必要)。
+
+```bash
+python3 tools/trim_silence.py --dry-run   # 対象を確認するだけ
+python3 tools/trim_silence.py             # Part 1・2 だけ刈り取る(安全)
+```
+
+全パートを詰めたい場合は `--all` を付けます。ただし会話の行間も詰まるので、まずは既定(Part 1・2 のみ)で聞いてから判断してください。
+
+- ffmpeg が無い場合:`conda install -c conda-forge ffmpeg` または `brew install ffmpeg`
+- 一度処理したファイルは記録され、二重に刈り取られません
+- 元に戻したいときは、対象の mp3 を削除して `python3 tools/generate_audio.py` を実行し直します
