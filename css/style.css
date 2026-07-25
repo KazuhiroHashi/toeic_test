@@ -342,3 +342,19 @@ details.script-box .script-body {
   opacity: 0.55;
   margin-top: 4px;
 }
+
+/* ===== 合言葉によるセット解放 ===== */
+.set-tab.locked { opacity: 0.55; }
+.unlock-box {
+  margin: 18px 0 6px;
+  padding: 14px 16px;
+  border: 1px dashed var(--border);
+  border-radius: 10px;
+  background: #fafbfc;
+}
+.unlock-note {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.8rem;
+  color: #666;
+}

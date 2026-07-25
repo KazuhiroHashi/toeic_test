@@ -24,12 +24,52 @@
   ].forEach(function (s) {
     if (s.data && s.data.part7) SETS.push({ id: s.id, name: s.name, data: s.data });
   });
+  /* ---------------- 合言葉によるセットの解放 ----------------
+     セット1は無料。セット2以降は購入者に渡した合言葉で解放する。
+     合言葉そのものはここに書かず、照合用の値だけを置く(ソースを見ても分からない)。
+     合言葉を変えるときは  node tools/make_code.js <新しい合言葉>  で値を作り直す。 */
+  var UNLOCK_KEY = "toeic_unlocked_v1";
+  var FREE_SETS = { s1: true };
+  var CODE_HASHES = {
+    "1x2yoe6": ["s2"],
+    "46ijg9": ["s3"],
+    "1bo82nr": ["s4"],
+    "hhek08": ["s5"],
+    "d0deqg": ["s6"],
+    "1o2kktt": ["s2", "s3", "s4", "s5", "s6"]   // まとめ買い用
+  };
+
+  function codeHash(str) {
+    var h = 2166136261;
+    str = String(str).trim().toLowerCase();
+    for (var i = 0; i < str.length; i++) {
+      h ^= str.charCodeAt(i);
+      h = Math.imul(h, 16777619);
+    }
+    return (h >>> 0).toString(36);
+  }
+  function loadUnlocked() {
+    try { return JSON.parse(localStorage.getItem(UNLOCK_KEY)) || {}; }
+    catch (e) { return {}; }
+  }
+  var unlocked = loadUnlocked();
+  function isUnlocked(id) { return !!(FREE_SETS[id] || unlocked[id]); }
+  // 合言葉を適用する。解放できたセットのidの配列を返す(不正なら空配列)
+  function applyCode(input) {
+    var ids = CODE_HASHES[codeHash(input)];
+    if (!ids) return [];
+    var added = [];
+    ids.forEach(function (id) { if (!unlocked[id]) { unlocked[id] = 1; added.push(id); } });
+    try { localStorage.setItem(UNLOCK_KEY, JSON.stringify(unlocked)); } catch (e) { /* ignore */ }
+    return ids;
+  }
+
   var activeSetIdx = 0;
   (function () {
     try {
       var saved = localStorage.getItem(SET_PREF_KEY);
       for (var i = 0; i < SETS.length; i++) {
-        if (SETS[i].id === saved) { activeSetIdx = i; break; }
+        if (SETS[i].id === saved && isUnlocked(saved)) { activeSetIdx = i; break; }
       }
     } catch (e) { /* ignore */ }
   })();
@@ -612,8 +652,9 @@
     var setSwitchHtml = "";
     if (SETS.length > 1) {
       var setTabs = SETS.map(function (s, i) {
-        return '<button class="set-tab' + (i === activeSetIdx ? " active" : "") +
-          '" data-set="' + i + '">' + esc(s.name) + "</button>";
+        var lock = isUnlocked(s.id) ? "" : " locked";
+        return '<button class="set-tab' + (i === activeSetIdx ? " active" : "") + lock +
+          '" data-set="' + i + '">' + esc(s.name) + (lock ? " 🔒" : "") + "</button>";
       }).join("");
       setSwitchHtml = '<div class="set-switch"><span class="set-switch-label">問題セット</span>' +
         '<div class="set-tabs">' + setTabs + "</div></div>";
@@ -633,6 +674,10 @@
       '<span class="card-title">🎯 問題を選んで解く</span>' +
       '<span class="card-desc">パートごとの問題一覧から、解きたい問題だけを選んで挑戦できます</span>' +
       "</button></div>" +
+      (SETS.some(function (s) { return !isUnlocked(s.id); })
+        ? '<div class="unlock-box"><button class="secondary-btn" id="enterCode">🔑 合言葉を入力してセットを解放</button>' +
+          '<span class="unlock-note">購入いただいた方に合言葉をお渡ししています。</span></div>'
+        : "") +
       '<p class="history-note">成績はこの端末のブラウザにのみ保存されます。</p>' +
       "</section>";
 
@@ -640,9 +685,13 @@
       btn.addEventListener("click", function () { startQuiz(btn.getAttribute("data-mode")); });
     });
     document.getElementById("pick-quiz").addEventListener("click", showPicker);
+    var codeBtn = document.getElementById("enterCode");
+    if (codeBtn) codeBtn.addEventListener("click", function () { askCode(null); });
     app.querySelectorAll(".set-tab").forEach(function (btn) {
       btn.addEventListener("click", function () {
-        activeSetIdx = parseInt(btn.getAttribute("data-set"), 10);
+        var i = parseInt(btn.getAttribute("data-set"), 10);
+        if (!isUnlocked(SETS[i].id)) { askCode(SETS[i].name); return; }
+        activeSetIdx = i;
         try { localStorage.setItem(SET_PREF_KEY, SETS[activeSetIdx].id); } catch (e) { /* ignore */ }
         showHome();
       });
@@ -749,6 +798,26 @@
       });
       if (indices.length) startQuiz(mode, indices);
     });
+  }
+
+  // 合言葉の入力(鍵つきセットを押したとき / ホームのボタンから)
+  function askCode(setName) {
+    var msg = setName
+      ? setName + "は購入者向けです。合言葉を入力してください。"
+      : "購入時にお渡しした合言葉を入力してください。";
+    var input = window.prompt(msg);
+    if (input === null) return;                    // キャンセル
+    var ids = applyCode(input);
+    if (!ids.length) {
+      alert("合言葉が違うようです。空白や全角に注意して、もう一度お試しください。");
+      return;
+    }
+    var names = ids.map(function (id) {
+      for (var i = 0; i < SETS.length; i++) if (SETS[i].id === id) return SETS[i].name;
+      return id;
+    });
+    alert(names.join("・") + " を解放しました。");
+    showHome();
   }
 
   /* ---------------- 画面:出題 ---------------- */
