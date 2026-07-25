@@ -90,7 +90,12 @@ var PART_START = { part1: 1, part2: 7, part3: 32, part4: 71 };
 // 続けて読ませると記号の A が冠詞の a に潰れて「ア」に聞こえるため。
 // 無音除去(tools/trim_silence.py)をかけた前提の値。かけていない場合は 0 でよい
 // (未処理の mp3 には前後に0.2〜0.4秒の無音が焼き付いているため)。
+// コマンドの後ろに数字を付けると、その回だけ上書きできる(音声の作り直しは不要)。
+//   node tools/build_audio_manifest.js 700   → 記号の後の間隔を700msにして作り直す
 var LETTER_GAP = 400;
+if (process.argv[2] && /^\d+$/.test(process.argv[2])) {
+  LETTER_GAP = parseInt(process.argv[2], 10);
+}
 function letterText(i) { return LETTERS[i] + "."; }
 var clips = [];       // {file, text, voice}
 var manifest = {};    // "s1:taskid" -> [{f, g}, ...]
