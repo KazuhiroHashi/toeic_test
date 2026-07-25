@@ -4756,22 +4756,22 @@
   },
   {
     "file": "assets/audio/s4/s4p1-01/1.mp3",
-    "text": "A. A cook is washing dishes in a sink.",
+    "text": "A. A worker is stacking crates in a warehouse.",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-01/2.mp3",
-    "text": "B. A cook is chopping vegetables on a cutting board.",
+    "text": "B. A worker is driving a forklift.",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-01/3.mp3",
-    "text": "C. A cook is taking off his apron.",
+    "text": "C. A worker is sealing a carton with tape.",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-01/4.mp3",
-    "text": "D. A cook is stirring a pot on the stove.",
+    "text": "D. A worker is weighing produce on a scale.",
     "voice": "en-US-GuyNeural"
   },
   {
@@ -5306,22 +5306,22 @@
   },
   {
     "file": "assets/audio/s4/s4p2-17/1.mp3",
-    "text": "What's the password for the guest Wi-Fi network?",
+    "text": "Who should I ask about the forklift certification training?",
     "voice": "en-AU-NatashaNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-17/2.mp3",
-    "text": "A. Yes, all the guests have arrived.",
+    "text": "A. The safety officer keeps that schedule.",
     "voice": "en-AU-WilliamNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-17/3.mp3",
-    "text": "B. The receptionist can set that up for you.",
+    "text": "B. Yes, it was certified last year.",
     "voice": "en-AU-WilliamNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-17/4.mp3",
-    "text": "C. It's a very fast connection.",
+    "text": "C. About four hours of instruction.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -5701,7 +5701,7 @@
   },
   {
     "file": "assets/audio/s4/s4p3-04/8.mp3",
-    "text": "Number 12. What does the man offer to bring?",
+    "text": "Number 12. What does the man say he will do by the end of the day?",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -5761,42 +5761,47 @@
   },
   {
     "file": "assets/audio/s4/s4p3-06/1.mp3",
-    "text": "Hi, this is Owen from Greenfield Organic Farm. I'm calling to confirm your weekly order of vegetables for the co-op.",
+    "text": "Good morning. I have a reservation under Callum Reyes, checking in for three nights.",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p3-06/2.mp3",
-    "text": "Hi Owen. Yes, the usual crates of tomatoes and lettuce, but could you add ten crates of bell peppers this week? We have a promotion coming up.",
+    "text": "Welcome, Mr. Reyes. I have your booking right here. Our official check-in time is three o'clock, though, and your room is still being cleaned.",
     "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p3-06/3.mp3",
-    "text": "Ten crates of peppers... let me check. The peppers are ripening slowly this season, so I can guarantee six crates by Thursday and the rest next week.",
+    "text": "I came straight from an early flight. Is there somewhere I can leave my suitcases until then?",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p3-06/4.mp3",
-    "text": "Six is fine for now. Same delivery time, seven a.m.?",
+    "text": "Certainly. We'll keep them behind the front desk. Just stop by the counter after two and I'll have your key ready.",
     "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p3-06/5.mp3",
-    "text": "Yes, our truck will be there at seven. I'll e-mail you the updated order total.",
+    "text": "Thanks. One more thing — is there a shuttle from here to the convention center?",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p3-06/6.mp3",
-    "text": "Number 16. Why is the man calling?",
-    "voice": "en-US-AriaNeural"
+    "text": "Yes, it leaves from the main entrance every thirty minutes until nine in the evening.",
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p3-06/7.mp3",
-    "text": "Number 17. Why can't the man supply all the bell peppers this week?",
+    "text": "Number 16. What does the woman say about the man's room?",
     "voice": "en-US-AriaNeural"
   },
   {
     "file": "assets/audio/s4/s4p3-06/8.mp3",
-    "text": "Number 18. What will the man send by e-mail?",
+    "text": "Number 17. What does the woman offer to do?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s4/s4p3-06/9.mp3",
+    "text": "Number 18. What does the man ask about?",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -5856,7 +5861,7 @@
   },
   {
     "file": "assets/audio/s4/s4p3-08/1.mp3",
-    "text": "Nadia, I'm doing the stock check. We're running very low on one item, only eight left, over in aisle five.",
+    "text": "Nadia, I'm doing the stock check. We're down to eight of one item over in aisle five.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -5901,7 +5906,7 @@
   },
   {
     "file": "assets/audio/s4/s4p3-09/1.mp3",
-    "text": "Ben, the printer needs the final magazine files by Friday to hit the delivery date.",
+    "text": "Ben, the printer needs the final magazine files by Friday to meet the delivery date.",
     "voice": "en-CA-ClaraNeural"
   },
   {
@@ -6021,7 +6026,7 @@
   },
   {
     "file": "assets/audio/s4/s4p3-11/6.mp3",
-    "text": "As soon as you sign the updated agreement. I'll e-mail it today, and it'll be active from the first.",
+    "text": "I'll e-mail the updated agreement today. Once you sign it, the new policy takes over when the current one expires — so it'll be active from the first.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -6061,7 +6066,7 @@
   },
   {
     "file": "assets/audio/s4/s4p3-12/4.mp3",
-    "text": "Let me check the roster and confirm. I'll get back to you shortly.",
+    "text": "The schedule shows the afternoon block, but let me confirm who's actually rostered that day and get back to you.",
     "voice": "en-AU-NatashaNeural"
   },
   {
@@ -6266,12 +6271,12 @@
   },
   {
     "file": "assets/audio/s4/s4p4-06/3.mp3",
-    "text": "Number 17. What is included with every lease?",
+    "text": "Number 17. What does the speaker say is included?",
     "voice": "en-US-AriaNeural"
   },
   {
     "file": "assets/audio/s4/s4p4-06/4.mp3",
-    "text": "Number 18. How can a business get a free month of rent?",
+    "text": "Number 18. How can a business receive one month at no charge?",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -6281,7 +6286,7 @@
   },
   {
     "file": "assets/audio/s4/s4p4-07/1.mp3",
-    "text": "Good evening, everyone, and thank you for joining our annual agents' banquet. Tonight I'm proud to recognize the outstanding work of the claims team here at Kestrel Insurance. This past year brought a record number of storm-damage claims to our region, and yet this team managed to reduce the average processing time from twelve days down to just five. Behind that number are countless late nights and difficult phone calls, all handled with patience and genuine care for our policyholders. I'd especially like to thank our team leader, Sofia Marchetti, whose new digital claims form made so much of this possible. Sofia, would you please come up and accept this award on behalf of your entire team?",
+    "text": "Good evening, everyone, and thank you for joining our annual agents' banquet. Tonight I'm proud to recognize the outstanding work of the claims team here at Kestrel Insurance. This past year brought a record number of weather-related claims to our region, and yet this team managed to reduce the average processing time from twelve days down to just five. Behind that number are countless late nights and difficult phone calls, all handled with patience and genuine care for our policyholders. I'd especially like to thank our team leader, Sofia Marchetti, whose new digital claims form made so much of this possible. Sofia, would you please come up and accept this award on behalf of your entire team?",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -6291,7 +6296,7 @@
   },
   {
     "file": "assets/audio/s4/s4p4-07/3.mp3",
-    "text": "Number 20. According to the speaker, what did the team achieve?",
+    "text": "Number 20. What improvement does the speaker mention?",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -6341,7 +6346,7 @@
   },
   {
     "file": "assets/audio/s4/s4p4-09/3.mp3",
-    "text": "Number 26. Why is the speaker calling?",
+    "text": "Number 26. What does the speaker offer to do?",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -7226,7 +7231,7 @@
   },
   {
     "file": "assets/audio/s5/s5p3-02/6.mp3",
-    "text": "Number 5. When will this week's recording be available?",
+    "text": "Number 5. According to the man, when will the material be ready?",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -7256,7 +7261,7 @@
   },
   {
     "file": "assets/audio/s5/s5p3-03/4.mp3",
-    "text": "Good idea. I'll design the signs this week and ask a shop to laminate them.",
+    "text": "Good idea. I'll design the signs this week and ask a print shop to laminate them.",
     "voice": "en-GB-SoniaNeural"
   },
   {
@@ -7266,7 +7271,7 @@
   },
   {
     "file": "assets/audio/s5/s5p3-03/6.mp3",
-    "text": "Number 8. What does the man suggest adding?",
+    "text": "Number 8. According to the man, when can the project begin?",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -7281,7 +7286,7 @@
   },
   {
     "file": "assets/audio/s5/s5p3-04/1.mp3",
-    "text": "So, Mr. Ellis, you'd like to redo the front garden. What did you have in mind?",
+    "text": "Thanks for having me out to your house today, Mr. Ellis. Now that I've walked around the property, let's talk about redoing the front garden. What did you have in mind?",
     "voice": "en-AU-NatashaNeural"
   },
   {
@@ -7561,12 +7566,12 @@
   },
   {
     "file": "assets/audio/s5/s5p3-10/3.mp3",
-    "text": "That's good to hear. How often would I need to water them?",
+    "text": "That's good to hear. Will they spread and take over the whole bed?",
     "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p3-10/4.mp3",
-    "text": "About twice a week in summer, and less when it's cooler. They're over in aisle three if you'd like to take a look.",
+    "text": "Not really — hostas stay fairly compact, and ferns fill in slowly. They're over in aisle three if you'd like to take a look.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -7576,7 +7581,7 @@
   },
   {
     "file": "assets/audio/s5/s5p3-10/6.mp3",
-    "text": "Number 29. What does the woman say about the plants she recommends?",
+    "text": "Number 29. What does the woman say about her recommendations?",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -7636,42 +7641,52 @@
   },
   {
     "file": "assets/audio/s5/s5p3-12/0.mp3",
-    "text": "Questions 34 through 36 refer to the following conversation and invoice.",
+    "text": "Questions 34 through 36 refer to the following conversation and schedule.",
     "voice": "en-US-AriaNeural"
   },
   {
     "file": "assets/audio/s5/s5p3-12/1.mp3",
-    "text": "Hello, this is Diane Park. I received invoice five-five-two-seven, but I think there's an error. Your crew pruned only one tree in my yard, not two.",
+    "text": "Hi, I'd like to register for Introduction to Biology this fall, but I work weekday mornings until noon, so nothing before lunch will work for me.",
     "voice": "en-AU-NatashaNeural"
   },
   {
     "file": "assets/audio/s5/s5p3-12/2.mp3",
-    "text": "Let me pull up the work order... You're right, our team noted just one. I'll correct the charge and refund the difference.",
+    "text": "All right, that rules out one of the sections. Would a weekend class be possible?",
     "voice": "en-AU-WilliamNeural"
   },
   {
     "file": "assets/audio/s5/s5p3-12/3.mp3",
-    "text": "Thank you. Could you also send me an updated invoice for my records?",
+    "text": "Unfortunately not — I look after my nephew every Saturday. And I already have another class on Friday afternoons.",
     "voice": "en-AU-NatashaNeural"
   },
   {
     "file": "assets/audio/s5/s5p3-12/4.mp3",
-    "text": "Of course. I'll e-mail the corrected version today, and the refund should post to your account in about a week.",
+    "text": "Then only one section fits your schedule. Let me check whether seats are still open.",
     "voice": "en-AU-WilliamNeural"
   },
   {
     "file": "assets/audio/s5/s5p3-12/5.mp3",
-    "text": "Number 34. Look at the graphic. How much will the woman be refunded?",
-    "voice": "en-US-AriaNeural"
+    "text": "Thanks. And if it's already full, could you put me on the waiting list?",
+    "voice": "en-AU-NatashaNeural"
   },
   {
     "file": "assets/audio/s5/s5p3-12/6.mp3",
-    "text": "Number 35. What does the woman ask the man to send?",
-    "voice": "en-US-AriaNeural"
+    "text": "Certainly. I'll submit the request and e-mail you a confirmation this afternoon.",
+    "voice": "en-AU-WilliamNeural"
   },
   {
     "file": "assets/audio/s5/s5p3-12/7.mp3",
-    "text": "Number 36. According to the man, when will the refund post?",
+    "text": "Number 34. Look at the graphic. Which section will the woman most likely take?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s5/s5p3-12/8.mp3",
+    "text": "Number 35. What does the woman ask the man to do if the class is full?",
+    "voice": "en-US-AriaNeural"
+  },
+  {
+    "file": "assets/audio/s5/s5p3-12/9.mp3",
+    "text": "Number 36. What will the man do this afternoon?",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -7766,12 +7781,12 @@
   },
   {
     "file": "assets/audio/s5/s5p4-02/3.mp3",
-    "text": "Number 5. What are students encouraged to do?",
+    "text": "Number 5. Where is the speaker's office located?",
     "voice": "en-US-AriaNeural"
   },
   {
     "file": "assets/audio/s5/s5p4-02/4.mp3",
-    "text": "Number 6. What will students who attend at least three workshops receive?",
+    "text": "Number 6. What can students who attend at least three sessions receive?",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -7781,7 +7796,7 @@
   },
   {
     "file": "assets/audio/s5/s5p4-03/1.mp3",
-    "text": "Thinking about lowering your electricity bills? At Helios Solar Solutions, we make switching to clean energy simple. Our certified technicians design and install rooftop solar panels tailored to your home, and most systems are up and running in just one day. Right now, homeowners who book before the end of September will receive a free energy assessment, plus a ten-year warranty on all equipment. Best of all, many of our customers cut their monthly power costs by more than half. To find out how much you could save, request a free quote on our website, helios-solar dot com. Helios Solar Solutions — power your home with the sun.",
+    "text": "Are the floors in your home starting to show their age? At Cedarline Flooring, we make replacing them simple. Our certified installers measure, remove, and lay new hardwood or tile floors to fit any room, and most single-room jobs are finished in just one day. Right now, homeowners who book before the end of September will receive a free in-home measurement, plus a ten-year warranty on all materials. We also handle the cleanup ourselves, so you can walk on your new floor the very same evening. To find out what your project would cost, request a free quote on our Web site, cedarline dash flooring dot com. Cedarline Flooring — a fresh floor, without the fuss.",
     "voice": "en-AU-NatashaNeural"
   },
   {
@@ -7926,12 +7941,12 @@
   },
   {
     "file": "assets/audio/s5/s5p4-09/0.mp3",
-    "text": "Questions 25 through 27 refer to the following excerpt from a meeting and invoice.",
+    "text": "Questions 25 through 27 refer to the following talk and invoice.",
     "voice": "en-US-AriaNeural"
   },
   {
     "file": "assets/audio/s5/s5p4-09/1.mp3",
-    "text": "Let's quickly review the equipment order before I submit it. Finance approved our budget, but with one condition — they've asked us to cut the single most expensive item for now and add it in next quarter instead. So I'm going to remove that item from this order; everything else stays. The good news is the supplier is offering free shipping on orders placed this week, so I'll send the purchase order by Friday. Once it arrives, Tom will check each piece against the packing list before we log it into our inventory system. If anyone thinks we're missing something essential, let me know by end of day.",
+    "text": "Before I place our kitchen equipment order, let me go over it with you one more time. Head office approved the request, but with one condition — they've asked us to leave off the single most expensive item for now and add it in next quarter instead. So I'm taking that item off this order; everything else stays as it is. The good news is that the supplier is offering free shipping on any order placed this week, so I'll send the purchase order by Friday. Once the delivery arrives, Tom will check each piece against the packing list before we enter it in our inventory system. If any of you think we're missing something essential, let me know by the end of the day.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -7941,12 +7956,12 @@
   },
   {
     "file": "assets/audio/s5/s5p4-09/3.mp3",
-    "text": "Number 26. Why will the item be removed?",
+    "text": "Number 26. What is the supplier offering this week?",
     "voice": "en-US-AriaNeural"
   },
   {
     "file": "assets/audio/s5/s5p4-09/4.mp3",
-    "text": "Number 27. What will Tom do when the order arrives?",
+    "text": "Number 27. What will Tom do when the delivery arrives?",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -7971,7 +7986,7 @@
   },
   {
     "file": "assets/audio/s5/s5p4-10/4.mp3",
-    "text": "Number 30. What will happen next?",
+    "text": "Number 30. What will Grace Hartwell do next?",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -8006,22 +8021,22 @@
   },
   {
     "file": "assets/audio/s6/s6p1-02/1.mp3",
-    "text": "A. He is examining the engine.",
+    "text": "A. A worker is measuring a wooden board.",
     "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-02/2.mp3",
-    "text": "B. He is changing a flat tire.",
+    "text": "B. A worker is climbing onto a roof.",
     "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-02/3.mp3",
-    "text": "C. He is filling the tank with fuel.",
+    "text": "C. A worker is sweeping the floor.",
     "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-02/4.mp3",
-    "text": "D. The vehicle is being lifted on a hoist.",
+    "text": "D. A worker is unloading bricks from a truck.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -8056,23 +8071,23 @@
   },
   {
     "file": "assets/audio/s6/s6p1-04/1.mp3",
-    "text": "A. People are boarding a boat.",
-    "voice": "en-CA-LiamNeural"
+    "text": "A. A customer is trying on a coat.",
+    "voice": "en-CA-ClaraNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-04/2.mp3",
-    "text": "B. Sailboats are sailing across the water.",
-    "voice": "en-CA-LiamNeural"
+    "text": "B. A clerk is folding garments.",
+    "voice": "en-CA-ClaraNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-04/3.mp3",
-    "text": "C. A man is casting a fishing line.",
-    "voice": "en-CA-LiamNeural"
+    "text": "C. The shelves have been emptied.",
+    "voice": "en-CA-ClaraNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-04/4.mp3",
-    "text": "D. Several boats are docked at a pier.",
-    "voice": "en-CA-LiamNeural"
+    "text": "D. Clothing has been hung on racks.",
+    "voice": "en-CA-ClaraNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-05/0.mp3",
@@ -8081,22 +8096,22 @@
   },
   {
     "file": "assets/audio/s6/s6p1-05/1.mp3",
-    "text": "A. She is reaching for a book on a shelf.",
+    "text": "A. A performer is tuning an instrument.",
     "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-05/2.mp3",
-    "text": "B. She is stacking books on a cart.",
+    "text": "B. The audience is leaving the hall.",
     "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-05/3.mp3",
-    "text": "C. She is reading at a desk.",
+    "text": "C. Musicians are performing on a stage.",
     "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-05/4.mp3",
-    "text": "D. The shelves have been emptied.",
+    "text": "D. Chairs are being carried off the stage.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -8106,22 +8121,22 @@
   },
   {
     "file": "assets/audio/s6/s6p1-06/1.mp3",
-    "text": "A. A chef is washing dishes in a sink.",
+    "text": "A. A teller is counting money.",
     "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-06/2.mp3",
-    "text": "B. A chef is chopping vegetables on a cutting board.",
+    "text": "B. A customer is signing a document.",
     "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-06/3.mp3",
-    "text": "C. A chef is putting on an apron.",
+    "text": "C. People are waiting in line.",
     "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-06/4.mp3",
-    "text": "D. A chef is stirring a pot on the stove.",
+    "text": "D. A door is being locked.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -8791,7 +8806,7 @@
   },
   {
     "file": "assets/audio/s6/s6p3-01/8.mp3",
-    "text": "Number 2. What does the woman say about smaller loan applications?",
+    "text": "Number 2. What does the woman say about requests for smaller amounts?",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -8976,7 +8991,7 @@
   },
   {
     "file": "assets/audio/s6/s6p3-05/7.mp3",
-    "text": "Number 13. What are the speakers mainly discussing?",
+    "text": "Number 13. What problem does Grace mention?",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -9051,7 +9066,7 @@
   },
   {
     "file": "assets/audio/s6/s6p3-07/3.mp3",
-    "text": "That's from the two conferences in September. I kept all the receipts if we need to justify the costs.",
+    "text": "That's from the two conferences in September. I've kept all the receipts in case we need to justify the costs.",
     "voice": "en-AU-WilliamNeural"
   },
   {
@@ -9106,7 +9121,7 @@
   },
   {
     "file": "assets/audio/s6/s6p3-08/4.mp3",
-    "text": "Then order that one, and bring it back up to at least fifteen to match our best seller. Can you place the order with the supplier?",
+    "text": "Then order that one, and bring it back up to at least fifteen to match the level we keep for Extra Large. Can you place the order with the supplier?",
     "voice": "en-AU-NatashaNeural"
   },
   {
@@ -9216,7 +9231,7 @@
   },
   {
     "file": "assets/audio/s6/s6p3-10/7.mp3",
-    "text": "Number 29. What does the man suggest?",
+    "text": "Number 29. What does the man say his crew will do on Monday?",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -9231,32 +9246,32 @@
   },
   {
     "file": "assets/audio/s6/s6p3-11/1.mp3",
-    "text": "Hi, I recently registered a design studio, and I'd like to open a business checking account.",
+    "text": "Hi, I bought this wool coat here last weekend, and I'd like to have the sleeves shortened.",
     "voice": "en-GB-SoniaNeural"
   },
   {
     "file": "assets/audio/s6/s6p3-11/2.mp3",
-    "text": "Congratulations. I can set that up today. Do you have your business registration certificate and a photo ID?",
+    "text": "Of course. Our tailor works on site. Do you have the receipt and the garment tag with you?",
     "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s6/s6p3-11/3.mp3",
-    "text": "I have my ID, but I only have a digital copy of the registration on my phone. Is that acceptable?",
+    "text": "I have the tag, but I only have a digital copy of the receipt on my phone. Is that acceptable?",
     "voice": "en-GB-SoniaNeural"
   },
   {
     "file": "assets/audio/s6/s6p3-11/4.mp3",
-    "text": "A digital copy is fine — I can print it here. There's no monthly fee for the first year, and after that it's ten dollars unless you keep a minimum balance.",
+    "text": "A digital copy is fine — I can scan it right at the counter. And there's no charge within thirty days of purchase, so this one is free.",
     "voice": "en-GB-RyanNeural"
   },
   {
     "file": "assets/audio/s6/s6p3-11/5.mp3",
-    "text": "Good to know. And how soon can I get a debit card?",
+    "text": "Good to know. How long will it take?",
     "voice": "en-GB-SoniaNeural"
   },
   {
     "file": "assets/audio/s6/s6p3-11/6.mp3",
-    "text": "The card arrives by mail in about a week, but I can give you temporary checks today so you can start right away.",
+    "text": "About a week normally. If you need it sooner, we can finish it by Thursday for an extra twenty dollars.",
     "voice": "en-GB-RyanNeural"
   },
   {
@@ -9266,12 +9281,12 @@
   },
   {
     "file": "assets/audio/s6/s6p3-11/8.mp3",
-    "text": "Number 32. What does the man say about the digital registration copy?",
+    "text": "Number 32. What does the man say about the digital copy of the receipt?",
     "voice": "en-US-AriaNeural"
   },
   {
     "file": "assets/audio/s6/s6p3-11/9.mp3",
-    "text": "Number 33. What can the man provide today?",
+    "text": "Number 33. Why will the woman not be charged?",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -9316,12 +9331,12 @@
   },
   {
     "file": "assets/audio/s6/s6p3-12/8.mp3",
-    "text": "Number 35. Why have the café's sales increased?",
+    "text": "Number 35. What does the man say the café has done recently?",
     "voice": "en-US-AriaNeural"
   },
   {
     "file": "assets/audio/s6/s6p3-12/9.mp3",
-    "text": "Number 36. What does the woman say the man qualifies for?",
+    "text": "Number 36. What does the woman say she will send?",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -9331,47 +9346,47 @@
   },
   {
     "file": "assets/audio/s6/s6p3-13/1.mp3",
-    "text": "Hello, I'm organizing a theater outing for my company, and I'd like to book twenty tickets for Friday's play.",
+    "text": "Thanks for showing me around. I'm planning our company's annual awards dinner in October, and we expect about two hundred guests.",
     "voice": "en-CA-ClaraNeural"
   },
   {
     "file": "assets/audio/s6/s6p3-13/2.mp3",
-    "text": "For groups of fifteen or more, we offer a fifteen-percent discount. Would you like the seats together?",
+    "text": "Then this hall should suit you. It seats two hundred and twenty for a seated dinner.",
     "voice": "en-CA-LiamNeural"
   },
   {
     "file": "assets/audio/s6/s6p3-13/3.mp3",
-    "text": "Yes, together if possible. Also, a few of our guests use wheelchairs — can the theater accommodate that?",
+    "text": "It looks ideal. Do we need to bring our own stage and microphones?",
     "voice": "en-CA-ClaraNeural"
   },
   {
     "file": "assets/audio/s6/s6p3-13/4.mp3",
-    "text": "Absolutely. We have accessible seating in the orchestra section, and I'll reserve aisle spaces for them.",
+    "text": "No, a small stage and two wireless microphones come with the hall at no extra cost. A projector and screen are available for an additional charge.",
     "voice": "en-CA-LiamNeural"
   },
   {
     "file": "assets/audio/s6/s6p3-13/5.mp3",
-    "text": "Wonderful. Can I pay with the company card over the phone?",
+    "text": "We'll want the projector as well. Could you hold the date while I get the budget approved?",
     "voice": "en-CA-ClaraNeural"
   },
   {
     "file": "assets/audio/s6/s6p3-13/6.mp3",
-    "text": "Of course. I'll also e-mail you the tickets so you can hand them out to your group.",
+    "text": "Certainly. I'll hold October eighteenth for ten days and send you a written quote this afternoon.",
     "voice": "en-CA-LiamNeural"
   },
   {
     "file": "assets/audio/s6/s6p3-13/7.mp3",
-    "text": "Number 37. Why is the woman calling?",
+    "text": "Number 37. Why is the woman meeting with the man?",
     "voice": "en-US-AriaNeural"
   },
   {
     "file": "assets/audio/s6/s6p3-13/8.mp3",
-    "text": "Number 38. What does the woman ask about?",
+    "text": "Number 38. What does the man say is provided at no additional charge?",
     "voice": "en-US-AriaNeural"
   },
   {
     "file": "assets/audio/s6/s6p3-13/9.mp3",
-    "text": "Number 39. What will the man do?",
+    "text": "Number 39. What will the man do this afternoon?",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -9441,12 +9456,12 @@
   },
   {
     "file": "assets/audio/s6/s6p4-03/3.mp3",
-    "text": "Number 8. What is included with purchases made in the showroom?",
+    "text": "Number 8. What must customers do to receive a complimentary item?",
     "voice": "en-US-AriaNeural"
   },
   {
     "file": "assets/audio/s6/s6p4-03/4.mp3",
-    "text": "Number 9. What can customers receive by booking a styling appointment?",
+    "text": "Number 9. When is the business closed?",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -9481,7 +9496,7 @@
   },
   {
     "file": "assets/audio/s6/s6p4-05/1.mp3",
-    "text": "Good evening, and welcome to the Rivergate Performing Arts Center. Tonight's performance by the Halden Symphony will begin at eight o'clock. A few reminders before we start. If you bought your tickets online and chose will-call, please pick them up before heading to your seats. Ticket holders for tonight's pre-show donor reception should make their way up to the very top of the building, where drinks are being served until seven forty-five. And a gentle reminder: photography and recording are not permitted once the performance begins, so please silence your phones now. Enjoy the show.",
+    "text": "Good evening, and welcome to the Rivergate Performing Arts Center. Tonight's performance by the Halden Symphony will begin at eight o'clock. A few reminders before we start. If you bought your tickets online and chose will-call, please pick them up at the box office before heading to your seats. Ticket holders for tonight's pre-show donor reception should make their way up to the very top of the building, where drinks are being served until seven forty-five. And a gentle reminder: photography and recording are not permitted once the performance begins, so please silence your phones now. Enjoy the show.",
     "voice": "en-US-JennyNeural"
   },
   {
@@ -9516,12 +9531,12 @@
   },
   {
     "file": "assets/audio/s6/s6p4-06/3.mp3",
-    "text": "Number 17. Why should the espresso machines warm up for twenty minutes?",
+    "text": "Number 17. By what time should the first person to arrive get there?",
     "voice": "en-US-AriaNeural"
   },
   {
     "file": "assets/audio/s6/s6p4-06/4.mp3",
-    "text": "Number 18. What should staff do if part of the delivery is missing?",
+    "text": "Number 18. What are listeners told to do if part of the delivery is missing?",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -9571,12 +9586,12 @@
   },
   {
     "file": "assets/audio/s6/s6p4-08/4.mp3",
-    "text": "Number 24. Where is filming NOT allowed?",
+    "text": "Number 24. What are visitors told to do if they become separated from the group?",
     "voice": "en-US-AriaNeural"
   },
   {
     "file": "assets/audio/s6/s6p4-09/0.mp3",
-    "text": "Questions 25 through 27 refer to the following excerpt from a meeting and invoice.",
+    "text": "Questions 25 through 27 refer to the following excerpt from a meeting and list.",
     "voice": "en-US-AriaNeural"
   },
   {
@@ -9586,12 +9601,12 @@
   },
   {
     "file": "assets/audio/s6/s6p4-09/2.mp3",
-    "text": "Number 25. Look at the graphic. Which category increased the most?",
+    "text": "Number 25. Look at the graphic. How much was spent on the category the speaker is concerned about?",
     "voice": "en-US-AriaNeural"
   },
   {
     "file": "assets/audio/s6/s6p4-09/3.mp3",
-    "text": "Number 26. What does the speaker recommend doing more of next quarter?",
+    "text": "Number 26. What does the speaker want to do next quarter?",
     "voice": "en-US-AriaNeural"
   },
   {

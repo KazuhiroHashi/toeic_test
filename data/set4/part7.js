@@ -272,43 +272,43 @@ window.TOEIC_DATA_4.part7 = [
     "passages": [
       {
         "docType": "E-mail",
-        "text": "From: Gordon Pyke, Meridian Insurance\nTo: Sandra Iqbal\nSubject: Your commercial property policy — renewal\nDate: June 3\n\nDear Ms. Iqbal,\n\nYour commercial property insurance policy (no. CP-77302) for the Fairlight Bakery premises is due to renew on July 1. I am writing to review your coverage before that date.\n\nThis year we recommend one change. Following the equipment you added in March — two new industrial ovens — your current contents limit of $80,000 may no longer be sufficient. We suggest raising it to $110,000. This would increase your annual premium by $240.\n\nYour building coverage and liability terms will remain the same. If you agree to the higher contents limit, simply reply to this e-mail and I will update the policy. If I do not hear from you by June 24, your policy will renew at the current terms.\n\nI am also happy to schedule a call to discuss other options, such as adding flood coverage.\n\nBest regards,\nGordon Pyke"
+        "text": "From: Gordon Pyke, Northbridge Freight Services\nTo: Sandra Iqbal\nSubject: Your shipping agreement — annual review\nDate: June 3\n\nDear Ms. Iqbal,\n\nYour shipping agreement (account no. NF-77302) for the Fairlight Bakery is due for its annual review on July 1. I am writing to go over your service level before that date.\n\nThis year we recommend one change. Since you began supplying two new hotel clients in March, your shipments have exceeded your weekly allowance of 80 parcels in nine of the past twelve weeks, and every parcel above the allowance is billed separately at a higher rate. We suggest raising the allowance to 110 parcels. This would add $240 to your monthly charge but would remove those extra fees.\n\nYour pickup times and packaging conditions would stay the same. If you agree to the higher allowance, simply reply to this e-mail and I will amend the agreement. If I do not hear from you by June 24, your current terms will stay in effect.\n\nI am also happy to arrange a call to discuss other options, such as adding a Saturday pickup.\n\nBest regards,\nGordon Pyke"
       }
     ],
-    "translation": "差出人:ゴードン・パイク(メリディアン保険)\n宛先:サンドラ・イクバル\n件名:あなたの商業用資産保険——更新について\n日付:6月3日\n\nイクバル様\n\nフェアライト・ベーカリー店舗にかかる商業用資産保険(証券番号CP-77302)は7月1日に更新期を迎えます。その前に補償内容を見直したくご連絡します。\n\n今年は1点変更をお勧めします。3月に追加された設備——業務用オーブン2台——を踏まえると、現在の家財補償限度額8万ドルでは不十分かもしれません。11万ドルへの引き上げをご提案します。これにより年間保険料が240ドル上がります。\n\n建物補償と賠償責任の条件は変わりません。高い家財限度額に同意される場合は、本メールにご返信いただければ証券を更新します。6月24日までにご連絡がない場合は、現行条件のまま更新されます。\n\n洪水補償の追加など、他の選択肢についてお電話でご相談することも可能です。\n\nよろしくお願いいたします。\nゴードン・パイク",
+    "translation": "差出人:ゴードン・パイク(ノースブリッジ運送)\n宛先:サンドラ・イクバル\n件名:あなたの配送契約——年次見直しについて\n日付:6月3日\n\nイクバル様\n\nフェアライト・ベーカリーの配送契約(アカウント番号NF-77302)は7月1日に年次見直しを迎えます。その前にサービス内容を確認したくご連絡します。\n\n今年は1点変更をお勧めします。3月に新たなホテル2社への納品を始められて以降、直近12週のうち9週で週80個の上限を超えており、上限を超えた分は1個ごとに割高な料金で別途請求されています。上限を110個に引き上げることをご提案します。これにより月額が240ドル上がりますが、超過分の追加料金はなくなります。\n\n集荷時間と梱包条件は変わりません。上限の引き上げに同意される場合は、本メールにご返信いただければ契約を変更します。6月24日までにご連絡がない場合は、現在の条件がそのまま続きます。\n\n土曜集荷の追加など、他の選択肢についてお電話でご相談することも可能です。\n\nよろしくお願いいたします。\nゴードン・パイク",
     "questions": [
       {
         "q": "Why did Mr. Pyke write the e-mail?",
         "choices": [
-          "To report a decision on a claim",
+          "To report on a shipment that was lost",
           "To request an overdue payment",
-          "To sell a new type of insurance",
-          "To review coverage ahead of a renewal"
+          "To sell a new packaging product",
+          "To go over a client's service level"
         ],
         "answer": 3,
-        "explanation": "I am writing to review your coverage before that date(更新日の前に補償内容を見直す)が主目的。"
+        "explanation": "I am writing to go over your service level before that date(年次見直しの前にサービス内容を確認する)が主目的。荷物の紛失報告でも支払いの督促でもない。"
       },
       {
         "q": "What change does Mr. Pyke recommend?",
         "choices": [
-          "Lowering the annual premium",
-          "Raising the contents coverage limit",
-          "Switching to a different provider",
-          "Removing the liability coverage"
+          "Lowering the monthly charge",
+          "Raising the weekly parcel allowance",
+          "Switching to a different carrier",
+          "Reducing the number of pickups"
         ],
         "answer": 1,
-        "explanation": "We suggest raising it to $110,000(家財限度額を11万ドルへ引き上げる)が根拠。"
+        "explanation": "We suggest raising the allowance to 110 parcels(週の上限を110個へ引き上げる)が根拠。月額は240ドル『上がる』ので(A)は誤り。"
       },
       {
         "q": "What will happen if Ms. Iqbal does not reply by June 24?",
         "choices": [
-          "Her policy will renew unchanged.",
-          "Her premium will double.",
+          "Her current terms will stay in effect.",
+          "Her monthly charge will double.",
           "A phone call will be scheduled automatically.",
-          "Her policy will be cancelled."
+          "Her account will be closed."
         ],
         "answer": 0,
-        "explanation": "If I do not hear from you by June 24, your policy will renew at the current terms(現行条件のまま更新)が根拠。"
+        "explanation": "If I do not hear from you by June 24, your current terms will stay in effect(6月24日までに連絡がなければ現在の条件がそのまま続く)が根拠。電話は『希望すれば手配する』もので自動ではないので(C)はひっかけ。"
       }
     ]
   },
@@ -364,43 +364,43 @@ window.TOEIC_DATA_4.part7 = [
     "passages": [
       {
         "docType": "Web page",
-        "text": "ORCHARD LANE WHOLESALE\nServing restaurants and grocers across the region with locally grown fruit and vegetables since 1998.\n\nWhy choose us:\n1. Direct from farm — produce picked within 48 hours of delivery\n2. Flexible ordering — order online up to 6 P.M. for next-morning delivery\n3. Seasonal price list updated every Monday\n\nNew accounts: Register online and upload a valid business license. Approved accounts receive a dedicated account manager and access to our full wholesale price list. First-time customers receive free delivery on their opening order.\n\nPlease note: we supply businesses only and do not sell to individual households. A $150 minimum applies to deliveries in outlying areas; there is no minimum within the city."
+        "text": "RIDGEWAY EQUIPMENT RENTALS\nServing builders, warehouses, and event crews across the county since 2004.\n\nWhat we offer:\n1. A fleet of forklifts, scissor lifts, and portable generators, each serviced after every rental\n2. Same-day collection from our depot, or delivery to your site for a flat fee of $35\n3. Daily, weekly, and monthly rates — rent for a full week and pay for only four days\n\nOpening an account: register online and upload a valid business license. Approved account holders may reserve equipment up to three months in advance and receive one itemized statement each month instead of paying for each rental separately.\n\nPlease note: we rent to registered businesses only and cannot rent to private individuals. A refundable deposit is required on every generator rental. Operators are not supplied; customers must provide their own trained staff."
       }
     ],
-    "translation": "オーチャード・レーン卸売\n1998年以来、地元産の果物と野菜で地域のレストラン・食料品店にお応えしています。\n\n選ばれる理由:\n1. 農場直送——配送の48時間以内に収穫した農産物\n2. 柔軟な発注——午後6時までのオンライン注文で翌朝配送\n3. 季節ごとの価格表を毎週月曜に更新\n\n新規アカウント:オンライン登録のうえ、有効な事業許可証をアップロードしてください。承認されたアカウントには専任の担当者が付き、全卸売価格表を閲覧できます。初回のお客様は初回注文の配送が無料です。\n\nご注意:当社は事業者のみを対象とし、個人家庭には販売しません。郊外への配送には150ドルの最低注文額が適用されます。市内には最低額はありません。",
+    "translation": "リッジウェイ機材レンタル\n2004年以来、郡内の建設業者・倉庫・イベント業者にご利用いただいています。\n\nサービス内容:\n1. フォークリフト、シザーリフト、可搬型発電機を保有。いずれもレンタルのたびに整備しています\n2. 当社車庫での即日引き取り、または一律35ドルで現場までお届け\n3. 日極め・週極め・月極めの料金——1週間お借りいただくと4日分の料金で済みます\n\nアカウント開設:オンラインで登録し、有効な事業許可証をアップロードしてください。承認されたアカウント保有者は最大3か月先まで機材を予約でき、レンタルごとのお支払いに代えて毎月1通の明細書を受け取れます。\n\nご注意:登録事業者のみへの貸出で、個人のお客様にはお貸しできません。発電機のレンタルには、返還される保証金が必要です。オペレーターは付きません。訓練を受けた作業員はお客様でご用意ください。",
     "questions": [
       {
-        "q": "What is indicated about Orchard Lane Wholesale?",
+        "q": "What is indicated about Ridgeway Equipment Rentals?",
         "choices": [
-          "It operates several retail stores.",
-          "It was founded last year.",
-          "It sells only to businesses.",
-          "It grows only fruit."
+          "It manufactures its own machines.",
+          "It opened last year.",
+          "It rents only to registered businesses.",
+          "It has three depots in the county."
         ],
         "answer": 2,
-        "explanation": "we supply businesses only and do not sell to individual households(事業者専門、個人家庭には販売しない)が根拠。"
+        "explanation": "we rent to registered businesses only and cannot rent to private individuals(登録事業者のみで個人には貸さない)が根拠。2004年創業なので(B)は誤り。3か月先までの予約を『3か所の車庫』と取り違えないこと。"
       },
       {
-        "q": "What is NOT mentioned as a feature of the service?",
+        "q": "What is NOT mentioned as something the company offers?",
         "choices": [
-          "A weekly price update",
-          "Next-morning delivery",
-          "A dedicated account manager",
-          "Free delivery on every order"
+          "Delivery to a work site",
+          "A monthly itemized statement",
+          "Advance reservations",
+          "Trained operators for the equipment"
         ],
         "answer": 3,
-        "explanation": "NOT問題。翌朝配送・毎週の価格更新・専任担当者は記載あり。配送無料は『初回注文のみ』なので、すべての注文が無料(D)とは述べていない。"
+        "explanation": "NOT問題。現場への配送、月1通の明細書、3か月先までの予約はいずれも記載がある。オペレーターは付かない(Operators are not supplied)と明記されているので、これだけが提供されないもの。"
       },
       {
-        "q": "What must new customers provide to register?",
+        "q": "What is required when a generator is rented?",
         "choices": [
-          "A minimum deposit",
-          "A business license",
-          "A credit reference",
-          "A signed annual contract"
+          "An extra delivery charge",
+          "A refundable deposit",
+          "A monthly contract",
+          "Proof of insurance"
         ],
         "answer": 1,
-        "explanation": "Register online and upload a valid business license(事業許可証をアップロード)が根拠。"
+        "explanation": "A refundable deposit is required on every generator rental(発電機のレンタルには返還される保証金が必要)が根拠。35ドルは発電機に限らず現場配送を頼んだ場合の料金なので(A)はひっかけ。"
       }
     ]
   },
@@ -596,77 +596,77 @@ window.TOEIC_DATA_4.part7 = [
   },
   {
     "id": "s4p7-13",
-    "title": "トリプル 1(注文確認+Eメール+Eメール)",
+    "title": "トリプル 1(作業指示書+Eメール+Eメール)",
     "passages": [
       {
-        "docType": "Order confirmation",
-        "text": "FERROTECH SUPPLY — Order Confirmation #FT-8890\nCustomer: Kestrel Manufacturing\nOrder date: May 3\n\n1. Steel hinges (HG-2) × 500 — $1.20 each — $600\n2. Rubber gaskets (RG-5) × 1,000 — $0.40 each — $400\n3. Brass screws (BS-1) × 2,000 — $0.05 each — $100\nSubtotal — $1,100\nVolume discount (5%) — –$55\nShipping — $45\nTotal — $1,090\n\nDelivery by standard freight, estimated May 12."
+        "docType": "Work order",
+        "text": "HALLORAN INDUSTRIAL SERVICE — Work Order #WO-4412\nCustomer: Pinehurst Cabinet Works\nSite visit: March 18\nMachine: Trestle-9 panel saw (serial TR-2201)\nTechnician: Dana Ruiz\n\nWork performed: replaced a worn drive belt, realigned the blade carriage, and cleaned the dust extraction unit.\nLabor recorded: 6 hours\nParts used:\n1. Drive belt — list price $120\n2. Bearing kit — list price $80\n\nNote: customer holds a Gold service contract, renewed January 4. Invoice to follow."
       },
       {
         "docType": "E-mail 1",
-        "text": "From: Peter Vance, Kestrel Manufacturing\nTo: orders@ferrotech.com\nDate: May 13\n\nHello,\n\nOrder #FT-8890 arrived today. The hinges and screws are correct, but instead of 1,000 rubber gaskets we received only 600. We need the missing 400 gaskets urgently, as our assembly line will run low by Friday.\n\nCould you ship the shortfall right away? Please also advise how the billing will be handled, since we were charged for the full 1,000.\n\nThank you,\nPeter Vance"
+        "text": "From: Colette Ivers, Pinehurst Cabinet Works\nTo: billing@halloranservice.com\nDate: March 19\n\nHello,\n\nThank you for sending Ms. Ruiz out at short notice. The panel saw has run without a single fault since her visit, and we were able to finish an order that was already behind.\n\nBefore your invoice arrives, I would like to understand the charges. Our Gold contract was renewed in January, but I have misplaced the summary of what it covers. Could you explain how the labor hours and the parts listed on work order #WO-4412 will be billed?\n\nOne other thing: our second saw has begun making a similar noise. Would you advise booking a visit for it now, or can it wait until our quiet period in the summer?\n\nRegards,\nColette Ivers"
       },
       {
         "docType": "E-mail 2",
-        "text": "From: Ferrotech Supply\nTo: Peter Vance\nDate: May 13\n\nDear Mr. Vance,\n\nI apologize for the shortage. The remaining 400 gaskets were shipped this afternoon by express courier at our expense and should reach you tomorrow, well before Friday.\n\nYou were indeed billed for 1,000 gaskets. Because the shortage was our error, we will not charge you for the express shipping. In addition, as a goodwill gesture, we are refunding the cost of the 400 gaskets that were delayed. You will still receive all 1,000, but the refund will be applied to your next invoice.\n\nAgain, we are sorry for the disruption.\n\nRegards,\nFerrotech Supply"
+        "text": "From: Halloran Industrial Service\nTo: Colette Ivers\nDate: March 19\n\nDear Ms. Ivers,\n\nI am glad the machine is running well. Here is how your Gold contract works: the first four labor hours of each site visit are included at no charge, and any hours beyond that are billed at $95 per hour. Parts are supplied at 10 percent off the list price, and travel to your site is free.\n\nThe technician recorded six hours on work order #WO-4412, so your invoice will show only the hours above the four that are included, together with the discounted parts.\n\nAs for your second saw, I would arrange a visit soon rather than wait. Our labor rate rises on April 1, and a small fault that spreads to the motor becomes far more expensive to put right.\n\nRegards,\nHalloran Industrial Service"
       }
     ],
-    "translation": "【注文確認】フェロテック・サプライ——注文確認#FT-8890\n顧客:ケストレル製造\n注文日:5月3日\n\n1. スチール蝶番(HG-2)×500——各1.20ドル——600ドル\n2. ゴム製ガスケット(RG-5)×1,000——各0.40ドル——400ドル\n3. 真鍮ネジ(BS-1)×2,000——各0.05ドル——100ドル\n小計——1,100ドル\n数量割引(5%)——−55ドル\n送料——45ドル\n合計——1,090ドル\n\n通常貨物便でのお届け、5月12日着予定。\n\n【Eメール1】(5月13日、ヴァンス→フェロテック)\nこんにちは。注文#FT-8890が本日届きました。蝶番とネジは正しいのですが、ゴム製ガスケットが1,000個のはずが600個しか届いていません。組立ラインが金曜には在庫切れになるので、不足の400個が至急必要です。不足分をすぐ発送していただけますか? また、1,000個分を請求されているので、請求の扱いも教えてください。よろしく、ピーター・ヴァンス。\n\n【Eメール2】(5月13日、フェロテック→ヴァンス)\nヴァンス様、不足のお詫びを申し上げます。残り400個のガスケットは本日午後、当社負担の速達便で発送し、金曜より前の明日には届く見込みです。確かに1,000個分を請求していました。不足は当社のミスのため、速達送料はいただきません。さらにお詫びとして、遅れた400個分の代金を返金します。1,000個はすべてお届けしますが、返金は次回の請求書に反映します。重ねて混乱をお詫びします。フェロテック・サプライ。",
+    "translation": "【作業指示書】ハロラン工業サービス——作業指示書#WO-4412\n顧客:パインハースト・キャビネット工房\n訪問日:3月18日\n機械:トレッスル9型パネルソー(製造番号TR-2201)\n技術者:ダナ・ルイス\n\n実施作業:摩耗した駆動ベルトの交換、ブレードキャリッジの再調整、集塵ユニットの清掃。\n記録した作業時間:6時間\n使用部品:\n1. 駆動ベルト——定価120ドル\n2. ベアリングキット——定価80ドル\n\n備考:顧客はゴールド保守契約(1月4日更新)を保有。請求書は後日送付。\n\n【Eメール1】(3月19日、アイヴァース→ハロラン)\nこんにちは。急なお願いにルイスさんを派遣いただきありがとうございました。訪問以来、パネルソーは一度も不具合なく動いており、遅れていた注文も仕上げられました。請求書が届く前に、料金の内訳を理解しておきたいと思います。ゴールド契約は1月に更新しましたが、契約内容の要約を紛失してしまいました。作業指示書#WO-4412の作業時間と部品がどのように請求されるか、ご説明いただけますか? もう1点、2台目のソーが似た音を出し始めました。今すぐ訪問を予約したほうがよいでしょうか、それとも夏の閑散期まで待てますか? よろしくお願いします。コレット・アイヴァース。\n\n【Eメール2】(3月19日、ハロラン→アイヴァース)\nアイヴァース様、機械が順調とのことで何よりです。ゴールド契約の仕組みは次のとおりです。各訪問の最初の4時間分の作業は無料で含まれ、それを超える時間は1時間95ドルで請求します。部品は定価から10%引きでご提供し、現場までの出張は無料です。作業指示書#WO-4412では技術者が6時間を記録しているので、請求書には含まれる4時間を超えた分と、割引後の部品代のみが載ります。2台目のソーについては、待たずに早めの訪問予約をお勧めします。4月1日から当社の作業料金が上がりますし、小さな不具合がモーターに広がれば、直す費用ははるかに高くつきます。ハロラン工業サービス。",
     "questions": [
       {
-        "q": "What is indicated about Order #FT-8890?",
+        "q": "What is indicated about the March 18 visit?",
         "choices": [
-          "It was paid for in advance.",
-          "It was shipped by air.",
-          "It included an assembly service.",
-          "It qualified for a discount."
+          "Two technicians were sent.",
+          "A replacement machine was delivered.",
+          "It continued over two days.",
+          "The dust extraction unit was cleaned."
         ],
         "answer": 3,
-        "explanation": "注文確認の Volume discount (5%)(数量割引)が根拠。"
+        "explanation": "作業指示書の Work performed に cleaned the dust extraction unit(集塵ユニットの清掃)とある。技術者はダナ・ルイス1名、作業は6時間なので他は誤り。"
       },
       {
-        "q": "What problem does Mr. Vance report?",
+        "q": "What does Ms. Ivers say about the panel saw?",
         "choices": [
-          "Fewer items arrived than were ordered.",
-          "An item was damaged in transit.",
-          "An item arrived in the wrong color.",
-          "The whole order arrived late."
+          "It has worked without trouble since the visit.",
+          "It is due to be replaced next year.",
+          "It is still too noisy to use.",
+          "It was repaired by her own staff."
         ],
         "answer": 0,
-        "explanation": "instead of 1,000 rubber gaskets we received only 600(1,000個のはずが600個)から、注文数より少なく届いたと分かる。"
+        "explanation": "The panel saw has run without a single fault since her visit(訪問以来一度も不具合がない)が根拠。似た音がするのは『2台目』のソーの話なので(C)はひっかけ。"
       },
       {
-        "q": "Which items did Kestrel Manufacturing receive in the correct quantity?",
+        "q": "How many labor hours will appear on the invoice for the March 18 visit?",
         "choices": [
-          "The hinges and screws",
-          "All three items",
-          "The gaskets and screws",
-          "The hinges and gaskets"
+          "None",
+          "Two",
+          "Four",
+          "Six"
         ],
-        "answer": 0,
-        "explanation": "Eメール1の The hinges and screws are correct(蝶番とネジは正しい)が根拠。不足したのはガスケット。"
+        "answer": 1,
+        "explanation": "クロスリファレンス問題。作業指示書の『記録した作業時間6時間』と、Eメール2の『各訪問の最初の4時間は無料で含まれる』を突き合わせる。請求されるのは6−4=2時間分。"
       },
       {
-        "q": "Why will Ferrotech not charge for the express shipping?",
+        "q": "What does Halloran Industrial Service recommend about the second saw?",
         "choices": [
-          "Because the order was very large",
-          "Because the customer is a member",
-          "Because the mistake was the supplier's",
-          "Because shipping is always free"
+          "Replacing it with a newer model",
+          "Having it checked by in-house staff",
+          "Arranging a service visit soon",
+          "Waiting until the summer"
         ],
         "answer": 2,
-        "explanation": "Because the shortage was our error, we will not charge you for the express shipping(不足は当社のミスなので速達送料は請求しない)が根拠。"
+        "explanation": "Eメール2の I would arrange a visit soon rather than wait(待たずに早めに訪問を手配するほうがよい)が根拠。4月1日の値上げと、放置による修理費の増大が理由。"
       },
       {
-        "q": "How much will most likely be refunded to Kestrel Manufacturing?",
+        "q": "How much will Pinehurst Cabinet Works most likely be charged for the March 18 visit?",
         "choices": [
-          "$160",
-          "$240",
-          "$400",
-          "$55"
+          "$370",
+          "$390",
+          "$570",
+          "$180"
         ],
         "answer": 0,
-        "explanation": "クロスリファレンス(計算型)。注文確認のガスケット単価0.40ドルと、Eメール2の『遅れた400個分を返金』を組み合わせ、400×0.40=160ドル。"
+        "explanation": "クロスリファレンス(計算型)。超過分2時間×95ドル=190ドル。部品は定価120+80=200ドルの10%引きで180ドル。出張は無料なので合計370ドル。部品割引を忘れると390ドル、無料の4時間を見落として6時間分を計算すると570ドルになる。"
       }
     ]
   },

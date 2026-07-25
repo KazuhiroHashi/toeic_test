@@ -53,35 +53,35 @@ window.TOEIC_DATA_5.part7 = [
     "passages": [
       {
         "docType": "Advertisement",
-        "text": "GREENHAVEN LANDSCAPE DESIGN — Transform Your Outdoor Space\n\nServing the Riverton area for over fifteen years, Greenhaven creates gardens that are beautiful, low-maintenance, and kind to local wildlife.\n\nOur services:\n1. Design consultation — a landscape designer visits your property and prepares a planting plan\n2. Installation — planting, pathways, raised beds, and irrigation\n3. Seasonal maintenance — pruning, weeding, and mulching on a monthly schedule\n4. Native plant sourcing — plants grown at our own nursery\n\nSpring booking offer (through March 31):\n- Free design consultation (normally $90) with any installation booked before the end of March\n- 10% off native trees and shrubs\n\nPlease note that we do not offer lawn-mowing or snow-removal services. For a quote, call 555-0148 or visit greenhavendesign.com. Consultations fill quickly in spring, so book early."
+        "text": "CLEARWAVE OFFICE CLEANING — A Workplace That Shines\n\nHaving served the Riverton business district for over fifteen years, Clearwave keeps offices clean, healthy, and ready for visitors.\n\nOur services:\n1. Site assessment — a supervisor visits your workplace and prepares a cleaning plan\n2. Nightly cleaning — desks, floors, kitchens, and washrooms\n3. Deep cleaning — carpet shampooing and interior window washing on a monthly schedule\n4. Supply restocking — paper goods and hand soap delivered from our own warehouse\n\nSpring contract offer (through March 31):\n- Free site assessment (normally $90) with any contract signed before the end of March\n- 10% off deep-cleaning add-ons\n\nPlease note that we do not offer snow removal or pest-control services. For a quote, call 555-0148 or visit clearwaveclean.com. Assessment appointments fill quickly in spring, so book early."
       }
     ],
-    "translation": "グリーンヘイヴン・ランドスケープデザイン——あなたの屋外空間を一新\n\nリバートン地域で15年以上営業しているグリーンヘイヴンは、美しく、手入れが楽で、地元の生き物にやさしい庭を作ります。\n\nサービス:\n1. デザイン相談——造園デザイナーがご自宅を訪問し植栽プランを作成\n2. 施工——植栽、通路、レイズドベッド、灌漑\n3. 季節の手入れ——毎月の剪定・除草・マルチング\n4. 在来植物の調達——自社の苗床で育てた植物\n\n春の予約特典(3月31日まで):\n- 3月末までに施工を予約すると、デザイン相談が無料(通常90ドル)\n- 在来の樹木・低木が10%オフ\n\nなお、芝刈りや除雪のサービスは行っておりません。お見積もりは 555-0148 まで、または greenhavendesign.com へ。相談枠は春に早く埋まりますので、お早めにご予約を。",
+    "translation": "クリアウェーブ・オフィスクリーニング——輝く職場を\n\nリバートンのビジネス街で15年以上営業してきたクリアウェーブは、オフィスを清潔で衛生的に保ち、いつでも来客を迎えられる状態にします。\n\nサービス:\n1. 現地調査——責任者が職場を訪問し清掃プランを作成\n2. 夜間清掃——デスク、床、給湯室、洗面所\n3. 徹底清掃——毎月のカーペット洗浄と屋内の窓拭き\n4. 備品補充——紙製品とハンドソープを自社倉庫から配送\n\n春の契約特典(3月31日まで):\n- 3月末までに契約すると現地調査が無料(通常90ドル)\n- 徹底清掃の追加オプションが10%オフ\n\nなお、除雪や害虫駆除のサービスは行っておりません。お見積もりは 555-0148 まで、または clearwaveclean.com へ。現地調査のご予約は春に早く埋まりますので、お早めに。",
     "questions": [
       {
         "q": "For whom is the advertisement most likely intended?",
         "choices": [
-          "Gardeners looking for employment",
-          "Plant nursery suppliers",
-          "Farmers buying equipment",
-          "Homeowners wanting to improve their gardens"
+          "Cleaners looking for employment",
+          "Suppliers of cleaning equipment",
+          "Homeowners seeking house cleaning",
+          "Businesses wanting their offices cleaned"
         ],
         "answer": 3,
-        "explanation": "『Transform Your Outdoor Space』や施工・手入れサービスの内容から、自宅の庭をよくしたい住宅所有者向けの広告と分かる。"
+        "explanation": "『A Workplace That Shines』、ビジネス街での営業、オフィスの夜間清掃や備品補充という内容から、職場の清掃を任せたい企業向けの広告と分かる。求人でも住宅向けでもない。"
       },
       {
-        "q": "What service does Greenhaven NOT offer?",
+        "q": "What service does Clearwave NOT offer?",
         "choices": [
-          "Lawn-mowing",
-          "Plant installation",
-          "Seasonal pruning",
-          "Design consultation"
+          "Snow removal",
+          "Nightly floor cleaning",
+          "Monthly carpet shampooing",
+          "Site assessment"
         ],
         "answer": 0,
-        "explanation": "NOT問題。『we do not offer lawn-mowing or snow-removal services(芝刈りと除雪はしない)』が根拠。相談・剪定・施工はサービスに含まれる。"
+        "explanation": "NOT問題。『we do not offer snow removal or pest-control services(除雪と害虫駆除はしない)』が根拠。夜間の床清掃・毎月のカーペット洗浄・現地調査はサービスに含まれる。"
       },
       {
-        "q": "What is indicated about spring consultations?",
+        "q": "What is indicated about spring site assessments?",
         "choices": [
           "They include snow removal.",
           "They are available all year.",
@@ -89,7 +89,7 @@ window.TOEIC_DATA_5.part7 = [
           "They cost $90 in every case."
         ],
         "answer": 2,
-        "explanation": "『Consultations fill quickly in spring, so book early(春は早く埋まる)』が根拠。施工予約と組めば無料なので(D)の『必ず90ドル』は誤り。"
+        "explanation": "『Assessment appointments fill quickly in spring, so book early(春は早く埋まる)』が根拠。3月末までの契約と組めば無料なので(D)の『必ず90ドル』は誤り。"
       }
     ]
   },
@@ -272,43 +272,43 @@ window.TOEIC_DATA_5.part7 = [
     "passages": [
       {
         "docType": "E-mail",
-        "text": "From: Sabine Reyes, Willowlight Photography\nTo: Marcus Deng\nSubject: Your family portrait session — details\nDate: October 2\n\nDear Mr. Deng,\n\nThank you for booking a family portrait session for Saturday, October 18, at 4 P.M. I chose that time because the soft evening light at Corliss Park is ideal for outdoor portraits.\n\nA few tips to help the session go smoothly:\n1. Coordinated colors photograph better than matching outfits — think of a single palette rather than identical shirts.\n2. Please arrive about ten minutes early so the children can get comfortable before we begin.\n3. If it rains, we will move the session indoors to my studio on Barrow Street; I will text you by noon that day to confirm the location.\n\nYour package includes one hour of shooting and 30 edited digital images, delivered within two weeks. Printed products can be ordered separately from your online gallery.\n\nLooking forward to it,\nSabine Reyes"
+        "text": "From: Sabine Reyes, Willowlight Catering\nTo: Marcus Deng\nSubject: Your office anniversary lunch — details\nDate: October 2\n\nDear Mr. Deng,\n\nThank you for booking our catering service for your office anniversary lunch on Saturday, October 18, at 12 P.M. Our team will arrive at 10:30 A.M. so that everything is ready before your guests sit down.\n\nA few tips to help the event run smoothly:\n1. For a group of your size, a shared buffet works better than individually plated meals — guests move through the line quickly and can choose their own portions.\n2. Please confirm the final number of guests by October 11 so that we can adjust quantities.\n3. If it rains, we will set up indoors in your main meeting room instead of the courtyard; I will call you by 10 A.M. that day to confirm.\n\nYour package includes a hot buffet for thirty guests and two servers for three hours. Additional desserts can be ordered separately from our online menu.\n\nLooking forward to it,\nSabine Reyes"
       }
     ],
-    "translation": "差出人:サビーヌ・レイエス(ウィローライト・フォトグラフィー)\n宛先:マーカス・デン\n件名:家族ポートレート撮影の詳細\n日付:10月2日\n\nデン様\n\n10月18日(土)午後4時の家族ポートレート撮影のご予約ありがとうございます。コーリス公園の夕方の柔らかな光は屋外ポートレートに最適なので、その時間を選びました。\n\n撮影を円滑に進めるためのコツをいくつか。\n1. 揃いの服より、色を合わせるほうがきれいに写ります——同じシャツより一つの色調でまとめることを意識してください。\n2. 撮影前にお子様が慣れられるよう、10分ほど早めにお越しください。\n3. 雨の場合は、バロー通りの私のスタジオへ室内で移して行います。当日正午までに場所を確認するメッセージをお送りします。\n\nプランには1時間の撮影と編集済みデジタル写真30枚が含まれ、2週間以内にお渡しします。プリント商品はオンラインギャラリーから別途ご注文いただけます。\n\nどうぞよろしく。\nサビーヌ・レイエス",
+    "translation": "差出人:サビーヌ・レイエス(ウィローライト・ケータリング)\n宛先:マーカス・デン\n件名:社内創立記念ランチの詳細\n日付:10月2日\n\nデン様\n\n10月18日(土)正午の社内創立記念ランチのケータリングをご予約いただきありがとうございます。ご列席の皆さまが席に着く前に準備が整うよう、当社のチームは午前10時30分に伺います。\n\n当日を円滑に進めるためのコツをいくつか。\n1. この規模の人数なら、一人ずつ盛り付ける形式より取り分け式のビュッフェのほうが向いています——列が早く進み、量も各自で選べます。\n2. 数量を調整いたしますので、最終の人数を10月11日までにご確認ください。\n3. 雨の場合は、中庭ではなくメインの会議室に室内で設営します。当日午前10時までにお電話で確認します。\n\nプランには30名分の温かいビュッフェと、3時間のサーバー2名が含まれます。デザートの追加はオンラインメニューから別途ご注文いただけます。\n\nどうぞよろしく。\nサビーヌ・レイエス",
     "questions": [
       {
         "q": "Why did Ms. Reyes send the e-mail?",
         "choices": [
           "To reschedule a booking",
-          "To provide details about an upcoming session",
+          "To provide details about an upcoming event",
           "To request advance payment",
           "To promote a seasonal discount"
         ],
         "answer": 1,
-        "explanation": "予約済みの撮影について時間の理由・当日のコツ・雨天対応など詳細を伝えている。案内・詳細提供が目的。"
+        "explanation": "予約済みのランチについて、到着時刻・当日のコツ・雨天時の対応など詳細を伝えている。案内・詳細提供が目的。"
       },
       {
         "q": "What does Ms. Reyes recommend?",
         "choices": [
-          "Wearing identical shirts",
-          "Choosing a single color palette",
-          "Bringing printed photos",
-          "Arriving after the start time"
+          "Serving individually plated meals",
+          "Setting out a shared buffet",
+          "Ordering extra desserts",
+          "Inviting fewer guests"
         ],
         "answer": 1,
-        "explanation": "『think of a single palette rather than identical shirts(同じシャツより一つの色調で)』が根拠。identical shirts はひっかけ。"
+        "explanation": "『a shared buffet works better than individually plated meals(一人ずつ盛り付けるより取り分け式のビュッフェが向く)』が根拠。plated meals はひっかけ。"
       },
       {
         "q": "What will happen if it rains?",
         "choices": [
-          "The session will be cancelled.",
+          "The lunch will be cancelled.",
           "The fee will be refunded.",
-          "The session will be held on Sunday.",
-          "The session will move to a studio."
+          "The lunch will be held on Sunday.",
+          "The lunch will move indoors."
         ],
         "answer": 3,
-        "explanation": "『If it rains, we will move the session indoors to my studio(雨ならスタジオへ室内で移す)』が根拠。中止や延期ではない。"
+        "explanation": "『If it rains, we will set up indoors in your main meeting room(雨ならメインの会議室に室内で設営)』が根拠。中止や延期ではない。"
       }
     ]
   },
@@ -410,43 +410,43 @@ window.TOEIC_DATA_5.part7 = [
     "passages": [
       {
         "docType": "Memo",
-        "text": "MEMO\nTo: All Faculty, School of Design\nFrom: Dr. Colleen Marsh, Associate Dean\nDate: August 25\nRe: Fall teaching-skills workshops\n\nThe center for teaching excellence will run four optional workshops this fall to help faculty refine their courses. All sessions are held in the Rowan Building, Room 210, from 3 to 5 P.M.\n\n1. September 9 — Writing clear assignment rubrics\n2. September 23 — Using classroom polling tools\n3. October 7 — Giving effective feedback on student work\n4. October 21 — Inclusive teaching practices\n\nFaculty who attend at least three of the four workshops will have a note added to their annual teaching record, which is considered during promotion review. Light refreshments will be served. Space is limited to 25 per session, so please reserve through the faculty portal.\n\nPlease note that these workshops replace the individual teaching consultations previously offered in the fall; those consultations will resume in the spring."
+        "text": "MEMO\nTo: All Staff, Claims Division\nFrom: Rashid Okonjo, IT Operations Manager\nDate: August 25\nRe: Move to the Orbit claims system\n\nOur division will switch from the Delta claims database to the new Orbit system over the weekend of September 12. Delta will become read-only at 5 P.M. on Friday, September 11, and Orbit will open on Monday, September 14.\n\nWhat the move changes:\n1. Claim files can be searched by customer name as well as by claim number\n2. Scanned documents can be attached directly to a claim record\n3. Weekly reports are generated automatically on Monday mornings\n4. Sign-in uses your existing staff ID and password\n\nPlease export any personal spreadsheets you keep in Delta before September 11, as these will not be transferred automatically. A drop-in help desk will be staffed in Room 210 from 9 A.M. to 4 P.M. during the first week.\n\nPlease note that the paper claim forms used for walk-in customers are not affected by this change; those procedures remain the same."
       }
     ],
-    "translation": "メモ\n宛先:デザイン学部 全教員\n差出人:コリーン・マーシュ博士(副学部長)\n日付:8月25日\n件名:秋の授業スキル・ワークショップ\n\n教育向上センターが、教員の授業改善を助けるため、この秋に任意参加のワークショップを4回開催します。全セッションはローワン館210号室、午後3時〜5時です。\n\n1. 9月9日——分かりやすい課題ルーブリックの作成\n2. 9月23日——授業内投票ツールの活用\n3. 10月7日——学生の成果への効果的なフィードバック\n4. 10月21日——インクルーシブな教育実践\n\n4回中3回以上に出席した教員は、年次教育記録に記載が加わり、昇進審査で考慮されます。軽食を用意します。各回定員25名のため、教員ポータルからご予約ください。\n\nなお、これらのワークショップは、これまで秋に行っていた個別授業相談の代わりです。個別相談は春に再開します。",
+    "translation": "メモ\n宛先:請求部門 全職員\n差出人:ラシード・オコンジョ(IT運用マネージャー)\n日付:8月25日\n件名:請求システム『オービット』への移行\n\n当部門は9月12日の週末に、これまでのデルタ請求データベースから新しいオービットへ切り替えます。デルタは9月11日(金)午後5時から閲覧のみとなり、オービットは9月14日(月)から使えます。\n\n移行で変わる点:\n1. 請求ファイルを請求番号だけでなく顧客名でも検索できる\n2. スキャンした書類を請求記録に直接添付できる\n3. 週次レポートが毎週月曜の朝に自動生成される\n4. ログインは既存の職員IDとパスワードをそのまま使う\n\nデルタに保存している個人用の表計算ファイルは自動では移行されませんので、9月11日までに書き出してください。最初の1週間は、210号室で午前9時〜午後4時に予約不要のヘルプデスクを開設します。\n\nなお、来店客向けの紙の請求書類はこの変更の影響を受けず、手順はこれまでどおりです。",
     "questions": [
       {
         "q": "What is the purpose of the memo?",
         "choices": [
-          "To change the academic calendar",
-          "To require attendance at a conference",
-          "To announce optional teaching workshops",
-          "To introduce a new dean"
+          "To change a payment deadline",
+          "To request feedback on a report",
+          "To inform staff about a system change",
+          "To introduce a new manager"
         ],
         "answer": 2,
-        "explanation": "『will run four optional workshops this fall(任意のワークショップを4回開催)』が主題。任意なので(B)『出席必須の会議』は誤り。"
+        "explanation": "『Our division will switch from the Delta claims database to the new Orbit system(請求データベースを新システムに切り替える)』が主題。移行の日程と影響を職員に知らせるメモ。"
       },
       {
-        "q": "According to the memo, what is NOT one of the listed session topics?",
+        "q": "According to the memo, what is NOT one of the listed changes?",
         "choices": [
-          "Inclusive teaching practices",
-          "Using classroom polling tools",
-          "Grading final examinations",
-          "Writing assignment rubrics"
+          "Automatic weekly reports",
+          "Searching by customer name",
+          "Access from mobile phones",
+          "Attaching scanned documents"
         ],
         "answer": 2,
-        "explanation": "NOT問題。一覧はルーブリック作成・投票ツール・フィードバック・インクルーシブ実践の4つ。『期末試験の採点』は含まれない。"
+        "explanation": "NOT問題。一覧は顧客名での検索・書類の添付・週次レポートの自動生成・既存IDでのログインの4つ。携帯電話からの利用には触れていない。"
       },
       {
-        "q": "What is indicated about the fall teaching consultations?",
+        "q": "What is indicated about the paper claim forms?",
         "choices": [
-          "They are open to students.",
-          "They will not be offered this fall.",
-          "They cost an extra fee.",
-          "They are held every week."
+          "They will be scanned by the IT team.",
+          "Their procedures will stay the same.",
+          "They will be sent to Room 210.",
+          "They will no longer be used."
         ],
         "answer": 1,
-        "explanation": "『these workshops replace the individual teaching consultations ... those will resume in the spring(相談は代替され、春に再開)』から、この秋は行われないと分かる。"
+        "explanation": "『the paper claim forms ... are not affected by this change; those procedures remain the same(手順はこれまでどおり)』が根拠。廃止も送付先の変更も述べられていない。"
       }
     ]
   },
@@ -752,18 +752,18 @@ window.TOEIC_DATA_5.part7 = [
     "passages": [
       {
         "docType": "Schedule",
-        "text": "LINDEN VALLEY HEALTH CENTER — Community Wellness Workshops (Autumn)\nHeld in the Center's Education Room. Register at lindenvalley.org/workshops.\n\n1. Sept 6 — Healthy Cooking on a Budget — 10:00–11:30 A.M. — $15\n2. Sept 13 — Managing Stress — 6:00–7:30 P.M. — $15\n3. Sept 20 — Beginner's Yoga (bring a mat) — 10:00–11:30 A.M. — $20\n4. Sept 27 — Understanding Nutrition Labels — 6:00–7:30 P.M. — $15\n\nPatients registered with Linden Valley receive 20% off each workshop. Spaces are limited to 15 per session. A light healthy snack is provided at every workshop except the yoga session."
+        "text": "LINDEN VALLEY HEALTH CENTER — Community Wellness Workshops (Autumn)\nHeld in the Education Room at our Main Street site. Register at lindenvalley.org/workshops.\n\n1. Sept 6 — Healthy Cooking on a Budget — 10:00–11:30 A.M. — $15\n2. Sept 13 — Managing Stress — 6:00–7:30 P.M. — $15\n3. Sept 20 — Beginner's Yoga (bring a mat) — 10:00–11:30 A.M. — $20\n4. Sept 27 — Understanding Nutrition Labels — 6:00–7:30 P.M. — $15\n\nEarly-registration rate: register on or before August 25 and pay $5 less for each workshop. Spaces are limited to 15 per session. A light healthy snack is provided at every workshop except the yoga session."
       },
       {
         "docType": "E-mail 1",
-        "text": "From: Gordon Aslam\nTo: workshops@lindenvalley.org\nSubject: Autumn workshops\nDate: August 22\n\nHello,\n\nI'd like to sign up for the stress-management and nutrition-label workshops, both in the evening, which suit my work schedule. I'm a registered patient at Linden Valley, so I believe the discount applies to me.\n\nI'd also love to try the yoga session, but I work mornings on weekdays — is there any chance it will be repeated in the evening later in the season? Finally, do I need to bring anything to the two evening sessions?\n\nThank you,\nGordon Aslam"
+        "text": "From: Gordon Aslam\nTo: workshops@lindenvalley.org\nSubject: Autumn workshops\nDate: August 22\n\nHello,\n\nI'd like to sign up for the stress-management and nutrition-label workshops, both in the evening, which suit my work schedule. I am sending this well before the cut-off date, so I assume the reduced rate applies to my registration.\n\nI'd also love to try the yoga session, but I work mornings on weekdays — is that workshop held anywhere else in the area? Finally, do I need to bring anything to the two evening sessions?\n\nThank you,\nGordon Aslam"
       },
       {
         "docType": "E-mail 2",
-        "text": "From: Nadia Fenn, Linden Valley Health Center\nTo: Gordon Aslam\nDate: August 23\n\nDear Mr. Aslam,\n\nThank you for registering. As a Linden Valley patient, your 20% discount applies to both evening workshops, so your total comes to $24.\n\nUnfortunately, the yoga session is offered only on the date listed this autumn, but we plan to add an evening yoga workshop to our winter series — I'll add you to our reminder list. For the two sessions you've booked, you don't need to bring anything; a healthy snack and all materials are provided.\n\nWe look forward to seeing you on September 13.\n\nWarm regards,\nNadia Fenn"
+        "text": "From: Nadia Fenn, Linden Valley Health Center\nTo: Gordon Aslam\nDate: August 23\n\nDear Mr. Aslam,\n\nThank you for registering. Your e-mail reached us before the cut-off date, so the reduced rate applies to each of the two evening workshops you selected. I will send the invoice by e-mail once your place is confirmed.\n\nThe yoga workshop is not repeated at our Main Street site this autumn, but the same beginner's class runs at our Ridgeway branch on Saturday, September 23, at 10 A.M. Let me know if you would like your name moved to that session.\n\nFor the two sessions you have booked, there is no need to bring anything — pens, handouts, and sample food packaging are all supplied.\n\nWe look forward to seeing you on September 13.\n\nWarm regards,\nNadia Fenn"
       }
     ],
-    "translation": "【講座一覧】リンデンバレー・ヘルスセンター——地域ウェルネス・ワークショップ(秋)\nセンターの研修室で開催。申込は lindenvalley.org/workshops。\n1. 9月6日——予算内で健康的な料理——午前10:00〜11:30——15ドル\n2. 9月13日——ストレス対処——午後6:00〜7:30——15ドル\n3. 9月20日——初心者ヨガ(マット持参)——午前10:00〜11:30——20ドル\n4. 9月27日——栄養表示の読み方——午後6:00〜7:30——15ドル\n\nリンデンバレーに登録済みの患者は各ワークショップ20%オフ。各回定員15名。ヨガ以外のすべての回で軽い健康的な軽食を提供します。\n\n【Eメール1】(8月22日、アスラム→ワークショップ係)\nストレス対処と栄養表示の2つの、どちらも夜のワークショップに申し込みたいです。仕事の都合に合うので。リンデンバレーの登録患者なので、割引が適用されると思います。ヨガもぜひ試したいのですが、平日は午前中に仕事があります——シーズン後半に夜に再度開催される可能性はありますか? 最後に、夜の2つのセッションに何か持って行く必要はありますか?\n\n【Eメール2】(8月23日、フェン→アスラム)\nご登録ありがとうございます。リンデンバレーの患者として、20%割引が夜の2つのワークショップに適用され、合計は24ドルです。あいにくヨガは今秋は記載の日のみですが、冬のシリーズに夜のヨガを加える予定です——リマインドリストに追加しておきます。ご予約の2回については、何もお持ちいただく必要はありません。軽食と必要な材料はすべてご用意します。9月13日にお会いできるのを楽しみにしています。",
+    "translation": "【講座一覧】リンデンバレー・ヘルスセンター——地域ウェルネス・ワークショップ(秋)\nメインストリート施設の研修室で開催。申込は lindenvalley.org/workshops。\n1. 9月6日——予算内で健康的な料理——午前10:00〜11:30——15ドル\n2. 9月13日——ストレス対処——午後6:00〜7:30——15ドル\n3. 9月20日——初心者ヨガ(マット持参)——午前10:00〜11:30——20ドル\n4. 9月27日——栄養表示の読み方——午後6:00〜7:30——15ドル\n\n早期申込料金:8月25日までに申し込むと各ワークショップが5ドル引き。各回定員15名。ヨガ以外のすべての回で軽い健康的な軽食を提供します。\n\n【Eメール1】(8月22日、アスラム→ワークショップ係)\nストレス対処と栄養表示の2つの、どちらも夜のワークショップに申し込みたいです。仕事の都合に合うので。締切よりかなり前に送っているので、割引後の料金が適用されると思います。ヨガもぜひ試したいのですが、平日は午前中に仕事があります——あの講座はこの地域の他の場所でも開かれていますか? 最後に、夜の2つのセッションに何か持って行く必要はありますか?\n\n【Eメール2】(8月23日、フェン→アスラム)\nご登録ありがとうございます。締切前にメールが届きましたので、お選びの夜の2つのワークショップそれぞれに割引後の料金が適用されます。お席が確定しましたら請求書をメールでお送りします。ヨガは今秋メインストリート施設では再度開催しませんが、同じ初心者向けの回をリッジウェイ分院で9月23日(土)午前10時に開催します。そちらへお名前を移すご希望があればお知らせください。ご予約の2回については何もお持ちいただく必要はありません——ペン、配布資料、見本の食品パッケージはすべてご用意します。9月13日にお会いできるのを楽しみにしています。",
     "questions": [
       {
         "q": "What is provided at most of the workshops?",
