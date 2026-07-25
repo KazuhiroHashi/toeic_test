@@ -88,8 +88,9 @@ var PART_START = { part1: 1, part2: 7, part3: 32, part4: 71 };
 
 // 記号は「A.」のようにピリオドを付け、説明文とは別クリップにして一度切る。
 // 続けて読ませると記号の A が冠詞の a に潰れて「ア」に聞こえるため。
-// mp3 の前後には元々無音の余白があるので、指定する間隔は短くてよい。
-var LETTER_GAP = 150;
+// mp3 の前後には元々無音の余白が入っているため、ここは 0 でよい
+// (0 にしても、その余白のぶんだけ自然な間が残る)。
+var LETTER_GAP = 0;
 function letterText(i) { return LETTERS[i] + "."; }
 var clips = [];       // {file, text, voice}
 var manifest = {};    // "s1:taskid" -> [{f, g}, ...]
@@ -113,7 +114,7 @@ SET_SOURCES.forEach(function (SRC) {
         if (NARRATOR_PITCH) clip.pitch = NARRATOR_PITCH;
       }
       clips.push(clip);
-      files.push({ f: file, g: ln.gapAfter || 600 });
+      files.push({ f: file, g: ln.gapAfter == null ? 600 : ln.gapAfter });
     });
     manifest[SETID + ":" + taskid] = files;
   }

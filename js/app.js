@@ -300,7 +300,8 @@
           units.push({ speaker: line.speaker || "M", text: s, gap: 150 });
         });
         // 行末の間(ま): 指定があればそれを使う(設問読み上げ後の8秒ポーズ等)
-        if (units.length) units[units.length - 1].gap = line.gapAfter || 650;
+        // gapAfter が 0 のときも 0 として扱う(|| だと既定値に化けるため)
+        if (units.length) units[units.length - 1].gap = line.gapAfter == null ? 650 : line.gapAfter;
       });
 
       // デスクトップChromeが長い再生を自動一時停止する問題への対策
@@ -349,7 +350,7 @@
       var token = ++this.token;
       var items = clips.map(function (c) {
         var url = typeof c === "string" ? c : c.f;
-        var gap = typeof c === "string" ? 400 : (c.g || 400);
+        var gap = typeof c === "string" ? 400 : (c.g == null ? 400 : c.g);
         var a = new Audio(url);
         a.preload = "auto";
         return { a: a, gap: gap };
@@ -401,8 +402,8 @@
 
   // 記号(A.〜D.)は説明文と別の発話にして、そこで一度切る。
   // 続けて読ませると記号の A が冠詞の a に潰れて「ア」に聞こえるため。
-  // 音声ファイルの前後には元々無音の余白があるので、指定する間隔は短くてよい。
-  var LETTER_GAP = 150;
+  // 音声ファイルの前後には元々無音の余白があるので、ここは 0 でよい。
+  var LETTER_GAP = 0;
   function letterText(i) { return LETTERS[i] + "."; }
 
   function tasksPart1(items) {
