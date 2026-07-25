@@ -19,10 +19,15 @@ ffmpeg が無い場合:
 """
 import concurrent.futures
 import json
+import os
 import shutil
 import subprocess
 import sys
 from pathlib import Path
+
+# 別の場所の ffmpeg を使いたいときは環境変数で指定できる
+#   FFMPEG=/opt/homebrew/bin/ffmpeg python3 tools/trim_silence.py
+FFMPEG = os.environ.get("FFMPEG") or shutil.which("ffmpeg")
 
 ROOT = Path(__file__).resolve().parent.parent
 AUDIO = ROOT / "assets" / "audio"
@@ -47,10 +52,37 @@ def targets(all_parts: bool) -> list:
     return [f for f in files if "p1-" in f.parent.name or "p2-" in f.parent.name]
 
 
+def preflight() -> None:
+    """ffmpeg が実際に動くかを先に1回だけ確かめる。
+    壊れた ffmpeg(依存ライブラリ欠落など)で全ファイル失敗するのを防ぐ。"""
+    if not FFMPEG:
+        print("ffmpeg が見つかりません。下のどちらかを実行してください:")
+        print("  brew install ffmpeg")
+        print("  conda install -c conda-forge ffmpeg -y")
+        sys.exit(1)
+    try:
+        r = subprocess.run([FFMPEG, "-version"], capture_output=True, timeout=30)
+    except Exception as e:  # noqa: BLE001
+        print(f"ffmpeg を実行できませんでした: {e}")
+        sys.exit(1)
+    if r.returncode != 0:
+        msg = r.stderr.decode("utf-8", "ignore").strip()
+        print(f"ffmpeg({FFMPEG})が壊れています。エラー:")
+        print("  " + msg.splitlines()[0] if msg else "  (詳細不明)")
+        print("")
+        print("対処(どちらか):")
+        print("  1) Homebrew の ffmpeg を使う")
+        print("     brew install ffmpeg")
+        print("     FFMPEG=$(brew --prefix)/bin/ffmpeg python3 tools/trim_silence.py")
+        print("  2) conda の ffmpeg を入れ直す")
+        print("     conda install -c conda-forge ffmpeg freetype --force-reinstall -y")
+        sys.exit(1)
+
+
 def trim(path: Path) -> tuple:
     tmp = path.with_suffix(".trim.mp3")
     before = path.stat().st_size
-    cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", str(path),
+    cmd = [FFMPEG, "-y", "-loglevel", "error", "-i", str(path),
            "-af", FILTER, "-codec:a", "libmp3lame", "-q:a", "4", str(tmp)]
     try:
         subprocess.run(cmd, check=True, capture_output=True)
@@ -66,11 +98,7 @@ def trim(path: Path) -> tuple:
 
 
 def main() -> None:
-    if shutil.which("ffmpeg") is None:
-        print("ffmpeg が見つかりません。先にどちらかを実行してください:")
-        print("  conda install -c conda-forge ffmpeg")
-        print("  brew install ffmpeg")
-        sys.exit(1)
+    preflight()
 
     all_parts = "--all" in sys.argv
     dry = "--dry-run" in sys.argv
@@ -94,17 +122,30 @@ def main() -> None:
         return
 
     saved = done = fail = 0
+    aborted = False
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as ex:
         for path, diff, err in ex.map(trim, todo):
             done += 1
             if err:
                 fail += 1
-                print(f"\n  失敗: {path.relative_to(ROOT)} ({err})")
+                if fail <= 3:
+                    print(f"\n  失敗: {path.relative_to(ROOT)} ({err})")
+                # 立て続けに失敗するのは環境の問題。全件試しても無駄なので止める
+                if fail >= 10 and saved == 0:
+                    aborted = True
+                    break
             else:
                 saved += diff
                 state[path.relative_to(ROOT).as_posix()] = "trimmed"
             print(f"\r  {done}/{len(todo)}  削減 {saved // 1024} KB  失敗 {fail}", end="")
     print()
+    if aborted:
+        STATE.write_text(json.dumps(state, ensure_ascii=False, indent=0), encoding="utf-8")
+        print("連続で失敗したため中止しました。ffmpeg の環境に問題があります。")
+        print("音声ファイルは書き換えていないので、そのままで安全です。")
+        print("対処: brew install ffmpeg のうえ")
+        print("      FFMPEG=$(brew --prefix)/bin/ffmpeg python3 tools/trim_silence.py")
+        sys.exit(1)
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=0), encoding="utf-8")
     print("完了。アプリで聞いて確認してから、次でコミットしてください:")
     print("  git add -A && git commit -m '音声の前後の無音を除去' && git push origin main")

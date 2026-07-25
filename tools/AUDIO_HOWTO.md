@@ -266,6 +266,13 @@ python3 tools/trim_silence.py             # Part 1・2 だけ刈り取る(安全
 
 全パートを詰めたい場合は `--all` を付けます。ただし会話の行間も詰まるので、まずは既定(Part 1・2 のみ)で聞いてから判断してください。
 
-- ffmpeg が無い場合:`conda install -c conda-forge ffmpeg` または `brew install ffmpeg`
+- ffmpeg が無い場合:`brew install ffmpeg`(推奨)または `conda install -c conda-forge ffmpeg -y`
+- Anaconda の ffmpeg は `Library not loaded: libfreetype.6.dylib` で壊れていることがあります。その場合は Homebrew 版を指定して実行してください:
+
+```bash
+brew install ffmpeg
+FFMPEG=$(brew --prefix)/bin/ffmpeg python3 tools/trim_silence.py
+```
+
 - 一度処理したファイルは記録され、二重に刈り取られません
 - 元に戻したいときは、対象の mp3 を削除して `python3 tools/generate_audio.py` を実行し直します
