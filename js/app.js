@@ -259,13 +259,25 @@
       if (m2 === m && males.length > 1) m2 = males[(males.indexOf(m) + 1) % males.length];
       if (w2 === w && females.length > 1) w2 = females[(females.indexOf(w) + 1) % females.length];
       var noRealPair = !males.length || !females.length; // 男女どちらかの声が無い
+
+      // ナレーター(問題番号・導入文・設問読み上げ)は必ず女性にする。
+      // 録音音声側も女性(en-US-MichelleNeural)なので、どちらで再生しても印象を揃える。
+      // 会話に出てくる女性(W)とは別の声を選び、同じ人に聞こえないようにする。
+      var n = pickFrom(females, seed + 2) || w || fallback;
+      if (females.length > 1 && (n === w || n === w2)) {
+        for (var fi = 0; fi < females.length; fi++) {
+          if (females[fi] !== w && females[fi] !== w2) { n = females[fi]; break; }
+        }
+      }
+
       return {
         // 男性の声はこもって聞こえやすいため、やや高め(pitch 1.1)に設定
         M: { voice: m, pitch: noRealPair ? 0.75 : 1.1, rate: 0.95 },
         M2: { voice: m2, pitch: m2 === m ? 0.9 : 1.1, rate: 0.95 },
         W: { voice: w, pitch: noRealPair ? 1.4 : 1.05, rate: 0.95 },
         W2: { voice: w2, pitch: w2 === w ? 1.35 : 1.05, rate: 0.95 },
-        N: { voice: pickFrom(males, seed + 2) || m, pitch: noRealPair ? 0.85 : 1.05, rate: 0.9 }
+        // 進行役と分かるよう、少し低め・ゆっくりにする
+        N: { voice: n, pitch: n === w ? 0.9 : 0.98, rate: 0.9 }
       };
     },
 
