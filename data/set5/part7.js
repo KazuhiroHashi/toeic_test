@@ -145,10 +145,10 @@ window.TOEIC_DATA_5.part7 = [
     "passages": [
       {
         "docType": "Notice",
-        "text": "CITY OF ELMWOOD — CHANGES TO CURBSIDE RECYCLING\n\nStarting Monday, April 6, the city will move from weekly to biweekly recycling collection. Your new collection day depends on your zone:\n- Zones A and B: first and third Wednesday of each month\n- Zones C and D: second and fourth Wednesday of each month\n\nTo find your zone, enter your address at elmwood.gov/recycling.\n\nAlong with the schedule change, glass bottles must now be separated from paper and plastic. The city will deliver a second blue bin to every household by April 3 at no cost. Place glass in the smaller bin and all other recyclables in your existing bin.\n\nCollection still begins at 7 A.M., so please set your bins out the night before."
+        "text": "CITY OF ELMWOOD — CHANGES TO CURBSIDE RECYCLING\n\nStarting Monday, April 6, the city will move from weekly to biweekly recycling collection. Your new collection day depends on your zone:\n- Zones A and B: first and third Wednesday of each month\n- Zones C and D: second and fourth Wednesday of each month\n\nTo find your zone, enter your address at elmwood.gov/recycling.\n\nAlong with the schedule change, glass bottles must now be separated from paper and plastic. The city will deliver a second, smaller blue bin to every household by April 3 at no cost. Place glass in the smaller bin and all other recyclables in your existing bin.\n\nCollection still begins at 7 A.M., so please set your bins out the night before."
       }
     ],
-    "translation": "エルムウッド市——歩道回収リサイクルの変更\n\n4月6日(月)より、リサイクル回収を毎週から隔週に変更します。新しい回収日はお住まいの区域によります。\n- A・B区域:毎月第1・第3水曜日\n- C・D区域:毎月第2・第4水曜日\n\n区域は elmwood.gov/recycling で住所を入力するとわかります。\n\nスケジュール変更に合わせ、ガラス瓶を紙・プラスチックと分別することが必須になります。市は4月3日までに各世帯へ2つ目の青いごみ箱を無料でお届けします。ガラスは小さい箱に、その他の資源はこれまでの箱に入れてください。\n\n回収は引き続き午前7時に始まりますので、前夜のうちに箱を出しておいてください。",
+    "translation": "エルムウッド市——歩道回収リサイクルの変更\n\n4月6日(月)より、リサイクル回収を毎週から隔週に変更します。新しい回収日はお住まいの区域によります。\n- A・B区域:毎月第1・第3水曜日\n- C・D区域:毎月第2・第4水曜日\n\n区域は elmwood.gov/recycling で住所を入力するとわかります。\n\nスケジュール変更に合わせ、ガラス瓶を紙・プラスチックと分別することが必須になります。市は4月3日までに各世帯へ2つ目の小さい青いごみ箱を無料でお届けします。ガラスは小さい箱に、その他の資源はこれまでの箱に入れてください。\n\n回収は引き続き午前7時に始まりますので、前夜のうちに箱を出しておいてください。",
     "questions": [
       {
         "q": "What is the main purpose of the notice?",
@@ -392,7 +392,7 @@ window.TOEIC_DATA_5.part7 = [
         "explanation": "『volunteer for at least four hours of communal upkeep(共同管理を最低4時間手伝う)』が根拠。道具は共用なので(D)は誤り、料金は年額なので(B)も誤り。"
       },
       {
-        "q": "The word \"allotted\" in paragraph 4 is closest in meaning to",
+        "q": "The word \"allotted\" in the last paragraph is closest in meaning to",
         "choices": [
           "increased",
           "assigned",
@@ -791,34 +791,34 @@ window.TOEIC_DATA_5.part7 = [
         "q": "How much will Mr. Aslam pay in total?",
         "choices": [
           "$30",
-          "$24",
-          "$36",
-          "$27"
+          "$20",
+          "$25",
+          "$24"
         ],
         "answer": 1,
-        "explanation": "クロスリファレンス・計算型。夜の2回は各15ドルで計30ドル、患者割引20%オフで24ドル。メール2でも金額が確認できる。"
+        "explanation": "クロスリファレンス・計算型。夜の2回は各15ドル。申込は8月22日で締切の8月25日より前なので、早期申込料金が両方に適用され各5ドル引き。10ドル×2=20ドル。割引なしの30ドル、片方だけ割引した25ドルはひっかけ。メール2に合計額は書かれていないので、一覧の料金と条件から計算する。"
       },
       {
-        "q": "What is suggested about the yoga session?",
+        "q": "What is suggested about the yoga workshop?",
         "choices": [
-          "It is free for patients.",
+          "It is free for early registrants.",
           "It requires no registration.",
           "It is already full.",
-          "It will not be repeated this autumn."
+          "It is also held at another location."
         ],
         "answer": 3,
-        "explanation": "クロスリファレンス。メール1『夜に再開される可能性は?』+メール2『the yoga session is offered only on the date listed this autumn(今秋は記載日のみ)』から、この秋は再開されない。"
+        "explanation": "クロスリファレンス。メール1『平日の午前は仕事なので他の場所での開催はあるか』+メール2『同じ初心者向けの回をリッジウェイ分院で9月23日(土)午前に開催』から、別の場所でも受けられると分かる。"
       },
       {
-        "q": "What does Ms. Fenn offer to do?",
+        "q": "What does Ms. Fenn say she will send?",
         "choices": [
-          "Add him to a reminder list",
-          "Refund part of his payment",
-          "Send him a cookbook",
-          "Reschedule his booked sessions"
+          "An invoice",
+          "A refund",
+          "A parking permit",
+          "A workshop certificate"
         ],
         "answer": 0,
-        "explanation": "メール2の『I'll add you to our reminder list(リマインドリストに追加する)』が根拠。冬の夜ヨガの案内のため。"
+        "explanation": "メール2の『I will send the invoice by e-mail once your place is confirmed(席が確定したら請求書をメールで送る)』が根拠。返金や証明書の送付は述べられていない。"
       }
     ]
   }
