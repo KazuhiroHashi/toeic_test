@@ -18,12 +18,18 @@ OUT=$(mktemp -d)
 # 登場人物(下で再生)と年齢層が重なっていない声を選ぶと、進行役だとすぐ分かる。
 VOICES=(
   "en-US-MichelleNeural"    # 女・落ち着いた大人(現在の設定)
-  "en-US-AriaNeural"        # 女・標準的な30代アナウンサー調
+  "en-US-AriaNeural"        # 女・標準的なアナウンサー調
   "en-US-EmmaNeural"        # 女・明瞭で若め
-  "en-US-AvaNeural"         # 女・自然で若め
+  "en-US-BrianNeural"       # 男・軽めで若い。おじさん感が少ない
+  "en-US-RogerNeural"       # 男・明るく歯切れがいい
+  "en-US-EricNeural"        # 男・淡々と中庸
+  "en-US-SteffanNeural"     # 男・ナレーション向けの落ち着き
+  "en-US-AndrewNeural"      # 男・30〜40代の落ち着き
   "en-US-ChristopherNeural" # 男・低く硬い(年配寄り)
-  "en-US-BrianNeural"       # 男・軽めで若め
 )
+# ※ en-US-AvaNeural は抑揚が強すぎて進行役に向かないため候補から外している。
+# ※ お使いの edge-tts に入っている声の全部を見るには:
+#      edge-tts --list-voices | grep en-US
 
 # 引数で声を指定したら、それだけを聞く(登場人物の再生は省略)
 ONLY=0
@@ -35,8 +41,8 @@ NRATE="-8%"
 for v in "${VOICES[@]}"; do
   echo ""
   echo "▶ $v"
-  edge-tts --voice "$v" --rate=$NRATE --text "$TEXT" --write-media "$OUT/$v.mp3" >/dev/null 2>&1
-  afplay "$OUT/$v.mp3"
+  edge-tts --voice "$v" --rate=$NRATE --text "$TEXT" --write-media "$OUT/$v.mp3" >/dev/null 2>&1 || true
+  if [ -s "$OUT/$v.mp3" ]; then afplay "$OUT/$v.mp3"; else echo "  (この声はお使いの edge-tts にはありません)"; fi
 done
 
 if [ "$ONLY" = "1" ]; then
