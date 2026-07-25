@@ -4,6 +4,15 @@ TOEIC L&R 形式のオリジナル問題を、ブラウザだけで練習でき�
 
 ## 👉 いまやる作業はこちら
 
+**音声を作って GitHub に反映するのは、これ1本で済みます(Mac):**
+
+```bash
+cd ~/Documents/toeic_test && bash tools/sync.sh
+```
+
+取り込み → 一覧作成 → 音声生成 → 検査 → push を順に行い、途中で問題があればそこで止まります。
+
+
 販売の手順 → **[note で売る手順](tools/SELL_HOWTO.md)**(合言葉の一覧つき)
 
 
