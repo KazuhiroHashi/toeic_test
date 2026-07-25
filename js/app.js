@@ -391,18 +391,32 @@
   /* ---------------- タスク構築 ----------------
      タスク = 1画面分(音声 or 文書 + 設問1〜n問) */
 
+  // 本番TOEICの通し番号(各パートの開始番号)。音声の読み上げも画面表示もこれに合わせる。
+  //   Part 1: 1-6 / Part 2: 7-31 / Part 3: 32-70 / Part 4: 71-100
+  //   Part 5: 101-130 / Part 6: 131-146 / Part 7: 147-200
+  var PART_START = {
+    part1: 1, part2: 7, part3: 32, part4: 71,
+    part5: 101, part6: 131, part7: 147
+  };
+
   function tasksPart1(items) {
-    return items.map(function (it) {
+    return items.map(function (it, idx) {
+      // 本番同様、各説明文の前に記号(A.〜D.)を読み上げる。
+      // 記号は説明文と別の発話にして間を空ける
+      // (続けて読ませると「エイ」が冠詞の「ア」に潰れてしまうため)
+      var lines = [];
+      it.choices.forEach(function (c, i) {
+        lines.push({ speaker: it.speaker || "M", text: LETTERS[i], gapAfter: 500 });
+        lines.push({ speaker: it.speaker || "M", text: c, gapAfter: 1000 });
+      });
       return {
         part: "Part 1",
         listening: true,
         hideChoices: true,
         id: it.id,
         image: it.image,
-        // 本番同様、各説明文の前に記号(A.〜D.)を読み上げる
-        audio: it.choices.map(function (c, i) {
-          return { speaker: it.speaker || "M", text: LETTERS[i] + ". " + c, gapAfter: 1000 };
-        }),
+        startNo: PART_START.part1 + idx,
+        audio: lines,
         script: it.choices.map(function (c, i) { return "(" + LETTERS[i] + ") " + c; }).join("\n"),
         translation: it.translation,
         questions: [{
@@ -417,18 +431,21 @@
   }
 
   function tasksPart2(items) {
-    return items.map(function (it) {
+    return items.map(function (it, idx) {
+      // 本番同様、質問の後、各応答の前に記号(A.〜C.)を読み上げる(記号は別の発話にして間を空ける)
+      var other = it.question.speaker === "W" ? "M" : "W";
+      var lines = [{ speaker: it.question.speaker, text: it.question.text, gapAfter: 1000 }];
+      it.choices.forEach(function (c, i) {
+        lines.push({ speaker: other, text: LETTERS[i], gapAfter: 500 });
+        lines.push({ speaker: other, text: c, gapAfter: 1000 });
+      });
       return {
         part: "Part 2",
         listening: true,
         hideChoices: true,
         id: it.id,
-        // 本番同様、質問の後、各応答の前に記号(A.〜C.)を読み上げる
-        audio: [{ speaker: it.question.speaker, text: it.question.text, gapAfter: 1000 }].concat(
-          it.choices.map(function (c, i) {
-            return { speaker: it.question.speaker === "W" ? "M" : "W", text: LETTERS[i] + ". " + c, gapAfter: 1000 };
-          })
-        ),
+        startNo: PART_START.part2 + idx,
+        audio: lines,
         script: it.question.text + "\n" + it.choices.map(function (c, i) { return "(" + LETTERS[i] + ") " + c; }).join("\n"),
         translation: it.translation,
         questions: [{
@@ -442,10 +459,14 @@
     });
   }
 
-  function tasksSet(items, partLabel) {
+  function tasksSet(items, partLabel, startBase) {
+    var no = startBase;
     return items.map(function (set) {
+      var startNo = no;
+      no += set.questions.length;
       return {
         part: partLabel,
+        startNo: startNo,
         listening: true,
         id: set.id,
         kind: set.kind,               // Part 4 のトーク種別(telephone message 等)
@@ -471,10 +492,11 @@
   }
 
   function tasksPart5(items) {
-    return items.map(function (it) {
+    return items.map(function (it, idx) {
       return {
         part: "Part 5",
         listening: false,
+        startNo: PART_START.part5 + idx,
         questions: [{
           id: it.id,
           prompt: it.q,
@@ -488,10 +510,14 @@
   }
 
   function tasksPart6(items) {
+    var no = PART_START.part6;
     return items.map(function (doc) {
+      var startNo = no;
+      no += doc.questions.length;
       return {
         part: "Part 6",
         listening: false,
+        startNo: startNo,
         title: doc.title,
         docType: doc.docType,
         passage: doc.passage,
@@ -510,10 +536,14 @@
   }
 
   function tasksPart7(items) {
+    var no = PART_START.part7;
     return items.map(function (doc) {
+      var startNo = no;
+      no += doc.questions.length;
       return {
         part: "Part 7",
         listening: false,
+        startNo: startNo,
         title: doc.title,
         passages: doc.passages,
         translation: doc.translation,
@@ -535,8 +565,8 @@
     switch (mode) {
       case "part1": return tasksPart1(DATA.part1);
       case "part2": return tasksPart2(DATA.part2);
-      case "part3": return tasksSet(DATA.part3, "Part 3");
-      case "part4": return tasksSet(DATA.part4, "Part 4");
+      case "part3": return tasksSet(DATA.part3, "Part 3", PART_START.part3);
+      case "part4": return tasksSet(DATA.part4, "Part 4", PART_START.part4);
       case "part5": return tasksPart5(DATA.part5);
       case "part6": return tasksPart6(DATA.part6);
       case "part7": return tasksPart7(DATA.part7);
@@ -654,19 +684,22 @@
 
   // 一覧に表示する問題の見出し(リスニングの内容を明かしすぎない程度に)
   function taskLabel(t, mode, idx) {
-    if (t.title) return t.title + "(" + t.questions.length + "問)";
+    // 本番の通し番号で表示する(音声の読み上げ番号と一致させる)
+    var no = t.startNo || (idx + 1);
+    var range = t.questions.length > 1 ? "No." + no + "-" + (no + t.questions.length - 1) : "No." + no;
+    if (t.title) return range + " " + t.title + "(" + t.questions.length + "問)";
     var text;
     if (mode === "part1") {
       // 説明文を見せると答えが分かるため、番号のみ表示
-      return "No." + (idx + 1) + "(写真描写)";
+      return range + "(写真描写)";
     }
     if (mode === "part2") {
       text = t.script.split("\n")[0]; // 質問文の冒頭
       var tag = idx >= 15 ? "【変化球】" : "";
-      return "No." + (idx + 1) + " " + tag + text.slice(0, 38) + (text.length > 38 ? "…" : "");
+      return range + " " + tag + text.slice(0, 38) + (text.length > 38 ? "…" : "");
     }
     text = t.questions[0].prompt;
-    return "No." + (idx + 1) + " " + text.slice(0, 38) + (text.length > 38 ? "…" : "");
+    return range + " " + text.slice(0, 38) + (text.length > 38 ? "…" : "");
   }
 
   function showTaskList(mode) {
@@ -869,7 +902,7 @@
       html += '<div class="q-block" data-qi="' + qi + '">' +
         // 設問文がある場合のみ表示(Part 1/2 はリスニングのみで設問文なし)
         (q.prompt
-          ? '<p class="q-text"><span class="q-number">Q' + (answeredBefore + qi + 1) + ".</span>" +
+          ? '<p class="q-text"><span class="q-number">Q' + ((t.startNo || (answeredBefore + 1)) + qi) + ".</span>" +
             esc(q.prompt) + "</p>"
           : "") +
         '<div class="choices">';
@@ -910,10 +943,12 @@
       // 本番同様、ナレーターの導入文を付けて再生する
       var intro;
       var questionLines = [];
+      // 本番と同じ通し番号(Part 1:1-6 / Part 2:7-31 / Part 3:32-70 / Part 4:71-100)
+      var no = t.startNo || (answeredBefore + 1);
       if (t.part === "Part 1") {
-        intro = "Look at the picture marked number " + (answeredBefore + 1) + " in your test book.";
+        intro = "Look at the picture marked number " + no + " in your test book.";
       } else if (t.part === "Part 2") {
-        intro = "Number " + (answeredBefore + 1) + ".";
+        intro = "Number " + no + ".";
       } else {
         // 本番形式: Questions 32 through 34 refer to the following
         //   conversation [with three speakers] [and list].  /  telephone message. など
@@ -921,13 +956,13 @@
         var kindText = t.part === "Part 3"
           ? "conversation" + (three ? " with three speakers" : "")
           : (t.kind || "talk");
-        intro = "Questions " + (answeredBefore + 1) +
-          (t.questions.length > 1 ? " through " + (answeredBefore + t.questions.length) : "") +
+        intro = "Questions " + no +
+          (t.questions.length > 1 ? " through " + (no + t.questions.length - 1) : "") +
           " refer to the following " + kindText +
           (t.graphicKind ? " and " + t.graphicKind : "") + ".";
         // 本番同様、音声の後にナレーターが設問文を読み上げる(各設問の後にポーズ)
         questionLines = t.questions.map(function (q, qi) {
-          return { speaker: "N", text: "Number " + (answeredBefore + qi + 1) + ". " + q.prompt, gapAfter: 8000 };
+          return { speaker: "N", text: "Number " + (no + qi) + ". " + q.prompt, gapAfter: 8000 };
         });
       }
       var audioLines = (intro ? [{ speaker: "N", text: intro }] : []).concat(t.audio).concat(questionLines);

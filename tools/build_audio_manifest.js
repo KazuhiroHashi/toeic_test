@@ -82,6 +82,9 @@ function voiceFor(speaker, c0, c1) {
 }
 
 var LETTERS = ["A", "B", "C", "D"];
+
+// 本番TOEICの通し番号(js/app.js の PART_START と必ず一致させること)
+var PART_START = { part1: 1, part2: 7, part3: 32, part4: 71 };
 var clips = [];       // {file, text, voice}
 var manifest = {};    // "s1:taskid" -> [{f, g}, ...]
 
@@ -110,10 +113,13 @@ SET_SOURCES.forEach(function (SRC) {
   }
 
   // Part 1: 導入 + A.〜D. 付きの4つの説明文
+  // 記号(A/B/C/D)は説明文と別クリップにして間を空ける。
+  // 「A. A man is ...」と続けて読ませると、記号の A が冠詞の a に潰れて「ア」に聞こえるため。
   DATA.part1.forEach(function (it, idx) {
-    var lines = [{ speaker: "N", text: "Look at the picture marked number " + (idx + 1) + " in your test book.", gapAfter: 1000 }];
+    var lines = [{ speaker: "N", text: "Look at the picture marked number " + (PART_START.part1 + idx) + " in your test book.", gapAfter: 1000 }];
     it.choices.forEach(function (c, i) {
-      lines.push({ speaker: it.speaker || "M", text: LETTERS[i] + ". " + c, gapAfter: 1000 });
+      lines.push({ speaker: it.speaker || "M", text: LETTERS[i], gapAfter: 500 });
+      lines.push({ speaker: it.speaker || "M", text: c, gapAfter: 1000 });
     });
     addTask(it.id, lines);
   });
@@ -123,19 +129,21 @@ SET_SOURCES.forEach(function (SRC) {
     var qsp = it.question.speaker;
     var osp = qsp === "W" ? "M" : "W";
     var lines = [
-      { speaker: "N", text: "Number " + (idx + 1) + ".", gapAfter: 700 },
+      { speaker: "N", text: "Number " + (PART_START.part2 + idx) + ".", gapAfter: 700 },
       { speaker: qsp, text: it.question.text, gapAfter: 1000 }
     ];
     it.choices.forEach(function (c, i) {
-      lines.push({ speaker: osp, text: LETTERS[i] + ". " + c, gapAfter: 1000 });
+      lines.push({ speaker: osp, text: LETTERS[i], gapAfter: 500 });
+      lines.push({ speaker: osp, text: c, gapAfter: 1000 });
     });
     addTask(it.id, lines);
   });
 
   // Part 3/4 共通: 導入 + 本文 + 設問読み上げ(各8秒ポーズ)
-  function addSet(set, i, kindText) {
-    var qStart = i * 3 + 1;
-    var qEnd = i * 3 + set.questions.length;
+  var no3 = PART_START.part3, no4 = PART_START.part4;
+
+  function addSet(set, kindText, qStart) {
+    var qEnd = qStart + set.questions.length - 1;
     var lines = [{
       speaker: "N",
       text: "Questions " + qStart + " through " + qEnd + " refer to the following " + kindText +
@@ -149,13 +157,15 @@ SET_SOURCES.forEach(function (SRC) {
     addTask(set.id, lines);
   }
 
-  DATA.part3.forEach(function (set, i) {
+  DATA.part3.forEach(function (set) {
     var three = set.audio.some(function (l) { return l.speaker === "W2" || l.speaker === "M2"; });
-    addSet(set, i, "conversation" + (three ? " with three speakers" : ""));
+    addSet(set, "conversation" + (three ? " with three speakers" : ""), no3);
+    no3 += set.questions.length;
   });
 
-  DATA.part4.forEach(function (set, i) {
-    addSet(set, i, set.kind || "talk");
+  DATA.part4.forEach(function (set) {
+    addSet(set, set.kind || "talk", no4);
+    no4 += set.questions.length;
   });
 });
 
