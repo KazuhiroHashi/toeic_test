@@ -30,6 +30,7 @@
 出力: assets/audio/letters/<声の名前>/A.mp3 〜 D.mp3
 """
 import asyncio
+import itertools
 import os
 import re
 import shutil
@@ -63,8 +64,10 @@ TEXT = "A. B. C. D."
 
 HEAD_PAD = 0.06     # 各文字の前に残す余白(秒)
 TAIL_PAD = 0.16     # 各文字の後に残す余白(秒)。語尾の余韻を切らないため
-MIN_SEG = 0.18      # 切り出した1文字の最低の長さ(秒)
-MAX_SEG = 1.00      # 切り出した1文字の最大の長さ(秒)。長すぎ=切れていない
+MIN_SEG = 0.15      # 切り出した1文字の最低の長さ(秒)
+MAX_SEG = 0.90      # 切り出した1文字の最大の長さ(秒)。長すぎ=切れていない
+EDGE = 0.08         # これより端に寄った無音は「先頭/末尾の無音」とみなす
+GAP_PAD = 0.05      # 切り出し位置を無音側へ少し広げる量(秒)
 
 # 文字と文字のあいだは「完全な無音」ではなく「小さい音」なので、
 # 閾値を高め(-12dB など)にしないと検出できない声がある。
@@ -142,19 +145,58 @@ def silences(path: Path, noise: int, dur: float) -> list:
     return out
 
 
+def silence_spans(path: Path, noise: int, dur: float, total: float) -> list:
+    r = subprocess.run([FFMPEG, "-i", str(path), "-af",
+                        f"silencedetect=noise={noise}dB:d={dur}", "-f", "null", "-"],
+                       capture_output=True)
+    log = r.stderr.decode("utf-8", "ignore")
+    starts = [float(x) for x in re.findall(r"silence_start: ([\d.]+)", log)]
+    ends = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", log)]
+    return [(s, ends[i] if i < len(ends) else total) for i, s in enumerate(starts)]
+
+
 def bounds_from_silence(path: Path, total: float):
-    """保険: 無音の位置から切り出し区間を探す。"""
+    """無音の位置から4文字分の切り出し区間を探す。
+
+    区切りは『長い無音の上位3つ』ではなく、
+    『4つの長さが最も均等になる組み合わせ』を選ぶ。
+    A〜D はほぼ同じ長さで読まれるので、これが最も確実。
+    """
+    best = None
     for noise in NOISES:
         for d in DURATIONS:
-            gaps = silences(path, noise, d)
-            if len(gaps) < 3:
+            spans = silence_spans(path, noise, d, total)
+            speech_start, speech_end = 0.0, total
+            interior = []
+            for (s, e) in spans:
+                if s <= EDGE:                  # 先頭の無音
+                    speech_start = max(speech_start, e)
+                elif e >= total - EDGE:        # 末尾の無音
+                    speech_end = min(speech_end, s)
+                else:
+                    interior.append((s, e))
+            if len(interior) < 3:
                 continue
-            top = sorted(sorted(gaps, key=lambda g: g[1] - g[0], reverse=True)[:3])
-            out = [(0.0, top[0][0]), (top[0][1], top[1][0]),
-                   (top[1][1], top[2][0]), (top[2][1], total)]
-            if valid(out):
-                return out
-    return None
+            for combo in itertools.combinations(interior, 3):
+                segs = [
+                    (speech_start, combo[0][0]),
+                    (combo[0][1], combo[1][0]),
+                    (combo[1][1], combo[2][0]),
+                    (combo[2][1], speech_end),
+                ]
+                lens = [e - s for s, e in segs]
+                if min(lens) < MIN_SEG or max(lens) > MAX_SEG:
+                    continue
+                score = max(lens) - min(lens)   # ばらつきが小さいほど良い
+                if best is None or score < best[0]:
+                    # 切り出し位置を無音側へ少し広げて、語頭・語尾を欠けさせない
+                    padded = []
+                    for i, (a, b) in enumerate(segs):
+                        lo = combo[i - 1][1] if i > 0 else 0.0
+                        hi = combo[i][0] if i < 3 else total
+                        padded.append((max(lo, a - GAP_PAD), min(hi, b + GAP_PAD)))
+                    best = (score, padded)
+    return best[1] if best else None
 
 
 # 切り出した各ファイルの前後の無音を整える(末尾に長い無音が残ると間延びするため)
