@@ -48,7 +48,23 @@ var V = {
   AU: { M: "en-AU-WilliamNeural", W: "en-AU-NatashaNeural" },
   CA: { M: "en-CA-LiamNeural", W: "en-CA-ClaraNeural" }
 };
-var NARRATOR = "en-US-AriaNeural";
+// ナレーター(問題番号・導入文・設問読み上げ)専用の声。
+// 【重要】登場人物(上の V)で使う声とは必ず別にすること。
+// 同じ国・同じ性別・似た声質だと「会話していた人が設問を読んでいる」ように聞こえる。
+// 変更したい場合は下の1行を差し替え、tools/preview_narrators.sh で試聴してから
+// node tools/clean_narration.js → python3 tools/generate_audio.py で作り直す。
+// 候補: en-US-AndrewNeural(男・落ち着いた進行役) / en-US-BrianNeural(男・やや軽め)
+//       en-US-EmmaNeural(女・明瞭) / en-US-MichelleNeural(女・低め) / en-US-AriaNeural(女)
+var NARRATOR = "en-US-AndrewNeural";
+
+// 安全確認: ナレーターの声が登場人物と重複していないか
+Object.keys(V).forEach(function (c) {
+  ["M", "W"].forEach(function (g) {
+    if (V[c][g] === NARRATOR) {
+      throw new Error("NARRATOR(" + NARRATOR + ")が登場人物の声と重複しています。別の声を指定してください。");
+    }
+  });
+});
 
 function voiceFor(speaker, c0, c1) {
   if (speaker === "N") return NARRATOR;

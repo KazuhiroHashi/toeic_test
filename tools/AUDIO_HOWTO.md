@@ -162,9 +162,34 @@ git add assets/audio && git commit -m "リスニング音声を追加" && git pu
 | 会話・応答 | イギリス | en-GB-RyanNeural | en-GB-SoniaNeural |
 | 会話・応答 | オーストラリア | en-AU-WilliamNeural | en-AU-NatashaNeural |
 | 会話・応答 | カナダ | en-CA-LiamNeural | en-CA-ClaraNeural |
-| ナレーター(問題番号・導入文・設問読み上げ) | アメリカ | — | en-US-AriaNeural |
+| ナレーター(問題番号・導入文・設問読み上げ) | アメリカ | en-US-AndrewNeural | — |
 
 問題ごとに4カ国を順番にローテーションします。読み上げ速度は本番に合わせて標準より5%ゆっくりです(変えたい場合は `tools/generate_audio.py` の `RATE = "-5%"` を書き換えて再生成)。
+
+**ナレーターは登場人物が誰も使わない専用の声にしています。**同じ国・同じ性別・似た声質だと「会話していた人がそのまま設問を読み上げている」ように聞こえてしまうためです(`build_audio_manifest.js` に重複チェックを入れてあり、登場人物と同じ声を指定するとエラーで止まります)。
+
+### ナレーターの声を変えたいとき
+
+候補を聞き比べます(会話に出てくる声も続けて再生されるので、それと似ていないものを選んでください)。
+
+```bash
+bash tools/preview_narrators.sh
+```
+
+気に入った声が決まったら、`tools/build_audio_manifest.js` の次の行を書き換えます。
+
+```js
+var NARRATOR = "en-US-AndrewNeural";
+```
+
+そのあと、**ナレーション部分だけ**作り直します(会話の音声はそのまま残るので約15〜20分で終わります)。
+
+```bash
+node tools/build_audio_manifest.js
+node tools/clean_narration.js
+python3 tools/generate_audio.py
+git add assets/audio && git commit -m "ナレーターの声を変更" && git push origin main
+```
 
 ## 収録される内容(本番と同じ形式)
 
