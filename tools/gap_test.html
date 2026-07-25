@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>記号(A.)と説明文のあいだの長さを決める</title>
+<style>
+  body { font-family: -apple-system, "Hiragino Sans", sans-serif; max-width: 640px;
+         margin: 0 auto; padding: 24px; line-height: 1.7; color: #222; }
+  h1 { font-size: 20px; }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0; }
+  button { font-size: 16px; padding: 12px 18px; border: 1px solid #888; border-radius: 8px;
+           background: #fff; cursor: pointer; }
+  button:hover { background: #f0f0f0; }
+  button.on { background: #1a5fb4; color: #fff; border-color: #1a5fb4; }
+  .big { font-size: 32px; font-weight: bold; margin: 8px 0; }
+  .note { background: #f6f6f6; padding: 12px 16px; border-radius: 8px; font-size: 14px; }
+  code { background: #eee; padding: 2px 6px; border-radius: 4px; }
+  #status { min-height: 1.7em; color: #1a5fb4; font-weight: bold; }
+</style>
+</head>
+<body>
+
+<h1>記号(A.)と説明文のあいだの長さを決める</h1>
+
+<p>実際の音声ファイルを使って、間隔だけを変えて再生します。ここで良いと思った数字を教えてください。</p>
+
+<div class="big" id="cur">400 ミリ秒</div>
+<input type="range" id="slider" min="0" max="1200" step="50" value="400" style="width:100%">
+
+<div class="row">
+  <button data-g="200">200</button>
+  <button data-g="300">300</button>
+  <button data-g="400">400</button>
+  <button data-g="500">500</button>
+  <button data-g="600">600</button>
+  <button data-g="700">700</button>
+  <button data-g="900">900</button>
+</div>
+
+<div class="row">
+  <button id="play1">A.〜D. を通しで聞く(Part 1・男性)</button>
+</div>
+<div class="row">
+  <button id="play2">A.〜D. を通しで聞く(Part 1・女性)</button>
+</div>
+<div class="row">
+  <button id="stop">停止</button>
+</div>
+
+<p id="status"></p>
+
+<div class="note">
+  <p>上のボタンかスライダーで数字を選んでから、再生ボタンを押してください。同じ数字で何度でも聞き直せます。</p>
+  <p>決まったら、その数字で本番に反映します。</p>
+  <p><code>node tools/build_audio_manifest.js 500</code> のように数字を付けて実行 → アプリを <code>command + shift + R</code> で読み込み直し。</p>
+  <p>音が出ない場合は、このファイルが <code>toeic_test/tools/</code> の中にあり、<code>assets/audio/</code> に mp3 がある状態か確認してください。</p>
+</div>
+
+<script>
+var gap = 400;
+var token = 0;
+
+var cur = document.getElementById("cur");
+var slider = document.getElementById("slider");
+var status = document.getElementById("status");
+
+function setGap(v) {
+  gap = parseInt(v, 10);
+  cur.textContent = gap + " ミリ秒";
+  slider.value = gap;
+  document.querySelectorAll("button[data-g]").forEach(function (b) {
+    b.classList.toggle("on", parseInt(b.getAttribute("data-g"), 10) === gap);
+  });
+}
+slider.addEventListener("input", function () { setGap(this.value); });
+document.querySelectorAll("button[data-g]").forEach(function (b) {
+  b.addEventListener("click", function () { setGap(b.getAttribute("data-g")); });
+});
+
+// Part 1 の1問目(男性)と2問目(女性)。記号=奇数番号、説明文=偶数番号。
+var TASKS = {
+  m: "../assets/audio/s1/p1-01/",
+  w: "../assets/audio/s1/p1-02/"
+};
+
+var current = null;
+function stop() {
+  token += 1;
+  if (current) { try { current.pause(); } catch (e) {} current = null; }
+  status.textContent = "";
+}
+document.getElementById("stop").addEventListener("click", stop);
+
+function playSequence(dir) {
+  stop();
+  var my = ++token;
+  // 1..8 = A. / 説明文A / B. / 説明文B / … (0 は導入ナレーション)
+  var files = [];
+  for (var i = 1; i <= 8; i++) files.push(dir + i + ".mp3");
+  var idx = 0;
+  var g = gap;   // 押した時点の値で固定する
+  function next() {
+    if (my !== token) return;
+    if (idx >= files.length) { status.textContent = "終了(" + g + " ミリ秒)"; return; }
+    var url = files[idx];
+    var isLetter = (idx % 2 === 0);   // files[0]=A. files[1]=説明文 …
+    idx += 1;
+    status.textContent = (isLetter ? "記号" : "説明文") + " を再生中(間隔 " + g + " ミリ秒)";
+    var a = new Audio(url);
+    current = a;
+    a.onended = function () {
+      if (my !== token) return;
+      // 記号のあとだけ指定の間隔、説明文のあとは1秒
+      setTimeout(next, isLetter ? g : 1000);
+    };
+    a.onerror = function () {
+      status.textContent = "音声を読み込めません: " + url;
+    };
+    a.play().catch(function () {
+      status.textContent = "再生できません。ブラウザで開き直してください: " + url;
+    });
+  }
+  next();
+}
+
+document.getElementById("play1").addEventListener("click", function () { playSequence(TASKS.m); });
+document.getElementById("play2").addEventListener("click", function () { playSequence(TASKS.w); });
+
+setGap(400);
+</script>
+</body>
+</html>
