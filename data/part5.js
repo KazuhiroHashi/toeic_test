@@ -61,11 +61,11 @@ window.TOEIC_DATA.part5 = [
   },
   {
     id: "p5-07",
-    q: "The site supervisor insisted that every subcontractor ______ a hard hat while working near the loading area.",
-    choices: ["wears", "wear", "wearing", "to wear"],
+    q: "The external auditor recommended that the accounting department ______ every original receipt for a minimum of seven years.",
+    choices: ["retains", "retain", "retaining", "to retain"],
     answer: 1,
-    translation: "現場監督は、荷積みエリア付近で作業する際はすべての下請け業者がヘルメットを着用するよう強く求めた。",
-    explanation: "insist / recommend / request / require などの後ろの that 節では、動詞は原形になる(仮定法現在)。主語 every subcontractor が三人称単数でも三単現の -s は付けないので wears は不可。wearing と to wear は that 節の述語動詞になれない。『主語が単数なのに原形』という見た目の違和感が狙い。"
+    translation: "外部監査人は、経理部がすべての領収書の原本を最低7年間保管するよう勧告した。",
+    explanation: "recommend / insist / request / require などの後ろの that 節では、動詞は原形になる(仮定法現在)。主語 the accounting department が三人称単数でも三単現の -s は付けないので retains は不可。retaining と to retain は that 節の述語動詞になれない。『主語が単数なのに原形』という見た目の違和感が狙い。"
   },
   {
     id: "p5-08",
