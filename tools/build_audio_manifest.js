@@ -92,7 +92,7 @@ var PART_START = { part1: 1, part2: 7, part3: 32, part4: 71 };
 // (未処理の mp3 には前後に0.2〜0.4秒の無音が焼き付いているため)。
 // コマンドの後ろに数字を付けると、その回だけ上書きできる(音声の作り直しは不要)。
 //   node tools/build_audio_manifest.js 700   → 記号の後の間隔を700msにして作り直す
-var LETTER_GAP = 400;
+var LETTER_GAP = 500;
 if (process.argv[2] && /^\d+$/.test(process.argv[2])) {
   LETTER_GAP = parseInt(process.argv[2], 10);
 }
