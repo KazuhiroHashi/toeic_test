@@ -46,6 +46,7 @@
     part5: { label: "Part 5 短文穴埋め", desc: "文法・語彙(リーディング)", listening: false },
     part6: { label: "Part 6 長文穴埋め", desc: "文書の空所を埋める(リーディング)", listening: false },
     part7: { label: "Part 7 読解問題", desc: "文書を読んで設問に答える(リーディング)", listening: false },
+    reading: { label: "リーディング模試(Part 5-7)", desc: "本番と同じ100問・制限時間75分", listening: false, limit: 75 * 60 },
     mock: { label: "ミニ模試", desc: "Part 2〜7 からランダム出題", listening: true }
   };
 
@@ -462,6 +463,31 @@
     });
   }
 
+  // 本番の「Questions 147-149 refer to the following text-message chain.」形式の見出しを作る
+  function pluralize(w) {
+    if (/s$/.test(w)) return w;
+    if (/(ch|sh|x|z)$/.test(w)) return w + "es";
+    if (/[^aeiou]y$/.test(w)) return w.replace(/y$/, "ies");
+    return w + "s";
+  }
+  function refLine(startNo, count, docTypes) {
+    var groups = [];
+    docTypes.forEach(function (t) {
+      var name = String(t).replace(/\s*\d+$/, "").toLowerCase();
+      var last = groups[groups.length - 1];
+      if (last && last.name === name) last.n += 1;
+      else groups.push({ name: name, n: 1 });
+    });
+    var NUM = ["", "", "two", "three", "four", "five"];
+    var parts = groups.map(function (g) {
+      return g.n > 1 ? NUM[g.n] + " " + pluralize(g.name) : g.name;
+    });
+    var phrase = parts.length <= 1 ? parts[0]
+      : parts.slice(0, -1).join(", ") + " and " + parts[parts.length - 1];
+    var range = count > 1 ? startNo + "-" + (startNo + count - 1) : String(startNo);
+    return "Questions " + range + " refer to the following " + phrase + ".";
+  }
+
   function tasksSet(items, partLabel, startBase) {
     var no = startBase;
     return items.map(function (set) {
@@ -517,18 +543,23 @@
     return items.map(function (doc) {
       var startNo = no;
       no += doc.questions.length;
+      // 本文の空所番号を本番の通し番号にそろえる([1] → [131] など)
+      var passage = doc.passage.replace(/\[(\d+)\]/g, function (m, n) {
+        return "[" + (startNo + parseInt(n, 10) - 1) + "]";
+      });
       return {
         part: "Part 6",
         listening: false,
         startNo: startNo,
-        title: doc.title,
+        title: doc.title,                                   // 一覧用(日本語)
+        heading: refLine(startNo, doc.questions.length, [doc.docType]),
         docType: doc.docType,
-        passage: doc.passage,
+        passage: passage,
         translation: doc.translation,
         questions: doc.questions.map(function (q) {
           return {
             id: doc.id + "-q" + q.num,
-            prompt: "空所 [" + q.num + "] に入るものを選んでください。",
+            prompt: "",                                     // 本番は設問文が印刷されない
             choices: q.choices,
             answer: q.answer,
             explanation: q.explanation
@@ -547,7 +578,9 @@
         part: "Part 7",
         listening: false,
         startNo: startNo,
-        title: doc.title,
+        title: doc.title,                                   // 一覧用(日本語)
+        heading: refLine(startNo, doc.questions.length,
+          (doc.passages || []).map(function (x) { return x.docType; })),
         passages: doc.passages,
         translation: doc.translation,
         questions: doc.questions.map(function (q, i) {
@@ -570,6 +603,9 @@
       case "part2": return tasksPart2(DATA.part2);
       case "part3": return tasksSet(DATA.part3, "Part 3", PART_START.part3);
       case "part4": return tasksSet(DATA.part4, "Part 4", PART_START.part4);
+      case "reading": return tasksPart5(DATA.part5)
+        .concat(tasksPart6(DATA.part6))
+        .concat(tasksPart7(DATA.part7));
       case "part5": return tasksPart5(DATA.part5);
       case "part6": return tasksPart6(DATA.part6);
       case "part7": return tasksPart7(DATA.part7);
@@ -595,6 +631,7 @@
 
   function showHome() {
     speech.stop();
+    stopTimer();
     var stats = loadStats();
 
     function card(mode, extraClass) {
@@ -623,7 +660,7 @@
       '<section class="menu-section">' +
       setSwitchHtml +
       "<h2>模試に挑戦</h2>" +
-      '<div class="menu-grid">' + card("mock", "mock") + "</div>" +
+      '<div class="menu-grid">' + card("mock", "mock") + card("reading", "mock") + "</div>" +
       "<h2>リスニング(音声読み上げ)</h2>" +
       '<div class="menu-grid">' + card("part1") + card("part2") + card("part3") + card("part4") + "</div>" +
       "<h2>リーディング</h2>" +
@@ -840,27 +877,37 @@
     if (custom) {
       tasks = custom.map(function (i) { return tasks[i]; }).filter(Boolean);
     }
+    // 解答は保持するだけ。正誤・解説は最後の結果画面でまとめて見せる(本番と同じ進め方)
     session = {
       mode: mode,
       custom: custom, // 「選んで解く」で選ばれた問題番号(通常出題は null)
       label: MODES[mode].label + (custom ? "(選択)" : ""),
       tasks: tasks,
       taskIndex: 0,
-      results: [] // {taskPart, prompt, choices, answer, selected, explanation}
+      answers: tasks.map(function (t) {
+        return t.questions.map(function () { return null; });
+      })
     };
     session.total = countQuestions(session.tasks);
+    // 各タスクが何問目から始まるか
+    var acc = 0;
+    session.offsets = tasks.map(function (t) { var o = acc; acc += t.questions.length; return o; });
+    var limit = MODES[mode].limit;
+    session.endAt = (limit && !custom) ? Date.now() + limit * 1000 : null;
     renderTask();
   }
 
   function renderTask() {
     speech.stop();
     var t = session.tasks[session.taskIndex];
-    var answeredBefore = session.results.length;
+    var answeredBefore = session.offsets[session.taskIndex];
+    var myAnswers = session.answers[session.taskIndex];
 
     var html = '<div class="quiz-header">' +
       "<span>" + esc(session.label) + " — 問題 " + (answeredBefore + 1) +
       (t.questions.length > 1 ? "〜" + (answeredBefore + t.questions.length) : "") +
       " / " + session.total + "</span>" +
+      (session.endAt ? '<span class="timer" id="timer"></span>' : "") +
       '<button class="quit-btn" id="quit">中断してホームへ</button>' +
       "</div>" +
       '<div class="progress-bar"><div class="progress-fill" style="width:' +
@@ -869,7 +916,7 @@
       '<span class="part-label">' + esc(t.part) + "</span>" +
       (t.docType ? '<span class="doc-type">' + esc(t.docType) + "</span>" : "");
 
-    if (t.title) html += "<h3>" + esc(t.title) + "</h3>";
+    if (t.heading) html += "<h3>" + esc(t.heading) + "</h3>";
 
     // リスニング:再生ボタン
     if (t.listening) {
@@ -902,25 +949,26 @@
 
     // 設問
     t.questions.forEach(function (q, qi) {
+      var qNo = (t.startNo || (answeredBefore + 1)) + qi;
       html += '<div class="q-block" data-qi="' + qi + '">' +
-        // 設問文がある場合のみ表示(Part 1/2 はリスニングのみで設問文なし)
-        (q.prompt
-          ? '<p class="q-text"><span class="q-number">Q' + ((t.startNo || (answeredBefore + 1)) + qi) + ".</span>" +
-            esc(q.prompt) + "</p>"
-          : "") +
+        // Part 1/2 は本番でも設問文が印刷されないので番号も出さない
+        (t.hideChoices ? "" :
+          '<p class="q-text"><span class="q-number">' + qNo + ".</span>" +
+          (q.prompt ? esc(q.prompt) : "") + "</p>") +
         '<div class="choices">';
       q.choices.forEach(function (c, ci) {
         var label = t.hideChoices ? "(音声)" : c;
-        html += '<button class="choice-btn" data-qi="' + qi + '" data-ci="' + ci + '">' +
+        html += '<button class="choice-btn' + (myAnswers[qi] === ci ? " selected" : "") +
+          '" data-qi="' + qi + '" data-ci="' + ci + '">' +
           '<span class="choice-letter">' + LETTERS[ci] + ".</span><span>" + esc(label) + "</span></button>";
       });
-      html += "</div>" +
-        '<div class="feedback-slot"></div>' +
-        "</div>";
+      html += "</div></div>";
     });
 
-    html += '<div class="nav-row"><button class="next-btn" id="next" style="display:none">' +
-      (session.taskIndex === session.tasks.length - 1 ? "結果を見る" : "次へ") +
+    html += '<div class="nav-row">' +
+      (session.taskIndex > 0 ? '<button class="secondary-btn" id="prev">← 前へ</button>' : "") +
+      '<button class="next-btn" id="next">' +
+      (session.taskIndex === session.tasks.length - 1 ? "解答を終えて結果を見る" : "次へ →") +
       "</button></div>" +
       "</div>";
 
@@ -939,7 +987,7 @@
     }
 
     document.getElementById("quit").addEventListener("click", function () {
-      if (confirm("中断してホームに戻りますか?(このセッションの結果は保存されません)")) showHome();
+      if (confirm("中断してホームに戻りますか?(このセッションの結果は保存されません)")) { stopTimer(); showHome(); }
     });
 
     if (t.listening) {
@@ -1003,74 +1051,93 @@
       });
     }
 
-    var answered = 0;
+    // 選択肢は「印を付けるだけ」。正誤も解説もここでは出さない(本番と同じ)。
     app.querySelectorAll(".choice-btn").forEach(function (btn) {
       btn.addEventListener("click", function () {
         var qi = parseInt(btn.getAttribute("data-qi"), 10);
         var ci = parseInt(btn.getAttribute("data-ci"), 10);
-        var q = t.questions[qi];
+        myAnswers[qi] = (myAnswers[qi] === ci) ? null : ci;   // もう一度押すと取り消し
         var block = app.querySelector('.q-block[data-qi="' + qi + '"]');
-        if (block.getAttribute("data-done")) return;
-        block.setAttribute("data-done", "1");
-
-        var ok = ci === q.answer;
         block.querySelectorAll(".choice-btn").forEach(function (b) {
-          b.disabled = true;
-          var bci = parseInt(b.getAttribute("data-ci"), 10);
-          if (t.hideChoices) b.querySelector("span:last-child").textContent = q.choices[bci];
-          if (bci === q.answer) b.classList.add("correct");
-          else if (bci === ci && !ok) b.classList.add("wrong");
+          b.classList.toggle("selected",
+            parseInt(b.getAttribute("data-ci"), 10) === myAnswers[qi]);
         });
-
-        var fb = '<div class="feedback ' + (ok ? "ok" : "ng") + '">' +
-          '<div class="verdict">' + (ok ? "正解!" : "不正解… 正解は (" + LETTERS[q.answer] + ")") + "</div>" +
-          '<div>' + esc(q.explanation) + "</div>" +
-          (q.translation ? '<details class="script-box"><summary>訳を見る</summary><div class="script-body">' + esc(q.translation) + "</div></details>" : "") +
-          "</div>";
-        block.querySelector(".feedback-slot").innerHTML = fb;
-
-        session.results.push({
-          part: t.part,
-          prompt: (t.title ? t.title + " / " : "") + q.prompt,
-          choices: q.choices,
-          answer: q.answer,
-          selected: ci,
-          explanation: q.explanation
-        });
-
-        answered += 1;
-        if (answered === t.questions.length) {
-          // 全問解答:スクリプト・全訳を表示して次へ
-          var extras = "";
-          if (t.script) {
-            extras += '<details class="script-box" open><summary>スクリプトを見る</summary><div class="script-body">' + esc(t.script) + "</div></details>";
-          }
-          if (t.translation) {
-            extras += '<details class="script-box"><summary>全訳を見る</summary><div class="script-body">' + esc(t.translation) + "</div></details>";
-          }
-          if (extras) {
-            var wrap = document.createElement("div");
-            wrap.innerHTML = extras;
-            app.querySelector(".nav-row").before(wrap);
-          }
-          document.getElementById("next").style.display = "";
-        }
       });
     });
 
+    var prevBtn = document.getElementById("prev");
+    if (prevBtn) {
+      prevBtn.addEventListener("click", function () {
+        session.taskIndex -= 1;
+        renderTask();
+      });
+    }
     document.getElementById("next").addEventListener("click", function () {
-      if (session.taskIndex === session.tasks.length - 1) showResult();
-      else { session.taskIndex += 1; renderTask(); }
+      if (session.taskIndex === session.tasks.length - 1) {
+        var left = unansweredCount();
+        if (left && !confirm("未解答が " + left + " 問あります。採点しますか?")) return;
+        showResult();
+      } else {
+        session.taskIndex += 1;
+        renderTask();
+      }
     });
+
+    startTimer();
+  }
+
+  function unansweredCount() {
+    var n = 0;
+    session.answers.forEach(function (a) {
+      a.forEach(function (v) { if (v === null) n += 1; });
+    });
+    return n;
+  }
+
+  /* ---------------- 制限時間(リーディング75分) ---------------- */
+
+  var timerId = null;
+
+  function stopTimer() {
+    if (timerId) { clearInterval(timerId); timerId = null; }
+  }
+
+  function startTimer() {
+    stopTimer();
+    if (!session || !session.endAt) return;
+    var el = document.getElementById("timer");
+    if (!el) return;
+    function tick() {
+      var left = Math.max(0, Math.round((session.endAt - Date.now()) / 1000));
+      var m = Math.floor(left / 60), sec = left % 60;
+      el.textContent = "残り " + m + ":" + (sec < 10 ? "0" : "") + sec;
+      el.classList.toggle("urgent", left <= 300);
+      if (left <= 0) {
+        stopTimer();
+        alert("制限時間の75分が経過しました。ここまでの解答で採点します。");
+        showResult();
+      }
+    }
+    tick();
+    timerId = setInterval(tick, 1000);
   }
 
   /* ---------------- 画面:結果 ---------------- */
 
   function showResult() {
     speech.stop();
-    var correct = session.results.filter(function (r) { return r.selected === r.answer; }).length;
-    var total = session.results.length;
-    var rate = Math.round((correct / total) * 100);
+    stopTimer();
+
+    var correct = 0, total = 0, blank = 0;
+    session.tasks.forEach(function (t, ti) {
+      t.questions.forEach(function (q, qi) {
+        total += 1;
+        var sel = session.answers[ti][qi];
+        if (sel === null) blank += 1;
+        else if (sel === q.answer) correct += 1;
+      });
+    });
+    var rate = total ? Math.round((correct / total) * 100) : 0;
     // 「選んで解く」の成績は自己ベストに含めない(1問だけ解いて100%等を防ぐ)
     if (!session.custom) saveResult(session.mode, rate);
 
@@ -1080,37 +1147,96 @@
     else if (rate >= 60) msg = "合格圏まであと少し。解説を読んで、もう一度挑戦しましょう。";
     else msg = "まずは解説をじっくり読み、同じ問題をもう一度解いてみましょう。";
 
-    var wrongs = session.results.filter(function (r) { return r.selected !== r.answer; });
-
     var html = '<div class="result-card">' +
       "<h2>" + esc(session.label) + " の結果</h2>" +
       '<div class="result-score">' + correct + " / " + total + "</div>" +
-      '<div class="result-rate">正答率 ' + rate + "%</div>" +
+      '<div class="result-rate">正答率 ' + rate + "%" +
+      (blank ? "(未解答 " + blank + "問)" : "") + "</div>" +
       '<div class="result-msg">' + esc(msg) + "</div>" +
       '<div class="result-actions">' +
       '<button class="next-btn" id="retry">もう一度挑戦</button>' +
       '<button class="secondary-btn" id="goHome">ホームへ戻る</button>' +
-      "</div></div>";
-
-    if (wrongs.length) {
-      html += '<div class="review-list"><h2>間違えた問題の復習(' + wrongs.length + "問)</h2>";
-      wrongs.forEach(function (r) {
-        html += '<div class="review-item">' +
-          '<div class="ri-q">[' + esc(r.part) + "] " + esc(r.prompt) + "</div>" +
-          '<div class="ri-a">あなたの解答: <span class="ng">(' + LETTERS[r.selected] + ") " + esc(r.choices[r.selected]) + "</span><br>" +
-          '正解: <span class="ok">(' + LETTERS[r.answer] + ") " + esc(r.choices[r.answer]) + "</span></div>" +
-          '<div class="ri-exp">' + esc(r.explanation) + "</div>" +
-          "</div>";
-      });
-      html += "</div>";
-    }
+      "</div></div>" +
+      '<div class="review-list">' +
+      '<h2>解答と解説</h2>' +
+      '<label class="only-wrong"><input type="checkbox" id="onlyWrong"> 間違えた問題だけ表示</label>' +
+      '<div id="reviewBody"></div></div>';
 
     app.innerHTML = html;
     window.scrollTo(0, 0);
+    renderReview(false);
+    document.getElementById("onlyWrong").addEventListener("change", function () {
+      renderReview(this.checked);
+    });
     document.getElementById("retry").addEventListener("click", function () {
       startQuiz(session.mode, session.custom);
     });
     document.getElementById("goHome").addEventListener("click", showHome);
+  }
+
+  // 結果画面の解答・解説(全問 / 間違えた問題のみ)
+  function renderReview(onlyWrong) {
+    var out = "";
+    session.tasks.forEach(function (t, ti) {
+      var ans = session.answers[ti];
+      var show = t.questions.some(function (q, qi) { return !onlyWrong || ans[qi] !== q.answer; });
+      if (!show) return;
+
+      var no = t.startNo || (session.offsets[ti] + 1);
+      out += '<div class="review-item">' +
+        '<div class="ri-head">' + esc(t.part) + " — No." + no +
+        (t.questions.length > 1 ? "-" + (no + t.questions.length - 1) : "") + "</div>";
+      if (t.heading) out += '<div class="ri-heading">' + esc(t.heading) + "</div>";
+      if (t.image) out += '<div class="p1-image"><img src="' + esc(t.image) + '" alt=""></div>';
+      if (t.passage) {
+        out += '<details class="script-box"><summary>本文を見る</summary><div class="passage">' +
+          esc(t.passage) + "</div></details>";
+      }
+      if (t.passages) {
+        out += '<details class="script-box"><summary>本文を見る</summary>';
+        t.passages.forEach(function (p) {
+          out += '<div class="doc-type">' + esc(p.docType) + "</div>" +
+            '<div class="passage">' + esc(p.text) + "</div>";
+        });
+        out += "</details>";
+      }
+      if (t.script) {
+        out += '<details class="script-box"><summary>スクリプトを見る</summary><div class="script-body">' +
+          esc(t.script) + "</div></details>";
+      }
+      if (t.translation) {
+        out += '<details class="script-box"><summary>全訳を見る</summary><div class="script-body">' +
+          esc(t.translation) + "</div></details>";
+      }
+
+      t.questions.forEach(function (q, qi) {
+        var sel = ans[qi];
+        var ok = sel === q.answer;
+        if (onlyWrong && ok) return;
+        out += '<div class="ri-q-block">' +
+          '<div class="ri-q"><span class="q-number">' + (no + qi) + ".</span>" +
+          (q.prompt ? esc(q.prompt) : "") +
+          '<span class="ri-mark ' + (ok ? "ok" : "ng") + '">' +
+          (ok ? "正解" : (sel === null ? "未解答" : "不正解")) + "</span></div>";
+        q.choices.forEach(function (c, ci) {
+          var cls = "ri-choice";
+          if (ci === q.answer) cls += " correct";
+          if (ci === sel && !ok) cls += " wrong";
+          out += '<div class="' + cls + '">(' + LETTERS[ci] + ") " + esc(c) +
+            (ci === sel ? '<span class="ri-you">あなたの解答</span>' : "") +
+            (ci === q.answer ? '<span class="ri-ans">正解</span>' : "") + "</div>";
+        });
+        out += '<div class="ri-exp">' + esc(q.explanation) + "</div>";
+        if (q.translation) {
+          out += '<details class="script-box"><summary>訳を見る</summary><div class="script-body">' +
+            esc(q.translation) + "</div></details>";
+        }
+        out += "</div>";
+      });
+      out += "</div>";
+    });
+    document.getElementById("reviewBody").innerHTML = out ||
+      "<p>表示する問題はありません。</p>";
   }
 
   /* ---------------- 起動 ---------------- */
