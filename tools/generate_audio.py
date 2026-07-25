@@ -90,7 +90,16 @@ async def main() -> None:
         except json.JSONDecodeError:
             state = {}
 
-    orphans = cleanup_orphans(clips, state)
+    # 記号(A.〜D.)は tools/build_letters.py が作る共有部品なので、ここでは作らない
+    prebuilt = [c for c in clips if c.get("prebuilt")]
+    missing = [c for c in prebuilt if not (ROOT / c["file"]).exists()]
+    if missing:
+        print(f"記号の音声が {len(missing)} 個ありません。先に実行してください:")
+        print("  /usr/bin/python3 tools/build_letters.py")
+        sys.exit(1)
+    clips = [c for c in clips if not c.get("prebuilt")]
+
+    orphans = cleanup_orphans(clips + prebuilt, state)
     if orphans:
         print(f"不要になった古い音声を {orphans} 個削除しました。")
 

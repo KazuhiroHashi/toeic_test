@@ -97,6 +97,15 @@ if (process.argv[2] && /^\d+$/.test(process.argv[2])) {
   LETTER_GAP = parseInt(process.argv[2], 10);
 }
 function letterText(i) { return LETTERS[i] + "."; }
+
+// 記号(A.〜D.)の音声は声ごとの共有部品を使う。
+// edge-tts は「A.」のような極端に短い発話が苦手で、かすれた音になるため、
+// tools/build_letters.py で「A. B. C. D.」を1本作って4つに切り分けたものを使い回す。
+// 記号の音は全問題で同じなので、8声×4文字=32ファイルで足りる。
+function letterFile(voice, i) {
+  return "assets/audio/letters/" + voice + "/" + LETTERS[i] + ".mp3";
+}
+
 var clips = [];       // {file, text, voice}
 var manifest = {};    // "s1:taskid" -> [{f, g}, ...]
 
@@ -111,12 +120,19 @@ SET_SOURCES.forEach(function (SRC) {
     gi += 1;
     var files = [];
     lines.forEach(function (ln, idx) {
-      var file = "assets/audio/" + SETID + "/" + taskid + "/" + idx + ".mp3";
       var voice = voiceFor(ln.speaker, c0, c1);
-      var clip = { file: file, text: ln.text, voice: voice };
-      if (voice === NARRATOR) {
-        if (NARRATOR_RATE) clip.rate = NARRATOR_RATE;
-        if (NARRATOR_PITCH) clip.pitch = NARRATOR_PITCH;
+      var file, clip;
+      if (ln.letterIndex != null) {
+        // 記号は声ごとの共有ファイル(tools/build_letters.py が作る)を指す
+        file = letterFile(voice, ln.letterIndex);
+        clip = { file: file, text: ln.text, voice: voice, prebuilt: true };
+      } else {
+        file = "assets/audio/" + SETID + "/" + taskid + "/" + idx + ".mp3";
+        clip = { file: file, text: ln.text, voice: voice };
+        if (voice === NARRATOR) {
+          if (NARRATOR_RATE) clip.rate = NARRATOR_RATE;
+          if (NARRATOR_PITCH) clip.pitch = NARRATOR_PITCH;
+        }
       }
       clips.push(clip);
       files.push({ f: file, g: ln.gapAfter == null ? 600 : ln.gapAfter });
@@ -130,7 +146,7 @@ SET_SOURCES.forEach(function (SRC) {
   DATA.part1.forEach(function (it, idx) {
     var lines = [{ speaker: "N", text: "Look at the picture marked number " + (PART_START.part1 + idx) + " in your test book.", gapAfter: 1000 }];
     it.choices.forEach(function (c, i) {
-      lines.push({ speaker: it.speaker || "M", text: letterText(i), gapAfter: LETTER_GAP });
+      lines.push({ speaker: it.speaker || "M", text: letterText(i), letterIndex: i, gapAfter: LETTER_GAP });
       lines.push({ speaker: it.speaker || "M", text: c, gapAfter: 1000 });
     });
     addTask(it.id, lines);
@@ -145,7 +161,7 @@ SET_SOURCES.forEach(function (SRC) {
       { speaker: qsp, text: it.question.text, gapAfter: 1000 }
     ];
     it.choices.forEach(function (c, i) {
-      lines.push({ speaker: osp, text: letterText(i), gapAfter: LETTER_GAP });
+      lines.push({ speaker: osp, text: letterText(i), letterIndex: i, gapAfter: LETTER_GAP });
       lines.push({ speaker: osp, text: c, gapAfter: 1000 });
     });
     addTask(it.id, lines);
@@ -181,10 +197,19 @@ SET_SOURCES.forEach(function (SRC) {
   });
 });
 
-fs.writeFileSync(path.join(__dirname, "audio_manifest.json"), JSON.stringify(clips, null, 2));
+// 共有部品(記号)は何度も参照されるので、生成用の一覧では重複を取り除く
+var seenFile = {};
+var uniqueClips = clips.filter(function (c) {
+  if (seenFile[c.file]) return false;
+  seenFile[c.file] = 1;
+  return true;
+});
+fs.writeFileSync(path.join(__dirname, "audio_manifest.json"), JSON.stringify(uniqueClips, null, 2));
 fs.writeFileSync(
   path.join(ROOT, "assets", "audio", "manifest.js"),
   "window.TOEIC_AUDIO_MANIFEST = " + JSON.stringify(manifest) + ";\n"
 );
 console.log("sets:", SET_SOURCES.map(function (s) { return s.id; }).join(","),
-  "/ tasks:", Object.keys(manifest).length, "/ clips:", clips.length);
+  "/ tasks:", Object.keys(manifest).length,
+  "/ clips:", uniqueClips.length,
+  "(うち記号の共有部品:", uniqueClips.filter(function (c) { return c.prebuilt; }).length + ")");
