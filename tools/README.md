@@ -1,15 +1,18 @@
 # 作業ガイド(iPhone・Macどちらでも)
 
-やることは2つだけ。上から順に進めれば完成します。
+| # | やること | 状態 | 手順書 | どこで |
+|---|---|---|---|---|
+| 1 | Part 1 の写真を作る(36枚) | ✅ 完了 | [写真の作り方とプロンプト集](PART1_PHOTO_PROMPTS.md) | iPhone/Mac(ChatGPT) |
+| 2 | リスニング音声を作る | ⬜ 残り | [音声の作り方](AUDIO_HOWTO.md) | Mac(ターミナル) |
 
-| # | やること | 手順書 | どこで |
-|---|---|---|---|
-| 1 | リスニング音声を作る | [音声の作り方](AUDIO_HOWTO.md) | Mac(ターミナル) |
-| 2 | Part 1 の写真を作る(30枚) | [写真の作り方とプロンプト集](PART1_PHOTO_PROMPTS.md) | iPhone/Mac(ChatGPT) |
+残っているのは **音声生成だけ** です。→ [音声の作り方](AUDIO_HOWTO.md)
 
-音声は実行後30〜60分ほど放置で終わるので、**先に音声を流し、待っている間に写真を作る**のが効率的です。
+- 準備5分 + 生成30〜60分(放置でOK)
+- 約1,928ファイル / 約160分 / 約56MB
+- 無料(edge-tts。APIキー・課金設定なし)
 
 ## 参考(作問ルール)
 - [AGENT_SPEC.md](AGENT_SPEC.md) — 問題作成の共通仕様
 - [DEDUP_BANLIST.md](DEDUP_BANLIST.md) — 題材の重複回避リスト
 - [REVIEW_SPEC.md](REVIEW_SPEC.md) — 校閲の観点
+- [FIX_SPEC.md](FIX_SPEC.md) — 校閲指摘の反映ルール

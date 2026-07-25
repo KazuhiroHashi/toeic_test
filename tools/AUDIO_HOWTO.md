@@ -1,79 +1,206 @@
-# リスニング音声の作り方(edge-tts)
+# リスニング音声の作り方(完全手順)
 
-> このページは iPhone でも読めます。実際のコマンド実行は Mac のターミナルで行います。
+> このページは iPhone でも読めます。ただし **コマンドの実行は Mac のターミナル** で行ってください。
 > コードブロックの右上にコピーボタンが出るので、押してそのまま貼り付けられます。
 
-## なぜやるのか
+## これは何をする作業か
 
-いまはスマホの読み上げ機能で音を作っているため、声が機械的で聞き取りにくい。
-Mac で高品質な音声ファイル(mp3)を作ってアプリに入れると、**iPhone でも Android でも PC でも全員が同じきれいな音声**で聞けるようになります。
+リスニング音声を『録音ファイル(mp3)』として作り、アプリに同梱します。
+
+やらなくてもアプリは動きます(端末の読み上げ機能で代用)。やると次が変わります。
+
+- iPhone / Mac / Windows、**どの端末で開いても同じ声・同じ発音**になる
+- 米・英・豪・加の4カ国の高品質ニューラル音声(本番と同じ構成)になる
+- 端末に良い声が入っていない人でも聞き取りやすい
 
 使うのは **edge-tts**(Microsoft のニューラル音声)。**完全無料・APIキー不要・課金設定なし**です。ChatGPT の契約や OpenAI API とは無関係なので、追加料金は一切かかりません。
 
-## 手順
+**所要時間:**準備5分 + 生成30〜60分(放置でOK)。
+**できるもの:**約1,928ファイル / 約160分 / 約56MB。
 
-ターミナルを開く(Command+スペース →「ターミナル」→ Enter)。
+---
 
-### 1. 準備(初回だけ)
+## 0. 前提
+
+- **Mac で行ってください。**iPhone では実行できません(iPhone は完成後に開いて聞くだけ)。
+- インターネット接続が必要です(社内プロキシ下だと失敗することがあります。自宅Wi-Fi推奨)。
+- コマンドは **1行ずつコピペして Enter**。まとめて貼らないほうが、どこで失敗したか分かります。
+
+---
+
+## 1. ターミナルを開く
+
+1. `command`(⌘)+ `スペース`
+2. `ターミナル` と入力して `Enter`
+3. 文字だけの窓が開きます。ここに以下を貼り付けていきます。
+
+---
+
+## 2. Python が入っているか確認する
+
+```bash
+python3 --version
+```
+
+`Python 3.9.6` のようにバージョンが出れば **OK**。次へ進んでください。
+
+`command not found` と出た場合は次を実行し、画面の指示に従ってインストール(数分)。終わったらもう一度 `python3 --version` を試します。
+
+```bash
+xcode-select --install
+```
+
+---
+
+## 3. 音声生成ツール(edge-tts)を入れる
 
 ```bash
 pip3 install edge-tts
 ```
 
-### 2. データを取得(初回だけ)
+最後に `Successfully installed edge-tts-...` と出れば **OK**。
+
+うまくいかないときは、下のうち該当するものを試してください(どれか1つ成功すればOK)。
+
+| 出たメッセージ | 対処コマンド |
+|---|---|
+| `command not found: pip3` | `python3 -m pip install --user edge-tts` |
+| `externally-managed-environment` | `pip3 install --user --break-system-packages edge-tts` |
+| `Permission denied` | `pip3 install --user edge-tts` |
+
+---
+
+## 4. リポジトリを手元に用意する
+
+**初回だけ**(まだ Mac に落としていない場合):
 
 ```bash
-cd ~/Desktop && git clone https://github.com/KazuhiroHashi/toeic_test.git && cd toeic_test
+cd ~/Documents && git clone https://github.com/KazuhiroHashi/toeic_test.git && cd toeic_test
 ```
 
-すでに持っている場合は、代わりにこちら:
+**2回目以降**(最新の問題を取り込む):
 
 ```bash
-cd ~/Desktop/toeic_test && git pull
+cd ~/Documents/toeic_test && git pull origin main
 ```
 
-### 3. 音声を作る(メインの作業)
+> 置き場所は `~/Documents` でなくてもかまいません。以降は **この `toeic_test` フォルダの中にいる状態** で実行します。今どこにいるか分からなくなったら `pwd` と打つと現在地が出ます。
+
+---
+
+## 5. 音声を生成する(ここが本番)
 
 ```bash
 python3 tools/generate_audio.py
 ```
 
-- 全 1925 クリップを順に生成します。目安は **30〜60分**。
-- 途中で止めても、もう一度同じコマンドを実行すれば **続きから** 再開します。
-- 放置しておけば終わるので、この間に Part 1 の写真作りを進めるのが効率的です。
+こう表示されて進みます。
 
-### 4. GitHub に反映(これで全端末に反映)
-
-```bash
-git add assets/audio && git commit -m "リスニング音声を追加" && git push
+```
+1928 クリップを生成します(既存はスキップ)…
+  431/1928  新規:431 スキップ:0 失敗:0
 ```
 
-完了です。アプリは音声ファイルがあればそれを再生し、無ければ従来どおり端末の合成音声を使います。
+- **数字が増えていれば正常です。**30〜60分かかるので放置してください。
+- 途中で止まっても、**もう一度まったく同じコマンド**を実行すれば続きから再開します。できているファイルは自動でスキップされるので、何度実行しても壊れません。
+- Mac がスリープすると止まります。電源につないでおくと安心です。
+- この待ち時間に、Part 1 の写真作りなど別の作業を進めるのが効率的です。
+
+最後に `完了!` と出れば成功です。
+
+### できたか確認する
+
+```bash
+find assets/audio -name '*.mp3' | wc -l
+```
+
+`1928` と出れば完璧です。少なければ、もう一度 手順5 のコマンドを実行してください。
+
+試しに1つ聞いてみます(セット1・Part 1・1問目のナレーション)。
+
+```bash
+afplay assets/audio/s1/s1p1-01/0.mp3
+```
+
+英語のナレーションが聞こえれば成功です。
+
+---
+
+## 6. GitHub に上げる(これでアプリに反映される)
+
+```bash
+git add assets/audio && git commit -m "リスニング音声を追加" && git push origin main
+```
+
+- 約56MBあるので `git push` は数分かかることがあります。止まって見えても待ってください。
+- 完了後にアプリを開くと、リスニングが録音音声で再生されます。
+- 録音が無い問題は、これまで通り自動的に端末の合成音声にフォールバックします(設定は不要)。
+
+---
 
 ## 使われる声(本番と同じ4カ国)
 
-- `en-AU-NatashaNeural`
-- `en-AU-WilliamNeural`
-- `en-CA-ClaraNeural`
-- `en-CA-LiamNeural`
-- `en-GB-RyanNeural`
-- `en-GB-SoniaNeural`
-- `en-US-AriaNeural`
-- `en-US-GuyNeural`
-- `en-US-JennyNeural`
+| 役割 | 国 | 男性 | 女性 |
+|---|---|---|---|
+| 会話・応答 | アメリカ | en-US-GuyNeural | en-US-JennyNeural |
+| 会話・応答 | イギリス | en-GB-RyanNeural | en-GB-SoniaNeural |
+| 会話・応答 | オーストラリア | en-AU-WilliamNeural | en-AU-NatashaNeural |
+| 会話・応答 | カナダ | en-CA-LiamNeural | en-CA-ClaraNeural |
+| ナレーター(問題番号・導入文・設問読み上げ) | アメリカ | — | en-US-AriaNeural |
 
-米・英・豪・加をローテーションし、問題ごとに違う話者が当たります。ナレーター(導入文・設問読み上げ)は別の声です。
+問題ごとに4カ国を順番にローテーションします。読み上げ速度は本番に合わせて標準より5%ゆっくりです(変えたい場合は `tools/generate_audio.py` の `RATE = "-5%"` を書き換えて再生成)。
 
 ## 収録される内容(本番と同じ形式)
 
-- **Part 1**: 「Look at the picture marked number N in your test book.」+ A.〜D. の4文
-- **Part 2**: 「Number N.」+ 質問 + A.〜C. の3応答
-- **Part 3/4**: 「Questions X through Y refer to the following ...」+ 会話/トーク + 設問読み上げ(各8秒ポーズ)
+- **Part 1**:「Look at the picture marked number 1 in your test book.」→「A.」「B.」「C.」「D.」付きで4つの説明文
+- **Part 2**:「Number 7.」→ 質問 →「A.」「B.」「C.」付きで3つの応答(質問と応答は別の話者)
+- **Part 3/4**:「Questions 1 through 3 refer to the following conversation (with three speakers) (and 図表).」→ 会話/トーク → 設問読み上げ(各8秒ポーズ)
+
+---
+
+## 問題を追加・修正したとき
+
+問題文や音声スクリプトを変えたら、**一覧(manifest)を作り直してから**生成し直します。
+
+```bash
+node tools/build_audio_manifest.js
+python3 tools/generate_audio.py
+git add assets/audio && git commit -m "音声を更新" && git push origin main
+```
+
+変わっていない問題はスキップされるので、追加分だけが数分で作られます。
+
+**特定のセットを全部作り直したいとき**は、そのフォルダだけ消してから実行します(例:セット3)。
+
+```bash
+rm -rf assets/audio/s3
+```
+
+> ⚠️ `assets/audio/manifest.js` は消さないでください(アプリが読む索引ファイルです)。`rm -rf assets/audio` とフォルダごと消すのはNGです。
+
+---
 
 ## 困ったとき
 
-| 症状 | 対処 |
+| 症状 | 原因と対処 |
 |---|---|
-| `pip3: command not found` | Mac に Python が未導入。`brew install python3` を実行、または python.org からインストール |
-| 途中でエラーが出た | もう一度 `python3 tools/generate_audio.py` を実行すれば続きから再開する |
-| 音声を作り直したい | `rm -rf assets/audio` で消してから再実行 |
+| `edge-tts が見つかりません` と出る | 手順3をやり直す。`python3 -m pip install --user edge-tts` も試す |
+| `No such file or directory: tools/generate_audio.py` | `toeic_test` フォルダの外にいる。`cd ~/Documents/toeic_test` してから再実行 |
+| 途中で `失敗:12` などと出る | 通信が一時的に切れただけ。同じコマンドをもう一度実行すれば失敗分だけ作り直す |
+| ずっと `0/1928` から進まない | ネット未接続、または社内プロキシでブロックされている。別回線(自宅Wi-Fi/テザリング)で試す |
+| `git push` で `rejected` と出る | 先に `git pull origin main` してから、もう一度 push |
+| アプリを開いても合成音声のまま | mp3 が push できていない。`find assets/audio -name '*.mp3' \| wc -l` が 1928 か確認し、`git status` で未コミットが無いか見る |
+| 生成が遅すぎる | `tools/generate_audio.py` の `CONCURRENCY = 4` を `8` に上げる(上げすぎると拒否されます) |
+
+---
+
+## まとめ(コマンドだけ)
+
+```bash
+cd ~/Documents/toeic_test
+git pull origin main
+pip3 install edge-tts
+python3 tools/generate_audio.py
+find assets/audio -name '*.mp3' | wc -l      # 1928 になればOK
+git add assets/audio && git commit -m "リスニング音声を追加" && git push origin main
+```
