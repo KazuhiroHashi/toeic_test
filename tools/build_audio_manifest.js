@@ -97,6 +97,10 @@ if (process.argv[2] && /^\d+$/.test(process.argv[2])) {
 }
 function letterText(i) { return LETTERS[i] + "."; }
 
+// 記号を読む声。本文の話者と性別だけ合わせ、声はアメリカの2声に固定する。
+// 他の声は単独の「A.」を言い切らず、語尾が上がって次の語につながる読み方になるため。
+var LETTER_VOICE = { M: "en-US-GuyNeural", W: "en-US-JennyNeural" };
+
 var clips = [];       // {file, text, voice}
 var manifest = {};    // "s1:taskid" -> [{f, g}, ...]
 
@@ -112,6 +116,9 @@ SET_SOURCES.forEach(function (SRC) {
     var files = [];
     lines.forEach(function (ln, idx) {
       var voice = voiceFor(ln.speaker, c0, c1);
+      if (ln.letter) {
+        voice = LETTER_VOICE[(ln.speaker === "W" || ln.speaker === "W2") ? "W" : "M"];
+      }
       var file = "assets/audio/" + SETID + "/" + taskid + "/" + idx + ".mp3";
       var clip = { file: file, text: ln.text, voice: voice };
       if (voice === NARRATOR) {
@@ -128,7 +135,7 @@ SET_SOURCES.forEach(function (SRC) {
   DATA.part1.forEach(function (it, idx) {
     var lines = [{ speaker: "N", text: "Look at the picture marked number " + (PART_START.part1 + idx) + " in your test book.", gapAfter: 1000 }];
     it.choices.forEach(function (c, i) {
-      lines.push({ speaker: it.speaker || "M", text: letterText(i), gapAfter: LETTER_GAP });
+      lines.push({ speaker: it.speaker || "M", text: letterText(i), letter: true, gapAfter: LETTER_GAP });
       lines.push({ speaker: it.speaker || "M", text: c, gapAfter: 1000 });
     });
     addTask(it.id, lines);
@@ -143,7 +150,7 @@ SET_SOURCES.forEach(function (SRC) {
       { speaker: qsp, text: it.question.text, gapAfter: 1000 }
     ];
     it.choices.forEach(function (c, i) {
-      lines.push({ speaker: osp, text: letterText(i), gapAfter: LETTER_GAP });
+      lines.push({ speaker: osp, text: letterText(i), letter: true, gapAfter: LETTER_GAP });
       lines.push({ speaker: osp, text: c, gapAfter: 1000 });
     });
     addTask(it.id, lines);

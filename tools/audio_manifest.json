@@ -54,7 +54,7 @@
   {
     "file": "assets/audio/s1/p1-02/1.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p1-02/2.mp3",
@@ -64,7 +64,7 @@
   {
     "file": "assets/audio/s1/p1-02/3.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p1-02/4.mp3",
@@ -74,7 +74,7 @@
   {
     "file": "assets/audio/s1/p1-02/5.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p1-02/6.mp3",
@@ -84,7 +84,7 @@
   {
     "file": "assets/audio/s1/p1-02/7.mp3",
     "text": "D.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p1-02/8.mp3",
@@ -100,7 +100,7 @@
   {
     "file": "assets/audio/s1/p1-03/1.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p1-03/2.mp3",
@@ -110,7 +110,7 @@
   {
     "file": "assets/audio/s1/p1-03/3.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p1-03/4.mp3",
@@ -120,7 +120,7 @@
   {
     "file": "assets/audio/s1/p1-03/5.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p1-03/6.mp3",
@@ -130,7 +130,7 @@
   {
     "file": "assets/audio/s1/p1-03/7.mp3",
     "text": "D.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p1-03/8.mp3",
@@ -146,7 +146,7 @@
   {
     "file": "assets/audio/s1/p1-04/1.mp3",
     "text": "A.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p1-04/2.mp3",
@@ -156,7 +156,7 @@
   {
     "file": "assets/audio/s1/p1-04/3.mp3",
     "text": "B.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p1-04/4.mp3",
@@ -166,7 +166,7 @@
   {
     "file": "assets/audio/s1/p1-04/5.mp3",
     "text": "C.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p1-04/6.mp3",
@@ -176,7 +176,7 @@
   {
     "file": "assets/audio/s1/p1-04/7.mp3",
     "text": "D.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p1-04/8.mp3",
@@ -238,7 +238,7 @@
   {
     "file": "assets/audio/s1/p1-06/1.mp3",
     "text": "A.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p1-06/2.mp3",
@@ -248,7 +248,7 @@
   {
     "file": "assets/audio/s1/p1-06/3.mp3",
     "text": "B.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p1-06/4.mp3",
@@ -258,7 +258,7 @@
   {
     "file": "assets/audio/s1/p1-06/5.mp3",
     "text": "C.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p1-06/6.mp3",
@@ -268,7 +268,7 @@
   {
     "file": "assets/audio/s1/p1-06/7.mp3",
     "text": "D.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p1-06/8.mp3",
@@ -289,7 +289,7 @@
   {
     "file": "assets/audio/s1/p2-01/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-01/3.mp3",
@@ -299,7 +299,7 @@
   {
     "file": "assets/audio/s1/p2-01/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-01/5.mp3",
@@ -309,7 +309,7 @@
   {
     "file": "assets/audio/s1/p2-01/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-01/7.mp3",
@@ -330,7 +330,7 @@
   {
     "file": "assets/audio/s1/p2-02/2.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-02/3.mp3",
@@ -340,7 +340,7 @@
   {
     "file": "assets/audio/s1/p2-02/4.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-02/5.mp3",
@@ -350,7 +350,7 @@
   {
     "file": "assets/audio/s1/p2-02/6.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-02/7.mp3",
@@ -412,7 +412,7 @@
   {
     "file": "assets/audio/s1/p2-04/2.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-04/3.mp3",
@@ -422,7 +422,7 @@
   {
     "file": "assets/audio/s1/p2-04/4.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-04/5.mp3",
@@ -432,7 +432,7 @@
   {
     "file": "assets/audio/s1/p2-04/6.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-04/7.mp3",
@@ -453,7 +453,7 @@
   {
     "file": "assets/audio/s1/p2-05/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-05/3.mp3",
@@ -463,7 +463,7 @@
   {
     "file": "assets/audio/s1/p2-05/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-05/5.mp3",
@@ -473,7 +473,7 @@
   {
     "file": "assets/audio/s1/p2-05/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-05/7.mp3",
@@ -494,7 +494,7 @@
   {
     "file": "assets/audio/s1/p2-06/2.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-06/3.mp3",
@@ -504,7 +504,7 @@
   {
     "file": "assets/audio/s1/p2-06/4.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-06/5.mp3",
@@ -514,7 +514,7 @@
   {
     "file": "assets/audio/s1/p2-06/6.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-06/7.mp3",
@@ -576,7 +576,7 @@
   {
     "file": "assets/audio/s1/p2-08/2.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-08/3.mp3",
@@ -586,7 +586,7 @@
   {
     "file": "assets/audio/s1/p2-08/4.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-08/5.mp3",
@@ -596,7 +596,7 @@
   {
     "file": "assets/audio/s1/p2-08/6.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-08/7.mp3",
@@ -617,7 +617,7 @@
   {
     "file": "assets/audio/s1/p2-09/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-09/3.mp3",
@@ -627,7 +627,7 @@
   {
     "file": "assets/audio/s1/p2-09/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-09/5.mp3",
@@ -637,7 +637,7 @@
   {
     "file": "assets/audio/s1/p2-09/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-09/7.mp3",
@@ -658,7 +658,7 @@
   {
     "file": "assets/audio/s1/p2-10/2.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-10/3.mp3",
@@ -668,7 +668,7 @@
   {
     "file": "assets/audio/s1/p2-10/4.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-10/5.mp3",
@@ -678,7 +678,7 @@
   {
     "file": "assets/audio/s1/p2-10/6.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-10/7.mp3",
@@ -740,7 +740,7 @@
   {
     "file": "assets/audio/s1/p2-12/2.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-12/3.mp3",
@@ -750,7 +750,7 @@
   {
     "file": "assets/audio/s1/p2-12/4.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-12/5.mp3",
@@ -760,7 +760,7 @@
   {
     "file": "assets/audio/s1/p2-12/6.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-12/7.mp3",
@@ -781,7 +781,7 @@
   {
     "file": "assets/audio/s1/p2-13/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-13/3.mp3",
@@ -791,7 +791,7 @@
   {
     "file": "assets/audio/s1/p2-13/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-13/5.mp3",
@@ -801,7 +801,7 @@
   {
     "file": "assets/audio/s1/p2-13/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-13/7.mp3",
@@ -822,7 +822,7 @@
   {
     "file": "assets/audio/s1/p2-14/2.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-14/3.mp3",
@@ -832,7 +832,7 @@
   {
     "file": "assets/audio/s1/p2-14/4.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-14/5.mp3",
@@ -842,7 +842,7 @@
   {
     "file": "assets/audio/s1/p2-14/6.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-14/7.mp3",
@@ -904,7 +904,7 @@
   {
     "file": "assets/audio/s1/p2-16/2.mp3",
     "text": "A.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-16/3.mp3",
@@ -914,7 +914,7 @@
   {
     "file": "assets/audio/s1/p2-16/4.mp3",
     "text": "B.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-16/5.mp3",
@@ -924,7 +924,7 @@
   {
     "file": "assets/audio/s1/p2-16/6.mp3",
     "text": "C.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-16/7.mp3",
@@ -945,7 +945,7 @@
   {
     "file": "assets/audio/s1/p2-17/2.mp3",
     "text": "A.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-17/3.mp3",
@@ -955,7 +955,7 @@
   {
     "file": "assets/audio/s1/p2-17/4.mp3",
     "text": "B.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-17/5.mp3",
@@ -965,7 +965,7 @@
   {
     "file": "assets/audio/s1/p2-17/6.mp3",
     "text": "C.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-17/7.mp3",
@@ -986,7 +986,7 @@
   {
     "file": "assets/audio/s1/p2-18/2.mp3",
     "text": "A.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-18/3.mp3",
@@ -996,7 +996,7 @@
   {
     "file": "assets/audio/s1/p2-18/4.mp3",
     "text": "B.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-18/5.mp3",
@@ -1006,7 +1006,7 @@
   {
     "file": "assets/audio/s1/p2-18/6.mp3",
     "text": "C.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-18/7.mp3",
@@ -1068,7 +1068,7 @@
   {
     "file": "assets/audio/s1/p2-20/2.mp3",
     "text": "A.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-20/3.mp3",
@@ -1078,7 +1078,7 @@
   {
     "file": "assets/audio/s1/p2-20/4.mp3",
     "text": "B.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-20/5.mp3",
@@ -1088,7 +1088,7 @@
   {
     "file": "assets/audio/s1/p2-20/6.mp3",
     "text": "C.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-20/7.mp3",
@@ -1109,7 +1109,7 @@
   {
     "file": "assets/audio/s1/p2-21/2.mp3",
     "text": "A.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-21/3.mp3",
@@ -1119,7 +1119,7 @@
   {
     "file": "assets/audio/s1/p2-21/4.mp3",
     "text": "B.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-21/5.mp3",
@@ -1129,7 +1129,7 @@
   {
     "file": "assets/audio/s1/p2-21/6.mp3",
     "text": "C.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-21/7.mp3",
@@ -1150,7 +1150,7 @@
   {
     "file": "assets/audio/s1/p2-22/2.mp3",
     "text": "A.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-22/3.mp3",
@@ -1160,7 +1160,7 @@
   {
     "file": "assets/audio/s1/p2-22/4.mp3",
     "text": "B.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-22/5.mp3",
@@ -1170,7 +1170,7 @@
   {
     "file": "assets/audio/s1/p2-22/6.mp3",
     "text": "C.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-22/7.mp3",
@@ -1232,7 +1232,7 @@
   {
     "file": "assets/audio/s1/p2-24/2.mp3",
     "text": "A.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-24/3.mp3",
@@ -1242,7 +1242,7 @@
   {
     "file": "assets/audio/s1/p2-24/4.mp3",
     "text": "B.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-24/5.mp3",
@@ -1252,7 +1252,7 @@
   {
     "file": "assets/audio/s1/p2-24/6.mp3",
     "text": "C.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s1/p2-24/7.mp3",
@@ -1273,7 +1273,7 @@
   {
     "file": "assets/audio/s1/p2-25/2.mp3",
     "text": "A.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-25/3.mp3",
@@ -1283,7 +1283,7 @@
   {
     "file": "assets/audio/s1/p2-25/4.mp3",
     "text": "B.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-25/5.mp3",
@@ -1293,7 +1293,7 @@
   {
     "file": "assets/audio/s1/p2-25/6.mp3",
     "text": "C.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s1/p2-25/7.mp3",
@@ -2257,7 +2257,7 @@
   {
     "file": "assets/audio/s2/s2p1-02/1.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p1-02/2.mp3",
@@ -2267,7 +2267,7 @@
   {
     "file": "assets/audio/s2/s2p1-02/3.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p1-02/4.mp3",
@@ -2277,7 +2277,7 @@
   {
     "file": "assets/audio/s2/s2p1-02/5.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p1-02/6.mp3",
@@ -2287,7 +2287,7 @@
   {
     "file": "assets/audio/s2/s2p1-02/7.mp3",
     "text": "D.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p1-02/8.mp3",
@@ -2303,7 +2303,7 @@
   {
     "file": "assets/audio/s2/s2p1-03/1.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p1-03/2.mp3",
@@ -2313,7 +2313,7 @@
   {
     "file": "assets/audio/s2/s2p1-03/3.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p1-03/4.mp3",
@@ -2323,7 +2323,7 @@
   {
     "file": "assets/audio/s2/s2p1-03/5.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p1-03/6.mp3",
@@ -2333,7 +2333,7 @@
   {
     "file": "assets/audio/s2/s2p1-03/7.mp3",
     "text": "D.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p1-03/8.mp3",
@@ -2349,7 +2349,7 @@
   {
     "file": "assets/audio/s2/s2p1-04/1.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p1-04/2.mp3",
@@ -2359,7 +2359,7 @@
   {
     "file": "assets/audio/s2/s2p1-04/3.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p1-04/4.mp3",
@@ -2369,7 +2369,7 @@
   {
     "file": "assets/audio/s2/s2p1-04/5.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p1-04/6.mp3",
@@ -2379,7 +2379,7 @@
   {
     "file": "assets/audio/s2/s2p1-04/7.mp3",
     "text": "D.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p1-04/8.mp3",
@@ -2441,7 +2441,7 @@
   {
     "file": "assets/audio/s2/s2p1-06/1.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p1-06/2.mp3",
@@ -2451,7 +2451,7 @@
   {
     "file": "assets/audio/s2/s2p1-06/3.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p1-06/4.mp3",
@@ -2461,7 +2461,7 @@
   {
     "file": "assets/audio/s2/s2p1-06/5.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p1-06/6.mp3",
@@ -2471,7 +2471,7 @@
   {
     "file": "assets/audio/s2/s2p1-06/7.mp3",
     "text": "D.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p1-06/8.mp3",
@@ -2492,7 +2492,7 @@
   {
     "file": "assets/audio/s2/s2p2-01/2.mp3",
     "text": "A.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-01/3.mp3",
@@ -2502,7 +2502,7 @@
   {
     "file": "assets/audio/s2/s2p2-01/4.mp3",
     "text": "B.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-01/5.mp3",
@@ -2512,7 +2512,7 @@
   {
     "file": "assets/audio/s2/s2p2-01/6.mp3",
     "text": "C.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-01/7.mp3",
@@ -2533,7 +2533,7 @@
   {
     "file": "assets/audio/s2/s2p2-02/2.mp3",
     "text": "A.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-02/3.mp3",
@@ -2543,7 +2543,7 @@
   {
     "file": "assets/audio/s2/s2p2-02/4.mp3",
     "text": "B.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-02/5.mp3",
@@ -2553,7 +2553,7 @@
   {
     "file": "assets/audio/s2/s2p2-02/6.mp3",
     "text": "C.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-02/7.mp3",
@@ -2615,7 +2615,7 @@
   {
     "file": "assets/audio/s2/s2p2-04/2.mp3",
     "text": "A.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-04/3.mp3",
@@ -2625,7 +2625,7 @@
   {
     "file": "assets/audio/s2/s2p2-04/4.mp3",
     "text": "B.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-04/5.mp3",
@@ -2635,7 +2635,7 @@
   {
     "file": "assets/audio/s2/s2p2-04/6.mp3",
     "text": "C.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-04/7.mp3",
@@ -2656,7 +2656,7 @@
   {
     "file": "assets/audio/s2/s2p2-05/2.mp3",
     "text": "A.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-05/3.mp3",
@@ -2666,7 +2666,7 @@
   {
     "file": "assets/audio/s2/s2p2-05/4.mp3",
     "text": "B.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-05/5.mp3",
@@ -2676,7 +2676,7 @@
   {
     "file": "assets/audio/s2/s2p2-05/6.mp3",
     "text": "C.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-05/7.mp3",
@@ -2697,7 +2697,7 @@
   {
     "file": "assets/audio/s2/s2p2-06/2.mp3",
     "text": "A.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-06/3.mp3",
@@ -2707,7 +2707,7 @@
   {
     "file": "assets/audio/s2/s2p2-06/4.mp3",
     "text": "B.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-06/5.mp3",
@@ -2717,7 +2717,7 @@
   {
     "file": "assets/audio/s2/s2p2-06/6.mp3",
     "text": "C.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-06/7.mp3",
@@ -2779,7 +2779,7 @@
   {
     "file": "assets/audio/s2/s2p2-08/2.mp3",
     "text": "A.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-08/3.mp3",
@@ -2789,7 +2789,7 @@
   {
     "file": "assets/audio/s2/s2p2-08/4.mp3",
     "text": "B.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-08/5.mp3",
@@ -2799,7 +2799,7 @@
   {
     "file": "assets/audio/s2/s2p2-08/6.mp3",
     "text": "C.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-08/7.mp3",
@@ -2820,7 +2820,7 @@
   {
     "file": "assets/audio/s2/s2p2-09/2.mp3",
     "text": "A.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-09/3.mp3",
@@ -2830,7 +2830,7 @@
   {
     "file": "assets/audio/s2/s2p2-09/4.mp3",
     "text": "B.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-09/5.mp3",
@@ -2840,7 +2840,7 @@
   {
     "file": "assets/audio/s2/s2p2-09/6.mp3",
     "text": "C.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-09/7.mp3",
@@ -2861,7 +2861,7 @@
   {
     "file": "assets/audio/s2/s2p2-10/2.mp3",
     "text": "A.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-10/3.mp3",
@@ -2871,7 +2871,7 @@
   {
     "file": "assets/audio/s2/s2p2-10/4.mp3",
     "text": "B.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-10/5.mp3",
@@ -2881,7 +2881,7 @@
   {
     "file": "assets/audio/s2/s2p2-10/6.mp3",
     "text": "C.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-10/7.mp3",
@@ -2943,7 +2943,7 @@
   {
     "file": "assets/audio/s2/s2p2-12/2.mp3",
     "text": "A.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-12/3.mp3",
@@ -2953,7 +2953,7 @@
   {
     "file": "assets/audio/s2/s2p2-12/4.mp3",
     "text": "B.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-12/5.mp3",
@@ -2963,7 +2963,7 @@
   {
     "file": "assets/audio/s2/s2p2-12/6.mp3",
     "text": "C.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-12/7.mp3",
@@ -2984,7 +2984,7 @@
   {
     "file": "assets/audio/s2/s2p2-13/2.mp3",
     "text": "A.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-13/3.mp3",
@@ -2994,7 +2994,7 @@
   {
     "file": "assets/audio/s2/s2p2-13/4.mp3",
     "text": "B.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-13/5.mp3",
@@ -3004,7 +3004,7 @@
   {
     "file": "assets/audio/s2/s2p2-13/6.mp3",
     "text": "C.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-13/7.mp3",
@@ -3025,7 +3025,7 @@
   {
     "file": "assets/audio/s2/s2p2-14/2.mp3",
     "text": "A.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-14/3.mp3",
@@ -3035,7 +3035,7 @@
   {
     "file": "assets/audio/s2/s2p2-14/4.mp3",
     "text": "B.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-14/5.mp3",
@@ -3045,7 +3045,7 @@
   {
     "file": "assets/audio/s2/s2p2-14/6.mp3",
     "text": "C.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-14/7.mp3",
@@ -3107,7 +3107,7 @@
   {
     "file": "assets/audio/s2/s2p2-16/2.mp3",
     "text": "A.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-16/3.mp3",
@@ -3117,7 +3117,7 @@
   {
     "file": "assets/audio/s2/s2p2-16/4.mp3",
     "text": "B.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-16/5.mp3",
@@ -3127,7 +3127,7 @@
   {
     "file": "assets/audio/s2/s2p2-16/6.mp3",
     "text": "C.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-16/7.mp3",
@@ -3148,7 +3148,7 @@
   {
     "file": "assets/audio/s2/s2p2-17/2.mp3",
     "text": "A.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-17/3.mp3",
@@ -3158,7 +3158,7 @@
   {
     "file": "assets/audio/s2/s2p2-17/4.mp3",
     "text": "B.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-17/5.mp3",
@@ -3168,7 +3168,7 @@
   {
     "file": "assets/audio/s2/s2p2-17/6.mp3",
     "text": "C.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-17/7.mp3",
@@ -3189,7 +3189,7 @@
   {
     "file": "assets/audio/s2/s2p2-18/2.mp3",
     "text": "A.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-18/3.mp3",
@@ -3199,7 +3199,7 @@
   {
     "file": "assets/audio/s2/s2p2-18/4.mp3",
     "text": "B.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-18/5.mp3",
@@ -3209,7 +3209,7 @@
   {
     "file": "assets/audio/s2/s2p2-18/6.mp3",
     "text": "C.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-18/7.mp3",
@@ -3271,7 +3271,7 @@
   {
     "file": "assets/audio/s2/s2p2-20/2.mp3",
     "text": "A.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-20/3.mp3",
@@ -3281,7 +3281,7 @@
   {
     "file": "assets/audio/s2/s2p2-20/4.mp3",
     "text": "B.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-20/5.mp3",
@@ -3291,7 +3291,7 @@
   {
     "file": "assets/audio/s2/s2p2-20/6.mp3",
     "text": "C.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-20/7.mp3",
@@ -3312,7 +3312,7 @@
   {
     "file": "assets/audio/s2/s2p2-21/2.mp3",
     "text": "A.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-21/3.mp3",
@@ -3322,7 +3322,7 @@
   {
     "file": "assets/audio/s2/s2p2-21/4.mp3",
     "text": "B.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-21/5.mp3",
@@ -3332,7 +3332,7 @@
   {
     "file": "assets/audio/s2/s2p2-21/6.mp3",
     "text": "C.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-21/7.mp3",
@@ -3353,7 +3353,7 @@
   {
     "file": "assets/audio/s2/s2p2-22/2.mp3",
     "text": "A.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-22/3.mp3",
@@ -3363,7 +3363,7 @@
   {
     "file": "assets/audio/s2/s2p2-22/4.mp3",
     "text": "B.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-22/5.mp3",
@@ -3373,7 +3373,7 @@
   {
     "file": "assets/audio/s2/s2p2-22/6.mp3",
     "text": "C.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-22/7.mp3",
@@ -3435,7 +3435,7 @@
   {
     "file": "assets/audio/s2/s2p2-24/2.mp3",
     "text": "A.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-24/3.mp3",
@@ -3445,7 +3445,7 @@
   {
     "file": "assets/audio/s2/s2p2-24/4.mp3",
     "text": "B.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-24/5.mp3",
@@ -3455,7 +3455,7 @@
   {
     "file": "assets/audio/s2/s2p2-24/6.mp3",
     "text": "C.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-24/7.mp3",
@@ -3476,7 +3476,7 @@
   {
     "file": "assets/audio/s2/s2p2-25/2.mp3",
     "text": "A.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-25/3.mp3",
@@ -3486,7 +3486,7 @@
   {
     "file": "assets/audio/s2/s2p2-25/4.mp3",
     "text": "B.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-25/5.mp3",
@@ -3496,7 +3496,7 @@
   {
     "file": "assets/audio/s2/s2p2-25/6.mp3",
     "text": "C.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s2/s2p2-25/7.mp3",
@@ -4445,7 +4445,7 @@
   {
     "file": "assets/audio/s3/s3p1-02/1.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p1-02/2.mp3",
@@ -4455,7 +4455,7 @@
   {
     "file": "assets/audio/s3/s3p1-02/3.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p1-02/4.mp3",
@@ -4465,7 +4465,7 @@
   {
     "file": "assets/audio/s3/s3p1-02/5.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p1-02/6.mp3",
@@ -4475,7 +4475,7 @@
   {
     "file": "assets/audio/s3/s3p1-02/7.mp3",
     "text": "D.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p1-02/8.mp3",
@@ -4491,7 +4491,7 @@
   {
     "file": "assets/audio/s3/s3p1-03/1.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p1-03/2.mp3",
@@ -4501,7 +4501,7 @@
   {
     "file": "assets/audio/s3/s3p1-03/3.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p1-03/4.mp3",
@@ -4511,7 +4511,7 @@
   {
     "file": "assets/audio/s3/s3p1-03/5.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p1-03/6.mp3",
@@ -4521,7 +4521,7 @@
   {
     "file": "assets/audio/s3/s3p1-03/7.mp3",
     "text": "D.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p1-03/8.mp3",
@@ -4537,7 +4537,7 @@
   {
     "file": "assets/audio/s3/s3p1-04/1.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p1-04/2.mp3",
@@ -4547,7 +4547,7 @@
   {
     "file": "assets/audio/s3/s3p1-04/3.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p1-04/4.mp3",
@@ -4557,7 +4557,7 @@
   {
     "file": "assets/audio/s3/s3p1-04/5.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p1-04/6.mp3",
@@ -4567,7 +4567,7 @@
   {
     "file": "assets/audio/s3/s3p1-04/7.mp3",
     "text": "D.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p1-04/8.mp3",
@@ -4629,7 +4629,7 @@
   {
     "file": "assets/audio/s3/s3p1-06/1.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p1-06/2.mp3",
@@ -4639,7 +4639,7 @@
   {
     "file": "assets/audio/s3/s3p1-06/3.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p1-06/4.mp3",
@@ -4649,7 +4649,7 @@
   {
     "file": "assets/audio/s3/s3p1-06/5.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p1-06/6.mp3",
@@ -4659,7 +4659,7 @@
   {
     "file": "assets/audio/s3/s3p1-06/7.mp3",
     "text": "D.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p1-06/8.mp3",
@@ -4680,7 +4680,7 @@
   {
     "file": "assets/audio/s3/s3p2-01/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-01/3.mp3",
@@ -4690,7 +4690,7 @@
   {
     "file": "assets/audio/s3/s3p2-01/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-01/5.mp3",
@@ -4700,7 +4700,7 @@
   {
     "file": "assets/audio/s3/s3p2-01/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-01/7.mp3",
@@ -4721,7 +4721,7 @@
   {
     "file": "assets/audio/s3/s3p2-02/2.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-02/3.mp3",
@@ -4731,7 +4731,7 @@
   {
     "file": "assets/audio/s3/s3p2-02/4.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-02/5.mp3",
@@ -4741,7 +4741,7 @@
   {
     "file": "assets/audio/s3/s3p2-02/6.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-02/7.mp3",
@@ -4803,7 +4803,7 @@
   {
     "file": "assets/audio/s3/s3p2-04/2.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-04/3.mp3",
@@ -4813,7 +4813,7 @@
   {
     "file": "assets/audio/s3/s3p2-04/4.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-04/5.mp3",
@@ -4823,7 +4823,7 @@
   {
     "file": "assets/audio/s3/s3p2-04/6.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-04/7.mp3",
@@ -4844,7 +4844,7 @@
   {
     "file": "assets/audio/s3/s3p2-05/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-05/3.mp3",
@@ -4854,7 +4854,7 @@
   {
     "file": "assets/audio/s3/s3p2-05/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-05/5.mp3",
@@ -4864,7 +4864,7 @@
   {
     "file": "assets/audio/s3/s3p2-05/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-05/7.mp3",
@@ -4885,7 +4885,7 @@
   {
     "file": "assets/audio/s3/s3p2-06/2.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-06/3.mp3",
@@ -4895,7 +4895,7 @@
   {
     "file": "assets/audio/s3/s3p2-06/4.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-06/5.mp3",
@@ -4905,7 +4905,7 @@
   {
     "file": "assets/audio/s3/s3p2-06/6.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-06/7.mp3",
@@ -4967,7 +4967,7 @@
   {
     "file": "assets/audio/s3/s3p2-08/2.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-08/3.mp3",
@@ -4977,7 +4977,7 @@
   {
     "file": "assets/audio/s3/s3p2-08/4.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-08/5.mp3",
@@ -4987,7 +4987,7 @@
   {
     "file": "assets/audio/s3/s3p2-08/6.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-08/7.mp3",
@@ -5008,7 +5008,7 @@
   {
     "file": "assets/audio/s3/s3p2-09/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-09/3.mp3",
@@ -5018,7 +5018,7 @@
   {
     "file": "assets/audio/s3/s3p2-09/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-09/5.mp3",
@@ -5028,7 +5028,7 @@
   {
     "file": "assets/audio/s3/s3p2-09/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-09/7.mp3",
@@ -5049,7 +5049,7 @@
   {
     "file": "assets/audio/s3/s3p2-10/2.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-10/3.mp3",
@@ -5059,7 +5059,7 @@
   {
     "file": "assets/audio/s3/s3p2-10/4.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-10/5.mp3",
@@ -5069,7 +5069,7 @@
   {
     "file": "assets/audio/s3/s3p2-10/6.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-10/7.mp3",
@@ -5131,7 +5131,7 @@
   {
     "file": "assets/audio/s3/s3p2-12/2.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-12/3.mp3",
@@ -5141,7 +5141,7 @@
   {
     "file": "assets/audio/s3/s3p2-12/4.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-12/5.mp3",
@@ -5151,7 +5151,7 @@
   {
     "file": "assets/audio/s3/s3p2-12/6.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-12/7.mp3",
@@ -5172,7 +5172,7 @@
   {
     "file": "assets/audio/s3/s3p2-13/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-13/3.mp3",
@@ -5182,7 +5182,7 @@
   {
     "file": "assets/audio/s3/s3p2-13/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-13/5.mp3",
@@ -5192,7 +5192,7 @@
   {
     "file": "assets/audio/s3/s3p2-13/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-13/7.mp3",
@@ -5213,7 +5213,7 @@
   {
     "file": "assets/audio/s3/s3p2-14/2.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-14/3.mp3",
@@ -5223,7 +5223,7 @@
   {
     "file": "assets/audio/s3/s3p2-14/4.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-14/5.mp3",
@@ -5233,7 +5233,7 @@
   {
     "file": "assets/audio/s3/s3p2-14/6.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-14/7.mp3",
@@ -5295,7 +5295,7 @@
   {
     "file": "assets/audio/s3/s3p2-16/2.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-16/3.mp3",
@@ -5305,7 +5305,7 @@
   {
     "file": "assets/audio/s3/s3p2-16/4.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-16/5.mp3",
@@ -5315,7 +5315,7 @@
   {
     "file": "assets/audio/s3/s3p2-16/6.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-16/7.mp3",
@@ -5336,7 +5336,7 @@
   {
     "file": "assets/audio/s3/s3p2-17/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-17/3.mp3",
@@ -5346,7 +5346,7 @@
   {
     "file": "assets/audio/s3/s3p2-17/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-17/5.mp3",
@@ -5356,7 +5356,7 @@
   {
     "file": "assets/audio/s3/s3p2-17/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-17/7.mp3",
@@ -5377,7 +5377,7 @@
   {
     "file": "assets/audio/s3/s3p2-18/2.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-18/3.mp3",
@@ -5387,7 +5387,7 @@
   {
     "file": "assets/audio/s3/s3p2-18/4.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-18/5.mp3",
@@ -5397,7 +5397,7 @@
   {
     "file": "assets/audio/s3/s3p2-18/6.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-18/7.mp3",
@@ -5459,7 +5459,7 @@
   {
     "file": "assets/audio/s3/s3p2-20/2.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-20/3.mp3",
@@ -5469,7 +5469,7 @@
   {
     "file": "assets/audio/s3/s3p2-20/4.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-20/5.mp3",
@@ -5479,7 +5479,7 @@
   {
     "file": "assets/audio/s3/s3p2-20/6.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-20/7.mp3",
@@ -5500,7 +5500,7 @@
   {
     "file": "assets/audio/s3/s3p2-21/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-21/3.mp3",
@@ -5510,7 +5510,7 @@
   {
     "file": "assets/audio/s3/s3p2-21/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-21/5.mp3",
@@ -5520,7 +5520,7 @@
   {
     "file": "assets/audio/s3/s3p2-21/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-21/7.mp3",
@@ -5541,7 +5541,7 @@
   {
     "file": "assets/audio/s3/s3p2-22/2.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-22/3.mp3",
@@ -5551,7 +5551,7 @@
   {
     "file": "assets/audio/s3/s3p2-22/4.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-22/5.mp3",
@@ -5561,7 +5561,7 @@
   {
     "file": "assets/audio/s3/s3p2-22/6.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-22/7.mp3",
@@ -5623,7 +5623,7 @@
   {
     "file": "assets/audio/s3/s3p2-24/2.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-24/3.mp3",
@@ -5633,7 +5633,7 @@
   {
     "file": "assets/audio/s3/s3p2-24/4.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-24/5.mp3",
@@ -5643,7 +5643,7 @@
   {
     "file": "assets/audio/s3/s3p2-24/6.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-24/7.mp3",
@@ -5664,7 +5664,7 @@
   {
     "file": "assets/audio/s3/s3p2-25/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-25/3.mp3",
@@ -5674,7 +5674,7 @@
   {
     "file": "assets/audio/s3/s3p2-25/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-25/5.mp3",
@@ -5684,7 +5684,7 @@
   {
     "file": "assets/audio/s3/s3p2-25/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s3/s3p2-25/7.mp3",
@@ -6658,7 +6658,7 @@
   {
     "file": "assets/audio/s4/s4p1-02/1.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-02/2.mp3",
@@ -6668,7 +6668,7 @@
   {
     "file": "assets/audio/s4/s4p1-02/3.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-02/4.mp3",
@@ -6678,7 +6678,7 @@
   {
     "file": "assets/audio/s4/s4p1-02/5.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-02/6.mp3",
@@ -6688,7 +6688,7 @@
   {
     "file": "assets/audio/s4/s4p1-02/7.mp3",
     "text": "D.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-02/8.mp3",
@@ -6704,7 +6704,7 @@
   {
     "file": "assets/audio/s4/s4p1-03/1.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-03/2.mp3",
@@ -6714,7 +6714,7 @@
   {
     "file": "assets/audio/s4/s4p1-03/3.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-03/4.mp3",
@@ -6724,7 +6724,7 @@
   {
     "file": "assets/audio/s4/s4p1-03/5.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-03/6.mp3",
@@ -6734,7 +6734,7 @@
   {
     "file": "assets/audio/s4/s4p1-03/7.mp3",
     "text": "D.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-03/8.mp3",
@@ -6750,7 +6750,7 @@
   {
     "file": "assets/audio/s4/s4p1-04/1.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-04/2.mp3",
@@ -6760,7 +6760,7 @@
   {
     "file": "assets/audio/s4/s4p1-04/3.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-04/4.mp3",
@@ -6770,7 +6770,7 @@
   {
     "file": "assets/audio/s4/s4p1-04/5.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-04/6.mp3",
@@ -6780,7 +6780,7 @@
   {
     "file": "assets/audio/s4/s4p1-04/7.mp3",
     "text": "D.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-04/8.mp3",
@@ -6842,7 +6842,7 @@
   {
     "file": "assets/audio/s4/s4p1-06/1.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-06/2.mp3",
@@ -6852,7 +6852,7 @@
   {
     "file": "assets/audio/s4/s4p1-06/3.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-06/4.mp3",
@@ -6862,7 +6862,7 @@
   {
     "file": "assets/audio/s4/s4p1-06/5.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-06/6.mp3",
@@ -6872,7 +6872,7 @@
   {
     "file": "assets/audio/s4/s4p1-06/7.mp3",
     "text": "D.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p1-06/8.mp3",
@@ -6893,7 +6893,7 @@
   {
     "file": "assets/audio/s4/s4p2-01/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-01/3.mp3",
@@ -6903,7 +6903,7 @@
   {
     "file": "assets/audio/s4/s4p2-01/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-01/5.mp3",
@@ -6913,7 +6913,7 @@
   {
     "file": "assets/audio/s4/s4p2-01/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-01/7.mp3",
@@ -6934,7 +6934,7 @@
   {
     "file": "assets/audio/s4/s4p2-02/2.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-02/3.mp3",
@@ -6944,7 +6944,7 @@
   {
     "file": "assets/audio/s4/s4p2-02/4.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-02/5.mp3",
@@ -6954,7 +6954,7 @@
   {
     "file": "assets/audio/s4/s4p2-02/6.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-02/7.mp3",
@@ -7016,7 +7016,7 @@
   {
     "file": "assets/audio/s4/s4p2-04/2.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-04/3.mp3",
@@ -7026,7 +7026,7 @@
   {
     "file": "assets/audio/s4/s4p2-04/4.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-04/5.mp3",
@@ -7036,7 +7036,7 @@
   {
     "file": "assets/audio/s4/s4p2-04/6.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-04/7.mp3",
@@ -7057,7 +7057,7 @@
   {
     "file": "assets/audio/s4/s4p2-05/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-05/3.mp3",
@@ -7067,7 +7067,7 @@
   {
     "file": "assets/audio/s4/s4p2-05/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-05/5.mp3",
@@ -7077,7 +7077,7 @@
   {
     "file": "assets/audio/s4/s4p2-05/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-05/7.mp3",
@@ -7098,7 +7098,7 @@
   {
     "file": "assets/audio/s4/s4p2-06/2.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-06/3.mp3",
@@ -7108,7 +7108,7 @@
   {
     "file": "assets/audio/s4/s4p2-06/4.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-06/5.mp3",
@@ -7118,7 +7118,7 @@
   {
     "file": "assets/audio/s4/s4p2-06/6.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-06/7.mp3",
@@ -7180,7 +7180,7 @@
   {
     "file": "assets/audio/s4/s4p2-08/2.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-08/3.mp3",
@@ -7190,7 +7190,7 @@
   {
     "file": "assets/audio/s4/s4p2-08/4.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-08/5.mp3",
@@ -7200,7 +7200,7 @@
   {
     "file": "assets/audio/s4/s4p2-08/6.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-08/7.mp3",
@@ -7221,7 +7221,7 @@
   {
     "file": "assets/audio/s4/s4p2-09/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-09/3.mp3",
@@ -7231,7 +7231,7 @@
   {
     "file": "assets/audio/s4/s4p2-09/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-09/5.mp3",
@@ -7241,7 +7241,7 @@
   {
     "file": "assets/audio/s4/s4p2-09/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-09/7.mp3",
@@ -7262,7 +7262,7 @@
   {
     "file": "assets/audio/s4/s4p2-10/2.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-10/3.mp3",
@@ -7272,7 +7272,7 @@
   {
     "file": "assets/audio/s4/s4p2-10/4.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-10/5.mp3",
@@ -7282,7 +7282,7 @@
   {
     "file": "assets/audio/s4/s4p2-10/6.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-10/7.mp3",
@@ -7344,7 +7344,7 @@
   {
     "file": "assets/audio/s4/s4p2-12/2.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-12/3.mp3",
@@ -7354,7 +7354,7 @@
   {
     "file": "assets/audio/s4/s4p2-12/4.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-12/5.mp3",
@@ -7364,7 +7364,7 @@
   {
     "file": "assets/audio/s4/s4p2-12/6.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-12/7.mp3",
@@ -7385,7 +7385,7 @@
   {
     "file": "assets/audio/s4/s4p2-13/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-13/3.mp3",
@@ -7395,7 +7395,7 @@
   {
     "file": "assets/audio/s4/s4p2-13/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-13/5.mp3",
@@ -7405,7 +7405,7 @@
   {
     "file": "assets/audio/s4/s4p2-13/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-13/7.mp3",
@@ -7426,7 +7426,7 @@
   {
     "file": "assets/audio/s4/s4p2-14/2.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-14/3.mp3",
@@ -7436,7 +7436,7 @@
   {
     "file": "assets/audio/s4/s4p2-14/4.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-14/5.mp3",
@@ -7446,7 +7446,7 @@
   {
     "file": "assets/audio/s4/s4p2-14/6.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-14/7.mp3",
@@ -7508,7 +7508,7 @@
   {
     "file": "assets/audio/s4/s4p2-16/2.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-16/3.mp3",
@@ -7518,7 +7518,7 @@
   {
     "file": "assets/audio/s4/s4p2-16/4.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-16/5.mp3",
@@ -7528,7 +7528,7 @@
   {
     "file": "assets/audio/s4/s4p2-16/6.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-16/7.mp3",
@@ -7549,7 +7549,7 @@
   {
     "file": "assets/audio/s4/s4p2-17/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-17/3.mp3",
@@ -7559,7 +7559,7 @@
   {
     "file": "assets/audio/s4/s4p2-17/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-17/5.mp3",
@@ -7569,7 +7569,7 @@
   {
     "file": "assets/audio/s4/s4p2-17/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-17/7.mp3",
@@ -7590,7 +7590,7 @@
   {
     "file": "assets/audio/s4/s4p2-18/2.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-18/3.mp3",
@@ -7600,7 +7600,7 @@
   {
     "file": "assets/audio/s4/s4p2-18/4.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-18/5.mp3",
@@ -7610,7 +7610,7 @@
   {
     "file": "assets/audio/s4/s4p2-18/6.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-18/7.mp3",
@@ -7672,7 +7672,7 @@
   {
     "file": "assets/audio/s4/s4p2-20/2.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-20/3.mp3",
@@ -7682,7 +7682,7 @@
   {
     "file": "assets/audio/s4/s4p2-20/4.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-20/5.mp3",
@@ -7692,7 +7692,7 @@
   {
     "file": "assets/audio/s4/s4p2-20/6.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-20/7.mp3",
@@ -7713,7 +7713,7 @@
   {
     "file": "assets/audio/s4/s4p2-21/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-21/3.mp3",
@@ -7723,7 +7723,7 @@
   {
     "file": "assets/audio/s4/s4p2-21/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-21/5.mp3",
@@ -7733,7 +7733,7 @@
   {
     "file": "assets/audio/s4/s4p2-21/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-21/7.mp3",
@@ -7754,7 +7754,7 @@
   {
     "file": "assets/audio/s4/s4p2-22/2.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-22/3.mp3",
@@ -7764,7 +7764,7 @@
   {
     "file": "assets/audio/s4/s4p2-22/4.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-22/5.mp3",
@@ -7774,7 +7774,7 @@
   {
     "file": "assets/audio/s4/s4p2-22/6.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-22/7.mp3",
@@ -7836,7 +7836,7 @@
   {
     "file": "assets/audio/s4/s4p2-24/2.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-24/3.mp3",
@@ -7846,7 +7846,7 @@
   {
     "file": "assets/audio/s4/s4p2-24/4.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-24/5.mp3",
@@ -7856,7 +7856,7 @@
   {
     "file": "assets/audio/s4/s4p2-24/6.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-24/7.mp3",
@@ -7877,7 +7877,7 @@
   {
     "file": "assets/audio/s4/s4p2-25/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-25/3.mp3",
@@ -7887,7 +7887,7 @@
   {
     "file": "assets/audio/s4/s4p2-25/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-25/5.mp3",
@@ -7897,7 +7897,7 @@
   {
     "file": "assets/audio/s4/s4p2-25/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s4/s4p2-25/7.mp3",
@@ -8906,7 +8906,7 @@
   {
     "file": "assets/audio/s5/s5p1-02/1.mp3",
     "text": "A.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p1-02/2.mp3",
@@ -8916,7 +8916,7 @@
   {
     "file": "assets/audio/s5/s5p1-02/3.mp3",
     "text": "B.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p1-02/4.mp3",
@@ -8926,7 +8926,7 @@
   {
     "file": "assets/audio/s5/s5p1-02/5.mp3",
     "text": "C.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p1-02/6.mp3",
@@ -8936,7 +8936,7 @@
   {
     "file": "assets/audio/s5/s5p1-02/7.mp3",
     "text": "D.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p1-02/8.mp3",
@@ -8952,7 +8952,7 @@
   {
     "file": "assets/audio/s5/s5p1-03/1.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p1-03/2.mp3",
@@ -8962,7 +8962,7 @@
   {
     "file": "assets/audio/s5/s5p1-03/3.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p1-03/4.mp3",
@@ -8972,7 +8972,7 @@
   {
     "file": "assets/audio/s5/s5p1-03/5.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p1-03/6.mp3",
@@ -8982,7 +8982,7 @@
   {
     "file": "assets/audio/s5/s5p1-03/7.mp3",
     "text": "D.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p1-03/8.mp3",
@@ -8998,7 +8998,7 @@
   {
     "file": "assets/audio/s5/s5p1-04/1.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p1-04/2.mp3",
@@ -9008,7 +9008,7 @@
   {
     "file": "assets/audio/s5/s5p1-04/3.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p1-04/4.mp3",
@@ -9018,7 +9018,7 @@
   {
     "file": "assets/audio/s5/s5p1-04/5.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p1-04/6.mp3",
@@ -9028,7 +9028,7 @@
   {
     "file": "assets/audio/s5/s5p1-04/7.mp3",
     "text": "D.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p1-04/8.mp3",
@@ -9090,7 +9090,7 @@
   {
     "file": "assets/audio/s5/s5p1-06/1.mp3",
     "text": "A.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p1-06/2.mp3",
@@ -9100,7 +9100,7 @@
   {
     "file": "assets/audio/s5/s5p1-06/3.mp3",
     "text": "B.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p1-06/4.mp3",
@@ -9110,7 +9110,7 @@
   {
     "file": "assets/audio/s5/s5p1-06/5.mp3",
     "text": "C.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p1-06/6.mp3",
@@ -9120,7 +9120,7 @@
   {
     "file": "assets/audio/s5/s5p1-06/7.mp3",
     "text": "D.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p1-06/8.mp3",
@@ -9141,7 +9141,7 @@
   {
     "file": "assets/audio/s5/s5p2-01/2.mp3",
     "text": "A.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-01/3.mp3",
@@ -9151,7 +9151,7 @@
   {
     "file": "assets/audio/s5/s5p2-01/4.mp3",
     "text": "B.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-01/5.mp3",
@@ -9161,7 +9161,7 @@
   {
     "file": "assets/audio/s5/s5p2-01/6.mp3",
     "text": "C.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-01/7.mp3",
@@ -9182,7 +9182,7 @@
   {
     "file": "assets/audio/s5/s5p2-02/2.mp3",
     "text": "A.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-02/3.mp3",
@@ -9192,7 +9192,7 @@
   {
     "file": "assets/audio/s5/s5p2-02/4.mp3",
     "text": "B.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-02/5.mp3",
@@ -9202,7 +9202,7 @@
   {
     "file": "assets/audio/s5/s5p2-02/6.mp3",
     "text": "C.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-02/7.mp3",
@@ -9264,7 +9264,7 @@
   {
     "file": "assets/audio/s5/s5p2-04/2.mp3",
     "text": "A.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-04/3.mp3",
@@ -9274,7 +9274,7 @@
   {
     "file": "assets/audio/s5/s5p2-04/4.mp3",
     "text": "B.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-04/5.mp3",
@@ -9284,7 +9284,7 @@
   {
     "file": "assets/audio/s5/s5p2-04/6.mp3",
     "text": "C.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-04/7.mp3",
@@ -9305,7 +9305,7 @@
   {
     "file": "assets/audio/s5/s5p2-05/2.mp3",
     "text": "A.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-05/3.mp3",
@@ -9315,7 +9315,7 @@
   {
     "file": "assets/audio/s5/s5p2-05/4.mp3",
     "text": "B.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-05/5.mp3",
@@ -9325,7 +9325,7 @@
   {
     "file": "assets/audio/s5/s5p2-05/6.mp3",
     "text": "C.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-05/7.mp3",
@@ -9346,7 +9346,7 @@
   {
     "file": "assets/audio/s5/s5p2-06/2.mp3",
     "text": "A.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-06/3.mp3",
@@ -9356,7 +9356,7 @@
   {
     "file": "assets/audio/s5/s5p2-06/4.mp3",
     "text": "B.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-06/5.mp3",
@@ -9366,7 +9366,7 @@
   {
     "file": "assets/audio/s5/s5p2-06/6.mp3",
     "text": "C.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-06/7.mp3",
@@ -9428,7 +9428,7 @@
   {
     "file": "assets/audio/s5/s5p2-08/2.mp3",
     "text": "A.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-08/3.mp3",
@@ -9438,7 +9438,7 @@
   {
     "file": "assets/audio/s5/s5p2-08/4.mp3",
     "text": "B.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-08/5.mp3",
@@ -9448,7 +9448,7 @@
   {
     "file": "assets/audio/s5/s5p2-08/6.mp3",
     "text": "C.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-08/7.mp3",
@@ -9469,7 +9469,7 @@
   {
     "file": "assets/audio/s5/s5p2-09/2.mp3",
     "text": "A.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-09/3.mp3",
@@ -9479,7 +9479,7 @@
   {
     "file": "assets/audio/s5/s5p2-09/4.mp3",
     "text": "B.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-09/5.mp3",
@@ -9489,7 +9489,7 @@
   {
     "file": "assets/audio/s5/s5p2-09/6.mp3",
     "text": "C.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-09/7.mp3",
@@ -9510,7 +9510,7 @@
   {
     "file": "assets/audio/s5/s5p2-10/2.mp3",
     "text": "A.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-10/3.mp3",
@@ -9520,7 +9520,7 @@
   {
     "file": "assets/audio/s5/s5p2-10/4.mp3",
     "text": "B.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-10/5.mp3",
@@ -9530,7 +9530,7 @@
   {
     "file": "assets/audio/s5/s5p2-10/6.mp3",
     "text": "C.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-10/7.mp3",
@@ -9592,7 +9592,7 @@
   {
     "file": "assets/audio/s5/s5p2-12/2.mp3",
     "text": "A.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-12/3.mp3",
@@ -9602,7 +9602,7 @@
   {
     "file": "assets/audio/s5/s5p2-12/4.mp3",
     "text": "B.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-12/5.mp3",
@@ -9612,7 +9612,7 @@
   {
     "file": "assets/audio/s5/s5p2-12/6.mp3",
     "text": "C.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-12/7.mp3",
@@ -9633,7 +9633,7 @@
   {
     "file": "assets/audio/s5/s5p2-13/2.mp3",
     "text": "A.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-13/3.mp3",
@@ -9643,7 +9643,7 @@
   {
     "file": "assets/audio/s5/s5p2-13/4.mp3",
     "text": "B.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-13/5.mp3",
@@ -9653,7 +9653,7 @@
   {
     "file": "assets/audio/s5/s5p2-13/6.mp3",
     "text": "C.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-13/7.mp3",
@@ -9674,7 +9674,7 @@
   {
     "file": "assets/audio/s5/s5p2-14/2.mp3",
     "text": "A.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-14/3.mp3",
@@ -9684,7 +9684,7 @@
   {
     "file": "assets/audio/s5/s5p2-14/4.mp3",
     "text": "B.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-14/5.mp3",
@@ -9694,7 +9694,7 @@
   {
     "file": "assets/audio/s5/s5p2-14/6.mp3",
     "text": "C.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-14/7.mp3",
@@ -9756,7 +9756,7 @@
   {
     "file": "assets/audio/s5/s5p2-16/2.mp3",
     "text": "A.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-16/3.mp3",
@@ -9766,7 +9766,7 @@
   {
     "file": "assets/audio/s5/s5p2-16/4.mp3",
     "text": "B.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-16/5.mp3",
@@ -9776,7 +9776,7 @@
   {
     "file": "assets/audio/s5/s5p2-16/6.mp3",
     "text": "C.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-16/7.mp3",
@@ -9797,7 +9797,7 @@
   {
     "file": "assets/audio/s5/s5p2-17/2.mp3",
     "text": "A.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-17/3.mp3",
@@ -9807,7 +9807,7 @@
   {
     "file": "assets/audio/s5/s5p2-17/4.mp3",
     "text": "B.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-17/5.mp3",
@@ -9817,7 +9817,7 @@
   {
     "file": "assets/audio/s5/s5p2-17/6.mp3",
     "text": "C.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-17/7.mp3",
@@ -9838,7 +9838,7 @@
   {
     "file": "assets/audio/s5/s5p2-18/2.mp3",
     "text": "A.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-18/3.mp3",
@@ -9848,7 +9848,7 @@
   {
     "file": "assets/audio/s5/s5p2-18/4.mp3",
     "text": "B.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-18/5.mp3",
@@ -9858,7 +9858,7 @@
   {
     "file": "assets/audio/s5/s5p2-18/6.mp3",
     "text": "C.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-18/7.mp3",
@@ -9920,7 +9920,7 @@
   {
     "file": "assets/audio/s5/s5p2-20/2.mp3",
     "text": "A.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-20/3.mp3",
@@ -9930,7 +9930,7 @@
   {
     "file": "assets/audio/s5/s5p2-20/4.mp3",
     "text": "B.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-20/5.mp3",
@@ -9940,7 +9940,7 @@
   {
     "file": "assets/audio/s5/s5p2-20/6.mp3",
     "text": "C.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-20/7.mp3",
@@ -9961,7 +9961,7 @@
   {
     "file": "assets/audio/s5/s5p2-21/2.mp3",
     "text": "A.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-21/3.mp3",
@@ -9971,7 +9971,7 @@
   {
     "file": "assets/audio/s5/s5p2-21/4.mp3",
     "text": "B.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-21/5.mp3",
@@ -9981,7 +9981,7 @@
   {
     "file": "assets/audio/s5/s5p2-21/6.mp3",
     "text": "C.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-21/7.mp3",
@@ -10002,7 +10002,7 @@
   {
     "file": "assets/audio/s5/s5p2-22/2.mp3",
     "text": "A.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-22/3.mp3",
@@ -10012,7 +10012,7 @@
   {
     "file": "assets/audio/s5/s5p2-22/4.mp3",
     "text": "B.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-22/5.mp3",
@@ -10022,7 +10022,7 @@
   {
     "file": "assets/audio/s5/s5p2-22/6.mp3",
     "text": "C.",
-    "voice": "en-CA-LiamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-22/7.mp3",
@@ -10084,7 +10084,7 @@
   {
     "file": "assets/audio/s5/s5p2-24/2.mp3",
     "text": "A.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-24/3.mp3",
@@ -10094,7 +10094,7 @@
   {
     "file": "assets/audio/s5/s5p2-24/4.mp3",
     "text": "B.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-24/5.mp3",
@@ -10104,7 +10104,7 @@
   {
     "file": "assets/audio/s5/s5p2-24/6.mp3",
     "text": "C.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-24/7.mp3",
@@ -10125,7 +10125,7 @@
   {
     "file": "assets/audio/s5/s5p2-25/2.mp3",
     "text": "A.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-25/3.mp3",
@@ -10135,7 +10135,7 @@
   {
     "file": "assets/audio/s5/s5p2-25/4.mp3",
     "text": "B.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-25/5.mp3",
@@ -10145,7 +10145,7 @@
   {
     "file": "assets/audio/s5/s5p2-25/6.mp3",
     "text": "C.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s5/s5p2-25/7.mp3",
@@ -11134,7 +11134,7 @@
   {
     "file": "assets/audio/s6/s6p1-02/1.mp3",
     "text": "A.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-02/2.mp3",
@@ -11144,7 +11144,7 @@
   {
     "file": "assets/audio/s6/s6p1-02/3.mp3",
     "text": "B.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-02/4.mp3",
@@ -11154,7 +11154,7 @@
   {
     "file": "assets/audio/s6/s6p1-02/5.mp3",
     "text": "C.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-02/6.mp3",
@@ -11164,7 +11164,7 @@
   {
     "file": "assets/audio/s6/s6p1-02/7.mp3",
     "text": "D.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-02/8.mp3",
@@ -11180,7 +11180,7 @@
   {
     "file": "assets/audio/s6/s6p1-03/1.mp3",
     "text": "A.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-03/2.mp3",
@@ -11190,7 +11190,7 @@
   {
     "file": "assets/audio/s6/s6p1-03/3.mp3",
     "text": "B.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-03/4.mp3",
@@ -11200,7 +11200,7 @@
   {
     "file": "assets/audio/s6/s6p1-03/5.mp3",
     "text": "C.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-03/6.mp3",
@@ -11210,7 +11210,7 @@
   {
     "file": "assets/audio/s6/s6p1-03/7.mp3",
     "text": "D.",
-    "voice": "en-AU-NatashaNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-03/8.mp3",
@@ -11226,7 +11226,7 @@
   {
     "file": "assets/audio/s6/s6p1-04/1.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-04/2.mp3",
@@ -11236,7 +11236,7 @@
   {
     "file": "assets/audio/s6/s6p1-04/3.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-04/4.mp3",
@@ -11246,7 +11246,7 @@
   {
     "file": "assets/audio/s6/s6p1-04/5.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-04/6.mp3",
@@ -11256,7 +11256,7 @@
   {
     "file": "assets/audio/s6/s6p1-04/7.mp3",
     "text": "D.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-04/8.mp3",
@@ -11318,7 +11318,7 @@
   {
     "file": "assets/audio/s6/s6p1-06/1.mp3",
     "text": "A.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-06/2.mp3",
@@ -11328,7 +11328,7 @@
   {
     "file": "assets/audio/s6/s6p1-06/3.mp3",
     "text": "B.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-06/4.mp3",
@@ -11338,7 +11338,7 @@
   {
     "file": "assets/audio/s6/s6p1-06/5.mp3",
     "text": "C.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-06/6.mp3",
@@ -11348,7 +11348,7 @@
   {
     "file": "assets/audio/s6/s6p1-06/7.mp3",
     "text": "D.",
-    "voice": "en-GB-RyanNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p1-06/8.mp3",
@@ -11369,7 +11369,7 @@
   {
     "file": "assets/audio/s6/s6p2-01/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-01/3.mp3",
@@ -11379,7 +11379,7 @@
   {
     "file": "assets/audio/s6/s6p2-01/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-01/5.mp3",
@@ -11389,7 +11389,7 @@
   {
     "file": "assets/audio/s6/s6p2-01/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-01/7.mp3",
@@ -11410,7 +11410,7 @@
   {
     "file": "assets/audio/s6/s6p2-02/2.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-02/3.mp3",
@@ -11420,7 +11420,7 @@
   {
     "file": "assets/audio/s6/s6p2-02/4.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-02/5.mp3",
@@ -11430,7 +11430,7 @@
   {
     "file": "assets/audio/s6/s6p2-02/6.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-02/7.mp3",
@@ -11492,7 +11492,7 @@
   {
     "file": "assets/audio/s6/s6p2-04/2.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-04/3.mp3",
@@ -11502,7 +11502,7 @@
   {
     "file": "assets/audio/s6/s6p2-04/4.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-04/5.mp3",
@@ -11512,7 +11512,7 @@
   {
     "file": "assets/audio/s6/s6p2-04/6.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-04/7.mp3",
@@ -11533,7 +11533,7 @@
   {
     "file": "assets/audio/s6/s6p2-05/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-05/3.mp3",
@@ -11543,7 +11543,7 @@
   {
     "file": "assets/audio/s6/s6p2-05/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-05/5.mp3",
@@ -11553,7 +11553,7 @@
   {
     "file": "assets/audio/s6/s6p2-05/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-05/7.mp3",
@@ -11574,7 +11574,7 @@
   {
     "file": "assets/audio/s6/s6p2-06/2.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-06/3.mp3",
@@ -11584,7 +11584,7 @@
   {
     "file": "assets/audio/s6/s6p2-06/4.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-06/5.mp3",
@@ -11594,7 +11594,7 @@
   {
     "file": "assets/audio/s6/s6p2-06/6.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-06/7.mp3",
@@ -11656,7 +11656,7 @@
   {
     "file": "assets/audio/s6/s6p2-08/2.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-08/3.mp3",
@@ -11666,7 +11666,7 @@
   {
     "file": "assets/audio/s6/s6p2-08/4.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-08/5.mp3",
@@ -11676,7 +11676,7 @@
   {
     "file": "assets/audio/s6/s6p2-08/6.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-08/7.mp3",
@@ -11697,7 +11697,7 @@
   {
     "file": "assets/audio/s6/s6p2-09/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-09/3.mp3",
@@ -11707,7 +11707,7 @@
   {
     "file": "assets/audio/s6/s6p2-09/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-09/5.mp3",
@@ -11717,7 +11717,7 @@
   {
     "file": "assets/audio/s6/s6p2-09/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-09/7.mp3",
@@ -11738,7 +11738,7 @@
   {
     "file": "assets/audio/s6/s6p2-10/2.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-10/3.mp3",
@@ -11748,7 +11748,7 @@
   {
     "file": "assets/audio/s6/s6p2-10/4.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-10/5.mp3",
@@ -11758,7 +11758,7 @@
   {
     "file": "assets/audio/s6/s6p2-10/6.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-10/7.mp3",
@@ -11820,7 +11820,7 @@
   {
     "file": "assets/audio/s6/s6p2-12/2.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-12/3.mp3",
@@ -11830,7 +11830,7 @@
   {
     "file": "assets/audio/s6/s6p2-12/4.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-12/5.mp3",
@@ -11840,7 +11840,7 @@
   {
     "file": "assets/audio/s6/s6p2-12/6.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-12/7.mp3",
@@ -11861,7 +11861,7 @@
   {
     "file": "assets/audio/s6/s6p2-13/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-13/3.mp3",
@@ -11871,7 +11871,7 @@
   {
     "file": "assets/audio/s6/s6p2-13/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-13/5.mp3",
@@ -11881,7 +11881,7 @@
   {
     "file": "assets/audio/s6/s6p2-13/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-13/7.mp3",
@@ -11902,7 +11902,7 @@
   {
     "file": "assets/audio/s6/s6p2-14/2.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-14/3.mp3",
@@ -11912,7 +11912,7 @@
   {
     "file": "assets/audio/s6/s6p2-14/4.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-14/5.mp3",
@@ -11922,7 +11922,7 @@
   {
     "file": "assets/audio/s6/s6p2-14/6.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-14/7.mp3",
@@ -11984,7 +11984,7 @@
   {
     "file": "assets/audio/s6/s6p2-16/2.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-16/3.mp3",
@@ -11994,7 +11994,7 @@
   {
     "file": "assets/audio/s6/s6p2-16/4.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-16/5.mp3",
@@ -12004,7 +12004,7 @@
   {
     "file": "assets/audio/s6/s6p2-16/6.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-16/7.mp3",
@@ -12025,7 +12025,7 @@
   {
     "file": "assets/audio/s6/s6p2-17/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-17/3.mp3",
@@ -12035,7 +12035,7 @@
   {
     "file": "assets/audio/s6/s6p2-17/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-17/5.mp3",
@@ -12045,7 +12045,7 @@
   {
     "file": "assets/audio/s6/s6p2-17/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-17/7.mp3",
@@ -12066,7 +12066,7 @@
   {
     "file": "assets/audio/s6/s6p2-18/2.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-18/3.mp3",
@@ -12076,7 +12076,7 @@
   {
     "file": "assets/audio/s6/s6p2-18/4.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-18/5.mp3",
@@ -12086,7 +12086,7 @@
   {
     "file": "assets/audio/s6/s6p2-18/6.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-18/7.mp3",
@@ -12148,7 +12148,7 @@
   {
     "file": "assets/audio/s6/s6p2-20/2.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-20/3.mp3",
@@ -12158,7 +12158,7 @@
   {
     "file": "assets/audio/s6/s6p2-20/4.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-20/5.mp3",
@@ -12168,7 +12168,7 @@
   {
     "file": "assets/audio/s6/s6p2-20/6.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-20/7.mp3",
@@ -12189,7 +12189,7 @@
   {
     "file": "assets/audio/s6/s6p2-21/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-21/3.mp3",
@@ -12199,7 +12199,7 @@
   {
     "file": "assets/audio/s6/s6p2-21/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-21/5.mp3",
@@ -12209,7 +12209,7 @@
   {
     "file": "assets/audio/s6/s6p2-21/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-21/7.mp3",
@@ -12230,7 +12230,7 @@
   {
     "file": "assets/audio/s6/s6p2-22/2.mp3",
     "text": "A.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-22/3.mp3",
@@ -12240,7 +12240,7 @@
   {
     "file": "assets/audio/s6/s6p2-22/4.mp3",
     "text": "B.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-22/5.mp3",
@@ -12250,7 +12250,7 @@
   {
     "file": "assets/audio/s6/s6p2-22/6.mp3",
     "text": "C.",
-    "voice": "en-CA-ClaraNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-22/7.mp3",
@@ -12312,7 +12312,7 @@
   {
     "file": "assets/audio/s6/s6p2-24/2.mp3",
     "text": "A.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-24/3.mp3",
@@ -12322,7 +12322,7 @@
   {
     "file": "assets/audio/s6/s6p2-24/4.mp3",
     "text": "B.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-24/5.mp3",
@@ -12332,7 +12332,7 @@
   {
     "file": "assets/audio/s6/s6p2-24/6.mp3",
     "text": "C.",
-    "voice": "en-GB-LibbyNeural"
+    "voice": "en-US-JennyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-24/7.mp3",
@@ -12353,7 +12353,7 @@
   {
     "file": "assets/audio/s6/s6p2-25/2.mp3",
     "text": "A.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-25/3.mp3",
@@ -12363,7 +12363,7 @@
   {
     "file": "assets/audio/s6/s6p2-25/4.mp3",
     "text": "B.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-25/5.mp3",
@@ -12373,7 +12373,7 @@
   {
     "file": "assets/audio/s6/s6p2-25/6.mp3",
     "text": "C.",
-    "voice": "en-AU-WilliamNeural"
+    "voice": "en-US-GuyNeural"
   },
   {
     "file": "assets/audio/s6/s6p2-25/7.mp3",
