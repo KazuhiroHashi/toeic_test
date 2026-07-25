@@ -13,27 +13,42 @@ set -e
 TEXT="Questions 32 through 34 refer to the following conversation. Number 32. Why is the woman calling?"
 OUT=$(mktemp -d)
 
+# 選ぶときの基準は「アクセント」より『年齢感』。
+# 登場人物(下で再生)と年齢層が重なっていない声を選ぶと、進行役だとすぐ分かる。
 VOICES=(
-  "en-US-AndrewNeural"      # 男・落ち着いた進行役(現在の設定)
-  "en-US-BrianNeural"       # 男・やや軽め
-  "en-US-ChristopherNeural" # 男・低め
-  "en-US-EmmaNeural"        # 女・明瞭
-  "en-US-MichelleNeural"    # 女・低め
-  "en-US-AriaNeural"        # 女・標準
+  "en-US-MichelleNeural"    # 女・落ち着いた大人(現在の設定)
+  "en-US-AriaNeural"        # 女・標準的な30代アナウンサー調
+  "en-US-EmmaNeural"        # 女・明瞭で若め
+  "en-US-AvaNeural"         # 女・自然で若め
+  "en-US-ChristopherNeural" # 男・低く硬い(年配寄り)
+  "en-US-BrianNeural"       # 男・軽めで若め
 )
+
+# ナレーターは登場人物より少しゆっくり読ませて「進行役」と分かるようにしている
+NRATE="-8%"
 
 for v in "${VOICES[@]}"; do
   echo ""
   echo "▶ $v"
-  edge-tts --voice "$v" --rate=-5% --text "$TEXT" --write-media "$OUT/$v.mp3" >/dev/null 2>&1
+  edge-tts --voice "$v" --rate=$NRATE --text "$TEXT" --write-media "$OUT/$v.mp3" >/dev/null 2>&1
   afplay "$OUT/$v.mp3"
 done
 
 echo ""
-echo "比較のため、会話に出てくる声も聞いてみます(この声と似ていないものを選んでください)"
-for v in en-US-GuyNeural en-US-JennyNeural; do
+echo "比較のため、会話に出てくる登場人物の声も聞きます"
+echo "(これらと『年齢感』が重なっていない声を選んでください)"
+CHARS=(
+  "en-US-GuyNeural:アメリカ男性"
+  "en-US-JennyNeural:アメリカ女性"
+  "en-CA-LiamNeural:カナダ男性"
+  "en-CA-ClaraNeural:カナダ女性"
+  "en-GB-SoniaNeural:イギリス女性"
+  "en-AU-WilliamNeural:オーストラリア男性"
+)
+for entry in "${CHARS[@]}"; do
+  v="${entry%%:*}"; label="${entry##*:}"
   echo ""
-  echo "▶ $v (登場人物)"
+  echo "▶ $v (登場人物・$label)"
   edge-tts --voice "$v" --rate=-5% --text "Hi, Emily. I heard the client moved our presentation up to Thursday." --write-media "$OUT/$v.mp3" >/dev/null 2>&1
   afplay "$OUT/$v.mp3"
 done

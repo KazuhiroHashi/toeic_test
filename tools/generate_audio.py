@@ -30,10 +30,14 @@ async def synth(sem: asyncio.Semaphore, clip: dict) -> str:
     if out.exists() and out.stat().st_size > 0:
         return "skip"
     out.parent.mkdir(parents=True, exist_ok=True)
+    # ナレーターなど、クリップ個別に速さ・高さが指定されていればそれを使う
+    kwargs = {"rate": clip.get("rate", RATE)}
+    if clip.get("pitch"):
+        kwargs["pitch"] = clip["pitch"]
     async with sem:
         for attempt in range(3):
             try:
-                tts = edge_tts.Communicate(clip["text"], clip["voice"], rate=RATE)
+                tts = edge_tts.Communicate(clip["text"], clip["voice"], **kwargs)
                 await tts.save(str(out))
                 if out.exists() and out.stat().st_size > 0:
                     return "ok"

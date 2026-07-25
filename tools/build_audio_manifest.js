@@ -53,9 +53,16 @@ var V = {
 // 同じ国・同じ性別・似た声質だと「会話していた人が設問を読んでいる」ように聞こえる。
 // 変更したい場合は下の1行を差し替え、tools/preview_narrators.sh で試聴してから
 // node tools/clean_narration.js → python3 tools/generate_audio.py で作り直す。
-// 候補: en-US-AndrewNeural(男・落ち着いた進行役) / en-US-BrianNeural(男・やや軽め)
-//       en-US-EmmaNeural(女・明瞭) / en-US-MichelleNeural(女・低め) / en-US-AriaNeural(女)
-var NARRATOR = "en-US-AndrewNeural";
+// 候補: en-US-MichelleNeural(女・低め・落ち着いた進行役) / en-US-EmmaNeural(女・明瞭)
+//       en-US-AriaNeural(女・標準) / en-US-ChristopherNeural(男・低く硬い)
+//       en-US-AndrewNeural(男・落ち着いた進行役) / en-US-BrianNeural(男・やや軽め)
+// ※ 男性ナレーターは カナダ男性(Liam)・アメリカ男性(Guy)と声が近くなりやすい。
+var NARRATOR = "en-US-MichelleNeural";
+
+// ナレーターだけ読み方を変えて「進行役」と分かるようにする。
+// 声質が近い登場人物がいても、話す速さが違えば耳が区別できる。
+var NARRATOR_RATE = "-8%";   // 登場人物は generate_audio.py の RATE(既定 -5%)
+var NARRATOR_PITCH = null;   // 例: "-5Hz"(さらに低く) / "+5Hz"(さらに高く)。不要なら null
 
 // 安全確認: ナレーターの声が登場人物と重複していないか
 Object.keys(V).forEach(function (c) {
@@ -90,7 +97,13 @@ SET_SOURCES.forEach(function (SRC) {
     var files = [];
     lines.forEach(function (ln, idx) {
       var file = "assets/audio/" + SETID + "/" + taskid + "/" + idx + ".mp3";
-      clips.push({ file: file, text: ln.text, voice: voiceFor(ln.speaker, c0, c1) });
+      var voice = voiceFor(ln.speaker, c0, c1);
+      var clip = { file: file, text: ln.text, voice: voice };
+      if (voice === NARRATOR) {
+        if (NARRATOR_RATE) clip.rate = NARRATOR_RATE;
+        if (NARRATOR_PITCH) clip.pitch = NARRATOR_PITCH;
+      }
+      clips.push(clip);
       files.push({ f: file, g: ln.gapAfter || 600 });
     });
     manifest[SETID + ":" + taskid] = files;
