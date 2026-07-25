@@ -57,7 +57,7 @@ var V = {
 //       en-US-AriaNeural(女・標準) / en-US-ChristopherNeural(男・低く硬い)
 //       en-US-AndrewNeural(男・落ち着いた進行役) / en-US-BrianNeural(男・やや軽め)
 // ※ 男性ナレーターは カナダ男性(Liam)・アメリカ男性(Guy)と声が近くなりやすい。
-var NARRATOR = "en-US-ChristopherNeural";
+var NARRATOR = "en-US-MichelleNeural";
 
 // ナレーターだけ読み方を変えて「進行役」と分かるようにする。
 // 声質が近い登場人物がいても、話す速さが違えば耳が区別できる。

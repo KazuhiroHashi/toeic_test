@@ -2,7 +2,7 @@
   {
     "file": "assets/audio/s1/p1-01/0.mp3",
     "text": "Look at the picture marked number 1 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -28,7 +28,7 @@
   {
     "file": "assets/audio/s1/p1-02/0.mp3",
     "text": "Look at the picture marked number 2 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -54,7 +54,7 @@
   {
     "file": "assets/audio/s1/p1-03/0.mp3",
     "text": "Look at the picture marked number 3 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -80,7 +80,7 @@
   {
     "file": "assets/audio/s1/p1-04/0.mp3",
     "text": "Look at the picture marked number 4 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -106,7 +106,7 @@
   {
     "file": "assets/audio/s1/p1-05/0.mp3",
     "text": "Look at the picture marked number 5 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -132,7 +132,7 @@
   {
     "file": "assets/audio/s1/p1-06/0.mp3",
     "text": "Look at the picture marked number 6 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -158,7 +158,7 @@
   {
     "file": "assets/audio/s1/p2-01/0.mp3",
     "text": "Number 1.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -184,7 +184,7 @@
   {
     "file": "assets/audio/s1/p2-02/0.mp3",
     "text": "Number 2.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -210,7 +210,7 @@
   {
     "file": "assets/audio/s1/p2-03/0.mp3",
     "text": "Number 3.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -236,7 +236,7 @@
   {
     "file": "assets/audio/s1/p2-04/0.mp3",
     "text": "Number 4.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -262,7 +262,7 @@
   {
     "file": "assets/audio/s1/p2-05/0.mp3",
     "text": "Number 5.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -288,7 +288,7 @@
   {
     "file": "assets/audio/s1/p2-06/0.mp3",
     "text": "Number 6.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -314,7 +314,7 @@
   {
     "file": "assets/audio/s1/p2-07/0.mp3",
     "text": "Number 7.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -340,7 +340,7 @@
   {
     "file": "assets/audio/s1/p2-08/0.mp3",
     "text": "Number 8.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -366,7 +366,7 @@
   {
     "file": "assets/audio/s1/p2-09/0.mp3",
     "text": "Number 9.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -392,7 +392,7 @@
   {
     "file": "assets/audio/s1/p2-10/0.mp3",
     "text": "Number 10.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -418,7 +418,7 @@
   {
     "file": "assets/audio/s1/p2-11/0.mp3",
     "text": "Number 11.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -444,7 +444,7 @@
   {
     "file": "assets/audio/s1/p2-12/0.mp3",
     "text": "Number 12.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -470,7 +470,7 @@
   {
     "file": "assets/audio/s1/p2-13/0.mp3",
     "text": "Number 13.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -496,7 +496,7 @@
   {
     "file": "assets/audio/s1/p2-14/0.mp3",
     "text": "Number 14.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -522,7 +522,7 @@
   {
     "file": "assets/audio/s1/p2-15/0.mp3",
     "text": "Number 15.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -548,7 +548,7 @@
   {
     "file": "assets/audio/s1/p2-16/0.mp3",
     "text": "Number 16.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -574,7 +574,7 @@
   {
     "file": "assets/audio/s1/p2-17/0.mp3",
     "text": "Number 17.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -600,7 +600,7 @@
   {
     "file": "assets/audio/s1/p2-18/0.mp3",
     "text": "Number 18.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -626,7 +626,7 @@
   {
     "file": "assets/audio/s1/p2-19/0.mp3",
     "text": "Number 19.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -652,7 +652,7 @@
   {
     "file": "assets/audio/s1/p2-20/0.mp3",
     "text": "Number 20.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -678,7 +678,7 @@
   {
     "file": "assets/audio/s1/p2-21/0.mp3",
     "text": "Number 21.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -704,7 +704,7 @@
   {
     "file": "assets/audio/s1/p2-22/0.mp3",
     "text": "Number 22.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -730,7 +730,7 @@
   {
     "file": "assets/audio/s1/p2-23/0.mp3",
     "text": "Number 23.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -756,7 +756,7 @@
   {
     "file": "assets/audio/s1/p2-24/0.mp3",
     "text": "Number 24.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -782,7 +782,7 @@
   {
     "file": "assets/audio/s1/p2-25/0.mp3",
     "text": "Number 25.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -808,7 +808,7 @@
   {
     "file": "assets/audio/s1/p3-01/0.mp3",
     "text": "Questions 1 through 3 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -834,25 +834,25 @@
   {
     "file": "assets/audio/s1/p3-01/5.mp3",
     "text": "Number 1. What are the speakers mainly discussing?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-01/6.mp3",
     "text": "Number 2. What is the woman waiting for?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-01/7.mp3",
     "text": "Number 3. What does the man offer to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-02/0.mp3",
     "text": "Questions 4 through 6 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -878,25 +878,25 @@
   {
     "file": "assets/audio/s1/p3-02/5.mp3",
     "text": "Number 4. Why did the man arrive at the hotel early?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-02/6.mp3",
     "text": "Number 5. Why is the man's room not available?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-02/7.mp3",
     "text": "Number 6. What does the man ask the woman to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-03/0.mp3",
     "text": "Questions 7 through 9 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -922,25 +922,25 @@
   {
     "file": "assets/audio/s1/p3-03/5.mp3",
     "text": "Number 7. What problem are the speakers discussing?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-03/6.mp3",
     "text": "Number 8. What does the man think is the cause of the problem?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-03/7.mp3",
     "text": "Number 9. What will the woman do by tomorrow?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-04/0.mp3",
     "text": "Questions 10 through 12 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -966,25 +966,25 @@
   {
     "file": "assets/audio/s1/p3-04/5.mp3",
     "text": "Number 10. Why is the woman calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-04/6.mp3",
     "text": "Number 11. What will happen next week?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-04/7.mp3",
     "text": "Number 12. What does the man ask the woman to send?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-05/0.mp3",
     "text": "Questions 13 through 15 refer to the following conversation with three speakers.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1020,25 +1020,25 @@
   {
     "file": "assets/audio/s1/p3-05/7.mp3",
     "text": "Number 13. What event are the speakers preparing for?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-05/8.mp3",
     "text": "Number 14. What does Olivia suggest?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-05/9.mp3",
     "text": "Number 15. What will the man most likely do next?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-06/0.mp3",
     "text": "Questions 16 through 18 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1069,25 +1069,25 @@
   {
     "file": "assets/audio/s1/p3-06/6.mp3",
     "text": "Number 16. Why is the woman calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-06/7.mp3",
     "text": "Number 17. What does the man ask the woman to provide?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-06/8.mp3",
     "text": "Number 18. What does the woman say she will do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-07/0.mp3",
     "text": "Questions 19 through 21 refer to the following conversation with three speakers.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1123,25 +1123,25 @@
   {
     "file": "assets/audio/s1/p3-07/7.mp3",
     "text": "Number 19. What will happen on Saturday?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-07/8.mp3",
     "text": "Number 20. What does Daniel offer to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-07/9.mp3",
     "text": "Number 21. What does the woman say she will do this afternoon?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-08/0.mp3",
     "text": "Questions 22 through 24 refer to the following conversation and list.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1167,25 +1167,25 @@
   {
     "file": "assets/audio/s1/p3-08/5.mp3",
     "text": "Number 22. Look at the graphic. Which room will the man most likely reserve?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-08/6.mp3",
     "text": "Number 23. Who will join the meeting remotely?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-08/7.mp3",
     "text": "Number 24. What time will the meeting most likely start?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-09/0.mp3",
     "text": "Questions 25 through 27 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1216,25 +1216,25 @@
   {
     "file": "assets/audio/s1/p3-09/6.mp3",
     "text": "Number 25. What is the woman preparing for?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-09/7.mp3",
     "text": "Number 26. What does the man imply when he says, \"It's already Wednesday\"?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-09/8.mp3",
     "text": "Number 27. What does the man agree to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-10/0.mp3",
     "text": "Questions 28 through 30 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1270,25 +1270,25 @@
   {
     "file": "assets/audio/s1/p3-10/7.mp3",
     "text": "Number 28. Why does the man want to return the jacket?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-10/8.mp3",
     "text": "Number 29. What problem does the man have?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-10/9.mp3",
     "text": "Number 30. What does the woman say about the Riverside branch?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-11/0.mp3",
     "text": "Questions 31 through 33 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1314,25 +1314,25 @@
   {
     "file": "assets/audio/s1/p3-11/5.mp3",
     "text": "Number 31. What does the woman want to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-11/6.mp3",
     "text": "Number 32. Why will the fee be waived?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-11/7.mp3",
     "text": "Number 33. What will the woman receive by e-mail?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-12/0.mp3",
     "text": "Questions 34 through 36 refer to the following conversation and invoice.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1358,25 +1358,25 @@
   {
     "file": "assets/audio/s1/p3-12/5.mp3",
     "text": "Number 34. Look at the graphic. How much will the man be refunded?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-12/6.mp3",
     "text": "Number 35. What does the man ask the woman to send?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-12/7.mp3",
     "text": "Number 36. According to the woman, when will the refund appear?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-13/0.mp3",
     "text": "Questions 37 through 39 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1402,25 +1402,25 @@
   {
     "file": "assets/audio/s1/p3-13/5.mp3",
     "text": "Number 37. What does the woman ask about?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-13/6.mp3",
     "text": "Number 38. According to the man, how long does the application take?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p3-13/7.mp3",
     "text": "Number 39. What does the man suggest the woman do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-01/0.mp3",
     "text": "Questions 1 through 3 refer to the following telephone message.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1431,25 +1431,25 @@
   {
     "file": "assets/audio/s1/p4-01/2.mp3",
     "text": "Number 1. Why is the speaker calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-01/3.mp3",
     "text": "Number 2. What does the speaker say about the clinic?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-01/4.mp3",
     "text": "Number 3. What should the listener do if he needs to make a change?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-02/0.mp3",
     "text": "Questions 4 through 6 refer to the following announcement.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1460,25 +1460,25 @@
   {
     "file": "assets/audio/s1/p4-02/2.mp3",
     "text": "Number 4. According to the speaker, what will happen on August 1?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-02/3.mp3",
     "text": "Number 5. How many sessions does an employee need to attend?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-02/4.mp3",
     "text": "Number 6. According to the speaker, what will be available on the intranet?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-03/0.mp3",
     "text": "Questions 7 through 9 refer to the following advertisement.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1489,25 +1489,25 @@
   {
     "file": "assets/audio/s1/p4-03/2.mp3",
     "text": "Number 7. What type of business is being advertised?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-03/3.mp3",
     "text": "Number 8. What is offered in October?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-03/4.mp3",
     "text": "Number 9. How can listeners make a booking?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-04/0.mp3",
     "text": "Questions 10 through 12 refer to the following excerpt from a meeting.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1518,25 +1518,25 @@
   {
     "file": "assets/audio/s1/p4-04/2.mp3",
     "text": "Number 10. What is the speaker mainly discussing?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-04/3.mp3",
     "text": "Number 11. According to the speaker, why did delivery speed improve?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-04/4.mp3",
     "text": "Number 12. What will Maria do next month?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-05/0.mp3",
     "text": "Questions 13 through 15 refer to the following announcement and schedule.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1547,25 +1547,25 @@
   {
     "file": "assets/audio/s1/p4-05/2.mp3",
     "text": "Number 13. Look at the graphic. Which gate information is no longer correct?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-05/3.mp3",
     "text": "Number 14. Why has the gate been changed?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-05/4.mp3",
     "text": "Number 15. What does the speaker say about the arrival time?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-06/0.mp3",
     "text": "Questions 16 through 18 refer to the following talk.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1576,25 +1576,25 @@
   {
     "file": "assets/audio/s1/p4-06/2.mp3",
     "text": "Number 16. What does the speaker remind the listeners to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-06/3.mp3",
     "text": "Number 17. Where will the tour begin?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-06/4.mp3",
     "text": "Number 18. How can the listeners receive a discount?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-07/0.mp3",
     "text": "Questions 19 through 21 refer to the following telephone message.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1605,25 +1605,25 @@
   {
     "file": "assets/audio/s1/p4-07/2.mp3",
     "text": "Number 19. Which position did the listener apply for?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-07/3.mp3",
     "text": "Number 20. What is the listener asked to bring?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-07/4.mp3",
     "text": "Number 21. Why should the listener call back by Wednesday?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-08/0.mp3",
     "text": "Questions 22 through 24 refer to the following broadcast.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1634,25 +1634,25 @@
   {
     "file": "assets/audio/s1/p4-08/2.mp3",
     "text": "Number 22. What is causing delays on the Harbor Bridge?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-08/3.mp3",
     "text": "Number 23. What does the speaker recommend?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-08/4.mp3",
     "text": "Number 24. According to the speaker, what will happen at 4 P.M.?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-09/0.mp3",
     "text": "Questions 25 through 27 refer to the following excerpt from a meeting and agenda.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1663,25 +1663,25 @@
   {
     "file": "assets/audio/s1/p4-09/2.mp3",
     "text": "Number 25. Look at the graphic. Which agenda item will be postponed?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-09/3.mp3",
     "text": "Number 26. Why will an item be postponed?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-09/4.mp3",
     "text": "Number 27. What are the listeners asked to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-10/0.mp3",
     "text": "Questions 28 through 30 refer to the following speech.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1692,25 +1692,25 @@
   {
     "file": "assets/audio/s1/p4-10/2.mp3",
     "text": "Number 28. How long has Ms. Liu worked at the company?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-10/3.mp3",
     "text": "Number 29. According to the speaker, what did Ms. Liu introduce?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s1/p4-10/4.mp3",
     "text": "Number 30. What will Ms. Liu most likely do next?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p1-01/0.mp3",
     "text": "Look at the picture marked number 1 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1736,7 +1736,7 @@
   {
     "file": "assets/audio/s2/s2p1-02/0.mp3",
     "text": "Look at the picture marked number 2 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1762,7 +1762,7 @@
   {
     "file": "assets/audio/s2/s2p1-03/0.mp3",
     "text": "Look at the picture marked number 3 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1788,7 +1788,7 @@
   {
     "file": "assets/audio/s2/s2p1-04/0.mp3",
     "text": "Look at the picture marked number 4 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1814,7 +1814,7 @@
   {
     "file": "assets/audio/s2/s2p1-05/0.mp3",
     "text": "Look at the picture marked number 5 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1840,7 +1840,7 @@
   {
     "file": "assets/audio/s2/s2p1-06/0.mp3",
     "text": "Look at the picture marked number 6 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1866,7 +1866,7 @@
   {
     "file": "assets/audio/s2/s2p2-01/0.mp3",
     "text": "Number 1.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1892,7 +1892,7 @@
   {
     "file": "assets/audio/s2/s2p2-02/0.mp3",
     "text": "Number 2.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1918,7 +1918,7 @@
   {
     "file": "assets/audio/s2/s2p2-03/0.mp3",
     "text": "Number 3.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1944,7 +1944,7 @@
   {
     "file": "assets/audio/s2/s2p2-04/0.mp3",
     "text": "Number 4.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1970,7 +1970,7 @@
   {
     "file": "assets/audio/s2/s2p2-05/0.mp3",
     "text": "Number 5.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -1996,7 +1996,7 @@
   {
     "file": "assets/audio/s2/s2p2-06/0.mp3",
     "text": "Number 6.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2022,7 +2022,7 @@
   {
     "file": "assets/audio/s2/s2p2-07/0.mp3",
     "text": "Number 7.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2048,7 +2048,7 @@
   {
     "file": "assets/audio/s2/s2p2-08/0.mp3",
     "text": "Number 8.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2074,7 +2074,7 @@
   {
     "file": "assets/audio/s2/s2p2-09/0.mp3",
     "text": "Number 9.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2100,7 +2100,7 @@
   {
     "file": "assets/audio/s2/s2p2-10/0.mp3",
     "text": "Number 10.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2126,7 +2126,7 @@
   {
     "file": "assets/audio/s2/s2p2-11/0.mp3",
     "text": "Number 11.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2152,7 +2152,7 @@
   {
     "file": "assets/audio/s2/s2p2-12/0.mp3",
     "text": "Number 12.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2178,7 +2178,7 @@
   {
     "file": "assets/audio/s2/s2p2-13/0.mp3",
     "text": "Number 13.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2204,7 +2204,7 @@
   {
     "file": "assets/audio/s2/s2p2-14/0.mp3",
     "text": "Number 14.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2230,7 +2230,7 @@
   {
     "file": "assets/audio/s2/s2p2-15/0.mp3",
     "text": "Number 15.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2256,7 +2256,7 @@
   {
     "file": "assets/audio/s2/s2p2-16/0.mp3",
     "text": "Number 16.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2282,7 +2282,7 @@
   {
     "file": "assets/audio/s2/s2p2-17/0.mp3",
     "text": "Number 17.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2308,7 +2308,7 @@
   {
     "file": "assets/audio/s2/s2p2-18/0.mp3",
     "text": "Number 18.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2334,7 +2334,7 @@
   {
     "file": "assets/audio/s2/s2p2-19/0.mp3",
     "text": "Number 19.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2360,7 +2360,7 @@
   {
     "file": "assets/audio/s2/s2p2-20/0.mp3",
     "text": "Number 20.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2386,7 +2386,7 @@
   {
     "file": "assets/audio/s2/s2p2-21/0.mp3",
     "text": "Number 21.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2412,7 +2412,7 @@
   {
     "file": "assets/audio/s2/s2p2-22/0.mp3",
     "text": "Number 22.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2438,7 +2438,7 @@
   {
     "file": "assets/audio/s2/s2p2-23/0.mp3",
     "text": "Number 23.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2464,7 +2464,7 @@
   {
     "file": "assets/audio/s2/s2p2-24/0.mp3",
     "text": "Number 24.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2490,7 +2490,7 @@
   {
     "file": "assets/audio/s2/s2p2-25/0.mp3",
     "text": "Number 25.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2516,7 +2516,7 @@
   {
     "file": "assets/audio/s2/s2p3-01/0.mp3",
     "text": "Questions 1 through 3 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2542,25 +2542,25 @@
   {
     "file": "assets/audio/s2/s2p3-01/5.mp3",
     "text": "Number 1. What event are the speakers planning?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-01/6.mp3",
     "text": "Number 2. What is the problem with the riverside hall?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-01/7.mp3",
     "text": "Number 3. What does the man say he will do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-02/0.mp3",
     "text": "Questions 4 through 6 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2586,25 +2586,25 @@
   {
     "file": "assets/audio/s2/s2p3-02/5.mp3",
     "text": "Number 4. What does the man want to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-02/6.mp3",
     "text": "Number 5. What problem does the man mention?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-02/7.mp3",
     "text": "Number 6. What does the woman say she will do now?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-03/0.mp3",
     "text": "Questions 7 through 9 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2630,25 +2630,25 @@
   {
     "file": "assets/audio/s2/s2p3-03/5.mp3",
     "text": "Number 7. Why is the woman calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-03/6.mp3",
     "text": "Number 8. What does the man suggest the woman do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-03/7.mp3",
     "text": "Number 9. What will happen if the package cannot be found?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-04/0.mp3",
     "text": "Questions 10 through 12 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2674,25 +2674,25 @@
   {
     "file": "assets/audio/s2/s2p3-04/5.mp3",
     "text": "Number 10. What is the man's problem?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-04/6.mp3",
     "text": "Number 11. What does the woman suggest?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-04/7.mp3",
     "text": "Number 12. What does the woman offer to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-05/0.mp3",
     "text": "Questions 13 through 15 refer to the following conversation with three speakers.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2728,25 +2728,25 @@
   {
     "file": "assets/audio/s2/s2p3-05/7.mp3",
     "text": "Number 13. What are the speakers preparing for?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-05/8.mp3",
     "text": "Number 14. What does Nina offer to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-05/9.mp3",
     "text": "Number 15. What will the first woman do on Friday?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-06/0.mp3",
     "text": "Questions 16 through 18 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2772,25 +2772,25 @@
   {
     "file": "assets/audio/s2/s2p3-06/5.mp3",
     "text": "Number 16. Where most likely does the conversation take place?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-06/6.mp3",
     "text": "Number 17. Why does the man want to change jobs?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-06/7.mp3",
     "text": "Number 18. What does the woman say about the position?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-07/0.mp3",
     "text": "Questions 19 through 21 refer to the following conversation and schedule.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2816,25 +2816,25 @@
   {
     "file": "assets/audio/s2/s2p3-07/5.mp3",
     "text": "Number 19. Look at the graphic. Which workshop will the speakers attend together?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-07/6.mp3",
     "text": "Number 20. Why did the woman change her choice?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-07/7.mp3",
     "text": "Number 21. What time will the speakers meet?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-08/0.mp3",
     "text": "Questions 22 through 24 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2865,25 +2865,25 @@
   {
     "file": "assets/audio/s2/s2p3-08/6.mp3",
     "text": "Number 22. What is due tomorrow morning?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-08/7.mp3",
     "text": "Number 23. What does the woman imply when she says, \"It's already four thirty\"?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-08/8.mp3",
     "text": "Number 24. What does the woman offer to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-09/0.mp3",
     "text": "Questions 25 through 27 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2914,25 +2914,25 @@
   {
     "file": "assets/audio/s2/s2p3-09/6.mp3",
     "text": "Number 25. What is the woman looking for?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-09/7.mp3",
     "text": "Number 26. Why does the man recommend a snake plant?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-09/8.mp3",
     "text": "Number 27. What does the woman ask about?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-10/0.mp3",
     "text": "Questions 28 through 30 refer to the following conversation with three speakers.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -2963,25 +2963,25 @@
   {
     "file": "assets/audio/s2/s2p3-10/6.mp3",
     "text": "Number 28. What does the man want to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-10/7.mp3",
     "text": "Number 29. What does Marcus recommend?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-10/8.mp3",
     "text": "Number 30. What is the man's main concern?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-11/0.mp3",
     "text": "Questions 31 through 33 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3007,25 +3007,25 @@
   {
     "file": "assets/audio/s2/s2p3-11/5.mp3",
     "text": "Number 31. Why is the woman calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-11/6.mp3",
     "text": "Number 32. When does the woman prefer the technician to visit?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-11/7.mp3",
     "text": "Number 33. What does the man say the technician will do on arrival?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-12/0.mp3",
     "text": "Questions 34 through 36 refer to the following conversation and list.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3051,25 +3051,25 @@
   {
     "file": "assets/audio/s2/s2p3-12/5.mp3",
     "text": "Number 34. Look at the graphic. How much will the man most likely pay before the discount?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-12/6.mp3",
     "text": "Number 35. Why does the woman suggest paying for three hours?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-12/7.mp3",
     "text": "Number 36. How can the man get a discount?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-13/0.mp3",
     "text": "Questions 37 through 39 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3095,25 +3095,25 @@
   {
     "file": "assets/audio/s2/s2p3-13/5.mp3",
     "text": "Number 37. What are the speakers discussing?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-13/6.mp3",
     "text": "Number 38. What error did the woman find?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p3-13/7.mp3",
     "text": "Number 39. What does the woman ask the man to add?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-01/0.mp3",
     "text": "Questions 1 through 3 refer to the following telephone message.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3124,25 +3124,25 @@
   {
     "file": "assets/audio/s2/s2p4-01/2.mp3",
     "text": "Number 1. Why is the speaker calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-01/3.mp3",
     "text": "Number 2. What does the speaker say about the cost?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-01/4.mp3",
     "text": "Number 3. What does the speaker recommend the listener consider?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-02/0.mp3",
     "text": "Questions 4 through 6 refer to the following announcement.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3153,25 +3153,25 @@
   {
     "file": "assets/audio/s2/s2p4-02/2.mp3",
     "text": "Number 4. What change is being announced?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-02/3.mp3",
     "text": "Number 5. What are employees asked to do starting Monday?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-02/4.mp3",
     "text": "Number 6. What has been provided on each floor?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-03/0.mp3",
     "text": "Questions 7 through 9 refer to the following broadcast.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3182,25 +3182,25 @@
   {
     "file": "assets/audio/s2/s2p4-03/2.mp3",
     "text": "Number 7. Where is the announcement being made?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-03/3.mp3",
     "text": "Number 8. What is available near the bakery?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-03/4.mp3",
     "text": "Number 9. How can members earn double points today?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-04/0.mp3",
     "text": "Questions 10 through 12 refer to the following excerpt from a meeting and list.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3211,25 +3211,25 @@
   {
     "file": "assets/audio/s2/s2p4-04/2.mp3",
     "text": "Number 10. Look at the graphic. Which region did the speaker say led sales?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-04/3.mp3",
     "text": "Number 11. According to the speaker, why did that region perform well?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-04/4.mp3",
     "text": "Number 12. What will happen in the southern region next month?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-05/0.mp3",
     "text": "Questions 13 through 15 refer to the following advertisement.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3240,25 +3240,25 @@
   {
     "file": "assets/audio/s2/s2p4-05/2.mp3",
     "text": "Number 13. What service does the company provide?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-05/3.mp3",
     "text": "Number 14. What is offered this month only?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-05/4.mp3",
     "text": "Number 15. Why does the speaker say listeners should not wait?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-06/0.mp3",
     "text": "Questions 16 through 18 refer to the following tour information.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3269,25 +3269,25 @@
   {
     "file": "assets/audio/s2/s2p4-06/2.mp3",
     "text": "Number 16. What are the listeners reminded to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-06/3.mp3",
     "text": "Number 17. Where will the tour end?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-06/4.mp3",
     "text": "Number 18. How can guests get a discount at the gift shop?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-07/0.mp3",
     "text": "Questions 19 through 21 refer to the following telephone message.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3298,25 +3298,25 @@
   {
     "file": "assets/audio/s2/s2p4-07/2.mp3",
     "text": "Number 19. Why is the speaker calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-07/3.mp3",
     "text": "Number 20. What must the listener do by the end of tomorrow?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-07/4.mp3",
     "text": "Number 21. What will be included at no extra charge?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-08/0.mp3",
     "text": "Questions 22 through 24 refer to the following broadcast.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3327,25 +3327,25 @@
   {
     "file": "assets/audio/s2/s2p4-08/2.mp3",
     "text": "Number 22. What is causing delays on Route 12?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-08/3.mp3",
     "text": "Number 23. What does the speaker suggest drivers do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-08/4.mp3",
     "text": "Number 24. What does the speaker say about the weather?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-09/0.mp3",
     "text": "Questions 25 through 27 refer to the following talk and agenda.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3356,25 +3356,25 @@
   {
     "file": "assets/audio/s2/s2p4-09/2.mp3",
     "text": "Number 25. Look at the graphic. Which session has been moved to the afternoon?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-09/3.mp3",
     "text": "Number 26. Why was the schedule changed?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-09/4.mp3",
     "text": "Number 27. Why do the listeners need their badges?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-10/0.mp3",
     "text": "Questions 28 through 30 refer to the following speech.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3385,25 +3385,25 @@
   {
     "file": "assets/audio/s2/s2p4-10/2.mp3",
     "text": "Number 28. What is the speaker receiving?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-10/3.mp3",
     "text": "Number 29. What kind of business does the speaker own?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s2/s2p4-10/4.mp3",
     "text": "Number 30. What does the speaker announce?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p1-01/0.mp3",
     "text": "Look at the picture marked number 1 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3429,7 +3429,7 @@
   {
     "file": "assets/audio/s3/s3p1-02/0.mp3",
     "text": "Look at the picture marked number 2 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3455,7 +3455,7 @@
   {
     "file": "assets/audio/s3/s3p1-03/0.mp3",
     "text": "Look at the picture marked number 3 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3481,7 +3481,7 @@
   {
     "file": "assets/audio/s3/s3p1-04/0.mp3",
     "text": "Look at the picture marked number 4 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3507,7 +3507,7 @@
   {
     "file": "assets/audio/s3/s3p1-05/0.mp3",
     "text": "Look at the picture marked number 5 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3533,7 +3533,7 @@
   {
     "file": "assets/audio/s3/s3p1-06/0.mp3",
     "text": "Look at the picture marked number 6 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3559,7 +3559,7 @@
   {
     "file": "assets/audio/s3/s3p2-01/0.mp3",
     "text": "Number 1.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3585,7 +3585,7 @@
   {
     "file": "assets/audio/s3/s3p2-02/0.mp3",
     "text": "Number 2.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3611,7 +3611,7 @@
   {
     "file": "assets/audio/s3/s3p2-03/0.mp3",
     "text": "Number 3.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3637,7 +3637,7 @@
   {
     "file": "assets/audio/s3/s3p2-04/0.mp3",
     "text": "Number 4.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3663,7 +3663,7 @@
   {
     "file": "assets/audio/s3/s3p2-05/0.mp3",
     "text": "Number 5.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3689,7 +3689,7 @@
   {
     "file": "assets/audio/s3/s3p2-06/0.mp3",
     "text": "Number 6.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3715,7 +3715,7 @@
   {
     "file": "assets/audio/s3/s3p2-07/0.mp3",
     "text": "Number 7.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3741,7 +3741,7 @@
   {
     "file": "assets/audio/s3/s3p2-08/0.mp3",
     "text": "Number 8.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3767,7 +3767,7 @@
   {
     "file": "assets/audio/s3/s3p2-09/0.mp3",
     "text": "Number 9.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3793,7 +3793,7 @@
   {
     "file": "assets/audio/s3/s3p2-10/0.mp3",
     "text": "Number 10.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3819,7 +3819,7 @@
   {
     "file": "assets/audio/s3/s3p2-11/0.mp3",
     "text": "Number 11.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3845,7 +3845,7 @@
   {
     "file": "assets/audio/s3/s3p2-12/0.mp3",
     "text": "Number 12.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3871,7 +3871,7 @@
   {
     "file": "assets/audio/s3/s3p2-13/0.mp3",
     "text": "Number 13.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3897,7 +3897,7 @@
   {
     "file": "assets/audio/s3/s3p2-14/0.mp3",
     "text": "Number 14.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3923,7 +3923,7 @@
   {
     "file": "assets/audio/s3/s3p2-15/0.mp3",
     "text": "Number 15.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3949,7 +3949,7 @@
   {
     "file": "assets/audio/s3/s3p2-16/0.mp3",
     "text": "Number 16.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -3975,7 +3975,7 @@
   {
     "file": "assets/audio/s3/s3p2-17/0.mp3",
     "text": "Number 17.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4001,7 +4001,7 @@
   {
     "file": "assets/audio/s3/s3p2-18/0.mp3",
     "text": "Number 18.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4027,7 +4027,7 @@
   {
     "file": "assets/audio/s3/s3p2-19/0.mp3",
     "text": "Number 19.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4053,7 +4053,7 @@
   {
     "file": "assets/audio/s3/s3p2-20/0.mp3",
     "text": "Number 20.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4079,7 +4079,7 @@
   {
     "file": "assets/audio/s3/s3p2-21/0.mp3",
     "text": "Number 21.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4105,7 +4105,7 @@
   {
     "file": "assets/audio/s3/s3p2-22/0.mp3",
     "text": "Number 22.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4131,7 +4131,7 @@
   {
     "file": "assets/audio/s3/s3p2-23/0.mp3",
     "text": "Number 23.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4157,7 +4157,7 @@
   {
     "file": "assets/audio/s3/s3p2-24/0.mp3",
     "text": "Number 24.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4183,7 +4183,7 @@
   {
     "file": "assets/audio/s3/s3p2-25/0.mp3",
     "text": "Number 25.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4209,7 +4209,7 @@
   {
     "file": "assets/audio/s3/s3p3-01/0.mp3",
     "text": "Questions 1 through 3 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4235,25 +4235,25 @@
   {
     "file": "assets/audio/s3/s3p3-01/5.mp3",
     "text": "Number 1. What is the woman trying to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-01/6.mp3",
     "text": "Number 2. Why can't the woman receive the item right away?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-01/7.mp3",
     "text": "Number 3. What does the man say about the medication?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-02/0.mp3",
     "text": "Questions 4 through 6 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4279,25 +4279,25 @@
   {
     "file": "assets/audio/s3/s3p3-02/5.mp3",
     "text": "Number 4. Why does the man offer an upgrade?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-02/6.mp3",
     "text": "Number 5. What does the woman ask about?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-02/7.mp3",
     "text": "Number 6. What is the woman asked to do when returning the car?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-03/0.mp3",
     "text": "Questions 7 through 9 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4323,25 +4323,25 @@
   {
     "file": "assets/audio/s3/s3p3-03/5.mp3",
     "text": "Number 7. What is the woman looking for?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-03/6.mp3",
     "text": "Number 8. What does the man offer to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-03/7.mp3",
     "text": "Number 9. How does the woman want to be notified?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-04/0.mp3",
     "text": "Questions 10 through 12 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4372,25 +4372,25 @@
   {
     "file": "assets/audio/s3/s3p3-04/6.mp3",
     "text": "Number 10. Why is the woman calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-04/7.mp3",
     "text": "Number 11. What does the man do for the woman?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-04/8.mp3",
     "text": "Number 12. Why does the woman need it fixed today?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-05/0.mp3",
     "text": "Questions 13 through 15 refer to the following conversation with three speakers.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4426,25 +4426,25 @@
   {
     "file": "assets/audio/s3/s3p3-05/7.mp3",
     "text": "Number 13. What are the speakers organizing?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-05/8.mp3",
     "text": "Number 14. What does Grace offer to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-05/9.mp3",
     "text": "Number 15. What will Priya do this afternoon?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-06/0.mp3",
     "text": "Questions 16 through 18 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4475,25 +4475,25 @@
   {
     "file": "assets/audio/s3/s3p3-06/6.mp3",
     "text": "Number 16. Why is the woman calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-06/7.mp3",
     "text": "Number 17. What time will the group now arrive?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-06/8.mp3",
     "text": "Number 18. What does the woman request?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-07/0.mp3",
     "text": "Questions 19 through 21 refer to the following conversation and schedule.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4519,25 +4519,25 @@
   {
     "file": "assets/audio/s3/s3p3-07/5.mp3",
     "text": "Number 19. Look at the graphic. Which train will the speakers most likely take?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-07/6.mp3",
     "text": "Number 20. What does the man still need to do before leaving?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-07/7.mp3",
     "text": "Number 21. Where will the speakers meet?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-08/0.mp3",
     "text": "Questions 22 through 24 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4568,25 +4568,25 @@
   {
     "file": "assets/audio/s3/s3p3-08/6.mp3",
     "text": "Number 22. What does the woman ask the man to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-08/7.mp3",
     "text": "Number 23. What does the man imply when he says, \"I was planning to catch up on the quarterly report\"?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-08/8.mp3",
     "text": "Number 24. What does the woman offer to do in return?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-09/0.mp3",
     "text": "Questions 25 through 27 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4617,25 +4617,25 @@
   {
     "file": "assets/audio/s3/s3p3-09/6.mp3",
     "text": "Number 25. What does the man want to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-09/7.mp3",
     "text": "Number 26. What is included with the annual plan?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-09/8.mp3",
     "text": "Number 27. What will the man do next?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-10/0.mp3",
     "text": "Questions 28 through 30 refer to the following conversation with three speakers.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4671,25 +4671,25 @@
   {
     "file": "assets/audio/s3/s3p3-10/7.mp3",
     "text": "Number 28. What are the speakers preparing for?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-10/8.mp3",
     "text": "Number 29. What does Victor offer to bring as a backup?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-10/9.mp3",
     "text": "Number 30. What will Nora do early tomorrow?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-11/0.mp3",
     "text": "Questions 31 through 33 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4720,25 +4720,25 @@
   {
     "file": "assets/audio/s3/s3p3-11/6.mp3",
     "text": "Number 31. What does the woman want done to the jacket?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-11/7.mp3",
     "text": "Number 32. Why does the woman need the jacket?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-11/8.mp3",
     "text": "Number 33. When can the woman pick up the jacket?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-12/0.mp3",
     "text": "Questions 34 through 36 refer to the following conversation and agenda.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4764,25 +4764,25 @@
   {
     "file": "assets/audio/s3/s3p3-12/5.mp3",
     "text": "Number 34. Look at the graphic. Which session will the man attend?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-12/6.mp3",
     "text": "Number 35. What do the speakers plan to do after the sessions?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-12/7.mp3",
     "text": "Number 36. Why does the woman suggest that session for the man?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-13/0.mp3",
     "text": "Questions 37 through 39 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4813,25 +4813,25 @@
   {
     "file": "assets/audio/s3/s3p3-13/6.mp3",
     "text": "Number 37. Why is the man calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-13/7.mp3",
     "text": "Number 38. What does the woman suggest?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p3-13/8.mp3",
     "text": "Number 39. What will the woman send today?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-01/0.mp3",
     "text": "Questions 1 through 3 refer to the following telephone message.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4842,25 +4842,25 @@
   {
     "file": "assets/audio/s3/s3p4-01/2.mp3",
     "text": "Number 1. Why is the speaker calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-01/3.mp3",
     "text": "Number 2. What does the speaker ask the listener to provide by Thursday?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-01/4.mp3",
     "text": "Number 3. What does the speaker say about the food?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-02/0.mp3",
     "text": "Questions 4 through 6 refer to the following announcement.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4871,25 +4871,25 @@
   {
     "file": "assets/audio/s3/s3p4-02/2.mp3",
     "text": "Number 4. What will be closed in early June?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-02/3.mp3",
     "text": "Number 5. What can regular swimmers do during the closure?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-02/4.mp3",
     "text": "Number 6. What are members asked to show at the sister club?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-03/0.mp3",
     "text": "Questions 7 through 9 refer to the following advertisement.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4900,25 +4900,25 @@
   {
     "file": "assets/audio/s3/s3p4-03/2.mp3",
     "text": "Number 7. What is being advertised?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-03/3.mp3",
     "text": "Number 8. What is offered to those who sign up this week?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-03/4.mp3",
     "text": "Number 9. What does every new member receive?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-04/0.mp3",
     "text": "Questions 10 through 12 refer to the following broadcast.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4929,25 +4929,25 @@
   {
     "file": "assets/audio/s3/s3p4-04/2.mp3",
     "text": "Number 10. What is the news mainly about?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-04/3.mp3",
     "text": "Number 11. What is free for riders?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-04/4.mp3",
     "text": "Number 12. How do riders start a rental?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-05/0.mp3",
     "text": "Questions 13 through 15 refer to the following tour information.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4958,25 +4958,25 @@
   {
     "file": "assets/audio/s3/s3p4-05/2.mp3",
     "text": "Number 13. Where will the tour begin?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-05/3.mp3",
     "text": "Number 14. What does the guide ask the visitors not to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-05/4.mp3",
     "text": "Number 15. What is located near the main gate?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-06/0.mp3",
     "text": "Questions 16 through 18 refer to the following excerpt from a meeting and list.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -4987,25 +4987,25 @@
   {
     "file": "assets/audio/s3/s3p4-06/2.mp3",
     "text": "Number 16. Look at the graphic. In which month were newsletter sign-ups the highest?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-06/3.mp3",
     "text": "Number 17. According to the speaker, what most likely caused the drop?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-06/4.mp3",
     "text": "Number 18. What does the speaker propose?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-07/0.mp3",
     "text": "Questions 19 through 21 refer to the following speech.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5016,25 +5016,25 @@
   {
     "file": "assets/audio/s3/s3p4-07/2.mp3",
     "text": "Number 19. What event is taking place?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-07/3.mp3",
     "text": "Number 20. What can local groups do free of charge?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-07/4.mp3",
     "text": "Number 21. Whom does the speaker especially thank?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-08/0.mp3",
     "text": "Questions 22 through 24 refer to the following talk.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5045,25 +5045,25 @@
   {
     "file": "assets/audio/s3/s3p4-08/2.mp3",
     "text": "Number 22. Who most likely is the speaker?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-08/3.mp3",
     "text": "Number 23. What will participants do after reviewing the examples?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-08/4.mp3",
     "text": "Number 24. What are participants asked to take out?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-09/0.mp3",
     "text": "Questions 25 through 27 refer to the following announcement and schedule.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5074,25 +5074,25 @@
   {
     "file": "assets/audio/s3/s3p4-09/2.mp3",
     "text": "Number 25. Look at the graphic. Which session will begin later than scheduled?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-09/3.mp3",
     "text": "Number 26. Why will the session be delayed?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-09/4.mp3",
     "text": "Number 27. What can attendees do at the information booth?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-10/0.mp3",
     "text": "Questions 28 through 30 refer to the following telephone message.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5103,25 +5103,25 @@
   {
     "file": "assets/audio/s3/s3p4-10/2.mp3",
     "text": "Number 28. What has arrived earlier than expected?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-10/3.mp3",
     "text": "Number 29. Why does the speaker ask the listener to call back?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s3/s3p4-10/4.mp3",
     "text": "Number 30. What is available for a small additional fee?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p1-01/0.mp3",
     "text": "Look at the picture marked number 1 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5147,7 +5147,7 @@
   {
     "file": "assets/audio/s4/s4p1-02/0.mp3",
     "text": "Look at the picture marked number 2 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5173,7 +5173,7 @@
   {
     "file": "assets/audio/s4/s4p1-03/0.mp3",
     "text": "Look at the picture marked number 3 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5199,7 +5199,7 @@
   {
     "file": "assets/audio/s4/s4p1-04/0.mp3",
     "text": "Look at the picture marked number 4 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5225,7 +5225,7 @@
   {
     "file": "assets/audio/s4/s4p1-05/0.mp3",
     "text": "Look at the picture marked number 5 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5251,7 +5251,7 @@
   {
     "file": "assets/audio/s4/s4p1-06/0.mp3",
     "text": "Look at the picture marked number 6 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5277,7 +5277,7 @@
   {
     "file": "assets/audio/s4/s4p2-01/0.mp3",
     "text": "Number 1.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5303,7 +5303,7 @@
   {
     "file": "assets/audio/s4/s4p2-02/0.mp3",
     "text": "Number 2.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5329,7 +5329,7 @@
   {
     "file": "assets/audio/s4/s4p2-03/0.mp3",
     "text": "Number 3.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5355,7 +5355,7 @@
   {
     "file": "assets/audio/s4/s4p2-04/0.mp3",
     "text": "Number 4.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5381,7 +5381,7 @@
   {
     "file": "assets/audio/s4/s4p2-05/0.mp3",
     "text": "Number 5.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5407,7 +5407,7 @@
   {
     "file": "assets/audio/s4/s4p2-06/0.mp3",
     "text": "Number 6.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5433,7 +5433,7 @@
   {
     "file": "assets/audio/s4/s4p2-07/0.mp3",
     "text": "Number 7.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5459,7 +5459,7 @@
   {
     "file": "assets/audio/s4/s4p2-08/0.mp3",
     "text": "Number 8.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5485,7 +5485,7 @@
   {
     "file": "assets/audio/s4/s4p2-09/0.mp3",
     "text": "Number 9.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5511,7 +5511,7 @@
   {
     "file": "assets/audio/s4/s4p2-10/0.mp3",
     "text": "Number 10.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5537,7 +5537,7 @@
   {
     "file": "assets/audio/s4/s4p2-11/0.mp3",
     "text": "Number 11.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5563,7 +5563,7 @@
   {
     "file": "assets/audio/s4/s4p2-12/0.mp3",
     "text": "Number 12.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5589,7 +5589,7 @@
   {
     "file": "assets/audio/s4/s4p2-13/0.mp3",
     "text": "Number 13.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5615,7 +5615,7 @@
   {
     "file": "assets/audio/s4/s4p2-14/0.mp3",
     "text": "Number 14.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5641,7 +5641,7 @@
   {
     "file": "assets/audio/s4/s4p2-15/0.mp3",
     "text": "Number 15.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5667,7 +5667,7 @@
   {
     "file": "assets/audio/s4/s4p2-16/0.mp3",
     "text": "Number 16.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5693,7 +5693,7 @@
   {
     "file": "assets/audio/s4/s4p2-17/0.mp3",
     "text": "Number 17.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5719,7 +5719,7 @@
   {
     "file": "assets/audio/s4/s4p2-18/0.mp3",
     "text": "Number 18.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5745,7 +5745,7 @@
   {
     "file": "assets/audio/s4/s4p2-19/0.mp3",
     "text": "Number 19.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5771,7 +5771,7 @@
   {
     "file": "assets/audio/s4/s4p2-20/0.mp3",
     "text": "Number 20.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5797,7 +5797,7 @@
   {
     "file": "assets/audio/s4/s4p2-21/0.mp3",
     "text": "Number 21.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5823,7 +5823,7 @@
   {
     "file": "assets/audio/s4/s4p2-22/0.mp3",
     "text": "Number 22.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5849,7 +5849,7 @@
   {
     "file": "assets/audio/s4/s4p2-23/0.mp3",
     "text": "Number 23.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5875,7 +5875,7 @@
   {
     "file": "assets/audio/s4/s4p2-24/0.mp3",
     "text": "Number 24.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5901,7 +5901,7 @@
   {
     "file": "assets/audio/s4/s4p2-25/0.mp3",
     "text": "Number 25.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5927,7 +5927,7 @@
   {
     "file": "assets/audio/s4/s4p3-01/0.mp3",
     "text": "Questions 1 through 3 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -5958,25 +5958,25 @@
   {
     "file": "assets/audio/s4/s4p3-01/6.mp3",
     "text": "Number 1. Why is the man calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-01/7.mp3",
     "text": "Number 2. What caused the delay?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-01/8.mp3",
     "text": "Number 3. What does the man ask the woman to send?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-02/0.mp3",
     "text": "Questions 4 through 6 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6007,25 +6007,25 @@
   {
     "file": "assets/audio/s4/s4p3-02/6.mp3",
     "text": "Number 4. What is the problem?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-02/7.mp3",
     "text": "Number 5. Why does the woman need the replacements quickly?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-02/8.mp3",
     "text": "Number 6. What does the woman say she will do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-03/0.mp3",
     "text": "Questions 7 through 9 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6056,25 +6056,25 @@
   {
     "file": "assets/audio/s4/s4p3-03/6.mp3",
     "text": "Number 7. What is the woman writing?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-03/7.mp3",
     "text": "Number 8. What does the woman still need to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-03/8.mp3",
     "text": "Number 9. What does the woman offer to send today?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-04/0.mp3",
     "text": "Questions 10 through 12 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6105,25 +6105,25 @@
   {
     "file": "assets/audio/s4/s4p3-04/6.mp3",
     "text": "Number 10. Why is the woman calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-04/7.mp3",
     "text": "Number 11. What does the man say will happen this afternoon?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-04/8.mp3",
     "text": "Number 12. What does the man say he will do by the end of the day?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-05/0.mp3",
     "text": "Questions 13 through 15 refer to the following conversation with three speakers.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6159,25 +6159,25 @@
   {
     "file": "assets/audio/s4/s4p3-05/7.mp3",
     "text": "Number 13. What are the speakers mainly discussing?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-05/8.mp3",
     "text": "Number 14. Who inspected the warehouse?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-05/9.mp3",
     "text": "Number 15. What does the man need to submit?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-06/0.mp3",
     "text": "Questions 16 through 18 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6213,25 +6213,25 @@
   {
     "file": "assets/audio/s4/s4p3-06/7.mp3",
     "text": "Number 16. What does the woman say about the man's room?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-06/8.mp3",
     "text": "Number 17. What does the woman offer to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-06/9.mp3",
     "text": "Number 18. What does the man ask about?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-07/0.mp3",
     "text": "Questions 19 through 21 refer to the following conversation with three speakers.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6267,25 +6267,25 @@
   {
     "file": "assets/audio/s4/s4p3-07/7.mp3",
     "text": "Number 19. What are the speakers planning?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-07/8.mp3",
     "text": "Number 20. What does Marco agree to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-07/9.mp3",
     "text": "Number 21. What will Hassan arrange?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-08/0.mp3",
     "text": "Questions 22 through 24 refer to the following conversation and list.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6316,25 +6316,25 @@
   {
     "file": "assets/audio/s4/s4p3-08/6.mp3",
     "text": "Number 22. Look at the graphic. Which item will the man reorder?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-08/7.mp3",
     "text": "Number 23. Why is the item being reordered?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-08/8.mp3",
     "text": "Number 24. What does the woman ask the man to check?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-09/0.mp3",
     "text": "Questions 25 through 27 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6365,25 +6365,25 @@
   {
     "file": "assets/audio/s4/s4p3-09/6.mp3",
     "text": "Number 25. What are the speakers preparing?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-09/7.mp3",
     "text": "Number 26. What does the man imply when he says, \"This Friday\"?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-09/8.mp3",
     "text": "Number 27. What does the man agree to do first?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-10/0.mp3",
     "text": "Questions 28 through 30 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6419,25 +6419,25 @@
   {
     "file": "assets/audio/s4/s4p3-10/7.mp3",
     "text": "Number 28. Why is the man looking for an apartment?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-10/8.mp3",
     "text": "Number 29. What is included in the monthly rent?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-10/9.mp3",
     "text": "Number 30. What does the man ask the woman to e-mail?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-11/0.mp3",
     "text": "Questions 31 through 33 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6473,25 +6473,25 @@
   {
     "file": "assets/audio/s4/s4p3-11/7.mp3",
     "text": "Number 31. Why is the woman calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-11/8.mp3",
     "text": "Number 32. Why does the woman want to increase her coverage?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-11/9.mp3",
     "text": "Number 33. When will the new policy take effect?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-12/0.mp3",
     "text": "Questions 34 through 36 refer to the following conversation and schedule.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6517,25 +6517,25 @@
   {
     "file": "assets/audio/s4/s4p3-12/5.mp3",
     "text": "Number 34. Look at the graphic. Which team will handle the rush order?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-12/6.mp3",
     "text": "Number 35. What is the rush order for?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-12/7.mp3",
     "text": "Number 36. What does the woman say she will do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-13/0.mp3",
     "text": "Questions 37 through 39 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6566,25 +6566,25 @@
   {
     "file": "assets/audio/s4/s4p3-13/6.mp3",
     "text": "Number 37. Who most likely is the woman?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-13/7.mp3",
     "text": "Number 38. What does the man say the woman needs before entering the production area?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p3-13/8.mp3",
     "text": "Number 39. What will the woman do next?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-01/0.mp3",
     "text": "Questions 1 through 3 refer to the following tour information.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6595,25 +6595,25 @@
   {
     "file": "assets/audio/s4/s4p4-01/2.mp3",
     "text": "Number 1. Where does the talk most likely take place?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-01/3.mp3",
     "text": "Number 2. What are the listeners required to keep on at all times?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-01/4.mp3",
     "text": "Number 3. What will the listeners most likely do next?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-02/0.mp3",
     "text": "Questions 4 through 6 refer to the following excerpt from a meeting.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6624,25 +6624,25 @@
   {
     "file": "assets/audio/s4/s4p4-02/2.mp3",
     "text": "Number 4. What is the main topic of the meeting excerpt?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-02/3.mp3",
     "text": "Number 5. What problem does the speaker mention?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-02/4.mp3",
     "text": "Number 6. What will Ravi do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-03/0.mp3",
     "text": "Questions 7 through 9 refer to the following announcement.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6653,25 +6653,25 @@
   {
     "file": "assets/audio/s4/s4p4-03/2.mp3",
     "text": "Number 7. What change is being announced?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-03/3.mp3",
     "text": "Number 8. According to the speaker, what is the goal of the change?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-03/4.mp3",
     "text": "Number 9. What should employees do before their shift?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-04/0.mp3",
     "text": "Questions 10 through 12 refer to the following telephone message.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6682,25 +6682,25 @@
   {
     "file": "assets/audio/s4/s4p4-04/2.mp3",
     "text": "Number 10. Why is the speaker calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-04/3.mp3",
     "text": "Number 11. What is the listener asked to do within ten days?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-04/4.mp3",
     "text": "Number 12. What will the speaker include in the e-mail?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-05/0.mp3",
     "text": "Questions 13 through 15 refer to the following broadcast.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6711,25 +6711,25 @@
   {
     "file": "assets/audio/s4/s4p4-05/2.mp3",
     "text": "Number 13. What does the speaker say about this season's strawberries?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-05/3.mp3",
     "text": "Number 14. What do the free workshops teach?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-05/4.mp3",
     "text": "Number 15. What will the speaker discuss after the break?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-06/0.mp3",
     "text": "Questions 16 through 18 refer to the following advertisement.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6740,25 +6740,25 @@
   {
     "file": "assets/audio/s4/s4p4-06/2.mp3",
     "text": "Number 16. What is being advertised?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-06/3.mp3",
     "text": "Number 17. What does the speaker say is included?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-06/4.mp3",
     "text": "Number 18. How can a business receive one month at no charge?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-07/0.mp3",
     "text": "Questions 19 through 21 refer to the following speech.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6769,25 +6769,25 @@
   {
     "file": "assets/audio/s4/s4p4-07/2.mp3",
     "text": "Number 19. What is the purpose of the speech?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-07/3.mp3",
     "text": "Number 20. What improvement does the speaker mention?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-07/4.mp3",
     "text": "Number 21. What did Sofia Marchetti do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-08/0.mp3",
     "text": "Questions 22 through 24 refer to the following talk.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6798,25 +6798,25 @@
   {
     "file": "assets/audio/s4/s4p4-08/2.mp3",
     "text": "Number 22. In which division will the listeners work?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-08/3.mp3",
     "text": "Number 23. What is the listeners' main task?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-08/4.mp3",
     "text": "Number 24. What will happen after lunch?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-09/0.mp3",
     "text": "Questions 25 through 27 refer to the following telephone message and invoice.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6827,25 +6827,25 @@
   {
     "file": "assets/audio/s4/s4p4-09/2.mp3",
     "text": "Number 25. Look at the graphic. Which item is unavailable this week?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-09/3.mp3",
     "text": "Number 26. What does the speaker offer to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-09/4.mp3",
     "text": "Number 27. What does the speaker ask Marcus to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-10/0.mp3",
     "text": "Questions 28 through 30 refer to the following excerpt from a meeting and list.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6856,25 +6856,25 @@
   {
     "file": "assets/audio/s4/s4p4-10/2.mp3",
     "text": "Number 28. Look at the graphic. Which line will be paused for inspection?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-10/3.mp3",
     "text": "Number 29. What does maintenance suspect is the cause?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s4/s4p4-10/4.mp3",
     "text": "Number 30. What does the speaker say will happen by Thursday?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p1-01/0.mp3",
     "text": "Look at the picture marked number 1 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6900,7 +6900,7 @@
   {
     "file": "assets/audio/s5/s5p1-02/0.mp3",
     "text": "Look at the picture marked number 2 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6926,7 +6926,7 @@
   {
     "file": "assets/audio/s5/s5p1-03/0.mp3",
     "text": "Look at the picture marked number 3 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6952,7 +6952,7 @@
   {
     "file": "assets/audio/s5/s5p1-04/0.mp3",
     "text": "Look at the picture marked number 4 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -6978,7 +6978,7 @@
   {
     "file": "assets/audio/s5/s5p1-05/0.mp3",
     "text": "Look at the picture marked number 5 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7004,7 +7004,7 @@
   {
     "file": "assets/audio/s5/s5p1-06/0.mp3",
     "text": "Look at the picture marked number 6 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7030,7 +7030,7 @@
   {
     "file": "assets/audio/s5/s5p2-01/0.mp3",
     "text": "Number 1.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7056,7 +7056,7 @@
   {
     "file": "assets/audio/s5/s5p2-02/0.mp3",
     "text": "Number 2.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7082,7 +7082,7 @@
   {
     "file": "assets/audio/s5/s5p2-03/0.mp3",
     "text": "Number 3.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7108,7 +7108,7 @@
   {
     "file": "assets/audio/s5/s5p2-04/0.mp3",
     "text": "Number 4.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7134,7 +7134,7 @@
   {
     "file": "assets/audio/s5/s5p2-05/0.mp3",
     "text": "Number 5.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7160,7 +7160,7 @@
   {
     "file": "assets/audio/s5/s5p2-06/0.mp3",
     "text": "Number 6.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7186,7 +7186,7 @@
   {
     "file": "assets/audio/s5/s5p2-07/0.mp3",
     "text": "Number 7.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7212,7 +7212,7 @@
   {
     "file": "assets/audio/s5/s5p2-08/0.mp3",
     "text": "Number 8.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7238,7 +7238,7 @@
   {
     "file": "assets/audio/s5/s5p2-09/0.mp3",
     "text": "Number 9.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7264,7 +7264,7 @@
   {
     "file": "assets/audio/s5/s5p2-10/0.mp3",
     "text": "Number 10.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7290,7 +7290,7 @@
   {
     "file": "assets/audio/s5/s5p2-11/0.mp3",
     "text": "Number 11.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7316,7 +7316,7 @@
   {
     "file": "assets/audio/s5/s5p2-12/0.mp3",
     "text": "Number 12.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7342,7 +7342,7 @@
   {
     "file": "assets/audio/s5/s5p2-13/0.mp3",
     "text": "Number 13.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7368,7 +7368,7 @@
   {
     "file": "assets/audio/s5/s5p2-14/0.mp3",
     "text": "Number 14.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7394,7 +7394,7 @@
   {
     "file": "assets/audio/s5/s5p2-15/0.mp3",
     "text": "Number 15.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7420,7 +7420,7 @@
   {
     "file": "assets/audio/s5/s5p2-16/0.mp3",
     "text": "Number 16.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7446,7 +7446,7 @@
   {
     "file": "assets/audio/s5/s5p2-17/0.mp3",
     "text": "Number 17.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7472,7 +7472,7 @@
   {
     "file": "assets/audio/s5/s5p2-18/0.mp3",
     "text": "Number 18.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7498,7 +7498,7 @@
   {
     "file": "assets/audio/s5/s5p2-19/0.mp3",
     "text": "Number 19.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7524,7 +7524,7 @@
   {
     "file": "assets/audio/s5/s5p2-20/0.mp3",
     "text": "Number 20.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7550,7 +7550,7 @@
   {
     "file": "assets/audio/s5/s5p2-21/0.mp3",
     "text": "Number 21.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7576,7 +7576,7 @@
   {
     "file": "assets/audio/s5/s5p2-22/0.mp3",
     "text": "Number 22.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7602,7 +7602,7 @@
   {
     "file": "assets/audio/s5/s5p2-23/0.mp3",
     "text": "Number 23.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7628,7 +7628,7 @@
   {
     "file": "assets/audio/s5/s5p2-24/0.mp3",
     "text": "Number 24.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7654,7 +7654,7 @@
   {
     "file": "assets/audio/s5/s5p2-25/0.mp3",
     "text": "Number 25.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7680,7 +7680,7 @@
   {
     "file": "assets/audio/s5/s5p3-01/0.mp3",
     "text": "Questions 1 through 3 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7711,25 +7711,25 @@
   {
     "file": "assets/audio/s5/s5p3-01/6.mp3",
     "text": "Number 1. Why is the man calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-01/7.mp3",
     "text": "Number 2. What does the woman say about Friday?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-01/8.mp3",
     "text": "Number 3. What does the woman tell the man to keep doing?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-02/0.mp3",
     "text": "Questions 4 through 6 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7755,25 +7755,25 @@
   {
     "file": "assets/audio/s5/s5p3-02/5.mp3",
     "text": "Number 4. What is the woman asking about?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-02/6.mp3",
     "text": "Number 5. According to the man, when will the material be ready?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-02/7.mp3",
     "text": "Number 6. What does the man offer to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-03/0.mp3",
     "text": "Questions 7 through 9 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7799,25 +7799,25 @@
   {
     "file": "assets/audio/s5/s5p3-03/5.mp3",
     "text": "Number 7. What have the speakers received approval for?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-03/6.mp3",
     "text": "Number 8. According to the man, when can the project begin?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-03/7.mp3",
     "text": "Number 9. What will the woman do this week?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-04/0.mp3",
     "text": "Questions 10 through 12 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7848,25 +7848,25 @@
   {
     "file": "assets/audio/s5/s5p3-04/6.mp3",
     "text": "Number 10. Where most likely are the speakers?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-04/7.mp3",
     "text": "Number 11. What does the man want to reduce?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-04/8.mp3",
     "text": "Number 12. What will the woman send by Tuesday?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-05/0.mp3",
     "text": "Questions 13 through 15 refer to the following conversation with three speakers.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7902,25 +7902,25 @@
   {
     "file": "assets/audio/s5/s5p3-05/7.mp3",
     "text": "Number 13. What are the speakers planning?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-05/8.mp3",
     "text": "Number 14. What does Chloe offer to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-05/9.mp3",
     "text": "Number 15. What will Ben do by Wednesday?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-06/0.mp3",
     "text": "Questions 16 through 18 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -7946,25 +7946,25 @@
   {
     "file": "assets/audio/s5/s5p3-06/5.mp3",
     "text": "Number 16. Why is the man at the clinic?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-06/6.mp3",
     "text": "Number 17. What does the woman ask the man to complete?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-06/7.mp3",
     "text": "Number 18. What will the woman do next?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-07/0.mp3",
     "text": "Questions 19 through 21 refer to the following conversation with three speakers.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8000,25 +8000,25 @@
   {
     "file": "assets/audio/s5/s5p3-07/7.mp3",
     "text": "Number 19. What will be installed on Thursday?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-07/8.mp3",
     "text": "Number 20. What does Tom agree to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-07/9.mp3",
     "text": "Number 21. What does Raj offer to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-08/0.mp3",
     "text": "Questions 22 through 24 refer to the following conversation and list.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8044,25 +8044,25 @@
   {
     "file": "assets/audio/s5/s5p3-08/5.mp3",
     "text": "Number 22. Look at the graphic. Which floor will the woman go to?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-08/6.mp3",
     "text": "Number 23. What does the man tell the woman to bring?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-08/7.mp3",
     "text": "Number 24. What does the man say the woman can do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-09/0.mp3",
     "text": "Questions 25 through 27 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8093,25 +8093,25 @@
   {
     "file": "assets/audio/s5/s5p3-09/6.mp3",
     "text": "Number 25. What are the speakers mainly discussing?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-09/7.mp3",
     "text": "Number 26. What does the woman imply when she says, \"There are ninety of them\"?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-09/8.mp3",
     "text": "Number 27. What does the man offer to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-10/0.mp3",
     "text": "Questions 28 through 30 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8137,25 +8137,25 @@
   {
     "file": "assets/audio/s5/s5p3-10/5.mp3",
     "text": "Number 28. What is the man looking for?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-10/6.mp3",
     "text": "Number 29. What does the woman say about her recommendations?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-10/7.mp3",
     "text": "Number 30. What does the woman suggest the man do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-11/0.mp3",
     "text": "Questions 31 through 33 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8191,25 +8191,25 @@
   {
     "file": "assets/audio/s5/s5p3-11/7.mp3",
     "text": "Number 31. What does the woman want to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-11/8.mp3",
     "text": "Number 32. What does the man say about the standard package?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-11/9.mp3",
     "text": "Number 33. What will the man most likely do next?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-12/0.mp3",
     "text": "Questions 34 through 36 refer to the following conversation and schedule.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8245,25 +8245,25 @@
   {
     "file": "assets/audio/s5/s5p3-12/7.mp3",
     "text": "Number 34. Look at the graphic. Which section will the woman most likely take?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-12/8.mp3",
     "text": "Number 35. What does the woman ask the man to do if the class is full?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-12/9.mp3",
     "text": "Number 36. What will the man do this afternoon?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-13/0.mp3",
     "text": "Questions 37 through 39 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8299,25 +8299,25 @@
   {
     "file": "assets/audio/s5/s5p3-13/7.mp3",
     "text": "Number 37. Why is the man calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-13/8.mp3",
     "text": "Number 38. What does the woman say is free?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p3-13/9.mp3",
     "text": "Number 39. What time can the man drop off his items?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-01/0.mp3",
     "text": "Questions 1 through 3 refer to the following telephone message.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8328,25 +8328,25 @@
   {
     "file": "assets/audio/s5/s5p4-01/2.mp3",
     "text": "Number 1. Why is the speaker calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-01/3.mp3",
     "text": "Number 2. What does the speaker ask the listener to leave at home?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-01/4.mp3",
     "text": "Number 3. How long does the scan take?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-02/0.mp3",
     "text": "Questions 4 through 6 refer to the following announcement.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8357,25 +8357,25 @@
   {
     "file": "assets/audio/s5/s5p4-02/2.mp3",
     "text": "Number 4. What is the purpose of the announcement?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-02/3.mp3",
     "text": "Number 5. Where is the speaker's office located?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-02/4.mp3",
     "text": "Number 6. What can students who attend at least three sessions receive?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-03/0.mp3",
     "text": "Questions 7 through 9 refer to the following advertisement.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8386,25 +8386,25 @@
   {
     "file": "assets/audio/s5/s5p4-03/2.mp3",
     "text": "Number 7. What type of business is being advertised?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-03/3.mp3",
     "text": "Number 8. What are customers who book before the end of September offered?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-03/4.mp3",
     "text": "Number 9. How can listeners get a quote?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-04/0.mp3",
     "text": "Questions 10 through 12 refer to the following excerpt from a meeting.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8415,25 +8415,25 @@
   {
     "file": "assets/audio/s5/s5p4-04/2.mp3",
     "text": "Number 10. What is the speaker mainly discussing?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-04/3.mp3",
     "text": "Number 11. Why has a freelancer been arranged?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-04/4.mp3",
     "text": "Number 12. What is Sofia asked to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-05/0.mp3",
     "text": "Questions 13 through 15 refer to the following announcement and schedule.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8444,25 +8444,25 @@
   {
     "file": "assets/audio/s5/s5p4-05/2.mp3",
     "text": "Number 13. Look at the graphic. Which workshop has been canceled?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-05/3.mp3",
     "text": "Number 14. Why was the workshop canceled?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-05/4.mp3",
     "text": "Number 15. How can visitors join a workshop?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-06/0.mp3",
     "text": "Questions 16 through 18 refer to the following tour information.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8473,25 +8473,25 @@
   {
     "file": "assets/audio/s5/s5p4-06/2.mp3",
     "text": "Number 16. Where most likely are the listeners?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-06/3.mp3",
     "text": "Number 17. What does the speaker ask the listeners to do for safety?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-06/4.mp3",
     "text": "Number 18. What will the listeners do after the walk?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-07/0.mp3",
     "text": "Questions 19 through 21 refer to the following telephone message.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8502,25 +8502,25 @@
   {
     "file": "assets/audio/s5/s5p4-07/2.mp3",
     "text": "Number 19. Why is the speaker calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-07/3.mp3",
     "text": "Number 20. What is the problem?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-07/4.mp3",
     "text": "Number 21. What alternative does the speaker offer?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-08/0.mp3",
     "text": "Questions 22 through 24 refer to the following broadcast.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8531,25 +8531,25 @@
   {
     "file": "assets/audio/s5/s5p4-08/2.mp3",
     "text": "Number 22. What is the news report mainly about?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-08/3.mp3",
     "text": "Number 23. What are volunteers asked to bring?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-08/4.mp3",
     "text": "Number 24. What will listeners hear after the break?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-09/0.mp3",
     "text": "Questions 25 through 27 refer to the following talk and invoice.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8560,25 +8560,25 @@
   {
     "file": "assets/audio/s5/s5p4-09/2.mp3",
     "text": "Number 25. Look at the graphic. Which item will be removed from the order?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-09/3.mp3",
     "text": "Number 26. What is the supplier offering this week?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-09/4.mp3",
     "text": "Number 27. What will Tom do when the delivery arrives?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-10/0.mp3",
     "text": "Questions 28 through 30 refer to the following speech.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8589,25 +8589,25 @@
   {
     "file": "assets/audio/s5/s5p4-10/2.mp3",
     "text": "Number 28. What is the purpose of the speech?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-10/3.mp3",
     "text": "Number 29. What did Grace Hartwell do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s5/s5p4-10/4.mp3",
     "text": "Number 30. What will Grace Hartwell do next?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p1-01/0.mp3",
     "text": "Look at the picture marked number 1 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8633,7 +8633,7 @@
   {
     "file": "assets/audio/s6/s6p1-02/0.mp3",
     "text": "Look at the picture marked number 2 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8659,7 +8659,7 @@
   {
     "file": "assets/audio/s6/s6p1-03/0.mp3",
     "text": "Look at the picture marked number 3 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8685,7 +8685,7 @@
   {
     "file": "assets/audio/s6/s6p1-04/0.mp3",
     "text": "Look at the picture marked number 4 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8711,7 +8711,7 @@
   {
     "file": "assets/audio/s6/s6p1-05/0.mp3",
     "text": "Look at the picture marked number 5 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8737,7 +8737,7 @@
   {
     "file": "assets/audio/s6/s6p1-06/0.mp3",
     "text": "Look at the picture marked number 6 in your test book.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8763,7 +8763,7 @@
   {
     "file": "assets/audio/s6/s6p2-01/0.mp3",
     "text": "Number 1.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8789,7 +8789,7 @@
   {
     "file": "assets/audio/s6/s6p2-02/0.mp3",
     "text": "Number 2.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8815,7 +8815,7 @@
   {
     "file": "assets/audio/s6/s6p2-03/0.mp3",
     "text": "Number 3.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8841,7 +8841,7 @@
   {
     "file": "assets/audio/s6/s6p2-04/0.mp3",
     "text": "Number 4.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8867,7 +8867,7 @@
   {
     "file": "assets/audio/s6/s6p2-05/0.mp3",
     "text": "Number 5.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8893,7 +8893,7 @@
   {
     "file": "assets/audio/s6/s6p2-06/0.mp3",
     "text": "Number 6.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8919,7 +8919,7 @@
   {
     "file": "assets/audio/s6/s6p2-07/0.mp3",
     "text": "Number 7.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8945,7 +8945,7 @@
   {
     "file": "assets/audio/s6/s6p2-08/0.mp3",
     "text": "Number 8.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8971,7 +8971,7 @@
   {
     "file": "assets/audio/s6/s6p2-09/0.mp3",
     "text": "Number 9.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -8997,7 +8997,7 @@
   {
     "file": "assets/audio/s6/s6p2-10/0.mp3",
     "text": "Number 10.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9023,7 +9023,7 @@
   {
     "file": "assets/audio/s6/s6p2-11/0.mp3",
     "text": "Number 11.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9049,7 +9049,7 @@
   {
     "file": "assets/audio/s6/s6p2-12/0.mp3",
     "text": "Number 12.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9075,7 +9075,7 @@
   {
     "file": "assets/audio/s6/s6p2-13/0.mp3",
     "text": "Number 13.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9101,7 +9101,7 @@
   {
     "file": "assets/audio/s6/s6p2-14/0.mp3",
     "text": "Number 14.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9127,7 +9127,7 @@
   {
     "file": "assets/audio/s6/s6p2-15/0.mp3",
     "text": "Number 15.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9153,7 +9153,7 @@
   {
     "file": "assets/audio/s6/s6p2-16/0.mp3",
     "text": "Number 16.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9179,7 +9179,7 @@
   {
     "file": "assets/audio/s6/s6p2-17/0.mp3",
     "text": "Number 17.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9205,7 +9205,7 @@
   {
     "file": "assets/audio/s6/s6p2-18/0.mp3",
     "text": "Number 18.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9231,7 +9231,7 @@
   {
     "file": "assets/audio/s6/s6p2-19/0.mp3",
     "text": "Number 19.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9257,7 +9257,7 @@
   {
     "file": "assets/audio/s6/s6p2-20/0.mp3",
     "text": "Number 20.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9283,7 +9283,7 @@
   {
     "file": "assets/audio/s6/s6p2-21/0.mp3",
     "text": "Number 21.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9309,7 +9309,7 @@
   {
     "file": "assets/audio/s6/s6p2-22/0.mp3",
     "text": "Number 22.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9335,7 +9335,7 @@
   {
     "file": "assets/audio/s6/s6p2-23/0.mp3",
     "text": "Number 23.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9361,7 +9361,7 @@
   {
     "file": "assets/audio/s6/s6p2-24/0.mp3",
     "text": "Number 24.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9387,7 +9387,7 @@
   {
     "file": "assets/audio/s6/s6p2-25/0.mp3",
     "text": "Number 25.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9413,7 +9413,7 @@
   {
     "file": "assets/audio/s6/s6p3-01/0.mp3",
     "text": "Questions 1 through 3 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9449,25 +9449,25 @@
   {
     "file": "assets/audio/s6/s6p3-01/7.mp3",
     "text": "Number 1. Why is the man calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-01/8.mp3",
     "text": "Number 2. What does the woman say about requests for smaller amounts?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-01/9.mp3",
     "text": "Number 3. What will the woman send the man?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-02/0.mp3",
     "text": "Questions 4 through 6 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9498,25 +9498,25 @@
   {
     "file": "assets/audio/s6/s6p3-02/6.mp3",
     "text": "Number 4. Who most likely is the man?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-02/7.mp3",
     "text": "Number 5. Why does the man suggest pre-recording?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-02/8.mp3",
     "text": "Number 6. What does the woman offer to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-03/0.mp3",
     "text": "Questions 7 through 9 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9552,25 +9552,25 @@
   {
     "file": "assets/audio/s6/s6p3-03/7.mp3",
     "text": "Number 7. What does the man recommend?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-03/8.mp3",
     "text": "Number 8. What does the woman say she will do this weekend?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-03/9.mp3",
     "text": "Number 9. What will the man do tomorrow?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-04/0.mp3",
     "text": "Questions 10 through 12 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9601,25 +9601,25 @@
   {
     "file": "assets/audio/s6/s6p3-04/6.mp3",
     "text": "Number 10. Where will the display be set up?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-04/7.mp3",
     "text": "Number 11. What does the woman ask the man to bring?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-04/8.mp3",
     "text": "Number 12. What will the man do after setting up the mannequins?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-05/0.mp3",
     "text": "Questions 13 through 15 refer to the following conversation with three speakers.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9655,25 +9655,25 @@
   {
     "file": "assets/audio/s6/s6p3-05/7.mp3",
     "text": "Number 13. What problem does Grace mention?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-05/8.mp3",
     "text": "Number 14. What does Lily say she has been doing?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-05/9.mp3",
     "text": "Number 15. What will Owen do this afternoon?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-06/0.mp3",
     "text": "Questions 16 through 18 refer to the following conversation and list.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9704,25 +9704,25 @@
   {
     "file": "assets/audio/s6/s6p3-06/6.mp3",
     "text": "Number 16. Look at the graphic. How much will each of the woman's tickets cost?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-06/7.mp3",
     "text": "Number 17. What is included with the ticket?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-06/8.mp3",
     "text": "Number 18. What will the woman do when she arrives?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-07/0.mp3",
     "text": "Questions 19 through 21 refer to the following conversation with three speakers.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9758,25 +9758,25 @@
   {
     "file": "assets/audio/s6/s6p3-07/7.mp3",
     "text": "Number 19. What will happen on Friday?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-07/8.mp3",
     "text": "Number 20. According to Raj, what caused the higher expenses?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-07/9.mp3",
     "text": "Number 21. What does Helen ask David to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-08/0.mp3",
     "text": "Questions 22 through 24 refer to the following conversation and list.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9812,25 +9812,25 @@
   {
     "file": "assets/audio/s6/s6p3-08/7.mp3",
     "text": "Number 22. Look at the graphic. Which size will the man reorder?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-08/8.mp3",
     "text": "Number 23. What will the man do this afternoon?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-08/9.mp3",
     "text": "Number 24. What does the woman ask the man to leave on her desk?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-09/0.mp3",
     "text": "Questions 25 through 27 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9861,25 +9861,25 @@
   {
     "file": "assets/audio/s6/s6p3-09/6.mp3",
     "text": "Number 25. What does the woman want to send?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-09/7.mp3",
     "text": "Number 26. What does the man imply when he says, \"The CEO hasn't approved the final wording yet\"?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-09/8.mp3",
     "text": "Number 27. What will the man prepare?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-10/0.mp3",
     "text": "Questions 28 through 30 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9910,25 +9910,25 @@
   {
     "file": "assets/audio/s6/s6p3-10/6.mp3",
     "text": "Number 28. What problem does the woman mention?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-10/7.mp3",
     "text": "Number 29. What does the man say his crew will do on Monday?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-10/8.mp3",
     "text": "Number 30. What will the woman do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-11/0.mp3",
     "text": "Questions 31 through 33 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -9964,25 +9964,25 @@
   {
     "file": "assets/audio/s6/s6p3-11/7.mp3",
     "text": "Number 31. What does the woman want to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-11/8.mp3",
     "text": "Number 32. What does the man say about the digital copy of the receipt?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-11/9.mp3",
     "text": "Number 33. Why will the woman not be charged?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-12/0.mp3",
     "text": "Questions 34 through 36 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -10018,25 +10018,25 @@
   {
     "file": "assets/audio/s6/s6p3-12/7.mp3",
     "text": "Number 34. Why is the man calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-12/8.mp3",
     "text": "Number 35. What does the man say the café has done recently?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-12/9.mp3",
     "text": "Number 36. What does the woman say she will send?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-13/0.mp3",
     "text": "Questions 37 through 39 refer to the following conversation.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -10072,25 +10072,25 @@
   {
     "file": "assets/audio/s6/s6p3-13/7.mp3",
     "text": "Number 37. Why is the woman meeting with the man?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-13/8.mp3",
     "text": "Number 38. What does the man say is provided at no additional charge?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p3-13/9.mp3",
     "text": "Number 39. What will the man do this afternoon?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-01/0.mp3",
     "text": "Questions 1 through 3 refer to the following telephone message.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -10101,25 +10101,25 @@
   {
     "file": "assets/audio/s6/s6p4-01/2.mp3",
     "text": "Number 1. Why is the speaker calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-01/3.mp3",
     "text": "Number 2. What does the speaker ask Mr. Delgado to provide?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-01/4.mp3",
     "text": "Number 3. According to the speaker, what will happen after the document is received?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-02/0.mp3",
     "text": "Questions 4 through 6 refer to the following broadcast.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -10130,25 +10130,25 @@
   {
     "file": "assets/audio/s6/s6p4-02/2.mp3",
     "text": "Number 4. What is the main topic of today's program?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-02/3.mp3",
     "text": "Number 5. What change to the program does the speaker announce?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-02/4.mp3",
     "text": "Number 6. How can listeners submit a question for the new segment?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-03/0.mp3",
     "text": "Questions 7 through 9 refer to the following advertisement.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -10159,25 +10159,25 @@
   {
     "file": "assets/audio/s6/s6p4-03/2.mp3",
     "text": "Number 7. What type of business is being advertised?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-03/3.mp3",
     "text": "Number 8. What must customers do to receive a complimentary item?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-03/4.mp3",
     "text": "Number 9. When is the business closed?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-04/0.mp3",
     "text": "Questions 10 through 12 refer to the following excerpt from a meeting.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -10188,25 +10188,25 @@
   {
     "file": "assets/audio/s6/s6p4-04/2.mp3",
     "text": "Number 10. What kind of project is being discussed?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-04/3.mp3",
     "text": "Number 11. What problem does the speaker mention?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-04/4.mp3",
     "text": "Number 12. What will Sofia do this afternoon?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-05/0.mp3",
     "text": "Questions 13 through 15 refer to the following announcement and list.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -10217,25 +10217,25 @@
   {
     "file": "assets/audio/s6/s6p4-05/2.mp3",
     "text": "Number 13. Look at the graphic. Where should guests for the reception go?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-05/3.mp3",
     "text": "Number 14. Where can guests pick up will-call tickets?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-05/4.mp3",
     "text": "Number 15. What are guests reminded not to do during the performance?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-06/0.mp3",
     "text": "Questions 16 through 18 refer to the following talk.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -10246,25 +10246,25 @@
   {
     "file": "assets/audio/s6/s6p4-06/2.mp3",
     "text": "Number 16. Who most likely are the listeners?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-06/3.mp3",
     "text": "Number 17. By what time should the first person to arrive get there?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-06/4.mp3",
     "text": "Number 18. What are listeners told to do if part of the delivery is missing?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-07/0.mp3",
     "text": "Questions 19 through 21 refer to the following telephone message.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -10275,25 +10275,25 @@
   {
     "file": "assets/audio/s6/s6p4-07/2.mp3",
     "text": "Number 19. Why is the speaker calling?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-07/3.mp3",
     "text": "Number 20. What time is Dr. Bello asked to arrive?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-07/4.mp3",
     "text": "Number 21. What does the speaker ask Dr. Bello to send in advance?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-08/0.mp3",
     "text": "Questions 22 through 24 refer to the following tour information.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -10304,25 +10304,25 @@
   {
     "file": "assets/audio/s6/s6p4-08/2.mp3",
     "text": "Number 22. Where does the tour take place?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-08/3.mp3",
     "text": "Number 23. What are visitors asked to do in the hallways?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-08/4.mp3",
     "text": "Number 24. What are visitors told to do if they become separated from the group?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-09/0.mp3",
     "text": "Questions 25 through 27 refer to the following excerpt from a meeting and list.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -10333,25 +10333,25 @@
   {
     "file": "assets/audio/s6/s6p4-09/2.mp3",
     "text": "Number 25. Look at the graphic. How much was spent on the category the speaker is concerned about?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-09/3.mp3",
     "text": "Number 26. What does the speaker want to do next quarter?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-09/4.mp3",
     "text": "Number 27. What does the speaker ask Devi to do?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-10/0.mp3",
     "text": "Questions 28 through 30 refer to the following speech.",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
@@ -10362,19 +10362,19 @@
   {
     "file": "assets/audio/s6/s6p4-10/2.mp3",
     "text": "Number 28. What event is being celebrated?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-10/3.mp3",
     "text": "Number 29. What does the speaker announce?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   },
   {
     "file": "assets/audio/s6/s6p4-10/4.mp3",
     "text": "Number 30. Who will speak next?",
-    "voice": "en-US-ChristopherNeural",
+    "voice": "en-US-MichelleNeural",
     "rate": "-8%"
   }
 ]

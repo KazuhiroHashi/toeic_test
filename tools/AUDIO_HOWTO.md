@@ -162,7 +162,7 @@ git add assets/audio && git commit -m "リスニング音声を追加" && git pu
 | 会話・応答 | イギリス | en-GB-RyanNeural | en-GB-SoniaNeural |
 | 会話・応答 | オーストラリア | en-AU-WilliamNeural | en-AU-NatashaNeural |
 | 会話・応答 | カナダ | en-CA-LiamNeural | en-CA-ClaraNeural |
-| ナレーター(問題番号・導入文・設問読み上げ) | アメリカ | en-US-ChristopherNeural | — |
+| ナレーター(問題番号・導入文・設問読み上げ) | アメリカ | — | en-US-MichelleNeural |
 
 問題ごとに4カ国を順番にローテーションします。読み上げ速度は本番に合わせて標準より5%ゆっくりです(変えたい場合は `tools/generate_audio.py` の `RATE = "-5%"` を書き換えて再生成)。
 
@@ -183,7 +183,7 @@ bash tools/preview_narrators.sh
 気に入った声が決まったら、`tools/build_audio_manifest.js` の次の行を書き換えます。
 
 ```js
-var NARRATOR = "en-US-ChristopherNeural";
+var NARRATOR = "en-US-MichelleNeural";
 var NARRATOR_RATE = "-8%";   // さらに差をつけたいなら -12% など
 var NARRATOR_PITCH = null;   // 例: "-5Hz"(低く) / "+5Hz"(高く)
 ```
