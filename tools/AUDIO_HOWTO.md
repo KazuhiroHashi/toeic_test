@@ -116,13 +116,29 @@ find assets/audio -name '*.mp3' | wc -l
 
 `1928` と出れば完璧です。少なければ、もう一度 手順5 のコマンドを実行してください。
 
-試しに1つ聞いてみます(セット1・Part 1・1問目のナレーション)。
+### 試しに聞いてみる
+
+1ファイルだけ(セット1・Part 1・1問目の導入ナレーション):
 
 ```bash
-afplay assets/audio/s1/s1p1-01/0.mp3
+afplay assets/audio/s1/p1-01/0.mp3
 ```
 
-英語のナレーションが聞こえれば成功です。
+「Look at the picture marked number 1 in your test book.」と聞こえれば成功です。
+
+会話をまるごと(セット1・Part 3・1つ目。導入 → 会話 → 設問読み上げ):
+
+```bash
+cd assets/audio/s1/p3-01 && for f in $(ls *.mp3 | sort -n); do afplay "$f"; done; cd -
+```
+
+> **フォルダ名の決まり:**セット1は `p1-01` `p2-07` `p3-01` `p4-01` のようにセット番号が付きません。セット2〜6は `s2p1-01` のように頭にセット番号が付きます。
+>
+> `Error: AudioFileOpen failed ('wht?')` は「そのファイルが無い」という意味です(壊れているのではなくパスの打ち間違い)。どれでもいいから1つ鳴らすには:
+>
+> ```bash
+> afplay "$(find assets/audio -name '0.mp3' | head -1)"
+> ```
 
 ---
 
@@ -191,6 +207,7 @@ rm -rf assets/audio/s3
 | `git push` で `rejected` と出る | 先に `git pull origin main` してから、もう一度 push |
 | アプリを開いても合成音声のまま | mp3 が push できていない。`find assets/audio -name '*.mp3' \| wc -l` が 1928 か確認し、`git status` で未コミットが無いか見る |
 | 生成が遅すぎる | `tools/generate_audio.py` の `CONCURRENCY = 4` を `8` に上げる(上げすぎると拒否されます) |
+| `afplay` で `AudioFileOpen failed ('wht?')` | ファイルが壊れているのではなく **そのパスが存在しない**。セット1のフォルダ名は `p1-01`(`s1p1-01` ではない)。`afplay "$(find assets/audio -name '0.mp3' \| head -1)"` なら確実に鳴ります |
 
 ---
 
