@@ -44,7 +44,7 @@ var SET_SOURCES = [
 var COUNTRIES = ["US", "GB", "AU", "CA"];
 var V = {
   US: { M: "en-US-GuyNeural", W: "en-US-JennyNeural" },
-  GB: { M: "en-GB-RyanNeural", W: "en-GB-SoniaNeural" },
+  GB: { M: "en-GB-RyanNeural", W: "en-GB-LibbyNeural" },
   AU: { M: "en-AU-WilliamNeural", W: "en-AU-NatashaNeural" },
   CA: { M: "en-CA-LiamNeural", W: "en-CA-ClaraNeural" }
 };
@@ -86,8 +86,16 @@ var LETTERS = ["A", "B", "C", "D"];
 // 本番TOEICの通し番号(js/app.js の PART_START と必ず一致させること)
 var PART_START = { part1: 1, part2: 7, part3: 32, part4: 71 };
 
-// 本番同様、各選択肢の前に記号(A.〜D.)を読み上げる。記号と本文は1つの音声にまとめる。
-function choiceText(i, text) { return LETTERS[i] + ". " + text; }
+// 本番同様、各選択肢の前に記号(A.〜D.)を読み上げる。
+// 記号は本文と別の音声にして、そこで一度言い切らせる
+// (ひとつづきにすると「エイ」が言い切られず、次の語につながってしまうため)。
+// 記号のうしろの間(ミリ秒)。コマンドの後ろに数字を付けるとその回だけ変更できる。
+//   node tools/build_audio_manifest.js 700
+var LETTER_GAP = 500;
+if (process.argv[2] && /^\d+$/.test(process.argv[2])) {
+  LETTER_GAP = parseInt(process.argv[2], 10);
+}
+function letterText(i) { return LETTERS[i] + "."; }
 
 var clips = [];       // {file, text, voice}
 var manifest = {};    // "s1:taskid" -> [{f, g}, ...]
@@ -120,7 +128,8 @@ SET_SOURCES.forEach(function (SRC) {
   DATA.part1.forEach(function (it, idx) {
     var lines = [{ speaker: "N", text: "Look at the picture marked number " + (PART_START.part1 + idx) + " in your test book.", gapAfter: 1000 }];
     it.choices.forEach(function (c, i) {
-      lines.push({ speaker: it.speaker || "M", text: choiceText(i, c), gapAfter: 1000 });
+      lines.push({ speaker: it.speaker || "M", text: letterText(i), gapAfter: LETTER_GAP });
+      lines.push({ speaker: it.speaker || "M", text: c, gapAfter: 1000 });
     });
     addTask(it.id, lines);
   });
@@ -134,7 +143,8 @@ SET_SOURCES.forEach(function (SRC) {
       { speaker: qsp, text: it.question.text, gapAfter: 1000 }
     ];
     it.choices.forEach(function (c, i) {
-      lines.push({ speaker: osp, text: choiceText(i, c), gapAfter: 1000 });
+      lines.push({ speaker: osp, text: letterText(i), gapAfter: LETTER_GAP });
+      lines.push({ speaker: osp, text: c, gapAfter: 1000 });
     });
     addTask(it.id, lines);
   });

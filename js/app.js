@@ -408,8 +408,10 @@
 
   function tasksPart1(items) {
     return items.map(function (it, idx) {
-      var lines = it.choices.map(function (c, i) {
-        return { speaker: it.speaker || "M", text: choiceText(i, c), gapAfter: 1000 };
+      var lines = [];
+      it.choices.forEach(function (c, i) {
+        lines.push({ speaker: it.speaker || "M", text: letterText(i), gapAfter: LETTER_GAP });
+        lines.push({ speaker: it.speaker || "M", text: c, gapAfter: 1000 });
       });
       return {
         part: "Part 1",
@@ -435,11 +437,11 @@
   function tasksPart2(items) {
     return items.map(function (it, idx) {
       var other = it.question.speaker === "W" ? "M" : "W";
-      var lines = [{ speaker: it.question.speaker, text: it.question.text, gapAfter: 1000 }].concat(
-        it.choices.map(function (c, i) {
-          return { speaker: other, text: choiceText(i, c), gapAfter: 1000 };
-        })
-      );
+      var lines = [{ speaker: it.question.speaker, text: it.question.text, gapAfter: 1000 }];
+      it.choices.forEach(function (c, i) {
+        lines.push({ speaker: other, text: letterText(i), gapAfter: LETTER_GAP });
+        lines.push({ speaker: other, text: c, gapAfter: 1000 });
+      });
       return {
         part: "Part 2",
         listening: true,
