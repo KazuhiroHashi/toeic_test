@@ -176,7 +176,11 @@ main {
   border-radius: 8px; padding: 10px 12px; cursor: pointer; font: inherit;
   transition: border-color 0.1s, background 0.1s;
 }
-.choice-btn:hover:not(:disabled) { border-color: var(--primary); background: #f4f8fd; }
+/* タッチ端末では hover が押したまま残るので、マウスのある環境だけに限定する */
+@media (hover: hover) {
+  .choice-btn:hover:not(:disabled):not(.selected) { border-color: var(--primary); background: #f4f8fd; }
+}
+.choice-btn { -webkit-tap-highlight-color: transparent; }
 .choice-btn:disabled { cursor: default; }
 .choice-letter { font-weight: 700; color: var(--primary); flex-shrink: 0; }
 .choice-btn.correct { border-color: var(--correct); background: #eafaf1; }
@@ -252,15 +256,17 @@ details.script-box .script-body {
 .pick-label { font-size: 0.86rem; }
 
 /* ===== 解答は印を付けるだけ(採点は最後) ===== */
+/* 選んだ選択肢は、行そのものの色を変えて分かるようにする
+   (記号だけを白抜きにすると「文字が反転しただけ」に見えて分かりにくい) */
 .choice-btn.selected {
-  border-color: #1a5fb4;
-  background: #e8f0fb;
+  border: 2px solid var(--primary);
+  background: #cfe3fa;
+  box-shadow: inset 5px 0 0 var(--primary);
+  padding: 9px 11px;              /* 枠が太くなる分を調整して行の高さを保つ */
   font-weight: 600;
+  color: #10375e;
 }
-.choice-btn.selected .choice-letter {
-  background: #1a5fb4;
-  color: #fff;
-}
+.choice-btn.selected .choice-letter { color: var(--primary); }
 
 /* ===== 制限時間 ===== */
 .timer {
@@ -328,4 +334,11 @@ details.script-box .script-body {
   font-size: 14px;
   line-height: 1.8;
   color: #333;
+}
+
+/* 商標表記は常時出すが、目立たせない */
+.app-footer .legal {
+  font-size: 0.72rem;
+  opacity: 0.55;
+  margin-top: 4px;
 }

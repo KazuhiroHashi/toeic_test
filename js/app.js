@@ -923,9 +923,7 @@
       html += '<div class="audio-controls">' +
         '<button class="play-btn" id="play">▶ 音声を再生</button>' +
         '<button class="stop-btn" id="stopAudio">■ 停止</button>' +
-        (speech.supported
-          ? '<span class="audio-note">音声は合成音声です。何度でも再生できます。</span>'
-          : '<span class="audio-note">このブラウザは音声合成に未対応です。解答後にスクリプトを確認して学習してください。</span>') +
+        '<span class="audio-note">何度でも再生できます。</span>' +
         "</div>";
     }
 
