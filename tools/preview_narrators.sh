@@ -1,7 +1,8 @@
 #!/bin/bash
 # ナレーター候補の声を聞き比べる(Mac用)
 #
-#   bash tools/preview_narrators.sh
+#   bash tools/preview_narrators.sh                                  … 候補6声 + 登場人物6声
+#   bash tools/preview_narrators.sh en-US-EmmaNeural en-US-AvaNeural … 指定した声だけ
 #
 # 気に入った声の名前を tools/build_audio_manifest.js の
 #   var NARRATOR = "...";
@@ -24,6 +25,10 @@ VOICES=(
   "en-US-BrianNeural"       # 男・軽めで若め
 )
 
+# 引数で声を指定したら、それだけを聞く(登場人物の再生は省略)
+ONLY=0
+if [ "$#" -gt 0 ]; then VOICES=("$@"); ONLY=1; fi
+
 # ナレーターは登場人物より少しゆっくり読ませて「進行役」と分かるようにしている
 NRATE="-8%"
 
@@ -33,6 +38,12 @@ for v in "${VOICES[@]}"; do
   edge-tts --voice "$v" --rate=$NRATE --text "$TEXT" --write-media "$OUT/$v.mp3" >/dev/null 2>&1
   afplay "$OUT/$v.mp3"
 done
+
+if [ "$ONLY" = "1" ]; then
+  echo ""
+  echo "一時ファイル: $OUT"
+  exit 0
+fi
 
 echo ""
 echo "比較のため、会話に出てくる登場人物の声も聞きます"
