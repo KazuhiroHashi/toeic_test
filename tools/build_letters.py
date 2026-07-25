@@ -62,8 +62,8 @@ VOICES = [
 LETTERS = ["A", "B", "C", "D"]
 TEXT = "A. B. C. D."
 
-HEAD_PAD = 0.06     # 各文字の前に残す余白(秒)
-TAIL_PAD = 0.16     # 各文字の後に残す余白(秒)。語尾の余韻を切らないため
+HEAD_PAD = 0.15     # 最初の文字の前に残す無音(秒)
+TAIL_PAD = 0.25     # 最後の文字の後に残す無音(秒)
 MIN_SEG = 0.15      # 切り出した1文字の最低の長さ(秒)
 MAX_SEG = 0.90      # 切り出した1文字の最大の長さ(秒)。長すぎ=切れていない
 EDGE = 0.08         # これより端に寄った無音は「先頭/末尾の無音」とみなす
@@ -189,28 +189,22 @@ def bounds_from_silence(path: Path, total: float):
                     continue
                 score = max(lens) - min(lens)   # ばらつきが小さいほど良い
                 if best is None or score < best[0]:
-                    # 切り出し位置を無音側へ少し広げて、語頭・語尾を欠けさせない
-                    padded = []
-                    for i, (a, b) in enumerate(segs):
-                        lo = combo[i - 1][1] if i > 0 else 0.0
-                        hi = combo[i][0] if i < 3 else total
-                        padded.append((max(lo, a - GAP_PAD), min(hi, b + GAP_PAD)))
-                    best = (score, padded)
+                    # 切るのは『無音のど真ん中』だけ。音の部分には一切触らない。
+                    # こうすれば語頭・語尾の余韻が絶対に欠けない。
+                    mids = [(g[0] + g[1]) / 2 for g in combo]
+                    head = max(0.0, speech_start - HEAD_PAD)
+                    tail = min(total, speech_end + TAIL_PAD)
+                    best = (score, [(head, mids[0]), (mids[0], mids[1]),
+                                    (mids[1], mids[2]), (mids[2], tail)])
     return best[1] if best else None
 
 
-# 切り出した各ファイルの前後の無音を整える(末尾に長い無音が残ると間延びするため)
-TIDY = ("silenceremove=start_periods=1:start_duration=0:start_silence=0.08"
-        ":start_threshold=-45dB:detection=peak,areverse,"
-        "silenceremove=start_periods=1:start_duration=0:start_silence=0.08"
-        ":start_threshold=-45dB:detection=peak,areverse")
-
-
 def cut(src: Path, dst: Path, start: float, end: float) -> None:
+    """無劣化コピーで切り出す。音を作り直さないので、切った跡が出ない。"""
     dst.parent.mkdir(parents=True, exist_ok=True)
-    subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-ss", f"{max(0, start):.3f}",
-                    "-to", f"{end:.3f}", "-i", str(src), "-af", TIDY,
-                    "-codec:a", "libmp3lame", "-b:a", "64k", str(dst)],
+    subprocess.run([FFMPEG, "-y", "-loglevel", "error",
+                    "-ss", f"{max(0, start):.3f}", "-to", f"{end:.3f}",
+                    "-i", str(src), "-c", "copy", str(dst)],
                    check=True, capture_output=True)
 
 

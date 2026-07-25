@@ -403,7 +403,7 @@
   // 記号(A.〜D.)は説明文と別の発話にして、そこで一度切る。
   // 続けて読ませると記号の A が冠詞の a に潰れて「ア」に聞こえるため。
   // 無音除去済みの mp3 を前提にした値(未処理なら 0 でよい)。
-  var LETTER_GAP = 500;
+  var LETTER_GAP = 200;
   function letterText(i) { return LETTERS[i] + "."; }
 
   function tasksPart1(items) {
