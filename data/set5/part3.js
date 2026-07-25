@@ -98,7 +98,7 @@ window.TOEIC_DATA_5.part3 = [
         "explanation": "女性の when this week's recorded lecture will be available to watch が根拠。学費や教室の場所、コース変更の話は出ていない。"
       },
       {
-        "q": "When will this week's recording be available?",
+        "q": "According to the man, when will the material be ready?",
         "choices": [
           "In two weeks",
           "On Monday",
@@ -106,14 +106,14 @@ window.TOEIC_DATA_5.part3 = [
           "On Wednesday"
         ],
         "answer": 2,
-        "explanation": "男性の it should be ready by Friday afternoon が根拠。Wednesday は録画された日(ライブ授業の日)でありひっかけ。"
+        "explanation": "男性の it should be ready by Friday afternoon が根拠。Wednesday はライブ授業が行われた日であって公開日ではないのでひっかけ。"
       },
       {
         "q": "What does the man offer to do?",
         "choices": [
           "Send her a file by e-mail",
           "Refund a fee",
-          "Record another lecture",
+          "Update the course page",
           "Extend a deadline"
         ],
         "answer": 0,
@@ -139,10 +139,10 @@ window.TOEIC_DATA_5.part3 = [
       },
       {
         "speaker": "W",
-        "text": "Good idea. I'll design the signs this week and ask a shop to laminate them."
+        "text": "Good idea. I'll design the signs this week and ask a print shop to laminate them."
       }
     ],
-    "translation": "男性:フィオナ、ビル管理者が各階にリサイクルステーションを設ける僕らの案を承認してくれたよ。来月から始められる。\n女性:それは良いニュースね。紙、プラスチック、生ごみ用に別々のごみ箱を用意した方がいいかしら?\n男性:うん。それと、みんなが正しく分別できるように、各ごみ箱の上に短い掲示を出すべきだと思う。\n女性:いい考えね。今週私が掲示をデザインして、業者にラミネート加工を頼むわ。",
+    "translation": "男性:フィオナ、ビル管理者が各階にリサイクルステーションを設ける僕らの案を承認してくれたよ。来月から始められる。\n女性:それは良いニュースね。紙、プラスチック、生ごみ用に別々のごみ箱を用意した方がいいかしら?\n男性:うん。それと、みんなが正しく分別できるように、各ごみ箱の上に短い掲示を出すべきだと思う。\n女性:いい考えね。今週私が掲示をデザインして、印刷店にラミネート加工を頼むわ。",
     "questions": [
       {
         "q": "What have the speakers received approval for?",
@@ -156,15 +156,15 @@ window.TOEIC_DATA_5.part3 = [
         "explanation": "男性の approved our plan to add recycling stations が根拠。add を Setting up と言い換えている。清掃員の増員や改装の話ではない。"
       },
       {
-        "q": "What does the man suggest adding?",
+        "q": "According to the man, when can the project begin?",
         "choices": [
-          "A water dispenser",
-          "A new staff kitchen",
-          "More parking spaces",
-          "Signs above the bins"
+          "Next week",
+          "This Friday",
+          "In six months",
+          "Next month"
         ],
         "answer": 3,
-        "explanation": "男性の put a short sign above each bin が根拠。分別を促す掲示の設置を提案している。"
+        "explanation": "男性の We can start next month が根拠。開始時期は『来月』。next week や this Friday は音声にない時期を使ったひっかけ。"
       },
       {
         "q": "What will the woman do this week?",
@@ -185,7 +185,7 @@ window.TOEIC_DATA_5.part3 = [
     "audio": [
       {
         "speaker": "W",
-        "text": "So, Mr. Ellis, you'd like to redo the front garden. What did you have in mind?"
+        "text": "Thanks for having me out to your house today, Mr. Ellis. Now that I've walked around the property, let's talk about redoing the front garden. What did you have in mind?"
       },
       {
         "speaker": "M",
@@ -204,7 +204,7 @@ window.TOEIC_DATA_5.part3 = [
         "text": "About a week, once the plants arrive. I'll e-mail you a design and a cost estimate by Tuesday."
       }
     ],
-    "translation": "女性:では、エリスさん、前庭をやり直したいということですね。どんなイメージをお持ちですか?\n男性:芝生は夏にすごく水やりが要るんです。もっとずっと少ない水で緑を保てるものにしたくて。\n女性:でしたら、ラベンダーや観賞用の草のような乾燥に強い植物を、間に砂利の小道を挟んでお勧めします。\n男性:それは完璧です。作業はどれくらいかかりますか?\n女性:植物が届けば1週間ほどです。火曜までにデザインと見積もりをメールでお送りします。",
+    "translation": "女性:本日はお宅にお招きいただきありがとうございます、エリスさん。敷地を一通り拝見しましたので、前庭のやり直しについてお話ししましょう。どんなイメージをお持ちですか?\n男性:芝生は夏にすごく水やりが要るんです。もっとずっと少ない水で緑を保てるものにしたくて。\n女性:でしたら、ラベンダーや観賞用の草のような乾燥に強い植物を、間に砂利の小道を挟んでお勧めします。\n男性:それは完璧です。作業はどれくらいかかりますか?\n女性:植物が届けば1週間ほどです。火曜までにデザインと見積もりをメールでお送りします。",
     "questions": [
       {
         "q": "Where most likely are the speakers?",
@@ -215,7 +215,7 @@ window.TOEIC_DATA_5.part3 = [
           "At a city park"
         ],
         "answer": 1,
-        "explanation": "女性が redo the front garden(前庭をやり直す)と切り出し、施工の相談をしていることから、男性の自宅での現地打ち合わせと分かる。園芸用品店や公園ではない。"
+        "explanation": "女性の Thanks for having me out to your house today / Now that I've walked around the property から、男性の自宅を訪ねての現地打ち合わせと分かる。店舗に客が来ている場面ではないので、園芸用品店や修理店はひっかけ。"
       },
       {
         "q": "What does the man want to reduce?",
@@ -286,7 +286,7 @@ window.TOEIC_DATA_5.part3 = [
       {
         "q": "What does Chloe offer to do?",
         "choices": [
-          "Edit the final video",
+          "Approve the budget",
           "Contact the marketing team",
           "Reserve a camera operator",
           "Write the interview questions"
@@ -299,11 +299,11 @@ window.TOEIC_DATA_5.part3 = [
         "choices": [
           "Set up the lighting",
           "Book a studio",
-          "Film the interviews",
+          "Reserve the interview room",
           "Prepare the interview questions"
         ],
         "answer": 3,
-        "explanation": "ベンの I'll have them ready by Wednesday が根拠。them は質問リストを指す。照明の手配はクロエの担当。"
+        "explanation": "ベンの I'll have them ready by Wednesday が根拠。them は質問リストを指す。照明の手配や部屋の準備はクロエの担当なのでひっかけ。"
       }
     ]
   },
@@ -355,7 +355,7 @@ window.TOEIC_DATA_5.part3 = [
       {
         "q": "What will the woman do next?",
         "choices": [
-          "Call the dentist",
+          "Update his contact details",
           "Make a copy of his insurance card",
           "Reschedule his visit",
           "Give him a receipt"
@@ -394,7 +394,7 @@ window.TOEIC_DATA_5.part3 = [
         "text": "No problem. I'll take care of both this afternoon."
       }
     ],
-    "translation": "ローラ(女性):トム、ラジ——業者が来週木曜に屋上の太陽光パネルを設置できるそうよ。だから建物の準備をしないと。\nトム(男性1):屋上へのアクセスは5階からだよね? 当日の朝、そのドアを開けておくようにするよ。\nローラ:ありがとう、トム。それと、作業中は1時間ほど最上階の電源を切る必要があるの。\nラジ(男性2):停電に備えられるよう、5階の社員に通知を送っておきます。\nローラ:完璧ね、ラジ。それと、業者のトラック用に駐車スペースをいくつか確保してもらえる?\nラジ:問題ありません。今日の午後、両方やっておきます。",
+    "translation": "女性:トム、ラジ——業者が来週木曜に屋上の太陽光パネルを設置できるそうよ。だから建物の準備をしないと。\nトム(男性1):屋上へのアクセスは5階からだよね? 当日の朝、そのドアを開けておくようにするよ。\n女性:ありがとう、トム。それと、作業中は1時間ほど最上階の電源を切る必要があるの。\nラジ(男性2):停電に備えられるよう、5階の社員に通知を送っておきます。\n女性:完璧ね、ラジ。それと、業者のトラック用に駐車スペースをいくつか確保してもらえる?\nラジ:問題ありません。今日の午後、両方やっておきます。",
     "questions": [
       {
         "q": "What will be installed on Thursday?",
@@ -405,7 +405,7 @@ window.TOEIC_DATA_5.part3 = [
           "An elevator"
         ],
         "answer": 0,
-        "explanation": "ローラの install the rooftop solar panels next Thursday が根拠。窓やエレベーターではない。"
+        "explanation": "女性の install the rooftop solar panels next Thursday が根拠。窓やエレベーターではない。"
       },
       {
         "q": "What does Tom agree to do?",
@@ -435,7 +435,7 @@ window.TOEIC_DATA_5.part3 = [
     "id": "s5p3-08",
     "graphicKind": "list",
     "title": "会話 8(図表問題)",
-    "graphic": "Riverstone Medical Center — Floor Directory\n1. Floor 1 — General Practice\n2. Floor 2 — Dermatology\n3. Floor 3 — Physical Therapy\n4. Floor 4 — Radiology (X-ray & Imaging)",
+    "graphic": "Riverstone Medical Center — Floor Directory\n1. Floor 1 — General Practice\n2. Floor 2 — Dermatology\n3. Floor 3 — Nutrition Counseling\n4. Floor 4 — Radiology (X-ray & Imaging)",
     "audio": [
       {
         "speaker": "W",
@@ -454,7 +454,7 @@ window.TOEIC_DATA_5.part3 = [
         "text": "You can go straight up — they'll already have your referral in the system. Just bring your ID with you."
       }
     ],
-    "translation": "【図表】リバーストーン医療センター フロア案内/1階:一般診療/2階:皮膚科/3階:理学療法/4階:放射線科(X線・画像診断)\n女性:すみません、医師にひざのX線検査を紹介されたんですが、何階に行けばいいですか?\n男性:画像診断は最上階です。左手のエレベーターをお使いください。\n女性:ありがとうございます。上で受付をするんですか、それとも先にこの受付でしますか?\n男性:そのまま上に行って大丈夫です——紹介の情報はすでにシステムに入っていますので。身分証だけお持ちください。",
+    "translation": "【図表】リバーストーン医療センター フロア案内/1階:一般診療/2階:皮膚科/3階:栄養相談/4階:放射線科(X線・画像診断)\n女性:すみません、医師にひざのX線検査を紹介されたんですが、何階に行けばいいですか?\n男性:画像診断は最上階です。左手のエレベーターをお使いください。\n女性:ありがとうございます。上で受付をするんですか、それとも先にこの受付でしますか?\n男性:そのまま上に行って大丈夫です——紹介の情報はすでにシステムに入っていますので。身分証だけお持ちください。",
     "questions": [
       {
         "q": "Look at the graphic. Which floor will the woman go to?",
@@ -534,8 +534,8 @@ window.TOEIC_DATA_5.part3 = [
         "choices": [
           "The workload is very large.",
           "The class is too small.",
-          "She has already finished grading.",
-          "She needs more essays."
+          "She has already completed the task.",
+          "She needs more time."
         ],
         "answer": 0,
         "explanation": "意図問題。月曜締め切りに対し『90枚もある』=一人では終わらないほど量が多いという含意。だから男性が半分引き受ける流れになる。文字通りの意味ではなく文脈上の意図を問う。"
@@ -543,13 +543,13 @@ window.TOEIC_DATA_5.part3 = [
       {
         "q": "What does the man offer to do?",
         "choices": [
-          "Cancel the midterm",
-          "Grade half of the essays",
+          "Contact the registrar",
+          "Take on half of the work",
           "Extend the deadline",
           "Hire another assistant"
         ],
         "answer": 1,
-        "explanation": "男性の I can take half ... the last forty-five が申し出。締め切り延長や助手の雇用ではない。"
+        "explanation": "男性の I can take half ... the last forty-five が申し出。『半分を引き受ける』の言い換えが正解。締め切り延長や助手の雇用は述べていないのでひっかけ。"
       }
     ]
   },
@@ -567,14 +567,14 @@ window.TOEIC_DATA_5.part3 = [
       },
       {
         "speaker": "M",
-        "text": "That's good to hear. How often would I need to water them?"
+        "text": "That's good to hear. Will they spread and take over the whole bed?"
       },
       {
         "speaker": "W",
-        "text": "About twice a week in summer, and less when it's cooler. They're over in aisle three if you'd like to take a look."
+        "text": "Not really — hostas stay fairly compact, and ferns fill in slowly. They're over in aisle three if you'd like to take a look."
       }
     ],
-    "translation": "男性:こんにちは、裏庭用の植物を探しているんですが、日当たりがすごく悪くて——ほぼ一日中日陰なんです。\n女性:それなら、シダやギボウシは日陰でもよく育ちますし、どちらも手間がかかりません。\n男性:それはいいですね。水やりはどのくらいの頻度で必要ですか?\n女性:夏で週2回くらい、涼しくなればもっと少なくて大丈夫です。ご覧になるなら3番通路にありますよ。",
+    "translation": "男性:こんにちは、裏庭用の植物を探しているんですが、日当たりがすごく悪くて——ほぼ一日中日陰なんです。\n女性:それなら、シダやギボウシは日陰でもよく育ちますし、どちらも手間がかかりません。\n男性:それはいいですね。広がって花壇全体を占領してしまいませんか?\n女性:そんなことはありません——ギボウシはあまり大きくなりませんし、シダもゆっくり広がります。ご覧になるなら3番通路にありますよ。",
     "questions": [
       {
         "q": "What is the man looking for?",
@@ -588,7 +588,7 @@ window.TOEIC_DATA_5.part3 = [
         "explanation": "男性の plants for my backyard ... in shade almost all day が根拠。日陰向きの植物を探している。道具や家具ではない。"
       },
       {
-        "q": "What does the woman say about the plants she recommends?",
+        "q": "What does the woman say about her recommendations?",
         "choices": [
           "They require little care.",
           "They are currently on sale.",
@@ -601,7 +601,7 @@ window.TOEIC_DATA_5.part3 = [
       {
         "q": "What does the woman suggest the man do?",
         "choices": [
-          "Order the plants online",
+          "Order some items online",
           "Come back in summer",
           "Speak with a manager",
           "Look in aisle three"
@@ -679,61 +679,69 @@ window.TOEIC_DATA_5.part3 = [
   },
   {
     "id": "s5p3-12",
-    "graphicKind": "invoice",
+    "graphicKind": "schedule",
     "title": "会話 12(図表問題)",
-    "graphic": "Invoice #5527 — Greenway Landscaping\n1. Lawn mowing — $40\n2. Hedge trimming — $55\n3. Tree pruning ($90 × 2) — $180\n4. Debris removal — $35\nTotal — $310",
+    "graphic": "Riverbend Community College — Introduction to Biology\n1. Section A — Monday & Wednesday, 9:00 A.M.\n2. Section B — Tuesday & Thursday, 1:00 P.M.\n3. Section C — Wednesday & Friday, 4:00 P.M.\n4. Section D — Saturday, 10:00 A.M.",
     "audio": [
       {
         "speaker": "W",
-        "text": "Hello, this is Diane Park. I received invoice five-five-two-seven, but I think there's an error. Your crew pruned only one tree in my yard, not two."
+        "text": "Hi, I'd like to register for Introduction to Biology this fall, but I work weekday mornings until noon, so nothing before lunch will work for me."
       },
       {
         "speaker": "M",
-        "text": "Let me pull up the work order... You're right, our team noted just one. I'll correct the charge and refund the difference."
+        "text": "All right, that rules out one of the sections. Would a weekend class be possible?"
       },
       {
         "speaker": "W",
-        "text": "Thank you. Could you also send me an updated invoice for my records?"
+        "text": "Unfortunately not — I look after my nephew every Saturday. And I already have another class on Friday afternoons."
       },
       {
         "speaker": "M",
-        "text": "Of course. I'll e-mail the corrected version today, and the refund should post to your account in about a week."
+        "text": "Then only one section fits your schedule. Let me check whether seats are still open."
+      },
+      {
+        "speaker": "W",
+        "text": "Thanks. And if it's already full, could you put me on the waiting list?"
+      },
+      {
+        "speaker": "M",
+        "text": "Certainly. I'll submit the request and e-mail you a confirmation this afternoon."
       }
     ],
-    "translation": "【図表】請求書#5527(グリーンウェイ造園)/芝刈り40ドル/生垣の刈り込み55ドル/木の剪定(90ドル×2)180ドル/ごみ撤去35ドル/合計310ドル\n女性:もしもし、ダイアン・パークです。請求書5527を受け取ったのですが、間違いがあるようです。うちの庭で作業員が剪定したのは2本ではなく1本だけです。\n男性:作業指示書を確認します……おっしゃる通りです、うちのチームも1本と記録しています。料金を修正して、差額を返金します。\n女性:ありがとうございます。記録用に、修正した請求書も送っていただけますか?\n男性:もちろんです。本日、修正版をメールでお送りします。返金は1週間ほどでお客様の口座に反映されます。",
+    "translation": "【図表】リバーベンド・コミュニティカレッジ 生物学入門/セクションA:月・水 午前9時/セクションB:火・木 午後1時/セクションC:水・金 午後4時/セクションD:土 午前10時\n女性:こんにちは、この秋に生物学入門を履修登録したいのですが、平日は正午まで仕事があるので、昼より前の時間は無理なんです。\n男性:なるほど、それでセクションが1つ除外されますね。週末のクラスは可能ですか?\n女性:残念ながら無理です——毎週土曜は甥の面倒を見ているので。それに金曜の午後はすでに別の授業が入っています。\n男性:では、ご都合に合うセクションは1つだけですね。まだ空席があるか確認します。\n女性:ありがとうございます。それと、もし満席だったらキャンセル待ちに入れてもらえますか?\n男性:もちろんです。申請を出して、今日の午後に確認のメールをお送りします。",
     "questions": [
       {
-        "q": "Look at the graphic. How much will the woman be refunded?",
+        "q": "Look at the graphic. Which section will the woman most likely take?",
         "choices": [
-          "$180",
-          "$40",
-          "$90",
-          "$55"
+          "Section A",
+          "Section C",
+          "Section B",
+          "Section D"
         ],
         "answer": 2,
-        "explanation": "図表問題。音声の『木の剪定は2本ではなく1本』と図表(90ドル×2=180ドル)を突き合わせる。1本分の90ドルが過剰請求なので返金額は90ドル。180ドルは2本分の合計でひっかけ。"
+        "explanation": "図表問題。『平日の正午より前は不可』でA(月・水 午前9時)が消え、『土曜は不可』でDが消え、『金曜の午後は別の授業』でC(水・金 午後4時)が消える。残るのはB(火・木 午後1時)。条件を1つずつ消していくのが図表問題の解き方。"
       },
       {
-        "q": "What does the woman ask the man to send?",
+        "q": "What does the woman ask the man to do if the class is full?",
         "choices": [
-          "A service contract",
-          "A payment reminder",
-          "An updated invoice",
-          "A work schedule"
+          "Recommend a different college",
+          "Refund her registration fee",
+          "Add her to a waiting list",
+          "Change her work hours"
         ],
         "answer": 2,
-        "explanation": "女性の send me an updated invoice for my records が根拠。修正版の請求書を求めている。"
+        "explanation": "女性の could you put me on the waiting list? が根拠。put me on the waiting list を Add her to a waiting list と言い換えている。返金や他校の紹介は話題に出ていない。"
       },
       {
-        "q": "According to the man, when will the refund post?",
+        "q": "What will the man do this afternoon?",
         "choices": [
-          "In about a week",
-          "Next month",
-          "Later today",
-          "In three days"
+          "Send a confirmation by e-mail",
+          "Call an instructor",
+          "Print a course catalog",
+          "Meet with a counselor"
         ],
         "answer": 0,
-        "explanation": "男性の the refund should post to your account in about a week が根拠。『本日』は修正請求書をメールする時期であり、返金の反映時期とは別なのでひっかけ。"
+        "explanation": "男性の I'll e-mail you a confirmation this afternoon が根拠。『今日の午後』にするのは確認メールの送信。カタログの印刷や面談は述べていないのでひっかけ。"
       }
     ]
   },
@@ -782,7 +790,7 @@ window.TOEIC_DATA_5.part3 = [
       {
         "q": "What does the woman say is free?",
         "choices": [
-          "Recycling large refrigerators",
+          "Dropping off large refrigerators",
           "Dropping off up to five household items",
           "Repairing small appliances",
           "A home collection service"

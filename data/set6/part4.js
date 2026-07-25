@@ -33,7 +33,7 @@ window.TOEIC_DATA_6.part4 = [
           "A photo ID"
         ],
         "answer": 1,
-        "explanation": "a copy of your most recent business tax return(直近の確定申告書の写し)が根拠。business という語から(B)business plan を連想させるひっかけ。"
+        "explanation": "a copy of your most recent business tax return(直近の確定申告書の写し)が根拠。business という語から(C)business plan を連想させるひっかけ。"
       },
       {
         "q": "According to the speaker, what will happen after the document is received?",
@@ -69,7 +69,7 @@ window.TOEIC_DATA_6.part4 = [
           "The impact of an interest-rate announcement"
         ],
         "answer": 3,
-        "explanation": "we'll break down yesterday's surprise interest-rate announcement and what it means(金利発表とその意味を解説)が根拠。break down を impact に言い換えている。"
+        "explanation": "we'll break down yesterday's surprise interest-rate announcement and what it means(金利発表とその意味を解説)が根拠。what it means for local homebuyers(地元の住宅購入者にとっての意味)を impact に言い換えている。"
       },
       {
         "q": "What change to the program does the speaker announce?",
@@ -116,29 +116,29 @@ window.TOEIC_DATA_6.part4 = [
           "A fabric wholesaler"
         ],
         "answer": 0,
-        "explanation": "we don't just sell clothes ... alterations by our expert tailors(服の販売とお直し)から、衣料品とテーラーの店と分かる。alterations の連想で(B)クリーニングを選ばせるひっかけ。"
+        "explanation": "we don't just sell clothes ... alterations by our expert tailors(服の販売とお直し)から、衣料品とテーラーの店と分かる。alterations の連想で(C)クリーニングを選ばせるひっかけ。"
       },
       {
-        "q": "What is included with purchases made in the showroom?",
+        "q": "What must customers do to receive a complimentary item?",
         "choices": [
-          "Free alterations",
-          "Free gift wrapping",
-          "Free parking",
-          "Free home delivery"
+          "Spend over one hundred dollars",
+          "Join a membership club",
+          "Present a printed coupon",
+          "Sign up for a newsletter"
         ],
         "answer": 0,
-        "explanation": "comes with free in-house alterations(無料の店内お直しが付く)が根拠。"
+        "explanation": "receive a complimentary silk scarf with any purchase over one hundred dollars(100ドル超のお買い上げで無料進呈)が根拠。complimentary = free。予約は必要だが、無料進呈の条件として音声が挙げているのは『100ドル超の購入』。(C)は『期間限定』という言葉からクーポンを連想させるひっかけ。"
       },
       {
-        "q": "What can customers receive by booking a styling appointment?",
+        "q": "When is the business closed?",
         "choices": [
-          "A membership card",
-          "A product catalog",
-          "A discount coupon",
-          "A free silk scarf"
+          "On Mondays",
+          "On Tuesdays",
+          "On Sundays",
+          "On weekends"
         ],
-        "answer": 3,
-        "explanation": "book a personal styling appointment and receive a complimentary silk scarf(予約でシルクスカーフを無料進呈)が根拠。complimentary = free。"
+        "answer": 0,
+        "explanation": "Visit us on Bellweather Lane, Tuesday through Sunday(火曜から日曜まで営業)から、休みは月曜と分かる。営業日の初日と最終日である火曜・日曜をそのまま選ばせる(B)(C)がひっかけ。"
       }
     ]
   },
@@ -179,13 +179,13 @@ window.TOEIC_DATA_6.part4 = [
       {
         "q": "What will Sofia do this afternoon?",
         "choices": [
-          "Inspect the wiring",
-          "Meet with the supplier",
+          "Prepare a cost estimate",
+          "Distribute the meeting minutes",
           "Revise the project schedule",
-          "Order replacement tiles"
+          "Approve a new budget"
         ],
         "answer": 2,
-        "explanation": "Sofia will update the master timeline this afternoon(午後にスケジュールを更新)が根拠。timeline を schedule に言い換えている。"
+        "explanation": "Sofia will update the master timeline this afternoon(午後にスケジュールを更新)が根拠。timeline を schedule に言い換えている。send it around(皆に送る)から(B)議事録の配布を連想させるひっかけ。"
       }
     ]
   },
@@ -198,10 +198,10 @@ window.TOEIC_DATA_6.part4 = [
     "audio": [
       {
         "speaker": "W",
-        "text": "Good evening, and welcome to the Rivergate Performing Arts Center. Tonight's performance by the Halden Symphony will begin at eight o'clock. A few reminders before we start. If you bought your tickets online and chose will-call, please pick them up before heading to your seats. Ticket holders for tonight's pre-show donor reception should make their way up to the very top of the building, where drinks are being served until seven forty-five. And a gentle reminder: photography and recording are not permitted once the performance begins, so please silence your phones now. Enjoy the show."
+        "text": "Good evening, and welcome to the Rivergate Performing Arts Center. Tonight's performance by the Halden Symphony will begin at eight o'clock. A few reminders before we start. If you bought your tickets online and chose will-call, please pick them up at the box office before heading to your seats. Ticket holders for tonight's pre-show donor reception should make their way up to the very top of the building, where drinks are being served until seven forty-five. And a gentle reminder: photography and recording are not permitted once the performance begins, so please silence your phones now. Enjoy the show."
       }
     ],
-    "translation": "【図表】リバーゲート舞台芸術センター フロア案内/1階——チケット窓口・クローク/2階——メイン・ホール/3階——中2階席/4階——屋上レセプションホール\nこんばんは。リバーゲート舞台芸術センターへようこそ。本日のハルデン交響楽団による公演は8時に開演します。始まる前にいくつかご案内です。オンラインでチケットを購入し、窓口受け取り(ウィルコール)を選ばれた方は、お席に向かう前にお受け取りください。本日の開演前の寄付者レセプションのチケットをお持ちの方は、建物の最上階へお上がりください。7時45分まで飲み物をご用意しています。なお、公演が始まりましたら写真撮影と録音はご遠慮ください。今のうちに携帯電話をマナーモードにしてください。それではお楽しみください。",
+    "translation": "【図表】リバーゲート舞台芸術センター フロア案内/1階——チケット窓口・クローク/2階——メイン・ホール/3階——中2階席/4階——屋上レセプションホール\nこんばんは。リバーゲート舞台芸術センターへようこそ。本日のハルデン交響楽団による公演は8時に開演します。始まる前にいくつかご案内です。オンラインでチケットを購入し、窓口受け取り(ウィルコール)を選ばれた方は、お席に向かう前にチケット窓口でお受け取りください。本日の開演前の寄付者レセプションのチケットをお持ちの方は、建物の最上階へお上がりください。7時45分まで飲み物をご用意しています。なお、公演が始まりましたら写真撮影と録音はご遠慮ください。今のうちに携帯電話をマナーモードにしてください。それではお楽しみください。",
     "questions": [
       {
         "q": "Look at the graphic. Where should guests for the reception go?",
@@ -223,7 +223,7 @@ window.TOEIC_DATA_6.part4 = [
           "At the coat check"
         ],
         "answer": 2,
-        "explanation": "chose will-call, please pick them up(ウィルコールは受け取りが必要)とあり、図表で受け取り窓口は Box Office。will-call = 窓口受け取り。"
+        "explanation": "pick them up at the box office(チケット窓口で受け取る)と音声で明言している。図表でも Box Office は Level 1 にあり、内容が一致する。will-call = 窓口受け取り。"
       },
       {
         "q": "What are guests reminded not to do during the performance?",
@@ -262,18 +262,18 @@ window.TOEIC_DATA_6.part4 = [
         "explanation": "Welcome aboard ... your first shift(入社歓迎・初シフト)や open each morning の説明から、新人スタッフへの研修と分かる。"
       },
       {
-        "q": "Why should the espresso machines warm up for twenty minutes?",
+        "q": "By what time should the first person to arrive get there?",
         "choices": [
-          "To keep the coffee from tasting sour",
-          "To meet a safety rule",
-          "To warm up the café",
-          "To conserve electricity"
+          "By 6:15",
+          "By 6:30",
+          "By 6:45",
+          "By 7:00"
         ],
         "answer": 0,
-        "explanation": "coffee pulled before that tastes sour(温める前に淹れると酸っぱくなる)が根拠。"
+        "explanation": "Whoever comes in first should arrive by six fifteen(最初に来る人は6時15分までに)が根拠。この後に出てくる『少なくとも20分温める』という数字につられて6時35分や6時半を選ばないよう注意。"
       },
       {
-        "q": "What should staff do if part of the delivery is missing?",
+        "q": "What are listeners told to do if part of the delivery is missing?",
         "choices": [
           "Contact the supplier directly",
           "Wait until the next delivery",
@@ -367,22 +367,22 @@ window.TOEIC_DATA_6.part4 = [
         "explanation": "please keep your voices down in the hallways(廊下では静かに)が根拠。phones は silent にするよう言っており『完全にオフ』ではないので(B)はひっかけ。"
       },
       {
-        "q": "Where is filming NOT allowed?",
+        "q": "What are visitors told to do if they become separated from the group?",
         "choices": [
-          "In the main lobby",
-          "In the control room",
-          "In the sound-editing suite",
-          "In Studio A"
+          "Call the guide's mobile phone",
+          "Wait by the nearest exit",
+          "Return to the starting point",
+          "Ask a staff member for a map"
         ],
-        "answer": 1,
-        "explanation": "filming is not allowed inside the control room(副調整室内は撮影禁止)が根拠。それ以外の場所は撮影可、と明言している。"
+        "answer": 2,
+        "explanation": "If we get separated, just head back to ... where we started(はぐれたら出発した場所に戻る)が根拠。where we started を the starting point に言い換えている。"
       }
     ]
   },
   {
     "id": "s6p4-09",
     "kind": "excerpt from a meeting",
-    "graphicKind": "invoice",
+    "graphicKind": "list",
     "title": "トーク 9(会議の抜粋・図表問題)",
     "graphic": "Q2 Department Expenses — Fairwind Media\n1. Marketing — $42,000\n2. Software Licenses — $18,500\n3. Travel — $27,000\n4. Office Supplies — $6,300",
     "audio": [
@@ -391,40 +391,40 @@ window.TOEIC_DATA_6.part4 = [
         "text": "Let's look at the second-quarter numbers before we finalize the report. Overall, we came in under budget, which is great, but one category jumped far more than we expected — this line nearly doubled compared to last quarter, mostly because of the three client conferences the sales team attended. For next quarter, I'd like us to set a firm cap here and encourage more video meetings where possible. On the brighter side, our software spending actually came down after we consolidated a few subscriptions. Devi, could you put together a short summary of these figures for Thursday's board meeting? Keep it to one page if you can."
       }
     ],
-    "translation": "【図表】第2四半期 部門経費——フェアウィンド・メディア/1. マーケティング——42,000ドル/2. ソフトウェアライセンス——18,500ドル/3. 出張——27,000ドル/4. 事務用品——6,300ドル\nレポートを確定する前に、第2四半期の数字を見ましょう。全体としては予算内に収まって良かったのですが、ある項目が予想をはるかに超えて跳ね上がりました——この項目は前四半期の約2倍になっていて、主な理由は営業チームが参加した3件の顧客向けカンファレンスです。来四半期は、ここにしっかり上限を設けて、可能な限りビデオ会議を増やしたいと思います。明るい面としては、いくつかのサブスクリプションを統合した結果、ソフトウェア費は実際に下がりました。デヴィ、木曜の役員会に向けて、これらの数字の短い要約をまとめてもらえますか? できれば1ページに収めてください。",
+    "translation": "【図表】第2四半期 部門経費——フェアウィンド・メディア/1. マーケティング——42,000ドル/2. ソフトウェアライセンス——18,500ドル/3. 出張——27,000ドル/4. 事務用品——6,300ドル\nレポートを確定する前に、第2四半期の数字を見ましょう。全体としては予算内に収まって良かったのですが、ある項目が予想をはるかに超えて跳ね上がりました——この項目は前四半期の2倍近くに増えていて、主な理由は営業チームが参加した3件の顧客向けカンファレンスです。来四半期は、ここにしっかり上限を設けて、可能な限りビデオ会議を増やしたいと思います。明るい面としては、いくつかのサブスクリプションを統合した結果、ソフトウェア費は実際に下がりました。デヴィ、木曜の役員会に向けて、これらの数字の短い要約をまとめてもらえますか? できれば1ページに収めてください。",
     "questions": [
       {
-        "q": "Look at the graphic. Which category increased the most?",
+        "q": "Look at the graphic. How much was spent on the category the speaker is concerned about?",
         "choices": [
-          "Travel",
-          "Office Supplies",
-          "Marketing",
-          "Software Licenses"
+          "$42,000",
+          "$27,000",
+          "$18,500",
+          "$6,300"
         ],
-        "answer": 0,
-        "explanation": "図表問題。音声は『この項目が前四半期の約2倍』『顧客カンファレンスへの参加が主因』と言い、出張(Travel)を指す。金額最大は Marketing だが『最も増えた』のは Travel。図表と音声の両方が必要。"
+        "answer": 1,
+        "explanation": "図表問題。音声は『この項目が前四半期の2倍近く』『営業チームが参加した3件の顧客向けカンファレンスが主因』と言うので、指しているのは出張(Travel)。図表で Travel の金額は27,000ドル。金額が最大の Marketing(42,000ドル)を選ばせるひっかけに注意。音声で項目を特定し、図表で金額を読む、という2段階が必要。"
       },
       {
-        "q": "What does the speaker recommend doing more of next quarter?",
+        "q": "What does the speaker want to do next quarter?",
         "choices": [
-          "Running marketing campaigns",
-          "Attending client conferences",
-          "Holding video meetings",
-          "Buying new software"
+          "Hire additional staff",
+          "Renegotiate a software contract",
+          "Move the board meeting",
+          "Set a spending limit"
         ],
-        "answer": 2,
-        "explanation": "encourage more video meetings where possible(可能な限りビデオ会議を増やす)が根拠。"
+        "answer": 3,
+        "explanation": "I'd like us to set a firm cap here(ここにしっかり上限を設けたい)が根拠。cap を spending limit に言い換えている。consolidated a few subscriptions(サブスクの統合)は既に済んだ話なので(B)は時制のひっかけ。"
       },
       {
         "q": "What does the speaker ask Devi to do?",
         "choices": [
           "Prepare a one-page summary",
-          "Schedule the client conferences",
-          "Contact the sales team",
-          "Update the marketing plan"
+          "Reserve a meeting room",
+          "Contact the accounting team",
+          "Present at the board meeting"
         ],
         "answer": 0,
-        "explanation": "put together a short summary ... Keep it to one page(1ページの短い要約をまとめて)が根拠。"
+        "explanation": "put together a short summary ... Keep it to one page(1ページの短い要約をまとめて)が根拠。役員会に向けた資料作りを頼んでいるだけで、デヴィが発表するとは言っていないので(D)はひっかけ。"
       }
     ]
   },
@@ -449,7 +449,7 @@ window.TOEIC_DATA_6.part4 = [
           "The theater's twentieth anniversary"
         ],
         "answer": 3,
-        "explanation": "we celebrate the twentieth anniversary of the Larkspur Community Theater(劇場の20周年)が根拠。倉庫が舞台になった話から(A)開業を連想させるひっかけ。"
+        "explanation": "we celebrate the twentieth anniversary of the Larkspur Community Theater(劇場の20周年)が根拠。倉庫が舞台になった話から(C)開業(grand opening)を連想させるひっかけ。"
       },
       {
         "q": "What does the speaker announce?",

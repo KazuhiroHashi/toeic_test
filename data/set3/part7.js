@@ -1,4 +1,4 @@
-// セット3 part7(監査反映・正解位置均等化済み)
+// セット3 part7(重複差し替え済み)
 window.TOEIC_DATA_3 = window.TOEIC_DATA_3 || {};
 window.TOEIC_DATA_3.part7 = [
   {
@@ -53,43 +53,43 @@ window.TOEIC_DATA_3.part7 = [
     "passages": [
       {
         "docType": "Advertisement",
-        "text": "VERANO — Learn a Language Anywhere\n\nVerano is the app that fits any schedule, with lessons from just five minutes a day.\n\nPlans:\n1. Free — one 5-minute lesson per day, one language\n2. Plus ($8/month) — unlimited lessons, one language, offline downloads\n3. Pro ($14/month) — unlimited lessons, all 20 languages, offline downloads, one monthly live group class\n4. Family ($22/month) — every Pro feature, for up to five accounts\n\nAll paid plans include weekly progress reports and remove advertising. Start any paid plan with a 7-day free trial — cancel before the trial ends and you will not be charged."
+        "text": "HARBOR POINT SELF-STORAGE — Space When You Need It\n\nWhether you are downsizing, renovating, or storing seasonal inventory, Harbor Point has a unit that fits.\n\nUnit sizes and monthly rates:\n1. Locker (1.5 m x 1.5 m) — $45\n2. Standard (3 m x 3 m) — $95\n3. Large (3 m x 6 m) — $160\n4. Drive-up (3 m x 9 m) — $240\n\nEvery unit includes 24-hour gated access, individual door alarms, and climate control. Ground-floor units and elevator access are available at no additional cost.\n\nNew customers who reserve online receive the first month at half price. A refundable $20 deposit is charged for the door key card; it is returned when the unit is vacated. Rentals are month to month, and we ask for 14 days' notice before you move out.\n\nVisit harborpointstorage.com or stop by our office at 88 Quay Road, open daily from 7 A.M. to 8 P.M."
       }
     ],
-    "translation": "ヴェラーノ——どこでも語学学習\n\nヴェラーノは、1日たった5分のレッスンから、どんなスケジュールにも合うアプリです。\n\nプラン:\n1. 無料——1日1回の5分レッスン、1言語\n2. プラス(月8ドル)——レッスン無制限、1言語、オフラインダウンロード\n3. プロ(月14ドル)——レッスン無制限、全20言語、オフラインダウンロード、月1回のライブ・グループクラス\n4. ファミリー(月22ドル)——プロの全機能を最大5アカウントで\n\n有料プランにはすべて、週次の進捗レポートが付き、広告が非表示になります。どの有料プランも7日間の無料トライアルから始められます——トライアル終了前に解約すれば、料金は発生しません。",
+    "translation": "ハーバー・ポイント・セルフストレージ——必要なときに、必要なスペースを\n\n住み替え、改装、季節在庫の保管——ハーバー・ポイントには、ご要望に合うユニットがあります。\n\nユニットの広さと月額料金:\n1. ロッカー(1.5m×1.5m)45ドル\n2. スタンダード(3m×3m)95ドル\n3. ラージ(3m×6m)160ドル\n4. ドライブアップ(3m×9m)240ドル\n\n全ユニットに、24時間のゲート付き入館、扉ごとの警報装置、空調管理が含まれます。1階のユニットとエレベーターのご利用は追加料金なしです。\n\nオンラインで予約された新規のお客様は初月半額。扉のキーカードには返金可能な20ドルの預り金がかかり、退去時にお返しします。契約は月単位で、退去の14日前までにご連絡をお願いします。\n\nharborpointstorage.com をご覧いただくか、キー通り88番の事務所へお越しください。営業は毎日午前7時〜午後8時です。",
     "questions": [
       {
         "q": "For whom is the advertisement most likely intended?",
         "choices": [
-          "People who want to study a language flexibly",
-          "Professional translators",
-          "University language instructors",
-          "Travel agents booking overseas tours"
+          "People who need extra space temporarily",
+          "Homeowners looking to buy property",
+          "Companies seeking office rentals",
+          "Travelers booking short stays"
         ],
         "answer": 0,
-        "explanation": "冒頭の fits any schedule ... from just five minutes a day(どんな予定にも合う・1日5分から)から、自分のペースで柔軟に学びたい人向けの広告と分かる。"
+        "explanation": "冒頭の downsizing, renovating, or storing seasonal inventory(住み替え・改装・季節在庫の保管)から、一時的に置き場所を必要とする人向けだと分かる。オフィス賃貸や不動産購入の広告ではない。"
       },
       {
-        "q": "What is NOT a feature of the Pro plan?",
+        "q": "What is NOT mentioned as being included with every unit?",
         "choices": [
-          "A monthly live group class",
-          "Offline downloads",
-          "Access to all 20 languages",
-          "Use by up to five accounts"
+          "Around-the-clock access",
+          "Door alarms",
+          "Climate control",
+          "Moving assistance"
         ],
         "answer": 3,
-        "explanation": "NOT問題。プロの機能は無制限レッスン・全20言語・オフライン・月1ライブクラス。『最大5アカウント』はファミリープラン限定なので(D)が正解。"
+        "explanation": "NOT型。24-hour gated access / individual door alarms / climate control の3つは全ユニットに含まれると明記。引っ越しの手伝い(moving assistance)への言及はない。"
       },
       {
-        "q": "What is indicated about the free trial?",
+        "q": "What is indicated about the deposit?",
         "choices": [
-          "It is available only with the Family plan.",
-          "It lasts one month.",
-          "Users are not charged if they cancel in time.",
-          "It requires a deposit."
+          "It is required only for large units.",
+          "It will be given back later.",
+          "It covers the first month's rent.",
+          "It must be paid in cash."
         ],
-        "answer": 2,
-        "explanation": "cancel before the trial ends and you will not be charged(期限内に解約すれば課金なし)が根拠。トライアルは『どの有料プランも』対象なので(B)は誤り。"
+        "answer": 1,
+        "explanation": "a refundable $20 deposit ... it is returned when the unit is vacated(退去時に返金される)が根拠。refundable=返金可能。"
       }
     ]
   },

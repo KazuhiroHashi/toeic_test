@@ -72,18 +72,18 @@ window.TOEIC_DATA_5.part4 = [
         "explanation": "『Registration for our fall series of research skills workshops is now open』が根拠。学位課程の宣伝ではなく『受付開始』の告知。"
       },
       {
-        "q": "What are students encouraged to do?",
+        "q": "Where is the speaker's office located?",
         "choices": [
-          "Contact a professor",
-          "Buy a textbook",
-          "Choose a major",
-          "Sign up early"
+          "In the campus library",
+          "In the main administration building",
+          "Next to the campus bookstore",
+          "On the second floor of the Baxter Building"
         ],
         "answer": 3,
-        "explanation": "『we encourage you to sign up early through the student portal』が根拠。定員20名で埋まる前に早めの登録を促している。"
+        "explanation": "『stop by our office on the second floor of the Baxter Building』が根拠。建物名と階数を最後に一度だけ述べるタイプの設問で、聞き逃しやすい。図書館や書店は音声に登場しないひっかけ。"
       },
       {
-        "q": "What will students who attend at least three workshops receive?",
+        "q": "What can students who attend at least three sessions receive?",
         "choices": [
           "A free textbook",
           "Extra exam credit",
@@ -102,43 +102,43 @@ window.TOEIC_DATA_5.part4 = [
     "audio": [
       {
         "speaker": "W",
-        "text": "Thinking about lowering your electricity bills? At Helios Solar Solutions, we make switching to clean energy simple. Our certified technicians design and install rooftop solar panels tailored to your home, and most systems are up and running in just one day. Right now, homeowners who book before the end of September will receive a free energy assessment, plus a ten-year warranty on all equipment. Best of all, many of our customers cut their monthly power costs by more than half. To find out how much you could save, request a free quote on our website, helios-solar dot com. Helios Solar Solutions — power your home with the sun."
+        "text": "Are the floors in your home starting to show their age? At Cedarline Flooring, we make replacing them simple. Our certified installers measure, remove, and lay new hardwood or tile floors to fit any room, and most single-room jobs are finished in just one day. Right now, homeowners who book before the end of September will receive a free in-home measurement, plus a ten-year warranty on all materials. We also handle the cleanup ourselves, so you can walk on your new floor the very same evening. To find out what your project would cost, request a free quote on our Web site, cedarline dash flooring dot com. Cedarline Flooring — a fresh floor, without the fuss."
       }
     ],
-    "translation": "電気代を下げたいとお考えですか? ヘリオス・ソーラー・ソリューションズなら、クリーンエネルギーへの切り替えが簡単です。認定技術者がご自宅に合わせて屋根用ソーラーパネルを設計・設置し、ほとんどのシステムはわずか1日で稼働します。今なら、9月末までにご予約いただいた住宅所有者の方に、無料のエネルギー診断と全機器の10年保証をお付けします。さらに嬉しいことに、多くのお客様が毎月の電気代を半分以上削減しています。どれだけ節約できるかは、当社ウェブサイト helios-solar.com で無料見積もりをご請求ください。ヘリオス・ソーラー・ソリューションズ——太陽で家に電力を。",
+    "translation": "ご自宅の床が古びてきていませんか? シダーライン・フローリングなら、床の張り替えが簡単です。認定施工士が採寸から撤去、新しい無垢材やタイルの床の施工まで、どんな部屋にも合わせて行い、1部屋の工事なら多くがわずか1日で完了します。今なら、9月末までにご予約いただいた住宅所有者の方に、無料の訪問採寸と全材料の10年保証をお付けします。片付けも当社が行いますので、その日の夕方にはもう新しい床の上を歩けます。工事費用がいくらになるかは、当社ウェブサイト cedarline-flooring.com で無料見積もりをご請求ください。シダーライン・フローリング——手間なく、新しい床を。",
     "questions": [
       {
         "q": "What type of business is being advertised?",
         "choices": [
-          "A roof repair service",
-          "A home appliance store",
-          "A solar panel installer",
-          "An electric utility company"
+          "A furniture store",
+          "A house cleaning service",
+          "A flooring installer",
+          "A hardware store"
         ],
         "answer": 2,
-        "explanation": "『our certified technicians design and install rooftop solar panels』が根拠。電力会社(utility)ではなく設置業者。"
+        "explanation": "『Our certified installers measure, remove, and lay new hardwood or tile floors』が根拠。床材を販売するだけの店ではなく施工業者。『we also handle the cleanup』から清掃業者を選ばせるひっかけに注意。"
       },
       {
         "q": "What are customers who book before the end of September offered?",
         "choices": [
           "A cash rebate",
-          "A free appliance",
-          "Free monthly maintenance",
-          "A free energy assessment"
+          "A free rug",
+          "Free monthly cleaning",
+          "A free in-home measurement"
         ],
         "answer": 3,
-        "explanation": "『homeowners who book before the end of September will receive a free energy assessment』が根拠。9月末までの予約特典。"
+        "explanation": "『homeowners who book before the end of September will receive a free in-home measurement』が根拠。9月末までの予約特典。無料なのは採寸であって清掃の定期サービスではない。"
       },
       {
         "q": "How can listeners get a quote?",
         "choices": [
           "By visiting a showroom",
-          "By visiting a store",
+          "By calling a toll-free number",
           "By requesting one on the Web site",
           "By mailing a form"
         ],
         "answer": 2,
-        "explanation": "『request a free quote on our website』が根拠。店舗来店ではなくウェブサイトでの見積もり請求。"
+        "explanation": "『request a free quote on our Web site』が根拠。ウェブサイトからの見積もり請求で、電話番号やショールームには一切言及がない。"
       }
     ]
   },
@@ -180,12 +180,12 @@ window.TOEIC_DATA_5.part4 = [
         "q": "What is Sofia asked to do?",
         "choices": [
           "Contact the client",
-          "Book a studio",
-          "Edit the video",
-          "Send a call sheet to the crew"
+          "Update the budget",
+          "Reserve a meeting room",
+          "Send an updated schedule to the team"
         ],
         "answer": 3,
-        "explanation": "『Sofia, could you send the updated call sheet to the whole crew』が根拠。スタジオ予約は既に済んでおりひっかけ。"
+        "explanation": "『Sofia, could you send the updated call sheet to the whole crew by tomorrow』が根拠。call sheet(香盤表)は当日の進行予定表なので『updated schedule』が言い換え。クライアントへの連絡や予算の更新は依頼されていない。"
       }
     ]
   },
@@ -194,14 +194,14 @@ window.TOEIC_DATA_5.part4 = [
     "kind": "announcement",
     "graphicKind": "schedule",
     "title": "トーク 5(園芸店のアナウンス・図表問題)",
-    "graphic": "Saturday Gardening Workshops\n1. Composting Basics — 10:00\n2. Container Vegetables — 11:30\n3. Pruning Fruit Trees — 1:00\n4. Designing a Pollinator Garden — 2:30",
+    "graphic": "Saturday Gardening Workshops\n1. Composting Basics — 10:00 A.M.\n2. Container Vegetables — 11:30 A.M.\n3. Pruning Fruit Trees — 1:00 P.M.\n4. Designing a Pollinator Garden — 2:30 P.M.",
     "audio": [
       {
         "speaker": "W",
         "text": "Good morning, and welcome to Greenleaf Garden Center. A quick note about today's free workshops. Unfortunately, our instructor for the eleven-thirty session on growing vegetables in containers has called in sick, so that class has been canceled for today. We're very sorry for the inconvenience, and it will be rescheduled for next Saturday. All the other sessions will run as planned. If you'd like to join one, just sign the list at the information desk near the entrance. And don't forget — anyone who attends a workshop today gets ten percent off seeds and soil in our shop. Enjoy your visit."
       }
     ],
-    "translation": "【図表】土曜日のガーデニング・ワークショップ/1. 堆肥づくりの基礎——10:00/2. コンテナ野菜——11:30/3. 果樹の剪定——1:00/4. 送粉者の庭づくり——2:30\nおはようございます。グリーンリーフ園芸センターへようこそ。本日の無料ワークショップについて一点お知らせです。あいにく、11時30分のコンテナでの野菜栽培のセッションの講師が病欠のため、本日そのクラスは中止となりました。ご不便をおかけして申し訳ございません。来週土曜日に振り替え開催します。他のセッションはすべて予定通り行います。参加をご希望の方は、入口近くの案内デスクにあるリストにご記名ください。そして、本日ワークショップに参加された方は、店内の種と土が10パーセント引きになりますのでお忘れなく。ごゆっくりどうぞ。",
+    "translation": "【図表】土曜日のガーデニング・ワークショップ/1. 堆肥づくりの基礎——午前10:00/2. コンテナ野菜——午前11:30/3. 果樹の剪定——午後1:00/4. 送粉者の庭づくり——午後2:30\nおはようございます。グリーンリーフ園芸センターへようこそ。本日の無料ワークショップについて一点お知らせです。あいにく、11時30分のコンテナでの野菜栽培のセッションの講師が病欠のため、本日そのクラスは中止となりました。ご不便をおかけして申し訳ございません。来週土曜日に振り替え開催します。他のセッションはすべて予定通り行います。参加をご希望の方は、入口近くの案内デスクにあるリストにご記名ください。そして、本日ワークショップに参加された方は、店内の種と土が10パーセント引きになりますのでお忘れなく。ごゆっくりどうぞ。",
     "questions": [
       {
         "q": "Look at the graphic. Which workshop has been canceled?",
@@ -358,13 +358,13 @@ window.TOEIC_DATA_5.part4 = [
       {
         "q": "What are volunteers asked to bring?",
         "choices": [
-          "Planting tools",
+          "A photo ID",
           "A registration form",
-          "Gardening gloves",
+          "A parking permit",
           "Their own water bottle"
         ],
         "answer": 3,
-        "explanation": "『you're asked to bring your own water bottle』が根拠。手袋と道具は用意される(Gloves and tools will be provided)のでひっかけ。"
+        "explanation": "『you're asked to bring your own water bottle』が根拠。持参が求められているのは水筒だけで、必要な道具は主催者側が用意する。登録は町役場で行うと述べているだけで、書類の持参や身分証・駐車許可証への言及はない。"
       },
       {
         "q": "What will listeners hear after the break?",
@@ -381,50 +381,50 @@ window.TOEIC_DATA_5.part4 = [
   },
   {
     "id": "s5p4-09",
-    "kind": "excerpt from a meeting",
+    "kind": "talk",
     "graphicKind": "invoice",
-    "title": "トーク 9(会議の抜粋・図表問題)",
-    "graphic": "Equipment Order — Nova Studio\n1. Camera body — $2,400\n2. Zoom lens — $1,100\n3. Tripod set — $350\n4. Lighting kit — $1,800",
+    "title": "トーク 9(店舗スタッフへの説明・図表問題)",
+    "graphic": "Equipment Order — Bayleaf Café\n1. Espresso machine — $3,200\n2. Display refrigerator — $2,100\n3. Dough mixer — $1,450\n4. Prep table — $600",
     "audio": [
       {
         "speaker": "W",
-        "text": "Let's quickly review the equipment order before I submit it. Finance approved our budget, but with one condition — they've asked us to cut the single most expensive item for now and add it in next quarter instead. So I'm going to remove that item from this order; everything else stays. The good news is the supplier is offering free shipping on orders placed this week, so I'll send the purchase order by Friday. Once it arrives, Tom will check each piece against the packing list before we log it into our inventory system. If anyone thinks we're missing something essential, let me know by end of day."
+        "text": "Before I place our kitchen equipment order, let me go over it with you one more time. Head office approved the request, but with one condition — they've asked us to leave off the single most expensive item for now and add it in next quarter instead. So I'm taking that item off this order; everything else stays as it is. The good news is that the supplier is offering free shipping on any order placed this week, so I'll send the purchase order by Friday. Once the delivery arrives, Tom will check each piece against the packing list before we enter it in our inventory system. If any of you think we're missing something essential, let me know by the end of the day."
       }
     ],
-    "translation": "【図表】機材発注 — ノヴァ・スタジオ/1. カメラ本体 — 2,400ドル/2. ズームレンズ — 1,100ドル/3. 三脚セット — 350ドル/4. 照明キット — 1,800ドル\n発注する前に、機材の注文をざっと確認しましょう。財務部は予算を承認しましたが、一つ条件があります——最も高額な項目を今回は外し、代わりに来四半期に追加してほしいとのことです。ですので、その項目をこの注文から外します。それ以外はそのままです。良い知らせは、仕入先が今週の注文には送料無料を提供していることで、金曜までに発注書を送ります。届いたら、在庫システムに登録する前に、トムが各機材を納品書と照合します。何か必要不可欠なものが抜けていると思う人がいたら、今日の終業までに教えてください。",
+    "translation": "【図表】機材発注 — ベイリーフ・カフェ/1. エスプレッソマシン — 3,200ドル/2. ディスプレイ冷蔵庫 — 2,100ドル/3. 生地ミキサー — 1,450ドル/4. 下ごしらえ台 — 600ドル\n厨房機器の発注をかける前に、もう一度皆さんと確認させてください。本部は申請を承認してくれましたが、一つ条件があります——最も高額な品目を今回は外し、代わりに来四半期に追加してほしいとのことです。ですので、その品目は今回の注文から外します。それ以外はそのままです。良い知らせは、仕入先が今週中の注文なら送料を無料にしてくれることで、金曜までに発注書を送ります。納品が届いたら、在庫システムに登録する前に、トムが各機材を納品書と照合します。何か必要不可欠なものが抜けていると思う人がいたら、今日の終業までに教えてください。",
     "questions": [
       {
         "q": "Look at the graphic. Which item will be removed from the order?",
         "choices": [
-          "Camera body",
-          "Zoom lens",
-          "Lighting kit",
-          "Tripod set"
+          "Espresso machine",
+          "Display refrigerator",
+          "Dough mixer",
+          "Prep table"
         ],
         "answer": 0,
-        "explanation": "図表問題。音声の『cut the single most expensive item』と、図表で最も高額な項目 Camera body(2,400ドル)を突き合わせる。金額の比較が必要。"
+        "explanation": "図表問題。音声の『leave off the single most expensive item』と、図表で最も高額な品目 Espresso machine(3,200ドル)を突き合わせる。音声は品目名を一切言わないため、金額の比較が必須。"
       },
       {
-        "q": "Why will the item be removed?",
+        "q": "What is the supplier offering this week?",
         "choices": [
-          "To stay within the budget",
-          "It was ordered by mistake",
-          "A better model was found",
-          "The item is out of stock"
+          "Free shipping",
+          "Free installation",
+          "An extended warranty",
+          "A volume discount"
         ],
         "answer": 0,
-        "explanation": "『Finance approved our budget, but with one condition』予算内に収めるための財務部の指示。在庫切れの話ではない。"
+        "explanation": "『the supplier is offering free shipping on any order placed this week』が根拠。無料なのは配送であって設置ではない。値引きや保証延長への言及もない。"
       },
       {
-        "q": "What will Tom do when the order arrives?",
+        "q": "What will Tom do when the delivery arrives?",
         "choices": [
           "Submit the order",
-          "Update the budget",
+          "Update the inventory prices",
           "Check the items against a list",
           "Contact the supplier"
         ],
         "answer": 2,
-        "explanation": "『Tom will check each piece against the packing list』が根拠。納品物を packing list と照合する。"
+        "explanation": "『Tom will check each piece against the packing list』が根拠。発注書を送るのは話し手自身なのでひっかけ。在庫システムへの登録は照合の後の作業。"
       }
     ]
   },
@@ -455,23 +455,23 @@ window.TOEIC_DATA_5.part4 = [
         "q": "What did Grace Hartwell do?",
         "choices": [
           "She designed the campus",
-          "She donated money for the fund",
+          "She gave a large gift to the university",
           "She won a teaching award",
           "She taught at the university"
         ],
         "answer": 1,
-        "explanation": "『The fund was made possible by a generous donation from alumna Grace Hartwell』が根拠。卒業生グレースが寄付をした。教えていたわけではない。"
+        "explanation": "『a generous donation from alumna Grace Hartwell』が根拠。generous donation を『大口の寄付』と言い換えている。alumna は卒業生であり、大学で教えていたわけでも設計に関わったわけでもない。"
       },
       {
-        "q": "What will happen next?",
+        "q": "What will Grace Hartwell do next?",
         "choices": [
-          "A meal will be served",
-          "A video will be shown",
-          "Awards will be handed out",
-          "Grace will give a speech"
+          "Hand out awards",
+          "Show a short video",
+          "Lead a campus tour",
+          "Speak to the audience"
         ],
         "answer": 3,
-        "explanation": "『Grace herself will come up to share her story』が根拠。この後グレース本人が話をする。"
+        "explanation": "『In a moment, Grace herself will come up to share her story』が根拠。come up to share her story を speak to the audience と言い換えている。直後に拍手はあるが、それは聴衆の行動であってグレース自身の次の行動ではない。"
       }
     ]
   }

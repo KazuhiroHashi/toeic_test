@@ -7,7 +7,7 @@ window.TOEIC_DATA_4.part7 = [
     "passages": [
       {
         "docType": "Text-message chain",
-        "text": "Derek Olsson (7:42 A.M.)\nHi Yuki, the produce truck from Greenfield Farms just pulled up at Dock 3, but we weren't scheduled to receive them until 9.\n\nYuki Tanaka (7:44 A.M.)\nEarly again. The trouble is Dock 3 is still loading the outbound order for Melbourne. Can the driver wait?\n\nDerek Olsson (7:45 A.M.)\nHe says he has three more stops and can't hold long. And the crates are refrigerated, so they shouldn't sit in the sun.\n\nYuki Tanaka (7:46 A.M.)\nMove them to Dock 1. It's open, and the cold-storage entrance is right there.\n\nDerek Olsson (7:47 A.M.)\nGood call. I'll redirect him now.\n\nYuki Tanaka (7:48 A.M.)\nThanks. And log the arrival time — this is the third time this month they've come early.\n\nDerek Olsson (7:49 A.M.)\nWill do."
+        "text": "Derek Olsson (7:42 A.M.)\nHi Yuki, the produce truck from Greenfield Farms just pulled up at Dock 3, but we weren't scheduled to receive them until 9.\n\nYuki Tanaka (7:44 A.M.)\nEarly again. The trouble is Dock 3 is still loading the outbound order for Melbourne. Can the driver wait?\n\nDerek Olsson (7:45 A.M.)\nHe says he has three more stops and can't wait long. And the crates are refrigerated, so they shouldn't sit in the sun.\n\nYuki Tanaka (7:46 A.M.)\nMove them to Dock 1. It's open, and the cold-storage entrance is right there.\n\nDerek Olsson (7:47 A.M.)\nGood call. I'll redirect him now.\n\nYuki Tanaka (7:48 A.M.)\nThanks. And log the arrival time — this is the third time this month they've come early.\n\nDerek Olsson (7:49 A.M.)\nWill do."
       }
     ],
     "translation": "デレク・オルソン(午前7:42):やあユキ、グリーンフィールド農園の青果トラックが今ドック3に着いたんだけど、受け入れ予定は9時だったよね。\nユキ・タナカ(午前7:44):また早いのね。問題は、ドック3ではまだメルボルン向けの出荷分を積み込み中だってこと。運転手さん、待てる?\nデレク・オルソン(午前7:45):あと3か所回るから長くは待てないって。それにクレートは冷蔵品だから、日なたに置いておけないんだ。\nユキ・タナカ(午前7:46):ドック1に回して。空いてるし、冷蔵庫の入口もすぐそこよ。\nデレク・オルソン(午前7:47):なるほど。今すぐ誘導するよ。\nユキ・タナカ(午前7:48):ありがとう。それと到着時刻を記録しておいて——今月これで3回目の早着だから。\nデレク・オルソン(午前7:49):了解。",
@@ -49,47 +49,47 @@ window.TOEIC_DATA_4.part7 = [
   },
   {
     "id": "s4p7-02",
-    "title": "シングル 2(広告)",
+    "title": "シングル 2(求人広告)",
     "passages": [
       {
-        "docType": "Advertisement",
-        "text": "WESTON INDUSTRIAL PARK — Warehouse and Light-Manufacturing Units for Lease\n\nLocated just off Highway 9, Weston Industrial Park offers modern units ideal for storage, distribution, and light assembly.\n\nAvailable units:\n1. Unit A ($1,800/month) — 400 m², one loading dock, 6-meter ceiling\n2. Unit B ($2,600/month) — 650 m², two loading docks, 8-meter ceiling, small office\n3. Unit C ($3,900/month) — 1,000 m², three loading docks, 8-meter ceiling, office and staff kitchen\n\nAll units include 24-hour security, sprinkler systems, and access to shared truck parking. Tenants are responsible for their own electricity and water.\n\nSign a two-year lease before September 30 and the first month's rent is waived. Tours available on weekdays; call 555-0142 to book."
+        "docType": "Job advertisement",
+        "text": "MAINTENANCE TECHNICIAN — Larkfield Bottling Plant\n\nLarkfield Beverages is hiring a full-time maintenance technician for its bottling plant in Danby. The successful applicant will service conveyor systems and filling machines, carry out weekly safety checks, and keep a written record of all repairs.\n\nRequirements:\n1. At least three years of experience with industrial machinery\n2. A recognized electrical or mechanical qualification\n3. Willingness to work one weekend shift per month\n\nWe offer a starting salary of $52,000, twenty days of paid leave, and a company pension. Uniforms and safety boots are supplied, and staff training is held on site every quarter.\n\nTo apply, send a résumé and a short cover letter to careers@larkfieldbev.com by August 22. Interviews will take place during the first week of September, and candidates who are selected at interview will be asked to complete a practical assessment at the plant."
       }
     ],
-    "translation": "ウェストン工業団地——倉庫・軽製造用ユニット賃貸\n\n9号線のすぐそばに位置するウェストン工業団地は、保管・配送・軽組立に最適な近代的ユニットを提供します。\n\n利用可能ユニット:\n1. ユニットA(月1,800ドル)——400m²、荷降ろしドック1、天井高6m\n2. ユニットB(月2,600ドル)——650m²、荷降ろしドック2、天井高8m、小オフィス\n3. ユニットC(月3,900ドル)——1,000m²、荷降ろしドック3、天井高8m、オフィス・スタッフ用キッチン\n\n全ユニットに24時間警備、スプリンクラー設備、共用トラック駐車場の利用が含まれます。電気・水道はテナントの負担です。\n\n9月30日までに2年契約を結ぶと初月家賃が免除されます。見学は平日可、ご予約は555-0142まで。",
+    "translation": "保守技術者募集——ラークフィールド瓶詰工場\n\nラークフィールド飲料は、ダンビーの瓶詰工場で常勤の保守技術者を募集しています。採用者はコンベヤー設備と充填機の保守、毎週の安全点検、全ての修理の記録作成を担当します。\n\n応募条件:\n1. 産業機械の実務経験3年以上\n2. 電気または機械の公認資格\n3. 月1回の週末シフト勤務が可能なこと\n\n初任給52,000ドル、有給休暇20日、企業年金をご用意しています。制服と安全靴は支給し、社員研修は四半期ごとに工場内で実施します。\n\n応募は8月22日までに、履歴書と短いカバーレターを careers@larkfieldbev.com までお送りください。面接は9月の第1週に行い、面接で選ばれた候補者には工場での実技試験を受けていただきます。",
     "questions": [
       {
         "q": "For whom is the advertisement most likely intended?",
         "choices": [
-          "Families searching for a new home",
-          "Retailers seeking a shopping-mall storefront",
-          "Companies looking for warehouse space",
-          "Travelers looking for short-term lodging"
+          "Suppliers of bottling equipment",
+          "Students seeking a summer internship",
+          "Experienced machinery technicians",
+          "Drivers with a delivery license"
         ],
         "answer": 2,
-        "explanation": "storage, distribution, and light assembly 向けの倉庫・軽製造ユニットという内容から、倉庫スペースを探す企業向けの広告。"
+        "explanation": "産業機械の経験3年以上と電気・機械の資格を求める常勤職の募集なので、経験を積んだ機械技術者向け。短期の学生インターンではないので(B)はひっかけ。"
       },
       {
-        "q": "What is NOT included with the units?",
+        "q": "What is NOT mentioned as something the company provides?",
         "choices": [
-          "Access to shared truck parking",
-          "Electricity",
-          "A sprinkler system",
-          "24-hour security"
+          "Paid leave",
+          "Transportation to the plant",
+          "Safety boots",
+          "Training on site"
         ],
         "answer": 1,
-        "explanation": "NOT問題。警備・スプリンクラー・共用トラック駐車場は全ユニット共通。電気は Tenants are responsible for their own electricity(テナント負担)なので含まれない。"
+        "explanation": "NOT問題。有給休暇20日、安全靴の支給、四半期ごとの社内研修はいずれも記載がある。通勤の足については何も述べられていない。"
       },
       {
-        "q": "How can a tenant avoid paying the first month's rent?",
+        "q": "What will selected candidates be asked to do?",
         "choices": [
-          "By booking a tour online",
-          "By leasing the largest unit",
-          "By paying a full year in advance",
-          "By signing a two-year lease before September 30"
+          "Provide three references",
+          "Attend a second interview by video",
+          "Submit samples of past repair records",
+          "Complete a practical assessment"
         ],
         "answer": 3,
-        "explanation": "Sign a two-year lease before September 30 and the first month's rent is waived(9月30日までの2年契約で初月免除)が根拠。"
+        "explanation": "candidates who are selected at interview will be asked to complete a practical assessment at the plant(面接で選ばれた候補者は工場で実技試験を受ける)が根拠。"
       }
     ]
   },
@@ -124,7 +124,7 @@ window.TOEIC_DATA_4.part7 = [
           "It will start producing a new model soon."
         ],
         "answer": 3,
-        "explanation": "our assembly line will switch to a new dishwasher model in mid-March(3月中旬に新モデルへ切替)から、まもなく新製品の生産を始めると分かる。ブラケットはトーランス社が作るので(C)は誤り。"
+        "explanation": "our assembly line will switch to a new dishwasher model in mid-March(3月中旬に新モデルへ切替)から、まもなく新製品の生産を始めると分かる。ブラケットはトーランス社が作るので(B)は誤り。"
       },
       {
         "q": "What does Ms. Barsky indicate she is willing to do?",
@@ -151,15 +151,15 @@ window.TOEIC_DATA_4.part7 = [
     "translation": "リバーストーン・オフィスプラザ——テナント向けお知らせ\n\n3階の老朽化した配管の一部を業者が交換するため、5月14日(水)午前8時から午後1時まで、建物全体の給水を停止しますのでお知らせします。\n\nこの間、全フロアのトイレと給湯設備が使用できなくなります。必要に応じて飲料水を事前に備えておくことをお勧めします。最寄りの公共トイレは隣接するカールトン・センターのロビーにあり、当ビルのテナントはご利用いただけます。\n\nエレベーターと電気には影響がなく、ビル管理事務所も通常通り開いています。作業が早く終わった場合は、Eメールで解除のお知らせをお送りします。\n\nご不便をおかけし申し訳ありません。ご質問は管理事務所(内線200)まで。",
     "questions": [
       {
-        "q": "What is the purpose of the notice?",
+        "q": "Where in the building will the contractors work?",
         "choices": [
-          "To schedule an elevator inspection",
-          "To announce a rent increase",
-          "To describe a planned water shutoff",
-          "To introduce a new maintenance contractor"
+          "In the lobby",
+          "In the basement",
+          "On the third floor",
+          "On the roof"
         ],
         "answer": 2,
-        "explanation": "冒頭の『5月14日に建物全体の給水を停止する』という告知が主目的。"
+        "explanation": "replace a section of aging pipe on the third floor(3階の老朽化した配管の一部を交換する)が根拠。ロビーは隣のカールトン・センターのトイレの話で出てくるだけなので(A)はひっかけ。"
       },
       {
         "q": "What are tenants advised to do?",
@@ -194,7 +194,7 @@ window.TOEIC_DATA_4.part7 = [
         "text": "Ravi Deshmukh (4:31 P.M.)\nColin, are the galley proofs for the spring issue back from the printer yet?\n\nColin Whitaker (4:33 P.M.)\nThey just landed on my desk. Why — is there a problem?\n\nRavi Deshmukh (4:34 P.M.)\nThe lead author found two errors in her article this morning. We need them fixed before it goes to print tomorrow.\n\nColin Whitaker (4:35 P.M.)\nHow major? If they're just typos I can slot them in tonight.\n\nRavi Deshmukh (4:36 P.M.)\nOne's a wrong figure in a chart, the other's a misspelled name. Both small.\n\nColin Whitaker (4:37 P.M.)\nI'm on it.\n\nRavi Deshmukh (4:38 P.M.)\nYou're saving the whole issue."
       }
     ],
-    "translation": "ラヴィ・デシュムク(午後4:31):コリン、春号のゲラは印刷所からもう戻ってきた?\nコリン・ウィテカー(午後4:33):今ちょうど机に届いたところ。どうかした?——何か問題?\nラヴィ・デシュムク(午後4:34):筆頭著者が今朝、自分の記事に誤りを2つ見つけたの。明日印刷に回る前に直さないと。\nコリン・ウィテカー(午後4:35):どのくらい大きい? ただの誤字なら今夜差し込めるよ。\nラヴィ・デシュムク(午後4:36):1つはグラフの数値の間違い、もう1つは名前のスペルミス。どちらも小さいわ。\nコリン・ウィテカー(午後4:37):任せて。\nラヴィ・デシュムク(午後4:38):あなたが号全体を救ってくれるのね。",
+    "translation": "ラヴィ・デシュムク(午後4:31):コリン、春号のゲラは印刷所からもう戻ってきた?\nコリン・ウィテカー(午後4:33):今ちょうど机に届いたところ。どうかした?——何か問題?\nラヴィ・デシュムク(午後4:34):筆頭著者が今朝、自分の記事に誤りを2つ見つけた。明日印刷に回る前に直さないと。\nコリン・ウィテカー(午後4:35):どのくらい大きい? ただの誤字なら今夜差し込めるよ。\nラヴィ・デシュムク(午後4:36):1つはグラフの数値の間違い、もう1つは名前のスペルミス。どちらも小さい。\nコリン・ウィテカー(午後4:37):任せて。\nラヴィ・デシュムク(午後4:38):君のおかげで号全体が助かる。",
     "questions": [
       {
         "q": "At 4:37 P.M., what does Mr. Whitaker most likely mean when he writes, \"I'm on it\"?",
@@ -216,7 +216,7 @@ window.TOEIC_DATA_4.part7 = [
           "It will be printed the following day."
         ],
         "answer": 3,
-        "explanation": "before it goes to print tomorrow(明日印刷に回る前に)から、翌日に印刷予定と分かる。グラフの数値ミスの話があるので(C)は誤り。"
+        "explanation": "before it goes to print tomorrow(明日印刷に回る前に)から、翌日に印刷予定と分かる。グラフの数値ミスの話があるので(A)は誤り。"
       }
     ]
   },
@@ -243,7 +243,7 @@ window.TOEIC_DATA_4.part7 = [
         "explanation": "第1段落の『12農場の協同組合が共同梱包施設を開設した』が記事全体の主題。"
       },
       {
-        "q": "According to Ms. Fenn, what problem did small farms face before?",
+        "q": "According to the article, what problem did small farms face before?",
         "choices": [
           "They could not meet buyers' volume needs.",
           "They could not find enough workers.",
@@ -343,7 +343,7 @@ window.TOEIC_DATA_4.part7 = [
           "It is not a safety concern."
         ],
         "answer": 3,
-        "explanation": "the issue poses no safety risk(安全上のリスクはない)が根拠。自分で簡単に取り付けられるとあるので(C)(D)も誤り。"
+        "explanation": "the issue poses no safety risk(安全上のリスクはない)が根拠。自分で簡単に取り付けられるとあるので(A)(C)は誤り。"
       },
       {
         "q": "The word \"dispatched\" in paragraph 3 is closest in meaning to",
@@ -389,7 +389,7 @@ window.TOEIC_DATA_4.part7 = [
           "Free delivery on every order"
         ],
         "answer": 3,
-        "explanation": "NOT問題。翌朝配送・毎週の価格更新・専任担当者は記載あり。配送無料は『初回注文のみ』なので、すべての注文が無料(C)とは述べていない。"
+        "explanation": "NOT問題。翌朝配送・毎週の価格更新・専任担当者は記載あり。配送無料は『初回注文のみ』なので、すべての注文が無料(D)とは述べていない。"
       },
       {
         "q": "What must new customers provide to register?",
@@ -491,12 +491,12 @@ window.TOEIC_DATA_4.part7 = [
         "q": "How much will Mr. Brislin most likely pay in monthly rent, not counting the CAM charge?",
         "choices": [
           "$3,240",
-          "$3,300",
-          "$3,900",
+          "$2,610",
+          "$1,800",
           "$3,600"
         ],
         "answer": 0,
-        "explanation": "クロスリファレンス(計算型)。ユニット3は月3,600ドル。彼は3年契約を結ぶので家賃が10%割引=3,600×0.9=3,240ドル。CAMは割引対象外だが設問は家賃のみを問うている。"
+        "explanation": "クロスリファレンス(計算型)。ユニット3は月3,600ドル。彼は3年契約を結ぶので家賃が10%割引=3,600×0.9=3,240ドル。CAMは割引対象外だが設問は家賃のみを問うている。2,610ドルはユニット2、1,800ドルはユニット1を10%割引した額、3,600ドルは割引前の額で、いずれもひっかけ。"
       },
       {
         "q": "What is one thing Mr. Brislin asks about?",
@@ -712,7 +712,7 @@ window.TOEIC_DATA_4.part7 = [
         "explanation": "クロスリファレンス問題。価格表『無料配送は10ケースから』と、メールの『合計10ケースなので無料と理解』を突き合わせる。"
       },
       {
-        "q": "If the strawberries are added, what is the total cost of the order?",
+        "q": "Based on Ms. Sène's original request plus the strawberries, what is the total cost of the order?",
         "choices": [
           "$260",
           "$180",
@@ -790,13 +790,13 @@ window.TOEIC_DATA_4.part7 = [
       {
         "q": "How much will Mr. Ostberg most likely pay for the year?",
         "choices": [
-          "$1,425",
-          "$1,350",
+          "$816",
+          "$960",
           "$1,275",
           "$1,500"
         ],
         "answer": 2,
-        "explanation": "クロスリファレンス(計算型)。プレミアム1,500ドルに、警報割引15%を適用=1,500×0.85=1,275ドル。年払いなので分割割増はかからない。"
+        "explanation": "クロスリファレンス(計算型)。プレミアム1,500ドルに、警報割引15%を適用=1,500×0.85=1,275ドル。年払いなので分割割増はかからない。816ドルはスタンダードを15%割引した額、960ドルは割引前のスタンダード、1,500ドルは割引前のプレミアムで、いずれもひっかけ。"
       },
       {
         "q": "What is one reason Mr. Ostberg avoids an extra charge?",
@@ -818,7 +818,7 @@ window.TOEIC_DATA_4.part7 = [
           "Install an alarm system"
         ],
         "answer": 1,
-        "explanation": "will e-mail the policy documents once you confirm ... let me know if you would like to proceed(確認・承諾の返信を求めている)が根拠。警報はすでに設置済みなので(A)は誤り。"
+        "explanation": "will e-mail the policy documents once you confirm ... let me know if you would like to proceed(確認・承諾の返信を求めている)が根拠。警報はすでに設置済みなので(D)は誤り。"
       }
     ]
   }

@@ -1,4 +1,4 @@
-// セット4 part2(監査反映・正解位置均等化済み)
+// セット4 part2(解説の選択肢記号を修正)
 window.TOEIC_DATA_4 = window.TOEIC_DATA_4 || {};
 window.TOEIC_DATA_4.part2 = [
   {
@@ -14,7 +14,7 @@ window.TOEIC_DATA_4.part2 = [
     ],
     "answer": 2,
     "translation": "休暇申請はどこで提出すればいいですか?\n(A) 彼女はもう提出しました。\n(B) はい、休みが欲しいです。\n(C) 人事のオンラインポータルからです。",
-    "explanation": "Where(どこ)に対して提出先を答えた(A)が正解。(B)はWH疑問文にYesで答えており不可、(C)はsubmit/submittedの繰り返しによるひっかけ。"
+    "explanation": "Where(どこ)に対して提出先を答えた(C)が正解。(B)はWH疑問文にYesで答えており不可、(C)はsubmit/submittedの繰り返しによるひっかけ。"
   },
   {
     "id": "s4p2-02",
@@ -29,7 +29,7 @@ window.TOEIC_DATA_4.part2 = [
     ],
     "answer": 2,
     "translation": "昼食会用の料理はいつ配達されますか?\n(A) 4階のキッチンにです。\n(B) とても美味しかったです。\n(C) 11時半ちょうどです。",
-    "explanation": "When(いつ)に対して時刻を答えた(B)が正解。(A)は場所、(C)はfood(料理)からの連想+過去形で時制も合わない。"
+    "explanation": "When(いつ)に対して時刻を答えた(C)が正解。(A)は場所、(C)はfood(料理)からの連想+過去形で時制も合わない。"
   },
   {
     "id": "s4p2-03",
@@ -74,7 +74,7 @@ window.TOEIC_DATA_4.part2 = [
     ],
     "answer": 2,
     "translation": "レシートは印刷とメール、どちらがよろしいですか?\n(A) プリンターのインクが切れています。\n(B) はい、2つ買いました。\n(C) メールでお願いします、ありがとう。",
-    "explanation": "A or B の選択疑問文にはYes/Noでは答えられない。一方を選んだ(B)が正解。(C)はprinted/printerの音のひっかけ。"
+    "explanation": "A or B の選択疑問文にはYes/Noでは答えられない。一方を選んだ(C)が正解。他の選択肢はprinted/printerの音のひっかけ。"
   },
   {
     "id": "s4p2-06",
@@ -89,7 +89,7 @@ window.TOEIC_DATA_4.part2 = [
     ],
     "answer": 0,
     "translation": "なぜギャラリーは東棟を閉鎖したのですか?\n(A) 改装中だからです。\n(B) 3週間ほどらしいですよ。\n(C) 2階です。",
-    "explanation": "Why(なぜ)に理由(Because 〜)で答えた(C)が正解。(A)は場所、(B)は期間で理由になっていない。"
+    "explanation": "Why(なぜ)に理由(Because 〜)で答えた(A)が正解。(A)は場所、(B)は期間で理由になっていない。"
   },
   {
     "id": "s4p2-07",
@@ -104,7 +104,7 @@ window.TOEIC_DATA_4.part2 = [
     ],
     "answer": 1,
     "translation": "チャリティーランには何人のボランティアが必要ですか?\n(A) 中央公園でです。\n(B) 20人ほどいれば足りるでしょう。\n(C) 毎年春に開催されます。",
-    "explanation": "How many(何人)に人数を答えた(C)が正解。(A)はrun(走る/開催される)の多義語+頻度、(B)は場所のひっかけ。"
+    "explanation": "How many(何人)に人数を答えた(B)が正解。(A)はrun(走る/開催される)の多義語+頻度、他の選択肢は場所のひっかけ。"
   },
   {
     "id": "s4p2-08",
@@ -134,7 +134,7 @@ window.TOEIC_DATA_4.part2 = [
     ],
     "answer": 1,
     "translation": "送信する前に、このプレスリリースを校正してもらえますか?\n(A) 記者会見はうまくいきました。\n(B) もちろん、10分ください。\n(C) いいえ、昨日郵送しました。",
-    "explanation": "依頼(Could you 〜?)に快諾+所要時間を示した(C)が正解。(A)はpressの繰り返し、(B)はsend/mailedの連想によるひっかけ。"
+    "explanation": "依頼(Could you 〜?)に快諾+所要時間を示した(B)が正解。(A)はpressの繰り返し、他の選択肢はsend/mailedの連想によるひっかけ。"
   },
   {
     "id": "s4p2-10",
@@ -194,7 +194,7 @@ window.TOEIC_DATA_4.part2 = [
     ],
     "answer": 2,
     "translation": "今年、オフィスの椅子を新しくしませんか?\n(A) 高すぎたからです。\n(B) 彼は前列に座っていました。\n(C) いいですね——私のは壊れているので。",
-    "explanation": "Why don't we 〜? は理由を聞いているのではなく『提案』。同意した(B)が正解。(A)は理由を答えており提案と噛み合わない、(C)はchair(椅子)→sat(座る)の連想ひっかけ。"
+    "explanation": "Why don't we 〜? は理由を聞いているのではなく『提案』。同意した(C)が正解。(A)は理由を答えており提案と噛み合わない、(C)はchair(椅子)→sat(座る)の連想ひっかけ。"
   },
   {
     "id": "s4p2-14",
@@ -209,7 +209,7 @@ window.TOEIC_DATA_4.part2 = [
     ],
     "answer": 1,
     "translation": "この冷蔵庫の保証はどのくらいの期間ですか?\n(A) 中心街の家電量販店でです。\n(B) 部品と作業込みで2年です。\n(C) かなり大型のモデルです。",
-    "explanation": "How long(期間)に対して『2年』と答えた(C)が正解。(A)は大きさ(How large向け)、(B)は場所のひっかけ。"
+    "explanation": "How long(期間)に対して『2年』と答えた(B)が正解。(A)は大きさ(How large向け)、他の選択肢は場所のひっかけ。"
   },
   {
     "id": "s4p2-15",
@@ -224,7 +224,7 @@ window.TOEIC_DATA_4.part2 = [
     ],
     "answer": 0,
     "translation": "追加の印刷予算を承認したのは誰ですか?\n(A) 今週入ったばかりなので、分からないんです。\n(B) 500部ほどです。\n(C) 備品室にあります。",
-    "explanation": "Whoに人名で答えず『今週来たばかりで分からない』と間接的に返した(B)が正解。この『わからない系』はPart 2の頻出正解パターン。(A)は部数、(C)は場所のひっかけ。"
+    "explanation": "Whoに人名で答えず『今週来たばかりで分からない』と間接的に返した(A)が正解。この『わからない系』はPart 2の頻出正解パターン。他の選択肢は部数、(C)は場所のひっかけ。"
   },
   {
     "id": "s4p2-16",
@@ -245,16 +245,16 @@ window.TOEIC_DATA_4.part2 = [
     "id": "s4p2-17",
     "question": {
       "speaker": "W",
-      "text": "What's the password for the guest Wi-Fi network?"
+      "text": "Who should I ask about the forklift certification training?"
     },
     "choices": [
-      "Yes, all the guests have arrived.",
-      "The receptionist can set that up for you.",
-      "It's a very fast connection."
+      "The safety officer keeps that schedule.",
+      "Yes, it was certified last year.",
+      "About four hours of instruction."
     ],
-    "answer": 1,
-    "translation": "ゲスト用Wi-Fiのパスワードは何ですか?\n(A) はい、お客様は全員到着しました。\n(B) 受付の者が設定してくれますよ。\n(C) とても速い回線ですよ。",
-    "explanation": "変化球:自分では答えず『知っている人(受付)に任せる』パターン。『◯◯に頼めば分かる』は頻出の正解。(A)はWi-Fiからの連想、(B)はguestの繰り返し+WH疑問文にYesで不可。"
+    "answer": 0,
+    "translation": "フォークリフトの資格講習については誰に聞けばいいですか?\n(A) 安全管理者がその日程を管理しています。\n(B) はい、昨年認定を受けました。\n(C) 講習は4時間ほどです。",
+    "explanation": "変化球:自分では答えず『担当者を教える』パターン。『◯◯に聞けば分かる』は間接応答の頻出正解。(B)はcertification/certifiedの派生語ひっかけ+WH疑問文にYesで不可、(C)は所要時間で疑問詞に対応していない。"
   },
   {
     "id": "s4p2-18",
@@ -269,7 +269,7 @@ window.TOEIC_DATA_4.part2 = [
     ],
     "answer": 2,
     "translation": "取締役会は合併を承認しましたか?\n(A) 最上階です。\n(B) 書類には私が署名しました。\n(C) 木曜日にまた会議をするんです。",
-    "explanation": "変化球:Yes/Noを言わず『木曜にまた会議』と述べて『まだ承認されていない』を含意するパターン。推論が必要。(B)はsigned off/signedの繰り返し、(C)は場所のひっかけ。"
+    "explanation": "変化球:Yes/Noを言わず『木曜にまた会議』と述べて『まだ承認されていない』を含意するパターン。推論が必要。(B)はsigned off/signedの繰り返し、他の選択肢は場所のひっかけ。"
   },
   {
     "id": "s4p2-19",
@@ -344,7 +344,7 @@ window.TOEIC_DATA_4.part2 = [
     ],
     "answer": 2,
     "translation": "私の昼休みの間、受付を代わってもらえませんか?\n(A) はい、もう昼食は済ませました。\n(B) 受付は入口のすぐそばです。\n(C) 私自身、これから歯医者の予約があるんです。",
-    "explanation": "変化球:依頼にYes/Noを言わず『自分も予定がある』と述べて婉曲に断るパターン。都合を述べて断る応答は頻出の正解。(B)はdeskからの連想+場所、(C)はlunchの繰り返しによるひっかけ。"
+    "explanation": "変化球:依頼にYes/Noを言わず『自分も予定がある』と述べて婉曲に断るパターン。都合を述べて断る応答は頻出の正解。(B)はdeskからの連想+場所、他の選択肢はlunchの繰り返しによるひっかけ。"
   },
   {
     "id": "s4p2-24",
@@ -359,7 +359,7 @@ window.TOEIC_DATA_4.part2 = [
     ],
     "answer": 1,
     "translation": "そのシャトルは空港ターミナルに停まりますか?\n(A) はい、さっき立ち寄りました。\n(B) 路線図がドアのすぐそばに貼ってありますよ。\n(C) とても混雑したターミナルです。",
-    "explanation": "変化球:停まるかどうかを答えず『調べる手段(路線図)』を教えるパターン。『そこを見れば分かる』型。(A)はstop/stopped byの繰り返し、(B)はterminalの繰り返しによるひっかけ。"
+    "explanation": "変化球:停まるかどうかを答えず『調べる手段(路線図)』を教えるパターン。『そこを見れば分かる』型。(A)はstop/stopped byの繰り返し、他の選択肢はterminalの繰り返しによるひっかけ。"
   },
   {
     "id": "s4p2-25",

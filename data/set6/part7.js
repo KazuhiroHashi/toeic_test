@@ -21,7 +21,7 @@ window.TOEIC_DATA_6.part7 = [
           "To confirm a construction deadline"
         ],
         "answer": 0,
-        "explanation": "最初のメッセージ『張り地サンプルがスタジオに届いた』が連絡の理由。届いたことを知らせる目的。(A)の期限や(B)の予定変更は本文にない。"
+        "explanation": "最初のメッセージ『張り地サンプルがスタジオに届いた』が連絡の理由。届いたことを知らせる目的。(D)の期限や(B)の予定変更は本文にない。"
       },
       {
         "q": "At 9:40 A.M., what does Mr. Doyle most likely mean when he writes, \"You read my mind\"?",
@@ -43,7 +43,7 @@ window.TOEIC_DATA_6.part7 = [
           "Attend a supplier call"
         ],
         "answer": 0,
-        "explanation": "Let me send them with Priya — she's heading your way with the light fixtures から、プリヤがサンプルと照明器具を現場に届けると分かる。(A)の仕入先電話はオリビアの予定。"
+        "explanation": "Let me send them with Priya — she's heading your way with the light fixtures から、プリヤがサンプルと照明器具を現場に届けると分かる。(D)の仕入先電話はオリビアの予定。"
       }
     ]
   },
@@ -67,7 +67,7 @@ window.TOEIC_DATA_6.part7 = [
           "A discount for spending over $200"
         ],
         "answer": 2,
-        "explanation": "NOT問題。無料お直し・15%オフ・トート進呈・冬物先行アクセスは記載あり。オンライン送料無料には触れていないので(D)が正解。"
+        "explanation": "NOT問題。無料お直し・15%オフ・トート進呈・冬物先行アクセスは記載あり。オンライン送料無料には触れていないので(C)が正解。"
       },
       {
         "q": "What is indicated about alterations?",
@@ -78,7 +78,7 @@ window.TOEIC_DATA_6.part7 = [
           "They are available online."
         ],
         "answer": 1,
-        "explanation": "alterations require three to five business days(3〜5営業日かかる)が根拠。complimentary(無料)なので(B)は誤り。"
+        "explanation": "alterations require three to five business days(3〜5営業日かかる)が根拠。complimentary(無料)なので(A)は誤り。"
       },
       {
         "q": "Who receives early access to the winter collection?",
@@ -113,7 +113,7 @@ window.TOEIC_DATA_6.part7 = [
           "To report suspicious activity"
         ],
         "answer": 2,
-        "explanation": "Your business checking account ... is now active(口座が有効になった)ことの通知が主目的。融資の案内(A)や不正利用の報告(C)ではない。"
+        "explanation": "Your business checking account ... is now active(口座が有効になった)ことの通知が主目的。融資の案内(A)や不正利用の報告(D)ではない。"
       },
       {
         "q": "What must Mr. Herrera do to start using online banking?",
@@ -145,7 +145,7 @@ window.TOEIC_DATA_6.part7 = [
     "passages": [
       {
         "docType": "Notice",
-        "text": "RIVERSTONE CONCERT HALL — Patron Notice\n\nDue to a scheduling conflict, the string quartet originally booked for the evening of March 14 will now perform on March 21. All tickets for March 14 will be honored on the new date.\n\nPatrons who cannot attend on March 21 may exchange their tickets for any other concert this season at the box office, or request a full refund no later than March 10.\n\nPlease also note our latecomer policy: to avoid disturbing the performers, guests arriving after a performance has begun will be seated only during intervals.\n\nWe appreciate your understanding and look forward to welcoming you."
+        "text": "RIVERSTONE CONCERT HALL — Patron Notice\n\nDue to a scheduling conflict, the string quartet originally booked for the evening of March 14 will now perform on March 21. All tickets for March 14 will be honored on the new date.\n\nPatrons who cannot attend on March 21 may exchange their tickets for any other concert this season at the box office, or request a full refund no later than March 10.\n\nPlease also note our latecomer policy: to avoid disturbing the performers, guests arriving after a performance has begun will be seated only during intermissions.\n\nWe appreciate your understanding and look forward to welcoming you."
       }
     ],
     "translation": "リバーストーン・コンサートホール——ご来場者へのお知らせ\n\n日程の重複により、3月14日夜に予定していた弦楽四重奏の公演は3月21日に変更となります。3月14日のチケットは新しい日程でそのまま有効です。\n\n3月21日にご来場いただけない方は、ボックスオフィスで今シーズンの他公演のチケットと交換いただけます。または、3月10日までに全額払い戻しをご請求いただけます。\n\nまた、遅れてご来場の方への方針をご確認ください。演奏者の妨げにならないよう、開演後にお越しの方は休憩時間のみご案内いたします。\n\nご理解に感謝いたします。ご来場をお待ちしております。",
@@ -159,29 +159,29 @@ window.TOEIC_DATA_6.part7 = [
           "To raise ticket prices"
         ],
         "answer": 1,
-        "explanation": "冒頭『3月14日の公演が3月21日に変更』という日程変更の告知が主目的。新しい楽団の紹介(B)や値上げ(C)ではない。"
+        "explanation": "冒頭『3月14日の公演が3月21日に変更』という日程変更の告知が主目的。新しい楽団の紹介(A)や値上げ(D)ではない。"
       },
       {
         "q": "What is indicated about latecomers?",
         "choices": [
           "They are not admitted at all.",
           "They must sit in the back row.",
-          "They are seated during intervals only.",
+          "They are seated during intermissions only.",
           "They receive a discount."
         ],
         "answer": 2,
-        "explanation": "seated only during intervals(休憩時間のみ案内)が根拠。入場自体は認められるので(D)『一切入場不可』は誤り。"
+        "explanation": "seated only during intermissions(休憩時間のみ案内)が根拠。入場自体は認められるので(A)『一切入場不可』は誤り。"
       },
       {
         "q": "How can a patron who cannot attend obtain a refund?",
         "choices": [
           "By exchanging for a recording",
           "By calling the performers",
-          "By arriving during an interval",
+          "By arriving during an intermission",
           "By requesting one by March 10"
         ],
         "answer": 3,
-        "explanation": "request a full refund no later than March 10(3月10日までに請求)が根拠。交換は他公演のチケットとであり(C)は誤り。"
+        "explanation": "request a full refund no later than March 10(3月10日までに請求)が根拠。交換は他公演のチケットとであり(A)は誤り。"
       }
     ]
   },
@@ -226,10 +226,10 @@ window.TOEIC_DATA_6.part7 = [
     "passages": [
       {
         "docType": "Article",
-        "text": "MILLBROOK (April 5) — Community radio station WKMB launched a new afternoon program, \"Millbrook Voices,\" on Monday, giving local residents a platform to discuss neighborhood issues on the air.\n\nThe one-hour show airs on weekdays at 4 P.M. and invites listeners to call in with questions for guests, who range from small-business owners to city council members. The station, which is run largely by volunteers, funds its operations through listener donations and local advertising.\n\n\"We wanted a program that belongs to the community, not to us,\" said station manager Dell Rowe. Since the launch, the station's Web site has seen a 40 percent rise in traffic.\n\nRowe added that WKMB hopes to add a Saturday segment featuring local bands by the summer, pending additional funding."
+        "text": "MILLBROOK (April 5) — Community radio station WKMB launched a new afternoon program, \"Millbrook Voices,\" on Monday, giving local residents a platform to discuss neighborhood issues on the air.\n\nThe one-hour show airs on weekdays at 4 P.M. and invites listeners to call in with questions for guests, who range from small-business owners to local school principals. The station, which is run largely by volunteers, funds its operations through listener donations and local advertising.\n\n\"We wanted a program that belongs to the community, not to us,\" said station manager Dell Rowe. Since the launch, the station's Web site has seen a 40 percent rise in traffic.\n\nRowe added that WKMB hopes to add a Saturday segment featuring local bands by the summer, pending additional funding."
       }
     ],
-    "translation": "ミルブルック(4月5日)——コミュニティラジオ局WKMBは月曜、新しい午後の番組『ミルブルック・ボイシズ』を開始し、地域住民が近隣の課題を放送で話し合える場を設けた。\n\n1時間の番組は平日午後4時に放送され、リスナーは電話で参加してゲストに質問できる。ゲストは小規模事業者から市議会議員まで幅広い。局はおもにボランティアで運営され、リスナーからの寄付と地元広告で運営費をまかなっている。\n\n『私たちのものではなく、地域のものになる番組にしたかった』と局長のデル・ロウ氏は語る。開始以降、局のウェブサイトへのアクセスは40パーセント増えた。\n\nロウ氏は、資金が追加で確保できれば、夏までに地元バンドを特集する土曜の枠を設けたいと付け加えた。",
+    "translation": "ミルブルック(4月5日)——コミュニティラジオ局WKMBは月曜、新しい午後の番組『ミルブルック・ボイシズ』を開始し、地域住民が近隣の課題を放送で話し合える場を設けた。\n\n1時間の番組は平日午後4時に放送され、リスナーは電話で参加してゲストに質問できる。ゲストは小規模事業者から地元の学校長まで幅広い。局はおもにボランティアで運営され、リスナーからの寄付と地元広告で運営費をまかなっている。\n\n『私たちのものではなく、地域のものになる番組にしたかった』と局長のデル・ロウ氏は語る。開始以降、局のウェブサイトへのアクセスは40パーセント増えた。\n\nロウ氏は、資金が追加で確保できれば、夏までに地元バンドを特集する土曜の枠を設けたいと付け加えた。",
     "questions": [
       {
         "q": "What is the article mainly about?",
@@ -237,10 +237,10 @@ window.TOEIC_DATA_6.part7 = [
           "The launch of a new radio program",
           "The closing of a local station",
           "A change in advertising rates",
-          "A city council election"
+          "A community fundraiser"
         ],
         "answer": 0,
-        "explanation": "第1段落の『新しい午後の番組を開始した』が記事全体の主題。閉局(B)や選挙(D)ではない。"
+        "explanation": "第1段落の『新しい午後の番組を開始した』が記事全体の主題。閉局(B)や地域の募金活動(D)ではない。"
       },
       {
         "q": "How does the station fund its operations?",
@@ -286,7 +286,7 @@ window.TOEIC_DATA_6.part7 = [
           "To confirm sponsorship arrangements"
         ],
         "answer": 3,
-        "explanation": "Thank you for confirming ... as a Silver Sponsor(すでに確定)とあり、特典と依頼事項を案内している。招待(A)ではなく手配の確認。"
+        "explanation": "Thank you for confirming ... as a Silver Sponsor(すでに確定)とあり、特典と依頼事項を案内している。招待(C)ではなく手配の確認。"
       },
       {
         "q": "What must Mr. Hoang send by May 30?",
@@ -332,7 +332,7 @@ window.TOEIC_DATA_6.part7 = [
           "To confirm a loan approval"
         ],
         "answer": 0,
-        "explanation": "the statement was delivered three days later ... I sincerely apologize for the delay から、書類の遅延に対する謝罪が目的。融資承認の確認(C)ではない。"
+        "explanation": "the statement was delivered three days later ... I sincerely apologize for the delay から、書類の遅延に対する謝罪が目的。融資承認の確認(D)ではない。"
       },
       {
         "q": "What is suggested about Ledgerwood & Pike?",
@@ -354,7 +354,7 @@ window.TOEIC_DATA_6.part7 = [
           "It will be applied automatically."
         ],
         "answer": 3,
-        "explanation": "The credit will appear automatically and requires no action(自動反映・手続き不要)が根拠。電話請求(A)や現金化(D)は誤り。"
+        "explanation": "The credit will appear automatically and requires no action(自動反映・手続き不要)が根拠。電話請求(A)や現金化(B)は誤り。"
       }
     ]
   },
@@ -378,10 +378,10 @@ window.TOEIC_DATA_6.part7 = [
           "A restaurant"
         ],
         "answer": 3,
-        "explanation": "seasonal Mediterranean plates を提供する bistro(ビストロ)なので飲食店。パスタ教室(B)、農場からの仕入れ(D)は本文中の要素だが業態ではない。"
+        "explanation": "seasonal Mediterranean plates を提供する bistro(ビストロ)なので飲食店。パスタ教室(C)、農場からの仕入れ(A)は本文中の要素だが業態ではない。"
       },
       {
-        "q": "The word \"essential\" in the fourth paragraph is closest in meaning to",
+        "q": "The word \"essential\" in paragraph 4, line 1, is closest in meaning to",
         "choices": [
           "necessary",
           "temporary",
@@ -392,15 +392,15 @@ window.TOEIC_DATA_6.part7 = [
         "explanation": "語彙問題。essential(不可欠な)= necessary(必要な)。定員12名で予約必須という文脈からも判断できる。"
       },
       {
-        "q": "What is indicated about the menu?",
+        "q": "What is indicated about the offerings?",
         "choices": [
-          "It is only available at brunch.",
-          "It changes every month.",
-          "It is set by a guest chef.",
-          "It focuses on desserts."
+          "They are selected by a committee.",
+          "They change every month.",
+          "They are the same all year.",
+          "They are listed in a printed brochure."
         ],
         "answer": 1,
-        "explanation": "change our menu monthly が根拠。デザート中心(B)やブランチ限定(C)ではない。"
+        "explanation": "change our menu monthly(毎月変える)が根拠で、『毎月変わる』への言い換え。年間ずっと同じ(C)は正反対。委員会が選ぶ(A)や印刷パンフレット(D)は本文にない。"
       }
     ]
   },
@@ -528,14 +528,14 @@ window.TOEIC_DATA_6.part7 = [
     "passages": [
       {
         "docType": "Price list",
-        "text": "MERIDIAN KNITWEAR — Wholesale Order Guide\n\nMinimum wholesale order: 12 units. Prices are per unit:\n1. Merino scarves — $18\n2. Wool beanies — $14\n3. Cashmere-blend gloves — $22\n\nVolume discount (applied to the whole order):\n- 50–99 units: 10% off\n- 100 units or more: 15% off\n\nStandard delivery takes 10 business days and is free on orders over $1,000. Rush delivery (4 business days) adds a flat $75. Custom label stitching is available for an extra $2 per unit."
+        "text": "MERIDIAN KNITWEAR — Wholesale Order Guide\n\nMinimum wholesale order: 12 units. Prices are per unit:\n1. Merino scarves — $18\n2. Wool beanies — $14\n3. Cashmere-blend gloves — $22\n\nVolume discount (applied to the whole order):\n- 50–99 units: 10% off\n- 100 units or more: 15% off\n\nStandard delivery takes 10 business days and is free on orders over $1,000.\nRush delivery (4 business days) adds a flat $75.\nCustom label stitching is available for an extra $2 per unit."
       },
       {
         "docType": "E-mail",
-        "text": "From: Owen Priestley, Fable & Fern Boutique\nTo: sales@meridianknitwear.com\nSubject: Autumn wholesale order\nDate: August 19\n\nHello,\n\nI'd like to place my autumn order: 60 merino scarves and 40 wool beanies. I don't need custom labels this time.\n\nTwo questions. First, our shop's autumn window unveiling is on September 2, so I'd like the order to arrive before then. Second, could you confirm the total discount rate that applies to an order of this size?\n\nI'll pay through our usual account.\n\nThanks,\nOwen Priestley"
+        "text": "From: Owen Priestley, Fable & Fern Boutique\nTo: sales@meridianknitwear.com\nSubject: Autumn wholesale order\nDate: August 19\n\nHello,\n\nI'd like to place my autumn order: 60 merino scarves and 40 wool beanies. I don't need custom labels this time.\n\nTwo questions. First, our shop's autumn window unveiling is on September 12, so I'd like the order to arrive before then. Second, could you confirm the total discount rate that applies to an order of this size?\n\nI'll pay through our usual account.\n\nThanks,\nOwen Priestley"
       }
     ],
-    "translation": "【価格表】メリディアン・ニットウェア——卸注文ガイド\n最低卸注文数:12点。価格は1点あたり。\n1. メリノマフラー:18ドル\n2. ウールビーニー:14ドル\n3. カシミヤ混手袋:22ドル\n数量割引(注文全体に適用):\n・50〜99点:10%オフ\n・100点以上:15%オフ\n標準配送は10営業日、1,000ドル超の注文は無料。速達配送(4営業日)は一律75ドル追加。カスタムラベル縫い付けは1点あたり2ドル追加で承ります。\n\n【Eメール】\n差出人:オーウェン・プリーストリー(フェイブル&ファーン・ブティック)\n宛先:sales@meridianknitwear.com\n件名:秋の卸注文\n日付:8月19日\n\nこんにちは。\n\n秋の注文をお願いします。メリノマフラー60点とウールビーニー40点です。今回はカスタムラベルは不要です。\n\n2点質問です。まず、当店の秋のウィンドウお披露目が9月2日なので、それまでに届いてほしいです。次に、この規模の注文に適用される割引率の合計をご確認いただけますか?\n\nお支払いはいつもの口座からで。\n\nよろしくお願いします。\nオーウェン・プリーストリー",
+    "translation": "【価格表】メリディアン・ニットウェア——卸注文ガイド\n最低卸注文数:12点。価格は1点あたり。\n1. メリノマフラー:18ドル\n2. ウールビーニー:14ドル\n3. カシミヤ混手袋:22ドル\n数量割引(注文全体に適用):\n・50〜99点:10%オフ\n・100点以上:15%オフ\n標準配送は10営業日、1,000ドル超の注文は無料。速達配送(4営業日)は一律75ドル追加。カスタムラベル縫い付けは1点あたり2ドル追加で承ります。\n\n【Eメール】\n差出人:オーウェン・プリーストリー(フェイブル&ファーン・ブティック)\n宛先:sales@meridianknitwear.com\n件名:秋の卸注文\n日付:8月19日\n\nこんにちは。\n\n秋の注文をお願いします。メリノマフラー60点とウールビーニー40点です。今回はカスタムラベルは不要です。\n\n2点質問です。まず、当店の秋のウィンドウお披露目が9月12日なので、それまでに届いてほしいです。次に、この規模の注文に適用される割引率の合計をご確認いただけますか?\n\nお支払いはいつもの口座からで。\n\nよろしくお願いします。\nオーウェン・プリーストリー",
     "questions": [
       {
         "q": "What is the minimum wholesale order?",
@@ -579,10 +579,10 @@ window.TOEIC_DATA_6.part7 = [
           "Standard delivery will be free."
         ],
         "answer": 3,
-        "explanation": "クロスリファレンス問題。小計1,640ドルは1,000ドル超なので標準配送は無料。ラベル(A・B)は不要と本人が述べている。"
+        "explanation": "クロスリファレンス問題。小計1,640ドルは1,000ドル超なので標準配送は無料。ラベル(A)は不要と本人が述べている。8月19日の注文なら標準配送10営業日でも9月12日のお披露目に間に合うため、速達料金75ドル(C)も不要。"
       },
       {
-        "q": "In the price list, the word \"flat\" is closest in meaning to",
+        "q": "In the price list, the word \"flat\" in paragraph 4, line 2, is closest in meaning to",
         "choices": [
           "dull",
           "level",
@@ -622,7 +622,7 @@ window.TOEIC_DATA_6.part7 = [
           "It is billed at $200 per hour."
         ],
         "answer": 3,
-        "explanation": "Time beyond the booked block is billed at $200 per hour が根拠。無料(A)や不可(C)ではない。"
+        "explanation": "Time beyond the booked block is billed at $200 per hour が根拠。無料(C)や不可(A)ではない。"
       },
       {
         "q": "Which room will Ms. Caldwell most likely use?",
@@ -655,7 +655,7 @@ window.TOEIC_DATA_6.part7 = [
           "It is returned if there is no damage."
         ],
         "answer": 3,
-        "explanation": "メール2の refunded in full ... provided there is no damage が根拠。返金不可(A)ではない。"
+        "explanation": "メール2の refunded in full ... provided there is no damage が根拠。返金不可(B)ではない。"
       },
       {
         "q": "What is NOT included in the half-day rate?",
@@ -666,83 +666,83 @@ window.TOEIC_DATA_6.part7 = [
           "Tables"
         ],
         "answer": 2,
-        "explanation": "NOT問題。テーブル・椅子・基本照明は含まれるが、音響設備は150ドル追加なので含まれない。(D)が正解。"
+        "explanation": "NOT問題。テーブル・椅子・基本照明は含まれるが、音響設備は150ドル追加なので含まれない。(C)が正解。"
       }
     ]
   },
   {
     "id": "s6p7-14",
-    "title": "トリプル 2(注文確認+Eメール+Eメール)",
+    "title": "トリプル 2(ラジオ広告料金表+Eメール+Eメール)",
     "passages": [
       {
-        "docType": "Order confirmation",
-        "text": "BAKER'S SUPPLY CO. — Order #7788\nOrdered: March 3 — Customer: Willow Lane Café (Ms. Erin Blythe)\n\n1. Organic flour, 25 kg × 4 — $30 each — $120\n2. Fair-trade cocoa, 5 kg × 2 — $45 each — $90\n3. Vanilla extract, 1 L × 1 — $40\nStandard shipping (3–5 business days) — Free\nTotal — $250\n\nPerishable items ship separately from dry goods.\nEstimated delivery: flour and cocoa — March 6; vanilla — March 9."
+        "docType": "Rate sheet",
+        "text": "HARBOR VIEW RADIO — Advertising Spot Rates\n\nRates per 30-second spot:\n1. Morning drive (6 A.M.–9 A.M.) — $60\n2. Midday (9 A.M.–3 P.M.) — $35\n3. Afternoon drive (3 P.M.–7 P.M.) — $50\n4. Evening (7 P.M.–midnight) — $25\n\nBook 20 or more spots in a single campaign and receive 10 percent off the cost of the airtime.\n\nScript writing and studio recording cost $120 per advertisement. Advertisers who supply a finished recording pay no production fee. Final audio and copy must reach us five business days before the first air date."
       },
       {
         "docType": "E-mail 1",
-        "text": "From: Erin Blythe\nTo: orders@bakerssupply.com\nDate: March 7\n\nHello,\n\nI received the flour and cocoa yesterday, but two of the four flour bags were torn and the flour had spilled. I run a weekend baking workshop on March 14 and need the replacement flour before then.\n\nCould you also confirm that the vanilla is still arriving on the ninth?\n\nThanks,\nErin Blythe"
+        "text": "From: Marisol Vega, Calloway Construction\nTo: ads@harborviewradio.com\nSubject: Autumn campaign\nDate: September 8\n\nHello,\n\nWe would like to promote our autumn remodeling service on your station. Please book 15 morning drive spots and 10 midday spots for us.\n\nWe do not have a recording of our own, so I would like your team to write and record the advertisement.\n\nOur first air date should be Monday, October 5. Could you confirm the total we will owe, and tell me whether our campaign is large enough for your volume discount?\n\nThank you,\nMarisol Vega"
       },
       {
         "docType": "E-mail 2",
-        "text": "From: Customer Care, Baker's Supply Co.\nTo: Erin Blythe\nDate: March 7\n\nDear Ms. Blythe,\n\nWe're very sorry about the damaged bags. Two replacement bags of organic flour shipped today by express and will arrive on March 9. There is no need to return the damaged bags — please discard them.\n\nYour vanilla is on schedule for the ninth, so everything will reach you before your workshop.\n\nAs an apology, we have refunded 15% of your order total to your card.\n\nSincerely,\nBaker's Supply Co."
+        "text": "From: Devin Marsh, Harbor View Radio\nTo: Marisol Vega\nSubject: RE: Autumn campaign\nDate: September 9\n\nDear Ms. Vega,\n\nYour campaign does qualify for our volume discount, and we have applied it to the airtime. Because you are not supplying your own recording, the production fee is added after the discount.\n\nOur scriptwriter will send you a draft this week. Please note that your approved copy and final audio are due five business days before your first air date, as stated on our rate sheet.\n\nA formal invoice will follow once you approve the script.\n\nBest regards,\nDevin Marsh"
       }
     ],
-    "translation": "【注文確認】ベイカーズ・サプライ社——注文#7788\n注文日:3月3日——お客様:ウィロー・レーン・カフェ(エリン・ブライス様)\n1. オーガニック小麦粉 25kg×4:各30ドル=120ドル\n2. フェアトレードココア 5kg×2:各45ドル=90ドル\n3. バニラエクストラクト 1L×1:40ドル\n標準配送(3〜5営業日)——無料\n合計——250ドル\n生鮮品は乾物と別便で発送されます。お届け予定:小麦粉・ココア=3月6日、バニラ=3月9日。\n\n【Eメール1】(3月7日、ブライス→注文係)\nこんにちは。昨日、小麦粉とココアを受け取りましたが、小麦粉4袋のうち2袋が破れて中身がこぼれていました。3月14日に週末のベーキング教室を開くので、それまでに交換の小麦粉が必要です。また、バニラは予定通り9日に届くか確認いただけますか?\n\n【Eメール2】(3月7日、カスタマーケア→ブライス)\nブライス様、破損した袋について大変申し訳ございません。交換のオーガニック小麦粉2袋を本日速達で発送し、3月9日に届きます。破損した袋の返送は不要です——廃棄してください。バニラは9日で予定通りですので、教室の前にすべて届きます。お詫びとして、ご注文合計の15%をカードに返金いたしました。",
+    "translation": "【料金表】ハーバービュー・レディオ——広告スポット料金\n30秒スポット1本あたりの料金:\n1. 朝の通勤帯(午前6時〜9時)——60ドル\n2. 日中(午前9時〜午後3時)——35ドル\n3. 夕方の通勤帯(午後3時〜7時)——50ドル\n4. 夜間(午後7時〜深夜0時)——25ドル\n1回のキャンペーンで20本以上ご予約いただくと、放送枠の料金が10パーセント引きになります。\n原稿の執筆とスタジオ収録は1広告あたり120ドルです。完成した音源をご用意いただける広告主に制作費はかかりません。最終音源と原稿は、初回放送日の5営業日前までに当局へお届けください。\n\n【Eメール1】(9月8日、ベガ→広告担当)\nこんにちは。当社の秋のリフォームサービスを貴局で宣伝したいと考えています。朝の通勤帯15本と日中10本のスポットを予約してください。自社の音源がないため、原稿の執筆と収録を貴局のチームにお願いしたいです。初回放送日は10月5日(月)を希望します。支払総額のご確認と、当社のキャンペーンが数量割引の対象になるかどうかを教えていただけますか?\n\n【Eメール2】(9月9日、マーシュ→ベガ)\nベガ様、貴社のキャンペーンは数量割引の対象で、放送枠の料金に適用しました。ご自身の音源をご用意されないため、制作費は割引の後に加算されます。今週、当局の原稿担当が草案をお送りします。なお、承認済みの原稿と最終音源は、料金表に記載のとおり初回放送日の5営業日前が期限です。原稿をご承認いただき次第、正式な請求書をお送りします。",
     "questions": [
       {
-        "q": "What is indicated about order #7788?",
+        "q": "What does the rate sheet indicate about production services?",
         "choices": [
-          "Items may arrive on different dates.",
-          "It was paid for in cash.",
-          "It includes a discount.",
-          "It qualified for rush shipping."
-        ],
-        "answer": 0,
-        "explanation": "注文確認の Perishable items ship separately ... flour and cocoa — March 6; vanilla — March 9 から、品目で届く日が異なる。"
-      },
-      {
-        "q": "Why does Ms. Blythe need the flour by March 14?",
-        "choices": [
-          "A health inspection is scheduled.",
-          "She is opening a new café.",
-          "She is hosting a baking workshop.",
-          "A supplier is visiting."
+          "They are included with every campaign.",
+          "They are offered only to new advertisers.",
+          "They cost $120 per advertisement.",
+          "They must be booked a month in advance."
         ],
         "answer": 2,
-        "explanation": "Eメール1の I run a weekend baking workshop on March 14 が根拠。"
+        "explanation": "Script writing and studio recording cost $120 per advertisement が根拠。自前の音源を用意した場合に無料になるだけで、全キャンペーンに含まれるわけではないので(A)は誤り。(B)(D)は本文にない。"
       },
       {
-        "q": "What will most likely arrive on March 9?",
+        "q": "What does Ms. Vega ask Harbor View Radio to do?",
         "choices": [
-          "Only the cocoa",
-          "Replacement flour and vanilla",
-          "Only the vanilla",
-          "The damaged bags"
+          "Produce the advertisement for her",
+          "Move her spots to the evening",
+          "Send a printed contract",
+          "Delay the start of the campaign"
+        ],
+        "answer": 0,
+        "explanation": "Eメール1の I would like your team to write and record the advertisement が根拠。自社に音源がないため制作を依頼している。時間帯の変更(B)や開始の延期(D)は述べていない。"
+      },
+      {
+        "q": "What discount rate applies to Ms. Vega's campaign?",
+        "choices": [
+          "5 percent",
+          "10 percent",
+          "15 percent",
+          "No discount applies"
         ],
         "answer": 1,
-        "explanation": "クロスリファレンス問題。注文確認『バニラ=3月9日』+Eメール2『交換の小麦粉が3月9日到着』の両方から、9日には交換小麦粉とバニラが届く。"
+        "explanation": "クロスリファレンス問題。Eメール1『朝の通勤帯15本+日中10本=25本』+料金表『20本以上で放送枠が10パーセント引き』を突き合わせる。Eメール2も割引対象だと認めている。"
       },
       {
-        "q": "What is Ms. Blythe asked to do with the damaged bags?",
+        "q": "How much will Calloway Construction most likely owe in total?",
         "choices": [
-          "Exchange them at a store",
-          "Discard them",
-          "Return them by mail",
-          "Keep them for a refund"
-        ],
-        "answer": 1,
-        "explanation": "Eメール2の no need to return ... please discard them(廃棄してください)が根拠。返送(A)は不要と明記。"
-      },
-      {
-        "q": "How much was most likely refunded to Ms. Blythe?",
-        "choices": [
-          "$15.00",
-          "$45.00",
-          "$25.00",
-          "$37.50"
+          "$1,125",
+          "$1,370",
+          "$1,250",
+          "$1,245"
         ],
         "answer": 3,
-        "explanation": "クロスリファレンス(計算型)。注文確認の合計250ドル+Eメール2『合計の15%を返金』で、250×0.15=37.50ドル。"
+        "explanation": "クロスリファレンス(計算型)。15×60=900ドル、10×35=350ドルで放送枠の小計は1,250ドル。20本以上なので10パーセント引きとなり1,125ドル。Eメール2『制作費は割引の後に加算』より120ドルを足して1,245ドル。1,125ドル(A)は制作費の足し忘れ、1,370ドル(B)は割引の適用漏れ、1,250ドル(C)はどちらも反映していない額。"
+      },
+      {
+        "q": "By what date must Calloway Construction's final audio be submitted?",
+        "choices": [
+          "September 9",
+          "September 28",
+          "September 30",
+          "October 5"
+        ],
+        "answer": 1,
+        "explanation": "クロスリファレンス問題。料金表『初回放送日の5営業日前まで』+Eメール1『初回放送は10月5日(月)』から、5営業日前の9月28日(月)が期限。9月30日(C)は暦日で5日前と数えたひっかけ、10月5日(D)は放送開始日そのもの。"
       }
     ]
   },

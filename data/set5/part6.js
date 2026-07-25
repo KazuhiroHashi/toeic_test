@@ -6,7 +6,7 @@ window.TOEIC_DATA_5.part6 = [
     "title": "文書 1(Eメール)",
     "docType": "E-mail",
     "passage": "To: Registered Patients\nFrom: Brightsmile Dental Clinic\nSubject: New Saturday Appointments\n\nDear Patient,\n\nWe are pleased to announce that Brightsmile Dental Clinic will begin offering appointments [1] Saturdays, effective July 5. Many of you have told us that fitting a weekday visit into a busy schedule can be difficult.\n\nTo meet this growing [2] , we have welcomed Dr. Helen Park, a specialist in preventive care, to our team. [3] \n\nSaturday slots tend to fill quickly, so we recommend booking early. You may reserve a time by calling the front desk or by using the patient portal on our Web site. Appointments made online can be [4] up to twenty-four hours beforehand at no charge.\n\nWe look forward to seeing you.\n\nBrightsmile Dental Clinic",
-    "translation": "宛先:登録患者の皆さま\n差出人:ブライトスマイル歯科クリニック\n件名:土曜日の新しい診療予約について\n\n患者の皆さまへ\n\nブライトスマイル歯科クリニックは、7月5日より土曜日の診療予約の受付を開始いたしますのでお知らせします。多くの皆さまから、平日の来院を多忙なスケジュールに組み込むのは難しいというお声をいただいておりました。\n\nこの高まる需要にお応えするため、予防歯科を専門とするヘレン・パーク医師を当院に迎えました。同医師は家庭歯科において15年を超える経験を持っています。\n\n土曜日の枠は早く埋まる傾向がありますので、早めのご予約をお勧めします。受付へのお電話、または当院ウェブサイトの患者ポータルからご予約いただけます。オンラインで取られた予約は、24時間前まで無料でキャンセルできます。\n\nご来院をお待ちしております。\n\nブライトスマイル歯科クリニック",
+    "translation": "宛先:登録患者の皆さま\n差出人:ブライトスマイル歯科クリニック\n件名:土曜日の新しい診療予約について\n\n患者の皆さまへ\n\nブライトスマイル歯科クリニックは、7月5日より土曜日の診療予約の受付を開始いたしますのでお知らせします。多くの皆さまから、平日の来院を多忙なスケジュールに組み込むのは難しいというお声をいただいておりました。\n\nこの高まる需要にお応えするため、予防歯科を専門とするヘレン・パーク医師を当院に迎えました。同医師は一般歯科において15年を超える経験を持っています。\n\n土曜日の枠は早く埋まる傾向がありますので、早めのご予約をお勧めします。受付へのお電話、または当院ウェブサイトの患者ポータルからご予約いただけます。オンラインで取られた予約は、24時間前まで無料でキャンセルできます。\n\nご来院をお待ちしております。\n\nブライトスマイル歯科クリニック",
     "questions": [
       {
         "num": 1,
@@ -39,7 +39,7 @@ window.TOEIC_DATA_5.part6 = [
           "The clinic will be closed for renovations for the entire month."
         ],
         "answer": 2,
-        "explanation": "文挿入問題。直前でパーク医師を新たに迎えたと述べているので、その医師の経歴を補足する(B)が自然につながる。(A)は『予約受付開始』という文書の趣旨と矛盾し、(C)(D)は流れと無関係。"
+        "explanation": "文挿入問題。直前でパーク医師を新たに迎えたと述べているので、その医師の経歴を補足する(C)が自然につながる。(D)は『土曜の予約受付開始』という文書の趣旨と矛盾し、(A)(B)は流れと無関係。"
       },
       {
         "num": 4,
@@ -56,10 +56,10 @@ window.TOEIC_DATA_5.part6 = [
   },
   {
     "id": "s5p6-02",
-    "title": "文書 2(記事)",
-    "docType": "Article",
-    "passage": "Meridian University [1] a new online certificate program in data analytics this week. The twelve-week course, which starts in September, is designed for working professionals who want to build practical skills without leaving their jobs.\n\nAll lectures are pre-recorded, [2] students to study at their own pace. Weekly live sessions with instructors will also be held. [3] \n\nTuition for the program is $1,200, and a limited number of scholarships are available. [4] , applicants must submit a short essay describing their career goals. The application deadline is August 15. For more details, visit the university's Web site.",
-    "translation": "メリディアン大学は今週、データ分析の新しいオンライン修了証プログラムを発表した。9月に開講する全12週間の講座で、仕事を離れることなく実践的なスキルを身につけたい社会人向けに設計されている。\n\nすべての講義はあらかじめ録画されており、学生は自分のペースで学習できる。講師との週次のライブセッションも開催される。この任意参加のセッションでは、学習者が講師に直接質問することができる。\n\nプログラムの授業料は1,200ドルで、少数だが奨学金も用意されている。奨学金を受けるには、加えて、志望動機を記した短いエッセイを提出しなければならない。出願締め切りは8月15日。詳細は同大学のウェブサイトを参照のこと。",
+    "title": "文書 2(ウェブページ)",
+    "docType": "Web page",
+    "passage": "http://www.meridianuniversity.edu/news\n\nNew Online Certificate in Data Analytics\n\nMeridian University [1] a new online certificate program in data analytics this week. The twelve-week course, which starts in September, is designed for working professionals who want to build practical skills without leaving their jobs.\n\nAll lectures are pre-recorded, [2] students to study at their own pace. Weekly live sessions with instructors will also be held. [3] \n\nTuition for the program is $1,200, and a limited number of scholarships are available. [4] , applicants must submit a short essay describing their career goals. The application deadline is August 15. For more details, see the program page on this site.",
+    "translation": "http://www.meridianuniversity.edu/news\n\nデータ分析の新しいオンライン修了証プログラム\n\nメリディアン大学は今週、データ分析の新しいオンライン修了証プログラムを発表した。9月に開講する全12週間の講座で、仕事を離れることなく実践的なスキルを身につけたい社会人向けに設計されている。\n\nすべての講義はあらかじめ録画されており、学生は自分のペースで学習できる。講師との週次のライブセッションも開催される。この任意参加のセッションでは、学習者が講師に直接質問することができる。\n\nプログラムの授業料は1,200ドルで、少数だが奨学金も用意されている。さらに、応募者は今後のキャリア目標を記した短いエッセイを提出しなければならない。出願締め切りは8月15日。詳細は本サイトのプログラム紹介ページを参照のこと。",
     "questions": [
       {
         "num": 1,
@@ -92,7 +92,7 @@ window.TOEIC_DATA_5.part6 = [
           "Refunds are not available after the first week of class."
         ],
         "answer": 0,
-        "explanation": "文挿入問題。直前の Weekly live sessions(週次のライブセッション)の内容を具体的に説明する(D)が自然。(A)(B)(C)はいずれもライブセッションの話題から外れており文脈に合わない。"
+        "explanation": "文挿入問題。直前の Weekly live sessions(週次のライブセッション)の内容を具体的に説明する(A)が自然。(B)(C)(D)はいずれもライブセッションの話題から外れており文脈に合わない。"
       },
       {
         "num": 4,
@@ -145,7 +145,7 @@ window.TOEIC_DATA_5.part6 = [
           "The benefits are expected to go beyond lower electricity bills."
         ],
         "answer": 3,
-        "explanation": "文挿入問題。直後で教師が授業の教材にパネルを使う計画だと述べており、コスト削減以外の効果に話が広がる。その橋渡しとなる(C)『恩恵は電気代削減だけにとどまらない』が最適。他は文脈と無関係。"
+        "explanation": "文挿入問題。直後で教師が授業の教材にパネルを使う計画だと述べており、コスト削減以外の効果に話が広がる。その橋渡しとなる(D)『恩恵は電気代削減だけにとどまらない』が最適。(A)(B)(C)は文脈と無関係。"
       },
       {
         "num": 4,

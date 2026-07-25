@@ -1,4 +1,4 @@
-// セット2 part2(監査反映・正解位置均等化済み)
+// セット2 part2(解説の選択肢記号を修正)
 window.TOEIC_DATA_2 = window.TOEIC_DATA_2 || {};
 window.TOEIC_DATA_2.part2 = [
   {
@@ -14,7 +14,7 @@ window.TOEIC_DATA_2.part2 = [
     ],
     "answer": 1,
     "translation": "四半期報告書はいつ完成しますか?\n(A) 本社でです。\n(B) 今週末までにです。\n(C) 約20ページです。",
-    "explanation": "When(いつ)に対して期限を答えた(A)が正解。(B)は場所、(C)は分量で、疑問詞に対応していない。"
+    "explanation": "When(いつ)に対して期限を答えた(B)が正解。(B)は場所、(C)は分量で、疑問詞に対応していない。"
   },
   {
     "id": "s2p2-02",
@@ -44,7 +44,7 @@ window.TOEIC_DATA_2.part2 = [
     ],
     "answer": 0,
     "translation": "明日の研修は誰が担当しますか?\n(A) 人事部の山田さんです。\n(B) 3時間続きます。\n(C) 2階のラボでです。",
-    "explanation": "Who(誰)に対して人名を答えた(C)が正解。(A)は場所、(B)は時間の長さ。"
+    "explanation": "Who(誰)に対して人名を答えた(A)が正解。(A)は場所、(B)は時間の長さ。"
   },
   {
     "id": "s2p2-04",
@@ -74,7 +74,7 @@ window.TOEIC_DATA_2.part2 = [
     ],
     "answer": 2,
     "translation": "午前と午後の便、どちらがよろしいですか?\n(A) はい、そうしたいです。\n(B) 空港でです。\n(C) 午前の便でお願いします。",
-    "explanation": "A or B の選択疑問文には Yes/No で答えられない。一方を選んだ(B)が正解。"
+    "explanation": "A or B の選択疑問文には Yes/No で答えられない。一方を選んだ(C)が正解。"
   },
   {
     "id": "s2p2-06",
@@ -104,7 +104,7 @@ window.TOEIC_DATA_2.part2 = [
     ],
     "answer": 2,
     "translation": "ここから空港までどのくらいかかりますか?\n(A) 1日2回です。\n(B) 大きな空港です。\n(C) 電車で約40分です。",
-    "explanation": "How long(所要時間)に About forty minutes と答えた(B)が正解。(A)は頻度、(C)はairportの繰り返しひっかけ。"
+    "explanation": "How long(所要時間)に About forty minutes と答えた(C)が正解。(A)は頻度、(C)はairportの繰り返しひっかけ。"
   },
   {
     "id": "s2p2-08",
@@ -134,7 +134,7 @@ window.TOEIC_DATA_2.part2 = [
     ],
     "answer": 2,
     "translation": "会議の前にプロジェクターの設置を手伝ってもらえますか?\n(A) 会議は有意義でした。\n(B) いいえ、見ていません。\n(C) もちろん、5分で行きます。",
-    "explanation": "依頼に快諾+行動を示した(A)が正解。(B)はmeetingの繰り返しひっかけ。"
+    "explanation": "依頼に快諾+行動を示した(C)が正解。(B)はmeetingの繰り返しひっかけ。"
   },
   {
     "id": "s2p2-10",
@@ -149,7 +149,7 @@ window.TOEIC_DATA_2.part2 = [
     ],
     "answer": 2,
     "translation": "予算案はもう確認しましたよね?\n(A) 妥当な予算です。\n(B) 財務部でです。\n(C) はい、昨日終えました。",
-    "explanation": "付加疑問文は普通のYes/No疑問文と同様に答える。Yes+具体的な時点を述べた(B)が正解。"
+    "explanation": "付加疑問文は普通のYes/No疑問文と同様に答える。Yes+具体的な時点を述べた(C)が正解。"
   },
   {
     "id": "s2p2-11",
@@ -164,7 +164,7 @@ window.TOEIC_DATA_2.part2 = [
     ],
     "answer": 2,
     "translation": "紙の価格が一番良かったのはどの業者ですか?\n(A) 月2回です。\n(B) はい、紙がもっと必要です。\n(C) メープル通りの業者です。",
-    "explanation": "Which(どの)に The one 〜 と特定した(A)が正解。(B)はpaperの繰り返し、(C)は頻度。"
+    "explanation": "Which(どの)に The one 〜 と特定した(C)が正解。(B)はpaperの繰り返し、(C)は頻度。"
   },
   {
     "id": "s2p2-12",
@@ -179,7 +179,7 @@ window.TOEIC_DATA_2.part2 = [
     ],
     "answer": 0,
     "translation": "その店が日曜に開いているかご存じですか?\n(A) ウェブサイトを確認しますね。\n(B) そこで買いました。\n(C) 衣料品店です。",
-    "explanation": "間接疑問文。断定せず『調べる』と答えた(B)が自然。(A)(C)はstoreの連想によるひっかけ。"
+    "explanation": "間接疑問文。断定せず『調べる』と答えた(B)が自然。他の選択肢(C)はstoreの連想によるひっかけ。"
   },
   {
     "id": "s2p2-13",
@@ -194,7 +194,7 @@ window.TOEIC_DATA_2.part2 = [
     ],
     "answer": 0,
     "translation": "プレゼンの後、昼食にでも行きませんか?\n(A) いいですね——下のカフェはどうですか?\n(B) 彼が結果を発表しました。\n(C) 好評でした。",
-    "explanation": "How about 〜? は提案。同意し逆提案した(B)が正解。(A)(C)はpresentationの派生語ひっかけ。"
+    "explanation": "How about 〜? は提案。同意し逆提案した(A)が正解。他の選択肢(C)はpresentationの派生語ひっかけ。"
   },
   {
     "id": "s2p2-14",
@@ -209,7 +209,7 @@ window.TOEIC_DATA_2.part2 = [
     ],
     "answer": 2,
     "translation": "新しい従業員ハンドブックはもう配布されましたか?\n(A) 新入社員は50人ほどです。\n(B) はい、彼が手渡しました。\n(C) まだです——まだ編集中なんです。",
-    "explanation": "Yes/No疑問文に『まだ+理由』で答えた(B)が正解。(C)はhandbook/handedの音のひっかけ。"
+    "explanation": "Yes/No疑問文に『まだ+理由』で答えた(C)が正解。他の選択肢はhandbook/handedの音のひっかけ。"
   },
   {
     "id": "s2p2-15",
@@ -239,7 +239,7 @@ window.TOEIC_DATA_2.part2 = [
     ],
     "answer": 2,
     "translation": "トムの後任はいつ採用するのですか?\n(A) 彼は電池を交換しました。\n(B) 面接室でです。\n(C) その求人はもう出ていませんでしたっけ?",
-    "explanation": "変化球:時期を答えず『質問に質問で返す』パターン。『もう進んでいるのでは?』という切り返し。(B)はreplacement/replacedの音、(C)は場所のひっかけ。"
+    "explanation": "変化球:時期を答えず『質問に質問で返す』パターン。『もう進んでいるのでは?』という切り返し。(B)はreplacement/replacedの音、他の選択肢は場所のひっかけ。"
   },
   {
     "id": "s2p2-17",
@@ -269,7 +269,7 @@ window.TOEIC_DATA_2.part2 = [
     ],
     "answer": 1,
     "translation": "マーケティングチームは新しいロゴに満足していますか?\n(A) デザインスタジオでです。\n(B) 彼らはまだそれを見ていません。\n(C) カラフルなデザインです。",
-    "explanation": "変化球:満足かどうかを答えず『まだ見ていない』と前提を外すパターン。推論で『評価は不明』と分かる。(B)(C)はlogo/designの連想ひっかけ。"
+    "explanation": "変化球:満足かどうかを答えず『まだ見ていない』と前提を外すパターン。推論で『評価は不明』と分かる。他の選択肢(C)はlogo/designの連想ひっかけ。"
   },
   {
     "id": "s2p2-19",
@@ -299,7 +299,7 @@ window.TOEIC_DATA_2.part2 = [
     ],
     "answer": 1,
     "translation": "時間節約のために高速道路を使いませんか?\n(A) おかげでかなり節約できました。\n(B) 今日は高速道路で工事があるんです。\n(C) 約2時間の距離です。",
-    "explanation": "変化球:Why don't we 〜?(提案)に対し、賛否を言わず『工事がある』という事実で婉曲に反対するパターン。(B)はsave time/moneyの連想ひっかけ。"
+    "explanation": "変化球:Why don't we 〜?(提案)に対し、賛否を言わず『工事がある』という事実で婉曲に反対するパターン。他の選択肢はsave time/moneyの連想ひっかけ。"
   },
   {
     "id": "s2p2-21",
@@ -359,7 +359,7 @@ window.TOEIC_DATA_2.part2 = [
     ],
     "answer": 0,
     "translation": "広告キャンペーンにいくら使うべきだと思いますか?\n(A) まず競合が何をしているか見てみましょう。\n(B) 6週間続きました。\n(C) はい、高かったです。",
-    "explanation": "変化球:金額を答えず『まず調べてから決めよう』と即答を避けるパターン。(A)は期間、(C)はWH疑問文にYesで不可。"
+    "explanation": "変化球:金額を答えず『まず調べてから決めよう』と即答を避けるパターン。他の選択肢は期間、(C)はWH疑問文にYesで不可。"
   },
   {
     "id": "s2p2-25",

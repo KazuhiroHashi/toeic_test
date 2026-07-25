@@ -38,13 +38,13 @@ window.TOEIC_DATA_4.part4 = [
       {
         "q": "What will the listeners most likely do next?",
         "choices": [
-          "Go to the metal-cutting area",
           "Watch a safety video",
           "Put on headsets",
-          "Sign a visitor log"
+          "Sign a visitor log",
+          "Proceed through a set of doors"
         ],
-        "answer": 0,
-        "explanation": "Our first stop is the metal-cutting area と最後の let's proceed through the double doors から、次に向かうのは金属切断エリア。"
+        "answer": 3,
+        "explanation": "最後の let's proceed through the double doors to your right が根拠。次の行動は両開きドアを通って進むこと。headset は案内役だけが使う物で、聞き手が着けるものではない(ひっかけ)。"
       }
     ]
   },
@@ -85,13 +85,13 @@ window.TOEIC_DATA_4.part4 = [
       {
         "q": "What will Ravi do?",
         "choices": [
-          "Visit a supplier",
+          "Lead a training session",
           "Update the ordering system",
           "Negotiate a new contract",
           "Lower the unit cost"
         ],
         "answer": 1,
-        "explanation": "I've asked Ravi to update the ordering system が根拠。契約(negotiate)は購買部の仕事でひっかけ。"
+        "explanation": "I've asked Ravi to update the ordering system が根拠。ラヴィは手引きを『回す』だけで講習を開くとは言っておらず、契約(negotiate)は購買部の仕事。どちらもひっかけ。"
       }
     ]
   },
@@ -122,23 +122,23 @@ window.TOEIC_DATA_4.part4 = [
         "q": "According to the speaker, what is the goal of the change?",
         "choices": [
           "To hire fewer workers",
-          "To reduce picking time",
+          "To fill orders more quickly",
           "To lower shipping fees",
           "To expand the warehouse"
         ],
         "answer": 1,
-        "explanation": "cut the average pick time by nearly a third(平均ピッキング時間を約3分の1短縮)が根拠。speed up processing とも言っている。"
+        "explanation": "in order to speed up processing と cut the average pick time by nearly a third(平均作業時間を約3分の1短縮)が根拠。目的は注文をより速く処理すること。人員削減や倉庫の拡張には触れていない。"
       },
       {
         "q": "What should employees do before their shift?",
         "choices": [
           "Sign a new contract",
           "Attend a training session",
-          "Check their zone assignment",
+          "Look at a posted notice",
           "Meet with a supervisor"
         ],
         "answer": 2,
-        "explanation": "please check yours(=your zone assignment)before your shift begins が根拠。supervisors は在フロアで質問対応するだけで、面談指示ではない。"
+        "explanation": "posted on the board next to the break room, so please check yours before your shift begins が根拠。掲示板の貼り紙を見ることを指す。supervisors はフロアで質問に答えるだけで、面談の指示ではない。"
       }
     ]
   },
@@ -260,7 +260,7 @@ window.TOEIC_DATA_4.part4 = [
         "explanation": "We're now leasing offices and retail units が根拠。賃貸用の商業スペースの広告。parking は付帯設備でひっかけ。"
       },
       {
-        "q": "What is included with every lease?",
+        "q": "What does the speaker say is included?",
         "choices": [
           "A cleaning service",
           "Free furniture",
@@ -268,18 +268,18 @@ window.TOEIC_DATA_4.part4 = [
           "On-site parking"
         ],
         "answer": 3,
-        "explanation": "Every lease includes on-site parking, high-speed fiber internet, and ... building security が根拠。"
+        "explanation": "Every lease includes on-site parking, high-speed fiber internet, and ... building security が根拠。清掃・家具・社用車には触れていない。"
       },
       {
-        "q": "How can a business get a free month of rent?",
+        "q": "How can a business receive one month at no charge?",
         "choices": [
-          "By paying a year in advance",
-          "By renting two units",
-          "By signing a two-year lease this month",
-          "By referring another company"
+          "By paying a full year in advance",
+          "By completing an online form",
+          "By signing a two-year agreement this month",
+          "By referring another business"
         ],
         "answer": 2,
-        "explanation": "Sign a two-year lease before the end of this month, and your first month's rent is completely free が根拠。条件は『今月中の2年契約』。"
+        "explanation": "Sign a two-year lease before the end of this month, and your first month's rent is completely free が根拠。条件は『今月中に2年契約を結ぶこと』。ウェブサイトは内見予約の案内であって無料月の条件ではない(ひっかけ)。"
       }
     ]
   },
@@ -290,10 +290,10 @@ window.TOEIC_DATA_4.part4 = [
     "audio": [
       {
         "speaker": "M",
-        "text": "Good evening, everyone, and thank you for joining our annual agents' banquet. Tonight I'm proud to recognize the outstanding work of the claims team here at Kestrel Insurance. This past year brought a record number of storm-damage claims to our region, and yet this team managed to reduce the average processing time from twelve days down to just five. Behind that number are countless late nights and difficult phone calls, all handled with patience and genuine care for our policyholders. I'd especially like to thank our team leader, Sofia Marchetti, whose new digital claims form made so much of this possible. Sofia, would you please come up and accept this award on behalf of your entire team?"
+        "text": "Good evening, everyone, and thank you for joining our annual agents' banquet. Tonight I'm proud to recognize the outstanding work of the claims team here at Kestrel Insurance. This past year brought a record number of weather-related claims to our region, and yet this team managed to reduce the average processing time from twelve days down to just five. Behind that number are countless late nights and difficult phone calls, all handled with patience and genuine care for our policyholders. I'd especially like to thank our team leader, Sofia Marchetti, whose new digital claims form made so much of this possible. Sofia, would you please come up and accept this award on behalf of your entire team?"
       }
     ],
-    "translation": "皆さま、こんばんは。年に一度の代理店員の祝賀会にお越しいただきありがとうございます。今夜は、ここケストレル保険の保険金請求チームの素晴らしい働きを称えられることを誇りに思います。この1年、当地域には記録的な数の暴風被害の請求が寄せられましたが、それでもこのチームは平均処理日数を12日からわずか5日に短縮しました。その数字の裏には、数え切れない夜遅くまでの作業と難しい電話対応があり、そのすべてが契約者への忍耐と真心をもって行われました。特に、チームリーダーのソフィア・マルケッティに感謝したいと思います。彼女の新しいデジタル請求フォームが、これの多くを可能にしました。ソフィア、前に出て、チーム全体を代表してこの賞を受け取っていただけますか?",
+    "translation": "皆さま、こんばんは。年に一度の代理店員の祝賀会にお越しいただきありがとうございます。今夜は、ここケストレル保険の保険金請求チームの素晴らしい働きを称えられることを誇りに思います。この1年、当地域には記録的な数の天候に関連した請求が寄せられましたが、それでもこのチームは平均処理日数を12日からわずか5日に短縮しました。その数字の裏には、数え切れない夜遅くまでの作業と難しい電話対応があり、そのすべてが契約者への忍耐と真心をもって行われました。特に、チームリーダーのソフィア・マルケッティに感謝したいと思います。彼女の新しいデジタル請求フォームが、これの多くを可能にしました。ソフィア、前に出て、チーム全体を代表してこの賞を受け取っていただけますか?",
     "questions": [
       {
         "q": "What is the purpose of the speech?",
@@ -307,15 +307,15 @@ window.TOEIC_DATA_4.part4 = [
         "explanation": "I'm proud to recognize the outstanding work of the claims team が根拠。チームの功績を称えるのが目的。"
       },
       {
-        "q": "According to the speaker, what did the team achieve?",
+        "q": "What improvement does the speaker mention?",
         "choices": [
-          "They lowered premiums",
-          "They shortened claim processing time",
-          "They opened new branches",
-          "They increased sales"
+          "Lower premiums",
+          "Faster claim processing",
+          "More branch locations",
+          "Higher sales"
         ],
         "answer": 1,
-        "explanation": "reduce the average processing time from twelve days down to just five(平均処理日数を12日から5日に短縮)が根拠。"
+        "explanation": "reduce the average processing time from twelve days down to just five(平均処理日数を12日から5日に短縮)が根拠。処理が速くなったという改善であり、保険料の値下げや売上増には触れていない。"
       },
       {
         "q": "What did Sofia Marchetti do?",
@@ -340,18 +340,18 @@ window.TOEIC_DATA_4.part4 = [
         "text": "Welcome to your first day at Harvest Grove Foods, and thank you for joining our packaging division. This morning I'll walk you through what a typical shift looks like on the line. Your main job will be to inspect jars of sauce as they come off the filling machine — checking that each lid is sealed tightly and that the label is straight and easy to read. Any jar that doesn't meet the standard goes into the red bin for review, never back onto the line. Hygiene is critical here, so hairnets and gloves must be worn at all times inside the production area. After lunch, each of you will be paired with an experienced worker who will supervise you until you feel comfortable. Any questions before we get our aprons on?"
       }
     ],
-    "translation": "ハーベスト・グローブ・フーズでの初日へようこそ。梱包部門にお越しいただきありがとうございます。今朝は、ライン(生産ライン)での典型的な一勤務がどのようなものかをご案内します。皆さんの主な仕事は、充填機から出てくるソースの瓶を検査することです——各瓶のフタがしっかり密封され、ラベルがまっすぐで読みやすいかを確認します。基準を満たさない瓶は、ラインに戻さず、必ず確認用の赤いかごに入れてください。ここでは衛生が極めて重要なので、生産エリア内ではヘアネットと手袋を常に着用してください。昼食後は、皆さん一人ひとりが経験豊富な作業員と組み、慣れるまで指導を受けます。エプロンを着ける前に、何か質問はありますか?",
+    "translation": "ハーベスト・グローブ・フーズでの初日へようこそ。梱包部門にお越しいただきありがとうございます。今朝は、ライン(生産ライン)での典型的な一勤務がどのようなものかをご案内します。皆さんの主な仕事は、充填機から出てくるソースの瓶を検査することです——各瓶のフタがしっかり密封され、ラベルがまっすぐで読みやすいかを確認します。基準を満たさない瓶は確認用の赤いかごに入れ、ラインには戻しません。ここでは衛生が極めて重要なので、生産エリア内ではヘアネットと手袋を常に着用してください。昼食後は、皆さん一人ひとりが経験豊富な作業員と組み、慣れるまで指導を受けます。エプロンを着ける前に、何か質問はありますか?",
     "questions": [
       {
         "q": "In which division will the listeners work?",
         "choices": [
-          "Delivery",
-          "Accounting",
+          "Shipping",
+          "Maintenance",
           "Packaging",
-          "Marketing"
+          "Warehousing"
         ],
         "answer": 2,
-        "explanation": "thank you for joining our packaging division が根拠。梱包部門での勤務。"
+        "explanation": "thank you for joining our packaging division が根拠。梱包部門での勤務。どれも工場内の部門で紛らわしいが、明言されているのは packaging のみ。"
       },
       {
         "q": "What is the listeners' main task?",
@@ -403,15 +403,15 @@ window.TOEIC_DATA_4.part4 = [
         "explanation": "図表問題。音声は品名を言わず『8ケース注文した野菜が出荷できない』と述べる。図表で8ケースの品を探すと Red Onions(8 crates)。図表と音声の両方が必要。"
       },
       {
-        "q": "Why is the speaker calling?",
+        "q": "What does the speaker offer to do?",
         "choices": [
-          "To request a payment",
-          "To confirm a new price",
-          "To offer a new product",
-          "To report a problem with an order"
+          "Deliver the order a day early",
+          "Waive the delivery fee",
+          "Add extra crates at no cost",
+          "Substitute a similar item"
         ],
         "answer": 3,
-        "explanation": "I need to flag one item ... we won't be able to ship it(注文の一品を出荷できない問題の連絡)が根拠。"
+        "explanation": "I can either substitute a similar item at the same price, or simply take it off the order が根拠。同じ価格で似た品に差し替える案を申し出ている。at the same price から、値引きや無償追加ではない点に注意。"
       },
       {
         "q": "What does the speaker ask Marcus to do?",
@@ -431,14 +431,14 @@ window.TOEIC_DATA_4.part4 = [
     "kind": "excerpt from a meeting",
     "graphicKind": "list",
     "title": "トーク 10(会議の抜粋:品質検査・図表問題)",
-    "graphic": "Weekly Defect Rate by Assembly Line\n1. Line A — 1.2%\n2. Line B — 2.0%\n3. Line C — 4.8%\n4. Line D — 1.5%",
+    "graphic": "Weekly Defect Rate by Assembly Line\n1. Line A — 1.2%\n2. Line B — 1.8%\n3. Line C — 4.8%\n4. Line D — 1.5%",
     "audio": [
       {
         "speaker": "M",
         "text": "Let's look at last week's quality numbers before we wrap up. Overall, our defect rates held steady, and three of our four assembly lines stayed comfortably under our two-percent target. There is one clear exception, though. The line with the highest defect rate — nearly five percent — has been flagged, and I've decided we'll pause it tomorrow morning for a full inspection of its welding robots. Maintenance suspects a misaligned sensor is the cause. The other three lines will keep running as normal, so we should still hit this week's shipment volume. I'll circulate a written report to everyone once the inspection is complete, most likely by Thursday."
       }
     ],
-    "translation": "【図表】組立ライン別 週次不良率/1. Aライン:1.2%/2. Bライン:2.0%/3. Cライン:4.8%/4. Dライン:1.5%\n締めくくる前に、先週の品質数値を見ましょう。全体として不良率は安定しており、4つの組立ラインのうち3つは目標の2パーセントを余裕をもって下回りました。ただ、明らかな例外が1つあります。不良率が最も高い——5パーセント近い——ラインが指摘され、明日の朝、そのラインを止めて溶接ロボットの全面点検を行うことにしました。保守部門は、センサーのずれが原因ではないかと見ています。他の3ラインは通常通り稼働しますので、今週の出荷量には届く見込みです。点検が終わり次第、文書の報告書を全員に回します。おそらく木曜までには。",
+    "translation": "【図表】組立ライン別 週次不良率/1. Aライン:1.2%/2. Bライン:1.8%/3. Cライン:4.8%/4. Dライン:1.5%\n締めくくる前に、先週の品質数値を見ましょう。全体として不良率は安定しており、4つの組立ラインのうち3つは目標の2パーセントを余裕をもって下回りました。ただ、明らかな例外が1つあります。不良率が最も高い——5パーセント近い——ラインが指摘され、明日の朝、そのラインを止めて溶接ロボットの全面点検を行うことにしました。保守部門は、センサーのずれが原因ではないかと見ています。他の3ラインは通常通り稼働しますので、今週の出荷量には届く見込みです。点検が終わり次第、文書の報告書を全員に回します。おそらく木曜までには。",
     "questions": [
       {
         "q": "Look at the graphic. Which line will be paused for inspection?",

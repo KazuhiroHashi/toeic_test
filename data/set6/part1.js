@@ -1,4 +1,4 @@
-// セット6 part1(監査反映・正解位置均等化済み)
+// セット6 part1(解説の選択肢記号を修正)
 window.TOEIC_DATA_6 = window.TOEIC_DATA_6 || {};
 window.TOEIC_DATA_6.part1 = [
   {
@@ -20,14 +20,14 @@ window.TOEIC_DATA_6.part1 = [
     "image": "assets/part1/s6-02.png",
     "speaker": "M",
     "choices": [
-      "He is examining the engine.",
-      "He is changing a flat tire.",
-      "He is filling the tank with fuel.",
-      "The vehicle is being lifted on a hoist."
+      "A worker is measuring a wooden board.",
+      "A worker is climbing onto a roof.",
+      "A worker is sweeping the floor.",
+      "A worker is unloading bricks from a truck."
     ],
     "answer": 0,
-    "translation": "(A) 彼はエンジンを点検しています。\n(B) 彼はパンクしたタイヤを交換しています。\n(C) 彼はタンクに燃料を入れています。\n(D) 車がリフトで持ち上げられているところです。",
-    "explanation": "整備士がボンネットを開けてエンジンをのぞき込んでいる=examining the engine。タイヤ交換や給油はしておらず、車は地面に置かれたままなので(D)の being lifted『持ち上げられている最中』も誤り。tire や fuel は車の連想語で誘うひっかけ。"
+    "translation": "(A) 作業員が木の板を測っています。\n(B) 作業員が屋根に登っています。\n(C) 作業員が床を掃いています。\n(D) 作業員がトラックからレンガを降ろしています。",
+    "explanation": "建設現場で作業員がメジャーを木材に当てて寸法を測っている=measuring a wooden board。屋根に登る・掃く・荷降ろしの動作はしていない。周囲の資材や工具に引きずられて誤答を選ばないこと。"
   },
   {
     "id": "s6p1-03",
@@ -46,43 +46,43 @@ window.TOEIC_DATA_6.part1 = [
   {
     "id": "s6p1-04",
     "image": "assets/part1/s6-04.png",
-    "speaker": "M",
+    "speaker": "W",
     "choices": [
-      "People are boarding a boat.",
-      "Sailboats are sailing across the water.",
-      "A man is casting a fishing line.",
-      "Several boats are docked at a pier."
+      "A customer is trying on a coat.",
+      "A clerk is folding garments.",
+      "The shelves have been emptied.",
+      "Clothing has been hung on racks."
     ],
     "answer": 3,
-    "translation": "(A) 人々がボートに乗り込んでいます。\n(B) ヨットが水面を進んでいます。\n(C) 男性が釣り糸を投げています。\n(D) 数隻のボートが桟橋に停泊しています。",
-    "explanation": "無人の港で複数のボートが桟橋につながれて停泊している=docked at a pier という状態描写が正解。写真に人はいないので(A)『乗り込んでいる』(B)『釣り糸を投げている』という人の動作はすべて誤り。ボートは停泊中で進んでいないため(C)の sailing も誤り。"
+    "translation": "(A) 客がコートを試着しています。\n(B) 店員が衣類をたたんでいます。\n(C) 棚が空にされています。\n(D) 衣類がラックに掛けられています。",
+    "explanation": "無人の店内で衣類がラックに掛かった状態=have been hung(状態を表す受動態)。人が写っていないので試着やたたむ動作の(A)(C)は誤り。商品は並んでいるので他の選択肢も誤り。無人写真では人の動作の選択肢を消すのが鉄則。"
   },
   {
     "id": "s6p1-05",
     "image": "assets/part1/s6-05.png",
     "speaker": "W",
     "choices": [
-      "She is reaching for a book on a shelf.",
-      "She is stacking books on a cart.",
-      "She is reading at a desk.",
-      "The shelves have been emptied."
+      "A performer is tuning an instrument.",
+      "The audience is leaving the hall.",
+      "Musicians are performing on a stage.",
+      "Chairs are being carried off the stage."
     ],
-    "answer": 0,
-    "translation": "(A) 彼女は棚の本に手を伸ばしています。\n(B) 彼女はカートに本を積んでいます。\n(C) 彼女は机で本を読んでいます。\n(D) 棚は空にされています。",
-    "explanation": "女性が本棚の前に立ち、棚の一冊に手を伸ばしている=reaching for a book on a shelf。カートに積む動作や机で読む動作はしていない。棚には本がぎっしり並んでいるため(D)の have been emptied『空にされた』という状態も事実に反する。"
+    "answer": 2,
+    "translation": "(A) 演奏者が楽器を調律しています。\n(B) 観客がホールを出ていきます。\n(C) 音楽家たちが舞台で演奏しています。\n(D) 椅子が舞台から運び出されているところです。",
+    "explanation": "舞台上で複数の奏者が楽器を演奏している=performing on a stage。調律という準備段階の動作ではない。(D)の being carried は『今まさに運ばれている最中』を表す動作の受動態で、その動作は写っていない。"
   },
   {
     "id": "s6p1-06",
     "image": "assets/part1/s6-06.png",
     "speaker": "M",
     "choices": [
-      "A chef is washing dishes in a sink.",
-      "A chef is chopping vegetables on a cutting board.",
-      "A chef is putting on an apron.",
-      "A chef is stirring a pot on the stove."
+      "A teller is counting money.",
+      "A customer is signing a document.",
+      "People are waiting in line.",
+      "A door is being locked."
     ],
     "answer": 1,
-    "translation": "(A) 料理人がシンクで皿を洗っています。\n(B) 料理人がまな板で野菜を切っています。\n(C) 料理人がエプロンを身につけているところです。\n(D) 料理人がコンロの鍋をかき混ぜています。",
-    "explanation": "厨房で料理人がまな板の上の野菜を包丁で切っている=chopping vegetables on a cutting board。皿洗いはしておらず、コンロや鍋は写っていても本人はかき混ぜていない(存在する物で誤答を誘うひっかけ)。(D)の put on は『身につける動作』を表すが、エプロンはすでに着用済みなので誤り(put on と wear の区別)。"
+    "translation": "(A) 窓口係がお金を数えています。\n(B) 客が書類に署名しています。\n(C) 人々が列に並んで待っています。\n(D) ドアに鍵がかけられているところです。",
+    "explanation": "カウンターで客がペンを持ち書類にサインしている=signing a document。紙幣を数える動作や行列は写っていない。カウンター越しの2人という構図で、どちらが何をしているかを聞き分ける問題。"
   }
 ];

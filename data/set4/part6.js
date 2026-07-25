@@ -5,8 +5,8 @@ window.TOEIC_DATA_4.part6 = [
     "id": "s4p6-01",
     "title": "文書 1(Eメール)",
     "docType": "E-mail",
-    "passage": "To: Daniel Whitfield, Procurement\nFrom: Priya Anand, Aurora Components Ltd.\nSubject: Revised Delivery Schedule for Order #4471\n\nDear Mr. Whitfield,\n\nThank you for your recent order of aluminum brackets. I am writing to confirm that we have received your request for 5,000 units. [1] , due to unusually high demand this quarter, our factory will need an additional week to complete production.\n\nAs a result, the shipment originally scheduled to arrive on August 10 will now be [2] on August 17. [3]\n\nTo prevent any disruption to your assembly line, we are able to send a partial shipment of 2,000 units by the original date at no [4] charge. Please let us know whether you would prefer this option.\n\nWe apologize for the delay and appreciate your continued partnership.\n\nSincerely,\nPriya Anand\nAurora Components Ltd.",
-    "translation": "宛先:ダニエル・ウィットフィールド(調達部)\n差出人:プリヤ・アナンド(オーロラ・コンポーネンツ社)\n件名:注文番号4471の納品スケジュール変更\n\nウィットフィールド様\n\nこのたびはアルミ製ブラケットをご注文いただき、ありがとうございます。ご要望の5,000個のご注文を承りましたことをご確認申し上げます。しかしながら、今四半期は需要が異例なほど高く、当工場では生産を完了するのにさらに1週間を要する見込みです。\n\nそのため、当初8月10日到着予定だった出荷は、8月17日の発送に変更となります。今回の日程変更が御社の生産計画に影響を及ぼす可能性があることを、深くお詫び申し上げます。\n\n御社の組立ラインに支障が出ないよう、当初の期日までに2,000個の分割出荷を追加料金なしでお送りすることも可能です。この方法をご希望かどうか、お知らせください。\n\n遅延をお詫びするとともに、今後も変わらぬお取引に感謝申し上げます。\n\n敬具\nプリヤ・アナンド\nオーロラ・コンポーネンツ社",
+    "passage": "To: Daniel Whitfield, Procurement\nFrom: Priya Anand, Aurora Components Ltd.\nSubject: Revised Delivery Schedule for Order #4471\n\nDear Mr. Whitfield,\n\nThank you for your recent order of LED ceiling fixtures. I am writing to confirm that we have received your request for 1,800 units. [1] , due to unusually high demand this quarter, our factory will need an additional week to complete production.\n\nAs a result, the shipment originally scheduled to leave our facility on August 10 will now be [2] on August 17. [3]\n\nTo prevent any disruption to your store renovation schedule, we are able to send a partial shipment of 700 units by August 10 at no [4] charge. Please let us know whether you would prefer this option.\n\nWe apologize for the delay and appreciate your continued partnership.\n\nSincerely,\nPriya Anand\nAurora Components Ltd.",
+    "translation": "宛先:ダニエル・ウィットフィールド(調達部)\n差出人:プリヤ・アナンド(オーロラ・コンポーネンツ社)\n件名:注文番号4471の納品スケジュール変更\n\nウィットフィールド様\n\nこのたびはLED天井照明器具をご注文いただき、ありがとうございます。ご要望の1,800台のご注文を承りましたことをご確認申し上げます。しかしながら、今四半期は需要が異例なほど高く、当工場では生産を完了するのにさらに1週間を要する見込みです。\n\nそのため、当初8月10日に当社施設から出荷される予定だった商品は、8月17日の発送となります。今回の日程変更が御社の設置スケジュールに影響を及ぼす可能性があることを、深くお詫び申し上げます。\n\n御社の店舗改装スケジュールに支障が出ないよう、8月10日までに700台の分割出荷を追加料金なしでお送りすることも可能です。この方法をご希望かどうか、お知らせください。\n\n遅延をお詫びするとともに、今後も変わらぬお取引に感謝申し上げます。\n\n敬具\nプリヤ・アナンド\nオーロラ・コンポーネンツ社",
     "questions": [
       {
         "num": 1,
@@ -35,11 +35,11 @@ window.TOEIC_DATA_4.part6 = [
         "choices": [
           "Please disregard the invoice we sent you earlier this week.",
           "Our new product catalog will be mailed to all customers next month.",
-          "The aluminum brackets are available in several surface finishes.",
-          "We deeply regret that this revised timeline may affect your production plans."
+          "The ceiling fixtures are available in several surface finishes.",
+          "We deeply regret that this revised timeline may affect your installation schedule."
         ],
         "answer": 3,
-        "explanation": "文挿入問題。直前で納期遅延を伝え、直後で『組立ラインに支障が出ないよう』と代替案に移る。その橋渡しとして、遅延が相手の計画に影響しうることを詫びる(C)が自然。カタログ・表面仕上げの種類・請求書の話は前後の文脈と無関係。"
+        "explanation": "文挿入問題。直前で納期遅延を伝え、直後で『改装スケジュールに支障が出ないよう』と代替案に移る。その橋渡しとして、遅延が相手の予定に影響しうることを詫びる(D)が自然。請求書の無視(A)、カタログ送付(B)、表面仕上げの種類(C)はいずれも前後の文脈と無関係。"
       },
       {
         "num": 4,
@@ -92,7 +92,7 @@ window.TOEIC_DATA_4.part6 = [
           "The distribution center will close permanently at the end of the year."
         ],
         "answer": 2,
-        "explanation": "文挿入問題。直後に『9月2日に研修を実施する』とあるので、その導入として『新システムに慣れるため実地練習を行う』(D)が自然。閉鎖(A)、紙ログ継続(B)は導入の趣旨と矛盾し、スキャナー販売(C)は無関係。"
+        "explanation": "文挿入問題。直後に『9月2日に研修を実施する』とあるので、その導入として『新システムに慣れるため実地練習を行う』(C)が自然。紙ログの継続(A)は新端末が紙のログに取って代わるという文書の趣旨と矛盾し、スキャナーの販売(B)は無関係、配送センターの永久閉鎖(D)も告知の趣旨と矛盾する。"
       },
       {
         "num": 4,
@@ -145,7 +145,7 @@ window.TOEIC_DATA_4.part6 = [
           "Ticket prices for the event have not yet been announced."
         ],
         "answer": 2,
-        "explanation": "文挿入問題。直前が編集長の発言で、記事内容を紹介する流れ。同じ話者が雑誌の別の特集(作付けカレンダー)を付け加える(A)が自然。新聞の廃刊(B)や事務所閉鎖(C)は『創刊・拡大』という記事の趣旨に矛盾し、イベントのチケット(D)は無関係。"
+        "explanation": "文挿入問題。直前が編集長の発言で、記事内容を紹介する流れ。同じ話者が雑誌の別の特集(作付けカレンダー)を付け加える(C)が自然。事務所の閉鎖(A)や週刊新聞の廃刊(B)は『創刊・拡大』という記事の趣旨に矛盾し、イベントのチケット(D)は無関係。"
       },
       {
         "num": 4,
@@ -198,7 +198,7 @@ window.TOEIC_DATA_4.part6 = [
           "No changes to your current benefits will be necessary."
         ],
         "answer": 2,
-        "explanation": "文挿入問題。直後に『申込書を12月15日までに返送するように』と手続きを求めているので、その前置きとして『新プランの補償継続には全員の手続きが必要』(B)が自然。社員食堂(A)は無関係、引受会社の撤退(C)や『変更は不要』(D)は文書全体の趣旨と矛盾する。"
+        "explanation": "文挿入問題。直後に『申込書を12月15日までに返送するように』と手続きを求めているので、その前置きとして『新プランの補償継続には全員の手続きが必要』(C)が自然。引受会社の地域撤退(A)は新規契約という文書の趣旨と矛盾し、社員食堂(B)は無関係、『変更は不要』(D)は手続きの要請と矛盾する。"
       },
       {
         "num": 4,

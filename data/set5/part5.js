@@ -1,4 +1,4 @@
-// セット5 part5(監査反映・正解位置均等化済み)
+// セット5 part5(重複差し替え済み)
 window.TOEIC_DATA_5 = window.TOEIC_DATA_5 || {};
 window.TOEIC_DATA_5.part5 = [
   {
@@ -172,16 +172,16 @@ window.TOEIC_DATA_5.part5 = [
   },
   {
     "id": "s5p5-14",
-    "q": "Employees who commute by public transit are ______ for a monthly travel subsidy of up to 15,000 yen.",
+    "q": "Only students who have completed the prerequisite course are ______ to enroll in the advanced seminar.",
     "choices": [
-      "liable",
-      "eligible",
-      "probable",
-      "capable"
+      "permitted",
+      "permitting",
+      "permission",
+      "permissive"
     ],
-    "answer": 1,
-    "translation": "公共交通機関で通勤する従業員は、月額最大1万5千円の交通費補助を受ける資格がある。",
-    "explanation": "be eligible for 〜(〜の資格がある)は福利厚生・応募条件で頻出。capable は for でなく of を取り、liable(責任がある・〜しがち)、probable(ありそうな)は文意に合わない。前置詞 for との相性で解く。"
+    "answer": 0,
+    "translation": "前提科目を修了した学生のみが、上級ゼミへの登録を許可される。",
+    "explanation": "be permitted to do(〜することを許可される)。主語 students は『許可される』側なので過去分詞 permitted。permitting は能動、permission は名詞、permissive(寛大な)は意味が異なる。"
   },
   {
     "id": "s5p5-16",
@@ -211,16 +211,16 @@ window.TOEIC_DATA_5.part5 = [
   },
   {
     "id": "s5p5-e3",
-    "q": "The store offers a full refund on any item returned ______ 30 days of purchase.",
+    "q": "The clinic asks patients to arrive ten minutes ______ their scheduled appointment time.",
     "choices": [
+      "before",
+      "during",
       "among",
-      "toward",
-      "within",
-      "along"
+      "across"
     ],
-    "answer": 2,
-    "translation": "当店は、購入から30日以内に返品されたいかなる商品にも全額返金を行う。",
-    "explanation": "within+期間(〜以内に)。30 days という期間と結びつく前置詞は within。among(〜の間に=複数のものの中で)、along(〜に沿って)、toward(〜の方へ)はいずれも期間を表さない。"
+    "answer": 0,
+    "translation": "当院では、予約時刻の10分前にお越しいただくよう患者様にお願いしている。",
+    "explanation": "『〜の前に』を表す前置詞 before。ten minutes before 〜(〜の10分前)は時刻を基準にした定型表現。during は期間中、among は複数の中で、across は横切ってで文意に合わない。"
   },
   {
     "id": "s5p5-19",

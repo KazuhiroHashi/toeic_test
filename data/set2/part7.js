@@ -1,4 +1,4 @@
-// セット2 part7(監査反映・正解位置均等化済み)
+// セット2 part7(解説の選択肢記号を修正)
 window.TOEIC_DATA_2 = window.TOEIC_DATA_2 || {};
 window.TOEIC_DATA_2.part7 = [
   {
@@ -159,7 +159,7 @@ window.TOEIC_DATA_2.part7 = [
           "To change the lobby hours"
         ],
         "answer": 0,
-        "explanation": "冒頭の『エレベーターBとCの定期保守を行う』という周知が主目的。ビル自体は閉鎖しないので(A)は誤り。"
+        "explanation": "冒頭の『エレベーターBとCの定期保守を行う』という周知が主目的。ビル自体は閉鎖しないので他の選択肢は誤り。"
       },
       {
         "q": "What should tenants moving large items do?",
@@ -297,7 +297,7 @@ window.TOEIC_DATA_2.part7 = [
           "It will be recorded in a studio."
         ],
         "answer": 2,
-        "explanation": "The conversation will be relaxed and unscripted(台本なし)が根拠。ビデオでリモート収録なのでスタジオ(A)は誤り、完成回は約40分なので(C)も誤り。"
+        "explanation": "The conversation will be relaxed and unscripted(台本なし)が根拠。ビデオでリモート収録なのでスタジオ(A)は誤り、完成回は約40分なので他の選択肢も誤り。"
       }
     ]
   },
@@ -546,7 +546,7 @@ window.TOEIC_DATA_2.part7 = [
           "Electricity"
         ],
         "answer": 0,
-        "explanation": "広告の Includes: water and heating(水道・暖房込み)が根拠。電気は入居者負担なので(A)は誤り。"
+        "explanation": "広告の Includes: water and heating(水道・暖房込み)が根拠。電気は入居者負担なので他の選択肢は誤り。"
       },
       {
         "q": "What must applicants provide?",

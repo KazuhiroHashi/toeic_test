@@ -89,7 +89,7 @@ window.TOEIC_DATA_5.part7 = [
           "They cost $90 in every case."
         ],
         "answer": 2,
-        "explanation": "『Consultations fill quickly in spring, so book early(春は早く埋まる)』が根拠。施工予約と組めば無料なので(A)の『必ず90ドル』は誤り。"
+        "explanation": "『Consultations fill quickly in spring, so book early(春は早く埋まる)』が根拠。施工予約と組めば無料なので(D)の『必ず90ドル』は誤り。"
       }
     ]
   },
@@ -124,7 +124,7 @@ window.TOEIC_DATA_5.part7 = [
           "They each last three hours."
         ],
         "answer": 1,
-        "explanation": "『are recorded for later viewing(後で視聴できるよう録画)』が根拠。火曜と木曜の週2回なので(A)は誤り。"
+        "explanation": "『are recorded for later viewing(後で視聴できるよう録画)』が根拠。火曜と木曜の週2回なので(C)は誤り。"
       },
       {
         "q": "What must a student do to receive a certificate?",
@@ -170,7 +170,7 @@ window.TOEIC_DATA_5.part7 = [
           "Separate glass from paper and plastic"
         ],
         "answer": 3,
-        "explanation": "『glass bottles must now be separated from paper and plastic』が根拠。2つ目の箱は無料なので(B)は誤り、回収日は区域で決まるので(A)も誤り。"
+        "explanation": "『glass bottles must now be separated from paper and plastic』が根拠。2つ目の箱は無料なので(C)は誤り、回収日は区域で決まるので(B)も誤り。"
       }
     ]
   },
@@ -199,20 +199,20 @@ window.TOEIC_DATA_5.part7 = [
       {
         "q": "What problem are the writers discussing?",
         "choices": [
-          "A patient will arrive late.",
+          "A scheduled appointment will be delayed.",
           "A room is double-booked.",
           "Some equipment is broken.",
           "A staff member is absent."
         ],
         "answer": 0,
-        "explanation": "冒頭の『she's stuck in traffic and will be about 20 minutes late(渋滞で20分遅れる)』が根拠。患者の遅刻が調整の発端。"
+        "explanation": "冒頭の『she's stuck in traffic and will be about 20 minutes late(渋滞で20分遅れる)』が根拠。予約の開始が遅れることが、その後の調整の発端になっている。"
       },
       {
         "q": "At 11:06 A.M., what does Ms. Coates most likely mean when she writes, \"Exactly\"?",
         "choices": [
-          "She will not call the patient.",
+          "She will not make the call herself.",
           "She agrees with Mr. Sowande's plan.",
-          "She wants to cancel the cleaning.",
+          "She wants to cancel the noon booking.",
           "She has completed an appointment."
         ],
         "answer": 1,
@@ -262,7 +262,7 @@ window.TOEIC_DATA_5.part7 = [
           "They must be renewed each month."
         ],
         "answer": 0,
-        "explanation": "『We sold three-quarters of the shares within a month(1か月で4分の3が売れた)』が根拠。賃貸住まいの人も買えるので(C)は誤り、費用は一度きりなので(D)も誤り。"
+        "explanation": "『We sold three-quarters of the shares within a month(1か月で4分の3が売れた)』が根拠。賃貸住まいの人も買えるので(B)は誤り、費用は一度きりなので(D)も誤り。"
       }
     ]
   },
@@ -343,7 +343,7 @@ window.TOEIC_DATA_5.part7 = [
           "Payment in cash"
         ],
         "answer": 1,
-        "explanation": "『please bring them(=a referral letter or imaging results)』が根拠。運動器具は不要と明記されているので(A)はひっかけ。"
+        "explanation": "『please bring them(=a referral letter or imaging results)』が根拠。運動器具は不要と明記されているので(C)はひっかけ。"
       },
       {
         "q": "What is indicated about parking?",
@@ -389,7 +389,7 @@ window.TOEIC_DATA_5.part7 = [
           "Bring their own tools"
         ],
         "answer": 2,
-        "explanation": "『volunteer for at least four hours of communal upkeep(共同管理を最低4時間手伝う)』が根拠。道具は共用、料金は年額なので(A)(B)は誤り。"
+        "explanation": "『volunteer for at least four hours of communal upkeep(共同管理を最低4時間手伝う)』が根拠。道具は共用なので(D)は誤り、料金は年額なので(B)も誤り。"
       },
       {
         "q": "The word \"allotted\" in paragraph 4 is closest in meaning to",
@@ -427,7 +427,7 @@ window.TOEIC_DATA_5.part7 = [
         "explanation": "『will run four optional workshops this fall(任意のワークショップを4回開催)』が主題。任意なので(B)『出席必須の会議』は誤り。"
       },
       {
-        "q": "What is NOT a topic of the workshops?",
+        "q": "According to the memo, what is NOT one of the listed session topics?",
         "choices": [
           "Inclusive teaching practices",
           "Using classroom polling tools",
@@ -513,12 +513,12 @@ window.TOEIC_DATA_5.part7 = [
         "q": "What does Mr. Nakamura ask about?",
         "choices": [
           "The event's closing time",
-          "Whether his ID will serve as proof of residency",
+          "Whether his driver's license will be acceptable",
           "How to refurbish a monitor",
           "The cost of recycling batteries"
         ],
         "answer": 1,
-        "explanation": "メール後半の『Would my driver's license ... be enough as proof?(免許証で証明として足りるか)』が根拠。請求書がルームメイト名義のための質問。"
+        "explanation": "メール後半の『Would my driver's license ... be enough?(免許証で足りるか)』が根拠。公共料金の請求書がルームメイト名義のため、代わりに使える書類を尋ねている。"
       }
     ]
   },
@@ -540,13 +540,13 @@ window.TOEIC_DATA_5.part7 = [
       {
         "q": "What is indicated about the webinars?",
         "choices": [
-          "A recording is provided to registrants.",
+          "They are offered at more than one price.",
           "They are free for groups.",
           "They last three hours each.",
           "They are held in person."
         ],
         "answer": 0,
-        "explanation": "ウェブページの『A recording is sent to all registrants within 48 hours』が根拠。各回90分なので(C)は誤り、グループは割引で無料ではないので(D)も誤り。"
+        "explanation": "ウェブページの一覧で3月5日と12日が30ドル、19日と26日が45ドルと示されており、料金は一律ではない。各回90分なので(C)は誤り、グループは15%割引であって無料ではないので(B)も誤り。オンライン開催なので(D)も誤り。"
       },
       {
         "q": "Why does Ms. Pierce's group qualify for the additional discount?",
@@ -585,7 +585,7 @@ window.TOEIC_DATA_5.part7 = [
         "q": "What does Ms. Pierce ask about?",
         "choices": [
           "The location of the venue",
-          "The price of a single webinar",
+          "The deadline for registration",
           "Whether the workbooks are available in advance",
           "How to cancel a registration"
         ],
@@ -650,7 +650,7 @@ window.TOEIC_DATA_5.part7 = [
         "q": "Why is Ms. Blythe eligible for the discount?",
         "choices": [
           "She booked more than three months in advance.",
-          "She chose the Gold package.",
+          "She booked a two-day event.",
           "She added a second photographer.",
           "She is a returning client."
         ],
@@ -774,7 +774,7 @@ window.TOEIC_DATA_5.part7 = [
           "A meal voucher"
         ],
         "answer": 1,
-        "explanation": "講座一覧の『A light healthy snack is provided at every workshop except the yoga session(ヨガ以外の全回で軽食)』が根拠。ヨガはマット持参なので(A)はひっかけ。"
+        "explanation": "講座一覧の『A light healthy snack is provided at every workshop except the yoga session(ヨガ以外の全回で軽食)』が根拠。ヨガはマット持参なので(C)はひっかけ。"
       },
       {
         "q": "Why does Mr. Aslam prefer the evening sessions?",

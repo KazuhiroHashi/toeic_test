@@ -1,4 +1,4 @@
-// セット3 part2(監査反映・正解位置均等化済み)
+// セット3 part2(解説の選択肢記号を修正)
 window.TOEIC_DATA_3 = window.TOEIC_DATA_3 || {};
 window.TOEIC_DATA_3.part2 = [
   {
@@ -29,7 +29,7 @@ window.TOEIC_DATA_3.part2 = [
     ],
     "answer": 2,
     "translation": "このパンフレットの箱はどこに置けばいいですか?\n(A) リードさんが印刷しました。\n(B) 今朝届きました。\n(C) 廊下の先の収納室にお願いします。",
-    "explanation": "Where(どこ)に対して場所を答えた(B)が正解。(A)は時、(C)は人でずれている。"
+    "explanation": "Where(どこ)に対して場所を答えた(C)が正解。(A)は時、(C)は人でずれている。"
   },
   {
     "id": "s3p2-03",
@@ -44,7 +44,7 @@ window.TOEIC_DATA_3.part2 = [
     ],
     "answer": 0,
     "translation": "年次カタログの表紙は誰がデザインしたのですか?\n(A) ケビンというフリーランスの画家です。\n(B) 約60ページの長さです。\n(C) 3月に発売されます。",
-    "explanation": "Who(誰)に対して人物を答えた(C)が正解。(A)は時期、(B)は分量。"
+    "explanation": "Who(誰)に対して人物を答えた(A)が正解。(A)は時期、(B)は分量。"
   },
   {
     "id": "s3p2-04",
@@ -74,7 +74,7 @@ window.TOEIC_DATA_3.part2 = [
     ],
     "answer": 2,
     "translation": "リースを更新したいですか、それとも新しいオフィスを探しますか?\n(A) 広いオフィスです。\n(B) はい、良い知らせでした。\n(C) 今のところ更新のほうが簡単でしょう。",
-    "explanation": "A or B の選択疑問文には Yes/No で答えられない。一方を選んだ(B)が正解。(A)はrenew/newsの音、(C)はofficeの繰り返し。"
+    "explanation": "A or B の選択疑問文には Yes/No で答えられない。一方を選んだ(C)が正解。(A)はrenew/newsの音、(C)はofficeの繰り返し。"
   },
   {
     "id": "s3p2-06",
@@ -134,7 +134,7 @@ window.TOEIC_DATA_3.part2 = [
     ],
     "answer": 1,
     "translation": "土曜日の私のシフトを代わってもらえませんか?\n(A) 青いカバーの下です。\n(B) 構いませんよ、その日は空いています。\n(C) いいえ、シフトキーが引っかかっています。",
-    "explanation": "Would you mind 〜? への快諾は Not at all(構わない)。(A)が正解。(B)はcover(代わる/覆い)、(C)はshift(勤務/キー)の多義語ひっかけ。"
+    "explanation": "Would you mind 〜? への快諾は Not at all(構わない)。(B)が正解。(B)はcover(代わる/覆い)、(C)はshift(勤務/キー)の多義語ひっかけ。"
   },
   {
     "id": "s3p2-10",
@@ -149,7 +149,7 @@ window.TOEIC_DATA_3.part2 = [
     ],
     "answer": 2,
     "translation": "出張費はもう提出しましたよね?\n(A) 受付でです。\n(B) デンバーへの出張です。\n(C) はい、先週の木曜に。",
-    "explanation": "付加疑問文は普通のYes/No疑問文と同様に答える。Yes+時点を述べた(B)が正解。(A)はtravelからの連想、(C)は場所。"
+    "explanation": "付加疑問文は普通のYes/No疑問文と同様に答える。Yes+時点を述べた(C)が正解。(A)はtravelからの連想、(C)は場所。"
   },
   {
     "id": "s3p2-11",
@@ -179,7 +179,7 @@ window.TOEIC_DATA_3.part2 = [
     ],
     "answer": 0,
     "translation": "ジムの会員権にロッカーが含まれるかご存じですか?\n(A) パンフレットに書いてあるはずです。\n(B) 彼は先月入会しました。\n(C) 近代的なジムです。",
-    "explanation": "間接疑問文。断定せず『資料に載っている』と情報源を示した(B)が自然。(A)(C)はgymの連想ひっかけ。"
+    "explanation": "間接疑問文。断定せず『資料に載っている』と情報源を示した(B)が自然。他の選択肢(C)はgymの連想ひっかけ。"
   },
   {
     "id": "s3p2-13",
@@ -209,7 +209,7 @@ window.TOEIC_DATA_3.part2 = [
     ],
     "answer": 2,
     "translation": "保守作業員はもうエレベーターを点検しましたか?\n(A) はい、検査官は礼儀正しかったです。\n(B) 12階ほどです。\n(C) まだです——彼らは今日の午後に来ます。",
-    "explanation": "Yes/No疑問文に『まだ+予定』で答えた(B)が正解。(A)はelevatorからの連想(floor)、(C)はinspected/inspectorの派生語ひっかけ。"
+    "explanation": "Yes/No疑問文に『まだ+予定』で答えた(C)が正解。(A)はelevatorからの連想(floor)、(C)はinspected/inspectorの派生語ひっかけ。"
   },
   {
     "id": "s3p2-15",
@@ -239,7 +239,7 @@ window.TOEIC_DATA_3.part2 = [
     ],
     "answer": 1,
     "translation": "休憩室の塗り替えはいつ行う予定ですか?\n(A) 備品室でです。\n(B) その件は保留になったのではないですか?\n(C) 塗りたてのペンキです。",
-    "explanation": "変化球:時期を答えず『質問に質問で返す』パターン。『中止になったのでは?』という切り返し。(A)はrepaint/paintの繰り返し、(B)は場所のひっかけ。"
+    "explanation": "変化球:時期を答えず『質問に質問で返す』パターン。『中止になったのでは?』という切り返し。(A)はrepaint/paintの繰り返し、他の選択肢は場所のひっかけ。"
   },
   {
     "id": "s3p2-17",
@@ -299,7 +299,7 @@ window.TOEIC_DATA_3.part2 = [
     ],
     "answer": 2,
     "translation": "この注文は航空便で送るべきですか、それとも船便ですか?\n(A) 出荷場でです。\n(B) はい、発送しましょう。\n(C) 顧客は月曜までに必要としています。",
-    "explanation": "変化球:どちらとは言わず『月曜必着』という事実を伝え、速い航空便を含意するパターン。(B)は選択疑問文にYesで不可、(C)はship/shippingの派生語ひっかけ。"
+    "explanation": "変化球:どちらとは言わず『月曜必着』という事実を伝え、速い航空便を含意するパターン。(B)は選択疑問文にYesで不可、他の選択肢はship/shippingの派生語ひっかけ。"
   },
   {
     "id": "s3p2-21",

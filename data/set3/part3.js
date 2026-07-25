@@ -1,4 +1,4 @@
-// セット3 part3(監査反映・正解位置均等化済み)
+// セット3 part3(解説の選択肢記号を修正)
 window.TOEIC_DATA_3 = window.TOEIC_DATA_3 || {};
 window.TOEIC_DATA_3.part3 = [
   {
@@ -784,7 +784,7 @@ window.TOEIC_DATA_3.part3 = [
           "Renting a studio"
         ],
         "answer": 2,
-        "explanation": "女性の we usually come to your office with portable equipment(御社に伺う)が根拠。平日の午前を勧めており週末ではないので(C)はひっかけ。"
+        "explanation": "女性の we usually come to your office with portable equipment(御社に伺う)が根拠。平日の午前を勧めており週末ではないので他の選択肢はひっかけ。"
       },
       {
         "q": "What will the woman send today?",

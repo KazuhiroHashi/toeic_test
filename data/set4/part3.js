@@ -26,7 +26,7 @@ window.TOEIC_DATA_4.part3 = [
         "text": "Yes, that would keep the line running. Please arrange the partial shipment and e-mail me a revised delivery schedule."
       }
     ],
-    "translation": "男性:もしもし、アルダーヴェイル機械のグレッグ・ネイラーです。ハイドロリックバルブ、型番VH-22の注文の件でお電話しました。出荷日を確認できますか?\n女性:お調べします、ネイラー様。あいにく遅れが出ております。当社の鋼材サプライヤーが予定より遅れておりまして、バルブの出荷は15日以降になります。\n男性:それは困りますね。うちの組立ラインは12日に稼働を再開する予定なんです。注文の一部だけでも早く手に入れる方法はありませんか?\n女性:200個を10日までにお送りし、残りを翌週にお届けすることは可能です。分割出荷でよろしいでしょうか?\n男性:はい、それならラインを止めずに済みます。分割出荷を手配して、修正した納品スケジュールをメールで送ってください。",
+    "translation": "男性:もしもし、アルダーヴェイル機械のグレッグ・ネイラーです。ハイドロリックバルブ、型番VH-22の注文の件でお電話しました。出荷日を確認できますか?\n女性:お調べします、ネイラー様。あいにく遅れが出ております。当社の鋼材サプライヤーが予定より遅れておりまして、バルブの出荷は15日になります。\n男性:それは困りますね。うちの組立ラインは12日に稼働を再開する予定なんです。注文の一部だけでも早く手に入れる方法はありませんか?\n女性:200個を10日までにお送りし、残りを翌週にお届けすることは可能です。分割出荷なら助かりますか?\n男性:はい、それならラインを止めずに済みます。分割出荷を手配して、修正した納品スケジュールをメールで送ってください。",
     "questions": [
       {
         "q": "Why is the man calling?",
@@ -115,13 +115,13 @@ window.TOEIC_DATA_4.part3 = [
       {
         "q": "What does the woman say she will do?",
         "choices": [
-          "Take photos of the damage",
+          "Send photographs",
           "Contact the delivery driver",
-          "Return the damaged pallet",
+          "Return the pallet",
           "Cancel the order"
         ],
         "answer": 0,
-        "explanation": "最後の I'll take photos of the damaged boxes が根拠。クレーム用紙を送るのは男性側で、返品や注文取消は述べていない。"
+        "explanation": "最後の I'll take photos ... and send them over が根拠。take photos を send photographs と言い換えている。クレーム用紙を送るのは男性側で、返品・注文取消・配送業者への連絡は述べていない。"
       }
     ]
   },
@@ -183,7 +183,7 @@ window.TOEIC_DATA_4.part3 = [
           "A list of sources"
         ],
         "answer": 0,
-        "explanation": "女性の I sent the photos separately today が根拠。下書き(final draft)は水曜夜の予定なので today のひっかけ。"
+        "explanation": "女性の Would it help if I sent the photos separately today? が根拠。下書き(final draft)は水曜夜の予定なので today のひっかけ。"
       }
     ]
   },
@@ -217,35 +217,35 @@ window.TOEIC_DATA_4.part3 = [
       {
         "q": "Why is the woman calling?",
         "choices": [
-          "To ask about parking",
+          "To ask about a water leak",
           "To report a heating problem",
-          "To renew a lease",
-          "To schedule a viewing"
+          "To request a lock repair",
+          "To schedule a cleaning"
         ],
         "answer": 1,
-        "explanation": "冒頭の The heating ... hasn't worked(暖房が効かない)が根拠。ビル管理の他業務(賃貸更新・駐車場・内見)はひっかけ。"
+        "explanation": "冒頭の The heating in our office hasn't worked(暖房が効かない)が根拠。水漏れ・鍵の修理・清掃依頼はいずれもビル管理への連絡として『ありそうな用件』だが、本文で述べられているのは暖房の不具合。"
       },
       {
         "q": "What does the man say will happen this afternoon?",
         "choices": [
           "A new tenant will move in.",
-          "A technician will inspect the boiler.",
           "The rent will be adjusted.",
+          "A specialist will visit the building.",
           "The building will close early."
         ],
-        "answer": 1,
-        "explanation": "男性の A technician is coming this afternoon to inspect the boiler が根拠。this afternoon という時間表現がキー。"
+        "answer": 2,
+        "explanation": "男性の A technician is coming this afternoon が根拠。technician を specialist と言い換えている。this afternoon という時間表現がキー。入居や賃料の話は出てこない。"
       },
       {
-        "q": "What does the man offer to bring?",
+        "q": "What does the man say he will do by the end of the day?",
         "choices": [
-          "Extra blankets",
-          "Portable heaters",
-          "Coffee",
-          "A heater manual"
+          "Refund a fee",
+          "Contact a new tenant",
+          "Visit the office in person",
+          "Give the woman an update"
         ],
-        "answer": 1,
-        "explanation": "男性の I can bring up a couple of portable heaters が根拠。寒さから『毛布』を連想させるが、申し出たのはヒーター。"
+        "answer": 3,
+        "explanation": "男性の I'll ask ... for a timeline and let you know by the end of the day が根拠。見込み時間を確認して『連絡する』という申し出。返金や本人の訪問は述べていない。"
       }
     ]
   },
@@ -321,59 +321,63 @@ window.TOEIC_DATA_4.part3 = [
     "audio": [
       {
         "speaker": "M",
-        "text": "Hi, this is Owen from Greenfield Organic Farm. I'm calling to confirm your weekly order of vegetables for the co-op."
+        "text": "Good morning. I have a reservation under Callum Reyes, checking in for three nights."
       },
       {
         "speaker": "W",
-        "text": "Hi Owen. Yes, the usual crates of tomatoes and lettuce, but could you add ten crates of bell peppers this week? We have a promotion coming up."
+        "text": "Welcome, Mr. Reyes. I have your booking right here. Our official check-in time is three o'clock, though, and your room is still being cleaned."
       },
       {
         "speaker": "M",
-        "text": "Ten crates of peppers... let me check. The peppers are ripening slowly this season, so I can guarantee six crates by Thursday and the rest next week."
+        "text": "I came straight from an early flight. Is there somewhere I can leave my suitcases until then?"
       },
       {
         "speaker": "W",
-        "text": "Six is fine for now. Same delivery time, seven a.m.?"
+        "text": "Certainly. We'll keep them behind the front desk. Just stop by the counter after two and I'll have your key ready."
       },
       {
         "speaker": "M",
-        "text": "Yes, our truck will be there at seven. I'll e-mail you the updated order total."
+        "text": "Thanks. One more thing — is there a shuttle from here to the convention center?"
+      },
+      {
+        "speaker": "W",
+        "text": "Yes, it leaves from the main entrance every thirty minutes until nine in the evening."
       }
     ],
-    "translation": "男性:もしもし、グリーンフィールド有機農園のオーウェンです。生協向けの毎週の野菜注文を確認するためお電話しました。\n女性:こんにちは、オーウェン。ええ、いつものトマトとレタスのケースをお願いします。それと今週はベルペッパーを10ケース追加できますか? 販促キャンペーンが控えているんです。\n男性:ペッパー10ケースですね……確認します。今シーズンはペッパーの熟すのが遅くて、木曜までに6ケースを確約でき、残りは来週になります。\n女性:今のところ6ケースで大丈夫です。配達時間は同じ、朝7時ですか?\n男性:はい、うちのトラックが7時に伺います。更新した注文合計をメールで送ります。",
+    "translation": "男性:おはようございます。カラム・レイエスの名前で予約しています。3泊でチェックインをお願いします。\n女性:ようこそ、レイエス様。ご予約を確認いたしました。ただ、正式なチェックインは3時からで、お部屋はまだ清掃中でございます。\n男性:早朝の便で直接来たものですから。それまでスーツケースを預けられる場所はありますか?\n女性:もちろんです。フロントの奥でお預かりします。2時以降にカウンターへお立ち寄りいただければ、鍵をご用意しておきます。\n男性:ありがとうございます。もう一つ、ここからコンベンションセンターへのシャトルはありますか?\n女性:はい、正面玄関から夜9時まで30分おきに出ております。",
     "questions": [
       {
-        "q": "Why is the man calling?",
+        "q": "What does the woman say about the man's room?",
         "choices": [
-          "To report a shipping error",
-          "To reschedule a delivery",
-          "To confirm a produce order",
-          "To negotiate a price"
-        ],
-        "answer": 2,
-        "explanation": "冒頭の confirm your weekly order of vegetables が根拠。配達の再調整や誤配送、価格交渉は本文になく連想のひっかけ。"
-      },
-      {
-        "q": "Why can't the man supply all the bell peppers this week?",
-        "choices": [
-          "A worker is on leave.",
-          "Prices have risen.",
-          "A delivery truck broke down.",
-          "The crop is ripening slowly."
-        ],
-        "answer": 3,
-        "explanation": "男性の The peppers are ripening slowly this season が根拠。トラックや人員の問題ではなく、作物の生育の遅れ。"
-      },
-      {
-        "q": "What will the man send by e-mail?",
-        "choices": [
-          "An updated order total",
-          "A product photo",
-          "A delivery schedule",
-          "A seasonal price list"
+          "It is still being cleaned.",
+          "It has been upgraded.",
+          "It is on the top floor.",
+          "It faces the main entrance."
         ],
         "answer": 0,
-        "explanation": "最後の I'll e-mail you the updated order total が根拠。updated(更新された)がキー。価格表や写真はひっかけ。"
+        "explanation": "女性の your room is still being cleaned が根拠。正式な受付開始は3時で、部屋はまだ清掃中。アップグレードや部屋の位置には触れていない。"
+      },
+      {
+        "q": "What does the woman offer to do?",
+        "choices": [
+          "Call a taxi",
+          "Hold the man's luggage",
+          "Waive a service fee",
+          "Print a receipt"
+        ],
+        "answer": 1,
+        "explanation": "女性の We'll keep them behind the front desk が根拠。keep them(=suitcases)を hold the man's luggage と言い換えている。タクシーの手配や料金の免除は述べていない。"
+      },
+      {
+        "q": "What does the man ask about?",
+        "choices": [
+          "A late checkout",
+          "A shuttle service",
+          "A restaurant reservation",
+          "A parking fee"
+        ],
+        "answer": 1,
+        "explanation": "男性の is there a shuttle from here to the convention center? が根拠。遅めのチェックアウトや食事の予約、駐車料金は話題に出ていない。"
       }
     ]
   },
@@ -451,7 +455,7 @@ window.TOEIC_DATA_4.part3 = [
     "audio": [
       {
         "speaker": "M",
-        "text": "Nadia, I'm doing the stock check. We're running very low on one item, only eight left, over in aisle five."
+        "text": "Nadia, I'm doing the stock check. We're down to eight of one item over in aisle five."
       },
       {
         "speaker": "W",
@@ -470,7 +474,7 @@ window.TOEIC_DATA_4.part3 = [
         "text": "Those are fine, still well over a hundred in stock."
       }
     ],
-    "translation": "【図表】在庫一覧(ブラウスウェイト物流)/1. 梱包テープ 通路2 45ロール/2. 段ボール箱(大) 通路4 120個/3. 気泡緩衝材 通路5 8ロール/4. 配送ラベル 通路7 300枚\n男性:ナディア、在庫チェックをしてるんだけど、あるものがすごく少なくなってる。通路5に8個しか残ってない。\n女性:それでは年末の繁忙期はもたないわね。すぐに再発注して。少なくとも20個は追加で。\n男性:了解。今日発注しておくよ。\n女性:ありがとう。あと、通路4の大きい箱も確認しておいて。昨日たくさん出荷したから。\n男性:それは大丈夫、まだ100個以上あるよ。",
+    "translation": "【図表】在庫一覧(ブラウスウェイト物流)/1. 梱包テープ 通路2 45ロール/2. 段ボール箱(大) 通路4 120個/3. 気泡緩衝材 通路5 8ロール/4. 配送ラベル 通路7 300枚\n男性:ナディア、在庫チェックをしてるんだけど、通路5のある品目が8ロールまで減ってる。\n女性:それでは年末の繁忙期はもたないわね。すぐに再発注して。少なくとも20ロールは追加で。\n男性:了解。今日発注しておくよ。\n女性:ありがとう。あと、通路4の大きい箱も確認しておいて。昨日たくさん出荷したから。\n男性:それは大丈夫、まだ100個以上あるよ。",
     "questions": [
       {
         "q": "Look at the graphic. Which item will the man reorder?",
@@ -481,7 +485,7 @@ window.TOEIC_DATA_4.part3 = [
           "Shipping labels"
         ],
         "answer": 2,
-        "explanation": "図表問題。音声の『通路5に8個』と図表を突き合わせると、Aisle 5・8 rolls は気泡緩衝材(Bubble wrap)。品名は音声で言わず、位置と数量で特定させるタイプ。"
+        "explanation": "図表問題。音声の『通路5に8つ』と図表を突き合わせると、Aisle 5・8 rolls は気泡緩衝材(Bubble wrap)。品名は音声で言わず、位置と数量で特定させるタイプ。"
       },
       {
         "q": "Why is the item being reordered?",
@@ -513,7 +517,7 @@ window.TOEIC_DATA_4.part3 = [
     "audio": [
       {
         "speaker": "W",
-        "text": "Ben, the printer needs the final magazine files by Friday to hit the delivery date."
+        "text": "Ben, the printer needs the final magazine files by Friday to meet the delivery date."
       },
       {
         "speaker": "M",
@@ -620,7 +624,7 @@ window.TOEIC_DATA_4.part3 = [
           "Parking and furniture"
         ],
         "answer": 2,
-        "explanation": "女性の Rent covers water and building maintenance が根拠。電気・ネットは別と明言しているので(A)(D)は誤り。"
+        "explanation": "女性の Rent covers water and building maintenance が根拠。電気とインターネットは別と明言しているので(A)は誤りで、光熱費すべてを含むわけではないから(B)も誤り。駐車場や家具については家賃に含むとは述べていないので(D)も誤り。"
       },
       {
         "q": "What does the man ask the woman to e-mail?",
@@ -661,10 +665,10 @@ window.TOEIC_DATA_4.part3 = [
       },
       {
         "speaker": "M",
-        "text": "As soon as you sign the updated agreement. I'll e-mail it today, and it'll be active from the first."
+        "text": "I'll e-mail the updated agreement today. Once you sign it, the new policy takes over when the current one expires — so it'll be active from the first."
       }
     ],
-    "translation": "女性:もしもし、住宅保険の契約更新の件でお電話しました。今月末で満期になります。\n男性:承ります。こちらに現在のご契約があります。同じ補償内容を継続されますか、それとも変更されますか?\n女性:最近キッチンのリフォームを終えたので、建物の補償額を増やしたいんです。\n男性:良いお考えです。再建築評価額を更新します。それにより保険料が少し上がり、月におよそ15ドルほどになります。\n女性:それで構いません。新しい契約はいつ有効になりますか?\n男性:更新後の契約書に署名いただき次第です。本日メールでお送りし、1日から有効になります。",
+    "translation": "女性:もしもし、住宅保険の契約更新の件でお電話しました。今月末で満期になります。\n男性:承ります。こちらに現在のご契約があります。同じ補償内容を継続されますか、それとも変更されますか?\n女性:最近キッチンのリフォームを終えたので、建物の補償額を増やしたいんです。\n男性:良いお考えです。再建築評価額を更新します。それにより保険料が少し上がり、月におよそ15ドルの増額になります。\n女性:それで構いません。新しい契約はいつ有効になりますか?\n男性:更新後の契約書を本日メールでお送りします。ご署名いただければ、現在のご契約が満期を迎えた時点で新しい契約に切り替わりますので、1日から有効になります。",
     "questions": [
       {
         "q": "Why is the woman calling?",
@@ -697,7 +701,7 @@ window.TOEIC_DATA_4.part3 = [
           "Immediately"
         ],
         "answer": 0,
-        "explanation": "男性の it'll be active from the first(1日から有効)が根拠。署名後すぐ書類は送るが、有効になるのは1日から。"
+        "explanation": "男性の it'll be active from the first(1日から有効)が根拠。書類の送付と署名は本日でも、発効は現契約の満期後=1日。署名の話につられて『すぐに』を選ばせるひっかけ。"
       }
     ]
   },
@@ -721,10 +725,10 @@ window.TOEIC_DATA_4.part3 = [
       },
       {
         "speaker": "W",
-        "text": "Let me check the roster and confirm. I'll get back to you shortly."
+        "text": "The schedule shows the afternoon block, but let me confirm who's actually rostered that day and get back to you."
       }
     ],
-    "translation": "【図表】生産スケジュール ラインB(木曜)/1. 6:00–10:00 製品A(チーム1)/2. 10:00–14:00 製品C(チーム2)/3. 14:00–18:00 製品B(チーム1)/4. 18:00–22:00 清掃・保守\n男性:製品Bの500個の急ぎの注文が入ったんだ。木曜のラインBの稼働に組み込めるかな?\n女性:スケジュールを見てみるわ。製品Bはもう午後の枠に入っているから、何も変える必要はないわね。\n男性:よかった。そのシフトはどのチームだっけ? 事前に伝えておきたいんだ。\n女性:担当表を確認して知らせるわ。すぐに折り返すわね。",
+    "translation": "【図表】生産スケジュール ラインB(木曜)/1. 6:00–10:00 製品A(チーム1)/2. 10:00–14:00 製品C(チーム2)/3. 14:00–18:00 製品B(チーム1)/4. 18:00–22:00 清掃・保守\n男性:製品Bの500個の急ぎの注文が入ったんだ。木曜のラインBの稼働に組み込めるかな?\n女性:スケジュールを見てみるわ。製品Bはもう午後の枠に入っているから、何も変える必要はないわね。\n男性:よかった。そのシフトはどのチームだっけ? 事前に伝えておきたいんだ。\n女性:スケジュール上は午後の枠になっているけど、その日に実際に誰が入っているかを確認して折り返すわね。",
     "questions": [
       {
         "q": "Look at the graphic. Which team will handle the rush order?",
@@ -757,7 +761,7 @@ window.TOEIC_DATA_4.part3 = [
           "Change the schedule"
         ],
         "answer": 1,
-        "explanation": "女性の Let me check the roster and confirm が根拠。スケジュールは変更不要と述べており、担当表を確認するだけ。"
+        "explanation": "女性の let me confirm who's actually rostered that day が根拠。スケジュール自体は変更不要と述べており、当日の実際の担当者(担当表)を確認するだけ。シフト追加や保守枠の取り消しは述べていない。"
       }
     ]
   },

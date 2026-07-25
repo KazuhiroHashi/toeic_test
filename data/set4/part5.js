@@ -1,4 +1,4 @@
-// セット4 part5(監査反映・正解位置均等化済み)
+// セット4 part5(重複差し替え済み)
 window.TOEIC_DATA_4 = window.TOEIC_DATA_4 || {};
 window.TOEIC_DATA_4.part5 = [
   {
@@ -302,7 +302,7 @@ window.TOEIC_DATA_4.part5 = [
   },
   {
     "id": "s4p5-24",
-    "q": "Under the revised policy, employees may take an extra day off ______ overtime pay.",
+    "q": "The carrier delivered the replacement parts by air freight ______ the usual ground service.",
     "choices": [
       "in lieu of",
       "in spite of",
@@ -310,8 +310,8 @@ window.TOEIC_DATA_4.part5 = [
       "in charge of"
     ],
     "answer": 0,
-    "translation": "改定された方針の下では、従業員は残業代の代わりに追加の休暇を取ることができる。",
-    "explanation": "in lieu of 〜(〜の代わりに)= instead of の硬い表現。休暇を残業代の『代替』として取るという文意に合う。in spite of(〜にもかかわらず)、on behalf of(〜を代表して)、in charge of(〜を担当して)は文意に合わない。"
+    "translation": "運送業者は、通常の陸送に代えて、交換部品を航空便で配送した。",
+    "explanation": "in lieu of 〜(〜の代わりに)= instead of の硬い表現。通常の陸送の『代替』として航空便を使ったという文意に合う。in spite of(〜にもかかわらず)、on behalf of(〜を代表して)、in charge of(〜を担当して)は文意に合わない。"
   },
   {
     "id": "s4p5-25",

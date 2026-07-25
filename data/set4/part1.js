@@ -1,4 +1,4 @@
-// セット4 part1(監査反映・正解位置均等化済み)
+// セット4 part1(題材重複を解消)
 window.TOEIC_DATA_4 = window.TOEIC_DATA_4 || {};
 window.TOEIC_DATA_4.part1 = [
   {
@@ -6,14 +6,14 @@ window.TOEIC_DATA_4.part1 = [
     "image": "assets/part1/s4-01.png",
     "speaker": "M",
     "choices": [
-      "A cook is washing dishes in a sink.",
-      "A cook is chopping vegetables on a cutting board.",
-      "A cook is taking off his apron.",
-      "A cook is stirring a pot on the stove."
+      "A worker is stacking crates in a warehouse.",
+      "A worker is driving a forklift.",
+      "A worker is sealing a carton with tape.",
+      "A worker is weighing produce on a scale."
     ],
-    "answer": 1,
-    "translation": "(A) 料理人が流しで皿を洗っています。\n(B) 料理人がまな板で野菜を刻んでいます。\n(C) 料理人がエプロンを外しているところです。\n(D) 料理人がコンロで鍋をかき混ぜています。",
-    "explanation": "厨房で料理人が包丁を使い、まな板の上で野菜を刻んでいる=chopping vegetables on a cutting board が写真中心の動作。(D)の take off は『外す動作』だが、エプロンはすでに身に着けた状態なので誤り。流しやコンロは写っていても、その場所で皿洗いや鍋の混ぜ作業はしていない。"
+    "answer": 2,
+    "translation": "(A) 作業員が倉庫で木箱を積み上げています。\n(B) 作業員がフォークリフトを運転しています。\n(C) 作業員がテープで段ボール箱を封しています。\n(D) 作業員が秤で農産物の重さを量っています。",
+    "explanation": "作業台で作業員がテープディスペンサーを使い段ボール箱の口を閉じている=sealing a carton with tape。積み上げる・運転する・量るといった別の動作はしていない。周囲にある箱や道具に引きずられて誤答を選ばないこと。"
   },
   {
     "id": "s4p1-02",
