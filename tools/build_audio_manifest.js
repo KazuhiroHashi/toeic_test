@@ -90,7 +90,7 @@ var PART_START = { part1: 1, part2: 7, part3: 32, part4: 71 };
 // 続けて読ませると記号の A が冠詞の a に潰れて「ア」に聞こえるため。
 // 無音除去(tools/trim_silence.py)をかけた前提の値。かけていない場合は 0 でよい
 // (未処理の mp3 には前後に0.2〜0.4秒の無音が焼き付いているため)。
-var LETTER_GAP = 250;
+var LETTER_GAP = 400;
 function letterText(i) { return LETTERS[i] + "."; }
 var clips = [];       // {file, text, voice}
 var manifest = {};    // "s1:taskid" -> [{f, g}, ...]
