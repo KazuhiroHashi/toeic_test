@@ -4,17 +4,22 @@
 なぜこうするか:
   edge-tts は「A.」のような極端に短い発話が苦手で、かすれた不自然な音になる。
   「A. B. C. D.」と続けて読ませると、どれも正しく『エイ・ビー・シー・ディー』と発音される。
-  そこで1本の音声として作り、無音の位置で4つに切り分けて部品として使い回す。
+  そこで1本の音声として作り、4つに切り分けて部品として使い回す。
+
+切り分け方:
+  edge-tts は音声と一緒に『どの語が何秒目から何秒間か』(WordBoundary)を返す。
+  これを使って正確に切る。声によっては文字の間にほとんど無音が無いため、
+  無音を探す方式では切れない(その場合の保険として無音検出も残してある)。
 
 記号の音は全問題で共通なので、声ごとに4ファイル(全8声で32ファイル)あれば足りる。
 
 使い方(Mac のターミナルで):
-  /usr/bin/python3 tools/build_letters.py
+  FFMPEG=$(brew --prefix)/bin/ffmpeg FFPROBE=$(brew --prefix)/bin/ffprobe \
+    /usr/bin/python3 tools/build_letters.py
 
 必要なもの:
   - edge-tts   /usr/bin/python3 -m pip install --user edge-tts
   - ffmpeg     brew install ffmpeg
-               (Anaconda の ffmpeg は壊れていることがあるので Homebrew 版を推奨)
 
 出力: assets/audio/letters/<声の名前>/A.mp3 〜 D.mp3
 """
@@ -49,11 +54,14 @@ VOICES = [
 
 LETTERS = ["A", "B", "C", "D"]
 TEXT = "A. B. C. D."
-PAD = 0.05          # 切り出しの前後に残す余白(秒)
-MIN_SEG = 0.15      # 切り出した1文字が最低これだけの長さは必要(秒)
-# 無音の検出条件。声によって文字間の間の長さが違うので、条件を変えながら探す
-NOISES = [-30, -35, -40, -45, -25, -50]
-DURATIONS = [0.04, 0.06, 0.08, 0.10, 0.14]
+
+HEAD_PAD = 0.06     # 各文字の前に残す余白(秒)
+TAIL_PAD = 0.16     # 各文字の後に残す余白(秒)。語尾の余韻を切らないため
+MIN_SEG = 0.15      # 切り出した1文字の最低の長さ(秒)
+
+# 保険(タイムスタンプが取れなかった声)用の無音検出条件
+NOISES = [-25, -30, -35, -40, -45, -50]
+DURATIONS = [0.03, 0.04, 0.06, 0.08, 0.10]
 
 
 def die(msg: str) -> None:
@@ -71,8 +79,42 @@ def duration(path: Path) -> float:
         die(f"音声の長さを取得できませんでした: {path}")
 
 
+async def synth(voice: str, path: Path) -> list:
+    """音声を保存し、各語の [開始秒, 終了秒] を返す。速度は変えない
+    (短い音を引き延ばすと歪むため)。"""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tts = edge_tts.Communicate(TEXT, voice)
+    audio = bytearray()
+    marks = []
+    async for chunk in tts.stream():
+        if chunk["type"] == "audio":
+            audio.extend(chunk["data"])
+        elif chunk["type"] == "WordBoundary":
+            # offset / duration は 100ナノ秒単位
+            s = chunk["offset"] / 1e7
+            marks.append([s, s + chunk["duration"] / 1e7])
+    path.write_bytes(bytes(audio))
+    return marks
+
+
+def bounds_from_marks(marks: list, total: float):
+    """タイムスタンプから4文字分の切り出し区間を作る。"""
+    if len(marks) != 4:
+        return None
+    out = []
+    for i, (s, e) in enumerate(marks):
+        start = max(0.0, s - HEAD_PAD)
+        end = e + TAIL_PAD
+        if i + 1 < len(marks):
+            end = min(end, marks[i + 1][0] - 0.02)   # 次の文字に食い込ませない
+        end = min(end, total)
+        out.append((start, end))
+    if all(e - s >= MIN_SEG for s, e in out):
+        return out
+    return None
+
+
 def silences(path: Path, noise: int, dur: float) -> list:
-    """内部の無音区間 [(start, end), ...] を返す。"""
     r = subprocess.run([FFMPEG, "-i", str(path), "-af",
                         f"silencedetect=noise={noise}dB:d={dur}", "-f", "null", "-"],
                        capture_output=True)
@@ -83,31 +125,24 @@ def silences(path: Path, noise: int, dur: float) -> list:
     out = []
     for i, s in enumerate(starts):
         e = ends[i] if i < len(ends) else total
-        # 先頭・末尾の無音は区切りではないので除く
         if s > 0.08 and e < total - 0.08:
             out.append((s, e))
     return out
 
 
-def find_bounds(path: Path):
-    """4文字を切り出す区間 [(start,end) x4] を探す。見つからなければ (None, 診断) を返す。"""
-    total = duration(path)
-    tried = []
+def bounds_from_silence(path: Path, total: float):
+    """保険: 無音の位置から切り出し区間を探す。"""
     for noise in NOISES:
         for d in DURATIONS:
             gaps = silences(path, noise, d)
-            tried.append(f"{noise}dB/{d}s→{len(gaps)}")
             if len(gaps) < 3:
                 continue
-            # 長い無音の上位3つを区切りとみなし、時間順に並べ直す
             top = sorted(sorted(gaps, key=lambda g: g[1] - g[0], reverse=True)[:3])
-            bounds = [(0.0, top[0][0]),
-                      (top[0][1], top[1][0]),
-                      (top[1][1], top[2][0]),
-                      (top[2][1], total)]
-            if all(e - s >= MIN_SEG for s, e in bounds):
-                return bounds, tried
-    return None, tried
+            out = [(0.0, top[0][0]), (top[0][1], top[1][0]),
+                   (top[1][1], top[2][0]), (top[2][1], total)]
+            if all(e - s >= MIN_SEG for s, e in out):
+                return out
+    return None
 
 
 def cut(src: Path, dst: Path, start: float, end: float) -> None:
@@ -116,13 +151,6 @@ def cut(src: Path, dst: Path, start: float, end: float) -> None:
                     "-to", f"{end:.3f}", "-i", str(src),
                     "-codec:a", "libmp3lame", "-b:a", "64k", str(dst)],
                    check=True, capture_output=True)
-
-
-async def synth(voice: str, path: Path) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    # 速度は変えない(引き延ばすと短い音が歪むため)
-    tts = edge_tts.Communicate(TEXT, voice)
-    await tts.save(str(path))
 
 
 async def main() -> None:
@@ -137,24 +165,29 @@ async def main() -> None:
         whole = OUT / voice / "_all.mp3"
         print(f"{voice} …", end=" ", flush=True)
         try:
-            await synth(voice, whole)
+            marks = await synth(voice, whole)
         except Exception as e:  # noqa: BLE001
             print(f"生成失敗 ({e})")
             ng += 1
             continue
 
-        bounds, tried = find_bounds(whole)
+        total = duration(whole)
+        how = "タイムスタンプ"
+        bounds = bounds_from_marks(marks, total)
         if bounds is None:
-            print("区切りを見つけられませんでした。")
-            print("  試した条件: " + ", ".join(tried))
-            print(f"  この声は手動で確認してください: {whole}")
+            how = "無音検出"
+            bounds = bounds_from_silence(whole, total)
+        if bounds is None:
+            print(f"切り分けできませんでした(語の位置 {len(marks)} 個)。"
+                  f"手動で確認してください: {whole}")
             ng += 1
             continue
 
         for i, (s, e) in enumerate(bounds):
-            cut(whole, OUT / voice / f"{LETTERS[i]}.mp3", s - PAD, e + PAD)
+            cut(whole, OUT / voice / f"{LETTERS[i]}.mp3", s, e)
         whole.unlink(missing_ok=True)
-        print("OK")
+        lens = " ".join(f"{e - s:.2f}s" for s, e in bounds)
+        print(f"OK({how}: {lens})")
         ok += 1
 
     print(f"\n完了: 成功 {ok} 声 / 失敗 {ng} 声")
