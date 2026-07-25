@@ -402,8 +402,8 @@
 
   // 記号(A.〜D.)は説明文と別の発話にして、そこで一度切る。
   // 続けて読ませると記号の A が冠詞の a に潰れて「ア」に聞こえるため。
-  // 音声ファイルの前後には元々無音の余白があるので、ここは 0 でよい。
-  var LETTER_GAP = 0;
+  // 無音除去済みの mp3 を前提にした値(未処理なら 0 でよい)。
+  var LETTER_GAP = 250;
   function letterText(i) { return LETTERS[i] + "."; }
 
   function tasksPart1(items) {

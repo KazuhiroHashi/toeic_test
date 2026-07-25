@@ -33,8 +33,10 @@ ROOT = Path(__file__).resolve().parent.parent
 AUDIO = ROOT / "assets" / "audio"
 STATE = AUDIO / ".trimmed.json"
 
-KEEP = "0.03"        # 前後に残す無音(秒)。0 にすると語頭が欠けることがある
-THRESHOLD = "-45dB"  # これより小さい音を無音とみなす
+# 削りすぎると語頭・語尾が欠けて「かすれた」ように聞こえる。
+# 前後に残す無音を多めに取り、無音の判定も厳しめ(小さい音まで残す)にしている。
+KEEP = "0.12"        # 前後に残す無音(秒)
+THRESHOLD = "-55dB"  # これより小さい音だけを無音とみなす
 
 FILTER = (
     f"silenceremove=start_periods=1:start_duration=0:start_silence={KEEP}"
@@ -83,7 +85,7 @@ def trim(path: Path) -> tuple:
     tmp = path.with_suffix(".trim.mp3")
     before = path.stat().st_size
     cmd = [FFMPEG, "-y", "-loglevel", "error", "-i", str(path),
-           "-af", FILTER, "-codec:a", "libmp3lame", "-q:a", "4", str(tmp)]
+           "-af", FILTER, "-codec:a", "libmp3lame", "-b:a", "64k", str(tmp)]
     try:
         subprocess.run(cmd, check=True, capture_output=True)
     except subprocess.CalledProcessError as e:
@@ -102,6 +104,12 @@ def main() -> None:
 
     all_parts = "--all" in sys.argv
     dry = "--dry-run" in sys.argv
+
+    # --reset: 処理済みの記録を消す(音声を作り直したあと、もう一度刈り取りたいとき)
+    if "--reset" in sys.argv:
+        STATE.unlink(missing_ok=True)
+        print("処理済みの記録を消しました。次回は全ファイルが対象になります。")
+        return
 
     state = {}
     if STATE.exists():
