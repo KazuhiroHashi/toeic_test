@@ -15,8 +15,8 @@
 
 使うのは **edge-tts**(Microsoft のニューラル音声)。**完全無料・APIキー不要・課金設定なし**です。ChatGPT の契約や OpenAI API とは無関係なので、追加料金は一切かかりません。
 
-**所要時間:**準備5分 + 生成30〜60分(放置でOK)。
-**できるもの:**約1,928ファイル / 約160分 / 約56MB。
+**所要時間:**準備5分 + 生成40〜80分(放置でOK)。すでに作ってある分は自動でスキップされるので、実際に作られるのは未生成のクリップだけです。
+**できるもの:**約4,252ファイル / 約350分 / 約125MB。
 
 ---
 
@@ -97,8 +97,8 @@ python3 tools/generate_audio.py
 こう表示されて進みます。
 
 ```
-1928 クリップを生成します(既存はスキップ)…
-  431/1928  新規:431 スキップ:0 失敗:0
+4252 クリップを生成します(既存はスキップ)…
+  431/4252  新規:431 スキップ:0 失敗:0
 ```
 
 - **数字が増えていれば正常です。**30〜60分かかるので放置してください。
@@ -114,7 +114,7 @@ python3 tools/generate_audio.py
 find assets/audio -name '*.mp3' | wc -l
 ```
 
-`1928` と出れば完璧です。少なければ、もう一度 手順5 のコマンドを実行してください。
+`4252` と出れば完璧です。少なければ、もう一度 手順5 のコマンドを実行してください。
 
 ### 試しに聞いてみる
 
@@ -132,7 +132,7 @@ afplay assets/audio/s1/p1-01/0.mp3
 cd assets/audio/s1/p3-01 && for f in $(ls *.mp3 | sort -n); do afplay "$f"; done; cd -
 ```
 
-> **フォルダ名の決まり:**セット1は `p1-01` `p2-07` `p3-01` `p4-01` のようにセット番号が付きません。セット2〜6は `s2p1-01` のように頭にセット番号が付きます。
+> **フォルダ名の決まり:**セット1は `p1-01` `p2-07` `p3-01` `p4-01` のようにセット番号が付きません。セット2〜10は `s2p1-01` のように頭にセット番号が付きます。
 >
 > `Error: AudioFileOpen failed ('wht?')` は「そのファイルが無い」という意味です(壊れているのではなくパスの打ち間違い)。どれでもいいから1つ鳴らすには:
 >
@@ -240,9 +240,9 @@ rm -rf assets/audio/s3
 | `edge-tts が見つかりません` と出る | 手順3をやり直す。`python3 -m pip install --user edge-tts` も試す |
 | `No such file or directory: tools/generate_audio.py` | `toeic_test` フォルダの外にいる。`cd ~/Documents/toeic_test` してから再実行 |
 | 途中で `失敗:12` などと出る | 通信が一時的に切れただけ。同じコマンドをもう一度実行すれば失敗分だけ作り直す |
-| ずっと `0/1928` から進まない | ネット未接続、または社内プロキシでブロックされている。別回線(自宅Wi-Fi/テザリング)で試す |
+| ずっと `0/4252` から進まない | ネット未接続、または社内プロキシでブロックされている。別回線(自宅Wi-Fi/テザリング)で試す |
 | `git push` で `rejected` と出る | 先に `git pull origin main` してから、もう一度 push |
-| アプリを開いても合成音声のまま | mp3 が push できていない。`find assets/audio -name '*.mp3' \| wc -l` が 1928 か確認し、`git status` で未コミットが無いか見る |
+| アプリを開いても合成音声のまま | mp3 が push できていない。`find assets/audio -name '*.mp3' \| wc -l` が 4252 か確認し、`git status` で未コミットが無いか見る |
 | 生成が遅すぎる | `tools/generate_audio.py` の `CONCURRENCY = 4` を `8` に上げる(上げすぎると拒否されます) |
 | `afplay` で `AudioFileOpen failed ('wht?')` | ファイルが壊れているのではなく **そのパスが存在しない**。セット1のフォルダ名は `p1-01`(`s1p1-01` ではない)。`afplay "$(find assets/audio -name '0.mp3' \| head -1)"` なら確実に鳴ります |
 
@@ -255,7 +255,7 @@ cd ~/Documents/toeic_test
 git pull origin main
 pip3 install edge-tts
 python3 tools/generate_audio.py
-find assets/audio -name '*.mp3' | wc -l      # 1928 になればOK
+find assets/audio -name '*.mp3' | wc -l      # 4252 になればOK
 git add assets/audio && git commit -m "リスニング音声を追加" && git push origin main
 ```
 
