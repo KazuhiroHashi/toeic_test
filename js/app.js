@@ -85,6 +85,7 @@
     part5: { label: "Part 5 短文穴埋め", desc: "文法・語彙(リーディング)", listening: false },
     part6: { label: "Part 6 長文穴埋め", desc: "文書の空所を埋める(リーディング)", listening: false },
     part7: { label: "Part 7 読解問題", desc: "文書を読んで設問に答える(リーディング)", listening: false },
+    listening: { label: "リスニング模試(Part 1-4)", desc: "本番と同じ100問・通しで解答(音声は自動再生)", listening: true, autoPlay: true },
     reading: { label: "リーディング模試(Part 5-7)", desc: "本番と同じ100問・制限時間75分", listening: false, limit: 75 * 60 },
     mock: { label: "ミニ模試", desc: "Part 2〜7 からランダム出題", listening: true }
   };
@@ -386,6 +387,10 @@
       case "part2": return tasksPart2(DATA.part2);
       case "part3": return tasksSet(DATA.part3, "Part 3", PART_START.part3);
       case "part4": return tasksSet(DATA.part4, "Part 4", PART_START.part4);
+      case "listening": return tasksPart1(DATA.part1)
+        .concat(tasksPart2(DATA.part2))
+        .concat(tasksSet(DATA.part3, "Part 3", PART_START.part3))
+        .concat(tasksSet(DATA.part4, "Part 4", PART_START.part4));
       case "reading": return tasksPart5(DATA.part5)
         .concat(tasksPart6(DATA.part6))
         .concat(tasksPart7(DATA.part7));
@@ -444,7 +449,8 @@
       '<section class="menu-section">' +
       setSwitchHtml +
       "<h2>模試に挑戦</h2>" +
-      '<div class="menu-grid">' + card("mock", "mock") + card("reading", "mock") + "</div>" +
+      '<div class="menu-grid">' + card("listening", "mock") + card("reading", "mock") +
+      card("mock", "mock") + "</div>" +
       "<h2>リスニング(音声読み上げ)</h2>" +
       '<div class="menu-grid">' + card("part1") + card("part2") + card("part3") + card("part4") + "</div>" +
       "<h2>リーディング</h2>" +
@@ -752,6 +758,14 @@
         playBtn.disabled = false;
         playBtn.textContent = "▶ 音声を再生";
       });
+
+      // リスニング模試では、画面が出たら自動で再生を始める(本番と同じ流れ)。
+      // 「次へ」を押した操作が再生の許可になるので、スマホでも再生できる。
+      if (MODES[session.mode] && MODES[session.mode].autoPlay && audioFiles && audioFiles.length) {
+        setTimeout(function () {
+          if (!playBtn.disabled) playBtn.click();
+        }, 500);
+      }
     }
 
     // 選択肢は「印を付けるだけ」。正誤も解説もここでは出さない(本番と同じ)。
