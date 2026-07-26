@@ -19,7 +19,11 @@
     { id: "s3", name: "セット3", data: window.TOEIC_DATA_3 },
     { id: "s4", name: "セット4", data: window.TOEIC_DATA_4 },
     { id: "s5", name: "セット5", data: window.TOEIC_DATA_5 },
-    { id: "s6", name: "セット6", data: window.TOEIC_DATA_6 }
+    { id: "s6", name: "セット6", data: window.TOEIC_DATA_6 },
+    { id: "s7", name: "セット7(上級)", data: window.TOEIC_DATA_7 },
+    { id: "s8", name: "セット8(上級)", data: window.TOEIC_DATA_8 },
+    { id: "s9", name: "セット9(上級)", data: window.TOEIC_DATA_9 },
+    { id: "s10", name: "セット10(上級)", data: window.TOEIC_DATA_10 }
   ].forEach(function (s) {
     if (s.data && s.data.part7) SETS.push({ id: s.id, name: s.name, data: s.data });
   });
@@ -35,7 +39,12 @@
     "1bo82nr": ["s4"],
     "hhek08": ["s5"],
     "d0deqg": ["s6"],
-    "1o2kktt": ["s2", "s3", "s4", "s5", "s6"]   // まとめ買い用
+    "1o2kktt": ["s2", "s3", "s4", "s5", "s6"],   // 標準5セットまとめ買い
+    "1309qvg": ["s7"],
+    "jeq5os": ["s8"],
+    "1cyod5q": ["s9"],
+    "16zyu8u": ["s10"],
+    "sni6qk": ["s7", "s8", "s9", "s10"]   // 上級4セットまとめ買い
   };
 
   function codeHash(str) {
