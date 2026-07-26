@@ -23,20 +23,17 @@ function tryEval(rel) {
   try { eval(fs.readFileSync(path.join(ROOT, rel), "utf8")); return true; }
   catch (e) { return false; }
 }
-// セット1(data/partN.js)+ セット2〜6(data/setK/partN.js)を読み込む
+// セット1(data/partN.js)+ セット2〜10(data/setK/partN.js)を読み込む
 ["part1", "part2", "part3", "part4"].forEach(function (p) { tryEval("data/" + p + ".js"); });
-for (var k = 2; k <= 6; k++) {
+for (var k = 2; k <= 10; k++) {
   ["part1", "part2", "part3", "part4"].forEach(function (p) { tryEval("data/set" + k + "/" + p + ".js"); });
 }
 // リスニング音声を作る対象セット(part1〜4が揃っているものだけ)
-var SET_SOURCES = [
-  { id: "s1", data: global.window.TOEIC_DATA },
-  { id: "s2", data: global.window.TOEIC_DATA_2 },
-  { id: "s3", data: global.window.TOEIC_DATA_3 },
-  { id: "s4", data: global.window.TOEIC_DATA_4 },
-  { id: "s5", data: global.window.TOEIC_DATA_5 },
-  { id: "s6", data: global.window.TOEIC_DATA_6 }
-].filter(function (s) {
+var SET_SOURCES = [{ id: "s1", data: global.window.TOEIC_DATA }];
+for (var k = 2; k <= 10; k++) {
+  SET_SOURCES.push({ id: "s" + k, data: global.window["TOEIC_DATA_" + k] });
+}
+SET_SOURCES = SET_SOURCES.filter(function (s) {
   return s.data && s.data.part1 && s.data.part2 && s.data.part3 && s.data.part4;
 });
 
