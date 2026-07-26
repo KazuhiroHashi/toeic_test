@@ -6,14 +6,14 @@ window.TOEIC_DATA_9.part1 = [
     "image": "assets/part1/s9-01.jpg",
     "speaker": "M",
     "choices": [
-      "A visitor is studying a painting.",
-      "Some frames are being taken down from a wall.",
-      "Several paintings have been hung on the walls.",
-      "A bench is being moved to the center of the room."
+      "An umbrella is being placed into a stand.",
+      "A door is being propped open.",
+      "Some umbrellas have been left in a stand near an entrance.",
+      "A visitor is shaking water off an umbrella."
     ],
     "answer": 2,
-    "translation": "(A) 来館者が絵画をじっくり見ています。\n(B) いくつかの額が壁から外されているところです。\n(C) 数点の絵画が壁に掛けられています。\n(D) ベンチが部屋の中央へ動かされているところです。",
-    "explanation": "人が一人も写っていない画廊の写真。白い壁に額入りの絵が並び、中央に木のベンチが置かれている。正解(C)の『have been hung』は、掛け終わった『状態』を表す受動態で、動作主が写っていなくても成立する。(B)(D)の『being 過去分詞』は『今まさに誰かが外している/動かしている』という進行中の受動態なので、動かしている人がいない無人写真では使えない。(A)は人の動作で誤り。無人写真で問われるのは、この『being 過去分詞』と『have been 過去分詞』の区別。"
+    "translation": "(A) 傘が傘立てに入れられているところです。\n(B) ドアが開けたままにされているところです。\n(C) 何本かの傘が入口近くの傘立てに置かれたままになっています。\n(D) 来訪者が傘の水を払っています。",
+    "explanation": "人が一人も写っていない建物の入口。傘立てに傘が数本挿さったままの『状態』=(C)の『have been left』が正解。(A)(B)はいずれも『being 過去分詞』で『今まさに誰かが入れている/開けたままにしている』という進行中の受動態を表すが、動作をする人が写っていないので成立しない。(D)も人の動作なので誤り。『left』は『置き忘れられた』ではなく『置かれたままの状態』を指す点にも注意。"
   },
   {
     "id": "s9p1-02",
@@ -48,14 +48,14 @@ window.TOEIC_DATA_9.part1 = [
     "image": "assets/part1/s9-04.jpg",
     "speaker": "W",
     "choices": [
-      "Workers are directing traffic around a lane.",
-      "Some cones have been placed along a lane.",
-      "A road surface is being repaved.",
-      "A barrier is being pushed onto the sidewalk."
+      "A forklift is being driven toward a doorway.",
+      "Some crates have been stacked beside a loading door.",
+      "Cartons are being lifted onto a pallet.",
+      "A shutter is being rolled down."
     ],
     "answer": 1,
-    "translation": "(A) 作業員が車線の周りで交通整理をしています。\n(B) コーンが車線に沿って置かれています。\n(C) 路面が舗装し直されているところです。\n(D) 柵が歩道へ押し出されているところです。",
-    "explanation": "作業員も車もいない道路の写真。オレンジ色の三角コーンが一列に並び、車線が仕切られた『状態』=(B)の『have been placed』が正解。(A)は人の動作で、写真に人がいないため誤り。(C)(D)の『being 過去分詞』は進行中の作業を表すが、舗装する機械も柵を動かす人も写っていない。工事現場という場面から人の作業を連想させる、無人写真の典型的なひっかけ。"
+    "translation": "(A) フォークリフトが戸口へ向けて運転されているところです。\n(B) 木箱が搬入口の脇に積み重ねられています。\n(C) 段ボール箱がパレットに積み上げられているところです。\n(D) シャッターが下ろされているところです。",
+    "explanation": "作業員のいない倉庫の搬入口。木箱が壁際に積まれた『状態』=(B)の『have been stacked』が正解。(A)(C)(D)はいずれも『being 過去分詞』で進行中の動作を表すが、運転する人も積み上げる人も写っていない。奥にフォークリフトが停まっているのが(A)のひっかけで、『そこに在る』ことと『運転されている最中』は別物。倉庫という場面から作業の動作を連想させる、無人写真の典型的な誤答構成。"
   },
   {
     "id": "s9p1-05",

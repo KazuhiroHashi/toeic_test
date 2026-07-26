@@ -50,41 +50,41 @@ window.TOEIC_DATA_8.part1 = [
     "image": "assets/part1/s8-04.jpg",
     "speaker": "W",
     "choices": [
-      "A boat is being lifted out of the water.",
-      "Passengers are boarding a ferry.",
-      "Fishing nets are being repaired.",
-      "Several boats have been tied up along a dock."
+      "A tool is being handed to an assistant.",
+      "Some tools have been laid out on a workbench.",
+      "A drawer is being pulled open.",
+      "A workbench is being wiped down."
     ],
-    "answer": 3,
-    "translation": "(A) ボートが水から引き上げられているところです。\n(B) 乗客がフェリーに乗り込んでいます。\n(C) 漁網が修理されているところです。\n(D) 数隻のボートが桟橋沿いにつながれています。",
-    "explanation": "早朝の無人の船着き場。小型ボートが桟橋の杭にロープでつながれた『状態』=have been tied up。人が写っていないので(B)の乗客の動作は誤り。(A)(C)はいずれも being+過去分詞で『今まさに引き上げている/修理している進行中の動作』を表し、作業する人が必要だが誰もいないので誤り。桟橋には漁網が置かれているが、置かれているだけである点がひっかけ。"
+    "answer": 1,
+    "translation": "(A) 工具が助手に手渡されているところです。\n(B) 工具が作業台の上に並べられています。\n(C) 引き出しが引き開けられているところです。\n(D) 作業台が拭かれているところです。",
+    "explanation": "人が一人も写っていない作業場の写真。木製の作業台の上にレンチやドライバーが等間隔で並んだ『状態』=(B)の『have been laid out』が正解。(A)(C)(D)はいずれも『being 過去分詞』で『今まさに誰かが手渡している/引き開けている/拭いている』という進行中の受動態を表すが、動作をする人が写っていないので成立しない。無人写真では、この『being 過去分詞』(進行中)と『have been 過去分詞』(状態)の区別がそのまま得点差になる。"
   },
   {
     "id": "s8p1-05",
     "image": "assets/part1/s8-05.jpg",
     "speaker": "M",
     "choices": [
-      "A painting is being taken down from a wall.",
-      "Visitors are handing over their tickets.",
-      "Some artwork has been mounted along a wall.",
-      "A group is being led through a doorway."
+      "Two men are lifting a piece of furniture.",
+      "A cabinet is being assembled on the floor.",
+      "One of the men is measuring a doorway.",
+      "Some furniture has been covered with sheets."
     ],
-    "answer": 2,
-    "translation": "(A) 絵が壁から外されているところです。\n(B) 来館者がチケットを手渡しています。\n(C) 作品が壁に沿って掛けられています。\n(D) 団体が出入口を通って案内されているところです。",
-    "explanation": "美術館の展示室で、数人の来館者が絵の前に立って眺めている。人は写っているが、正解が述べているのは『作品が壁に掛かっている状態』=has been mounted。人が写っている写真でも、正解が物の状態を述べることがある点が上級のポイント。(A)(D)は being+過去分詞で進行中の動作を表すが、絵を外している人も、案内している係員もいない。チケットを手渡す動作もしていないので(B)も誤り。"
+    "answer": 0,
+    "translation": "(A) 男性2人が家具を持ち上げています。\n(B) キャビネットが床で組み立てられているところです。\n(C) 男性の1人が戸口を測っています。\n(D) 家具にシートがかけられています。",
+    "explanation": "男性2人が向かい合い、両端を持って戸棚を床から持ち上げている=(A)の『are lifting』が正解。写っているのは持ち上げる動作だけなので、組み立てる(B)・測る(C)は誤り。(D)の『has been covered』は覆われた『状態』を表すが、家具はむき出しのまま運ばれているので誤り。複数人の写真では『何人が』『それぞれ何をしているか』を音声が読み上げる前に見ておくと取りこぼしが減る。"
   },
   {
     "id": "s8p1-06",
     "image": "assets/part1/s8-06.jpg",
     "speaker": "W",
     "choices": [
-      "She is stacking books on a cart.",
-      "She is reaching for an item on an upper shelf.",
-      "A shelf is being installed against the wall.",
-      "She is paying for a purchase at the counter."
+      "She is adjusting a microphone stand.",
+      "She is unrolling a cable across the stage.",
+      "A speaker is being mounted on a pole.",
+      "She is stepping down from a platform."
     ],
-    "answer": 1,
-    "translation": "(A) 女性がカートに本を積み重ねています。\n(B) 女性が上段の棚にある物に手を伸ばしています。\n(C) 棚が壁に取り付けられているところです。\n(D) 女性がカウンターで買い物の支払いをしています。",
-    "explanation": "書店で女性が腕を上げ、高い棚の本に手を伸ばしている=reaching for an item on an upper shelf。正解では book ではなく an item と言い換えられている点に注意。手前にカートはあるが本を積んではいないので(A)は誤り。(C)は being+過去分詞で『今まさに取り付けている進行中の動作』を表すが、棚は既に設置済みで作業員もいない。レジには近づいていないので(D)も誤り。"
+    "answer": 0,
+    "translation": "(A) 女性がマイクスタンドの高さを調節しています。\n(B) 女性がステージ上でケーブルを伸ばしています。\n(C) スピーカーが支柱に取り付けられているところです。\n(D) 女性が壇から降りようとしています。",
+    "explanation": "女性が両手でマイクスタンドの支柱を握り、高さを合わせている=(A)の『adjusting』が正解。足元にケーブルは見えるが女性は触れていないので(B)は誤り。(C)は『being 過去分詞』で『今まさに取り付けている最中』を表すが、スピーカーはすでに設置済みで作業する人もいない。女性は壇上に立ったままなので(D)も誤り。会場設営という場面から連想される動作を並べたひっかけ。"
   }
 ];

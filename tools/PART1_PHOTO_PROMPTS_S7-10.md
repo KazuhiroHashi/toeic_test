@@ -178,54 +178,54 @@ Requirements:
 
 ## s8-04.png
 
-**写す場面:** Several boats have been tied up along a dock.
+**写す場面:** Some tools have been laid out on a workbench.
 
 ```text
 Create a realistic black-and-white photograph for a TOEIC Part 1 listening test.
-Scene: Several boats have been tied up along a dock.
+Scene: Some tools have been laid out on a workbench.
 Requirements:
 - Photorealistic, natural lighting, everyday business or daily-life setting.
 - The action must be clearly visible and unambiguous.
-- Do NOT show any of these (they are the wrong answers): A boat is being lifted out of the water. / Passengers are boarding a ferry. / Fishing nets are being repaired.
+- Do NOT show any of these (they are the wrong answers): A tool is being handed to an assistant. / A drawer is being pulled open. / A workbench is being wiped down.
 - No text, no logos, no watermarks in the image.
 - Horizontal (4:3) composition, monochrome.
 ```
 
-**写さないもの(誤答):** A boat is being lifted out of the water. / Passengers are boarding a ferry. / Fishing nets are being repaired.
+**写さないもの(誤答):** A tool is being handed to an assistant. / A drawer is being pulled open. / A workbench is being wiped down.
 
 ## s8-05.png
 
-**写す場面:** Some artwork has been mounted along a wall.
+**写す場面:** Two men are lifting a piece of furniture.
 
 ```text
 Create a realistic black-and-white photograph for a TOEIC Part 1 listening test.
-Scene: Some artwork has been mounted along a wall.
+Scene: Two men are lifting a piece of furniture.
 Requirements:
 - Photorealistic, natural lighting, everyday business or daily-life setting.
 - The action must be clearly visible and unambiguous.
-- Do NOT show any of these (they are the wrong answers): A painting is being taken down from a wall. / Visitors are handing over their tickets. / A group is being led through a doorway.
+- Do NOT show any of these (they are the wrong answers): A cabinet is being assembled on the floor. / One of the men is measuring a doorway. / Some furniture has been covered with sheets.
 - No text, no logos, no watermarks in the image.
 - Horizontal (4:3) composition, monochrome.
 ```
 
-**写さないもの(誤答):** A painting is being taken down from a wall. / Visitors are handing over their tickets. / A group is being led through a doorway.
+**写さないもの(誤答):** A cabinet is being assembled on the floor. / One of the men is measuring a doorway. / Some furniture has been covered with sheets.
 
 ## s8-06.png
 
-**写す場面:** She is reaching for an item on an upper shelf.
+**写す場面:** She is adjusting a microphone stand.
 
 ```text
 Create a realistic black-and-white photograph for a TOEIC Part 1 listening test.
-Scene: She is reaching for an item on an upper shelf.
+Scene: She is adjusting a microphone stand.
 Requirements:
 - Photorealistic, natural lighting, everyday business or daily-life setting.
 - The action must be clearly visible and unambiguous.
-- Do NOT show any of these (they are the wrong answers): She is stacking books on a cart. / A shelf is being installed against the wall. / She is paying for a purchase at the counter.
+- Do NOT show any of these (they are the wrong answers): She is unrolling a cable across the stage. / A speaker is being mounted on a pole. / She is stepping down from a platform.
 - No text, no logos, no watermarks in the image.
 - Horizontal (4:3) composition, monochrome.
 ```
 
-**写さないもの(誤答):** She is stacking books on a cart. / A shelf is being installed against the wall. / She is paying for a purchase at the counter.
+**写さないもの(誤答):** She is unrolling a cable across the stage. / A speaker is being mounted on a pole. / She is stepping down from a platform.
 
 ---
 
@@ -233,20 +233,20 @@ Requirements:
 
 ## s9-01.png
 
-**写す場面:** Several paintings have been hung on the walls.
+**写す場面:** Some umbrellas have been left in a stand near an entrance.
 
 ```text
 Create a realistic black-and-white photograph for a TOEIC Part 1 listening test.
-Scene: Several paintings have been hung on the walls.
+Scene: Some umbrellas have been left in a stand near an entrance.
 Requirements:
 - Photorealistic, natural lighting, everyday business or daily-life setting.
 - The action must be clearly visible and unambiguous.
-- Do NOT show any of these (they are the wrong answers): A visitor is studying a painting. / Some frames are being taken down from a wall. / A bench is being moved to the center of the room.
+- Do NOT show any of these (they are the wrong answers): An umbrella is being placed into a stand. / A door is being propped open. / A visitor is shaking water off an umbrella.
 - No text, no logos, no watermarks in the image.
 - Horizontal (4:3) composition, monochrome.
 ```
 
-**写さないもの(誤答):** A visitor is studying a painting. / Some frames are being taken down from a wall. / A bench is being moved to the center of the room.
+**写さないもの(誤答):** An umbrella is being placed into a stand. / A door is being propped open. / A visitor is shaking water off an umbrella.
 
 ## s9-02.png
 
@@ -284,20 +284,20 @@ Requirements:
 
 ## s9-04.png
 
-**写す場面:** Some cones have been placed along a lane.
+**写す場面:** Some crates have been stacked beside a loading door.
 
 ```text
 Create a realistic black-and-white photograph for a TOEIC Part 1 listening test.
-Scene: Some cones have been placed along a lane.
+Scene: Some crates have been stacked beside a loading door.
 Requirements:
 - Photorealistic, natural lighting, everyday business or daily-life setting.
 - The action must be clearly visible and unambiguous.
-- Do NOT show any of these (they are the wrong answers): Workers are directing traffic around a lane. / A road surface is being repaved. / A barrier is being pushed onto the sidewalk.
+- Do NOT show any of these (they are the wrong answers): A forklift is being driven toward a doorway. / Cartons are being lifted onto a pallet. / A shutter is being rolled down.
 - No text, no logos, no watermarks in the image.
 - Horizontal (4:3) composition, monochrome.
 ```
 
-**写さないもの(誤答):** Workers are directing traffic around a lane. / A road surface is being repaved. / A barrier is being pushed onto the sidewalk.
+**写さないもの(誤答):** A forklift is being driven toward a doorway. / Cartons are being lifted onto a pallet. / A shutter is being rolled down.
 
 ## s9-05.png
 
