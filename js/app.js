@@ -481,9 +481,29 @@
         '<div class="set-tabs">' + setTabs + "</div></div>";
     }
 
+    var saved = loadProgress();
+    var resumeHtml = "";
+    if (saved) {
+      var doneN = 0, totalN = 0;
+      saved.answers.forEach(function (a) {
+        a.forEach(function (v) { totalN += 1; if (v !== null) doneN += 1; });
+      });
+      var setName = "";
+      SETS.forEach(function (x) { if (x.id === saved.setId) setName = x.name; });
+      resumeHtml = '<div class="resume-box">' +
+        '<div class="resume-title">解答の途中です</div>' +
+        '<div class="resume-desc">' + esc(setName) + " / " + esc(MODES[saved.mode].label) +
+        " — " + doneN + " / " + totalN + "問まで解答済み</div>" +
+        '<div class="resume-actions">' +
+        '<button class="next-btn" id="resumeGo">続きから再開する</button>' +
+        '<button class="secondary-btn" id="resumeDrop">やめる</button>' +
+        "</div></div>";
+    }
+
     app.innerHTML =
       '<section class="menu-section">' +
       setSwitchHtml +
+      resumeHtml +
       "<h2>模試に挑戦</h2>" +
       '<div class="menu-grid">' + card("listening", "mock") + card("reading", "mock") +
       card("mock", "mock") + "</div>" +
@@ -507,6 +527,14 @@
       btn.addEventListener("click", function () { startQuiz(btn.getAttribute("data-mode")); });
     });
     document.getElementById("pick-quiz").addEventListener("click", showPicker);
+    var goBtn = document.getElementById("resumeGo");
+    if (goBtn) goBtn.addEventListener("click", function () { resumeProgress(saved); });
+    var dropBtn = document.getElementById("resumeDrop");
+    if (dropBtn) {
+      dropBtn.addEventListener("click", function () {
+        if (confirm("途中の解答を破棄しますか?")) { clearProgress(); showHome(); }
+      });
+    }
     var codeBtn = document.getElementById("enterCode");
     if (codeBtn) codeBtn.addEventListener("click", function () { askCode(null); });
     app.querySelectorAll(".set-tab").forEach(function (btn) {
@@ -642,6 +670,90 @@
     showHome();
   }
 
+  /* ---------------- 解答の途中保存 ----------------
+     スマホは裏に回すとタブごと破棄されることがある。100問の途中で消えると
+     やり直しになるため、解答するたびに端末へ保存し、次に開いたとき再開できるようにする。 */
+
+  var SAVE_KEY = "toeic_progress_v1";
+
+  // タスクを一意に識別する鍵(最初の設問のid)
+  function taskKey(t) { return t.questions && t.questions[0] ? t.questions[0].id : ""; }
+
+  function saveProgress() {
+    if (!session) return;
+    try {
+      localStorage.setItem(SAVE_KEY, JSON.stringify({
+        setId: SETS[activeSetIdx].id,
+        mode: session.mode,
+        custom: session.custom,
+        taskKeys: session.tasks.map(taskKey),
+        answers: session.answers,
+        taskIndex: session.taskIndex,
+        endAt: session.endAt,
+        savedAt: Date.now()
+      }));
+    } catch (e) { /* 保存できない環境では黙って続行 */ }
+  }
+
+  function clearProgress() {
+    try { localStorage.removeItem(SAVE_KEY); } catch (e) { /* ignore */ }
+  }
+
+  function loadProgress() {
+    try {
+      var d = JSON.parse(localStorage.getItem(SAVE_KEY));
+      if (!d || !d.mode || !MODES[d.mode] || !d.taskKeys || !d.taskKeys.length) return null;
+      // 解放されていないセットの続きは出さない
+      if (!isUnlocked(d.setId)) return null;
+      return d;
+    } catch (e) { return null; }
+  }
+
+  // そのセットの全タスクを鍵で引けるようにする(再開時の復元用)
+  function allTasksByKey() {
+    var DATA = activeData();
+    var all = [].concat(
+      DATA.part1 ? tasksPart1(DATA.part1) : [],
+      DATA.part2 ? tasksPart2(DATA.part2) : [],
+      DATA.part3 ? tasksSet(DATA.part3, "Part 3", PART_START.part3) : [],
+      DATA.part4 ? tasksSet(DATA.part4, "Part 4", PART_START.part4) : [],
+      DATA.part5 ? tasksPart5(DATA.part5) : [],
+      DATA.part6 ? tasksPart6(DATA.part6) : [],
+      DATA.part7 ? tasksPart7(DATA.part7) : []
+    );
+    var map = {};
+    all.forEach(function (t) { map[taskKey(t)] = t; });
+    return map;
+  }
+
+  function resumeProgress(d) {
+    // 保存時のセットに切り替える
+    for (var i = 0; i < SETS.length; i++) {
+      if (SETS[i].id === d.setId) { activeSetIdx = i; break; }
+    }
+    var map = allTasksByKey();
+    var tasks = d.taskKeys.map(function (k) { return map[k]; });
+    if (tasks.some(function (t) { return !t; })) {   // 問題が入れ替わっていた場合
+      clearProgress();
+      alert("問題が更新されていたため、続きから再開できませんでした。最初からやり直してください。");
+      showHome();
+      return;
+    }
+    session = {
+      mode: d.mode,
+      custom: d.custom,
+      label: MODES[d.mode].label + (d.custom ? "(選択)" : ""),
+      tasks: tasks,
+      taskIndex: Math.min(d.taskIndex || 0, tasks.length - 1),
+      answers: d.answers
+    };
+    session.total = countQuestions(tasks);
+    var acc = 0;
+    session.offsets = tasks.map(function (t) { var o = acc; acc += t.questions.length; return o; });
+    session.endAt = d.endAt || null;
+    renderTask();
+  }
+
   /* ---------------- 画面:出題 ---------------- */
 
   var session = null;
@@ -669,6 +781,7 @@
     session.offsets = tasks.map(function (t) { var o = acc; acc += t.questions.length; return o; });
     var limit = MODES[mode].limit;
     session.endAt = (limit && !custom) ? Date.now() + limit * 1000 : null;
+    saveProgress();
     renderTask();
   }
 
@@ -760,7 +873,9 @@
     }
 
     document.getElementById("quit").addEventListener("click", function () {
-      if (confirm("中断してホームに戻りますか?(このセッションの結果は保存されません)")) { stopTimer(); showHome(); }
+      if (confirm("中断してホームに戻りますか?(解答の途中経過は保存され、次に開いたとき続きから再開できます)")) {
+        saveProgress(); stopTimer(); showHome();
+      }
     });
 
     if (t.listening) {
@@ -815,6 +930,7 @@
           b.classList.toggle("selected",
             parseInt(b.getAttribute("data-ci"), 10) === myAnswers[qi]);
         });
+        saveProgress();
       });
     });
 
@@ -822,6 +938,7 @@
     if (prevBtn) {
       prevBtn.addEventListener("click", function () {
         session.taskIndex -= 1;
+        saveProgress();
         renderTask();
       });
     }
@@ -832,6 +949,7 @@
         showResult();
       } else {
         session.taskIndex += 1;
+        saveProgress();
         renderTask();
       }
     });
@@ -877,9 +995,49 @@
 
   /* ---------------- 画面:結果 ---------------- */
 
+  /* ---------------- 予想スコア換算 ----------------
+     TOEIC L&R は各セクション5〜495点、合計10〜990点。
+     正答数から換算する公式表は非公開のため、一般に知られている目安表を線形補間して使う。
+     あくまで参考値であり、実際のスコアを保証するものではない。 */
+
+  var SCORE_TABLE = {
+    listening: [[0, 5], [10, 60], [20, 115], [30, 170], [40, 225], [50, 275],
+                [60, 330], [70, 385], [80, 430], [90, 470], [95, 485], [100, 495]],
+    reading: [[0, 5], [10, 45], [20, 90], [30, 140], [40, 195], [50, 245],
+              [60, 300], [70, 355], [80, 410], [90, 455], [95, 475], [100, 495]]
+  };
+
+  // 正答数(0〜100)から目安スコアを出す。5点刻みに丸める。
+  function estimateScore(kind, correct) {
+    var tbl = SCORE_TABLE[kind];
+    var n = Math.max(0, Math.min(100, correct));
+    for (var i = 0; i < tbl.length - 1; i++) {
+      var a = tbl[i], b = tbl[i + 1];
+      if (n >= a[0] && n <= b[0]) {
+        var ratio = (n - a[0]) / (b[0] - a[0]);
+        return Math.round((a[1] + (b[1] - a[1]) * ratio) / 5) * 5;
+      }
+    }
+    return tbl[tbl.length - 1][1];
+  }
+
+  // セクションごとの正答数を数える(Part 1-4=リスニング / Part 5-7=リーディング)
+  function sectionScores() {
+    var L = { correct: 0, total: 0 }, R = { correct: 0, total: 0 };
+    session.tasks.forEach(function (t, ti) {
+      var box = /Part [1-4]/.test(t.part) ? L : R;
+      t.questions.forEach(function (q, qi) {
+        box.total += 1;
+        if (session.answers[ti][qi] === q.answer) box.correct += 1;
+      });
+    });
+    return { L: L, R: R };
+  }
+
   function showResult() {
     speech.stop();
     stopTimer();
+    clearProgress();
 
     var correct = 0, total = 0, blank = 0;
     session.tasks.forEach(function (t, ti) {
@@ -900,11 +1058,32 @@
     else if (rate >= 60) msg = "合格圏まであと少し。解説を読んで、もう一度挑戦しましょう。";
     else msg = "まずは解説をじっくり読み、同じ問題をもう一度解いてみましょう。";
 
+    // 予想スコア(セクションが一定数そろっているときだけ出す)
+    var sc = sectionScores();
+    var scoreHtml = "";
+    var lOk = sc.L.total >= 20, rOk = sc.R.total >= 20;
+    if (lOk || rOk) {
+      var lPt = lOk ? estimateScore("listening", Math.round(sc.L.correct / sc.L.total * 100)) : null;
+      var rPt = rOk ? estimateScore("reading", Math.round(sc.R.correct / sc.R.total * 100)) : null;
+      var rows = "";
+      if (lOk) rows += '<div class="sc-row"><span>リスニング</span><b>' + lPt + "</b><small>" +
+        sc.L.correct + "/" + sc.L.total + "問正解</small></div>";
+      if (rOk) rows += '<div class="sc-row"><span>リーディング</span><b>' + rPt + "</b><small>" +
+        sc.R.correct + "/" + sc.R.total + "問正解</small></div>";
+      if (lOk && rOk) rows += '<div class="sc-row total"><span>合計</span><b>' + (lPt + rPt) + "</b><small>990点満点</small></div>";
+      var partial = (lOk && sc.L.total < 100) || (rOk && sc.R.total < 100);
+      scoreHtml = '<div class="score-box"><div class="score-title">予想スコア(目安)</div>' + rows +
+        '<div class="score-note">正答率から換算した参考値です' +
+        (partial ? "(100問未満のため誤差が大きくなります)" : "") +
+        "。実際のスコアを保証するものではありません。</div></div>";
+    }
+
     var html = '<div class="result-card">' +
       "<h2>" + esc(session.label) + " の結果</h2>" +
       '<div class="result-score">' + correct + " / " + total + "</div>" +
       '<div class="result-rate">正答率 ' + rate + "%" +
       (blank ? "(未解答 " + blank + "問)" : "") + "</div>" +
+      scoreHtml +
       '<div class="result-msg">' + esc(msg) + "</div>" +
       '<div class="result-actions">' +
       '<button class="next-btn" id="retry">もう一度挑戦</button>' +
