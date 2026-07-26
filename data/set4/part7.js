@@ -175,13 +175,13 @@ window.TOEIC_DATA_4.part7 = [
       {
         "q": "What will the management do if the work ends early?",
         "choices": [
-          "Reopen only the third-floor restrooms",
+          "Reopen the restrooms ahead of schedule",
           "Extend the office's hours",
           "Notify tenants by e-mail",
           "Refund part of the rent"
         ],
         "answer": 2,
-        "explanation": "If the work finishes early, we will send an all-clear notice by e-mail(早く終われば解除をメール通知)が根拠。"
+        "explanation": "If the work finishes early, we will send an all-clear notice by e-mail(早く終われば解除をメール通知)が根拠。(A)は『予定より早く再開する』で本文に記載がない。"
       }
     ]
   },

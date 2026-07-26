@@ -334,26 +334,26 @@ window.__FRAG = [
         "explanation": "『同じ修理でもある店では3日、別の店では9日』という担当者判断のばらつきが問題として挙げられている。(B)は complaints をそのまま使ったひっかけで、苦情の中身は仕上がりの遅れであって修理の品質ではない。伝票の紛失(C)や価格差(D)には触れていない。"
       },
       {
-        "q": "What is suggested about the four bands?",
+        "q": "What is suggested about a repair that does not appear on the chart?",
         "choices": [
-          "They are chosen according to how busy the branch is.",
-          "They cover every repair the company offers.",
-          "They are set by the workshop each morning.",
-          "They give the same repair the same date everywhere."
+          "It cannot be accepted at the counter.",
+          "It goes automatically into the fourteen-day band.",
+          "Its band is decided by the branch manager.",
+          "The customer is given a date later the same day."
         ],
         "answer": 3,
-        "explanation": "『区分は作業の種類によって決まる』ため、どの店でも同じ修理は同じ日数になる。これが店ごとのばらつきを解消する仕組み。(A)は how busy the branch という本文の語句をそのまま含むが、否定されている内容。(B)は『一覧にない修理』の手順が示されているので誤り。"
+        "explanation": "一覧にない修理は『追ってご連絡』と書き、工房に電話し、その日の午後のうちにお客様へ日付を連絡する、とある。つまり同じ日のうちに日付が伝えられる。(B)は fourteen days、(C)は branch manager という本文の語句をそのまま使ったひっかけで、店長が受け取るのは一覧表であり区分を決める役ではない。"
       },
       {
         "q": "What are counter staff instructed to stop doing?",
         "choices": [
           "Suggesting that work may be finished early",
-          "Telephoning the workshop about unlisted repairs",
+          "Recording the type of work on the ticket",
           "Writing a collection date on the ticket",
           "Displaying the chart on the counter mat"
         ],
         "answer": 0,
-        "explanation": "『たぶんもっと早く仕上がりますと言うのをやめる』が根拠。(B)は一覧にない修理では『工房に電話する』よう指示されているので逆。(C)(D)も本文の語句をそのまま使ったひっかけで、引き取り日は新しい伝票で引き続き伝え、一覧表はカウンターに置く。"
+        "explanation": "『たぶんもっと早く仕上がりますと言うのをやめてください』が根拠で、早く仕上がると匂わせる言い方を禁じている。(C)(D)は本文の語句をそのまま使ったひっかけで、引き取り日は新しい伝票で引き続き伝え、一覧表はカウンターマットに置く。(B)も作業の種類は区分の判断根拠なので記録は必要。"
       }
     ]
   },

@@ -5,10 +5,11 @@
 #
 # やること(この順番):
 #   1. GitHub の最新を取り込む(rebase)
-#   2. 音声の一覧を作り直す
-#   3. 足りない音声だけを生成する
-#   4. 出題に必要な音声がそろっているか検査する ← ここで落ちたら push しない
-#   5. コミットして push する
+#   2. 問題データを検査する(問題数・id・解説・題材の重複・答えの漏れ)
+#   3. 音声の一覧を作り直す
+#   4. 足りない音声だけを生成する
+#   5. 出題に必要な音声がそろっているか検査する ← ここで落ちたら push しない
+#   6. コミットして push する
 #
 # 途中で失敗したら、その場で止まって理由を表示します。
 # もう一度同じコマンドを実行すれば、続きから進みます。
@@ -22,7 +23,7 @@ PY=/usr/bin/python3
 step() { echo ""; echo "════ $1 ════"; }
 die()  { echo ""; echo "✗ $1"; exit 1; }
 
-step "1/5 GitHub の最新を取り込む"
+step "1/6 GitHub の最新を取り込む"
 # 手元に未コミットの変更があると rebase できないので、先に退避する
 STASHED=no
 if ! git diff --quiet || ! git diff --cached --quiet; then
@@ -38,16 +39,25 @@ if [ "$STASHED" = yes ]; then
   echo "退避した変更を戻しました。"
 fi
 
-step "2/5 音声の一覧を作り直す"
+step "2/6 問題データを検査する"
+node tools/check_integrity.js || die "問題データに不備があります。上の行を見てください。"
+echo ""
+echo "-- 題材の重複(参考) --"
+node tools/check_duplicates.js | tail -5
+echo ""
+echo "-- 答えの漏れ(参考) --"
+node tools/check_leak.js | tail -5
+
+step "3/6 音声の一覧を作り直す"
 node tools/build_audio_manifest.js || die "一覧の作成に失敗しました。"
 
-step "3/5 足りない音声を作る(数分かかることがあります)"
+step "4/6 足りない音声を作る(数分かかることがあります)"
 "$PY" tools/generate_audio.py || die "音声の生成に失敗しました。もう一度実行すれば続きから進みます。"
 
-step "4/5 音声がそろっているか検査"
+step "5/6 音声がそろっているか検査"
 node tools/check_audio.js || die "音声が足りません。上の一覧を見て、もう一度実行してください。"
 
-step "5/5 GitHub へ反映"
+step "6/6 GitHub へ反映"
 git add -A
 if git diff --cached --quiet; then
   echo "変更はありません。"
