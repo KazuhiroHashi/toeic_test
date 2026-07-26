@@ -87,7 +87,7 @@
     part7: { label: "Part 7 読解問題", desc: "文書を読んで設問に答える(リーディング)", listening: false },
     listening: { label: "リスニング模試(Part 1-4)", desc: "本番と同じ100問・通しで解答(音声は自動再生)", listening: true, autoPlay: true },
     reading: { label: "リーディング模試(Part 5-7)", desc: "本番と同じ100問・制限時間75分", listening: false, limit: 75 * 60 },
-    mock: { label: "ミニ模試", desc: "Part 2〜7 からランダム出題", listening: true }
+    mock: { label: "4分の1模試(50問)", desc: "本番と同じ比率で全パートを50問。20〜25分", listening: true, autoPlay: true }
   };
 
   /* ---------------- ユーティリティ ---------------- */
@@ -397,16 +397,43 @@
       case "part5": return tasksPart5(DATA.part5);
       case "part6": return tasksPart6(DATA.part6);
       case "part7": return tasksPart7(DATA.part7);
-      case "mock":
+      case "mock": {
+        // 本番200問の比率に合わせて50問(=4分の1)を抜き出す。
+        //   Part 1:1 / Part 2:6 / Part 3:9 / Part 4:9 / Part 5:7 / Part 6:4 / Part 7:14
+        //   リスニング25問・リーディング25問で、本番の 50:50 と一致する。
+        // 通し番号(startNo)を正しく保つため、まず全問分のタスクを作ってから抜き出す。
+        var byNo = function (a, b) { return (a.startNo || 0) - (b.startNo || 0); };
+        var pick = function (tasks, n) { return shuffle(tasks).slice(0, n).sort(byNo); };
+
+        // 設問数の合計がちょうど target になる文書の組を選ぶ(Part 7 用)
+        function pickByCount(tasks, target) {
+          var pool = shuffle(tasks), found = null;
+          (function walk(i, chosen, sum) {
+            if (found || sum > target) return;
+            if (sum === target) { found = chosen.slice(); return; }
+            if (i >= pool.length) return;
+            walk(i + 1, chosen.concat([pool[i]]), sum + pool[i].questions.length);
+            walk(i + 1, chosen, sum);
+          })(0, [], 0);
+          return (found || pool.slice(0, 3)).sort(byNo);
+        }
+
+        var p7 = tasksPart7(DATA.part7);
+        var doubles = p7.filter(function (t) { return (t.passages || []).length === 2; });
+        var singles = p7.filter(function (t) { return (t.passages || []).length === 1; });
+        // ダブルパッセージを1つ(5問)＋シングルで9問 = 14問
+        var p7pick = pick(doubles, 1).concat(pickByCount(singles, 14 - 5)).sort(byNo);
+
         return [].concat(
-          tasksPart1(shuffle(DATA.part1).slice(0, 2)),
-          tasksPart2(shuffle(DATA.part2).slice(0, 5)),
-          tasksSet(shuffle(DATA.part3).slice(0, 1), "Part 3"),
-          tasksSet(shuffle(DATA.part4).slice(0, 1), "Part 4"),
-          tasksPart5(shuffle(DATA.part5).slice(0, 10)),
-          tasksPart6(shuffle(DATA.part6).slice(0, 1)),
-          tasksPart7(shuffle(DATA.part7).slice(0, 1))
+          pick(tasksPart1(DATA.part1), 1),
+          pick(tasksPart2(DATA.part2), 6),
+          pick(tasksSet(DATA.part3, "Part 3", PART_START.part3), 3),   // 会話3つ=9問
+          pick(tasksSet(DATA.part4, "Part 4", PART_START.part4), 3),   // トーク3つ=9問
+          pick(tasksPart5(DATA.part5), 7),
+          pick(tasksPart6(DATA.part6), 1),                              // 文書1つ=4問
+          p7pick
         );
+      }
     }
     return [];
   }
@@ -424,7 +451,7 @@
 
     function card(mode, extraClass) {
       var m = MODES[mode];
-      var n = mode === "mock" ? "約30問" : countQuestions(buildTasks(mode)) + "問";
+      var n = countQuestions(buildTasks(mode)) + "問";
       var s = stats[statKey(mode)];
       var stat = s ? "自己ベスト " + s.best + "%(挑戦 " + s.attempts + "回)" : "未挑戦";
       return '<button class="menu-card ' + (extraClass || "") + '" data-mode="' + mode + '">' +
@@ -964,7 +991,7 @@
   });
 
   // 動作検証用(コンソールから音声の配役を確認できる)
-  window.TOEIC_DEBUG = { speech: speech };
+  window.TOEIC_DEBUG = { speech: speech, buildTasks: buildTasks };
 
   showHome();
 })();
