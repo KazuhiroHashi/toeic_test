@@ -37,6 +37,34 @@ out.push("- 各プロンプトの「写さないもの」は誤答の選択肢�
 out.push("- ChatGPT が出すのは `.png` です。アップロード後にこちらで `.jpg` へ圧縮します(ファイル名は `.png` のままで構いません)。");
 out.push("");
 
+// 題材そのものが文字を持つもの(お知らせ・看板・掲示など)。
+// これらに「文字を入れるな」と指示すると、場面の指示と矛盾して
+// 生成側がどちらかを無視してしまう。文字は許し、答えを漏らさない条件だけ課す。
+var TEXT_SUBJECT = /\b(notice|sign|signs|poster|banner|menu|schedule|chart|bulletin board|whiteboard|nameplate|price tag|label)\b/i;
+
+function buildPrompt(right, wrong) {
+  var lines = [
+    "Create a realistic black-and-white photograph for a TOEIC Part 1 listening test.",
+    "Scene: " + right,
+    "Requirements:",
+    "- Photorealistic, natural lighting, everyday business or daily-life setting.",
+    "- The action must be clearly visible and unambiguous.",
+    "- Do NOT show any of these (they are the wrong answers): " + wrong.join(" / ")
+  ];
+  if (TEXT_SUBJECT.test(right)) {
+    // 例: お知らせを貼る場面。紙が白紙では場面が成立しないので文字は許す。
+    // ただし『notice』のような答えそのものの語が写ると、写真が答えを教えてしまう。
+    lines.push("- The printed matter may carry a few lines of plain text so that it looks real, but keep the wording generic and unrelated to the action. Do NOT print any word that names what is happening (for example the words in the scene sentence above). Small and not the focus of the photo.");
+    lines.push("- No logos and no watermarks.");
+  } else {
+    lines.push("- No text, no logos, no watermarks in the image.");
+  }
+  lines.push("- Horizontal (4:3) composition, monochrome.");
+  return lines.join("\n");
+}
+
+var DATA = [];
+
 sets.forEach(function (k) {
   var arr = load(k);
   out.push("---");
@@ -47,24 +75,29 @@ sets.forEach(function (k) {
     var file = path.basename(item.image).replace(/\.jpg$/, ".png");
     var right = item.choices[item.answer];
     var wrong = item.choices.filter(function (_, i) { return i !== item.answer; });
+    var prompt = buildPrompt(right, wrong);
+    DATA.push({ set: k, file: file, scene: right, wrong: wrong, prompt: prompt });
+
     out.push("## " + file);
     out.push("");
     out.push("**写す場面:** " + right);
+    if (TEXT_SUBJECT.test(right)) {
+      out.push("");
+      out.push("> この場面は掲示物そのものが題材なので、文字が入ること自体は問題ありません。ただし**『" + right + "』の答えを教えてしまう語(notice など)が読めてしまうと、写真がヒントになります。**できた画像を見て、そういう語が大きく写っていたら作り直してください。");
+    }
     out.push("");
     out.push("```text");
-    out.push("Create a realistic black-and-white photograph for a TOEIC Part 1 listening test.");
-    out.push("Scene: " + right);
-    out.push("Requirements:");
-    out.push("- Photorealistic, natural lighting, everyday business or daily-life setting.");
-    out.push("- The action must be clearly visible and unambiguous.");
-    out.push("- Do NOT show any of these (they are the wrong answers): " + wrong.join(" / "));
-    out.push("- No text, no logos, no watermarks in the image.");
-    out.push("- Horizontal (4:3) composition, monochrome.");
+    out.push(prompt);
     out.push("```");
     out.push("");
     out.push("**写さないもの(誤答):** " + wrong.join(" / "));
     out.push("");
   });
 });
+
+// 作業ページ(HTML)と共有するデータも書き出しておく
+if (process.env.PHOTO_JSON) {
+  require("fs").writeFileSync(process.env.PHOTO_JSON, JSON.stringify(DATA, null, 1), "utf8");
+}
 
 process.stdout.write(out.join("\n"));

@@ -108,6 +108,8 @@ Requirements:
 
 **写す場面:** A notice is being taped to a window.
 
+> この場面は掲示物そのものが題材なので、文字が入ること自体は問題ありません。ただし**『A notice is being taped to a window.』の答えを教えてしまう語(notice など)が読めてしまうと、写真がヒントになります。**できた画像を見て、そういう語が大きく写っていたら作り直してください。
+
 ```text
 Create a realistic black-and-white photograph for a TOEIC Part 1 listening test.
 Scene: A notice is being taped to a window.
@@ -115,7 +117,8 @@ Requirements:
 - Photorealistic, natural lighting, everyday business or daily-life setting.
 - The action must be clearly visible and unambiguous.
 - Do NOT show any of these (they are the wrong answers): A sign has been mounted above a doorway. / A woman is drawing a curtain across a window. / A woman is unlocking a shop door.
-- No text, no logos, no watermarks in the image.
+- The printed matter may carry a few lines of plain text so that it looks real, but keep the wording generic and unrelated to the action. Do NOT print any word that names what is happening (for example the words in the scene sentence above). Small and not the focus of the photo.
+- No logos and no watermarks.
 - Horizontal (4:3) composition, monochrome.
 ```
 
