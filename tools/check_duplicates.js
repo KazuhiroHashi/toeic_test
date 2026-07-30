@@ -1,5 +1,6 @@
 const fs=require("fs");global.window={};
-process.chdir("/workspace/toeic_test");
+// どの端末・どの場所から実行してもリポジトリの直下を見る
+process.chdir(require("path").join(__dirname,".."));
 const parts=["part1","part2","part3","part4","part5","part6","part7"];
 parts.forEach(p=>eval(fs.readFileSync("data/"+p+".js","utf8")));
 for(let k=2;k<=10;k++)parts.forEach(p=>{const f="data/set"+k+"/"+p+".js";if(fs.existsSync(f))eval(fs.readFileSync(f,"utf8"));});
