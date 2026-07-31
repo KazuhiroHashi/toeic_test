@@ -1,0 +1,8 @@
+# アプリのビルド生成物(ソースは repo にあるので、これらは入れない)
+www/
+node_modules/
+ios/
+android/
+
+# macOS
+.DS_Store

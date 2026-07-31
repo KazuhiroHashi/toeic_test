@@ -1,0 +1,21 @@
+{
+  "appId": "com.kazuhirohashi.eigoscoremogi",
+  "appName": "英語スコア模試",
+  "webDir": "www",
+  "ios": {
+    "contentInset": "always",
+    "backgroundColor": "#ffffff",
+    "limitsNavigationsToAppBoundDomains": true
+  },
+  "server": {
+    "androidScheme": "https",
+    "iosScheme": "capacitor"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 600,
+      "backgroundColor": "#16202b",
+      "showSpinner": false
+    }
+  }
+}

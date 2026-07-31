@@ -61,7 +61,15 @@
     catch (e) { return {}; }
   }
   var unlocked = loadUnlocked();
-  function isUnlocked(id) { return !!(FREE_SETS[id] || unlocked[id]); }
+  /* アプリ版(App Store)は Apple の課金で買われたものなので、合言葉は使わない。
+     www/app-build.js が unlockAll:true を立てる。Web版にはこのファイルが無いので
+     APP_BUILD は undefined になり、従来どおり合言葉で解放する。
+     アプリ内課金にする場合は、課金の判定結果を APP_BUILD.unlockAll に入れる。 */
+  var APP_BUILD = window.TOEIC_APP_BUILD || null;
+  function isUnlocked(id) {
+    if (APP_BUILD && APP_BUILD.unlockAll) return true;
+    return !!(FREE_SETS[id] || unlocked[id]);
+  }
   // 合言葉を適用する。解放できたセットのidの配列を返す(不正なら空配列)
   function applyCode(input) {
     var ids = CODE_HASHES[codeHash(input)];
