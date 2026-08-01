@@ -20,6 +20,7 @@ cd ~/Documents/toeic_test && bash tools/sync.sh
 販売の手順 → **[note で売る手順](tools/SELL_HOWTO.md)**(合言葉の一覧つき)
 
 iPhone アプリとして出す手順 → **[App Store で売る手順](tools/APPSTORE_HOWTO.md)**
+アプリ内課金の手順 → **[セット1無料・セット2〜10を有料にする](tools/IAP_HOWTO.md)**
 
 ### 素材はすべて揃っています
 
