@@ -21,8 +21,8 @@ function need(rel) {
   if (!fs.existsSync(path.join(WWW, rel))) errs.push("欠落: " + rel);
 }
 
-// 骨格
-["index.html", "app-build.js", "css/style.css", "js/app.js",
+// 骨格(privacy.html はフッターからリンクしているので必須)
+["index.html", "privacy.html", "app-build.js", "css/style.css", "js/app.js",
  "assets/audio/manifest.js"].forEach(need);
 
 // 問題データ

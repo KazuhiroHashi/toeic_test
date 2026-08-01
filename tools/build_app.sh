@@ -17,7 +17,9 @@ rm -rf "$OUT"
 mkdir -p "$OUT"
 
 # アプリに必要なものだけ
-cp index.html "$OUT"/
+# privacy.html はフッターからリンクしている。同梱しないとアプリ内でリンク切れになり、
+# 審査でも「プライバシーポリシーが開けない」と指摘される。
+cp index.html privacy.html "$OUT"/
 cp -R css js data assets "$OUT"/
 
 # アプリ版の目印。js/app.js がこれを見て、アプリ用の振る舞いに切り替える
