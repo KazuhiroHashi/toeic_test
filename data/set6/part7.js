@@ -1,16 +1,86 @@
-// セット6 part7(重複差し替え・正解位置均等化済み)
+// セット6 part7(重複差し替え・正解位置均等化済み。シングルは本番どおり 2,2,2,2,3,3,3,4,4,4 の並び)
 window.TOEIC_DATA_6 = window.TOEIC_DATA_6 || {};
 window.TOEIC_DATA_6.part7 = [
   {
     "id": "s6p7-01",
-    "title": "シングル 1(テキストメッセージのやり取り)",
+    "title": "シングル 1(社内メモ)",
+    "passages": [
+      {
+        "docType": "Memo",
+        "text": "MEMO\nTo: All Store Associates\nFrom: Yuki Tanaka, Retail Operations Manager\nDate: August 12\nRe: Updated exchange policy and autumn floor set\n\nStarting September 1, our exchange window will extend from 14 to 30 days for all full-price items. Sale items remain final. Please remind customers to keep their receipts, as exchanges without proof of purchase cannot be processed at the register.\n\nA short training video explaining the new policy is available on the staff portal. Every associate should watch it and mark it complete by August 25.\n\nSeparately, the autumn floor set begins on the night of August 31. Associates scheduled for that evening will help move mannequins and refresh window displays after closing. If you are on that shift and cannot stay late, please tell your store manager this week.\n\nYuki"
+      }
+    ],
+    "translation": "メモ\n宛先:全店舗スタッフ\n差出人:ユキ・タナカ(店舗運営マネージャー)\n日付:8月12日\n件名:交換方針の変更と秋のフロアセット\n\n9月1日より、全定価品の交換期間を14日から30日に延長します。セール品は従来通り交換不可です。レシートなしでは店頭で交換処理ができないため、お客様にレシートの保管をお伝えください。\n\n新方針を説明する短い研修動画がスタッフポータルにあります。全スタッフは8月25日までに視聴し、完了マークを付けてください。\n\n別件で、秋のフロアセットを8月31日夜に開始します。その晩シフトのスタッフは、閉店後にマネキンの移動とウィンドウ陳列の刷新を手伝います。当該シフトで遅くまで残れない場合は、今週中に店長に伝えてください。\n\nユキ",
+    "questions": [
+      {
+        "q": "What is changing on September 1?",
+        "choices": [
+          "The length of the exchange period",
+          "Employee uniforms",
+          "The store's opening hours",
+          "The register software"
+        ],
+        "answer": 0,
+        "explanation": "our exchange window will extend from 14 to 30 days(交換期間を14日から30日に延長)が根拠。営業時間や制服の変更ではない。"
+      },
+      {
+        "q": "What must associates do by August 25?",
+        "choices": [
+          "Submit a receipt",
+          "Rearrange a window display",
+          "Complete a training video",
+          "Update a price list"
+        ],
+        "answer": 2,
+        "explanation": "watch it and mark it complete by August 25(研修動画を視聴し完了マーク)が根拠。ウィンドウ陳列は8月31日夜の作業でひっかけ。"
+      }
+    ]
+  },
+  {
+    "id": "s6p7-02",
+    "title": "シングル 2(お知らせ)",
+    "passages": [
+      {
+        "docType": "Notice",
+        "text": "RIVERSTONE CONCERT HALL — Patron Notice\n\nDue to a scheduling conflict, the string quartet originally booked for the evening of March 14 will now perform on March 21. All tickets for March 14 will be honored on the new date.\n\nPatrons who cannot attend on March 21 may exchange their tickets for any other concert this season at the box office, or request a full refund no later than March 10.\n\nPlease also note our latecomer policy: to avoid disturbing the performers, guests arriving after a performance has begun will be seated only during intermissions.\n\nWe appreciate your understanding and look forward to welcoming you."
+      }
+    ],
+    "translation": "リバーストーン・コンサートホール——ご来場者へのお知らせ\n\n日程の重複により、3月14日夜に予定していた弦楽四重奏の公演は3月21日に変更となります。3月14日のチケットは新しい日程でそのまま有効です。\n\n3月21日にご来場いただけない方は、ボックスオフィスで今シーズンの他公演のチケットと交換いただけます。または、3月10日までに全額払い戻しをご請求いただけます。\n\nまた、遅れてご来場の方への方針をご確認ください。演奏者の妨げにならないよう、開演後にお越しの方は休憩時間のみご案内いたします。\n\nご理解に感謝いたします。ご来場をお待ちしております。",
+    "questions": [
+      {
+        "q": "What is the purpose of the notice?",
+        "choices": [
+          "To introduce a new quartet",
+          "To announce a rescheduled performance",
+          "To advertise season passes",
+          "To raise ticket prices"
+        ],
+        "answer": 1,
+        "explanation": "冒頭『3月14日の公演が3月21日に変更』という日程変更の告知が主目的。新しい楽団の紹介(A)や値上げ(D)ではない。"
+      },
+      {
+        "q": "How can a patron who cannot attend obtain a refund?",
+        "choices": [
+          "By exchanging for a recording",
+          "By calling the performers",
+          "By arriving during an intermission",
+          "By requesting one by March 10"
+        ],
+        "answer": 3,
+        "explanation": "request a full refund no later than March 10(3月10日までに請求)が根拠。交換は他公演のチケットとであり(A)は誤り。"
+      }
+    ]
+  },
+  {
+    "id": "s6p7-03",
+    "title": "シングル 3(テキストメッセージのやり取り)",
     "passages": [
       {
         "docType": "Text-message chain",
-        "text": "Olivia Brand (9:32 A.M.)\nHi Marcus, are you on the Cedar Plaza site today? The upholstery samples for the lobby sofas just arrived at our studio.\n\nMarcus Doyle (9:34 A.M.)\nI'm here until noon. The client wants to pick the fabric before the framing crew starts on Thursday.\n\nOlivia Brand (9:35 A.M.)\nThat's cutting it close. There are six options — three blues and three greens.\n\nMarcus Doyle (9:36 A.M.)\nCan you drop them by around eleven? The client is walking the site at 11:30.\n\nOlivia Brand (9:37 A.M.)\nI have a supplier call at eleven. Let me send them with Priya — she's heading your way with the light fixtures anyway.\n\nMarcus Doyle (9:38 A.M.)\nThat works. Just make sure the samples are labeled.\n\nOlivia Brand (9:39 A.M.)\nAlready done. Priya will be there by 10:45.\n\nMarcus Doyle (9:40 A.M.)\nYou read my mind."
+        "text": "Olivia Brand (9:32 A.M.)\nHi Marcus, are you on the Cedar Plaza site today? The upholstery samples for the lobby sofas just arrived at our studio.\n\nMarcus Doyle (9:34 A.M.)\nI'm here until noon. The client wants to pick the fabric before the framing crew starts on Thursday.\n\nOlivia Brand (9:35 A.M.)\nThat's cutting it close.\n\nMarcus Doyle (9:36 A.M.)\nCan you drop them by around eleven? The client is walking the site at 11:30.\n\nOlivia Brand (9:37 A.M.)\nI have a supplier call at eleven. Let me send them with Priya — she's heading your way with the light fixtures anyway.\n\nMarcus Doyle (9:38 A.M.)\nThat works. Just make sure the samples are labeled.\n\nOlivia Brand (9:39 A.M.)\nAlready done. Priya will be there by 10:45.\n\nMarcus Doyle (9:40 A.M.)\nYou read my mind."
       }
     ],
-    "translation": "オリビア・ブランド(午前9:32):マーカス、今日シダー・プラザの現場にいる? ロビーのソファ用の張り地サンプルがちょうどスタジオに届いたの。\nマーカス・ドイル(午前9:34):正午までいるよ。クライアントは、木曜に骨組みの作業班が入る前に生地を選びたがってる。\nオリビア・ブランド(午前9:35):ぎりぎりね。6種類あって、青が3つ、緑が3つ。\nマーカス・ドイル(午前9:36):11時ごろまでに届けてくれる? クライアントが11時半に現場を見て回るんだ。\nオリビア・ブランド(午前9:37):11時に仕入先との電話があるの。プリヤに持って行かせるわ——彼女はどのみち照明器具を持ってそっちに向かうから。\nマーカス・ドイル(午前9:38):それでいい。サンプルにラベルを付けておいてね。\nオリビア・ブランド(午前9:39):もう付けてあるわ。プリヤは10時45分までに着くはず。\nマーカス・ドイル(午前9:40):さすが、分かってるね。",
+    "translation": "オリビア・ブランド(午前9:32):マーカス、今日シダー・プラザの現場にいる? ロビーのソファ用の張り地サンプルがちょうどスタジオに届いたの。\nマーカス・ドイル(午前9:34):正午までいるよ。クライアントは、木曜に骨組みの作業班が入る前に生地を選びたがってる。\nオリビア・ブランド(午前9:35):ぎりぎりね。\nマーカス・ドイル(午前9:36):11時ごろまでに届けてくれる? クライアントが11時半に現場を見て回るんだ。\nオリビア・ブランド(午前9:37):11時に仕入先との電話があるの。プリヤに持って行かせるわ——彼女はどのみち照明器具を持ってそっちに向かうから。\nマーカス・ドイル(午前9:38):それでいい。サンプルにラベルを付けておいてね。\nオリビア・ブランド(午前9:39):もう付けてあるわ。プリヤは10時45分までに着くはず。\nマーカス・ドイル(午前9:40):さすが、分かってるね。",
     "questions": [
       {
         "q": "Why did Ms. Brand contact Mr. Doyle?",
@@ -33,23 +103,12 @@ window.TOEIC_DATA_6.part7 = [
         ],
         "answer": 1,
         "explanation": "意図問題。直前で『ラベルを付けて』と頼んだのに対し『もう付けてある』と返ってきた流れなので、頼みが先に処理されていたことへの満足を表す。文字通り『心を読む』ではない。"
-      },
-      {
-        "q": "What will Priya most likely do?",
-        "choices": [
-          "Bring items to the Cedar Plaza site",
-          "Choose the lobby fabric",
-          "Begin the framing work",
-          "Attend a supplier call"
-        ],
-        "answer": 0,
-        "explanation": "Let me send them with Priya — she's heading your way with the light fixtures から、プリヤがサンプルと照明器具を現場に届けると分かる。(D)の仕入先電話はオリビアの予定。"
       }
     ]
   },
   {
-    "id": "s6p7-02",
-    "title": "シングル 2(広告)",
+    "id": "s6p7-04",
+    "title": "シングル 4(広告)",
     "passages": [
       {
         "docType": "Advertisement",
@@ -79,23 +138,58 @@ window.TOEIC_DATA_6.part7 = [
         ],
         "answer": 1,
         "explanation": "alterations require three to five business days(3〜5営業日かかる)が根拠。complimentary(無料)なので(A)は誤り。"
-      },
-      {
-        "q": "Who receives early access to the winter collection?",
-        "choices": [
-          "Loyalty program members",
-          "Customers who spend over $200",
-          "Online shoppers",
-          "First-time visitors"
-        ],
-        "answer": 0,
-        "explanation": "Early access ... for members of our loyalty program が根拠。200ドル超は割引の条件でひっかけ。"
       }
     ]
   },
   {
-    "id": "s6p7-03",
-    "title": "シングル 3(Eメール)",
+    "id": "s6p7-05",
+    "title": "シングル 5(広告)",
+    "passages": [
+      {
+        "docType": "Advertisement",
+        "text": "SAFFRON & SAGE — A New Neighborhood Bistro on Chestnut Row\n\nNow serving seasonal Mediterranean plates in a warm, casual setting.\n\nOpening-week highlights (through October 12):\n1. A complimentary appetizer with every dinner for two\n2. Half-price coffee and dessert at weekend brunch (Saturday and Sunday, 9 A.M.–2 P.M.)\n3. A hands-on pasta-making class every Thursday evening — $45 per person, ingredients provided\n\nReservations are recommended for dinner and essential for the pasta class, as seats are limited to twelve. Book at saffronandsage.com or call us directly.\n\nWe source our produce from farms within the region and change our menu monthly to reflect what is freshest.\n\nSaffron & Sage is open Tuesday through Sunday, with dinner service from 5 P.M. and weekend brunch from 9 A.M. We are closed on Mondays. The back dining room seats sixteen and may be reserved for private gatherings; we ask for at least one week's notice."
+      }
+    ],
+    "translation": "サフラン&セージ——チェスナット・ロウにオープンした地元ビストロ\n\n温かくカジュアルな雰囲気で、季節の地中海料理をご提供します。\n\nオープン週の見どころ(10月12日まで):\n1. 2名様ディナーごとに前菜を1品無料\n2. 週末ブランチ(土日午前9時〜午後2時)でコーヒーとデザートが半額\n3. 毎週木曜夜の実践パスタ作り教室——お一人45ドル、材料込み\n\nディナーは予約推奨、パスタ教室は定員12名のため予約必須です。ご予約は saffronandsage.com または直接お電話で。\n\n食材は地域内の農場から仕入れ、いちばん新鮮なものを反映してメニューは毎月変わります。\n\nサフラン&セージは火曜〜日曜の営業で、ディナーは午後5時から、週末ブランチは午前9時から。月曜は定休日です。奥のダイニングルームは16席で、貸切のご予約も承ります。1週間前までにお知らせください。",
+    "questions": [
+      {
+        "q": "What type of business is being advertised?",
+        "choices": [
+          "A produce farm",
+          "A grocery store",
+          "A cooking school",
+          "A restaurant"
+        ],
+        "answer": 3,
+        "explanation": "seasonal Mediterranean plates を提供する bistro(ビストロ)なので飲食店。パスタ教室(C)、農場からの仕入れ(A)は本文中の要素だが業態ではない。"
+      },
+      {
+        "q": "The word \"essential\" in paragraph 4, line 1, is closest in meaning to",
+        "choices": [
+          "necessary",
+          "temporary",
+          "expensive",
+          "optional"
+        ],
+        "answer": 0,
+        "explanation": "語彙問題。essential(不可欠な)= necessary(必要な)。定員12名で予約必須という文脈からも判断できる。"
+      },
+      {
+        "q": "What is indicated about the offerings?",
+        "choices": [
+          "They are selected by a committee.",
+          "They change every month.",
+          "They are the same all year.",
+          "They are listed in a printed brochure."
+        ],
+        "answer": 1,
+        "explanation": "change our menu monthly(毎月変える)が根拠で、『毎月変わる』への言い換え。年間ずっと同じ(C)は正反対。委員会が選ぶ(A)や印刷パンフレット(D)は本文にない。"
+      }
+    ]
+  },
+  {
+    "id": "s6p7-06",
+    "title": "シングル 6(Eメール)",
     "passages": [
       {
         "docType": "E-mail",
@@ -136,133 +230,6 @@ window.TOEIC_DATA_6.part7 = [
         ],
         "answer": 3,
         "explanation": "If your monthly balance stays above $10,000, the ... fee is waived が根拠。200件は無料取引の上限でひっかけ。"
-      }
-    ]
-  },
-  {
-    "id": "s6p7-04",
-    "title": "シングル 4(お知らせ)",
-    "passages": [
-      {
-        "docType": "Notice",
-        "text": "RIVERSTONE CONCERT HALL — Patron Notice\n\nDue to a scheduling conflict, the string quartet originally booked for the evening of March 14 will now perform on March 21. All tickets for March 14 will be honored on the new date.\n\nPatrons who cannot attend on March 21 may exchange their tickets for any other concert this season at the box office, or request a full refund no later than March 10.\n\nPlease also note our latecomer policy: to avoid disturbing the performers, guests arriving after a performance has begun will be seated only during intermissions.\n\nWe appreciate your understanding and look forward to welcoming you."
-      }
-    ],
-    "translation": "リバーストーン・コンサートホール——ご来場者へのお知らせ\n\n日程の重複により、3月14日夜に予定していた弦楽四重奏の公演は3月21日に変更となります。3月14日のチケットは新しい日程でそのまま有効です。\n\n3月21日にご来場いただけない方は、ボックスオフィスで今シーズンの他公演のチケットと交換いただけます。または、3月10日までに全額払い戻しをご請求いただけます。\n\nまた、遅れてご来場の方への方針をご確認ください。演奏者の妨げにならないよう、開演後にお越しの方は休憩時間のみご案内いたします。\n\nご理解に感謝いたします。ご来場をお待ちしております。",
-    "questions": [
-      {
-        "q": "What is the purpose of the notice?",
-        "choices": [
-          "To introduce a new quartet",
-          "To announce a rescheduled performance",
-          "To advertise season passes",
-          "To raise ticket prices"
-        ],
-        "answer": 1,
-        "explanation": "冒頭『3月14日の公演が3月21日に変更』という日程変更の告知が主目的。新しい楽団の紹介(A)や値上げ(D)ではない。"
-      },
-      {
-        "q": "What is indicated about latecomers?",
-        "choices": [
-          "They are not admitted at all.",
-          "They must sit in the back row.",
-          "They are seated during intermissions only.",
-          "They receive a discount."
-        ],
-        "answer": 2,
-        "explanation": "seated only during intermissions(休憩時間のみ案内)が根拠。入場自体は認められるので(A)『一切入場不可』は誤り。"
-      },
-      {
-        "q": "How can a patron who cannot attend obtain a refund?",
-        "choices": [
-          "By exchanging for a recording",
-          "By calling the performers",
-          "By arriving during an intermission",
-          "By requesting one by March 10"
-        ],
-        "answer": 3,
-        "explanation": "request a full refund no later than March 10(3月10日までに請求)が根拠。交換は他公演のチケットとであり(A)は誤り。"
-      }
-    ]
-  },
-  {
-    "id": "s6p7-05",
-    "title": "シングル 5(オンラインチャット)",
-    "passages": [
-      {
-        "docType": "Online chat",
-        "text": "Nadia Foster (7:12 A.M.)\nSam, we're almost out of the house blend and the roaster's delivery hasn't come. The Saturday rush starts in an hour.\n\nSam Ortega (7:13 A.M.)\nI can call the roaster, but they don't open until eight.\n\nNadia Foster (7:14 A.M.)\nWe can't wait that long. What's in the back?\n\nSam Ortega (7:15 A.M.)\nTwo bags of the single-origin Colombian. Pricier, but it'll do.\n\nNadia Foster (7:16 A.M.)\nLet's use it and not charge extra today. I'll put a note on the board.\n\nSam Ortega (7:17 A.M.)\nOn it. I'll grind a batch now.\n\nNadia Foster (7:18 A.M.)\nThat'll buy us time."
-      }
-    ],
-    "translation": "ナディア・フォスター(午前7:12):サム、ハウスブレンドがもうすぐ切れそうなのに焙煎所の配達が来てないの。土曜の混雑があと1時間で始まるわ。\nサム・オルテガ(午前7:13):焙煎所に電話できるけど、8時まで開かないよ。\nナディア・フォスター(午前7:14):そんなに待てない。奥に何がある?\nサム・オルテガ(午前7:15):シングルオリジンのコロンビアが2袋。少し高いけど、それで足りるよ。\nナディア・フォスター(午前7:16):それを使って、今日は追加料金は取らないでおきましょう。掲示板に一言書いておくわ。\nサム・オルテガ(午前7:17):了解。今すぐ一回分挽くね。\nナディア・フォスター(午前7:18):それで時間が稼げるわね。",
-    "questions": [
-      {
-        "q": "Why did Ms. Foster contact Mr. Ortega?",
-        "choices": [
-          "To complain about a customer",
-          "To report a low supply of coffee",
-          "To request a day off",
-          "To change the café's opening time"
-        ],
-        "answer": 1,
-        "explanation": "最初のメッセージ we're almost out of the house blend(ハウスブレンドが切れそう)が連絡の理由。在庫不足の報告。"
-      },
-      {
-        "q": "At 7:18 A.M., what does Ms. Foster most likely mean when she writes, \"That'll buy us time\"?",
-        "choices": [
-          "The café will open later than usual.",
-          "Customers will be charged extra today.",
-          "The coffee they grind now will last until more arrives.",
-          "The roaster will deliver within the hour."
-        ],
-        "answer": 2,
-        "explanation": "意図問題。直前の『今すぐ一回分挽く』を受け、挽いたコロンビアで配達(または開店)まで持たせられるという意味。(B)は『追加料金は取らない』と正反対。"
-      }
-    ]
-  },
-  {
-    "id": "s6p7-06",
-    "title": "シングル 6(記事)",
-    "passages": [
-      {
-        "docType": "Article",
-        "text": "MILLBROOK (April 5) — Community radio station WKMB launched a new afternoon program, \"Millbrook Voices,\" on Monday, giving local residents a platform to discuss neighborhood issues on the air.\n\nThe one-hour show airs on weekdays at 4 P.M. and invites listeners to call in with questions for guests, who range from small-business owners to local school principals. The station, which is run largely by volunteers, funds its operations through listener donations and local advertising.\n\n\"We wanted a program that belongs to the community, not to us,\" said station manager Dell Rowe. Since the launch, the station's Web site has seen a 40 percent rise in traffic.\n\nRowe added that WKMB hopes to add a Saturday segment featuring local bands by the summer, pending additional funding."
-      }
-    ],
-    "translation": "ミルブルック(4月5日)——コミュニティラジオ局WKMBは月曜、新しい午後の番組『ミルブルック・ボイシズ』を開始し、地域住民が近隣の課題を放送で話し合える場を設けた。\n\n1時間の番組は平日午後4時に放送され、リスナーは電話で参加してゲストに質問できる。ゲストは小規模事業者から地元の学校長まで幅広い。局はおもにボランティアで運営され、リスナーからの寄付と地元広告で運営費をまかなっている。\n\n『私たちのものではなく、地域のものになる番組にしたかった』と局長のデル・ロウ氏は語る。開始以降、局のウェブサイトへのアクセスは40パーセント増えた。\n\nロウ氏は、資金が追加で確保できれば、夏までに地元バンドを特集する土曜の枠を設けたいと付け加えた。",
-    "questions": [
-      {
-        "q": "What is the article mainly about?",
-        "choices": [
-          "The launch of a new radio program",
-          "The closing of a local station",
-          "A change in advertising rates",
-          "A community fundraiser"
-        ],
-        "answer": 0,
-        "explanation": "第1段落の『新しい午後の番組を開始した』が記事全体の主題。閉局(B)や地域の募金活動(D)ではない。"
-      },
-      {
-        "q": "How does the station fund its operations?",
-        "choices": [
-          "Through government grants",
-          "Through listener donations and advertising",
-          "Through subscription fees",
-          "Through ticket sales"
-        ],
-        "answer": 1,
-        "explanation": "funds its operations through listener donations and local advertising が根拠。政府補助(A)や購読料(C)ではない。"
-      },
-      {
-        "q": "What does Mr. Rowe say WKMB hopes to do?",
-        "choices": [
-          "Move to a new studio",
-          "Add a music segment on Saturdays",
-          "Broadcast in a second language",
-          "Hire more full-time staff"
-        ],
-        "answer": 1,
-        "explanation": "hopes to add a Saturday segment featuring local bands(土曜に地元バンドの枠を設けたい)が根拠。資金次第(pending funding)という留保付き。"
       }
     ]
   },
@@ -314,14 +281,71 @@ window.TOEIC_DATA_6.part7 = [
   },
   {
     "id": "s6p7-08",
-    "title": "シングル 8(手紙)",
+    "title": "シングル 8(記事)",
+    "passages": [
+      {
+        "docType": "Article",
+        "text": "MILLBROOK (April 5) — Community radio station WKMB launched a new afternoon program, \"Millbrook Voices,\" on Monday, giving local residents a platform to discuss neighborhood issues on the air.\n\nThe one-hour show airs on weekdays at 4 P.M. and invites listeners to call in with questions for guests, who range from small-business owners to local school principals. The station, which is run largely by volunteers, funds its operations through listener donations and local advertising.\n\n\"We wanted a program that belongs to the community, not to us,\" said station manager Dell Rowe. Since the launch, the station's Web site has seen a 40 percent rise in traffic.\n\nRowe said the station received more than sixty calls during the first week, well beyond what the small staff had expected. Two volunteers now screen calls while the program is on the air so that hosts can keep the conversation moving. The station has also begun printing a monthly list of upcoming guests, which is distributed free at shops around Millbrook.\n\nListeners who cannot tune in at 4 P.M. can find a recording of each episode on the station's Web site the following morning. Rowe said the archive was added after several residents wrote to say they were at work when the program airs.\n\nRowe added that WKMB hopes to add a Saturday segment featuring local bands by the summer, pending additional funding."
+      }
+    ],
+    "translation": "ミルブルック(4月5日)——コミュニティラジオ局WKMBは月曜、新しい午後の番組『ミルブルック・ボイシズ』を開始し、地域住民が近隣の課題を放送で話し合える場を設けた。\n\n1時間の番組は平日午後4時に放送され、リスナーは電話で参加してゲストに質問できる。ゲストは小規模事業者から地元の学校長まで幅広い。局はおもにボランティアで運営され、リスナーからの寄付と地元広告で運営費をまかなっている。\n\n『私たちのものではなく、地域のものになる番組にしたかった』と局長のデル・ロウ氏は語る。開始以降、局のウェブサイトへのアクセスは40パーセント増えた。\n\nロウ氏によれば、局には最初の1週間で60件を超える電話が寄せられ、少人数のスタッフの予想をはるかに上回った。現在は2名のボランティアが放送中に電話を選別し、進行役が会話を止めずに進められるようにしている。局はまた、今後のゲスト一覧を毎月印刷し、ミルブルック周辺の店で無料配布し始めた。\n\n午後4時に聴けないリスナーは、翌朝、局のウェブサイトで各回の録音を聴くことができる。ロウ氏によると、この保存音源は、放送時間帯は仕事中だという声が複数の住民から寄せられたのを受けて追加された。\n\nロウ氏は、資金が追加で確保できれば、夏までに地元バンドを特集する土曜の枠を設けたいと付け加えた。",
+    "questions": [
+      {
+        "q": "What is the article mainly about?",
+        "choices": [
+          "The launch of a new radio program",
+          "The closing of a local station",
+          "A change in advertising rates",
+          "A community fundraiser"
+        ],
+        "answer": 0,
+        "explanation": "第1段落の『新しい午後の番組を開始した』が記事全体の主題。閉局(B)や地域の募金活動(D)ではない。"
+      },
+      {
+        "q": "How does the station fund its operations?",
+        "choices": [
+          "Through government grants",
+          "Through listener donations and advertising",
+          "Through subscription fees",
+          "Through ticket sales"
+        ],
+        "answer": 1,
+        "explanation": "funds its operations through listener donations and local advertising が根拠。政府補助(A)や購読料(C)ではない。"
+      },
+      {
+        "q": "Why does WKMB post recordings on its Web site?",
+        "choices": [
+          "To attract additional advertisers",
+          "To increase listener donations",
+          "To replace one of its weekday broadcasts",
+          "To serve listeners who are unavailable in the afternoon"
+        ],
+        "answer": 3,
+        "explanation": "the archive was added after several residents wrote to say they were at work when the program airs が根拠。放送時間帯に聴けない人のため、という(D)が言い換え。(A)の広告主や(B)の寄付は本文の語句を使ったひっかけで、録音を載せる理由としては述べられていない。"
+      },
+      {
+        "q": "What does Mr. Rowe say WKMB hopes to do?",
+        "choices": [
+          "Move to a new studio",
+          "Add a music segment on Saturdays",
+          "Broadcast in a second language",
+          "Hire more full-time staff"
+        ],
+        "answer": 1,
+        "explanation": "hopes to add a Saturday segment featuring local bands(土曜に地元バンドの枠を設けたい)が根拠。資金次第(pending funding)という留保付き。"
+      }
+    ]
+  },
+  {
+    "id": "s6p7-09",
+    "title": "シングル 9(手紙)",
     "passages": [
       {
         "docType": "Letter",
-        "text": "Dear Ms. Aldridge,\n\nThank you for choosing Ledgerwood & Pike for your small-business accounting this year. I am writing regarding the year-end financial statement you requested on January 8.\n\nBecause of an unusually heavy filing season, the statement was delivered three days later than the date we had promised, and I sincerely apologize for the delay. I understand you needed it for a loan application, and I regret any inconvenience this may have caused.\n\nTo make up for this, we have applied a 10 percent credit toward your next quarterly bookkeeping invoice. The credit will appear automatically and requires no action on your part.\n\nShould you need any further documents for your lender, please contact me and I will prepare them at no charge.\n\nSincerely,\nHarold Vance\nLedgerwood & Pike"
+        "text": "Dear Ms. Aldridge,\n\nThank you for choosing Ledgerwood & Pike for your small-business accounting this year. I am writing regarding the year-end financial statement you requested on January 8.\n\nBecause of an unusually heavy filing season, the statement was delivered three days later than the date we had promised, and I sincerely apologize for the delay. I understand you needed it for a loan application, and I regret any inconvenience this may have caused.\n\nTo make up for this, we have applied a 10 percent credit toward your next quarterly bookkeeping invoice. The credit will appear automatically and requires no action on your part.\n\nYou may also be interested to know that Ledgerwood & Pike is growing. Two additional accountants will join the firm in March, which will allow us to assign every client a single point of contact instead of rotating among whoever is available that week.\n\nWe will hold a short introductory session for clients in early March so that you can meet them. Attendance is optional, and a written summary will be sent to everyone afterward.\n\nShould you need any further documents for your lender, please contact me and I will prepare them at no charge.\n\nSincerely,\nHarold Vance\nLedgerwood & Pike"
       }
     ],
-    "translation": "アルドリッジ様\n\n本年、スモールビジネスの会計にレジャーウッド&パイクをお選びいただき、ありがとうございます。1月8日にご依頼いただいた年度末財務諸表についてご連絡します。\n\n申告シーズンが例年になく多忙だったため、財務諸表のお届けがお約束した日より3日遅れました。遅延を心よりお詫び申し上げます。融資の申込にご入用だったと承知しており、ご不便をおかけしたことを申し訳なく思います。\n\nお詫びとして、次回の四半期記帳請求書に10パーセントのクレジットを適用いたしました。クレジットは自動的に反映され、お客様側でのお手続きは不要です。\n\n貸し手向けに追加の書類が必要でしたら、私までご連絡ください。無料でご用意いたします。\n\n敬具\nハロルド・バンス\nレジャーウッド&パイク",
+    "translation": "アルドリッジ様\n\n本年、スモールビジネスの会計にレジャーウッド&パイクをお選びいただき、ありがとうございます。1月8日にご依頼いただいた年度末財務諸表についてご連絡します。\n\n申告シーズンが例年になく多忙だったため、財務諸表のお届けがお約束した日より3日遅れました。遅延を心よりお詫び申し上げます。融資の申込にご入用だったと承知しており、ご不便をおかけしたことを申し訳なく思います。\n\nお詫びとして、次回の四半期記帳請求書に10パーセントのクレジットを適用いたしました。クレジットは自動的に反映され、お客様側でのお手続きは不要です。\n\nあわせてお知らせします。レジャーウッド&パイクは体制を拡充しています。3月に会計士が2名加わり、その週に手の空いた者が交代で対応するのではなく、お客様ごとに担当を1名固定できるようになります。\n\n3月初旬には、担当者をご紹介する短い説明会をお客様向けに開きます。ご出席は任意で、終了後には書面の要約を全員にお送りします。\n\n貸し手向けに追加の書類が必要でしたら、私までご連絡ください。無料でご用意いたします。\n\n敬具\nハロルド・バンス\nレジャーウッド&パイク",
     "questions": [
       {
         "q": "Why was the letter written?",
@@ -355,98 +379,74 @@ window.TOEIC_DATA_6.part7 = [
         ],
         "answer": 3,
         "explanation": "The credit will appear automatically and requires no action(自動反映・手続き不要)が根拠。電話請求(A)や現金化(B)は誤り。"
-      }
-    ]
-  },
-  {
-    "id": "s6p7-09",
-    "title": "シングル 9(広告)",
-    "passages": [
-      {
-        "docType": "Advertisement",
-        "text": "SAFFRON & SAGE — A New Neighborhood Bistro on Chestnut Row\n\nNow serving seasonal Mediterranean plates in a warm, casual setting.\n\nOpening-week highlights (through October 12):\n1. A complimentary appetizer with every dinner for two\n2. Half-price coffee and dessert at weekend brunch (Saturday and Sunday, 9 A.M.–2 P.M.)\n3. A hands-on pasta-making class every Thursday evening — $45 per person, ingredients provided\n\nReservations are recommended for dinner and essential for the pasta class, as seats are limited to twelve. Book at saffronandsage.com or call us directly.\n\nWe source our produce from farms within the region and change our menu monthly to reflect what is freshest."
-      }
-    ],
-    "translation": "サフラン&セージ——チェスナット・ロウにオープンした地元ビストロ\n\n温かくカジュアルな雰囲気で、季節の地中海料理をご提供します。\n\nオープン週の見どころ(10月12日まで):\n1. 2名様ディナーごとに前菜を1品無料\n2. 週末ブランチ(土日午前9時〜午後2時)でコーヒーとデザートが半額\n3. 毎週木曜夜の実践パスタ作り教室——お一人45ドル、材料込み\n\nディナーは予約推奨、パスタ教室は定員12名のため予約必須です。ご予約は saffronandsage.com または直接お電話で。\n\n食材は地域内の農場から仕入れ、いちばん新鮮なものを反映してメニューは毎月変わります。",
-    "questions": [
-      {
-        "q": "What type of business is being advertised?",
-        "choices": [
-          "A produce farm",
-          "A grocery store",
-          "A cooking school",
-          "A restaurant"
-        ],
-        "answer": 3,
-        "explanation": "seasonal Mediterranean plates を提供する bistro(ビストロ)なので飲食店。パスタ教室(C)、農場からの仕入れ(A)は本文中の要素だが業態ではない。"
       },
       {
-        "q": "The word \"essential\" in paragraph 4, line 1, is closest in meaning to",
+        "q": "What is indicated about the introductory session?",
         "choices": [
-          "necessary",
-          "temporary",
-          "expensive",
-          "optional"
+          "It is required for all clients.",
+          "It will be held at the end of the year.",
+          "A written summary will be provided afterward.",
+          "It replaces the quarterly bookkeeping invoice."
         ],
-        "answer": 0,
-        "explanation": "語彙問題。essential(不可欠な)= necessary(必要な)。定員12名で予約必須という文脈からも判断できる。"
-      },
-      {
-        "q": "What is indicated about the offerings?",
-        "choices": [
-          "They are selected by a committee.",
-          "They change every month.",
-          "They are the same all year.",
-          "They are listed in a printed brochure."
-        ],
-        "answer": 1,
-        "explanation": "change our menu monthly(毎月変える)が根拠で、『毎月変わる』への言い換え。年間ずっと同じ(C)は正反対。委員会が選ぶ(A)や印刷パンフレット(D)は本文にない。"
+        "answer": 2,
+        "explanation": "a written summary will be sent to everyone afterward が根拠で、(C)がその言い換え。Attendance is optional(出席は任意)なので(A)は誤り。開催は3月初旬なので(B)も誤り。(D)の四半期記帳請求書は本文の語句を使ったひっかけ。"
       }
     ]
   },
   {
     "id": "s6p7-10",
-    "title": "シングル 10(社内メモ)",
+    "title": "シングル 10(オンラインチャット)",
     "passages": [
       {
-        "docType": "Memo",
-        "text": "MEMO\nTo: All Store Associates\nFrom: Yuki Tanaka, Retail Operations Manager\nDate: August 12\nRe: Updated exchange policy and autumn floor set\n\nStarting September 1, our exchange window will extend from 14 to 30 days for all full-price items. Sale items remain final. Please remind customers to keep their receipts, as exchanges without proof of purchase cannot be processed at the register.\n\nA short training video explaining the new policy is available on the staff portal. Every associate should watch it and mark it complete by August 25.\n\nSeparately, the autumn floor set begins on the night of August 31. Associates scheduled for that evening will help move mannequins and refresh window displays after closing. If you are on that shift and cannot stay late, please tell your store manager this week.\n\nYuki"
+        "docType": "Online chat",
+        "text": "Nadia Foster (7:12 A.M.)\nSam, we're almost out of the house blend and the roaster's delivery hasn't come. The Saturday rush starts in an hour.\n\nSam Ortega (7:13 A.M.)\nI can call the roaster, but they don't open until eight.\n\nNadia Foster (7:14 A.M.)\nWe can't wait that long. What's in the back?\n\nSam Ortega (7:15 A.M.)\nTwo bags of the single-origin Colombian. Pricier, but it'll do.\n\nNadia Foster (7:16 A.M.)\nLet's use it and not charge extra today. I'll put a note on the board.\n\nSam Ortega (7:17 A.M.)\nOn it. I'll grind a batch now.\n\nNadia Foster (7:18 A.M.)\nThat'll buy us time.\n\nSam Ortega (7:22 A.M.)\nTwo bags should get us to about two o'clock, if today runs like last Saturday.\n\nNadia Foster (7:24 A.M.)\nThen call the roaster the moment they open. Ask them to send whatever they can this afternoon, even a partial load.\n\nSam Ortega (7:25 A.M.)\nWill do. Should I also ask about a credit for the missed delivery?\n\nNadia Foster (7:26 A.M.)\nYes, but keep it friendly. They've been reliable for three years.\n\nSam Ortega (7:27 A.M.)\nUnderstood. One more thing — the pastry order came up short. We're missing the almond croissants.\n\nNadia Foster (7:29 A.M.)\nLeave that with me. I'll take their card out of the front display before we open.\n\nSam Ortega (7:30 A.M.)\nThanks. I'll get the grinder set up."
       }
     ],
-    "translation": "メモ\n宛先:全店舗スタッフ\n差出人:ユキ・タナカ(店舗運営マネージャー)\n日付:8月12日\n件名:交換方針の変更と秋のフロアセット\n\n9月1日より、全定価品の交換期間を14日から30日に延長します。セール品は従来通り交換不可です。レシートなしでは店頭で交換処理ができないため、お客様にレシートの保管をお伝えください。\n\n新方針を説明する短い研修動画がスタッフポータルにあります。全スタッフは8月25日までに視聴し、完了マークを付けてください。\n\n別件で、秋のフロアセットを8月31日夜に開始します。その晩シフトのスタッフは、閉店後にマネキンの移動とウィンドウ陳列の刷新を手伝います。当該シフトで遅くまで残れない場合は、今週中に店長に伝えてください。\n\nユキ",
+    "translation": "ナディア・フォスター(午前7:12):サム、ハウスブレンドがもうすぐ切れそうなのに焙煎所の配達が来てないの。土曜の混雑があと1時間で始まるわ。\nサム・オルテガ(午前7:13):焙煎所に電話できるけど、8時まで開かないよ。\nナディア・フォスター(午前7:14):そんなに待てない。奥に何がある?\nサム・オルテガ(午前7:15):シングルオリジンのコロンビアが2袋。少し高いけど、それで足りるよ。\nナディア・フォスター(午前7:16):それを使って、今日は追加料金は取らないでおきましょう。掲示板に一言書いておくわ。\nサム・オルテガ(午前7:17):了解。今すぐ一回分挽くね。\nナディア・フォスター(午前7:18):それで時間が稼げるわね。\nサム・オルテガ(午前7:22):2袋あれば、今日が先週の土曜と同じくらいの入りなら2時ごろまでは持つよ。\nナディア・フォスター(午前7:24):じゃあ焙煎所が開いた瞬間に電話して。今日の午後に出せる分だけでも、一部でいいから送ってもらって。\nサム・オルテガ(午前7:25):了解。届かなかった分の返金クレジットについても聞いてみる?\nナディア・フォスター(午前7:26):ええ、でも角が立たないように。3年間ずっと頼りになってくれた相手だから。\nサム・オルテガ(午前7:27):分かった。もう一つ——焼き菓子の納品が足りなかった。アーモンドクロワッサンが入ってない。\nナディア・フォスター(午前7:29):それは私が引き取るわ。開店前に、店頭の陳列からあのカードを外しておく。\nサム・オルテガ(午前7:30):ありがとう。グラインダーの用意を始めるよ。",
     "questions": [
       {
-        "q": "What is changing on September 1?",
+        "q": "Why did Ms. Foster contact Mr. Ortega?",
         "choices": [
-          "The length of the exchange period",
-          "Employee uniforms",
-          "The store's opening hours",
-          "The register software"
+          "To complain about a customer",
+          "To report a low supply of coffee",
+          "To request a day off",
+          "To change the café's opening time"
         ],
-        "answer": 0,
-        "explanation": "our exchange window will extend from 14 to 30 days(交換期間を14日から30日に延長)が根拠。営業時間や制服の変更ではない。"
+        "answer": 1,
+        "explanation": "最初のメッセージ we're almost out of the house blend(ハウスブレンドが切れそう)が連絡の理由。在庫不足の報告。"
       },
       {
-        "q": "What must associates do by August 25?",
+        "q": "At 7:18 A.M., what does Ms. Foster most likely mean when she writes, \"That'll buy us time\"?",
         "choices": [
-          "Submit a receipt",
-          "Rearrange a window display",
-          "Complete a training video",
-          "Update a price list"
+          "The café will close early today.",
+          "Customers will be charged extra today.",
+          "They will not run out right away.",
+          "The roaster will deliver within the hour."
         ],
         "answer": 2,
-        "explanation": "watch it and mark it complete by August 25(研修動画を視聴し完了マーク)が根拠。ウィンドウ陳列は8月31日夜の作業でひっかけ。"
+        "explanation": "意図問題。直前の『今すぐ一回分挽く』を受けて『時間を稼げる』と言っているので、すぐには在庫が尽きないという意味。(B)は『追加料金は取らない』と正反対、(D)は焙煎所が8時まで開かないという内容と食い違う。"
       },
       {
-        "q": "Why would an associate speak to a store manager?",
+        "q": "What does Mr. Ortega estimate at 7:22 A.M.?",
         "choices": [
-          "To say they cannot work late",
-          "To request a refund",
-          "To report a broken register",
-          "To order new mannequins"
+          "The delivery will arrive before noon.",
+          "The rush will end by two o'clock.",
+          "The remaining bags will last until early afternoon.",
+          "Saturday will be busier than last week."
+        ],
+        "answer": 2,
+        "explanation": "Two bags should get us to about two o'clock(2袋で2時ごろまで持つ)が根拠で、(C)『午後の早い時間まで持つ』が言い換え。(B)は2時という数字を混雑の終わりと取り違えたひっかけ。if today runs like last Saturday は先週と同程度という前提なので(D)も誤り。"
+      },
+      {
+        "q": "What is suggested about the almond croissants?",
+        "choices": [
+          "They will not be available today.",
+          "They will be sold at a higher price.",
+          "They were the most popular item last Saturday.",
+          "They were ordered from the roaster."
         ],
         "answer": 0,
-        "explanation": "cannot stay late, please tell your store manager(遅くまで残れない場合は店長に伝える)が根拠。"
+        "explanation": "the pastry order came up short. We're missing the almond croissants と、開店前に店頭の陳列からカードを外すという流れから、今日は提供できないと分かる。(D)の roaster は本文の語句を使ったひっかけで、焙煎所が納めるのはコーヒー。"
       }
     ]
   },

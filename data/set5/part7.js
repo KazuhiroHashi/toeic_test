@@ -3,53 +3,7 @@ window.TOEIC_DATA_5 = window.TOEIC_DATA_5 || {};
 window.TOEIC_DATA_5.part7 = [
   {
     "id": "s5p7-01",
-    "title": "シングル 1(テキストメッセージのやり取り)",
-    "passages": [
-      {
-        "docType": "Text-message chain",
-        "text": "Owen Brandt (8:32 A.M.)\nHi Priscilla, are you already at the Delmar rooftop? We're filming the client interview there at 9.\n\nPriscilla Vaughn (8:34 A.M.)\nYes, I got here early to set up the lighting. But it's windier than expected — the softbox keeps tipping over.\n\nOwen Brandt (8:35 A.M.)\nCan you weigh down the stands with the sandbags in the van?\n\nPriscilla Vaughn (8:36 A.M.)\nThat's the problem — the van keys are with you.\n\nOwen Brandt (8:37 A.M.)\nAh, right. I'm ten minutes away. Sit tight.\n\nPriscilla Vaughn (8:38 A.M.)\nNo rush on my account, but the client's marketing team arrives at 8:50 for hair and makeup.\n\nOwen Brandt (8:39 A.M.)\nUnderstood. I'll bring the sandbags straight up when I get there."
-      }
-    ],
-    "translation": "オーウェン・ブラント(午前8:32):やあプリシラ、もうデルマーの屋上にいる? 9時にあそこでクライアントのインタビューを撮影するんだ。\nプリシラ・ヴォーン(午前8:34):ええ、照明をセットするために早く来たの。でも思ったより風が強くて——ソフトボックスが倒れ続けるのよ。\nオーウェン・ブラント(午前8:35):バンにある砂袋でスタンドを重しできる?\nプリシラ・ヴォーン(午前8:36):それが問題なの——バンの鍵はあなたが持ってるでしょ。\nオーウェン・ブラント(午前8:37):ああ、そうだった。あと10分で着く。落ち着いて待ってて。\nプリシラ・ヴォーン(午前8:38):私は急がなくて平気だけど、クライアントのマーケティングチームが8時50分にヘアメイクで来るわよ。\nオーウェン・ブラント(午前8:39):了解。着いたらそのまま砂袋を持って上がるよ。",
-    "questions": [
-      {
-        "q": "What problem does Ms. Vaughn mention?",
-        "choices": [
-          "The wind is affecting her equipment.",
-          "A camera has stopped working.",
-          "A team member is late.",
-          "A location was double-booked."
-        ],
-        "answer": 0,
-        "explanation": "プリシラの『it's windier than expected — the softbox keeps tipping over(風が強くソフトボックスが倒れ続ける)』が根拠。機材が風の影響を受けている。"
-      },
-      {
-        "q": "At 8:38 A.M., what does Ms. Vaughn most likely mean when she writes, \"No rush on my account\"?",
-        "choices": [
-          "She wants to postpone the shoot.",
-          "She will not attend the shoot.",
-          "She has finished the setup.",
-          "She is not the main reason he needs to hurry."
-        ],
-        "answer": 3,
-        "explanation": "意図問題。直後に『but the client's marketing team arrives at 8:50』と続くので、『(自分のためではなく)本当に急ぐ理由は別にある=8時50分のチーム到着』という含意。"
-      },
-      {
-        "q": "What will Mr. Brandt most likely do next?",
-        "choices": [
-          "Bring the sandbags up to the rooftop",
-          "Drive the marketing team",
-          "Reschedule the interview",
-          "Return to the office"
-        ],
-        "answer": 0,
-        "explanation": "最後の『I'll bring the sandbags straight up when I get there(着いたら砂袋を持って上がる)』が根拠。砂袋はバンにあり、鍵はオーウェンが持っている。"
-      }
-    ]
-  },
-  {
-    "id": "s5p7-02",
-    "title": "シングル 2(広告)",
+    "title": "シングル 1(広告)",
     "passages": [
       {
         "docType": "Advertisement",
@@ -79,69 +33,12 @@ window.TOEIC_DATA_5.part7 = [
         ],
         "answer": 0,
         "explanation": "NOT問題。『we do not offer snow removal or pest-control services(除雪と害虫駆除はしない)』が根拠。夜間の床清掃・毎月のカーペット洗浄・現地調査はサービスに含まれる。"
-      },
-      {
-        "q": "What is indicated about spring site assessments?",
-        "choices": [
-          "They include snow removal.",
-          "They are available all year.",
-          "They tend to book up quickly.",
-          "They cost $90 in every case."
-        ],
-        "answer": 2,
-        "explanation": "『Assessment appointments fill quickly in spring, so book early(春は早く埋まる)』が根拠。3月末までの契約と組めば無料なので(D)の『必ず90ドル』は誤り。"
       }
     ]
   },
   {
-    "id": "s5p7-03",
-    "title": "シングル 3(Eメール)",
-    "passages": [
-      {
-        "docType": "E-mail",
-        "text": "From: Enrollment Team, Meridian Online Academy\nTo: Hana Okafor\nSubject: Your enrollment in \"Data Visualization Fundamentals\"\nDate: January 9\n\nDear Ms. Okafor,\n\nThank you for enrolling in Data Visualization Fundamentals. The course begins on Monday, January 20, and runs for six weeks. Here is what you need to know before the first session.\n\n1. Live sessions are held every Tuesday and Thursday, 7:00–8:30 P.M., and are recorded for later viewing.\n2. Please install the free software listed on your course dashboard before January 20.\n3. The first assignment is due at the end of week two; assignments make up 60 percent of your final grade.\n\nA certificate of completion is issued to students who attend at least 80 percent of the live sessions and submit all assignments. If you must miss more than two sessions, contact your instructor, Dr. Lund, to discuss alternatives.\n\nWe're excited to have you in the course.\n\nMeridian Online Academy"
-      }
-    ],
-    "translation": "差出人:メリディアン・オンライン・アカデミー 受講登録チーム\n宛先:ハナ・オカフォー\n件名:「データ可視化の基礎」へのご登録\n日付:1月9日\n\nオカフォー様\n\n「データ可視化の基礎」へのご登録ありがとうございます。講座は1月20日(月)に始まり、6週間続きます。最初のセッション前に知っておくべきことは以下の通りです。\n\n1. ライブセッションは毎週火曜と木曜の午後7時〜8時30分に行われ、後で視聴できるよう録画されます。\n2. 1月20日までに、受講ダッシュボードに記載の無料ソフトをインストールしてください。\n3. 最初の課題は第2週末が締切です。課題は最終成績の60%を占めます。\n\n修了証は、ライブセッションの80%以上に出席し、すべての課題を提出した受講者に発行されます。2回を超えて欠席せざるを得ない場合は、講師のルンド博士にご連絡のうえ、代替方法をご相談ください。\n\n受講いただけることを楽しみにしています。\nメリディアン・オンライン・アカデミー",
-    "questions": [
-      {
-        "q": "Why was the e-mail sent?",
-        "choices": [
-          "To announce a brand-new course",
-          "To provide information before a course begins",
-          "To reschedule a live session",
-          "To offer a course discount"
-        ],
-        "answer": 1,
-        "explanation": "『Here is what you need to know before the first session』以降、開始前の必要事項をまとめて伝えている。情報提供が目的。"
-      },
-      {
-        "q": "What is indicated about the live sessions?",
-        "choices": [
-          "They are optional to join.",
-          "They are recorded for later viewing.",
-          "They are held once a week.",
-          "They each last three hours."
-        ],
-        "answer": 1,
-        "explanation": "『are recorded for later viewing(後で視聴できるよう録画)』が根拠。火曜と木曜の週2回なので(C)は誤り。"
-      },
-      {
-        "q": "What must a student do to receive a certificate?",
-        "choices": [
-          "Install extra software",
-          "Pass a written exam",
-          "Pay an additional fee",
-          "Attend at least 80 percent of the live sessions"
-        ],
-        "answer": 3,
-        "explanation": "『attend at least 80 percent of the live sessions and submit all assignments』が修了証の条件。試験合格や追加料金は述べられていない。"
-      }
-    ]
-  },
-  {
-    "id": "s5p7-04",
-    "title": "シングル 4(お知らせ)",
+    "id": "s5p7-02",
+    "title": "シングル 2(お知らせ)",
     "passages": [
       {
         "docType": "Notice",
@@ -175,54 +72,78 @@ window.TOEIC_DATA_5.part7 = [
     ]
   },
   {
-    "id": "s5p7-05",
-    "title": "シングル 5(オンラインチャット)",
+    "id": "s5p7-03",
+    "title": "シングル 3(テキストメッセージのやり取り)",
     "passages": [
       {
-        "docType": "Online chat",
-        "text": "Renee Coates (11:02 A.M.)\nGareth, Dr. Yuen's 11:30 patient just called — she's stuck in traffic and will be about 20 minutes late.\n\nGareth Sowande (11:03 A.M.)\nThat pushes into the 12:00 cleaning. Can we move the 12:00 to the afternoon?\n\nRenee Coates (11:04 A.M.)\nThe afternoon is fully booked. But Dr. Yuen has no one at 11:00 right now — that check-up was cancelled.\n\nGareth Sowande (11:05 A.M.)\nSo if the late patient still isn't here, we start the 12:00 cleaning early and slot her in afterward?\n\nRenee Coates (11:06 A.M.)\nExactly. I'll call the 12:00 patient and ask if she can come in 15 minutes sooner.\n\nGareth Sowande (11:07 A.M.)\nThat works. Let me know what she says."
+        "docType": "Text-message chain",
+        "text": "Owen Brandt (8:32 A.M.)\nHi Priscilla, are you already at the Delmar rooftop? We're filming the client interview there at 9.\n\nPriscilla Vaughn (8:34 A.M.)\nYes, I got here early to set up the lighting. But it's windier than expected — the softbox keeps tipping over.\n\nOwen Brandt (8:35 A.M.)\nCan you weigh down the stands with the sandbags in the van?\n\nPriscilla Vaughn (8:36 A.M.)\nThat's the problem — the van keys are with you.\n\nOwen Brandt (8:37 A.M.)\nAh, right. I'm ten minutes away. Sit tight.\n\nPriscilla Vaughn (8:38 A.M.)\nNo rush on my account, but the client's marketing team arrives at 8:50 for hair and makeup.\n\nOwen Brandt (8:39 A.M.)\nUnderstood. I'll bring the sandbags straight up when I get there."
       }
     ],
-    "translation": "リーニー・コーツ(午前11:02):ガレス、ユエン先生の11時30分の患者さんから今電話があったの——渋滞で20分ほど遅れるって。\nガレス・ソワンデ(午前11:03):それだと12時のクリーニングに食い込むね。12時を午後に動かせる?\nリーニー・コーツ(午前11:04):午後は満杯なの。でも今ユエン先生は11時が空いてる——さっき検診がキャンセルになったから。\nガレス・ソワンデ(午前11:05):じゃあ遅れる患者さんがまだ来ていなければ、12時のクリーニングを早めに始めて、その後に彼女を入れる?\nリーニー・コーツ(午前11:06):その通り。12時の患者さんに電話して、15分早く来られるか聞いてみる。\nガレス・ソワンデ(午前11:07):それでいこう。返事がわかったら教えて。",
+    "translation": "オーウェン・ブラント(午前8:32):やあプリシラ、もうデルマーの屋上にいる? 9時にあそこでクライアントのインタビューを撮影するんだ。\nプリシラ・ヴォーン(午前8:34):ええ、照明をセットするために早く来たの。でも思ったより風が強くて——ソフトボックスが倒れ続けるのよ。\nオーウェン・ブラント(午前8:35):バンにある砂袋でスタンドを重しできる?\nプリシラ・ヴォーン(午前8:36):それが問題なの——バンの鍵はあなたが持ってるでしょ。\nオーウェン・ブラント(午前8:37):ああ、そうだった。あと10分で着く。落ち着いて待ってて。\nプリシラ・ヴォーン(午前8:38):私は急がなくて平気だけど、クライアントのマーケティングチームが8時50分にヘアメイクで来るわよ。\nオーウェン・ブラント(午前8:39):了解。着いたらそのまま砂袋を持って上がるよ。",
     "questions": [
       {
-        "q": "Where do the writers most likely work?",
+        "q": "What problem does Ms. Vaughn mention?",
         "choices": [
-          "At a dental office",
-          "At a photography studio",
-          "At a bank",
-          "At a fitness center"
+          "The wind is affecting her equipment.",
+          "A camera has stopped working.",
+          "A team member is late.",
+          "A location was double-booked."
         ],
         "answer": 0,
-        "explanation": "『Dr. Yuen』『cleaning(歯のクリーニング)』『check-up(検診)』『patient』から歯科医院での勤務と判断できる。"
+        "explanation": "プリシラの『it's windier than expected — the softbox keeps tipping over(風が強くソフトボックスが倒れ続ける)』が根拠。機材が風の影響を受けている。"
       },
       {
-        "q": "What problem are the writers discussing?",
+        "q": "At 8:38 A.M., what does Ms. Vaughn most likely mean when she writes, \"No rush on my account\"?",
         "choices": [
-          "A scheduled appointment will be delayed.",
-          "A room is double-booked.",
-          "Some equipment is broken.",
-          "A staff member is absent."
+          "She wants to postpone the shoot.",
+          "She will not attend the shoot.",
+          "She has finished the setup.",
+          "She is not the main reason he needs to hurry."
         ],
-        "answer": 0,
-        "explanation": "冒頭の『she's stuck in traffic and will be about 20 minutes late(渋滞で20分遅れる)』が根拠。予約の開始が遅れることが、その後の調整の発端になっている。"
-      },
-      {
-        "q": "At 11:06 A.M., what does Ms. Coates most likely mean when she writes, \"Exactly\"?",
-        "choices": [
-          "She will not make the call herself.",
-          "She agrees with Mr. Sowande's plan.",
-          "She wants to cancel the noon booking.",
-          "She has completed an appointment."
-        ],
-        "answer": 1,
-        "explanation": "意図問題。直前でガレスが『クリーニングを早め、その後に遅刻患者を入れる』案を示し、それに『Exactly(その通り)』と同意している。"
+        "answer": 3,
+        "explanation": "意図問題。直後に『but the client's marketing team arrives at 8:50』と続くので、『(自分のためではなく)本当に急ぐ理由は別にある=8時50分のチーム到着』という含意。"
       }
     ]
   },
   {
-    "id": "s5p7-06",
-    "title": "シングル 6(記事)",
+    "id": "s5p7-04",
+    "title": "シングル 4(社内メモ)",
+    "passages": [
+      {
+        "docType": "Memo",
+        "text": "MEMO\nTo: All Staff, Claims Division\nFrom: Rashid Okonjo, IT Operations Manager\nDate: August 25\nRe: Move to the Orbit claims system\n\nOur division will switch from the Delta claims database to the new Orbit system over the weekend of September 12. Delta will become read-only at 5 P.M. on Friday, September 11, and Orbit will open on Monday, September 14.\n\nIn Orbit, claim files can be searched by customer name as well as by claim number, and scanned documents can be attached directly to a claim record.\n\nPlease export any personal spreadsheets you keep in Delta before September 11, as these will not be transferred automatically.\n\nPlease note that the paper claim forms used for walk-in customers are not affected by this change; those procedures remain the same."
+      }
+    ],
+    "translation": "メモ\n宛先:請求部門 全職員\n差出人:ラシード・オコンジョ(IT運用マネージャー)\n日付:8月25日\n件名:請求システム『オービット』への移行\n\n当部門は9月12日の週末に、これまでのデルタ請求データベースから新しいオービットへ切り替えます。デルタは9月11日(金)午後5時から閲覧のみとなり、オービットは9月14日(月)から使えます。\n\nオービットでは、請求ファイルを請求番号だけでなく顧客名でも検索でき、スキャンした書類を請求記録に直接添付できます。\n\nデルタに保存している個人用の表計算ファイルは自動では移行されませんので、9月11日までに書き出してください。\n\nなお、来店客向けの紙の請求書類はこの変更の影響を受けず、手順はこれまでどおりです。",
+    "questions": [
+      {
+        "q": "What is the purpose of the memo?",
+        "choices": [
+          "To change a payment deadline",
+          "To request feedback on a report",
+          "To inform staff about a system change",
+          "To introduce a new manager"
+        ],
+        "answer": 2,
+        "explanation": "『Our division will switch from the Delta claims database to the new Orbit system(請求データベースを新システムに切り替える)』が主題。移行の日程と影響を職員に知らせるメモ。"
+      },
+      {
+        "q": "What is indicated about the paper claim forms?",
+        "choices": [
+          "They will be scanned by the IT team.",
+          "Their procedures will stay the same.",
+          "They will be sent to Room 210.",
+          "They will no longer be used."
+        ],
+        "answer": 1,
+        "explanation": "『the paper claim forms ... are not affected by this change; those procedures remain the same(手順はこれまでどおり)』が根拠。廃止も送付先の変更も述べられていない。"
+      }
+    ]
+  },
+  {
+    "id": "s5p7-05",
+    "title": "シングル 5(記事)",
     "passages": [
       {
         "docType": "Article",
@@ -247,10 +168,10 @@ window.TOEIC_DATA_5.part7 = [
         "choices": [
           "measure",
           "release",
-          "postpone",
-          "counterbalance"
+          "counterbalance",
+          "postpone"
         ],
-        "answer": 3,
+        "answer": 2,
         "explanation": "語彙問題。ここでの offset は二酸化炭素を『相殺する』意味で、counterbalance(埋め合わせる)が最も近い。release(放出する)は逆の意味のひっかけ。"
       },
       {
@@ -267,8 +188,8 @@ window.TOEIC_DATA_5.part7 = [
     ]
   },
   {
-    "id": "s5p7-07",
-    "title": "シングル 7(Eメール)",
+    "id": "s5p7-06",
+    "title": "シングル 6(Eメール)",
     "passages": [
       {
         "docType": "E-mail",
@@ -292,11 +213,11 @@ window.TOEIC_DATA_5.part7 = [
         "q": "What does Ms. Reyes recommend?",
         "choices": [
           "Serving individually plated meals",
+          "Inviting fewer guests",
           "Setting out a shared buffet",
-          "Ordering extra desserts",
-          "Inviting fewer guests"
+          "Ordering extra desserts"
         ],
-        "answer": 1,
+        "answer": 2,
         "explanation": "『a shared buffet works better than individually plated meals(一人ずつ盛り付けるより取り分け式のビュッフェが向く)』が根拠。plated meals はひっかけ。"
       },
       {
@@ -313,15 +234,61 @@ window.TOEIC_DATA_5.part7 = [
     ]
   },
   {
+    "id": "s5p7-07",
+    "title": "シングル 7(Eメール)",
+    "passages": [
+      {
+        "docType": "E-mail",
+        "text": "From: Enrollment Team, Meridian Online Academy\nTo: Hana Okafor\nSubject: Your enrollment in \"Data Visualization Fundamentals\"\nDate: January 9\n\nDear Ms. Okafor,\n\nThank you for enrolling in Data Visualization Fundamentals. The course begins on Monday, January 20, and runs for six weeks. Here is what you need to know before the first session.\n\n1. Live sessions are held every Tuesday and Thursday, 7:00–8:30 P.M., and are recorded for later viewing.\n2. Please install the free software listed on your course dashboard before January 20.\n3. The first assignment is due at the end of week two; assignments make up 60 percent of your final grade.\n\nA certificate of completion is issued to students who attend at least 80 percent of the live sessions and submit all assignments. If you must miss more than two sessions, contact your instructor, Dr. Lund, to discuss alternatives.\n\nWe're excited to have you in the course.\n\nMeridian Online Academy"
+      }
+    ],
+    "translation": "差出人:メリディアン・オンライン・アカデミー 受講登録チーム\n宛先:ハナ・オカフォー\n件名:「データ可視化の基礎」へのご登録\n日付:1月9日\n\nオカフォー様\n\n「データ可視化の基礎」へのご登録ありがとうございます。講座は1月20日(月)に始まり、6週間続きます。最初のセッション前に知っておくべきことは以下の通りです。\n\n1. ライブセッションは毎週火曜と木曜の午後7時〜8時30分に行われ、後で視聴できるよう録画されます。\n2. 1月20日までに、受講ダッシュボードに記載の無料ソフトをインストールしてください。\n3. 最初の課題は第2週末が締切です。課題は最終成績の60%を占めます。\n\n修了証は、ライブセッションの80%以上に出席し、すべての課題を提出した受講者に発行されます。2回を超えて欠席せざるを得ない場合は、講師のルンド博士にご連絡のうえ、代替方法をご相談ください。\n\n受講いただけることを楽しみにしています。\nメリディアン・オンライン・アカデミー",
+    "questions": [
+      {
+        "q": "Why was the e-mail sent?",
+        "choices": [
+          "To announce a brand-new course",
+          "To provide information before a course begins",
+          "To reschedule a live session",
+          "To offer a course discount"
+        ],
+        "answer": 1,
+        "explanation": "『Here is what you need to know before the first session』以降、開始前の必要事項をまとめて伝えている。情報提供が目的。"
+      },
+      {
+        "q": "What is indicated about the live sessions?",
+        "choices": [
+          "They are optional to join.",
+          "They are held once a week.",
+          "They are recorded for later viewing.",
+          "They each last three hours."
+        ],
+        "answer": 2,
+        "explanation": "『are recorded for later viewing(後で視聴できるよう録画)』が根拠。火曜と木曜の週2回なので(B)は誤り。"
+      },
+      {
+        "q": "What must a student do to receive a certificate?",
+        "choices": [
+          "Install extra software",
+          "Pass a written exam",
+          "Pay an additional fee",
+          "Attend at least 80 percent of the live sessions"
+        ],
+        "answer": 3,
+        "explanation": "『attend at least 80 percent of the live sessions and submit all assignments』が修了証の条件。試験合格や追加料金は述べられていない。"
+      }
+    ]
+  },
+  {
     "id": "s5p7-08",
     "title": "シングル 8(手紙)",
     "passages": [
       {
         "docType": "Letter",
-        "text": "Dear Ms. Albright,\n\nWelcome to Northgate Physiotherapy. Thank you for choosing our clinic for your rehabilitation, and we look forward to helping you recover after your knee surgery.\n\nYour first appointment is confirmed for Thursday, February 12, at 10:00 A.M. with Ms. Petra Vance, one of our senior physiotherapists. Please plan to arrive fifteen minutes early to complete a short health questionnaire, and wear loose clothing that allows easy movement of the knee.\n\nIf your doctor has given you a referral letter or imaging results, please bring them to this first visit, as they help us design the right program for you. There is no need to bring your own exercise equipment.\n\nFree parking is available behind the building; enter from Sennett Lane. Should you need to change your appointment, kindly give us at least 24 hours' notice.\n\nWarm regards,\nDaniel Frost\nPatient Coordinator, Northgate Physiotherapy"
+        "text": "Dear Ms. Albright,\n\nWelcome to Northgate Physiotherapy. Thank you for choosing our clinic for your rehabilitation, and we look forward to helping you recover after your knee surgery.\n\nYour first appointment is confirmed for Thursday, February 12, at 10:00 A.M. with Ms. Petra Vance, one of our senior physiotherapists. Please plan to arrive fifteen minutes early to complete a short health questionnaire, and wear loose clothing that allows easy movement of the knee.\n\nIf your doctor has given you a referral letter or imaging results, please bring them to this first visit, as they help us design the right program for you. There is no need to bring your own exercise equipment.\n\nYour program will begin with a sixty-minute assessment. Based on the results, Ms. Vance will recommend a schedule of follow-up visits, usually twice a week for the first month. Each follow-up session lasts about forty minutes and combines hands-on treatment with exercises that you will also practice at home. After your fourth visit, Ms. Vance will send a written progress summary to your doctor so that your care stays coordinated.\n\nFree parking is available behind the building; enter from Sennett Lane. Our reception desk is open Monday through Friday from 8 A.M. to 6 P.M.; messages left outside those hours are returned on the next business day. Should you need to change your appointment, kindly give us at least 24 hours' notice.\n\nWarm regards,\nDaniel Frost\nPatient Coordinator, Northgate Physiotherapy"
       }
     ],
-    "translation": "オルブライト様\n\nノースゲート理学療法へようこそ。リハビリに当院をお選びいただきありがとうございます。膝の手術後の回復をお手伝いできることを楽しみにしています。\n\n初回のご予約は2月12日(木)午前10時、当院の上級理学療法士ペトラ・ヴァンスとで確定しています。簡単な健康アンケートにご記入いただくため15分ほど早めにお越しになり、膝を動かしやすいゆったりした服装でお願いします。\n\n医師から紹介状や画像検査の結果を受け取っている場合は、適切なプログラム作成に役立ちますので、この初回にお持ちください。運動器具をご自身で持参する必要はありません。\n\n無料駐車場は建物の裏にあり、セネット通りからお入りください。ご予約の変更が必要な場合は、少なくとも24時間前までにご連絡ください。\n\n敬具\nダニエル・フロスト\nノースゲート理学療法 患者コーディネーター",
+    "translation": "オルブライト様\n\nノースゲート理学療法へようこそ。リハビリに当院をお選びいただきありがとうございます。膝の手術後の回復をお手伝いできることを楽しみにしています。\n\n初回のご予約は2月12日(木)午前10時、当院の上級理学療法士ペトラ・ヴァンスとで確定しています。簡単な健康アンケートにご記入いただくため15分ほど早めにお越しになり、膝を動かしやすいゆったりした服装でお願いします。\n\n医師から紹介状や画像検査の結果を受け取っている場合は、適切なプログラム作成に役立ちますので、この初回にお持ちください。運動器具をご自身で持参する必要はありません。\n\nプログラムは60分の評価から始まります。その結果をもとに、ヴァンスが今後の通院スケジュール——最初の1か月はおおむね週2回——をご提案します。2回目以降の施術は1回およそ40分で、手技による治療と、ご自宅でも行っていただく運動を組み合わせます。4回目の受診後、ヴァンスが経過のまとめを文書で担当医にお送りし、治療方針をそろえます。\n\n無料駐車場は建物の裏にあり、セネット通りからお入りください。受付は月曜から金曜の午前8時〜午後6時です。時間外にいただいたご連絡には翌営業日にご返信します。ご予約の変更が必要な場合は、少なくとも24時間前までにご連絡ください。\n\n敬具\nダニエル・フロスト\nノースゲート理学療法 患者コーディネーター",
     "questions": [
       {
         "q": "Why was the letter written?",
@@ -349,25 +316,93 @@ window.TOEIC_DATA_5.part7 = [
         "q": "What is indicated about parking?",
         "choices": [
           "It requires an advance reservation.",
-          "It is free and located behind the building.",
           "It costs a small daily fee.",
-          "It is unavailable to patients."
+          "It is unavailable to patients.",
+          "It is free and located behind the building."
         ],
-        "answer": 1,
+        "answer": 3,
         "explanation": "『Free parking is available behind the building(建物の裏に無料駐車場)』が根拠。予約や料金の記述はない。"
+      },
+      {
+        "q": "According to the letter, what will happen after Ms. Albright's fourth visit?",
+        "choices": [
+          "A new health questionnaire will be required.",
+          "Her sessions will be shortened to twenty minutes.",
+          "Her doctor will receive a written progress summary.",
+          "She will be moved to a different clinic."
+        ],
+        "answer": 2,
+        "explanation": "『After your fourth visit, Ms. Vance will send a written progress summary to your doctor(4回目の受診後、経過のまとめを文書で担当医に送る)』が根拠。(A)のアンケートは初回に記入するもので、再度求められるとは書かれていない。"
       }
     ]
   },
   {
     "id": "s5p7-09",
-    "title": "シングル 9(ウェブページ)",
+    "title": "シングル 9(オンラインチャット)",
+    "passages": [
+      {
+        "docType": "Online chat",
+        "text": "Renee Coates (11:02 A.M.)\nGareth, Dr. Yuen's 11:30 patient just called — she's stuck in traffic and will be about 20 minutes late.\n\nGareth Sowande (11:03 A.M.)\nThat pushes into the 12:00 cleaning. Can we move the 12:00 to the afternoon?\n\nRenee Coates (11:04 A.M.)\nThe afternoon is fully booked. But Dr. Yuen has no one at 11:00 right now — that check-up was cancelled.\n\nDr. Yuen (11:05 A.M.)\nI'm free until 11:30, so I can start the next cleaning as soon as the room is ready.\n\nGareth Sowande (11:06 A.M.)\nSo if the late patient still isn't here, we start the 12:00 cleaning early and slot her in afterward?\n\nRenee Coates (11:07 A.M.)\nExactly. I'll call the 12:00 patient and ask if she can come in 15 minutes sooner.\n\nDr. Yuen (11:08 A.M.)\nOne thing — the room needs a fresh set of instruments. Gareth, is the sterilizer cycle finished?\n\nGareth Sowande (11:09 A.M.)\nIt ends at 11:15. I'll have the room ready by 11:20.\n\nRenee Coates (11:12 A.M.)\nGood news — the 12:00 patient says she can be here by 11:45.\n\nDr. Yuen (11:13 A.M.)\nThen let's plan on 11:45. Renee, please message the patient who is running late and tell her we'll see her at about 12:30 instead.\n\nRenee Coates (11:14 A.M.)\nWill do. I'll update the front desk as well so that no one is turned away.\n\nGareth Sowande (11:15 A.M.)\nI'll move the afternoon files to the second room so the two appointments don't overlap."
+      }
+    ],
+    "translation": "リーニー・コーツ(午前11:02):ガレス、ユエン先生の11時30分の患者さんから今電話があったの——渋滞で20分ほど遅れるって。\nガレス・ソワンデ(午前11:03):それだと12時のクリーニングに食い込むね。12時を午後に動かせる?\nリーニー・コーツ(午前11:04):午後は満杯なの。でも今ユエン先生は11時が空いてる——さっき検診がキャンセルになったから。\nユエン医師(午前11:05):11時30分までは空いているから、部屋の準備ができ次第、次のクリーニングを始められます。\nガレス・ソワンデ(午前11:06):じゃあ遅れる患者さんがまだ来ていなければ、12時のクリーニングを早めに始めて、その後に彼女を入れる?\nリーニー・コーツ(午前11:07):その通り。12時の患者さんに電話して、15分早く来られるか聞いてみる。\nユエン医師(午前11:08):一つだけ——その部屋には新しい器具一式が必要です。ガレス、滅菌器の運転は終わった?\nガレス・ソワンデ(午前11:09):11時15分に終わります。11時20分までに部屋を整えます。\nリーニー・コーツ(午前11:12):いい知らせ——12時の患者さんは11時45分に来られるそうよ。\nユエン医師(午前11:13):では11時45分でいきましょう。リーニー、遅れている患者さんに連絡して、12時30分ごろに診ますと伝えてください。\nリーニー・コーツ(午前11:14):了解。予約がずれたことを受付にも伝えて、誰も追い返されないようにします。\nガレス・ソワンデ(午前11:15):僕は午後の書類を第2診療室に移して、2件の予約が重ならないようにします。",
+    "questions": [
+      {
+        "q": "Where do the writers most likely work?",
+        "choices": [
+          "At a dental office",
+          "At a photography studio",
+          "At a bank",
+          "At a fitness center"
+        ],
+        "answer": 0,
+        "explanation": "『Dr. Yuen』『cleaning(歯のクリーニング)』『check-up(検診)』『patient』から歯科医院での勤務と判断できる。"
+      },
+      {
+        "q": "What problem are the writers discussing?",
+        "choices": [
+          "A room is double-booked.",
+          "Some equipment is broken.",
+          "A staff member is absent.",
+          "A scheduled appointment will be delayed."
+        ],
+        "answer": 3,
+        "explanation": "冒頭の『she's stuck in traffic and will be about 20 minutes late(渋滞で20分遅れる)』が根拠。予約の開始が遅れることが、その後の調整の発端になっている。"
+      },
+      {
+        "q": "At 11:07 A.M., what does Ms. Coates most likely mean when she writes, \"Exactly\"?",
+        "choices": [
+          "She will not make the call herself.",
+          "She agrees with Mr. Sowande's plan.",
+          "She wants to cancel the noon booking.",
+          "She has completed an appointment."
+        ],
+        "answer": 1,
+        "explanation": "意図問題。直前でガレスが『クリーニングを早め、その後に遅刻患者を入れる』案を示し、それに『Exactly(その通り)』と同意している。"
+      },
+      {
+        "q": "What is suggested about the 12:00 appointment?",
+        "choices": [
+          "It will be moved to the afternoon.",
+          "It will be shortened to 15 minutes.",
+          "It will begin earlier than originally scheduled.",
+          "It will be cancelled."
+        ],
+        "answer": 2,
+        "explanation": "12時の予約者が11時45分に来られると分かり、ユエン医師が『Then let's plan on 11:45』と決めている。予定より早く始まる。(A)の午後への変更は『The afternoon is fully booked』で却下されている。"
+      }
+    ]
+  },
+  {
+    "id": "s5p7-10",
+    "title": "シングル 10(ウェブページ)",
     "passages": [
       {
         "docType": "Web page",
-        "text": "RIVERBEND COMMUNITY GARDENS — Plot Rentals for the Growing Season\n\nRiverbend offers 60 garden plots for residents who want to grow their own vegetables, herbs, and flowers but lack space at home. The growing season runs from April through October.\n\nPlot sizes and annual fees:\n1. Standard plot (3m x 3m) — $45\n2. Large plot (3m x 6m) — $80\n3. Raised accessible plot (waist-height, for gardeners with limited mobility) — $60\n\nAll plots come with access to shared tools, compost, and a water tap. Gardeners are asked to keep their plots tidy and to volunteer for at least four hours of communal upkeep, such as maintaining pathways, over the season.\n\nDemand is high, and plots are allotted on a first-come basis. Rentals open February 1. A short waiting list operates once all plots are taken, and we will notify you promptly if a plot becomes free."
+        "text": "RIVERBEND COMMUNITY GARDENS — Plot Rentals for the Growing Season\n\nRiverbend offers 60 garden plots for residents who want to grow their own vegetables, herbs, and flowers but lack space at home. The growing season runs from April through October.\n\nPlot sizes and annual fees:\n1. Standard plot (3m x 3m) — $45\n2. Large plot (3m x 6m) — $80\n3. Raised accessible plot (waist-height, for gardeners with limited mobility) — $60\n\nAll plots come with access to shared tools, compost, and a water tap. Gardeners are asked to keep their plots tidy and to volunteer for at least four hours of communal upkeep, such as maintaining pathways, over the season.\n\nVolunteers from the Riverbend committee lead an orientation walk on the first Saturday of April. It covers preparing the soil, choosing what to plant in each month of the season, and where the shared tools are kept. Attendance is not required, though newcomers usually find it helpful.\n\nThe gardens are open daily from dawn until dusk, and everyone receives a gate code by e-mail. Please leave pets outside the growing area. Vegetables left in the shared basket near the entrance are collected each Friday and donated to a local food pantry.\n\nDemand is high, and plots are allotted on a first-come basis. Rentals open February 1. A short waiting list operates once all plots are taken, and we will notify you promptly if a plot becomes free."
       }
     ],
-    "translation": "リバーベンド・コミュニティガーデン——栽培シーズンの区画レンタル\n\nリバーベンドは、自宅に場所がないが自分で野菜・ハーブ・花を育てたい住民のために60の区画を用意しています。栽培シーズンは4月から10月までです。\n\n区画の広さと年間料金:\n1. 標準区画(3m×3m):45ドル\n2. 大区画(3m×6m):80ドル\n3. レイズド式バリアフリー区画(腰の高さ、体を動かしにくい方向け):60ドル\n\nすべての区画で、共用の道具・堆肥・水道が利用できます。区画を清潔に保ち、シーズン中に通路の整備など共同管理を最低4時間手伝っていただくようお願いします。\n\n需要が高く、区画は先着順で割り当てます。レンタル受付は2月1日開始。全区画が埋まると短い待機リストで運用し、空きが出たら速やかにお知らせします。",
+    "translation": "リバーベンド・コミュニティガーデン——栽培シーズンの区画レンタル\n\nリバーベンドは、自宅に場所がないが自分で野菜・ハーブ・花を育てたい住民のために60の区画を用意しています。栽培シーズンは4月から10月までです。\n\n区画の広さと年間料金:\n1. 標準区画(3m×3m):45ドル\n2. 大区画(3m×6m):80ドル\n3. レイズド式バリアフリー区画(腰の高さ、体を動かしにくい方向け):60ドル\n\nすべての区画で、共用の道具・堆肥・水道が利用できます。区画を清潔に保ち、シーズン中に通路の整備など共同管理を最低4時間手伝っていただくようお願いします。\n\nリバーベンド委員会のボランティアが、4月の第1土曜日にオリエンテーションの見学会を行います。土壌の準備、シーズンの各月に何を植えるか、共用の道具の保管場所などを扱います。参加は必須ではありませんが、初めての方には役立つはずです。\n\n菜園は毎日、夜明けから日暮れまで開いており、ゲートの暗証番号は全員にメールでお知らせします。ペットは栽培区域の外でお願いします。入口近くの共用かごに置かれた野菜は、毎週金曜に回収され、地域のフードパントリーに寄付されます。\n\n需要が高く、区画は先着順で割り当てます。レンタル受付は2月1日開始。全区画が埋まると短い待機リストで運用し、空きが出たら速やかにお知らせします。",
     "questions": [
       {
         "q": "What is offered on the Web page?",
@@ -383,13 +418,13 @@ window.TOEIC_DATA_5.part7 = [
       {
         "q": "What are gardeners asked to do?",
         "choices": [
-          "Attend a training session",
           "Pay a monthly fee",
-          "Volunteer for communal upkeep",
-          "Bring their own tools"
+          "Supply their own compost",
+          "Bring their own tools",
+          "Volunteer for communal upkeep"
         ],
-        "answer": 2,
-        "explanation": "『volunteer for at least four hours of communal upkeep(共同管理を最低4時間手伝う)』が根拠。道具は共用なので(D)は誤り、料金は年額なので(B)も誤り。"
+        "answer": 3,
+        "explanation": "『volunteer for at least four hours of communal upkeep(共同管理を最低4時間手伝う)』が根拠。堆肥も道具も共用で用意されるので(B)(C)は誤り、料金は年額なので(A)も誤り。"
       },
       {
         "q": "The word \"allotted\" in the last paragraph is closest in meaning to",
@@ -401,52 +436,17 @@ window.TOEIC_DATA_5.part7 = [
         ],
         "answer": 1,
         "explanation": "語彙問題。allotted(割り当てられる)= assigned。『first-come basis(先着順)』の文脈からも『配分・割り当て』の意味と分かる。"
-      }
-    ]
-  },
-  {
-    "id": "s5p7-10",
-    "title": "シングル 10(社内メモ)",
-    "passages": [
-      {
-        "docType": "Memo",
-        "text": "MEMO\nTo: All Staff, Claims Division\nFrom: Rashid Okonjo, IT Operations Manager\nDate: August 25\nRe: Move to the Orbit claims system\n\nOur division will switch from the Delta claims database to the new Orbit system over the weekend of September 12. Delta will become read-only at 5 P.M. on Friday, September 11, and Orbit will open on Monday, September 14.\n\nWhat the move changes:\n1. Claim files can be searched by customer name as well as by claim number\n2. Scanned documents can be attached directly to a claim record\n3. Weekly reports are generated automatically on Monday mornings\n4. Sign-in uses your existing staff ID and password\n\nPlease export any personal spreadsheets you keep in Delta before September 11, as these will not be transferred automatically. A drop-in help desk will be staffed in Room 210 from 9 A.M. to 4 P.M. during the first week.\n\nPlease note that the paper claim forms used for walk-in customers are not affected by this change; those procedures remain the same."
-      }
-    ],
-    "translation": "メモ\n宛先:請求部門 全職員\n差出人:ラシード・オコンジョ(IT運用マネージャー)\n日付:8月25日\n件名:請求システム『オービット』への移行\n\n当部門は9月12日の週末に、これまでのデルタ請求データベースから新しいオービットへ切り替えます。デルタは9月11日(金)午後5時から閲覧のみとなり、オービットは9月14日(月)から使えます。\n\n移行で変わる点:\n1. 請求ファイルを請求番号だけでなく顧客名でも検索できる\n2. スキャンした書類を請求記録に直接添付できる\n3. 週次レポートが毎週月曜の朝に自動生成される\n4. ログインは既存の職員IDとパスワードをそのまま使う\n\nデルタに保存している個人用の表計算ファイルは自動では移行されませんので、9月11日までに書き出してください。最初の1週間は、210号室で午前9時〜午後4時に予約不要のヘルプデスクを開設します。\n\nなお、来店客向けの紙の請求書類はこの変更の影響を受けず、手順はこれまでどおりです。",
-    "questions": [
-      {
-        "q": "What is the purpose of the memo?",
-        "choices": [
-          "To change a payment deadline",
-          "To request feedback on a report",
-          "To inform staff about a system change",
-          "To introduce a new manager"
-        ],
-        "answer": 2,
-        "explanation": "『Our division will switch from the Delta claims database to the new Orbit system(請求データベースを新システムに切り替える)』が主題。移行の日程と影響を職員に知らせるメモ。"
       },
       {
-        "q": "According to the memo, what is NOT one of the listed changes?",
+        "q": "What is indicated about the orientation walk?",
         "choices": [
-          "Automatic weekly reports",
-          "Searching by customer name",
-          "Access from mobile phones",
-          "Attaching scanned documents"
+          "Participation is optional.",
+          "It takes place every Friday.",
+          "It requires an extra fee.",
+          "It is limited to twenty people."
         ],
-        "answer": 2,
-        "explanation": "NOT問題。一覧は顧客名での検索・書類の添付・週次レポートの自動生成・既存IDでのログインの4つ。携帯電話からの利用には触れていない。"
-      },
-      {
-        "q": "What is indicated about the paper claim forms?",
-        "choices": [
-          "They will be scanned by the IT team.",
-          "Their procedures will stay the same.",
-          "They will be sent to Room 210.",
-          "They will no longer be used."
-        ],
-        "answer": 1,
-        "explanation": "『the paper claim forms ... are not affected by this change; those procedures remain the same(手順はこれまでどおり)』が根拠。廃止も送付先の変更も述べられていない。"
+        "answer": 0,
+        "explanation": "『Attendance is not required(参加は必須ではない)』が根拠。開催は4月の第1土曜日で、金曜は共用かごの野菜を回収する日。追加料金や人数制限には触れていない。"
       }
     ]
   },

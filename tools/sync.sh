@@ -47,6 +47,12 @@ node tools/check_duplicates.js | tail -5
 echo ""
 echo "-- 答えの漏れ(参考) --"
 node tools/check_leak.js | tail -5
+echo ""
+echo "-- Part 7 の構成 --"
+node tools/check_part7_order.js || die "Part 7 の構成が本番と違います。上の行を見てください。"
+echo ""
+echo "-- 解説の選択肢記号 --"
+node tools/check_labels.js || die "解説の (A)(B)(C)(D) が実際の選択肢とずれています。"
 
 step "3/6 音声の一覧を作り直す"
 node tools/build_audio_manifest.js || die "一覧の作成に失敗しました。"

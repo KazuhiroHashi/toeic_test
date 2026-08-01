@@ -3,152 +3,14 @@ window.TOEIC_DATA_4 = window.TOEIC_DATA_4 || {};
 window.TOEIC_DATA_4.part7 = [
   {
     "id": "s4p7-01",
-    "title": "シングル 1(テキストメッセージのやり取り)",
-    "passages": [
-      {
-        "docType": "Text-message chain",
-        "text": "Derek Olsson (7:42 A.M.)\nHi Yuki, the produce truck from Greenfield Farms just pulled up at Dock 3, but we weren't scheduled to receive them until 9.\n\nYuki Tanaka (7:44 A.M.)\nEarly again. The trouble is Dock 3 is still loading the outbound order for Melbourne. Can the driver wait?\n\nDerek Olsson (7:45 A.M.)\nHe says he has three more stops and can't wait long. And the crates are refrigerated, so they shouldn't sit in the sun.\n\nYuki Tanaka (7:46 A.M.)\nMove them to Dock 1. It's open, and the cold-storage entrance is right there.\n\nDerek Olsson (7:47 A.M.)\nGood call. I'll redirect him now.\n\nYuki Tanaka (7:48 A.M.)\nThanks. And log the arrival time — this is the third time this month they've come early.\n\nDerek Olsson (7:49 A.M.)\nWill do."
-      }
-    ],
-    "translation": "デレク・オルソン(午前7:42):やあユキ、グリーンフィールド農園の青果トラックが今ドック3に着いたんだけど、受け入れ予定は9時だったよね。\nユキ・タナカ(午前7:44):また早いのね。問題は、ドック3ではまだメルボルン向けの出荷分を積み込み中だってこと。運転手さん、待てる?\nデレク・オルソン(午前7:45):あと3か所回るから長くは待てないって。それにクレートは冷蔵品だから、日なたに置いておけないんだ。\nユキ・タナカ(午前7:46):ドック1に回して。空いてるし、冷蔵庫の入口もすぐそこよ。\nデレク・オルソン(午前7:47):なるほど。今すぐ誘導するよ。\nユキ・タナカ(午前7:48):ありがとう。それと到着時刻を記録しておいて——今月これで3回目の早着だから。\nデレク・オルソン(午前7:49):了解。",
-    "questions": [
-      {
-        "q": "What is causing a problem at Dock 3?",
-        "choices": [
-          "The refrigeration unit has failed.",
-          "A worker did not report for a shift.",
-          "A truck has broken down.",
-          "An outbound order is still being loaded."
-        ],
-        "answer": 3,
-        "explanation": "ユキの Dock 3 is still loading the outbound order for Melbourne(ドック3ではまだ出荷分を積み込み中)が根拠。青果トラックを受け入れられない原因。"
-      },
-      {
-        "q": "At 7:46 A.M., what does Ms. Tanaka most likely mean when she writes, \"Move them to Dock 1\"?",
-        "choices": [
-          "She will drive the truck to another site.",
-          "She wants the outbound order canceled.",
-          "She is offering a different place to unload the truck.",
-          "She needs the crates returned to the farm."
-        ],
-        "answer": 2,
-        "explanation": "意図問題。直後に『空いていて冷蔵庫の入口もすぐそこ』と続くので、荷降ろしの代わりの場所を指示している。them は青果のクレートを指す。"
-      },
-      {
-        "q": "What is indicated about Greenfield Farms?",
-        "choices": [
-          "It shares a dock with another supplier.",
-          "Its produce is not refrigerated.",
-          "It cancelled a delivery this morning.",
-          "Its truck has arrived early more than once."
-        ],
-        "answer": 3,
-        "explanation": "ユキの this is the third time this month they've come early(今月3回目の早着)が根拠。more than once への言い換え。"
-      }
-    ]
-  },
-  {
-    "id": "s4p7-02",
-    "title": "シングル 2(求人広告)",
-    "passages": [
-      {
-        "docType": "Job advertisement",
-        "text": "MAINTENANCE TECHNICIAN — Larkfield Bottling Plant\n\nLarkfield Beverages is hiring a full-time maintenance technician for its bottling plant in Danby. The successful applicant will service conveyor systems and filling machines, carry out weekly safety checks, and keep a written record of all repairs.\n\nRequirements:\n1. At least three years of experience with industrial machinery\n2. A recognized electrical or mechanical qualification\n3. Willingness to work one weekend shift per month\n\nWe offer a starting salary of $52,000, twenty days of paid leave, and a company pension. Uniforms and safety boots are supplied, and staff training is held on site every quarter.\n\nTo apply, send a résumé and a short cover letter to careers@larkfieldbev.com by August 22. Interviews will take place during the first week of September, and candidates who are selected at interview will be asked to complete a practical assessment at the plant."
-      }
-    ],
-    "translation": "保守技術者募集——ラークフィールド瓶詰工場\n\nラークフィールド飲料は、ダンビーの瓶詰工場で常勤の保守技術者を募集しています。採用者はコンベヤー設備と充填機の保守、毎週の安全点検、全ての修理の記録作成を担当します。\n\n応募条件:\n1. 産業機械の実務経験3年以上\n2. 電気または機械の公認資格\n3. 月1回の週末シフト勤務が可能なこと\n\n初任給52,000ドル、有給休暇20日、企業年金をご用意しています。制服と安全靴は支給し、社員研修は四半期ごとに工場内で実施します。\n\n応募は8月22日までに、履歴書と短いカバーレターを careers@larkfieldbev.com までお送りください。面接は9月の第1週に行い、面接で選ばれた候補者には工場での実技試験を受けていただきます。",
-    "questions": [
-      {
-        "q": "For whom is the advertisement most likely intended?",
-        "choices": [
-          "Suppliers of bottling equipment",
-          "Students seeking a summer internship",
-          "Experienced machinery technicians",
-          "Drivers with a delivery license"
-        ],
-        "answer": 2,
-        "explanation": "産業機械の経験3年以上と電気・機械の資格を求める常勤職の募集なので、経験を積んだ機械技術者向け。短期の学生インターンではないので(B)はひっかけ。"
-      },
-      {
-        "q": "What is NOT mentioned as something the company provides?",
-        "choices": [
-          "Paid leave",
-          "Transportation to the plant",
-          "Safety boots",
-          "Training on site"
-        ],
-        "answer": 1,
-        "explanation": "NOT問題。有給休暇20日、安全靴の支給、四半期ごとの社内研修はいずれも記載がある。通勤の足については何も述べられていない。"
-      },
-      {
-        "q": "What will selected candidates be asked to do?",
-        "choices": [
-          "Provide three references",
-          "Attend a second interview by video",
-          "Submit samples of past repair records",
-          "Complete a practical assessment"
-        ],
-        "answer": 3,
-        "explanation": "candidates who are selected at interview will be asked to complete a practical assessment at the plant(面接で選ばれた候補者は工場で実技試験を受ける)が根拠。"
-      }
-    ]
-  },
-  {
-    "id": "s4p7-03",
-    "title": "シングル 3(Eメール)",
-    "passages": [
-      {
-        "docType": "E-mail",
-        "text": "From: Helena Barsky, Procurement Manager, Aldervale Appliances\nTo: Raj Menon, Sales, Torrance Components\nSubject: Delivery schedule for aluminum brackets\nDate: February 9\n\nDear Mr. Menon,\n\nThank you for the updated quote on the aluminum mounting brackets (part AB-14). We would like to proceed with the order of 5,000 units.\n\nHowever, our assembly line will switch to a new dishwasher model in mid-March, and we will need the brackets before then. Your quote lists a six-week lead time, which would put delivery in late March — too late for us.\n\nCould you confirm whether a partial shipment is possible? If you could send 2,000 units within three weeks and the remaining 3,000 by the end of March, that would allow us to begin production on schedule.\n\nPlease also let me know if a faster timeline would affect the unit price. We would rather adjust our budget than delay the line.\n\nBest regards,\nHelena Barsky"
-      }
-    ],
-    "translation": "差出人:ヘレナ・バースキー(アルダーヴェイル家電 調達マネージャー)\n宛先:ラジ・メノン(トーランス・コンポーネンツ 営業)\n件名:アルミブラケットの納期について\n日付:2月9日\n\nメノン様\n\nアルミ製取付ブラケット(部品AB-14)の更新見積もり、ありがとうございました。5,000個の注文を進めたいと思います。\n\nただ、当社の組立ラインは3月中旬に新しい食洗機モデルへ切り替わり、それまでにブラケットが必要です。ご提示のリードタイムは6週間で、これでは納品が3月下旬になり、当社には遅すぎます。\n\n分割出荷が可能かご確認いただけますか? 2,000個を3週間以内に、残り3,000個を3月末までに送っていただければ、予定通り生産を始められます。\n\nまた、納期を早めると単価に影響するかもお知らせください。ライン停止を招くより、予算を調整したいと考えています。\n\nよろしくお願いいたします。\nヘレナ・バースキー",
-    "questions": [
-      {
-        "q": "Why is Ms. Barsky writing?",
-        "choices": [
-          "To ask about adjusting a delivery timeline",
-          "To file a complaint about defective parts",
-          "To apply for a new supplier account",
-          "To cancel an existing order"
-        ],
-        "answer": 0,
-        "explanation": "6週間では遅すぎるとし、分割出荷や納期短縮を打診している。納期の調整依頼が主目的。"
-      },
-      {
-        "q": "What is suggested about Aldervale Appliances?",
-        "choices": [
-          "It is opening a second factory.",
-          "It manufactures aluminum brackets itself.",
-          "It is reducing its workforce.",
-          "It will start producing a new model soon."
-        ],
-        "answer": 3,
-        "explanation": "our assembly line will switch to a new dishwasher model in mid-March(3月中旬に新モデルへ切替)から、まもなく新製品の生産を始めると分かる。ブラケットはトーランス社が作るので(B)は誤り。"
-      },
-      {
-        "q": "What does Ms. Barsky indicate she is willing to do?",
-        "choices": [
-          "Reduce the order quantity",
-          "Accept a higher unit price",
-          "Extend the assembly deadline",
-          "Change to a different supplier"
-        ],
-        "answer": 1,
-        "explanation": "We would rather adjust our budget than delay the line(ライン停止より予算調整を望む)から、単価が上がっても受け入れる姿勢が読み取れる。"
-      }
-    ]
-  },
-  {
-    "id": "s4p7-04",
-    "title": "シングル 4(お知らせ)",
+    "title": "シングル 1(お知らせ)",
     "passages": [
       {
         "docType": "Notice",
-        "text": "RIVERSTONE OFFICE PLAZA — TENANT NOTICE\n\nPlease be advised that the water supply to the entire building will be shut off on Wednesday, May 14, from 8:00 A.M. to 1:00 P.M., so that our contractors can replace a section of aging pipe on the third floor.\n\nDuring this time, restrooms and kitchen facilities on all floors will be unavailable. We recommend that tenants store drinking water in advance if needed. The nearest public restrooms are in the lobby of the neighboring Carlton Center, which our tenants are welcome to use.\n\nElevators and electricity will not be affected, and the building management office will remain open. If the work finishes early, we will send an all-clear notice by e-mail.\n\nWe apologize for the inconvenience. Questions may be directed to the management office at extension 200."
+        "text": "RIVERSTONE OFFICE PLAZA — TENANT NOTICE\n\nPlease be advised that the water supply to the entire building will be shut off on Wednesday, May 14, from 8:00 A.M. to 1:00 P.M., so that our contractors can replace a section of aging pipe on the third floor.\n\nDuring this time, restrooms and kitchen facilities on all floors will be unavailable. We recommend that tenants store drinking water in advance if needed. The nearest public restrooms are in the lobby of the neighboring Carlton Center, which our tenants are welcome to use.\n\nElevators and electricity will not be affected, and the building management office will remain open.\n\nWe apologize for the inconvenience. Questions may be directed to the management office at extension 200."
       }
     ],
-    "translation": "リバーストーン・オフィスプラザ——テナント向けお知らせ\n\n3階の老朽化した配管の一部を業者が交換するため、5月14日(水)午前8時から午後1時まで、建物全体の給水を停止しますのでお知らせします。\n\nこの間、全フロアのトイレと給湯設備が使用できなくなります。必要に応じて飲料水を事前に備えておくことをお勧めします。最寄りの公共トイレは隣接するカールトン・センターのロビーにあり、当ビルのテナントはご利用いただけます。\n\nエレベーターと電気には影響がなく、ビル管理事務所も通常通り開いています。作業が早く終わった場合は、Eメールで解除のお知らせをお送りします。\n\nご不便をおかけし申し訳ありません。ご質問は管理事務所(内線200)まで。",
+    "translation": "リバーストーン・オフィスプラザ——テナント向けお知らせ\n\n3階の老朽化した配管の一部を業者が交換するため、5月14日(水)午前8時から午後1時まで、建物全体の給水を停止しますのでお知らせします。\n\nこの間、全フロアのトイレと給湯設備が使用できなくなります。必要に応じて飲料水を事前に備えておくことをお勧めします。最寄りの公共トイレは隣接するカールトン・センターのロビーにあり、当ビルのテナントはご利用いただけます。\n\nエレベーターと電気には影響がなく、ビル管理事務所も通常通り開いています。\n\nご不便をおかけし申し訳ありません。ご質問は管理事務所(内線200)まで。",
     "questions": [
       {
         "q": "Where in the building will the contractors work?",
@@ -171,58 +33,117 @@ window.TOEIC_DATA_4.part7 = [
         ],
         "answer": 1,
         "explanation": "We recommend that tenants store drinking water in advance(飲料水を事前に備える)が根拠。"
+      }
+    ]
+  },
+  {
+    "id": "s4p7-02",
+    "title": "シングル 2(テキストメッセージのやり取り)",
+    "passages": [
+      {
+        "docType": "Text-message chain",
+        "text": "Derek Olsson (7:42 A.M.)\nHi Yuki, the produce truck from Greenfield Farms just pulled up at Dock 3, but we weren't scheduled to receive them until 9.\n\nYuki Tanaka (7:44 A.M.)\nEarly again. The trouble is Dock 3 is still loading the outbound order for Melbourne. Can the driver wait?\n\nDerek Olsson (7:45 A.M.)\nHe says he has three more stops and can't wait long. And the crates are refrigerated, so they shouldn't sit in the sun.\n\nYuki Tanaka (7:46 A.M.)\nMove them to Dock 1. It's open, and the cold-storage entrance is right there.\n\nDerek Olsson (7:47 A.M.)\nGood call. I'll redirect him now."
+      }
+    ],
+    "translation": "デレク・オルソン(午前7:42):やあユキ、グリーンフィールド農園の青果トラックが今ドック3に着いたんだけど、受け入れ予定は9時だったよね。\nユキ・タナカ(午前7:44):また早いのね。問題は、ドック3ではまだメルボルン向けの出荷分を積み込み中だってこと。運転手さん、待てる?\nデレク・オルソン(午前7:45):あと3か所回るから長くは待てないって。それにクレートは冷蔵品だから、日なたに置いておけないんだ。\nユキ・タナカ(午前7:46):ドック1に回して。空いてるし、冷蔵庫の入口もすぐそこよ。\nデレク・オルソン(午前7:47):なるほど。今すぐ誘導するよ。",
+    "questions": [
+      {
+        "q": "What is causing a problem at Dock 3?",
+        "choices": [
+          "The refrigeration unit has failed.",
+          "A worker did not report for a shift.",
+          "A truck has broken down.",
+          "An outbound order is still being loaded."
+        ],
+        "answer": 3,
+        "explanation": "ユキの Dock 3 is still loading the outbound order for Melbourne(ドック3ではまだ出荷分を積み込み中)が根拠。青果トラックを受け入れられない原因。"
       },
       {
-        "q": "What will the management do if the work ends early?",
+        "q": "At 7:46 A.M., what does Ms. Tanaka most likely mean when she writes, \"Move them to Dock 1\"?",
         "choices": [
-          "Reopen the restrooms ahead of schedule",
-          "Extend the office's hours",
-          "Notify tenants by e-mail",
-          "Refund part of the rent"
+          "She will drive the truck to another site.",
+          "She wants the outbound order canceled.",
+          "She is offering a different place to unload the truck.",
+          "She needs the crates returned to the farm."
         ],
         "answer": 2,
-        "explanation": "If the work finishes early, we will send an all-clear notice by e-mail(早く終われば解除をメール通知)が根拠。(A)は『予定より早く再開する』で本文に記載がない。"
+        "explanation": "意図問題。直後に『空いていて冷蔵庫の入口もすぐそこ』と続くので、荷降ろしの代わりの場所を指示している。them は青果のクレートを指す。"
+      }
+    ]
+  },
+  {
+    "id": "s4p7-03",
+    "title": "シングル 3(求人広告)",
+    "passages": [
+      {
+        "docType": "Job advertisement",
+        "text": "MAINTENANCE TECHNICIAN — Larkfield Bottling Plant\n\nLarkfield Beverages is hiring a full-time maintenance technician for its bottling plant in Danby. The successful applicant will service conveyor systems and filling machines, carry out weekly safety checks, and keep a written record of all repairs.\n\nRequirements:\n1. At least three years of experience with industrial machinery\n2. A recognized electrical or mechanical qualification\n3. Willingness to work one weekend shift per month\n\nWe offer a starting salary of $52,000, twenty days of paid leave, and a company pension.\n\nTo apply, send a résumé and a short cover letter to careers@larkfieldbev.com by August 22. Interviews will take place during the first week of September, and candidates who are selected at interview will be asked to complete a practical assessment at the plant."
+      }
+    ],
+    "translation": "保守技術者募集——ラークフィールド瓶詰工場\n\nラークフィールド飲料は、ダンビーの瓶詰工場で常勤の保守技術者を募集しています。採用者はコンベヤー設備と充填機の保守、毎週の安全点検、全ての修理の記録作成を担当します。\n\n応募条件:\n1. 産業機械の実務経験3年以上\n2. 電気または機械の公認資格\n3. 月1回の週末シフト勤務が可能なこと\n\n初任給52,000ドル、有給休暇20日、企業年金をご用意しています。\n\n応募は8月22日までに、履歴書と短いカバーレターを careers@larkfieldbev.com までお送りください。面接は9月の第1週に行い、面接で選ばれた候補者には工場での実技試験を受けていただきます。",
+    "questions": [
+      {
+        "q": "For whom is the advertisement most likely intended?",
+        "choices": [
+          "Suppliers of bottling equipment",
+          "Students seeking a summer internship",
+          "Experienced machinery technicians",
+          "Drivers with a delivery license"
+        ],
+        "answer": 2,
+        "explanation": "産業機械の経験3年以上と電気・機械の資格を求める常勤職の募集なので、経験を積んだ機械技術者向け。短期の学生インターンではないので(B)はひっかけ。"
+      },
+      {
+        "q": "What will selected candidates be asked to do?",
+        "choices": [
+          "Provide three references",
+          "Attend a second interview by video",
+          "Submit samples of past repair records",
+          "Complete a practical assessment"
+        ],
+        "answer": 3,
+        "explanation": "candidates who are selected at interview will be asked to complete a practical assessment at the plant(面接で選ばれた候補者は工場で実技試験を受ける)が根拠。"
+      }
+    ]
+  },
+  {
+    "id": "s4p7-04",
+    "title": "シングル 4(社内メモ)",
+    "passages": [
+      {
+        "docType": "Memo",
+        "text": "MEMO\nTo: All Warehouse Staff\nFrom: Nadia Cortez, Operations Manager\nDate: October 6\nRe: Annual inventory count\n\nOur annual physical inventory count will take place on Saturday, October 25. Because every item in the warehouse must be counted, all outbound shipping will be suspended that day. Please inform any clients expecting Saturday deliveries.\n\nStaff assignments will be posted on the break-room board by October 20; each team will be responsible for a specific zone. Handheld scanners will be distributed at 7:30 A.M., and counting begins at 8:00 A.M. sharp.\n\nAnyone unable to work that Saturday must notify their supervisor by October 15 so we can arrange coverage.\n\nNadia"
+      }
+    ],
+    "translation": "メモ\n宛先:倉庫スタッフ全員\n差出人:ナディア・コルテス(オペレーションマネージャー)\n日付:10月6日\n件名:年次棚卸し\n\n年次の実地棚卸しを10月25日(土)に行います。倉庫の全品目を数える必要があるため、その日は出荷業務をすべて停止します。土曜配送を予定しているお客様にはお知らせください。\n\n担当割りは10月20日までに休憩室の掲示板に貼り出します。各チームが特定のゾーンを担当します。ハンディスキャナーは午前7時30分に配布し、カウントは午前8時ちょうどに開始します。\n\nその土曜に勤務できない方は、代替を手配できるよう、10月15日までに上司に連絡してください。\n\nナディア",
+    "questions": [
+      {
+        "q": "What will happen on October 25?",
+        "choices": [
+          "A new scanner system will be launched.",
+          "Outbound shipping will be suspended.",
+          "The warehouse will close permanently.",
+          "New staff will be trained."
+        ],
+        "answer": 1,
+        "explanation": "all outbound shipping will be suspended that day(その日は出荷を全面停止)が根拠。棚卸しのため。"
+      },
+      {
+        "q": "What must staff do by October 15?",
+        "choices": [
+          "Notify a supervisor of any absence",
+          "Choose their own work zone",
+          "Return their handheld scanners",
+          "Check the break-room board for assignments"
+        ],
+        "answer": 0,
+        "explanation": "Anyone unable to work that Saturday must notify their supervisor by October 15(勤務できない人は10月15日までに上司へ連絡)が根拠。担当割りの掲示は10月20日までなので(D)は時期が合わないひっかけ。"
       }
     ]
   },
   {
     "id": "s4p7-05",
-    "title": "シングル 5(オンラインチャット)",
-    "passages": [
-      {
-        "docType": "Online chat",
-        "text": "Ravi Deshmukh (4:31 P.M.)\nColin, are the galley proofs for the spring issue back from the printer yet?\n\nColin Whitaker (4:33 P.M.)\nThey just landed on my desk. Why — is there a problem?\n\nRavi Deshmukh (4:34 P.M.)\nThe lead author found two errors in her article this morning. We need them fixed before it goes to print tomorrow.\n\nColin Whitaker (4:35 P.M.)\nHow major? If they're just typos I can slot them in tonight.\n\nRavi Deshmukh (4:36 P.M.)\nOne's a wrong figure in a chart, the other's a misspelled name. Both small.\n\nColin Whitaker (4:37 P.M.)\nI'm on it.\n\nRavi Deshmukh (4:38 P.M.)\nYou're saving the whole issue."
-      }
-    ],
-    "translation": "ラヴィ・デシュムク(午後4:31):コリン、春号のゲラは印刷所からもう戻ってきた?\nコリン・ウィテカー(午後4:33):今ちょうど机に届いたところ。どうかした?——何か問題?\nラヴィ・デシュムク(午後4:34):筆頭著者が今朝、自分の記事に誤りを2つ見つけた。明日印刷に回る前に直さないと。\nコリン・ウィテカー(午後4:35):どのくらい大きい? ただの誤字なら今夜差し込めるよ。\nラヴィ・デシュムク(午後4:36):1つはグラフの数値の間違い、もう1つは名前のスペルミス。どちらも小さい。\nコリン・ウィテカー(午後4:37):任せて。\nラヴィ・デシュムク(午後4:38):君のおかげで号全体が助かる。",
-    "questions": [
-      {
-        "q": "At 4:37 P.M., what does Mr. Whitaker most likely mean when he writes, \"I'm on it\"?",
-        "choices": [
-          "He will take care of the corrections.",
-          "He has already sent the issue to print.",
-          "He is standing on the proofs.",
-          "He disagrees with the author's changes."
-        ],
-        "answer": 0,
-        "explanation": "意図問題。直前でラヴィが誤り2点の内容を説明した流れなので、『自分が(修正を)引き受ける』の意味。"
-      },
-      {
-        "q": "What is indicated about the spring issue?",
-        "choices": [
-          "It contains no charts.",
-          "It is a week behind schedule.",
-          "It has been cancelled.",
-          "It will be printed the following day."
-        ],
-        "answer": 3,
-        "explanation": "before it goes to print tomorrow(明日印刷に回る前に)から、翌日に印刷予定と分かる。グラフの数値ミスの話があるので(A)は誤り。"
-      }
-    ]
-  },
-  {
-    "id": "s4p7-06",
-    "title": "シングル 6(記事)",
+    "title": "シングル 5(記事)",
     "passages": [
       {
         "docType": "Article",
@@ -267,8 +188,8 @@ window.TOEIC_DATA_4.part7 = [
     ]
   },
   {
-    "id": "s4p7-07",
-    "title": "シングル 7(Eメール)",
+    "id": "s4p7-06",
+    "title": "シングル 6(Eメール)",
     "passages": [
       {
         "docType": "E-mail",
@@ -313,61 +234,61 @@ window.TOEIC_DATA_4.part7 = [
     ]
   },
   {
-    "id": "s4p7-08",
-    "title": "シングル 8(手紙)",
+    "id": "s4p7-07",
+    "title": "シングル 7(Eメール)",
     "passages": [
       {
-        "docType": "Letter",
-        "text": "Dear Valued Customer,\n\nWe are writing regarding the Cascade portable air pump (model AP-9) that you registered with us. Our quality team has identified a fault in a small number of units produced between January and March: under heavy use, the plastic hose connector may weaken and leak air.\n\nAlthough the issue poses no safety risk, it can reduce the pump's performance. As a precaution, we are offering all affected customers a free replacement connector, which is simple to fit yourself using the enclosed instructions. No tools are required.\n\nTo request your free connector, visit cascade-tools.com/AP9 and enter the serial number printed on the base of your pump. Replacements will be dispatched within five business days at no cost to you.\n\nIf you would prefer to return the entire pump for a full inspection, please call our support line and we will arrange free collection.\n\nWe regret any inconvenience and thank you for your understanding.\n\nSincerely,\nMartin Feld\nCascade Tools"
+        "docType": "E-mail",
+        "text": "From: Helena Barsky, Procurement Manager, Aldervale Appliances\nTo: Raj Menon, Sales, Torrance Components\nSubject: Delivery schedule for aluminum brackets\nDate: February 9\n\nDear Mr. Menon,\n\nThank you for the updated quote on the aluminum mounting brackets (part AB-14). We would like to proceed with the order of 5,000 units.\n\nHowever, our assembly line will switch to a new dishwasher model in mid-March, and we will need the brackets before then. Your quote lists a six-week lead time, which would put delivery in late March — too late for us.\n\nCould you confirm whether a partial shipment is possible? If you could send 2,000 units within three weeks and the remaining 3,000 by the end of March, that would allow us to begin production on schedule.\n\nPlease also let me know if a faster timeline would affect the unit price. We would rather adjust our budget than delay the line.\n\nBest regards,\nHelena Barsky"
       }
     ],
-    "translation": "お客様各位\n\nお客様にご登録いただいたカスケード・ポータブル空気ポンプ(モデルAP-9)についてご連絡します。当社の品質チームが、1月から3月に製造された一部の製品に不具合を確認しました。過度の使用により、プラスチック製ホースコネクターが弱くなり空気が漏れる場合があります。\n\nこの問題に安全上のリスクはありませんが、ポンプの性能を低下させることがあります。念のため、対象のお客様全員に交換用コネクターを無償で提供します。同封の説明書を使えばご自身で簡単に取り付けられ、工具は不要です。\n\n無償コネクターのご請求は、cascade-tools.com/AP9 にアクセスし、ポンプ底面に印字されたシリアル番号を入力してください。交換品は5営業日以内に無料で発送します。\n\nポンプ本体の全体点検をご希望の場合は、サポート窓口までお電話ください。無料で引き取りを手配します。\n\nご不便をおかけしお詫び申し上げるとともに、ご理解に感謝いたします。\n\n敬具\nマーティン・フェルド\nカスケード・ツールズ",
+    "translation": "差出人:ヘレナ・バースキー(アルダーヴェイル家電 調達マネージャー)\n宛先:ラジ・メノン(トーランス・コンポーネンツ 営業)\n件名:アルミブラケットの納期について\n日付:2月9日\n\nメノン様\n\nアルミ製取付ブラケット(部品AB-14)の更新見積もり、ありがとうございました。5,000個の注文を進めたいと思います。\n\nただ、当社の組立ラインは3月中旬に新しい食洗機モデルへ切り替わり、それまでにブラケットが必要です。ご提示のリードタイムは6週間で、これでは納品が3月下旬になり、当社には遅すぎます。\n\n分割出荷が可能かご確認いただけますか? 2,000個を3週間以内に、残り3,000個を3月末までに送っていただければ、予定通り生産を始められます。\n\nまた、納期を早めると単価に影響するかもお知らせください。ライン停止を招くより、予算を調整したいと考えています。\n\nよろしくお願いいたします。\nヘレナ・バースキー",
     "questions": [
       {
-        "q": "What is the main purpose of the letter?",
+        "q": "Why is Ms. Barsky writing?",
         "choices": [
-          "To inform customers about a product defect",
-          "To announce a price reduction",
-          "To request a product review",
-          "To advertise a new pump model"
+          "To ask about adjusting a delivery timeline",
+          "To file a complaint about defective parts",
+          "To apply for a new supplier account",
+          "To cancel an existing order"
         ],
         "answer": 0,
-        "explanation": "一部製品のコネクター不具合(fault)を知らせ、無償交換を案内している。製品の欠陥の通知が主目的。"
+        "explanation": "6週間では遅すぎるとし、分割出荷や納期短縮を打診している。納期の調整依頼が主目的。"
       },
       {
-        "q": "What is indicated about the fault?",
+        "q": "What is suggested about Aldervale Appliances?",
         "choices": [
-          "It cannot be fixed by the customer.",
-          "It affects every unit that was sold.",
-          "It requires professional repair.",
-          "It is not a safety concern."
+          "It is opening a second factory.",
+          "It manufactures aluminum brackets itself.",
+          "It is reducing its workforce.",
+          "It will start producing a new model soon."
         ],
         "answer": 3,
-        "explanation": "the issue poses no safety risk(安全上のリスクはない)が根拠。自分で簡単に取り付けられるとあるので(A)(C)は誤り。"
+        "explanation": "our assembly line will switch to a new dishwasher model in mid-March(3月中旬に新モデルへ切替)から、まもなく新製品の生産を始めると分かる。ブラケットはトーランス社が作るので(B)は誤り。"
       },
       {
-        "q": "The word \"dispatched\" in paragraph 3 is closest in meaning to",
+        "q": "What does Ms. Barsky indicate she is willing to do?",
         "choices": [
-          "sent",
-          "replaced",
-          "delayed",
-          "returned"
+          "Reduce the order quantity",
+          "Accept a higher unit price",
+          "Extend the assembly deadline",
+          "Change to a different supplier"
         ],
-        "answer": 0,
-        "explanation": "語彙問題。dispatched(発送された)= sent。交換品を5営業日以内に送るという文脈から判断できる。"
+        "answer": 1,
+        "explanation": "We would rather adjust our budget than delay the line(ライン停止より予算調整を望む)から、単価が上がっても受け入れる姿勢が読み取れる。"
       }
     ]
   },
   {
-    "id": "s4p7-09",
-    "title": "シングル 9(ウェブページ)",
+    "id": "s4p7-08",
+    "title": "シングル 8(ウェブページ)",
     "passages": [
       {
         "docType": "Web page",
-        "text": "RIDGEWAY EQUIPMENT RENTALS\nServing builders, warehouses, and event crews across the county since 2004.\n\nWhat we offer:\n1. A fleet of forklifts, scissor lifts, and portable generators, each serviced after every rental\n2. Same-day collection from our depot, or delivery to your site for a flat fee of $35\n3. Daily, weekly, and monthly rates — rent for a full week and pay for only four days\n\nOpening an account: register online and upload a valid business license. Approved account holders may reserve equipment up to three months in advance and receive one itemized statement each month instead of paying for each rental separately.\n\nPlease note: we rent to registered businesses only and cannot rent to private individuals. A refundable deposit is required on every generator rental. Operators are not supplied; customers must provide their own trained staff."
+        "text": "RIDGEWAY EQUIPMENT RENTALS\nServing builders, warehouses, and event crews across the county since 2004.\n\nWhat we offer:\n1. A fleet of forklifts, scissor lifts, and portable generators, each serviced after every rental\n2. Same-day collection from our depot, or delivery to your site for a flat fee of $35\n3. Daily, weekly, and monthly rates — rent for a full week and pay for only four days\n\nOpening an account: register online and upload a valid business license. Approved account holders may reserve equipment up to three months in advance and receive one itemized statement each month instead of paying for each rental separately.\n\nHours and returns: our depot is open Monday through Saturday, 6:30 A.M. to 5:00 P.M. Equipment must be returned with a full fuel tank; otherwise a refueling charge is added to your final bill.\n\nDamage waiver: for an additional 8 percent of the rental cost, you may add a waiver that covers accidental damage during normal use. It does not cover loss, theft, or damage caused by untrained operation.\n\nNew this year: two electric scissor lifts have joined the fleet for indoor jobs where exhaust fumes are a concern. Reserve these early, as demand has been high since they arrived.\n\nPlease note: we rent to registered businesses only and cannot rent to private individuals. A refundable deposit is required on every generator rental. Operators are not supplied; customers must provide their own trained staff."
       }
     ],
-    "translation": "リッジウェイ機材レンタル\n2004年以来、郡内の建設業者・倉庫・イベント業者にご利用いただいています。\n\nサービス内容:\n1. フォークリフト、シザーリフト、可搬型発電機を保有。いずれもレンタルのたびに整備しています\n2. 当社車庫での即日引き取り、または一律35ドルで現場までお届け\n3. 日極め・週極め・月極めの料金——1週間お借りいただくと4日分の料金で済みます\n\nアカウント開設:オンラインで登録し、有効な事業許可証をアップロードしてください。承認されたアカウント保有者は最大3か月先まで機材を予約でき、レンタルごとのお支払いに代えて毎月1通の明細書を受け取れます。\n\nご注意:登録事業者のみへの貸出で、個人のお客様にはお貸しできません。発電機のレンタルには、返還される保証金が必要です。オペレーターは付きません。訓練を受けた作業員はお客様でご用意ください。",
+    "translation": "リッジウェイ機材レンタル\n2004年以来、郡内の建設業者・倉庫・イベント業者にご利用いただいています。\n\nサービス内容:\n1. フォークリフト、シザーリフト、可搬型発電機を保有。いずれもレンタルのたびに整備しています\n2. 当社車庫での即日引き取り、または一律35ドルで現場までお届け\n3. 日極め・週極め・月極めの料金——1週間お借りいただくと4日分の料金で済みます\n\nアカウント開設:オンラインで登録し、有効な事業許可証をアップロードしてください。承認されたアカウント保有者は最大3か月先まで機材を予約でき、レンタルごとのお支払いに代えて毎月1通の明細書を受け取れます。\n\n営業時間と返却:当社車庫の営業は月曜から土曜、午前6時30分から午後5時までです。機材は燃料を満タンにしてご返却ください。満タンでない場合は給油料金が最終請求額に加算されます。\n\n損害補償:レンタル料金の8%を追加でお支払いいただくと、通常使用中の偶発的な損害を補償するウェイバーを付けられます。紛失・盗難、訓練を受けていない操作による損害は対象外です。\n\n今年の新着:排気ガスが気になる屋内作業向けに、電動シザーリフト2台が加わりました。入荷以来ご要望が多いため、お早めにご予約ください。\n\nご注意:登録事業者のみへの貸出で、個人のお客様にはお貸しできません。発電機のレンタルには、返還される保証金が必要です。オペレーターは付きません。訓練を受けた作業員はお客様でご用意ください。",
     "questions": [
       {
         "q": "What is indicated about Ridgeway Equipment Rentals?",
@@ -401,52 +322,131 @@ window.TOEIC_DATA_4.part7 = [
         ],
         "answer": 1,
         "explanation": "A refundable deposit is required on every generator rental(発電機のレンタルには返還される保証金が必要)が根拠。35ドルは発電機に限らず現場配送を頼んだ場合の料金なので(A)はひっかけ。"
+      },
+      {
+        "q": "What is indicated about returning equipment?",
+        "choices": [
+          "A charge applies if the fuel tank is not full.",
+          "Equipment may be returned to any depot in the county.",
+          "Returns are accepted only on weekdays.",
+          "Equipment may be dropped off after 5:00 P.M."
+        ],
+        "answer": 0,
+        "explanation": "Equipment must be returned with a full fuel tank; otherwise a refueling charge is added(満タンでなければ給油料金が加算される)が根拠。営業は月曜から土曜なので(C)は誤り。車庫は午後5時までなので(D)も誤り。"
+      }
+    ]
+  },
+  {
+    "id": "s4p7-09",
+    "title": "シングル 9(オンラインチャット)",
+    "passages": [
+      {
+        "docType": "Online chat",
+        "text": "Ravi Deshmukh (4:31 P.M.)\nColin, are the galley proofs for the spring issue back from the printer yet?\n\nColin Whitaker (4:33 P.M.)\nThey just landed on my desk. Why — is there a problem?\n\nRavi Deshmukh (4:34 P.M.)\nThe lead author found two errors in her article this morning. We need them fixed before it goes to print tomorrow.\n\nColin Whitaker (4:35 P.M.)\nHow major? If they're just typos I can slot them in tonight.\n\nRavi Deshmukh (4:36 P.M.)\nOne's a wrong figure in a chart, the other's a misspelled name. Both small.\n\nColin Whitaker (4:37 P.M.)\nI'm on it.\n\nRavi Deshmukh (4:38 P.M.)\nYou're saving the whole issue.\n\nColin Whitaker (4:39 P.M.)\nOne thing about the chart, though. I can see that the number is wrong, but I don't know what it should be.\n\nRavi Deshmukh (4:41 P.M.)\nI don't have it in front of me either. I'll e-mail the author tonight and pass the correct figure on to you as soon as she replies.\n\nColin Whitaker (4:42 P.M.)\nPlease do. Until then I can only fix the name.\n\nRavi Deshmukh (4:43 P.M.)\nUnderstood. What time do the proofs have to be back at the printer?\n\nColin Whitaker (4:44 P.M.)\nNine in the morning. Any later and we lose our slot on the press, which would push the issue back a week.\n\nRavi Deshmukh (4:45 P.M.)\nThen I'll mark my message urgent. Once you've made both changes, send me a PDF of the two pages so I can check them before they go back.\n\nColin Whitaker (4:46 P.M.)\nWill do. It should be in your inbox by eight."
+      }
+    ],
+    "translation": "ラヴィ・デシュムク(午後4:31):コリン、春号のゲラは印刷所からもう戻ってきた?\nコリン・ウィテカー(午後4:33):今ちょうど机に届いたところ。どうかした?——何か問題?\nラヴィ・デシュムク(午後4:34):筆頭著者が今朝、自分の記事に誤りを2つ見つけた。明日印刷に回る前に直さないと。\nコリン・ウィテカー(午後4:35):どのくらい大きい? ただの誤字なら今夜差し込めるよ。\nラヴィ・デシュムク(午後4:36):1つはグラフの数値の間違い、もう1つは名前のスペルミス。どちらも小さい。\nコリン・ウィテカー(午後4:37):任せて。\nラヴィ・デシュムク(午後4:38):君のおかげで号全体が助かる。\nコリン・ウィテカー(午後4:39):ただ、グラフについて1点。数値が違うのは分かるけど、正しい数値が分からない。\nラヴィ・デシュムク(午後4:41):こちらも手元にない。今夜著者にメールして、返事が来次第、正しい数値を伝えるよ。\nコリン・ウィテカー(午後4:42):お願い。それまでは名前しか直せない。\nラヴィ・デシュムク(午後4:43):了解。ゲラは何時までに印刷所へ戻す必要がある?\nコリン・ウィテカー(午後4:44):朝9時。それより遅れると印刷機の枠を失って、号が1週間遅れることになる。\nラヴィ・デシュムク(午後4:45):では至急扱いで送る。2か所とも直したら、戻す前に確認できるよう、その2ページのPDFを送って。\nコリン・ウィテカー(午後4:46):了解。8時までには受信箱に入れておく。",
+    "questions": [
+      {
+        "q": "At 4:37 P.M., what does Mr. Whitaker most likely mean when he writes, \"I'm on it\"?",
+        "choices": [
+          "He will take care of the corrections.",
+          "He has already sent the issue to print.",
+          "He is standing on the proofs.",
+          "He disagrees with the author's changes."
+        ],
+        "answer": 0,
+        "explanation": "意図問題。直前でラヴィが誤り2点の内容を説明した流れなので、『自分が(修正を)引き受ける』の意味。"
+      },
+      {
+        "q": "What is indicated about the spring issue?",
+        "choices": [
+          "It contains no charts.",
+          "It is a week behind schedule.",
+          "It has been cancelled.",
+          "It will be printed the following day."
+        ],
+        "answer": 3,
+        "explanation": "before it goes to print tomorrow(明日印刷に回る前に)から、翌日に印刷予定と分かる。グラフの数値ミスの話があるので(A)は誤り。"
+      },
+      {
+        "q": "What does Mr. Deshmukh offer to do?",
+        "choices": [
+          "Proofread the whole article again",
+          "Contact the author for the correct figure",
+          "Fix the misspelled name himself",
+          "Deliver the proofs to the printer"
+        ],
+        "answer": 1,
+        "explanation": "I'll e-mail the author tonight and pass the correct figure on to you(今夜著者にメールして正しい数値を伝える)が根拠。名前の修正はウィテカー氏の担当なので(C)は誤り。"
+      },
+      {
+        "q": "What does Mr. Deshmukh ask Mr. Whitaker to send him?",
+        "choices": [
+          "The original galley proofs",
+          "The author's e-mail address",
+          "A PDF of the corrected pages",
+          "A list of the typos he found"
+        ],
+        "answer": 2,
+        "explanation": "send me a PDF of the two pages so I can check them before they go back(戻す前に確認できるよう2ページ分のPDFを送って)が根拠。(A)の galley proofs は本文の語をそのまま使ったひっかけ。"
       }
     ]
   },
   {
     "id": "s4p7-10",
-    "title": "シングル 10(社内メモ)",
+    "title": "シングル 10(手紙)",
     "passages": [
       {
-        "docType": "Memo",
-        "text": "MEMO\nTo: All Warehouse Staff\nFrom: Nadia Cortez, Operations Manager\nDate: October 6\nRe: Annual inventory count\n\nOur annual physical inventory count will take place on Saturday, October 25. Because every item in the warehouse must be counted, all outbound shipping will be suspended that day. Please inform any clients expecting Saturday deliveries.\n\nStaff assignments will be posted on the break-room board by October 20; each team will be responsible for a specific zone. Handheld scanners will be distributed at 7:30 A.M., and counting begins at 8:00 A.M. sharp.\n\nPlease wear closed-toe shoes and bring a jacket, as the cold-storage zones will be counted in the afternoon. Lunch will be provided at noon.\n\nAnyone unable to work that Saturday must notify their supervisor by October 15 so we can arrange coverage.\n\nNadia"
+        "docType": "Letter",
+        "text": "Dear Valued Customer,\n\nWe are writing regarding the Cascade portable air pump (model AP-9) that you registered with us. Our quality team has identified a fault in a small number of units produced between January and March: under heavy use, the plastic hose connector may weaken and leak air.\n\nAlthough the issue poses no safety risk, it can reduce the pump's performance. As a precaution, we are offering all affected customers a free replacement connector, which is simple to fit yourself using the enclosed instructions. No tools are required.\n\nTo request your free connector, visit cascade-tools.com/AP9 and enter the serial number printed on the base of your pump. Replacements will be dispatched within five business days at no cost to you.\n\nYou can also check your own unit before ordering. The production month is printed beside the serial number on the base of the pump. Units made after March use a redesigned metal connector and are not affected, so their owners need to do nothing.\n\nOur support line is open from 8 A.M. to 6 P.M. on weekdays. Please have the serial number ready when you call, as our staff will need it to look up your record.\n\nIf you would prefer to return the entire pump for a full inspection, please call our support line and we will arrange free collection.\n\nWe regret any inconvenience and thank you for your understanding.\n\nSincerely,\nMartin Feld\nCascade Tools"
       }
     ],
-    "translation": "メモ\n宛先:倉庫スタッフ全員\n差出人:ナディア・コルテス(オペレーションマネージャー)\n日付:10月6日\n件名:年次棚卸し\n\n年次の実地棚卸しを10月25日(土)に行います。倉庫の全品目を数える必要があるため、その日は出荷業務をすべて停止します。土曜配送を予定しているお客様にはお知らせください。\n\n担当割りは10月20日までに休憩室の掲示板に貼り出します。各チームが特定のゾーンを担当します。ハンディスキャナーは午前7時30分に配布し、カウントは午前8時ちょうどに開始します。\n\nつま先の覆われた靴を履き、上着を持参してください。冷蔵ゾーンは午後にカウントします。正午には昼食を用意します。\n\nその土曜に勤務できない方は、代替を手配できるよう、10月15日までに上司に連絡してください。\n\nナディア",
+    "translation": "お客様各位\n\nお客様にご登録いただいたカスケード・ポータブル空気ポンプ(モデルAP-9)についてご連絡します。当社の品質チームが、1月から3月に製造された一部の製品に不具合を確認しました。過度の使用により、プラスチック製ホースコネクターが弱くなり空気が漏れる場合があります。\n\nこの問題に安全上のリスクはありませんが、ポンプの性能を低下させることがあります。念のため、対象のお客様全員に交換用コネクターを無償で提供します。同封の説明書を使えばご自身で簡単に取り付けられ、工具は不要です。\n\n無償コネクターのご請求は、cascade-tools.com/AP9 にアクセスし、ポンプ底面に印字されたシリアル番号を入力してください。交換品は5営業日以内に無料で発送します。\n\nご注文の前にご自身で確認することもできます。製造月はポンプ底面のシリアル番号の横に印字されています。3月より後に製造された製品は再設計された金属製コネクターを使用しており対象外ですので、所有者の方は何もする必要はありません。\n\nサポート窓口は平日午前8時から午後6時まで受け付けています。お電話の際は、担当者が記録を確認するためシリアル番号をお手元にご用意ください。\n\nポンプ本体の全体点検をご希望の場合は、サポート窓口までお電話ください。無料で引き取りを手配します。\n\nご不便をおかけしお詫び申し上げるとともに、ご理解に感謝いたします。\n\n敬具\nマーティン・フェルド\nカスケード・ツールズ",
     "questions": [
       {
-        "q": "What will happen on October 25?",
+        "q": "What is the main purpose of the letter?",
         "choices": [
-          "A new scanner system will be launched.",
-          "Outbound shipping will be suspended.",
-          "The warehouse will close permanently.",
-          "New staff will be trained."
-        ],
-        "answer": 1,
-        "explanation": "all outbound shipping will be suspended that day(その日は出荷を全面停止)が根拠。棚卸しのため。"
-      },
-      {
-        "q": "Why should staff bring a jacket?",
-        "choices": [
-          "They will work outdoors.",
-          "They will count cold-storage zones.",
-          "The building's heating will be off.",
-          "The count may run late into the night."
-        ],
-        "answer": 1,
-        "explanation": "bring a jacket, as the cold-storage zones will be counted in the afternoon(午後に冷蔵ゾーンを数えるから)が根拠。"
-      },
-      {
-        "q": "What must staff do by October 15?",
-        "choices": [
-          "Notify a supervisor of any absence",
-          "Choose their own work zone",
-          "Return their handheld scanners",
-          "Confirm their lunch orders"
+          "To inform customers about a product defect",
+          "To announce a price reduction",
+          "To request a product review",
+          "To advertise a new pump model"
         ],
         "answer": 0,
-        "explanation": "Anyone unable to work that Saturday must notify their supervisor by October 15(勤務できない人は10月15日までに上司へ連絡)が根拠。"
+        "explanation": "一部製品のコネクター不具合(fault)を知らせ、無償交換を案内している。製品の欠陥の通知が主目的。"
+      },
+      {
+        "q": "What is indicated about the fault?",
+        "choices": [
+          "It cannot be fixed by the customer.",
+          "It affects every unit that was sold.",
+          "It requires professional repair.",
+          "It is not a safety concern."
+        ],
+        "answer": 3,
+        "explanation": "the issue poses no safety risk(安全上のリスクはない)が根拠。自分で簡単に取り付けられるとあるので(A)(C)は誤り。"
+      },
+      {
+        "q": "The word \"dispatched\" in paragraph 3 is closest in meaning to",
+        "choices": [
+          "replaced",
+          "delayed",
+          "sent",
+          "returned"
+        ],
+        "answer": 2,
+        "explanation": "語彙問題。dispatched(発送された)= sent(C)。交換品を5営業日以内に送るという文脈から判断できる。"
+      },
+      {
+        "q": "What is indicated about pumps made after March?",
+        "choices": [
+          "They still use a plastic hose connector.",
+          "They do not need the replacement part.",
+          "They come with a longer warranty.",
+          "They are sold only in stores."
+        ],
+        "answer": 1,
+        "explanation": "Units made after March use a redesigned metal connector and are not affected(3月より後の製造品は再設計された金属製コネクターで対象外)が根拠。(A)は本文の plastic hose connector をそのまま使ったひっかけで、対象となった1〜3月製造分の話。"
       }
     ]
   },

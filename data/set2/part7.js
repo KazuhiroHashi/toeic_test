@@ -3,60 +3,14 @@ window.TOEIC_DATA_2 = window.TOEIC_DATA_2 || {};
 window.TOEIC_DATA_2.part7 = [
   {
     "id": "s2p7-01",
-    "title": "シングル 1(テキストメッセージのやり取り)",
-    "passages": [
-      {
-        "docType": "Text-message chain",
-        "text": "Hannah Voss (7:42 A.M.)\nGood morning, Diego. The flour I ordered was due at seven, and there is still no van outside. I have three hundred loaves to get out this afternoon.\n\nDiego Marin (7:45 A.M.)\nLet me look at the delivery log. Your bags left our depot on time, but the driver has a flat tire out on Route 9 and is waiting for roadside help.\n\nHannah Voss (7:47 A.M.)\nThat is cutting it close. My dough has to be in the mixer by nine, or the loaves will not be ready for the afternoon collection.\n\nDiego Marin (7:49 A.M.)\nUnderstood. We have a second van finishing a drop two streets from you. I will send it back to the depot for another twelve bags and bring those to you directly. Shall we say half past eight?\n\nHannah Voss (7:50 A.M.)\nThat would save the day. Same size as last time?\n\nDiego Marin (7:52 A.M.)\nTwenty-five kilograms each, exactly as ordered. I will message you when the driver is five minutes away.\n\nHannah Voss (7:53 A.M.)\nPerfect. The back door will be open. The front is still locked at that hour."
-      }
-    ],
-    "translation": "ハンナ・ヴォス(午前7:42):おはよう、ディエゴ。注文した小麦粉は7時着のはずなのに、まだ表にバンが来ていないの。今日の午後に300斤を出さないといけないのよ。\nディエゴ・マリン(午前7:45):配送記録を見てみます。お客様の袋は時間通りにうちのデポを出ていますが、ドライバーが9号線でタイヤがパンクし、ロードサービスを待っています。\nハンナ・ヴォス(午前7:47):かなりぎりぎりね。生地は9時までにミキサーに入れないと、午後の集荷に間に合わない。\nディエゴ・マリン(午前7:49):承知しました。2台目のバンが2ブロック先で配達を終えるところです。そのバンをデポに戻して別の12袋を積み、直接お届けさせます。8時半でいかがでしょう?\nハンナ・ヴォス(午前7:50):それなら助かるわ。袋の大きさは前回と同じ?\nディエゴ・マリン(午前7:52):1袋25キロ、ご注文通りです。ドライバーがあと5分のところまで来たら連絡します。\nハンナ・ヴォス(午前7:53):完璧。裏口を開けておくわ。その時間だと正面はまだ施錠しているから。",
-    "questions": [
-      {
-        "q": "Why did Ms. Voss contact Mr. Marin?",
-        "choices": [
-          "A shipment has not arrived.",
-          "She wants to increase an order.",
-          "A driver damaged her property.",
-          "The bags she received are the wrong size."
-        ],
-        "answer": 0,
-        "explanation": "『7時着のはずなのに表にバンが来ていない』を言い換えた(A)が正解。本文の語をそのまま含む(D)は、袋のサイズの話が出るのは終盤で『注文通り』と確認される場面なので誤り。"
-      },
-      {
-        "q": "At 7:50 A.M., what does Ms. Voss most likely mean when she writes, \"That would save the day\"?",
-        "choices": [
-          "She will bake fewer loaves than planned.",
-          "She would like the delivery to come a day later.",
-          "The arrangement Mr. Marin proposes will work for her.",
-          "She is willing to pay more for a second van."
-        ],
-        "answer": 2,
-        "explanation": "意図問題。直前でディエゴが『2台目のバンで8時半に届ける』と提案しており、それに対する返答なので『その段取りなら間に合う』という意味の(C)が正解。day という語につられた(B)は誤り。"
-      },
-      {
-        "q": "What is suggested about the second van?",
-        "choices": [
-          "It is already carrying Ms. Voss's order.",
-          "It will stop for the flour before reaching the bakery.",
-          "It will tow the vehicle on Route 9.",
-          "It belongs to another company."
-        ],
-        "answer": 1,
-        "explanation": "『デポに戻して別の12袋を積み、直接届ける』から、途中で小麦粉を積んでから向かうと分かる(B)が正解。小麦粉を積んでいるのはパンクした1台目なので(A)は誤り。"
-      }
-    ]
-  },
-  {
-    "id": "s2p7-02",
-    "title": "シングル 2(広告)",
+    "title": "シングル 1(広告)",
     "passages": [
       {
         "docType": "Advertisement",
-        "text": "LINGUALEAP — A New Language, Ten Minutes at a Time\n\nShort daily lessons in more than twenty languages, written by working translators and classroom teachers.\n\nChoose your plan:\n1. Basic (free) — one lesson a day and use of the learner forum\n2. Standard ($9 a month) — as many lessons as you like, lessons saved for use without a connection, and a monthly summary of your progress\n3. Plus ($15 a month) — everything in Standard, together with one live group class a month and a written review of your speaking\n4. Household ($25 a month) — all of the Plus features on up to five separate accounts\n\nEvery paid plan opens with seven days at no charge. Stop before the seventh day and nothing is taken from your card.\n\nPaying for a year at once costs 25 percent less than paying month by month.\n\nSearch for LinguaLeap wherever you get your apps, or see the full comparison at lingualeap.com."
+        "text": "LINGUALEAP — A New Language, Ten Minutes at a Time\n\nShort daily lessons in more than twenty languages, written by working translators and classroom teachers.\n\nChoose your plan:\n1. Basic (free) — one lesson a day and use of the learner forum\n2. Standard ($9 a month) — as many lessons as you like and a monthly summary of your progress\n3. Plus ($15 a month) — everything in Standard, together with one live group class a month\n4. Household ($25 a month) — all of the Plus features on up to five separate accounts\n\nEvery paid plan opens with seven days at no charge. Stop before the seventh day and nothing is taken from your card.\n\nSearch for LinguaLeap wherever you get your apps."
       }
     ],
-    "translation": "リンガリープ——1回10分で新しい言語を\n\n現役の翻訳者と教壇に立つ教師が作成した、20言語以上の短い毎日のレッスン。\n\nプランをお選びください:\n1. ベーシック(無料)——1日1レッスンと学習者フォーラムの利用\n2. スタンダード(月9ドル)——レッスンは好きなだけ、通信なしで使えるよう保存されるレッスン、毎月の進捗サマリー\n3. プラス(月15ドル)——スタンダードの全機能に加え、月1回のライブグループクラスと、話し方についての書面での講評\n4. ハウスホールド(月25ドル)——プラスの全機能を最大5つの個別アカウントで\n\n有料プランはすべて7日間無料で始まります。7日目より前にやめれば、カードから引き落とされるものはありません。\n\n1年分をまとめて払うと、月々払いより25パーセント安くなります。\n\nお使いのアプリストアで LinguaLeap を検索するか、lingualeap.com で全プランの比較をご覧ください。",
+    "translation": "リンガリープ——1回10分で新しい言語を\n\n現役の翻訳者と教壇に立つ教師が作成した、20言語以上の短い毎日のレッスン。\n\nプランをお選びください:\n1. ベーシック(無料)——1日1レッスンと学習者フォーラムの利用\n2. スタンダード(月9ドル)——レッスンは好きなだけ、毎月の進捗サマリー\n3. プラス(月15ドル)——スタンダードの全機能に加え、月1回のライブグループクラス\n4. ハウスホールド(月25ドル)——プラスの全機能を最大5つの個別アカウントで\n\n有料プランはすべて7日間無料で始まります。7日目より前にやめれば、カードから引き落とされるものはありません。\n\nお使いのアプリストアで LinguaLeap を検索してください。",
     "questions": [
       {
         "q": "What is being advertised?",
@@ -70,78 +24,21 @@ window.TOEIC_DATA_2.part7 = [
         "explanation": "『20言語以上の短い毎日のレッスン』『アプリストアで検索』から語学学習アプリの広告と分かる(B)が正解。本文の translators や teachers という語を含む(A)(D)は、作成者の説明にすぎず商品ではない。"
       },
       {
-        "q": "What is NOT available to Standard subscribers?",
-        "choices": [
-          "A summary of progress each month",
-          "Lessons that can be used without a connection",
-          "Comments on the learner's speaking",
-          "Any number of lessons a day"
-        ],
-        "answer": 2,
-        "explanation": "NOT問題。話し方についての講評は Plus 以上の機能なので(C)が正解。(A)(B)(D)はいずれもスタンダードの説明に含まれる。Plus の説明が『スタンダードの全機能に加え』となっている点を読み取れるかがポイント。"
-      },
-      {
         "q": "According to the advertisement, what happens if a user stops within the first week?",
         "choices": [
           "The user receives part of the fee back.",
-          "The user is moved to the yearly plan.",
+          "The user is moved to the Basic plan.",
           "The user keeps access to the live class.",
           "The user pays nothing."
         ],
         "answer": 3,
-        "explanation": "『7日目より前にやめればカードから引き落とされるものはない』の言い換えが(D)。支払っていないので返金(A)は起こらない。"
+        "explanation": "『7日目より前にやめればカードから引き落とされるものはない』の言い換えが(D)。そもそも支払っていないので返金の(A)は誤り。本文の語をそのまま含む(C)も、ライブクラスはPlusの特典であり、やめた後も使えるとは書かれていないので誤り。"
       }
     ]
   },
   {
-    "id": "s2p7-03",
-    "title": "シングル 3(Eメール)",
-    "passages": [
-      {
-        "docType": "E-mail",
-        "text": "From: Owen Pratt, Head Librarian\nTo: All Library Staff\nSubject: What to expect upstairs\nDate: February 9\n\nDear team,\n\nFrom Monday, February 23, the whole of the second floor will be handed over to builders, who will put in a quiet study area and replace the computer desks. We are told the work will take about three weeks, though the contractor has warned that the new desks may reach us a few days after the rest of the job is done.\n\nWhile the floor is shut to the public, please keep the following in mind.\n\n1. The reference books are going down to the east wing on the first floor. Patrons are used to finding them upstairs, so expect a great deal of pointing and walking people over.\n2. The machines on the first floor will stay switched on, but with everyone using them the line will be longer than usual. Ask patrons to sign up for a slot at the front desk instead of waiting in line.\n3. Tuesday evening's book group will meet in the community room until the builders have gone.\n\nA revised plan of the building is attached. I will go through it with you at a short meeting at 8:30 A.M. on February 20, before we open the doors.\n\nThank you for looking after our visitors while this goes on.\n\nOwen Pratt"
-      }
-    ],
-    "translation": "差出人:オーウェン・プラット(館長)\n宛先:図書館スタッフ全員\n件名:上の階で起きること\n日付:2月9日\n\nチームの皆さんへ\n\n2月23日(月)から、2階全体を工事業者に引き渡します。静かな学習エリアを設け、コンピューター用の机を入れ替えます。工事は3週間ほどと聞いていますが、業者からは、新しい机が工事完了より数日遅れて届く可能性があると注意を受けています。\n\n当該フロアが一般利用者に閉鎖されている間、以下を心に留めておいてください。\n\n1. 参考図書は1階の東ウィングに移します。利用者は上の階にあるものと思っているので、場所を示したり案内したりすることがかなり増えるはずです。\n2. 1階の機器はそのまま使えますが、皆がそちらを使うため、列はいつもより長くなります。並んで待つのではなく、受付で時間枠を申し込むよう利用者に勧めてください。\n3. 火曜夜の読書会は、工事業者がいなくなるまでコミュニティルームで行います。\n\n改訂版の館内図を添付します。2月20日午前8時30分、開館前の短い打ち合わせで一緒に確認します。\n\nこの期間中、来館者への対応をよろしくお願いします。\n\nオーウェン・プラット",
-    "questions": [
-      {
-        "q": "What is the main purpose of the e-mail?",
-        "choices": [
-          "To announce that the library will close for good",
-          "To prepare staff for a period of building work",
-          "To ask staff to approve a budget",
-          "To introduce the contractor to the staff"
-        ],
-        "answer": 1,
-        "explanation": "改修の予定と、その間の対応をスタッフに伝えるのが目的なので(B)。閉鎖は2階のみ・一時的なので(A)は誤り。本文の contractor をそのまま含む(D)は、業者の紹介が目的ではないので誤り。"
-      },
-      {
-        "q": "What are staff asked to do about the computers?",
-        "choices": [
-          "Move them to another floor",
-          "Switch them off while the work is done",
-          "Ask visitors to sign up for a time",
-          "Limit each session to thirty minutes"
-        ],
-        "answer": 2,
-        "explanation": "『並んで待つのではなく受付で時間枠を申し込むよう勧める』の言い換えが(C)。機器はそのまま使えると書かれているので(B)は誤り。"
-      },
-      {
-        "q": "What is suggested about the length of the work?",
-        "choices": [
-          "It may run beyond three weeks.",
-          "It will finish on February 20.",
-          "It has already been shortened.",
-          "It depends on how many patrons visit."
-        ],
-        "answer": 0,
-        "explanation": "『3週間ほど』とある一方で、『新しい机が工事完了より数日遅れて届く可能性』と補足されている。この2文を合わせると期間が延びうると分かるので(A)。2月20日は打ち合わせの日なので(B)は誤り。"
-      }
-    ]
-  },
-  {
-    "id": "s2p7-04",
-    "title": "シングル 4(お知らせ)",
+    "id": "s2p7-02",
+    "title": "シングル 2(お知らせ)",
     "passages": [
       {
         "docType": "Notice",
@@ -175,37 +72,118 @@ window.TOEIC_DATA_2.part7 = [
     ]
   },
   {
-    "id": "s2p7-05",
-    "title": "シングル 5(オンラインチャット)",
+    "id": "s2p7-03",
+    "title": "シングル 3(テキストメッセージのやり取り)",
     "passages": [
       {
-        "docType": "Online chat",
-        "text": "Priya Anand (1:12 P.M.)\nTomas, the group from Ashfield Analytics has asked to keep their four rooms until three tomorrow instead of eleven. Can housekeeping work around that?\n\nTomas Ruiz (1:15 P.M.)\nFour rooms on one floor? If they are the ones at the end of the corridor, my team can do the rest of the floor first and come back to them at the end.\n\nPriya Anand (1:17 P.M.)\nThey are 512 to 515, so yes, all together at the far end.\n\nTomas Ruiz (1:19 P.M.)\nThen there is no difficulty. We would only be pushing those four to the bottom of the list, and nobody is checking into them tomorrow night.\n\nPriya Anand (1:20 P.M.)\nThat is what I was hoping to hear. Should I put the late departure through as a charge?\n\nTomas Ruiz (1:23 P.M.)\nThat is your side of the house, not mine. But the group has booked twenty nights with us this month, so I would ask the manager before adding anything.\n\nPriya Anand (1:24 P.M.)\nGood point. I will check with her first."
+        "docType": "Text-message chain",
+        "text": "Hannah Voss (7:42 A.M.)\nGood morning, Diego. The flour I ordered was due at seven, and there is still no van outside. I have three hundred loaves to get out this afternoon.\n\nDiego Marin (7:45 A.M.)\nYour bags left our depot on time, but the driver has a flat tire out on Route 9.\n\nHannah Voss (7:47 A.M.)\nThat is cutting it close. My dough has to be in the mixer by nine.\n\nDiego Marin (7:49 A.M.)\nWe have a second van two streets from you. I will send it to the depot for another twelve bags and bring those to you directly. Shall we say half past eight?\n\nHannah Voss (7:50 A.M.)\nThat would save the day. I will leave the back door open."
       }
     ],
-    "translation": "プリヤ・アナンド(午後1:12):トマス、アッシュフィールド・アナリティクスの団体から、4部屋を明日11時ではなく3時まで使いたいと言われたの。ハウスキーピングで調整できる?\nトマス・ルイス(午後1:15):同じ階の4部屋? もし廊下の突き当たりの部屋なら、うちのチームは先にフロアの残りをやって、最後にその4部屋に戻れます。\nプリヤ・アナンド(午後1:17):512から515号室だから、そう、全部いちばん奥にまとまっているわ。\nトマス・ルイス(午後1:19):それなら問題ありません。その4部屋を順番の最後に回すだけですし、明日の夜はどの部屋にもチェックインの予定がありません。\nプリヤ・アナンド(午後1:20):そう言ってもらえて助かる。レイトチェックアウトは料金として処理すべきかしら?\nトマス・ルイス(午後1:23):それはそちらの担当で、私の担当ではありません。ただ、あの団体は今月20泊分を予約しているので、何か加算する前に支配人に確認しますね。\nプリヤ・アナンド(午後1:24):いい指摘ね。先に彼女に確認します。",
+    "translation": "ハンナ・ヴォス(午前7:42):おはよう、ディエゴ。注文した小麦粉は7時着のはずなのに、まだ表にバンが来ていないの。今日の午後に300斤を出さないといけないのよ。\nディエゴ・マリン(午前7:45):お客様の袋は時間通りにうちのデポを出ていますが、ドライバーが9号線でタイヤをパンクさせています。\nハンナ・ヴォス(午前7:47):かなりぎりぎりね。生地は9時までにミキサーに入れないといけないの。\nディエゴ・マリン(午前7:49):2台目のバンが2ブロック先にいます。そのバンをデポへ行かせて別の12袋を積み、直接お届けします。8時半でいかがでしょう?\nハンナ・ヴォス(午前7:50):それなら助かるわ。裏口を開けておきます。",
     "questions": [
       {
-        "q": "What does Ms. Anand ask Mr. Ruiz to arrange?",
+        "q": "Why did Ms. Voss contact Mr. Marin?",
         "choices": [
-          "A later cleaning time for several rooms",
-          "An extra member of staff for the fifth floor",
-          "A reduction for a returning group",
-          "A change of rooms for some guests"
+          "A shipment has not arrived.",
+          "She wants to increase an order.",
+          "A driver damaged her property.",
+          "She needs an extra twelve bags."
         ],
         "answer": 0,
-        "explanation": "宿泊客が午後3時まで部屋を使うため、その4部屋の清掃を後回しにできるかを尋ねている。よって(A)。部屋の移動や割引の話は出ていない。"
+        "explanation": "『7時着のはずなのに表にバンが来ていない』を言い換えた(A)が正解。本文の語をそのまま含む(D)は、12袋は遅れた分の代わりに届けるものであって追加注文ではないので誤り。"
       },
       {
-        "q": "At 1:23 P.M., what does Mr. Ruiz mean when he writes, \"That is your side of the house, not mine\"?",
+        "q": "At 7:50 A.M., what does Ms. Voss most likely mean when she writes, \"That would save the day\"?",
         "choices": [
-          "He works in a different part of the building.",
-          "The decision about the charge is not his to make.",
-          "He would like the rooms moved to another floor.",
-          "He has already spoken to the manager."
+          "She will bake fewer loaves than planned.",
+          "She would like the delivery to come a day later.",
+          "The arrangement Mr. Marin proposes will work for her.",
+          "She is willing to pay more for a second van."
+        ],
+        "answer": 2,
+        "explanation": "意図問題。直前でマリン氏が『2台目のバンで8時半に届ける』と提案しており、それに対する返答なので『その段取りなら間に合う』という意味の(C)が正解。day という語につられた(B)は誤り。"
+      }
+    ]
+  },
+  {
+    "id": "s2p7-04",
+    "title": "シングル 4(社内メモ)",
+    "passages": [
+      {
+        "docType": "Memo",
+        "text": "MEMO\nTo: All staff\nFrom: Yuki Tanaka, Finance\nDate: October 1\nRe: How expenses will be claimed from November\n\nFrom November 1 every claim for reimbursement goes through ExpenseTrack, the online system we tested in the Sales division over the summer. Paper forms will not be accepted after October 31.\n\nA claim must be filed within thirty days of the date on the receipt, and a photograph or scan of the receipt has to be attached to each line. Your own manager approves the claim first, and Finance then checks it.\n\nIf you are still holding receipts from this month, put them through on paper before the end of October. Claims already in the old system will be paid in the usual way, and there is no need to enter them a second time.\n\nYuki Tanaka"
+      }
+    ],
+    "translation": "メモ\n宛先:従業員各位\n差出人:タナカ・ユキ(財務)\n日付:10月1日\n件名:11月からの経費申請方法\n\n11月1日より、精算の申請はすべて、この夏に営業部門で試験導入したオンラインシステム『ExpenseTrack』を通して行います。10月31日以降、紙の用紙は受け付けません。\n\n申請は領収書の日付から30日以内に提出する必要があり、申請の各明細には領収書の写真かスキャンを添付しなければなりません。まず直属の上長が承認し、次に財務が確認します。\n\n今月分の領収書がまだ手元にある場合は、10月中に紙で提出してください。旧システムに入っている申請は通常どおり支払われ、改めて入力し直す必要はありません。\n\nタナカ・ユキ",
+    "questions": [
+      {
+        "q": "What is the memo mainly about?",
+        "choices": [
+          "A cut in travel budgets",
+          "A change to the way expenses are claimed",
+          "The closing of the Sales division",
+          "A delay in this month's payments"
         ],
         "answer": 1,
-        "explanation": "意図問題。直前の『料金として処理すべきか』という問いへの返答なので、『料金は自分の担当ではない』という意味の(B)。house を建物の話と取った(A)は誤り。支配人にはこれから確認するので(D)も誤り。"
+        "explanation": "11月から精算申請がオンラインシステムに変わることの周知なので(B)。本文の語をそのまま含む(C)は、営業部門は試験導入した部署として触れられているだけで、閉鎖の話は出ていないので誤り。"
+      },
+      {
+        "q": "What is suggested about claims filed on paper in October?",
+        "choices": [
+          "They will have to be typed into the new system later.",
+          "They will be returned to staff.",
+          "They will be held until December.",
+          "They will be paid in the usual way."
+        ],
+        "answer": 3,
+        "explanation": "『旧システムに入っている申請は通常どおり支払われ、入力し直す必要はない』から(D)。本文の語を含む(A)は、まさに否定されている内容なので誤り。"
+      }
+    ]
+  },
+  {
+    "id": "s2p7-05",
+    "title": "シングル 5(Eメール・取引先向け通知)",
+    "passages": [
+      {
+        "docType": "E-mail",
+        "text": "From: Ingrid Sollberg, Account Manager\nTo: Wholesale customers, Northern region\nSubject: New carton sizes from October 1\nDate: August 5\n\nDear customer,\n\nFrom the first week of October, all of our breakfast cereals will be packed in cartons that are two centimeters narrower and slightly taller than the ones you receive now. The amount inside each carton is unchanged, and our prices will stay as they are.\n\nThe new shape allows twelve cartons to a case instead of ten, which cuts the number of pallets we send you by about a fifth.\n\nTwo things to look at before October:\n\n1. Shelf dividers. Stores that use fixed dividers may need to reset them. Our merchandising team will visit any store that asks, at no cost. Send us your store list by September 12 if you would like a visit.\n2. Order quantities. Because a case now holds two more cartons, an order of ten cases will bring you 120 cartons rather than 100. Please look again at your standing orders.\n\nSamples of the new carton are on their way to every account this week.\n\nKind regards,\nIngrid Sollberg"
+      }
+    ],
+    "translation": "差出人:イングリッド・ソルベリ(アカウントマネージャー)\n宛先:北部地域 卸売のお客様各位\n件名:10月1日からの新しい段ボール寸法\n日付:8月5日\n\nお客様各位\n\n10月第1週より、当社の朝食用シリアルはすべて、現在お届けしているものより幅が2センチ狭く、やや背の高い箱に詰められます。1箱の内容量は変わらず、価格も据え置きです。\n\n新しい形状であれば1ケースに10箱ではなく12箱入り、お届けするパレット数が約5分の1減ります。\n\n10月までにご確認いただきたい点が2つあります。\n\n1. 棚の仕切り。固定式の仕切りをお使いの店舗では、位置の変更が必要になる場合があります。ご希望の店舗には、当社の売場担当が無償で伺います。訪問をご希望の場合は、9月12日までに店舗リストをお送りください。\n2. 発注数量。1ケースの入り数が2箱増えるため、10ケースのご注文では100箱ではなく120箱が届きます。定期発注の内容を見直してください。\n\n新しい箱のサンプルは今週、全取引先へ発送中です。\n\nイングリッド・ソルベリ",
+    "questions": [
+      {
+        "q": "What is the purpose of the e-mail?",
+        "choices": [
+          "To announce a rise in prices",
+          "To describe a change to product packaging",
+          "To introduce a new range of cereals",
+          "To apologize for a delivery error"
+        ],
+        "answer": 1,
+        "explanation": "箱の寸法変更とその影響を知らせる内容なので(B)。価格は据え置きと明記されているので(A)は誤り。商品自体は変わらないので(C)も誤り。"
+      },
+      {
+        "q": "What are customers asked to do by September 12?",
+        "choices": [
+          "Return cartons they cannot sell",
+          "Confirm their standing orders",
+          "Supply a list of their stores",
+          "Order samples of the new carton"
+        ],
+        "answer": 2,
+        "explanation": "『訪問を希望する場合は9月12日までに店舗リストを送る』の言い換えが(C)。定期発注の見直しにも触れているが期限は付いていないので(B)は誤り。サンプルは注文しなくても送られてくるので(D)も誤り。"
+      },
+      {
+        "q": "What will happen to a customer who leaves a standing order as it is?",
+        "choices": [
+          "More cartons will arrive than before.",
+          "The order will be canceled.",
+          "The price for each carton will rise.",
+          "Each carton will hold less than before."
+        ],
+        "answer": 0,
+        "explanation": "『1ケースの入り数が2箱増えるため、10ケースの注文では120箱が届く』から、同じケース数なら届く箱数が増える(A)。内容量も価格も変わらないと明記されているので(C)(D)は誤り。"
       }
     ]
   },
@@ -215,10 +193,10 @@ window.TOEIC_DATA_2.part7 = [
     "passages": [
       {
         "docType": "Article",
-        "text": "GREENFIELD (April 15) — Sunrise Organics, which makes packaged snacks sold in supermarkets across the region, told reporters on Tuesday that it will open a distribution center on land at the edge of Greenfield before the end of the year. The 20,000-square-meter building is expected to bring about 150 permanent jobs to the town.\n\nFrom the new site, the company says, an order placed by a store anywhere in the eastern region can be filled the following morning. That is roughly half the time deliveries now take from its present warehouse, which sits nearly two hundred kilometers from the towns it serves.\n\n\"Getting there faster means the food is fresher when it reaches the shelf,\" said Carla Denton, who runs operations for the company. \"Just as important, it puts smaller independent grocers within our reach for the first time.\"\n\nHiring for warehouse and transport positions will begin in July, with openings listed on the company's Web site. A recruitment event is planned for August at the Greenfield Community Center.\n\nThe response from the town hall has been warm. Mayor Tom Ellery said the center would provide steady work without filling local roads with trucks, since most goods will leave the site on the rail line that runs beside it."
+        "text": "GREENFIELD (April 15) — Sunrise Organics, which makes packaged snacks sold in supermarkets across the region, told reporters on Tuesday that it will open a distribution center on land at the edge of Greenfield before the end of the year. The 20,000-square-meter building is expected to bring about 150 permanent jobs to the town.\n\nFrom the new site, the company says, an order placed by a store anywhere in the eastern region can be filled the following morning. That is roughly half the time deliveries now take from its present warehouse, which sits nearly two hundred kilometers from the towns it serves.\n\n\"Getting there faster means the food is fresher when it reaches the shelf,\" said Carla Denton, who runs operations for the company. \"Just as important, it puts smaller independent grocers within our reach for the first time.\"\n\nHiring for warehouse and transport positions will begin in July, with openings listed on the company's Web site.\n\nThe response from the town hall has been warm. Mayor Tom Ellery said the center would provide steady work without filling local roads with trucks, since most goods will leave the site on the rail line that runs beside it."
       }
     ],
-    "translation": "グリーンフィールド(4月15日)——地域一帯のスーパーで販売される包装スナックを製造するサンライズ・オーガニクスは火曜日、年内にグリーンフィールドの外れの土地に物流センターを開設すると記者団に語った。2万平方メートルの建物で、町に約150の常勤雇用をもたらす見込みだ。\n\n同社によれば、新拠点からなら東部地域のどの店舗からの注文でも翌朝には出荷できる。これは現在の倉庫からの配送に要する時間のおよそ半分にあたる。現倉庫は、供給先の町から200キロ近く離れた場所にある。\n\n『早く届くということは、棚に並ぶときの鮮度が高いということです』と同社の業務責任者カーラ・デントン氏は述べた。『同じくらい重要なのは、小規模な独立系食料品店にも初めて手が届くようになることです』\n\n倉庫と輸送の職種の採用は7月に始まり、求人は同社ウェブサイトに掲載される。8月にはグリーンフィールド・コミュニティセンターで採用イベントが予定されている。\n\n市庁舎の反応は好意的だ。トム・エラリー市長は、商品の大半は敷地脇を走る鉄道路線で運び出されるため、地域の道路をトラックで埋めることなく安定した仕事をもたらすと語った。",
+    "translation": "グリーンフィールド(4月15日)——地域一帯のスーパーで販売される包装スナックを製造するサンライズ・オーガニクスは火曜日、年内にグリーンフィールドの外れの土地に物流センターを開設すると記者団に語った。2万平方メートルの建物で、町に約150の常勤雇用をもたらす見込みだ。\n\n同社によれば、新拠点からなら東部地域のどの店舗からの注文でも翌朝には出荷できる。これは現在の倉庫からの配送に要する時間のおよそ半分にあたる。現倉庫は、供給先の町から200キロ近く離れた場所にある。\n\n『早く届くということは、棚に並ぶときの鮮度が高いということです』と同社の業務責任者カーラ・デントン氏は述べた。『同じくらい重要なのは、小規模な独立系食料品店にも初めて手が届くようになることです』\n\n倉庫と輸送の職種の採用は7月に始まり、求人は同社ウェブサイトに掲載される。\n\n市庁舎の反応は好意的だ。トム・エラリー市長は、商品の大半は敷地脇を走る鉄道路線で運び出されるため、地域の道路をトラックで埋めることなく安定した仕事をもたらすと語った。",
     "questions": [
       {
         "q": "What is the article mainly about?",
@@ -257,47 +235,47 @@ window.TOEIC_DATA_2.part7 = [
   },
   {
     "id": "s2p7-07",
-    "title": "シングル 7(Eメール・取引先向け通知)",
+    "title": "シングル 7(Eメール)",
     "passages": [
       {
         "docType": "E-mail",
-        "text": "From: Ingrid Sollberg, Account Manager\nTo: Wholesale customers, Northern region\nSubject: New carton sizes from October 1\nDate: August 5\n\nDear customer,\n\nFrom the first week of October, all of our breakfast cereals will be packed in cartons that are two centimeters narrower and slightly taller than the ones you receive now. The amount inside each carton is unchanged, and our prices will stay as they are.\n\nWe are making the change because the new shape allows twelve cartons to a case instead of ten, which cuts the number of pallets we send you by about a fifth.\n\nTwo things to look at before October:\n\n1. Shelf dividers. Stores that use fixed dividers may need to reset them. Our merchandising team will visit any store that asks, at no cost, during the last two weeks of September. Send us your store list by September 12 if you would like a visit.\n2. Order quantities. Because a case now holds two more cartons, an order of ten cases will bring you 120 cartons rather than 100. Please look again at your standing orders so that you do not take in more stock than you can sell.\n\nSamples of the new carton are on their way to every account this week. If anything here is unclear, write to me directly.\n\nKind regards,\nIngrid Sollberg"
+        "text": "From: Owen Pratt, Head Librarian\nTo: All Library Staff\nSubject: What to expect upstairs\nDate: February 9\n\nDear team,\n\nFrom Monday, February 23, the whole of the second floor will be handed over to builders, who will put in a quiet study area and replace the computer desks. We are told the work will take about three weeks, though the contractor has warned that the new desks may reach us a few days after the rest of the job is done.\n\nWhile the floor is shut to the public, please keep the following in mind.\n\n1. The reference books are going down to the east wing on the first floor, so expect to walk a good many patrons over.\n2. The machines on the first floor will stay switched on, but the line will be longer than usual. Ask patrons to sign up for a slot at the front desk instead of waiting in line.\n3. Tuesday evening's book group will meet in the community room until the builders have gone.\n\nI will go through the revised plan with you at 8:30 A.M. on February 20.\n\nOwen Pratt"
       }
     ],
-    "translation": "差出人:イングリッド・ソルベリ(アカウントマネージャー)\n宛先:北部地域 卸売のお客様各位\n件名:10月1日からの新しい段ボール寸法\n日付:8月5日\n\nお客様各位\n\n10月第1週より、当社の朝食用シリアルはすべて、現在お届けしているものより幅が2センチ狭く、やや背の高い箱に詰められます。1箱の内容量は変わらず、価格も据え置きです。\n\n変更の理由は、新しい形状であれば1ケースに10箱ではなく12箱入り、お届けするパレット数が約5分の1減るためです。\n\n10月までにご確認いただきたい点が2つあります。\n\n1. 棚の仕切り。固定式の仕切りをお使いの店舗では、位置の変更が必要になる場合があります。ご希望の店舗には、9月の最終2週間に当社の売場担当が無償で伺います。訪問をご希望の場合は、9月12日までに店舗リストをお送りください。\n2. 発注数量。1ケースの入り数が2箱増えるため、10ケースのご注文では100箱ではなく120箱が届きます。売り切れる量を超えて在庫を抱えないよう、定期発注の内容を見直してください。\n\n新しい箱のサンプルは今週、全取引先へ発送中です。不明な点があれば直接ご連絡ください。\n\nイングリッド・ソルベリ",
+    "translation": "差出人:オーウェン・プラット(館長)\n宛先:図書館スタッフ全員\n件名:上の階で起きること\n日付:2月9日\n\nチームの皆さんへ\n\n2月23日(月)から、2階全体を工事業者に引き渡します。静かな学習エリアを設け、コンピューター用の机を入れ替えます。工事は3週間ほどと聞いていますが、業者からは、新しい机が工事完了より数日遅れて届く可能性があると注意を受けています。\n\n当該フロアが一般利用者に閉鎖されている間、以下を心に留めておいてください。\n\n1. 参考図書は1階の東ウィングに移しますので、かなりの数の利用者をその場まで案内することになるはずです。\n2. 1階の機器はそのまま使えますが、列はいつもより長くなります。並んで待つのではなく、受付で時間枠を申し込むよう利用者に勧めてください。\n3. 火曜夜の読書会は、工事業者がいなくなるまでコミュニティルームで行います。\n\n2月20日午前8時30分に、改訂版の館内図を皆さんと一緒に確認します。\n\nオーウェン・プラット",
     "questions": [
       {
-        "q": "What is the purpose of the e-mail?",
+        "q": "What is the main purpose of the e-mail?",
         "choices": [
-          "To announce a rise in prices",
-          "To describe a change to product packaging",
-          "To introduce a new range of cereals",
-          "To apologize for a delivery error"
+          "To announce that the library will close for good",
+          "To prepare staff for a period of building work",
+          "To ask staff to approve a budget",
+          "To introduce the contractor to the staff"
         ],
         "answer": 1,
-        "explanation": "箱の寸法変更とその影響を知らせる内容なので(B)。価格は据え置きと明記されているので(A)は誤り。商品自体は変わらないので(C)も誤り。"
+        "explanation": "改修の予定と、その間の対応をスタッフに伝えるのが目的なので(B)。閉鎖は2階のみ・一時的なので(A)は誤り。本文の contractor をそのまま含む(D)は、業者の紹介が目的ではないので誤り。"
       },
       {
-        "q": "What are customers asked to do by September 12?",
+        "q": "What are staff asked to do about the computers?",
         "choices": [
-          "Return cartons they cannot sell",
-          "Confirm their standing orders",
-          "Supply a list of their stores",
-          "Order samples of the new carton"
+          "Move them to another floor",
+          "Switch them off while the work is done",
+          "Ask visitors to sign up for a time",
+          "Limit each session to thirty minutes"
         ],
         "answer": 2,
-        "explanation": "『訪問を希望する場合は9月12日までに店舗リストを送る』の言い換えが(C)。定期発注の見直しにも触れているが期限は付いていないので(B)は誤り。サンプルは注文しなくても送られてくるので(D)も誤り。"
+        "explanation": "『並んで待つのではなく受付で時間枠を申し込むよう勧める』の言い換えが(C)。機器はそのまま使えると書かれているので(B)は誤り。"
       },
       {
-        "q": "What will happen to a customer who leaves a standing order as it is?",
+        "q": "What is suggested about the length of the work?",
         "choices": [
-          "More cartons will arrive than before.",
-          "The order will be canceled.",
-          "The price for each carton will rise.",
-          "Each carton will hold less than before."
+          "It may run beyond three weeks.",
+          "It will finish on February 20.",
+          "It has already been shortened.",
+          "It depends on how many patrons visit."
         ],
         "answer": 0,
-        "explanation": "『1ケースの入り数が2箱増えるため、10ケースの注文では120箱が届く』から、同じケース数なら届く箱数が増える(A)。内容量も価格も変わらないと明記されているので(C)(D)は誤り。"
+        "explanation": "『3週間ほど』とある一方で、『新しい机が工事完了より数日遅れて届く可能性』と補足されている。この2文を合わせると期間が延びうると分かるので(A)。2月20日は打ち合わせの日なので(B)は誤り。"
       }
     ]
   },
@@ -307,10 +285,10 @@ window.TOEIC_DATA_2.part7 = [
     "passages": [
       {
         "docType": "Letter",
-        "text": "Dear Ms. Okafor,\n\nYour membership of the Alderwood Museum comes to an end on June 30, and we hope you will stay with us for another year.\n\nMembers tell us that what they value most is time in the galleries without the crowds, so from July we are extending members' hours. The museum will let card holders in at nine on Saturdays, a full hour before we open to everyone else, and the members' room on the second floor will serve coffee from that time as well.\n\nThere is one change to mention. Our lecture series, which drew more people last spring than our hall could seat, will move to the Fairfax Theater next door. Members will continue to attend at no charge, but a seat must now be claimed on our Web site, since the theater requires a ticket for every visitor.\n\nThe renewal rate is unchanged at $60 for the year, or $95 for two adults living at the same address. You may renew at the front desk, by returning the enclosed form, or through our Web site.\n\nWe look forward to seeing you in the galleries.\n\nSincerely,\nDenise Halloway\nMembership Office, Alderwood Museum"
+        "text": "Dear Ms. Okafor,\n\nYour membership of the Alderwood Museum comes to an end on June 30, and we hope you will stay with us for another year.\n\nMembers tell us that what they value most is time in the galleries without the crowds, so from July we are extending members' hours. The museum will let card holders in at nine on Saturdays, a full hour before we open to everyone else, and the members' room on the second floor will serve coffee from that time as well.\n\nThere is one change to mention. Our lecture series, which drew more people last spring than our hall could seat, will move to the Fairfax Theater next door. Members will continue to attend at no charge, but a seat must now be claimed on our Web site, since the theater requires a ticket for every visitor.\n\nYour card also brings 10 percent off in the museum shop and the café on the ground floor, and from July it will admit one guest with you on weekday afternoons. Guests were previously charged the full entry price.\n\nThe renewal rate is unchanged at $60 for the year, or $95 for two adults living at the same address. You may renew at the front desk, by returning the enclosed form, or through our Web site.\n\nWe look forward to seeing you in the galleries.\n\nSincerely,\nDenise Halloway\nMembership Office, Alderwood Museum"
       }
     ],
-    "translation": "オカフォー様\n\nアルダーウッド美術館の会員資格は6月30日で満了となります。ぜひもう1年ご継続いただければ幸いです。\n\n会員の皆さまが最も価値を感じておられるのは、混雑のない時間に展示室で過ごすことだと伺っています。そこで7月より会員向けの時間を拡大します。土曜は9時に会員証をお持ちの方を入館させます。一般公開の1時間前です。2階の会員ラウンジもその時間からコーヒーを提供します。\n\n1点、変更をお知らせします。当館の講演シリーズは、昨春はホールの座席数を超える方を集めたため、隣のフェアファックス劇場に移します。会員は引き続き無料でご参加いただけますが、劇場が全来場者にチケットを求めるため、座席は当館ウェブサイトで確保していただく必要があります。\n\n更新料は据え置きで、年間60ドル、同居のご夫婦など大人2名なら95ドルです。更新は受付、同封の用紙の返送、当館ウェブサイトのいずれでも可能です。\n\n展示室でお会いできるのを楽しみにしています。\n\n敬具\nデニス・ハロウェイ\nアルダーウッド美術館 会員事務局",
+    "translation": "オカフォー様\n\nアルダーウッド美術館の会員資格は6月30日で満了となります。ぜひもう1年ご継続いただければ幸いです。\n\n会員の皆さまが最も価値を感じておられるのは、混雑のない時間に展示室で過ごすことだと伺っています。そこで7月より会員向けの時間を拡大します。土曜は9時に会員証をお持ちの方を入館させます。一般公開の1時間前です。2階の会員ラウンジもその時間からコーヒーを提供します。\n\n1点、変更をお知らせします。当館の講演シリーズは、昨春はホールの座席数を超える方を集めたため、隣のフェアファックス劇場に移します。会員は引き続き無料でご参加いただけますが、劇場が全来場者にチケットを求めるため、座席は当館ウェブサイトで確保していただく必要があります。\n\n会員証をお持ちであれば、ミュージアムショップと1階のカフェで10パーセント引きとなり、7月からは平日午後に同伴者1名を一緒に入館させられます。これまで同伴者には正規の入館料をいただいていました。\n\n更新料は据え置きで、年間60ドル、同居のご夫婦など大人2名なら95ドルです。更新は受付、同封の用紙の返送、当館ウェブサイトのいずれでも可能です。\n\n展示室でお会いできるのを楽しみにしています。\n\n敬具\nデニス・ハロウェイ\nアルダーウッド美術館 会員事務局",
     "questions": [
       {
         "q": "Why was the letter written?",
@@ -344,12 +322,80 @@ window.TOEIC_DATA_2.part7 = [
         ],
         "answer": 1,
         "explanation": "語彙問題。drew more people than our hall could seat は『ホールに入りきらないほどの人を集めた』の意味なので(B)。draw の基本義『描く』に引かれた(A)は誤り。"
+      },
+      {
+        "q": "What is indicated about guests of members?",
+        "choices": [
+          "They will no longer have to pay on weekday afternoons.",
+          "They must buy a ticket on the museum's Web site.",
+          "They may use the members' room on Saturdays.",
+          "They pay the full entry price at all times."
+        ],
+        "answer": 0,
+        "explanation": "『7月からは会員証で平日午後に同伴者1名を入館させられる』と『これまで同伴者には正規の入館料をいただいていた』を合わせると、平日午後の同伴者は支払い不要になると分かるので(A)。本文の語をそのまま含む(D)は7月より前の扱いなので誤り。ウェブサイトでの座席確保は講演シリーズの話なので(B)も誤り。"
       }
     ]
   },
   {
     "id": "s2p7-09",
-    "title": "シングル 9(ウェブページ・FAQ)",
+    "title": "シングル 9(オンラインチャット)",
+    "passages": [
+      {
+        "docType": "Online chat",
+        "text": "Priya Anand (1:12 P.M.)\nTomas, the group from Ashfield Analytics has asked to keep their four rooms until three tomorrow instead of eleven. Can housekeeping work around that?\n\nTomas Ruiz (1:15 P.M.)\nFour rooms on one floor? If they are the ones at the end of the corridor, my team can do the rest of the floor first and come back to them at the end.\n\nPriya Anand (1:17 P.M.)\nThey are 512 to 515, so yes, all together at the far end.\n\nTomas Ruiz (1:19 P.M.)\nThen there is no difficulty. We would only be pushing those four to the bottom of the list, and nobody is checking into them tomorrow night.\n\nPriya Anand (1:20 P.M.)\nThat is what I was hoping to hear. Should I put the late departure through as a charge?\n\nTomas Ruiz (1:23 P.M.)\nThat is your side of the house, not mine. But the group has booked twenty nights with us this month, so I would ask the manager before adding anything.\n\nPriya Anand (1:24 P.M.)\nGood point. I will check with her first. One more thing: the group has asked for the meeting room on the fifth floor until two.\n\nTomas Ruiz (1:27 P.M.)\nThat room is set up for a training session at two thirty. My team needs half an hour in there to clear the cups and reset the chairs.\n\nPriya Anand (1:29 P.M.)\nThen I will tell them the room has to be empty at two, with no extra time.\n\nTomas Ruiz (1:31 P.M.)\nThank you. That works for us."
+      }
+    ],
+    "translation": "プリヤ・アナンド(午後1:12):トマス、アッシュフィールド・アナリティクスの団体から、4部屋を明日11時ではなく3時まで使いたいと言われたの。ハウスキーピングで調整できる?\nトマス・ルイス(午後1:15):同じ階の4部屋? もし廊下の突き当たりの部屋なら、うちのチームは先にフロアの残りをやって、最後にその4部屋に戻れます。\nプリヤ・アナンド(午後1:17):512から515号室だから、そう、全部いちばん奥にまとまっているわ。\nトマス・ルイス(午後1:19):それなら問題ありません。その4部屋を順番の最後に回すだけですし、明日の夜はどの部屋にもチェックインの予定がありません。\nプリヤ・アナンド(午後1:20):そう言ってもらえて助かる。レイトチェックアウトは料金として処理すべきかしら?\nトマス・ルイス(午後1:23):それはそちらの担当で、私の担当ではありません。ただ、あの団体は今月20泊分を予約しているので、何か加算する前に支配人に確認しますね。\nプリヤ・アナンド(午後1:24):いい指摘ね。先に彼女に確認します。もう1つ、あの団体は5階の会議室を2時まで使いたいと言っているの。\nトマス・ルイス(午後1:27):あの部屋は2時半から研修が入っています。うちのチームはカップを片付けて椅子を並べ直すのに30分必要です。\nプリヤ・アナンド(午後1:29):では、部屋は2時に空けてもらう、延長はなしと伝えるわ。\nトマス・ルイス(午後1:31):ありがとうございます。それで大丈夫です。",
+    "questions": [
+      {
+        "q": "What does Ms. Anand ask Mr. Ruiz to arrange?",
+        "choices": [
+          "A later cleaning time for several rooms",
+          "An extra member of staff for the fifth floor",
+          "A reduction for a returning group",
+          "A change of rooms for some guests"
+        ],
+        "answer": 0,
+        "explanation": "宿泊客が午後3時まで部屋を使うため、その4部屋の清掃を後回しにできるかを尋ねている。よって(A)。部屋の移動や割引の話は出ていない。"
+      },
+      {
+        "q": "At 1:23 P.M., what does Mr. Ruiz mean when he writes, \"That is your side of the house, not mine\"?",
+        "choices": [
+          "He works in a different part of the building.",
+          "The decision about the charge is not his to make.",
+          "He would like the rooms moved to another floor.",
+          "He has already spoken to the manager."
+        ],
+        "answer": 1,
+        "explanation": "意図問題。直前の『料金として処理すべきか』という問いへの返答なので、『料金は自分の担当ではない』という意味の(B)。house を建物の話と取った(A)は誤り。支配人にはこれから確認するので(D)も誤り。"
+      },
+      {
+        "q": "What does Mr. Ruiz indicate about the meeting room?",
+        "choices": [
+          "It must be emptied by eleven.",
+          "It is too small for the training session.",
+          "It will be used again later in the day.",
+          "It has already been cleared."
+        ],
+        "answer": 2,
+        "explanation": "『あの部屋は2時半から研修が入っている』から、同じ日のもっと後の時間帯に再び使われると分かるので(C)。本文の語をそのまま含む(A)の11時は、団体が本来チェックアウトする時刻の話なので誤り。片付けはこれから行うので(D)も誤り。"
+      },
+      {
+        "q": "What will Ms. Anand tell the group?",
+        "choices": [
+          "That they may keep the meeting room until two thirty",
+          "That the four rooms must be vacated at eleven",
+          "That the front desk will hold their bags",
+          "That the meeting room must be empty at two"
+        ],
+        "answer": 3,
+        "explanation": "『部屋は2時に空けてもらう、延長はなしと伝える』の言い換えが(D)。本文の語をそのまま含む(A)の2時半は研修の開始時刻なので誤り。(B)の11時も、4部屋は3時まで延長されているので誤り。"
+      }
+    ]
+  },
+  {
+    "id": "s2p7-10",
+    "title": "シングル 10(ウェブページ・FAQ)",
     "passages": [
       {
         "docType": "Web page",
@@ -401,52 +447,6 @@ window.TOEIC_DATA_2.part7 = [
         ],
         "answer": 0,
         "explanation": "『海外配送はまだ行っていない』から、現時点では注文できないと分かるので(A)。12ドルは国内の速達料金なので(B)は誤り。"
-      }
-    ]
-  },
-  {
-    "id": "s2p7-10",
-    "title": "シングル 10(社内メモ)",
-    "passages": [
-      {
-        "docType": "Memo",
-        "text": "MEMO\nTo: All staff\nFrom: Yuki Tanaka, Finance\nDate: October 1\nRe: How expenses will be claimed from November\n\nFrom November 1 every claim for reimbursement goes through ExpenseTrack, the online system we tested in the Sales division over the summer. Paper forms will not be accepted after October 31.\n\nWhat this means for you:\n\n1. A claim must be filed within thirty days of the date on the receipt. Anything older may be turned down.\n2. A photograph or scan of the receipt has to be attached to each line of a claim. A claim with a line missing its receipt comes straight back to you.\n3. Your own manager approves the claim first, and Finance then checks it. Once approved, payment usually reaches you within a week.\n\nTwo half-hour sessions on using the system will run on October 20 and October 22 in Meeting Room 4. You do not have to come, but anyone who claims expenses regularly will find it useful.\n\nIf you are still holding receipts from this month, put them through on paper before the end of October. Claims already in the old system will be paid in the usual way, and there is no need to enter them a second time.\n\nYuki Tanaka"
-      }
-    ],
-    "translation": "メモ\n宛先:従業員各位\n差出人:タナカ・ユキ(財務)\n日付:10月1日\n件名:11月からの経費申請方法\n\n11月1日より、精算の申請はすべて、この夏に営業部門で試験導入したオンラインシステム『ExpenseTrack』を通して行います。10月31日以降、紙の用紙は受け付けません。\n\n皆さんへの影響:\n\n1. 申請は領収書の日付から30日以内に提出する必要があります。それより古いものは却下されることがあります。\n2. 申請の各明細に、領収書の写真かスキャンを添付しなければなりません。領収書が付いていない明細がある申請は、そのまま差し戻されます。\n3. まず直属の上長が承認し、次に財務が確認します。承認されれば、通常1週間以内に支払われます。\n\nシステムの使い方に関する30分の説明会を、10月20日と22日に会議室4で2回行います。参加は必須ではありませんが、日常的に経費を申請する方には役立つはずです。\n\n今月分の領収書がまだ手元にある場合は、10月中に紙で提出してください。旧システムに入っている申請は通常どおり支払われ、改めて入力し直す必要はありません。\n\nタナカ・ユキ",
-    "questions": [
-      {
-        "q": "What is the memo mainly about?",
-        "choices": [
-          "A cut in travel budgets",
-          "A change to the way expenses are claimed",
-          "The cancellation of a training course",
-          "The opening of a new meeting room"
-        ],
-        "answer": 1,
-        "explanation": "11月から精算申請がオンラインシステムに変わることの周知なので(B)。説明会は中止ではなく実施されるので(C)は誤り。"
-      },
-      {
-        "q": "What is NOT required of staff from November?",
-        "choices": [
-          "Taking part in a training session",
-          "Attaching an image of each receipt",
-          "Claiming within a set number of days",
-          "Having a claim approved by a manager"
-        ],
-        "answer": 0,
-        "explanation": "NOT問題。説明会は『参加は必須ではない』とあるので(A)が正解。(B)は領収書の写真かスキャンの添付、(C)は30日以内の提出、(D)は上長の承認として、いずれも必須と書かれている。"
-      },
-      {
-        "q": "What is suggested about claims filed on paper in October?",
-        "choices": [
-          "They will have to be typed into the new system later.",
-          "They will be returned to staff.",
-          "They will be held until December.",
-          "They will be paid in the usual way."
-        ],
-        "answer": 3,
-        "explanation": "『旧システムに入っている申請は通常どおり支払われ、入力し直す必要はない』から(D)。本文の語を含む(A)は、まさに否定されている内容なので誤り。"
       }
     ]
   },
