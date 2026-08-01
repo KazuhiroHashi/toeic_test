@@ -464,6 +464,7 @@
   function showHome() {
     speech.stop();
     stopTimer();
+    document.body.classList.remove("in-quiz");   // 見出しを通常の高さに戻す
     var stats = loadStats();
 
     function card(mode, extraClass) {
@@ -773,6 +774,7 @@
   var session = null;
 
   function startQuiz(mode, indices) {
+    document.body.classList.add("in-quiz");      // 見出しを細くして本文の表示領域を増やす
     var tasks = buildTasks(mode);
     var custom = indices && indices.length ? indices.slice() : null;
     if (custom) {
@@ -818,7 +820,7 @@
       '<span class="part-label">' + esc(t.part) + "</span>" +
       (t.docType ? '<span class="doc-type">' + esc(t.docType) + "</span>" : "");
 
-    if (t.heading) html += "<h3>" + esc(t.heading) + "</h3>";
+    if (t.heading) html += '<p class="ref-line">' + esc(t.heading) + "</p>";
 
     // リスニング:再生ボタン
     if (t.listening) {

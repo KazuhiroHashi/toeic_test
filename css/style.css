@@ -32,10 +32,19 @@ body {
 .app-header h1 a { color: #fff; text-decoration: none; }
 .app-header .subtitle { margin: 4px 0 0; font-size: 0.8rem; opacity: 0.85; }
 
+/* 解答中は見出しを細くして、空いた分を本文に回す。
+   試験中に商品名と説明を大きく出しておく必要はない。 */
+body.in-quiz .app-header { padding: 7px 16px; }
+body.in-quiz .app-header h1 { font-size: 0.95rem; }
+body.in-quiz .app-header .subtitle { display: none; }
+
 main {
   max-width: 760px;
   margin: 0 auto;
   padding: 16px;
+}
+@media (max-width: 560px) {
+  main { padding: 10px 11px; }
 }
 
 .app-footer {
@@ -124,15 +133,19 @@ main {
   padding: 4px 10px; cursor: pointer; color: var(--muted); font-size: 0.8rem;
 }
 
-.progress-bar { height: 6px; background: var(--border); border-radius: 3px; margin-bottom: 16px; }
+.progress-bar { height: 6px; background: var(--border); border-radius: 3px; margin-bottom: 10px; }
 .progress-fill { height: 100%; background: var(--primary); border-radius: 3px; transition: width 0.3s; }
 
 .question-card {
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 18px;
-  margin-bottom: 14px;
+  padding: 14px;
+  margin-bottom: 10px;
+}
+/* 狭い画面では枠の余白まで本文に回す */
+@media (max-width: 560px) {
+  .question-card { padding: 12px 11px; }
 }
 
 .part-label {
@@ -142,7 +155,16 @@ main {
   font-size: 0.72rem;
   padding: 2px 10px;
   border-radius: 99px;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
+}
+
+/* 「Questions 147-149 refer to the following e-mail.」の行。
+   本番の問題冊子でも本文と同じ大きさの1行なので、見出し扱いにして大きくしない。 */
+.ref-line {
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.45;
+  margin: 0 0 7px;
 }
 
 .doc-type {
@@ -155,14 +177,17 @@ main {
   margin: 0 0 6px 6px;
 }
 
+/* 本文は Part 6/7 で長くなる。行間と字送りを詰めて、
+   1画面に入る量を増やす(本番の問題冊子も行間は詰まっている)。 */
 .passage {
   background: #fbfcfd;
   border: 1px solid var(--border);
   border-radius: 8px;
-  padding: 14px;
-  margin-bottom: 14px;
+  padding: 11px 12px;
+  margin-bottom: 10px;
   white-space: pre-wrap;
-  font-size: 0.92rem;
+  font-size: 0.86rem;
+  line-height: 1.5;
   overflow-x: auto;
 }
 .passage .blank-mark { font-weight: 700; color: var(--accent); }
@@ -185,14 +210,18 @@ main {
 }
 .audio-note { font-size: 0.75rem; color: var(--muted); width: 100%; }
 
-.q-text { font-weight: 700; margin: 0 0 10px; }
+/* 設問と選択肢も詰める。Part 3/4/6/7 は1画面に設問が3〜4問並ぶため、
+   ここの余白が積み上がって画面外に押し出していた。 */
+.q-block + .q-block { margin-top: 4px; }
+.q-text { font-weight: 700; margin: 0 0 7px; font-size: 0.94rem; line-height: 1.45; }
 .q-number { color: var(--primary); margin-right: 6px; }
 
-.choices { display: flex; flex-direction: column; gap: 8px; margin-bottom: 8px; }
+.choices { display: flex; flex-direction: column; gap: 6px; margin-bottom: 6px; }
 .choice-btn {
-  display: flex; align-items: flex-start; gap: 10px; width: 100%;
+  display: flex; align-items: flex-start; gap: 9px; width: 100%;
   text-align: left; background: #fff; border: 1px solid var(--border);
-  border-radius: 8px; padding: 10px 12px; cursor: pointer; font: inherit;
+  border-radius: 8px; padding: 8px 11px; cursor: pointer; font: inherit;
+  font-size: 0.9rem; line-height: 1.45;
   transition: border-color 0.1s, background 0.1s;
 }
 /* タッチ端末では hover が押したまま残るので、マウスのある環境だけに限定する */
