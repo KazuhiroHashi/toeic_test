@@ -71,9 +71,20 @@
      【重要】アプリ版では絶対に表示しない。App Store のガイドライン 3.1.1 で、
      アプリ内の機能解放を外部の購入手段へ誘導することは禁止されているため。 */
   var SHOP_URL = "";
+  var IAP = window.TOEIC_IAP || null;
+  function iapMode() { return !!(APP_BUILD && IAP && IAP.enabled()); }
+  /* ストアから取れた価格。取れるまでは金額を出さない。
+     金額を自前で書くと、為替や地域で実際の請求額とずれるため。 */
+  var iapPrice = null;
+  function buyLabel() {
+    return iapPrice ? ("すべて解放する " + iapPrice) : "すべて解放する";
+  }
   function isUnlocked(id) {
-    if (APP_BUILD && APP_BUILD.unlockAll) return true;
-    return !!(FREE_SETS[id] || unlocked[id]);
+    if (APP_BUILD && APP_BUILD.unlockAll) return true;            // 買い切り版
+    if (iapMode() && IAP.owned()) return true;                     // 課金版・購入済み
+    if (FREE_SETS[id]) return true;
+    // 合言葉はWeb版だけの仕組み。アプリ版で使うとガイドライン 3.1.1 に触れる
+    return iapMode() ? false : !!unlocked[id];
   }
   // 合言葉を適用する。解放できたセットのidの配列を返す(不正なら空配列)
   function applyCode(input) {
@@ -501,16 +512,24 @@
       }).join("");
       /* 何が無料で、鍵つきは何なのかを、最初に見える位置で説明する。
          「有料」とはっきり書かないと、鍵の意味が伝わらない。 */
-      var setNote = anyLocked
-        ? '<div class="set-note">' +
+      var setNote = "";
+      if (anyLocked && iapMode()) {
+        // アプリ版(課金)。買える場所はアプリの中だけなので、外部リンクは出さない。
+        setNote = '<div class="set-note">' +
+          '<p><b>セット1は無料</b>です。全200問すべて、音声も解説も制限なく使えます。<br>' +
+          '🔒 の付いた<b>セット2〜10は、1回のお支払いですべて解放</b>されます。</p>' +
+          '<button class="shop-link" id="iapBuy">' + esc(buyLabel()) + "</button>" +
+          '<button class="restore-link" id="iapRestore">購入を復元する</button>' +
+          "</div>";
+      } else if (anyLocked) {
+        setNote = '<div class="set-note">' +
           '<p><b>セット1は無料</b>です。全200問すべて、音声も解説も制限なく使えます。<br>' +
           '🔒 の付いた<b>セット2以降は有料</b>で、合言葉を入れると解放されます。</p>' +
-          // アプリ版は外部の購入導線を出せない(ガイドライン 3.1.1)
-          ((SHOP_URL && !APP_BUILD)
+          (SHOP_URL
             ? '<a class="shop-link" href="' + esc(SHOP_URL) + '" target="_blank" rel="noopener">セットを購入する →</a>'
             : "") +
-          "</div>"
-        : "";
+          "</div>";
+      }
       setSwitchHtml = '<div class="set-switch"><span class="set-switch-label">問題セット</span>' +
         '<div class="set-tabs">' + setTabs + "</div></div>" + setNote;
     }
@@ -550,11 +569,11 @@
       '<span class="card-title">🎯 問題を選んで解く</span>' +
       '<span class="card-desc">パートごとの問題一覧から、解きたい問題だけを選んで挑戦できます</span>' +
       "</button></div>" +
-      (SETS.some(function (s) { return !isUnlocked(s.id); })
+      // 合言葉はWeb版だけ。アプリ版(課金)では枠ごと出さない(ガイドライン 3.1.1)
+      ((!iapMode() && SETS.some(function (s) { return !isUnlocked(s.id); }))
         ? '<div class="unlock-box"><button class="secondary-btn" id="enterCode">🔑 合言葉を入力してセットを解放</button>' +
           '<span class="unlock-note">合言葉は、セットをご購入いただいた方にお渡ししています。</span>' +
-          // アプリ版は外部の購入導線を出せない(ガイドライン 3.1.1)
-          ((SHOP_URL && !APP_BUILD)
+          (SHOP_URL
             ? '<a class="shop-link" href="' + esc(SHOP_URL) + '" target="_blank" rel="noopener">セットを購入する →</a>'
             : "") +
           "</div>"
@@ -576,6 +595,49 @@
     }
     var codeBtn = document.getElementById("enterCode");
     if (codeBtn) codeBtn.addEventListener("click", function () { askCode(null); });
+
+    var buyBtn = document.getElementById("iapBuy");
+    if (buyBtn) {
+      buyBtn.addEventListener("click", function () {
+        buyBtn.disabled = true;
+        buyBtn.textContent = "処理中…";
+        IAP.buy(function (status) {
+          if (status === "ok") { alert("ありがとうございます。セット2〜10を解放しました。"); showHome(); return; }
+          buyBtn.disabled = false;
+          buyBtn.textContent = buyLabel();
+          if (status === "cancel") return;   // 自分で閉じた場合は何も出さない
+          alert(status === "unavailable"
+            ? "この端末では購入手続きを開始できませんでした。App Store にサインインしているかご確認ください。"
+            : "購入を完了できませんでした。時間をおいて、もう一度お試しください。");
+        });
+      });
+    }
+
+    var restoreBtn = document.getElementById("iapRestore");
+    if (restoreBtn) {
+      restoreBtn.addEventListener("click", function () {
+        restoreBtn.disabled = true;
+        restoreBtn.textContent = "確認中…";
+        IAP.restore(function (status) {
+          if (status === "ok") { alert("購入を復元しました。"); showHome(); return; }
+          restoreBtn.disabled = false;
+          restoreBtn.textContent = "購入を復元する";
+          alert(status === "none"
+            ? "この Apple ID での購入履歴が見つかりませんでした。購入時と同じ Apple ID でサインインしているかご確認ください。"
+            : "復元を確認できませんでした。通信状況をご確認のうえ、もう一度お試しください。");
+        });
+      });
+    }
+
+    // 価格がまだ取れていなければ問い合わせ、取れたらボタンの文言だけ差し替える
+    if (buyBtn && !iapPrice) {
+      IAP.price(function (pstr) {
+        if (!pstr) return;
+        iapPrice = pstr;
+        var b = document.getElementById("iapBuy");
+        if (b && !b.disabled) b.textContent = buyLabel();
+      });
+    }
     // セットが10個あり狭い画面では横スクロールになるので、いま選んでいるものを見える位置に寄せる
     var strip = app.querySelector(".set-tabs");
     var activeTab = app.querySelector(".set-tab.active");
@@ -1228,4 +1290,14 @@
   window.TOEIC_DEBUG = { speech: speech, buildTasks: buildTasks };
 
   showHome();
+
+  /* 課金版は、まず端末の記録で表示してから、後からストアに問い合わせる。
+     こうすると機内モードでも購入済みの人がすぐ使え、
+     機種変更などで記録が無い人は問い合わせの結果で解放される。 */
+  if (iapMode()) {
+    var wasOwned = IAP.owned();
+    IAP.refresh(function (owned) {
+      if (owned !== wasOwned) showHome();   // 状態が変わったときだけ描き直す
+    });
+  }
 })();

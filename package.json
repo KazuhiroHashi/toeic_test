@@ -8,10 +8,11 @@
     "ios": "bash tools/build_app.sh && npx cap sync ios && npx cap open ios",
     "sync": "bash tools/build_app.sh && npx cap sync ios"
   },
-  "comment": "プラグインは意図的に1つも入れていない。この問題集は普通のHTML/JS/音声だけで完結しており、プラグインを足すと Capacitor 8 + SPM の既知の不具合(plugin products が Xcode に出てこない)を踏む可能性があるため。必要になってから足す。",
+  "comment": "プラグインは課金(@capgo/native-purchases)だけ。StoreKit 2 を使う買い切り型の商品を1つ扱う。他は素のHTML/JS/音声で完結するのでプラグインを足さない。",
   "dependencies": {
     "@capacitor/core": "^8.5.0",
-    "@capacitor/ios": "^8.5.0"
+    "@capacitor/ios": "^8.5.0",
+    "@capgo/native-purchases": "^8.6.4"
   },
   "devDependencies": {
     "@capacitor/cli": "^8.5.0"

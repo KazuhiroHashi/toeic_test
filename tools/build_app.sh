@@ -28,9 +28,17 @@ cat > "$OUT/app-build.js" <<'EOF'
    Web版(GitHub Pages)には存在しないので、window.TOEIC_APP_BUILD は undefined になる。 */
 window.TOEIC_APP_BUILD = {
   platform: "ios",
-  // 全セットを最初から開ける(App Store の買い切り版)。
-  // アプリ内課金にする場合は false にして、課金の判定結果で解放する。
-  unlockAll: true
+
+  /* 全セットを最初から開けるか。
+     アプリ内課金で売るので false。購入の判定は js/iap.js が行う。
+     買い切り(アプリ自体に値段を付ける)に変える場合は true にし、iap を消す。 */
+  unlockAll: false,
+
+  /* アプリ内課金。App Store Connect で作る商品IDと必ず一致させること。
+     一致していないと購入画面が出ない。 */
+  iap: {
+    productId: "com.kazuhirohashi.eigoscoremogi.unlockall"
+  }
 };
 EOF
 

@@ -110,10 +110,27 @@ main {
 .set-note p { margin: 0; }
 .set-note b { color: var(--primary-dark); }
 
-/* 購入への導線(Web版のみ。アプリ版では出さない) */
+/* 購入の復元(アプリ版のみ)。ガイドライン 3.1.1 で必須の導線 */
+.restore-link {
+  display: inline-block;
+  margin: 8px 0 0 10px;
+  padding: 9px 14px;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 99px;
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.restore-link:disabled, .shop-link:disabled { opacity: 0.6; cursor: default; }
+
+/* 購入への導線(Web版はnoteへのリンク、アプリ版は課金ボタン) */
 .shop-link {
   display: inline-block;
   margin-top: 8px;
+  border: none;
+  font: inherit;
   padding: 9px 18px;
   background: var(--accent);
   color: #fff;
