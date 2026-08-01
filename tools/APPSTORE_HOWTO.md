@@ -117,7 +117,7 @@ Xcode で `App` を選び、`Signing & Capabilities` タブへ。
 
 1. `Automatically manage signing` にチェック
 2. `Team` に、登録した Apple Developer のチームを選ぶ
-3. `Bundle Identifier` が `com.eigoscoremogi.toeic` になっていることを確認
+3. `Bundle Identifier` が `com.toeicworkbook.app` になっていることを確認
 
 > この ID は後から変えられません。変えたい場合は先に `capacitor.config.json` の `appId` を直し、`ios/` を消して手順5からやり直します。
 

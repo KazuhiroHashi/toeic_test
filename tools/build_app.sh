@@ -37,7 +37,7 @@ window.TOEIC_APP_BUILD = {
   /* アプリ内課金。App Store Connect で作る商品IDと必ず一致させること。
      一致していないと購入画面が出ない。 */
   iap: {
-    productId: "com.eigoscoremogi.toeic.unlockall"
+    productId: "com.toeicworkbook.app.unlockall"
   }
 };
 EOF

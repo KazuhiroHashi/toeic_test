@@ -43,7 +43,7 @@ App Store Connect → 対象のApp → **App内課金**(In-App Purchases)→ **+
 |---|---|
 | 種類 | **非消費型**(Non-Consumable)← 一度買えば永久に有効 |
 | 参照名 | 全セット解放(自分用の管理名。お客さんには見えません) |
-| **製品ID** | `com.eigoscoremogi.toeic.unlockall` |
+| **製品ID** | `com.toeicworkbook.app.unlockall` |
 | 価格 | ¥1,980 |
 
 > **製品IDは1文字でも違うと購入画面が出ません。**アプリ側は
@@ -124,7 +124,7 @@ Xcode から実機に入れて、**次の5つを必ず通してください。**
 アプリ内課金について:
 無料でセット1(200問)を全機能お試しいただけます。
 「すべて解放する」から非消費型のApp内課金(製品ID:
-com.eigoscoremogi.toeic.unlockall)をご購入いただくと、
+com.toeicworkbook.app.unlockall)をご購入いただくと、
 セット2〜10(1,800問)が解放されます。
 購入の復元はホーム画面の「購入を復元する」から行えます。
 ```
