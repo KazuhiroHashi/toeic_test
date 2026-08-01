@@ -2,7 +2,7 @@
   "name": "eigo-score-mogi",
   "version": "1.0.0",
   "private": true,
-  "description": "英語スコア模試 — iOS アプリ版(Capacitor で既存の静的Webアプリを包む)",
+  "description": "TOEIC(R) 総合問題集 — iOS アプリ版(Capacitor で既存の静的Webアプリを包む)",
   "scripts": {
     "build": "bash tools/build_app.sh",
     "ios": "bash tools/build_app.sh && npx cap sync ios && npx cap open ios",
