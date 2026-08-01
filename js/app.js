@@ -95,7 +95,7 @@
   /* ---------------- モード定義 ---------------- */
 
   var MODES = {
-    part1: { label: "Part 1 写真描写", desc: "イラストを見て正しい描写文を選ぶ(リスニング)", listening: true },
+    part1: { label: "Part 1 写真描写", desc: "写真を見て正しい描写文を選ぶ(リスニング)", listening: true },
     part2: { label: "Part 2 応答問題", desc: "質問を聞いて応答を選ぶ(リスニング)", listening: true },
     part3: { label: "Part 3 会話問題", desc: "会話を聞いて設問に答える(リスニング)", listening: true },
     part4: { label: "Part 4 説明文問題", desc: "トークを聞いて設問に答える(リスニング)", listening: true },
@@ -515,7 +515,7 @@
       "<h2>模試に挑戦</h2>" +
       '<div class="menu-grid">' + card("listening", "mock") + card("reading", "mock") +
       card("mock", "mock") + "</div>" +
-      "<h2>リスニング(音声読み上げ)</h2>" +
+      "<h2>リスニング(録音音声)</h2>" +
       '<div class="menu-grid">' + card("part1") + card("part2") + card("part3") + card("part4") + "</div>" +
       "<h2>リーディング</h2>" +
       '<div class="menu-grid">' + card("part5") + card("part6") + card("part7") + "</div>" +
@@ -545,6 +545,12 @@
     }
     var codeBtn = document.getElementById("enterCode");
     if (codeBtn) codeBtn.addEventListener("click", function () { askCode(null); });
+    // セットが10個あり狭い画面では横スクロールになるので、いま選んでいるものを見える位置に寄せる
+    var strip = app.querySelector(".set-tabs");
+    var activeTab = app.querySelector(".set-tab.active");
+    if (strip && activeTab) {
+      strip.scrollLeft = activeTab.offsetLeft - (strip.clientWidth - activeTab.offsetWidth) / 2;
+    }
     app.querySelectorAll(".set-tab").forEach(function (btn) {
       btn.addEventListener("click", function () {
         var i = parseInt(btn.getAttribute("data-set"), 10);

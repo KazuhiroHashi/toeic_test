@@ -52,13 +52,32 @@ main {
   display: flex; align-items: center; gap: 10px;
   margin: 4px 0 8px;
 }
-.set-switch-label { font-size: 0.82rem; color: var(--muted); }
-.set-tabs { display: inline-flex; border: 1px solid var(--border); border-radius: 99px; overflow: hidden; }
+.set-switch-label {
+  font-size: 0.82rem; color: var(--muted);
+  flex: none; white-space: nowrap;   /* 縦書きに潰れるのを防ぐ */
+}
+/* セットが10個あり、狭い画面には収まらない。潰さずに横スクロールさせる。 */
+.set-tabs {
+  display: flex;
+  flex: 1 1 auto; min-width: 0;
+  border: 1px solid var(--border); border-radius: 99px;
+  overflow-x: auto; overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.set-tabs::-webkit-scrollbar { display: none; }
 .set-tab {
+  flex: none; white-space: nowrap;   /* 1文字ずつ折り返させない */
   border: none; background: #fff; color: var(--primary);
   padding: 7px 18px; font: inherit; font-size: 0.85rem; cursor: pointer;
 }
 .set-tab.active { background: var(--primary); color: #fff; font-weight: 700; }
+
+/* 狭い画面では見出しを上に出し、タブに幅をすべて渡す */
+@media (max-width: 560px) {
+  .set-switch { flex-direction: column; align-items: stretch; gap: 4px; }
+  .set-tab { padding: 8px 14px; }
+}
 
 .menu-section h2 {
   font-size: 1.05rem;
