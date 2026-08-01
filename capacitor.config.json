@@ -8,14 +8,6 @@
     "limitsNavigationsToAppBoundDomains": true
   },
   "server": {
-    "androidScheme": "https",
     "iosScheme": "capacitor"
-  },
-  "plugins": {
-    "SplashScreen": {
-      "launchShowDuration": 600,
-      "backgroundColor": "#16202b",
-      "showSpinner": false
-    }
   }
 }

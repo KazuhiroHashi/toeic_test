@@ -59,6 +59,11 @@ cd ~/Documents/toeic_test && git pull origin main
 npm install
 ```
 
+> **CocoaPods は要りません。**Capacitor 8 から iOS は Swift Package Manager が既定になり、
+> Xcode が自動で依存を解決します。追加のインストールは不要です。
+>
+> Node は 22 以上が必要です(`node -v` で確認)。
+
 ### 4. アプリに詰める中身を作る
 
 ```bash
