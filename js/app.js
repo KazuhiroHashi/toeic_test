@@ -422,7 +422,11 @@
         var byNo = function (a, b) { return (a.startNo || 0) - (b.startNo || 0); };
         var pick = function (tasks, n) { return shuffle(tasks).slice(0, n).sort(byNo); };
 
-        // 設問数の合計がちょうど target になる文書の組を選ぶ(Part 7 用)
+        /* 設問数の合計がちょうど target になる文書の組を選ぶ(Part 7 用)。
+           Part 7 のシングルは 2/3/4問が混在するので、単純に「3文書選ぶ」では
+           合計がぶれて50問固定にならない。組み合わせを探して合計を合わせる。
+           見つからないと合計がずれるが、そうならないことは
+           tools/check_mock.js が data 側で保証している(sync.sh で毎回実行)。 */
         function pickByCount(tasks, target) {
           var pool = shuffle(tasks), found = null;
           (function walk(i, chosen, sum) {

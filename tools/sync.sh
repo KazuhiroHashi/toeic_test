@@ -53,6 +53,9 @@ node tools/check_part7_order.js || die "Part 7 の構成が本番と違います
 echo ""
 echo "-- 解説の選択肢記号 --"
 node tools/check_labels.js || die "解説の (A)(B)(C)(D) が実際の選択肢とずれています。"
+echo ""
+echo "-- 4分の1模試が50問になるか --"
+node tools/check_mock.js || die "4分の1模試の問題数が50問にならなくなります。"
 
 step "3/6 音声の一覧を作り直す"
 node tools/build_audio_manifest.js || die "一覧の作成に失敗しました。"
