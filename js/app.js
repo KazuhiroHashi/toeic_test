@@ -66,6 +66,11 @@
      APP_BUILD は undefined になり、従来どおり合言葉で解放する。
      アプリ内課金にする場合は、課金の判定結果を APP_BUILD.unlockAll に入れる。 */
   var APP_BUILD = window.TOEIC_APP_BUILD || null;
+  /* セットの購入ページ(note)。ここに URL を入れると、ホームに購入への導線が出る。
+     空のままなら導線は出ない(リンク切れを出さないため)。
+     【重要】アプリ版では絶対に表示しない。App Store のガイドライン 3.1.1 で、
+     アプリ内の機能解放を外部の購入手段へ誘導することは禁止されているため。 */
+  var SHOP_URL = "";
   function isUnlocked(id) {
     if (APP_BUILD && APP_BUILD.unlockAll) return true;
     return !!(FREE_SETS[id] || unlocked[id]);
@@ -485,13 +490,29 @@
 
     var setSwitchHtml = "";
     if (SETS.length > 1) {
+      var anyLocked = SETS.some(function (s) { return !isUnlocked(s.id); });
       var setTabs = SETS.map(function (s, i) {
+        var free = !!FREE_SETS[s.id];
         var lock = isUnlocked(s.id) ? "" : " locked";
+        // 無料であることは、鍵つきのセットが並んでいるときだけ言えば足りる
+        var badge = (free && anyLocked) ? '<span class="tab-badge">無料</span>' : "";
         return '<button class="set-tab' + (i === activeSetIdx ? " active" : "") + lock +
-          '" data-set="' + i + '">' + esc(s.name) + (lock ? " 🔒" : "") + "</button>";
+          '" data-set="' + i + '">' + esc(s.name) + badge + (lock ? " 🔒" : "") + "</button>";
       }).join("");
+      /* 何が無料で、鍵つきは何なのかを、最初に見える位置で説明する。
+         「有料」とはっきり書かないと、鍵の意味が伝わらない。 */
+      var setNote = anyLocked
+        ? '<div class="set-note">' +
+          '<p><b>セット1は無料</b>です。全200問すべて、音声も解説も制限なく使えます。<br>' +
+          '🔒 の付いた<b>セット2以降は有料</b>で、合言葉を入れると解放されます。</p>' +
+          // アプリ版は外部の購入導線を出せない(ガイドライン 3.1.1)
+          ((SHOP_URL && !APP_BUILD)
+            ? '<a class="shop-link" href="' + esc(SHOP_URL) + '" target="_blank" rel="noopener">セットを購入する →</a>'
+            : "") +
+          "</div>"
+        : "";
       setSwitchHtml = '<div class="set-switch"><span class="set-switch-label">問題セット</span>' +
-        '<div class="set-tabs">' + setTabs + "</div></div>";
+        '<div class="set-tabs">' + setTabs + "</div></div>" + setNote;
     }
 
     var saved = loadProgress();
@@ -531,7 +552,12 @@
       "</button></div>" +
       (SETS.some(function (s) { return !isUnlocked(s.id); })
         ? '<div class="unlock-box"><button class="secondary-btn" id="enterCode">🔑 合言葉を入力してセットを解放</button>' +
-          '<span class="unlock-note">購入いただいた方に合言葉をお渡ししています。</span></div>'
+          '<span class="unlock-note">合言葉は、セットをご購入いただいた方にお渡ししています。</span>' +
+          // アプリ版は外部の購入導線を出せない(ガイドライン 3.1.1)
+          ((SHOP_URL && !APP_BUILD)
+            ? '<a class="shop-link" href="' + esc(SHOP_URL) + '" target="_blank" rel="noopener">セットを購入する →</a>'
+            : "") +
+          "</div>"
         : "") +
       '<p class="history-note">成績はこの端末のブラウザにのみ保存されます。</p>' +
       "</section>";

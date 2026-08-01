@@ -82,6 +82,47 @@ main {
 }
 .set-tab.active { background: var(--primary); color: #fff; font-weight: 700; }
 
+/* 「無料」の目印。鍵つきのセットが並んでいるときだけ出る */
+.tab-badge {
+  display: inline-block;
+  margin-left: 5px;
+  padding: 1px 5px;
+  border-radius: 3px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.62rem;
+  font-weight: 700;
+  vertical-align: 1px;
+}
+.set-tab.active .tab-badge { background: #fff; color: var(--primary); }
+
+/* 何が無料で、鍵は何なのかの説明。最初に目に入る位置に置く */
+.set-note {
+  margin: 6px 0 10px;
+  padding: 8px 10px;
+  background: #eef6fb;
+  border-left: 3px solid var(--accent);
+  border-radius: 0 5px 5px 0;
+  font-size: 0.83rem;
+  line-height: 1.55;
+  color: var(--text);
+}
+.set-note p { margin: 0; }
+.set-note b { color: var(--primary-dark); }
+
+/* 購入への導線(Web版のみ。アプリ版では出さない) */
+.shop-link {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 9px 18px;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 99px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
 /* 狭い画面では見出しを上に出し、タブに幅をすべて渡す */
 @media (max-width: 560px) {
   .set-switch { flex-direction: column; align-items: stretch; gap: 4px; }
