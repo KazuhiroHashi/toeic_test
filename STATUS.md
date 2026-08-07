@@ -68,17 +68,21 @@ Apple 側の手続き待ち。手順 → [tools/IAP_HOWTO.md](tools/IAP_HOWTO.md
 
 ## 次にやること(この順番)
 
-### 1. ドメインの設定 ← いまここ
+### 1. ドメインの設定 — 済(残りは証明書待ちのみ)
 
-1. Cloudflare で `bridge-ai-tokyo.com` を購入(Whois情報公開代行を有効に)
-2. DNS に A レコード4つ(`@` → `185.199.108.153` / `.109.153` / `.110.153` / `.111.153`)と
-   CNAME 1つ(`www` → `kazuhirohashi.github.io`)を追加。
-   **5つとも Proxy status を「DNS only」(灰色の雲)にする。**
-   オレンジのままだと GitHub が証明書を発行できずサイトが開かない。
-3. GitHub → Settings → Pages で DNS チェック通過を確認 → 「Enforce HTTPS」
-4. Cloudflare → Email Routing で `contact@bridge-ai-tokyo.com` を作成(転送先=普段のGmail)
+- Cloudflare でドメイン取得。Whois 情報公開代行あり、自動更新オン(2027年8月8日まで)
+- DNS:A 4つ(`@` → `185.199.108/109/110/111.153`)、CNAME 2つ(`www`・`toeic` → `kazuhirohashi.github.io`)。
+  **すべて Proxy status は「DNS only」(灰色の雲)。** オレンジにすると GitHub が証明書を
+  発行できずサイトが開かなくなるので、今後レコードを足すときも同じ
+- 両リポジトリとも Pages の Custom domain 設定済み・DNS check successful
+- Email Routing 有効。`contact@bridge-ai-tokyo.com` → 普段の Gmail に転送
 
-`CNAME` はリポジトリ直下に置いてある。**消さないこと。**
+**残:`Enforce HTTPS` のチェック(証明書の発行待ち)。**
+GitHub が Let's Encrypt を自動取得するので、発行され次第 2 リポジトリともチェックを入れる。
+それまで `https://` は証明書エラーになる(`http://` なら開ける)。
+24時間経っても発行されない場合は、Pages 設定で Custom domain を Remove → 入れ直すと再取得が走る。
+
+`CNAME` は各リポジトリ直下に置いてある。**消さないこと。**
 
 ### 2. Web版の販売開始
 
