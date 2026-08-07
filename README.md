@@ -106,9 +106,16 @@ node tools/check_audio.js
 
 ### GitHub Pages で公開する
 
+公開先は **https://bridge-ai-tokyo.com/** (独自ドメイン)。
+
 1. リポジトリの Settings → Pages を開く
 2. Source を「Deploy from a branch」、Branch を `main` / `(root)` にして Save
-3. 数分後に `https://<ユーザー名>.github.io/toeic_test/` で公開されます
+3. Custom domain に `bridge-ai-tokyo.com` を入れて Save
+4. DNS の確認が通ったら「Enforce HTTPS」にチェック
+
+リポジトリ直下の `CNAME` がこの独自ドメインを保持している。**消さないこと。**
+消すと公開URLが `<ユーザー名>.github.io` に戻り、App Store に登録した
+プライバシーポリシーとサポートのURLがリンク切れになる。
 
 ## 機能
 
