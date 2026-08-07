@@ -38,7 +38,7 @@ note の有料記事に合言葉を書いて売ります。決済も入金も no
 
 ### 1. アプリを公開する(すでに公開済み)
 
-https://bridge-ai-tokyo.com/
+https://toeic.bridge-ai-tokyo.com/
 
 #### 記事を書いたら、購入ページのURLをアプリに登録する
 

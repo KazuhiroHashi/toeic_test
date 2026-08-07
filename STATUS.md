@@ -12,7 +12,24 @@
 |---|---|
 | 屋号 | `BridgeAI` |
 | ドメイン | `bridge-ai-tokyo.com` |
+| このアプリの公開URL | `https://toeic.bridge-ai-tokyo.com/` |
+| プライバシーポリシー(App Storeに登録) | `https://bridge-ai-tokyo.com/privacy.html` |
 | 連絡先 | `contact@bridge-ai-tokyo.com` |
+
+## サイトの構成
+
+GitHub Pages は **1リポジトリ 1GB** が上限。この問題集だけで 290MB(音声 4,252 本で
+142MB)使うので、同じリポジトリに製品を足すと 3 個目で頭を打つ。
+そこで **製品1つ = リポジトリ1つ = サブドメイン1つ** に分けている。
+
+| URL | リポジトリ | 中身 |
+|---|---|---|
+| `bridge-ai-tokyo.com` | [bridge-ai-tokyo](https://github.com/KazuhiroHashi/bridge-ai-tokyo) | 会社サイト(ハブ)。軽いまま保つ |
+| `toeic.bridge-ai-tokyo.com` | toeic_test(これ) | TOEIC 問題集 |
+
+ハブが軽いので、プライバシーポリシーの URL が動かない。App Store に登録するのは
+ハブ側の `privacy.html`。**アプリにも同名のファイルを同梱している**(オフラインで
+開けるようにするため)ので、内容を変えるときは両方直すこと。
 | バンドルID | `com.toeicworkbook.app` |
 | 課金アイテムID | `com.toeicworkbook.app.unlockall` |
 | アプリ名 | `TOEIC® 総合問題集` |

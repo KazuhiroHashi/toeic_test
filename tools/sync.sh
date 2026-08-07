@@ -80,4 +80,4 @@ if ! git push origin main; then
 fi
 
 echo ""
-echo "✓ 完了しました。数分後に https://bridge-ai-tokyo.com/ に反映されます。"
+echo "✓ 完了しました。数分後に https://toeic.bridge-ai-tokyo.com/ に反映されます。"
