@@ -34,17 +34,18 @@
   var UNLOCK_KEY = "toeic_unlocked_v1";
   var FREE_SETS = { s1: true };
   var CODE_HASHES = {
-    "1x2yoe6": ["s2"],
-    "46ijg9": ["s3"],
-    "1bo82nr": ["s4"],
-    "hhek08": ["s5"],
-    "d0deqg": ["s6"],
-    "1o2kktt": ["s2", "s3", "s4", "s5", "s6"],   // 標準5セットまとめ買い
-    "1309qvg": ["s7"],
-    "jeq5os": ["s8"],
-    "1cyod5q": ["s9"],
-    "16zyu8u": ["s10"],
-    "sni6qk": ["s7", "s8", "s9", "s10"]   // 上級4セットまとめ買い
+    "1dj10p9": ["s2"],
+    "h68ll2": ["s3"],
+    "1web3o2": ["s4"],
+    "wqkenw": ["s5"],
+    "1vnw0bp": ["s6"],
+    "ebznyq": ["s7"],
+    "17n14cx": ["s8"],
+    "1opt1m2": ["s9"],
+    "13ah0pe": ["s10"],
+    "6w0p6r": ["s2", "s3", "s4", "s5", "s6"],   // 標準5セットまとめ買い
+    "1puihmx": ["s7", "s8", "s9", "s10"],   // 上級4セットまとめ買い
+    "1xiqjqr": ["s2", "s3", "s4", "s5", "s6", "s7", "s8", "s9", "s10"]   // 全部入り(セット2〜10)
   };
 
   function codeHash(str) {
