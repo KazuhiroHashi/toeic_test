@@ -12,7 +12,12 @@
   --radius: 12px;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+  /* ダブルタップでの拡大(ズーム)を無効にする。誤発動すると画面がずれて
+     操作しにくくなるため。スクロールとボタン操作には影響しない。 */
+  touch-action: manipulation;
+}
 
 body {
   margin: 0;
@@ -55,6 +60,11 @@ main {
   color: var(--muted);
   border-top: 1px solid var(--border);
 }
+
+/* 音量の注意書きは、音声のある画面(リスニング)でだけ出す。
+   リーディングのパートで出ていると変なので。 */
+#soundNote { display: none; }
+body.has-audio #soundNote { display: block; }
 
 /* ---------- home ---------- */
 .set-switch {
@@ -308,6 +318,35 @@ details.script-box .script-body {
   padding: 12px; margin-top: 8px; white-space: pre-wrap;
 }
 
+/* ===== 広い画面(iPad横持ち・Macなど)では Part 6/7 を左右二分割にする =====
+   左=本文、右=設問。それぞれが独立にスクロールし、ページ全体は動かない。
+   本文を読み進めても設問欄は動かず、設問を選んでも本文は動かない。
+   スマホの縦画面では今までどおり縦に積む(この media query が効かないだけ)。 */
+@media (min-width: 900px) {
+  body.split-view main { max-width: 1280px; }
+  .question-card.split {
+    display: flex;
+    padding: 0;
+    overflow: hidden;
+    height: calc(100vh - 175px);
+    height: calc(100dvh - 175px);
+    min-height: 340px;
+  }
+  .qc-left, .qc-right {
+    flex: 1 1 50%;
+    min-width: 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 14px;
+  }
+  .qc-left { border-right: 1px solid var(--border); }
+}
+
+/* ===== 結果画面の音声聞き直し(リスニングの復習用) ===== */
+.ri-audio { margin: 8px 0 4px; }
+.ri-audio .play-btn { padding: 8px 16px; font-size: 0.88rem; }
+.ri-audio .stop-btn { padding: 8px 14px; font-size: 0.88rem; }
+
 .nav-row { display: flex; justify-content: flex-end; gap: 10px; margin-top: 4px; }
 .next-btn {
   background: var(--primary); color: #fff; border: none; border-radius: 99px;
@@ -477,7 +516,7 @@ details.script-box .script-body {
 .resume-desc { font-size: 0.88rem; margin: 4px 0 10px; }
 .resume-actions { display: flex; gap: 8px; flex-wrap: wrap; }
 
-/* ===== 予想スコア ===== */
+/* ===== セクション別の内訳(結果画面) ===== */
 .score-box {
   margin: 14px 0;
   padding: 12px 14px;
@@ -494,6 +533,3 @@ details.script-box .script-body {
 .sc-row span { flex: 1; font-size: 0.9rem; }
 .sc-row b { font-size: 1.4rem; color: var(--primary); font-variant-numeric: tabular-nums; }
 .sc-row small { color: #666; font-size: 0.75rem; min-width: 6.5em; text-align: right; }
-.sc-row.total { border-top: 1px solid var(--border); margin-top: 6px; padding-top: 8px; }
-.sc-row.total b { font-size: 1.7rem; }
-.score-note { font-size: 0.72rem; color: #666; margin-top: 8px; line-height: 1.6; }

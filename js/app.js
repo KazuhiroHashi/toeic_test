@@ -489,6 +489,8 @@
     speech.stop();
     stopTimer();
     document.body.classList.remove("in-quiz");   // 見出しを通常の高さに戻す
+    document.body.classList.remove("has-audio"); // 音量の注意書きを消す
+    document.body.classList.remove("split-view");
     var stats = loadStats();
 
     function card(mode, extraClass) {
@@ -916,6 +918,14 @@
     var answeredBefore = session.offsets[session.taskIndex];
     var myAnswers = session.answers[session.taskIndex];
 
+    // 音量の注意書きは音声のある画面でだけ出す(リーディングで出ていると変)
+    document.body.classList.toggle("has-audio", !!t.listening);
+
+    // 本文のある問題(Part 6/7)は、広い画面(iPad横持ち・Mac)で
+    // 左=本文・右=設問の二分割にする。実際の分割は CSS が画面幅を見て行う。
+    var split = !!(t.passage || t.passages);
+    document.body.classList.toggle("split-view", split);
+
     var html = '<div class="quiz-header">' +
       "<span>" + esc(session.label) + " — 問題 " + (answeredBefore + 1) +
       (t.questions.length > 1 ? "〜" + (answeredBefore + t.questions.length) : "") +
@@ -925,7 +935,8 @@
       "</div>" +
       '<div class="progress-bar"><div class="progress-fill" style="width:' +
       Math.round((answeredBefore / session.total) * 100) + '%"></div></div>' +
-      '<div class="question-card">' +
+      '<div class="question-card' + (split ? " split" : "") + '">' +
+      (split ? '<div class="qc-left">' : "") +
       '<span class="part-label">' + esc(t.part) + "</span>" +
       (t.docType ? '<span class="doc-type">' + esc(t.docType) + "</span>" : "");
 
@@ -958,6 +969,9 @@
       });
     }
 
+    // 二分割のときは、ここで左(本文)を閉じて右(設問)を開く
+    if (split) html += '</div><div class="qc-right">';
+
     // 設問
     t.questions.forEach(function (q, qi) {
       var qNo = (t.startNo || (answeredBefore + 1)) + qi;
@@ -981,6 +995,7 @@
       '<button class="next-btn" id="next">' +
       (session.taskIndex === session.tasks.length - 1 ? "解答を終えて結果を見る" : "次へ →") +
       "</button></div>" +
+      (split ? "</div>" : "") +
       "</div>";
 
     app.innerHTML = html;
@@ -1120,31 +1135,10 @@
 
   /* ---------------- 画面:結果 ---------------- */
 
-  /* ---------------- 予想スコア換算 ----------------
-     TOEIC L&R は各セクション5〜495点、合計10〜990点。
-     正答数から換算する公式表は非公開のため、一般に知られている目安表を線形補間して使う。
-     あくまで参考値であり、実際のスコアを保証するものではない。 */
-
-  var SCORE_TABLE = {
-    listening: [[0, 5], [10, 60], [20, 115], [30, 170], [40, 225], [50, 275],
-                [60, 330], [70, 385], [80, 430], [90, 470], [95, 485], [100, 495]],
-    reading: [[0, 5], [10, 45], [20, 90], [30, 140], [40, 195], [50, 245],
-              [60, 300], [70, 355], [80, 410], [90, 455], [95, 475], [100, 495]]
-  };
-
-  // 正答数(0〜100)から目安スコアを出す。5点刻みに丸める。
-  function estimateScore(kind, correct) {
-    var tbl = SCORE_TABLE[kind];
-    var n = Math.max(0, Math.min(100, correct));
-    for (var i = 0; i < tbl.length - 1; i++) {
-      var a = tbl[i], b = tbl[i + 1];
-      if (n >= a[0] && n <= b[0]) {
-        var ratio = (n - a[0]) / (b[0] - a[0]);
-        return Math.round((a[1] + (b[1] - a[1]) * ratio) / 5) * 5;
-      }
-    }
-    return tbl[tbl.length - 1][1];
-  }
+  /* 予想スコア(点数換算)は載せない。
+     公式の換算式は非公開で、本番は回ごとに難易度調整も入る。さらにこの問題集の
+     難易度が本番と同じである保証もないため、根拠を持って点数を言えない。
+     事実だけ(正答数・正答率・セクション別内訳)を表示する。 */
 
   // セクションごとの正答数を数える(Part 1-4=リスニング / Part 5-7=リーディング)
   function sectionScores() {
@@ -1163,6 +1157,11 @@
     speech.stop();
     stopTimer();
     clearProgress();
+    document.body.classList.remove("split-view");
+    // 結果画面はリスニング問題の聞き直しができるので、
+    // リスニングを含む出題だったときは音量の注意書きを残す
+    document.body.classList.toggle("has-audio",
+      session.tasks.some(function (t) { return t.listening; }));
 
     var correct = 0, total = 0, blank = 0;
     session.tasks.forEach(function (t, ti) {
@@ -1183,24 +1182,17 @@
     else if (rate >= 60) msg = "合格圏まであと少し。解説を読んで、もう一度挑戦しましょう。";
     else msg = "まずは解説をじっくり読み、同じ問題をもう一度解いてみましょう。";
 
-    // 予想スコア(セクションが一定数そろっているときだけ出す)
+    // セクション別の内訳(リスニングとリーディングが混ざる出題のときだけ意味がある)
     var sc = sectionScores();
     var scoreHtml = "";
-    var lOk = sc.L.total >= 20, rOk = sc.R.total >= 20;
-    if (lOk || rOk) {
-      var lPt = lOk ? estimateScore("listening", Math.round(sc.L.correct / sc.L.total * 100)) : null;
-      var rPt = rOk ? estimateScore("reading", Math.round(sc.R.correct / sc.R.total * 100)) : null;
-      var rows = "";
-      if (lOk) rows += '<div class="sc-row"><span>リスニング</span><b>' + lPt + "</b><small>" +
-        sc.L.correct + "/" + sc.L.total + "問正解</small></div>";
-      if (rOk) rows += '<div class="sc-row"><span>リーディング</span><b>' + rPt + "</b><small>" +
-        sc.R.correct + "/" + sc.R.total + "問正解</small></div>";
-      if (lOk && rOk) rows += '<div class="sc-row total"><span>合計</span><b>' + (lPt + rPt) + "</b><small>990点満点</small></div>";
-      var partial = (lOk && sc.L.total < 100) || (rOk && sc.R.total < 100);
-      scoreHtml = '<div class="score-box"><div class="score-title">予想スコア(目安)</div>' + rows +
-        '<div class="score-note">正答率から換算した参考値です' +
-        (partial ? "(100問未満のため誤差が大きくなります)" : "") +
-        "。実際のスコアを保証するものではありません。</div></div>";
+    if (sc.L.total && sc.R.total) {
+      var lRate = Math.round(sc.L.correct / sc.L.total * 100);
+      var rRate = Math.round(sc.R.correct / sc.R.total * 100);
+      scoreHtml = '<div class="score-box"><div class="score-title">セクション別の内訳</div>' +
+        '<div class="sc-row"><span>リスニング</span><b>' + lRate + "%</b><small>" +
+        sc.L.correct + "/" + sc.L.total + "問正解</small></div>" +
+        '<div class="sc-row"><span>リーディング</span><b>' + rRate + "%</b><small>" +
+        sc.R.correct + "/" + sc.R.total + "問正解</small></div></div>";
     }
 
     var html = '<div class="result-card">' +
@@ -1228,11 +1220,15 @@
     document.getElementById("retry").addEventListener("click", function () {
       startQuiz(session.mode, session.custom);
     });
-    document.getElementById("goHome").addEventListener("click", showHome);
+    document.getElementById("goHome").addEventListener("click", function () {
+      speech.stop();   // 聞き直しの再生中に戻っても音が残らないように
+      showHome();
+    });
   }
 
   // 結果画面の解答・解説(全問 / 間違えた問題のみ)
   function renderReview(onlyWrong) {
+    speech.stop();   // 表示の切り替えで古いボタンが消えても音が残らないように
     var out = "";
     session.tasks.forEach(function (t, ti) {
       var ans = session.answers[ti];
@@ -1245,6 +1241,13 @@
         (t.questions.length > 1 ? "-" + (no + t.questions.length - 1) : "") + "</div>";
       if (t.heading) out += '<div class="ri-heading">' + esc(t.heading) + "</div>";
       if (t.image) out += '<div class="p1-image"><img src="' + esc(t.image) + '" alt=""></div>';
+      // リスニング問題は、その場で音声を聞き直せるようにする
+      // (スクリプトを見ながらでも、見ずにでも復習できるよう、開閉の外に置く)
+      if (t.listening) {
+        out += '<div class="audio-controls ri-audio">' +
+          '<button class="play-btn ri-play" data-ti="' + ti + '">▶ 音声を聞く</button>' +
+          '<button class="stop-btn ri-stop">■ 停止</button></div>';
+      }
       if (t.passage) {
         out += '<details class="script-box"><summary>本文を見る</summary><div class="passage">' +
           esc(t.passage) + "</div></details>";
@@ -1292,8 +1295,45 @@
       });
       out += "</div>";
     });
-    document.getElementById("reviewBody").innerHTML = out ||
-      "<p>表示する問題はありません。</p>";
+    var body = document.getElementById("reviewBody");
+    body.innerHTML = out || "<p>表示する問題はありません。</p>";
+
+    // 音声の聞き直し。再生の仕組みは出題画面と同じ(同梱の録音mp3)。
+    function resetPlayButtons() {
+      var btns = body.querySelectorAll(".ri-play");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].disabled = false;
+        if (btns[i].textContent !== "▶ もう一度聞く") btns[i].textContent = "▶ 音声を聞く";
+      }
+    }
+    body.querySelectorAll(".ri-play").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var t = session.tasks[parseInt(btn.getAttribute("data-ti"), 10)];
+        var key = SETS[activeSetIdx].id + ":" + t.id;
+        var files = (window.TOEIC_AUDIO_MANIFEST && t.id) ? window.TOEIC_AUDIO_MANIFEST[key] : null;
+        if (!files || !files.length) {
+          btn.disabled = true;
+          btn.textContent = "音声が見つかりません";
+          return;
+        }
+        resetPlayButtons();   // 別の問題を再生中だったら、そちらのボタン表示を戻す
+        btn.disabled = true;
+        btn.textContent = "再生中…";
+        speech.playFiles(files, function () {
+          btn.disabled = false;
+          btn.textContent = "▶ もう一度聞く";
+        }, function () {
+          btn.disabled = false;
+          btn.textContent = "▶ 音声を聞く(読み込めませんでした)";
+        });
+      });
+    });
+    body.querySelectorAll(".ri-stop").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        speech.stop();
+        resetPlayButtons();
+      });
+    });
   }
 
   /* ---------------- 起動 ---------------- */

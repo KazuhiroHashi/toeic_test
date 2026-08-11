@@ -2,7 +2,9 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- user-scalable=no: ダブルタップやピンチでページ全体が拡大して
+       操作不能になるのを防ぐ(問題を解くアプリなので拡大は不要) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>TOEIC&reg; 総合問題集</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -15,7 +17,8 @@
   <main id="app"></main>
 
   <footer class="app-footer">
-    <p>音が出ないときは、端末の音量とマナーモードをご確認ください。</p>
+    <!-- 音声のある画面(リスニング)でだけ表示する(CSSの body.has-audio で制御) -->
+    <p id="soundNote">音が出ないときは、端末の音量とマナーモードをご確認ください。</p>
     <!-- ETS が定める表記。第三者の対策アプリはこの文言を入れるのが標準。
          App Store 提出時もこの記載を根拠に商標を名称に使う。 -->
     <p class="legal">TOEIC&reg;はエデュケーション・テスティング・サービス(ETS)の登録商標です。この製品はETSの検討を受けまたはその承認を得たものではありません。</p>
