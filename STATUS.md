@@ -16,8 +16,8 @@
 | プライバシーポリシー(App Storeに登録) | `https://bridge-ai-tokyo.com/privacy.html` |
 | サポートURL(App Storeに登録) | `https://bridge-ai-tokyo.com/support.html` |
 | 連絡先 | `contact@bridge-ai-tokyo.com` |
-| バンドルID | `com.toeicworkbook.app` |
-| 課金アイテムID | `com.toeicworkbook.app.unlockall` |
+| バンドルID | `com.bridgeaitokyo.toeic` |
+| 課金アイテムID | `com.bridgeaitokyo.toeic.unlockall` |
 | アプリ名 | `TOEIC® 総合問題集` |
 | 価格 | アプリ本体=無料 / 全セット解放=¥1,980(非消費型・買い切り) |
 | 無料範囲 | セット1(200問)は全機能無料。セット2〜10が課金対象 |
@@ -163,3 +163,37 @@ App記録を作る。App記録を作った時点で販売者名が確定する�
 - EU での配信(有効にすると DSA により**氏名と住所が公開**される。当面は対象外にする)
 - 商標出願(事業が形になってから)
 - note 連載の第4回以降(`note_claude` リポジトリ側の作業)
+
+---
+
+## 二度と変えられない項目(登録前に必ず確認する)
+
+Apple 公式の
+[編集可否の一覧](https://developer.apple.com/help/app-store-connect/reference/app-information/required-localizable-and-editable-properties)
+で確認した内容。**ここに挙げた値は、登録した瞬間に確定して戻せない。**
+
+### 完全に変更不可(アプリを消しても同じ値を再利用できない)
+
+| 項目 | 決めた値 | 補足 |
+|---|---|---|
+| バンドルID | `com.bridgeaitokyo.toeic` | 所有ドメインの逆順。ハイフン無しにしてあるのは、Android のアプリIDが Java のパッケージ名規則に従い**ハイフンを使えない**ため |
+| SKU | `toeic-workbook-001` | 非公開の管理用ID。アプリを削除しても再利用できない |
+| 課金アイテムの製品ID | `com.bridgeaitokyo.toeic.unlockall` | **削除しても同じIDを二度と使えない**(Apple 公式回答) |
+| 課金アイテムの種類 | 非消費型 | 作成後に種別を変えられない |
+
+将来アプリを増やすときは `com.bridgeaitokyo.<製品名>` で揃える。
+Apple の管理画面で並んで見え、100個規模になっても破綻しない。
+
+### バージョン更新でしか変えられない(その場では直せない)
+
+- アプリ名 / サブタイトル
+- プライマリ言語(日本語で確定)
+- プライマリ・セカンダリカテゴリ
+- Content Rights(第三者コンテンツの有無)
+
+### いつでも変えられる
+
+価格、各種URL、年齢制限、プライバシー申告、配信する国と地域、著作権表記。
+
+**ここが値上げの自由度になる。**価格はいつでも変えられるので、
+最初から高く付ける必要はない。
