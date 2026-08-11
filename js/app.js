@@ -491,6 +491,8 @@
     document.body.classList.remove("in-quiz");   // 見出しを通常の高さに戻す
     document.body.classList.remove("has-audio"); // 音量の注意書きを消す
     document.body.classList.remove("split-view");
+    document.body.classList.remove("review-split");
+    document.body.classList.add("home");         // 広い画面ではホームを横に広く使う
     var stats = loadStats();
 
     function card(mode, extraClass) {
@@ -918,6 +920,11 @@
     var answeredBefore = session.offsets[session.taskIndex];
     var myAnswers = session.answers[session.taskIndex];
 
+    // 画面ごとの body クラスを整える(どの経路から来ても正しくなるよう、ここで行う)
+    document.body.classList.add("in-quiz");
+    document.body.classList.remove("home");
+    document.body.classList.remove("review-split");
+
     // 音量の注意書きは音声のある画面でだけ出す(リーディングで出ていると変)
     document.body.classList.toggle("has-audio", !!t.listening);
 
@@ -1158,10 +1165,14 @@
     stopTimer();
     clearProgress();
     document.body.classList.remove("split-view");
+    document.body.classList.remove("home");
     // 結果画面はリスニング問題の聞き直しができるので、
     // リスニングを含む出題だったときは音量の注意書きを残す
     document.body.classList.toggle("has-audio",
       session.tasks.some(function (t) { return t.listening; }));
+    // Part 6/7 を含むときは、広い画面での解説二分割のために幅を広げる
+    document.body.classList.toggle("review-split",
+      session.tasks.some(function (t) { return t.passage || t.passages; }));
 
     var correct = 0, total = 0, blank = 0;
     session.tasks.forEach(function (t, ti) {
@@ -1229,14 +1240,20 @@
   // 結果画面の解答・解説(全問 / 間違えた問題のみ)
   function renderReview(onlyWrong) {
     speech.stop();   // 表示の切り替えで古いボタンが消えても音が残らないように
+    // 広い画面(iPad横持ち・Mac)では、本文のある問題(Part 6/7)を
+    // 左=本文(開いた状態)・右=設問と解説 の二分割で描く。
+    // 画面幅は描画時に判定する(回転などで変わったら下の監視が描き直す)。
+    var wide = !!(window.matchMedia && window.matchMedia("(min-width: 900px)").matches);
     var out = "";
     session.tasks.forEach(function (t, ti) {
       var ans = session.answers[ti];
       var show = t.questions.some(function (q, qi) { return !onlyWrong || ans[qi] !== q.answer; });
       if (!show) return;
 
+      var splitItem = wide && !!(t.passage || t.passages);
       var no = t.startNo || (session.offsets[ti] + 1);
-      out += '<div class="review-item">' +
+      out += '<div class="review-item' + (splitItem ? " ri-split" : "") + '">' +
+        (splitItem ? '<div class="ri-left">' : "") +
         '<div class="ri-head">' + esc(t.part) + " — No." + no +
         (t.questions.length > 1 ? "-" + (no + t.questions.length - 1) : "") + "</div>";
       if (t.heading) out += '<div class="ri-heading">' + esc(t.heading) + "</div>";
@@ -1249,25 +1266,31 @@
           '<button class="stop-btn ri-stop">■ 停止</button></div>';
       }
       if (t.passage) {
-        out += '<details class="script-box"><summary>本文を見る</summary><div class="passage">' +
-          esc(t.passage) + "</div></details>";
+        out += splitItem
+          ? '<div class="passage">' + esc(t.passage) + "</div>"
+          : '<details class="script-box"><summary>本文を見る</summary><div class="passage">' +
+            esc(t.passage) + "</div></details>";
       }
       if (t.passages) {
-        out += '<details class="script-box"><summary>本文を見る</summary>';
+        if (!splitItem) out += '<details class="script-box"><summary>本文を見る</summary>';
         t.passages.forEach(function (p) {
           out += '<div class="doc-type">' + esc(p.docType) + "</div>" +
             '<div class="passage">' + esc(p.text) + "</div>";
         });
-        out += "</details>";
+        if (!splitItem) out += "</details>";
       }
       if (t.script) {
         out += '<details class="script-box"><summary>スクリプトを見る</summary><div class="script-body">' +
           esc(t.script) + "</div></details>";
       }
       if (t.translation) {
+        // 全訳は本文の訳なので、二分割のときは左(本文の下)に置く
         out += '<details class="script-box"><summary>全訳を見る</summary><div class="script-body">' +
           esc(t.translation) + "</div></details>";
       }
+
+      // 二分割のときは、ここで左(本文)を閉じて右(設問と解説)を開く
+      if (splitItem) out += '</div><div class="ri-right">';
 
       t.questions.forEach(function (q, qi) {
         var sel = ans[qi];
@@ -1293,6 +1316,7 @@
         }
         out += "</div>";
       });
+      if (splitItem) out += "</div>";   // 右(設問と解説)を閉じる
       out += "</div>";
     });
     var body = document.getElementById("reviewBody");
@@ -1342,6 +1366,18 @@
     e.preventDefault();
     showHome();
   });
+
+  // 画面幅の区分が変わったら(iPadの回転など)、結果画面の解説を作り直す。
+  // 解説の二分割は描画時に幅を見て組み立てているため、CSSだけでは追従できない。
+  if (window.matchMedia) {
+    var wideWatch = window.matchMedia("(min-width: 900px)");
+    var onWideChange = function () {
+      var cb = document.getElementById("onlyWrong");
+      if (cb) renderReview(cb.checked);   // 結果画面を開いているときだけ
+    };
+    if (wideWatch.addEventListener) wideWatch.addEventListener("change", onWideChange);
+    else if (wideWatch.addListener) wideWatch.addListener(onWideChange);
+  }
 
   // 動作検証用(コンソールから音声の配役を確認できる)
   window.TOEIC_DEBUG = { speech: speech, buildTasks: buildTasks };

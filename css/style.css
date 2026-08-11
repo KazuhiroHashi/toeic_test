@@ -347,6 +347,38 @@ details.script-box .script-body {
 .ri-audio .play-btn { padding: 8px 16px; font-size: 0.88rem; }
 .ri-audio .stop-btn { padding: 8px 14px; font-size: 0.88rem; }
 
+/* ===== 広い画面でのホームと解説 ===== */
+@media (min-width: 900px) {
+  /* ホーム:横幅を活かしてカードを3列にし、セット1〜10のタブを折り返して全部見せる
+     (狭い画面では横スクロールだが、広い画面でスクロールに気づかず
+      セット8〜10の存在を見落とすのを防ぐ) */
+  body.home main { max-width: 1080px; }
+  body.home .menu-grid { grid-template-columns: repeat(3, 1fr); }
+  body.home .set-tabs { flex-wrap: wrap; border-radius: 14px; }
+
+  /* 解説:Part 6/7 は左=本文(開いた状態)・右=設問と解説の二分割。
+     出題画面と同じく、左右がそれぞれ独立にスクロールする。 */
+  body.review-split main { max-width: 1280px; }
+  body.review-split .result-card { max-width: 760px; margin-left: auto; margin-right: auto; }
+  .review-item.ri-split {
+    display: flex;
+    padding: 0;
+    overflow: hidden;
+    height: calc(100vh - 150px);
+    height: calc(100dvh - 150px);
+    min-height: 340px;
+  }
+  .ri-split .ri-left, .ri-split .ri-right {
+    flex: 1 1 50%;
+    min-width: 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 12px 14px;
+  }
+  .ri-split .ri-left { border-right: 1px solid var(--border); }
+  .ri-split .ri-right .ri-q-block:first-child { border-top: none; margin-top: 0; padding-top: 0; }
+}
+
 .nav-row { display: flex; justify-content: flex-end; gap: 10px; margin-top: 4px; }
 .next-btn {
   background: var(--primary); color: #fff; border: none; border-radius: 99px;
