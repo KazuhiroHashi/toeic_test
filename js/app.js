@@ -568,7 +568,7 @@
       "<h2>模試に挑戦</h2>" +
       '<div class="menu-grid">' + card("listening", "mock") + card("reading", "mock") +
       card("mock", "mock") + "</div>" +
-      "<h2>リスニング(録音音声)</h2>" +
+      "<h2>リスニング(音声つき)</h2>" +
       '<div class="menu-grid">' + card("part1") + card("part2") + card("part3") + card("part4") + "</div>" +
       "<h2>リーディング</h2>" +
       '<div class="menu-grid">' + card("part5") + card("part6") + card("part7") + "</div>" +
