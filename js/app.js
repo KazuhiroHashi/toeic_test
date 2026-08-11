@@ -124,7 +124,7 @@
     part7: { label: "Part 7 読解問題", desc: "文書を読んで設問に答える(リーディング)", listening: false },
     listening: { label: "リスニング模試(Part 1-4)", desc: "本番と同じ100問・通しで解答(音声は自動再生)", listening: true, autoPlay: true },
     reading: { label: "リーディング模試(Part 5-7)", desc: "本番と同じ100問・制限時間75分", listening: false, limit: 75 * 60 },
-    mock: { label: "4分の1模試(50問)", desc: "本番に近い比率で全パートを50問。20〜25分", listening: true, autoPlay: true }
+    mock: { label: "4分の1模試(50問)", desc: "本番に近い比率で全パートを50問・通しで解答", listening: true, autoPlay: true }
   };
 
   /* ---------------- ユーティリティ ---------------- */
