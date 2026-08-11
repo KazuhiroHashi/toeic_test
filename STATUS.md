@@ -134,13 +134,27 @@ App記録を作る。App記録を作った時点で販売者名が確定する�
 
 ### 4. ビルドと審査提出
 
-**Mac がなくても可能。**Windows はコードを push するだけで、ビルドはクラウドの macOS が行う。
+**Mac がなくても可能。**`.github/workflows/ios.yml` に GitHub Actions の
+ワークフローを用意した(公開リポジトリなので macOS ランナーは無料)。
 
-- Codemagic(無料枠 月500分)または GitHub Actions の macOS ランナー
-- 署名は App Store Connect API キーで CI 側が自動生成(Mac 不要)
+使い方:
+1. App Store Connect → ユーザとアクセス → 統合 → App Store Connect API で
+   チームキーを発行(ロールは Admin。.p8 は一度しか落とせないので保管する)
+2. リポジトリの Settings → Secrets and variables → Actions に3つ登録:
+   `ASC_KEY_ID` / `ASC_ISSUER_ID` / `ASC_KEY_P8`(.p8 の中身をそのまま貼る)
+3. Actions タブ → 「iOS build & upload」→ Run workflow
+
+署名は Xcode のクラウド管理。証明書もプロファイルも CI が API キーで自動生成する。
+ビルド番号は GitHub の実行番号なので衝突しない。アイコンは CI 内で
+雛形のプレースホルダから `assets/appicon/icon-1024.png` に差し替える。
+
 - 実機テストは TestFlight。**TestFlight の課金は自動的に Sandbox 扱い**になるので、
   審査で必ず見られる「削除→再インストール→購入を復元」もここで通せる
-- スクリーンショットは 1320×2868
+- App Store Connect 側は設定済み:App記録(4+・教育・日本のみ・本体無料)、
+  プライバシー(収集なし)、課金アイテム(¥680・審査用スクショ・提出下書きに追加済み)
+- 商品ページ用スクリーンショット5枚(1320×2868)は生成済み(著者の手元に保存)
+- **組織移行を申請すると証明書ポータルが一時使えなくなる。**初回ビルドと署名は
+  移行申請の前に済ませておくこと(いまの順番で正しい)
 
 ---
 
