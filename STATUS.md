@@ -144,10 +144,16 @@ TestFlight に積まれる。
 3. 自動署名 → fastlane の配布用手動署名(端末未登録だと開発用プロファイルが作れない)
 4. macos-15 → macos-26(Apple が iOS 26 SDK 未満のビルドを受け付けない)
 
-**注意:実行のたびに配布用証明書が1枚増える(上限3枚)。**
-「maximum number of certificates」で落ちたら、developer.apple.com の
-Certificates で古い Apple Distribution を Revoke すれば空く。
-失効はビルド済み・公開済みのものに影響しない。
+**証明書の使い回し(run #7 の上限エラーの再発防止):**
+初めての実行で作った配布用証明書を p12 に書き出し、GitHub Actions の
+キャッシュ(キー `dist-cert-v1`)へ保存して、次回からはそれを取り込む。
+これで実行のたびに証明書が増えることはない。
+それでも「maximum number of certificates」で落ちたら、developer.apple.com の
+Certificates で Apple Distribution を**全部** Revoke してから再実行する
+(CI が作った証明書の秘密鍵はランナーと一緒に消えているので、残しても使えない)。
+失効はビルド済み・審査済みのアプリに影響しない。
+キャッシュは最終利用から7日で自動削除されるが、消えても次の実行が
+作り直して保存し直すだけ(そのとき上限に当たっていればまず Revoke)。
 
 **Mac がなくても可能。**`.github/workflows/ios.yml` に GitHub Actions の
 ワークフローを用意した(公開リポジトリなので macOS ランナーは無料)。

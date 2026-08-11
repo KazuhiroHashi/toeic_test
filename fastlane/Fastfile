@@ -25,15 +25,42 @@ platform :ios do
       key_content: ENV.fetch("ASC_KEY_P8")
     )
 
-    # 配布用証明書。無ければ作り、あれば使い回す。
-    # 置き場所は setup_ci が作った一時キーチェーン(パスワードは空文字)を明示する。
-    # 指定しないと既定の login.keychain に入れようとし、パスワードが分からず
-    # 「There are no local code signing identities found」で落ちる。
-    cert(
-      api_key: api_key,
-      keychain_path: File.expand_path("~/Library/Keychains/fastlane_tmp_keychain-db"),
-      keychain_password: ""
-    )
+    # 配布用証明書。
+    #
+    # CI のランナーは毎回まっさらなので、cert が作った証明書の秘密鍵は
+    # 実行が終わると消える。次の実行で cert は「使える証明書が無い」と判断して
+    # 新しい証明書を作ろうとするが、Apple の配布用証明書は数枚までしか
+    # 作れないため、数回でエラーになる(実際に run #7 で上限に当たった)。
+    #
+    # そこで、初回に作った証明書を p12(パスワード付き)で書き出して
+    # GitHub Actions のキャッシュに保存し、次回からはそれを取り込んで使い回す。
+    keychain = File.expand_path("~/Library/Keychains/fastlane_tmp_keychain-db")
+    p12_dir  = File.expand_path("../certs", __dir__)
+    p12_path = File.join(p12_dir, "dist.p12")
+    p12_pass = ENV.fetch("P12_PASSWORD")
+
+    if File.exist?(p12_path)
+      UI.message("保存済みの配布用証明書を取り込みます(certs/dist.p12)")
+      import_certificate(
+        certificate_path: p12_path,
+        certificate_password: p12_pass,
+        keychain_path: keychain,
+        keychain_password: "",
+        log_output: false
+      )
+    else
+      UI.message("配布用証明書を新規作成し、次回のために書き出します")
+      cert(
+        api_key: api_key,
+        keychain_path: keychain,
+        keychain_password: ""
+      )
+      require "fileutils"
+      FileUtils.mkdir_p(p12_dir)
+      # 秘密鍵ごと p12 に書き出す。パスワードがログに出ないよう log: false にする
+      sh("security", "export", "-k", keychain, "-t", "identities",
+         "-f", "pkcs12", "-P", p12_pass, "-o", p12_path, log: false)
+    end
 
     # App Store 用プロビジョニングプロファイル
     sigh(
