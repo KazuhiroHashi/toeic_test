@@ -25,8 +25,15 @@ platform :ios do
       key_content: ENV.fetch("ASC_KEY_P8")
     )
 
-    # 配布用証明書。無ければ作り、あれば使い回す
-    cert(api_key: api_key)
+    # 配布用証明書。無ければ作り、あれば使い回す。
+    # 置き場所は setup_ci が作った一時キーチェーン(パスワードは空文字)を明示する。
+    # 指定しないと既定の login.keychain に入れようとし、パスワードが分からず
+    # 「There are no local code signing identities found」で落ちる。
+    cert(
+      api_key: api_key,
+      keychain_path: File.expand_path("~/Library/Keychains/fastlane_tmp_keychain-db"),
+      keychain_password: ""
+    )
 
     # App Store 用プロビジョニングプロファイル
     sigh(
