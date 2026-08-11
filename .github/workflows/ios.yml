@@ -63,9 +63,17 @@ jobs:
           printf '%s' "${{ secrets.ASC_KEY_P8 }}" > "$HOME/private_keys/AuthKey_${ASC_KEY_ID}.p8"
 
       - name: アーカイブする
+        # Capacitor 8 は SPM が既定なので .xcworkspace は生成されず .xcodeproj になる。
+        # CocoaPods を使う構成に変えた場合は workspace が現れるので、両対応にしておく。
         run: |
+          if [ -e ios/App/App.xcworkspace ]; then
+            CONTAINER="-workspace ios/App/App.xcworkspace"
+          else
+            CONTAINER="-project ios/App/App.xcodeproj"
+          fi
+          echo "使用するコンテナ: $CONTAINER"
           xcodebuild archive \
-            -workspace ios/App/App.xcworkspace \
+            $CONTAINER \
             -scheme App \
             -configuration Release \
             -destination 'generic/platform=iOS' \
