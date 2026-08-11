@@ -16,9 +16,10 @@
 | プライバシーポリシー(App Storeに登録) | `https://bridge-ai-tokyo.com/privacy.html` |
 | サポートURL(App Storeに登録) | `https://bridge-ai-tokyo.com/support.html` |
 | 連絡先 | `contact@bridge-ai-tokyo.com` |
-| バンドルID | `com.bridgeaitokyo.toeic` |
+| バンドルID | `com.bridgeaitokyo.toeic` — **App ID 登録済み**(Description: `TOEIC Workbook`) |
+| SKU | `toeic-workbook-001` — 非公開。**削除しても再利用できない** |
 | 課金アイテムID | `com.bridgeaitokyo.toeic.unlockall` |
-| アプリ名 | `TOEIC® 総合問題集` |
+| アプリ名 | `TOEIC® 総合問題集` — 情報を足さない方針(問題数・セット数は説明文で伝える) |
 | 価格 | アプリ本体=無料 / 全セット解放=¥1,980(非消費型・買い切り) |
 | 無料範囲 | セット1(200問)は全機能無料。セット2〜10が課金対象 |
 
@@ -177,7 +178,7 @@ Apple 公式の
 | 項目 | 決めた値 | 補足 |
 |---|---|---|
 | バンドルID | `com.bridgeaitokyo.toeic` | 所有ドメインの逆順。ハイフン無しにしてあるのは、Android のアプリIDが Java のパッケージ名規則に従い**ハイフンを使えない**ため |
-| SKU | `toeic-workbook-001` | 非公開の管理用ID。アプリを削除しても再利用できない |
+| SKU | `toeic-workbook-001` | 非公開の管理用ID。アプリを削除しても再利用できない。次の製品は `<製品名>-workbook-002` のように続ける |
 | 課金アイテムの製品ID | `com.bridgeaitokyo.toeic.unlockall` | **削除しても同じIDを二度と使えない**(Apple 公式回答) |
 | 課金アイテムの種類 | 非消費型 | 作成後に種別を変えられない |
 
@@ -197,3 +198,10 @@ Apple の管理画面で並んで見え、100個規模になっても破綻し�
 
 **ここが値上げの自由度になる。**価格はいつでも変えられるので、
 最初から高く付ける必要はない。
+
+## Apple の管理画面が固まるとき
+
+Chrome の拡張機能(広告ブロッカー・プライバシー系)が Apple のスクリプトを
+止めることがある。`Register an App ID` の途中で読み込み中のまま固まる症状が出た。
+
+**Microsoft Edge で開くと通る。**Apple 関連の作業は Edge で行うのが確実。
