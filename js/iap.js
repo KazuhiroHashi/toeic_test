@@ -97,9 +97,15 @@
         .then(function () { writeOwned(); done("ok"); })
         .catch(function (e) {
           var msg = String((e && (e.message || e.errorMessage)) || "");
-          // 利用者が自分で閉じた場合はエラー表示を出さない
-          if (/cancel/i.test(msg)) { done("cancel"); return; }
-          done("error");
+          /* エラーで戻っても、実際には購入が成立していることがある
+             (シートの途中で中断・同じ商品を既に所持・完了通知の取り逃し等)。
+             エラーを画面に出す前に、ストアへ所持を問い合わせて拾い直す。 */
+          IAP.refresh(function (owned) {
+            if (owned) { done("ok"); return; }
+            // 利用者が自分で閉じた場合はエラー表示を出さない
+            if (/cancel/i.test(msg)) { done("cancel"); return; }
+            done("error");
+          });
         });
     },
 

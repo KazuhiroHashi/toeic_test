@@ -651,7 +651,20 @@
     app.querySelectorAll(".set-tab").forEach(function (btn) {
       btn.addEventListener("click", function () {
         var i = parseInt(btn.getAttribute("data-set"), 10);
-        if (!isUnlocked(SETS[i].id)) { askCode(SETS[i].name); return; }
+        if (!isUnlocked(SETS[i].id)) {
+          /* アプリ版(課金)では合言葉を絶対に出さない(ガイドライン 3.1.1)。
+             鍵つきセットを押したら、そのまま購入の導線につなぐ。 */
+          if (iapMode()) {
+            var b = document.getElementById("iapBuy");
+            if (b && !b.disabled &&
+                window.confirm("このセットは有料です。「すべて解放する」をご購入いただくと、セット2〜10がすべて解放されます。購入画面を開きますか?")) {
+              b.click();
+            }
+            return;
+          }
+          askCode(SETS[i].name);
+          return;
+        }
         activeSetIdx = i;
         try { localStorage.setItem(SET_PREF_KEY, SETS[activeSetIdx].id); } catch (e) { /* ignore */ }
         showHome();
