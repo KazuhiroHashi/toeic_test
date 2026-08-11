@@ -132,7 +132,22 @@ App記録を作る。App記録を作った時点で販売者名が確定する�
 5. 税務フォームの再提出(**最長2か月かかる報告あり。ここが最大の詰まり所**)
 6. App記録を作成し、Developer名を `Bridge AI` に設定
 
-### 4. ビルドと審査提出
+### 4. ビルドと審査提出 — **CIは完成(2026年8月11日・run #6 で成功)**
+
+初回ビルドが通り、署名済みの IPA が App Store Connect にアップロード済み。
+以降の修正は「push → Actions で Run workflow → 5分待つ」だけで新しいビルドが
+TestFlight に積まれる。
+
+通すまでに直した4点(再発したらここを見る):
+1. Node 20 → 22(Capacitor 8 の CLI が >=22 を要求)
+2. workspace → xcodeproj(Capacitor 8 は SPM 構成で .xcworkspace が無い)
+3. 自動署名 → fastlane の配布用手動署名(端末未登録だと開発用プロファイルが作れない)
+4. macos-15 → macos-26(Apple が iOS 26 SDK 未満のビルドを受け付けない)
+
+**注意:実行のたびに配布用証明書が1枚増える(上限3枚)。**
+「maximum number of certificates」で落ちたら、developer.apple.com の
+Certificates で古い Apple Distribution を Revoke すれば空く。
+失効はビルド済み・公開済みのものに影響しない。
 
 **Mac がなくても可能。**`.github/workflows/ios.yml` に GitHub Actions の
 ワークフローを用意した(公開リポジトリなので macOS ランナーは無料)。
