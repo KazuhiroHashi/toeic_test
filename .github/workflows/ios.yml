@@ -31,7 +31,8 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          # Capacitor 8 の CLI は Node 22 以上を要求する(20 だと即死する)
+          node-version: 22
 
       - name: 依存関係を入れる
         run: npm install
