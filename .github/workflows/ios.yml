@@ -19,7 +19,10 @@ on:
 
 jobs:
   build:
-    runs-on: macos-15
+    # Apple は 2026 年から iOS 26 SDK(Xcode 26)でのビルドしか受け付けない。
+    # macos-15 の既定 Xcode は 16.4 で古く、アップロードで 409 になるため
+    # macos-26 ランナーを使う。
+    runs-on: macos-26
     timeout-minutes: 90
     env:
       ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
@@ -56,6 +59,15 @@ jobs:
           # 雛形の PNG をすべて実物で上書きする(ファイル名は雛形の世代で変わるため列挙しない)
           find "$ICON_DIR" -name "*.png" -exec cp assets/appicon/icon-1024.png {} \;
           echo "差し替えたファイル:"; ls "$ICON_DIR"
+
+      - name: Xcode を選ぶ
+        # ランナーには複数の Xcode が入っている。iOS 26 SDK を持つ最新版を明示的に選ぶ
+        run: |
+          XC=$(ls -d /Applications/Xcode_26*.app 2>/dev/null | sort -V | tail -1)
+          if [ -z "$XC" ]; then XC=$(ls -d /Applications/Xcode*.app | sort -V | tail -1); fi
+          echo "使用する Xcode: $XC"
+          sudo xcode-select -s "$XC/Contents/Developer"
+          xcodebuild -version
 
       - name: ビルドして TestFlight に上げる
         # 署名まわりは fastlane に任せる(fastlane/Fastfile を参照)。
