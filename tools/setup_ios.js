@@ -53,6 +53,9 @@ if (sw.indexOf("AVAudioSession") >= 0) {
     indent + "// ブラウザ版ではできないため、アプリ版だけの利点になっている。\n" +
     indent + "do {\n" +
     indent + "    try AVAudioSession.sharedInstance().setCategory(.playback, mode: .spokenAudio)\n" +
+    indent + "    // 同梱の音声は 24kHz。出力を 48kHz に固定しておくと、画面収録した動画で\n" +
+    indent + "    // 音だけ2倍速になる(収録側が 48kHz 前提で書き出す)現象を防げる。\n" +
+    indent + "    try AVAudioSession.sharedInstance().setPreferredSampleRate(48000)\n" +
     indent + "    try AVAudioSession.sharedInstance().setActive(true)\n" +
     indent + "} catch {\n" +
     indent + "    // 設定できなくても通常再生は続けられるので、ここでは落とさない\n" +
