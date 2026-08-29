@@ -180,6 +180,12 @@ body.has-audio #soundNote { display: block; }
 /* 1問ずつ答え合わせのときに、設問の下へ差し込む正誤と解説 */
 .answer-slot:empty { display: none; }
 .answer-slot .feedback { margin-top: 8px; }
+/* 設問が複数ある画面で、答え合わせの条件を伝える一行 */
+.instant-note {
+  margin: 10px 0 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
 
 .menu-section h2 {
   font-size: 1.05rem;

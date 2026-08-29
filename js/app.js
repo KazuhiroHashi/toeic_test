@@ -1041,6 +1041,12 @@
       html += "</div><div class=\"answer-slot\"></div></div>";
     });
 
+    // 設問が複数ある画面では、全部答えるまで答え合わせが出ないことを先に伝える
+    if (instantNow() && t.questions.length > 1) {
+      html += '<p class="instant-note">この ' + t.questions.length +
+        " 問すべてに答えると、まとめて答え合わせが出ます。</p>";
+    }
+
     html += '<div class="nav-row">' +
       (session.taskIndex > 0 ? '<button class="secondary-btn" id="prev">← 前へ</button>' : "") +
       '<button class="next-btn" id="next">' +
@@ -1142,23 +1148,39 @@
 
     var instant = instantNow();
 
-    // 前に戻ったときなど、すでに解答済みの設問は答え合わせの状態で描き直す
-    if (instant) {
-      t.questions.forEach(function (q, qi) {
-        if (myAnswers[qi] !== null && myAnswers[qi] !== undefined) revealAnswer(qi);
-      });
+    /* この画面の設問がすべて埋まったか。
+       Part 3/4/6/7 は1つの音声・文書に設問が複数ぶら下がるので、
+       1問答えるたびに答えを出すと、残りの設問のヒントになってしまう。
+       全部答えてから、まとめて答え合わせをする。 */
+    function allAnswered() {
+      for (var i = 0; i < t.questions.length; i++) {
+        if (myAnswers[i] === null || myAnswers[i] === undefined) return false;
+      }
+      return true;
     }
+    function revealAll() {
+      t.questions.forEach(function (q, qi) { revealAnswer(qi); });
+      var note = app.querySelector(".instant-note");
+      if (note) note.parentNode.removeChild(note);
+    }
+
+    // 前に戻ったときなど、すでに全問解答済みなら答え合わせの状態で描き直す
+    if (instant && allAnswered()) revealAll();
 
     app.querySelectorAll(".choice-btn").forEach(function (btn) {
       btn.addEventListener("click", function () {
         var qi = parseInt(btn.getAttribute("data-qi"), 10);
         var ci = parseInt(btn.getAttribute("data-ci"), 10);
         if (instant) {
-          if (myAnswers[qi] !== null && myAnswers[qi] !== undefined) return;  // 解答済みは変更しない
-          myAnswers[qi] = ci;
-          btn.classList.add("selected");
-          revealAnswer(qi);
+          // 答え合わせ前は選び直せる(まだ正誤を見せていないため)
+          myAnswers[qi] = (myAnswers[qi] === ci) ? null : ci;
+          var blk = app.querySelector('.q-block[data-qi="' + qi + '"]');
+          blk.querySelectorAll(".choice-btn").forEach(function (b) {
+            b.classList.toggle("selected",
+              parseInt(b.getAttribute("data-ci"), 10) === myAnswers[qi]);
+          });
           saveProgress();
+          if (allAnswered()) revealAll();
           return;
         }
         // 本番と同じ進め方:印を付けるだけで、正誤も解説もここでは出さない
