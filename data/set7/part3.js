@@ -5,14 +5,14 @@ window.TOEIC_DATA_7.part3 = [
     id: "s7p3-01",
     title: "会話 1",
     audio: [
-      { speaker: "W", text: "Paul, the three landscape paintings we're lending to the Ashgrove Institute — well, two of them, actually; the third is still under review — have to ship by the eighth." },
+      { speaker: "W", text: "Paul, the landscape paintings going to the Ashgrove Institute — two of them; the third is still under review — have to ship by the eighth." },
       { speaker: "M", text: "The eighth? I had the fifteenth on my calendar. Did the borrowing museum move their opening?" },
-      { speaker: "W", text: "No, the opening date hasn't changed at all. What changed is the courier. The firm we normally use can't take a crate that size, so we've gone with one that only runs that route on the first and third Monday of the month." },
-      { speaker: "M", text: "Ah — so it's the transport, not the exhibition. Then I'll need the condition reports finished a full week earlier than planned. Could Nadia photograph the frames tomorrow?" },
-      { speaker: "W", text: "She's in Portland until Thursday. But honestly, the photography isn't what worries me. It's that the insurance certificate still names the old carrier. Until that's amended, nothing leaves this building." },
-      { speaker: "M", text: "Understood. I'll call the broker this morning and have the endorsement reissued." }
+      { speaker: "W", text: "No, the opening date hasn't changed. What changed is the courier. Our usual firm can't take a crate that size, so we've switched to one that runs that route only twice a month." },
+      { speaker: "M", text: "So it's the transport, not the exhibition. Then I'll need the condition reports finished a full week earlier than planned. Could Nadia photograph the frames tomorrow?" },
+      { speaker: "W", text: "She's in Portland until Thursday. But the photography isn't what worries me. It's that the insurance certificate still names the old carrier. Until that's amended, nothing leaves this building." },
+      { speaker: "M", text: "Understood. I'll call the broker this morning." }
     ],
-    translation: "女性:ポール、アッシュグローブ研究所に貸し出す風景画3点——いえ、実際は2点ね、3点目はまだ検討中だから——が、8日までに発送しないといけないの。\n男性:8日? 僕のカレンダーでは15日だったけど。借り手の美術館が開幕日を動かしたの?\n女性:いいえ、開幕日はまったく変わっていないわ。変わったのは輸送業者。いつも使っている会社があの大きさの木箱を扱えなくて、あのルートを第1・第3月曜しか走らない業者に切り替えたの。\n男性:なるほど——展覧会じゃなく輸送の都合か。それなら状態報告書を予定より丸1週間早く仕上げないといけないね。ナディアに明日、額縁を撮影してもらえる?\n女性:彼女は木曜までポートランドよ。でも正直、心配なのは撮影じゃないの。保険証書がまだ旧の運送業者の名前のままなのよ。それが訂正されるまで、この建物からは何も出せないわ。\n男性:分かった。今朝ブローカーに電話して、裏書きを出し直してもらうよ。",
+    translation: "女性:ポール、アッシュグローブ研究所に送る風景画——2点ね、3点目はまだ検討中だから——が、8日までに発送しないといけないの。\n男性:8日? 僕のカレンダーでは15日だったけど。借り手の美術館が開幕日を動かしたの?\n女性:いいえ、開幕日は変わっていないわ。変わったのは輸送業者。いつもの会社があの大きさの木箱を扱えなくて、あのルートを月2回しか走らない業者に切り替えたの。\n男性:展覧会じゃなく輸送の都合か。それなら状態報告書を予定より丸1週間早く仕上げないといけないね。ナディアに明日、額縁を撮影してもらえる?\n女性:彼女は木曜までポートランドよ。でも心配なのは撮影じゃないの。保険証書がまだ旧の運送業者の名前のままなのよ。それが訂正されるまで、この建物からは何も出せないわ。\n男性:分かった。今朝ブローカーに電話するよ。",
     questions: [
       {
         q: "What has caused the deadline to change?",
@@ -53,14 +53,14 @@ window.TOEIC_DATA_7.part3 = [
     id: "s7p3-02",
     title: "会話 2",
     audio: [
-      { speaker: "M", text: "Priya, it's Owen Marsh at Verrix Components. Our container out of Rotterdam — it should have cleared on Tuesday, but the terminal system still shows it on hold." },
-      { speaker: "W", text: "I saw that this morning. Customs flagged the declaration, not the goods themselves. Someone entered the sensors under the code we use for finished instruments, and the duty rate for that is different." },
-      { speaker: "M", text: "So it's a paperwork problem. How long does correcting something like that normally take?" },
-      { speaker: "W", text: "Once I file the amendment, two business days, sometimes three. What I can't tell you yet is whether they'll charge the higher rate on this entry and refund us later, or simply correct it outright." },
-      { speaker: "M", text: "Either way we miss the assembly start on Monday. I'd rather not air-freight it — that would cost more than the delay is worth. Let me talk to production about resequencing the line." },
-      { speaker: "W", text: "Send me the revised parts list if they do. I'll mark which items are already cleared so you can pull those first." }
+      { speaker: "M", text: "Priya, it's Owen Marsh at Verrix Components. Our container out of Rotterdam should have cleared on Tuesday, but the terminal system still shows it on hold." },
+      { speaker: "W", text: "Customs flagged the declaration, not the goods themselves. Someone entered the sensors under the code we use for finished instruments, and the duty rate for that is different." },
+      { speaker: "M", text: "So it's a paperwork problem. How long does correcting that normally take?" },
+      { speaker: "W", text: "Once I file the amendment, two business days. What I can't tell you yet is whether they'll charge the higher rate now and refund us later, or simply correct it outright." },
+      { speaker: "M", text: "Either way we miss the assembly start on Monday. I'd rather not air-freight it. Let me talk to production about resequencing the line." },
+      { speaker: "W", text: "Send me the revised parts list, and I'll mark which items are already cleared." }
     ],
-    translation: "男性:プリヤ、ヴェリックス・コンポーネンツのオーウェン・マーシュです。ロッテルダム発のコンテナが、火曜には通関しているはずなのに、ターミナルのシステムではまだ保留のままなんです。\n女性:今朝それを見ました。税関が引っかけたのは貨物そのものではなく申告書です。誰かがセンサー類を完成計測機器用のコードで入力してしまって、そのコードだと関税率が違うんです。\n男性:では書類の問題ですね。ああいうものの訂正には普通どのくらいかかりますか?\n女性:修正申告を出せば2営業日、長くて3営業日です。まだ申し上げられないのは、今回の申告に高い方の税率を課してあとで還付するのか、それとも最初から訂正で済ませるのか、という点です。\n男性:どちらにしても月曜の組立開始には間に合いませんね。空輸はしたくない——遅延の損失より高くつきますから。生産部門と工程の順番入れ替えを相談します。\n女性:そうなさるなら、修正した部品リストを送ってください。すでに通関済みの品目に印を付けますので、そちらから先に引き出せます。",
+    translation: "男性:プリヤ、ヴェリックス・コンポーネンツのオーウェン・マーシュです。ロッテルダム発のコンテナが、火曜には通関しているはずなのに、ターミナルのシステムではまだ保留のままなんです。\n女性:税関が引っかけたのは貨物そのものではなく申告書です。誰かがセンサー類を完成計測機器用のコードで入力してしまって、そのコードだと関税率が違うんです。\n男性:では書類の問題ですね。訂正には普通どのくらいかかりますか?\n女性:修正申告を出せば2営業日です。まだ申し上げられないのは、今回、高い方の税率を課してあとで還付するのか、それとも最初から訂正で済ませるのか、という点です。\n男性:どちらにしても月曜の組立開始には間に合いませんね。空輸はしたくありません。生産部門と工程の順番入れ替えを相談します。\n女性:修正した部品リストを送ってください。すでに通関済みの品目に印を付けます。",
     questions: [
       {
         q: "Why is the shipment being held?",
@@ -101,14 +101,14 @@ window.TOEIC_DATA_7.part3 = [
     id: "s7p3-03",
     title: "会話 3(3人の会話:男性2人+女性1人)",
     audio: [
-      { speaker: "W", text: "Hideo, Roland — thanks for making time. I want to go through the Lisbon posting before we submit anything further. Hideo, your start date is the first of October, correct?" },
-      { speaker: "M", text: "That's what the offer letter says, yes. Although — my lease here runs to the twentieth, so I'd been hoping to fly out in the second week of the month." },
-      { speaker: "W", text: "And that's exactly the part we have to sort out. The work authorization is issued against the start date on the application. If you arrive after it, the permit is still valid, but you can't go onto the local payroll until you register with the district office, and that takes roughly ten days. And before either of you asks — we can't simply move the start date. The application is already with the consulate, and withdrawing it and refiling adds four to six weeks." },
-      { speaker: "M2", text: "So he sits there unpaid for a week and a half, or we lose six weeks moving the date. Forget it, then — we don't touch the application. Hideo, break the lease. The relocation allowance covers the penalty, and I'd rather pay one month's rent than lose a month and a half." },
-      { speaker: "M", text: "Fair enough, Roland. I'll give the landlord notice today and send the termination fee over to accounting." },
-      { speaker: "W", text: "Good. Forward me the signed notice as well — the allowance claim won't go through without it attached." }
+      { speaker: "W", text: "Hideo, Roland — thanks for making time. Hideo, your Lisbon start date is the first of October, correct?" },
+      { speaker: "M", text: "That's what the offer letter says. But my lease runs to the twentieth, so I'd hoped to fly out in the second week." },
+      { speaker: "W", text: "That's what we have to sort out. The permit stays valid if you arrive later, but you can't go onto the local payroll until you register with the district office — about ten days. And we can't move the start date: the application is with the consulate, and refiling adds four to six weeks." },
+      { speaker: "M2", text: "So he sits there unpaid for a week and a half, or we lose six weeks. Then we don't touch the application. Hideo, break the lease — the allowance covers the penalty." },
+      { speaker: "M", text: "Fair enough, Roland. I'll give the landlord notice today." },
+      { speaker: "W", text: "Forward me the signed notice — the allowance claim needs it." }
     ],
-    translation: "セルマ(女性):ヒデオ、ローランド、時間を取ってくれてありがとう。これ以上何か提出する前に、リスボン赴任の件を整理しておきたいの。ヒデオ、開始日は10月1日で合っている?\nヒデオ(男性1):オファーレターにはそう書いてあります。ただ、こちらの賃貸契約が20日までなので、月の第2週に発てればと思っていました。\nセルマ:まさにそこを片づけないといけないの。就労許可は申請書に書いた開始日に対して発給されるわ。それより後に到着しても許可自体は有効だけれど、地区役所で登録するまで現地の給与に載せられない。それに10日ほどかかるの。それと、聞かれる前に言っておくと、開始日そのものを動かすのは無理よ。申請書はもう領事館にあって、取り下げて出し直すと4〜6週間余計にかかるから。\nローランド(男性2):つまり1週間半を無給で過ごすか、日付を動かして6週間失うか、か。なら申請書には手を付けない。ヒデオ、賃貸を解約してくれ。違約金は赴任手当で出るし、1か月分の家賃を払う方が1か月半失うよりましだ。\nヒデオ:分かりました、ローランド。今日、大家に通知して、解約手数料を経理に回します。\nセルマ:お願い。署名済みの通知書も私に転送してね。それを添付しないと手当の申請が通らないから。",
+    translation: "セルマ(女性):ヒデオ、ローランド、時間を取ってくれてありがとう。ヒデオ、リスボンの開始日は10月1日で合っている?\nヒデオ(男性1):オファーレターにはそう書いてあります。ただ、こちらの賃貸契約が20日までなので、月の第2週に発てればと思っていました。\nセルマ:まさにそこを片づけないといけないの。到着が遅れても許可自体は有効だけれど、地区役所で登録するまで現地の給与に載せられない——それに10日ほどかかるの。それに開始日は動かせない。申請書はもう領事館にあって、取り下げて出し直すと4〜6週間余計にかかるから。\nローランド(男性2):つまり1週間半を無給で過ごすか、日付を動かして6週間失うか、か。なら申請書には手を付けない。ヒデオ、賃貸を解約してくれ——違約金は赴任手当で出る。\nヒデオ:分かりました、ローランド。今日、大家に通知します。\nセルマ:署名済みの通知書も私に転送してね。それがないと手当の申請が通らないから。",
     questions: [
       {
         q: "What does Hideo want to change?",
@@ -151,14 +151,14 @@ window.TOEIC_DATA_7.part3 = [
     title: "会話 4(図表問題)",
     graphic: "Instrument Care Plans — Voltrend Metrology\n1. Plan Basic — 1 on-site visit per year — response within 5 business days\n2. Plan Standard — 2 on-site visits per year — response within 3 business days\n3. Plan Plus — 2 on-site visits per year — next-business-day response\n4. Plan Premier — 4 on-site visits per year — same-day response",
     audio: [
-      { speaker: "M", text: "So, based on what you've described — twenty-two instruments, most of them in daily use — I'd normally point a customer toward our top plan." },
-      { speaker: "W", text: "Four visits a year is more than we need. Our auditors only require calibration twice a year, and frankly two of those visits would be someone standing around watching us work." },
-      { speaker: "M", text: "Fair enough. Then it really comes down to response time. How long can a bench sit idle if something drifts out of tolerance?" },
-      { speaker: "W", text: "Not long at all. Last spring a balance failed on a Tuesday and we waited until the following Monday. We lost an entire batch of samples. Anything longer than a single day is unacceptable to us now." },
-      { speaker: "M", text: "Understood. That narrows it to one plan, then. I'll draw up the agreement this afternoon and e-mail it over for signature." },
+      { speaker: "M", text: "So — twenty-two instruments, most of them in daily use. I'd normally point a customer toward our top plan." },
+      { speaker: "W", text: "Four visits a year is more than we need. Our auditors only require calibration twice a year." },
+      { speaker: "M", text: "Then it comes down to response time. How long can a bench sit idle if something drifts out of tolerance?" },
+      { speaker: "W", text: "Not long at all. Last spring a balance failed on a Tuesday and we waited until the following Monday. We lost an entire batch. Anything longer than a single day is unacceptable to us now." },
+      { speaker: "M", text: "Understood. That narrows it to one plan. I'll draw up the agreement this afternoon and e-mail it over for signature." },
       { speaker: "W", text: "Please do. And could you include a list of which of our instruments currently fall outside the standard tolerance range? Our quality manager keeps asking me for it." }
     ],
-    translation: "【図表】計測機器ケアプラン(ヴォルトレンド計量社)/1. ベーシック:年1回訪問・5営業日以内対応/2. スタンダード:年2回訪問・3営業日以内対応/3. プラス:年2回訪問・翌営業日対応/4. プレミア:年4回訪問・当日対応\n男性:では、お話しいただいた内容——機器22台、その大半が毎日稼働——からすると、普通なら最上位プランをお勧めするところです。\n女性:年4回の訪問は必要以上です。監査で求められる校正は年2回だけですし、正直そのうち2回は、こちらの作業を横で見ているだけになります。\n男性:なるほど。となると決め手は対応時間ですね。公差から外れた場合、作業台をどのくらい止めておけますか?\n女性:まったく余裕はありません。去年の春、火曜に天秤が故障して、翌週の月曜まで待たされました。サンプルを1バッチ丸ごと失ったんです。今は1日を超える待ちは受け入れられません。\n男性:承知しました。それならプランは1つに絞られますね。今日の午後に契約書を作成して、署名用にメールでお送りします。\n女性:お願いします。それと、当社の機器のうち今どれが標準公差から外れているか、一覧を付けていただけますか? 品質管理責任者にずっと催促されているので。",
+    translation: "【図表】計測機器ケアプラン(ヴォルトレンド計量社)/1. ベーシック:年1回訪問・5営業日以内対応/2. スタンダード:年2回訪問・3営業日以内対応/3. プラス:年2回訪問・翌営業日対応/4. プレミア:年4回訪問・当日対応\n男性:では——機器22台、その大半が毎日稼働ですね。普通なら最上位プランをお勧めするところです。\n女性:年4回の訪問は必要以上です。監査で求められる校正は年2回だけですから。\n男性:となると決め手は対応時間ですね。公差から外れた場合、作業台をどのくらい止めておけますか?\n女性:まったく余裕はありません。去年の春、火曜に天秤が故障して、翌週の月曜まで待たされました。1バッチ丸ごと失ったんです。今は1日を超える待ちは受け入れられません。\n男性:承知しました。それならプランは1つに絞られますね。今日の午後に契約書を作成して、署名用にメールでお送りします。\n女性:お願いします。それと、当社の機器のうち今どれが標準公差から外れているか、一覧を付けていただけますか? 品質管理責任者にずっと催促されているので。",
     questions: [
       {
         q: "Look at the graphic. Which plan will the woman most likely choose?",
@@ -242,14 +242,14 @@ window.TOEIC_DATA_7.part3 = [
     id: "s7p3-06",
     title: "会話 6",
     audio: [
-      { speaker: "W", text: "Hi — I'm here for Mabel's follow-up. Sorry, I know I'm early; the appointment's not until four fifteen." },
-      { speaker: "M", text: "No trouble at all. Let me pull up her chart... Mabel Okonjo, the terrier. I see Dr. Whitfield ordered blood work at the last visit. Did anyone call you with the results?" },
+      { speaker: "W", text: "Hi — I'm here for Mabel's follow-up. Sorry, I know I'm early." },
+      { speaker: "M", text: "No trouble. Let me pull up her chart — Mabel Okonjo, the terrier. Dr. Whitfield ordered blood work at the last visit. Did anyone call you with the results?" },
       { speaker: "W", text: "Someone left a message, but all it said was to keep her on the tablets and come back in three weeks. Nothing about the actual numbers." },
-      { speaker: "M", text: "That's usually what happens when everything comes back within range. Now, one thing you should know — Dr. Whitfield is over at the county clinic today. Dr. Aliyev is covering, and he's running about twenty minutes behind." },
-      { speaker: "W", text: "That's fine, I'm not in a hurry. Actually, while I'm standing here — the tablets. We're down to four, and the label says no refills." },
-      { speaker: "M", text: "Then the doctor will have to authorize a new prescription during the visit. Bring it up at the start, not at the end, or you'll be standing at this counter for another twenty minutes afterward." }
+      { speaker: "M", text: "That's usually what happens when everything comes back within range. Dr. Whitfield is over at the county clinic today. Dr. Aliyev is covering, and he's running about twenty minutes behind." },
+      { speaker: "W", text: "That's fine. Actually, while I'm standing here — the tablets. We're down to four, and the label says no refills." },
+      { speaker: "M", text: "Then the doctor will have to authorize a new prescription during the visit. Bring it up at the start, not at the end." }
     ],
-    translation: "女性:こんにちは、メイベルの再診で来ました。早く着いてしまってすみません、予約は4時15分ですよね。\n男性:まったく問題ありませんよ。カルテを出しますね……オコンジョ・メイベル、テリアですね。前回ホイットフィールド先生が血液検査を指示しています。結果のご連絡は届きましたか?\n女性:留守電が入っていたんですが、錠剤を続けて3週間後に来てくださいとしか言っていなくて。数値については何も。\n男性:すべて基準値内だった場合はたいていそうなります。それと、お伝えしておくことが。ホイットフィールド先生は今日、郡のクリニックに出ています。アリエフ先生が代診で、20分ほど押しています。\n女性:大丈夫です、急いでいませんので。ところで、せっかくなので錠剤の件を。残り4錠で、ラベルには『追加処方なし』とあるんです。\n男性:でしたら診察中に先生に新しい処方を出してもらう必要があります。最後ではなく最初に切り出してください。でないと、そのあとこのカウンターでまた20分待つことになりますよ。",
+    translation: "女性:こんにちは、メイベルの再診で来ました。早く着いてしまってすみません。\n男性:問題ありませんよ。カルテを出しますね——オコンジョ・メイベル、テリアですね。前回ホイットフィールド先生が血液検査を指示しています。結果のご連絡は届きましたか?\n女性:留守電が入っていたんですが、錠剤を続けて3週間後に来てくださいとしか言っていなくて。数値については何も。\n男性:すべて基準値内だった場合はたいていそうなります。ホイットフィールド先生は今日、郡のクリニックに出ています。アリエフ先生が代診で、20分ほど押しています。\n女性:大丈夫です。ところで、せっかくなので錠剤の件を。残り4錠で、ラベルには『追加処方なし』とあるんです。\n男性:でしたら診察中に先生に新しい処方を出してもらう必要があります。最後ではなく最初に切り出してください。",
     questions: [
       {
         q: "What does the woman say about the message she received?",
@@ -294,10 +294,10 @@ window.TOEIC_DATA_7.part3 = [
       { speaker: "M", text: "Wednesday? Our guest flies in Wednesday morning, Rosalind. She's only in town for the one day." },
       { speaker: "W2", text: "We could put you in Studio One. It's bigger than you need, but it's free from noon onward." },
       { speaker: "M", text: "Bigger isn't the issue. Isn't that the one over the loading bay? Last time we recorded there, every delivery truck ended up on the tape." },
-      { speaker: "W2", text: "That was Studio Three. One is on the quiet side of the building. The catch is the console — it's the older board, so there's no multitrack. Everything mixes down live." },
-      { speaker: "M", text: "For a straight interview I can live with that — I'll set the levels before she arrives and then leave them alone. Junko, could you book us from twelve to three? And I'll ask her assistant to get her here by eleven thirty so we're not rushing." }
+      { speaker: "W2", text: "That was Studio Three. One is on the quiet side of the building. The catch is the console — it's the older board, so there's no multitrack." },
+      { speaker: "M", text: "For a straight interview I can live with that. Junko, could you book us from twelve to three?" }
     ],
-    translation: "ロザリンド(女性1):ジュンコ、フェリックス——スタジオ2について悪い知らせ。天井工事のために水曜に吸音パネルを外すので、その週はまるまる使えないの。\nフェリックス(男性):水曜? ロザリンド、ゲストは水曜の朝に到着するんだ。彼女がこの街にいるのはその1日だけだよ。\nジュンコ(女性2):スタジオ1にお入れできますよ。必要以上に広いですけど、正午以降なら空いています。\nフェリックス:広さは問題じゃない。あれは搬入口の上の部屋じゃないか? 前にあそこで録ったとき、配送トラックの音が全部テープに入ってしまった。\nジュンコ:それはスタジオ3です。1は建物の静かな側にあります。難点は卓の方で、古い方のコンソールなのでマルチトラックがありません。全部その場でミックスダウンになります。\nロザリンド:普通のインタビューなら問題ないわ。フェリックス、彼女が来る前にレベルを決めて、あとは触らないようにすればいいだけよ。\nフェリックス:それでいいよ。ジュンコ、12時から3時で押さえてもらえる? 僕は彼女のアシスタントに、慌てないよう11時半までに来てもらうよう頼んでおく。",
+    translation: "ロザリンド(女性1):ジュンコ、フェリックス——スタジオ2について悪い知らせ。天井工事のために水曜に吸音パネルを外すので、その週はまるまる使えないの。\nフェリックス(男性):水曜? ロザリンド、ゲストは水曜の朝に到着するんだ。彼女がこの街にいるのはその1日だけだよ。\nジュンコ(女性2):スタジオ1にお入れできますよ。必要以上に広いですけど、正午以降なら空いています。\nフェリックス:広さは問題じゃない。あれは搬入口の上の部屋じゃないか? 前にあそこで録ったとき、配送トラックの音が全部テープに入ってしまった。\nジュンコ:それはスタジオ3です。1は建物の静かな側にあります。難点は卓の方で、古い方のコンソールなのでマルチトラックがありません。\nフェリックス:普通のインタビューならそれで構わない。ジュンコ、12時から3時で押さえてもらえる?",
     questions: [
       {
         q: "Why is Studio Two unavailable?",
@@ -340,15 +340,15 @@ window.TOEIC_DATA_7.part3 = [
     title: "会話 8(図表問題)",
     graphic: "Riverbend Plant — Utility Costs, Second Quarter\n1. Electricity — $41,200\n2. Natural gas — $18,600\n3. Water and sewer — $9,400\n4. Compressed air (leased units) — $6,800\nTotal — $76,000",
     audio: [
-      { speaker: "W", text: "I've been through the second-quarter numbers. Before you ask — no, I'm not going to tell you to change the lighting. Your predecessor did that two years ago and there's nothing left in it." },
-      { speaker: "M", text: "Good, because that's what everyone suggests first. What I need is one line we can actually move before the winter rates start." },
-      { speaker: "W", text: "The biggest one is the presses and the drying ovens. You can't cut that without cutting output. The second biggest is heating, and the roof insulation is already in next year's budget, so it's spoken for." },
-      { speaker: "M", text: "Then we're down to the small ones. The cooling tower? We priced out recirculating — about eight months to pay back." },
-      { speaker: "W", text: "That's the one I'd leave alone for now. The line under it is where I'd start. You're renting those units by the month at a rate that was set for a six-week trial three years ago. Buying them outright pays for itself in five months." },
-      { speaker: "M", text: "Three years. Nobody ever ended the trial. All right — I'll get quotes from two suppliers this week. What do you need from me?" },
-      { speaker: "W", text: "The nameplate data for each unit and your run hours. And the maintenance log, if you can find it." }
+      { speaker: "W", text: "I've been through the second-quarter numbers. And no, I'm not going to tell you to change the lighting — your predecessor did that two years ago." },
+      { speaker: "M", text: "Good. What I need is one line we can actually move before the winter rates start." },
+      { speaker: "W", text: "The biggest is the presses and the drying ovens; you can't cut that without cutting output. The second biggest is heating, and the roof insulation is already in next year's budget." },
+      { speaker: "M", text: "Then we're down to the small ones. The cooling tower?" },
+      { speaker: "W", text: "That's the one I'd leave alone. The line under it is where I'd start. You're renting those units by the month at a rate set for a six-week trial three years ago. Buying them outright pays for itself in five months." },
+      { speaker: "M", text: "Three years. All right — I'll get quotes from two suppliers this week." },
+      { speaker: "W", text: "The nameplate data for each unit, your run hours, and the maintenance log." }
     ],
-    translation: "【図表】リバーベンド工場 第2四半期 光熱費/1. 電気 41,200ドル/2. 都市ガス 18,600ドル/3. 上下水道 9,400ドル/4. 圧縮空気(リース機) 6,800ドル/合計 76,000ドル\n女性:第2四半期の数字に目を通しました。先に言っておくと、照明を変えろとは申しません。前任の方が2年前にやっていて、もう絞れる余地はありません。\n男性:助かります、みんな最初にそれを言うので。私が欲しいのは、冬の料金が始まる前に実際に動かせる項目1つです。\n女性:一番大きい項目はプレス機と乾燥炉です。これは生産量を落とさずには減らせません。2番目に大きいのは暖房ですが、屋根の断熱工事は来年度予算にもう入っているので手当て済みです。\n男性:となると残りは小さい方ですね。冷却塔ですか? 循環方式を見積もったところ、回収に8か月ほどでした。\n女性:それは今は置いておきます。私が手を付けるのはその下の行です。あの機器を月単位で借りていますが、その料率は3年前の6週間の試験導入向けに設定されたものです。買い取れば5か月で元が取れます。\n男性:3年ですか。誰も試験導入を終わらせなかったわけだ。分かりました——今週、2社から見積もりを取ります。こちらから何を出せばいいですか?\n女性:各機の銘板データと稼働時間です。それと、見つかれば保守記録も。",
+    translation: "【図表】リバーベンド工場 第2四半期 光熱費/1. 電気 41,200ドル/2. 都市ガス 18,600ドル/3. 上下水道 9,400ドル/4. 圧縮空気(リース機) 6,800ドル/合計 76,000ドル\n女性:第2四半期の数字に目を通しました。それと、照明を変えろとは申しません——前任の方が2年前にやっていますから。\n男性:助かります。私が欲しいのは、冬の料金が始まる前に実際に動かせる項目1つです。\n女性:一番大きいのはプレス機と乾燥炉。これは生産量を落とさずには減らせません。2番目に大きいのは暖房ですが、屋根の断熱工事は来年度予算にもう入っています。\n男性:となると残りは小さい方ですね。冷却塔ですか?\n女性:それは置いておきます。私が手を付けるのはその下の行です。あの機器を月単位で借りていますが、その料率は3年前の6週間の試験導入向けに設定されたものです。買い取れば5か月で元が取れます。\n男性:3年ですか。分かりました——今週、2社から見積もりを取ります。\n女性:各機の銘板データ、稼働時間、それと保守記録をお願いします。",
     questions: [
       {
         q: "Look at the graphic. Which cost does the woman recommend addressing first?",
@@ -434,13 +434,13 @@ window.TOEIC_DATA_7.part3 = [
     title: "会話 10",
     audio: [
       { speaker: "M", text: "Hello, this is Errol Vance at Tamsin Instruments. We sent over the installation manual for translation last Monday — four languages." },
-      { speaker: "W", text: "Yes, I have the job open in front of me. Two of them went out to linguists the same day. German and Korean are still sitting with our terminology team, so nothing has been translated on those yet." },
-      { speaker: "M", text: "That's actually why I'm calling. We've had a late engineering change. Section six — the wiring diagram callouts — has been renumbered. Should I resend the whole document?" },
+      { speaker: "W", text: "Yes, I have the job open. Two of them went out to linguists the same day. German and Korean are still sitting with our terminology team, so nothing has been translated on those yet." },
+      { speaker: "M", text: "That's why I'm calling. We've had a late engineering change — section six, the wiring diagram callouts, has been renumbered. Should I resend the whole document?" },
       { speaker: "W", text: "Please don't. Send only the changed section with the revision marks left visible. If you replace the full file, we lose the segments already translated, and you'd be billed for them a second time." },
       { speaker: "M", text: "Understood. And does this push the delivery date?" },
-      { speaker: "W", text: "For the two already in progress, yes — about two days. The other pair hasn't started, so they'll absorb it. I'll send an updated schedule once I hear back from the linguists." }
+      { speaker: "W", text: "For the two already in progress, about two days. The other pair hasn't started, so they'll absorb it. I'll send an updated schedule." }
     ],
-    translation: "男性:もしもし、タムシン計器のエロール・ヴァンスです。先週の月曜に据付マニュアルを翻訳に出しました。4言語です。\n女性:はい、今その案件を開いています。うち2言語は同じ日に翻訳者へ回しました。ドイツ語と韓国語はまだ用語チームの手元にあるので、その2つはまだ何も訳されていません。\n男性:実はそれでお電話したんです。設計変更が遅れて入りました。第6章——配線図の引き出し番号——が振り直されたんです。文書全体を送り直した方がいいですか?\n女性:それはおやめください。変更箇所の章だけを、変更履歴を表示したまま送ってください。ファイル全体を差し替えると、すでに訳した分のセグメントが失われて、その分をもう一度ご請求することになります。\n男性:分かりました。これで納期は延びますか?\n女性:すでに進行中の2言語は、はい、2日ほど。もう2言語は未着手なので、その中で吸収できます。翻訳者から返事が来次第、更新した予定表をお送りします。",
+    translation: "男性:もしもし、タムシン計器のエロール・ヴァンスです。先週の月曜に据付マニュアルを翻訳に出しました。4言語です。\n女性:はい、今その案件を開いています。うち2言語は同じ日に翻訳者へ回しました。ドイツ語と韓国語はまだ用語チームの手元にあるので、その2つはまだ何も訳されていません。\n男性:それでお電話したんです。設計変更が遅れて入りました——第6章、配線図の引き出し番号が振り直されました。文書全体を送り直した方がいいですか?\n女性:それはおやめください。変更箇所の章だけを、変更履歴を表示したまま送ってください。ファイル全体を差し替えると、すでに訳した分のセグメントが失われて、その分をもう一度ご請求することになります。\n男性:分かりました。これで納期は延びますか?\n女性:すでに進行中の2言語は2日ほど。もう2言語は未着手なので、その中で吸収できます。更新した予定表をお送りします。",
     questions: [
       {
         q: "What does the woman say about the German and Korean versions?",
@@ -481,15 +481,15 @@ window.TOEIC_DATA_7.part3 = [
     id: "s7p3-11",
     title: "会話 11",
     audio: [
-      { speaker: "M", text: "Ms. Hollins, thanks for making time. I understand there have been complaints about the deliveries at two of your locations." },
-      { speaker: "W", text: "Complaints is a strong word. What happened is that your driver started arriving at eleven instead of seven. At seven the kitchen is empty and there's floor space to stack the bins. At eleven we're in the middle of prep, and there's nowhere to put them except the corridor — which the health inspector will not love." },
-      { speaker: "M", text: "That's the route change from March. We consolidated three runs into two after we lost a driver." },
-      { speaker: "W", text: "I assumed it was something like that, and I'm not asking you to hire anyone. Could you just reverse the order? Do us first and the office buildings afterward. They can't possibly care when theirs turns up." },
-      { speaker: "M", text: "They actually do — their loading docks only open on a keycard window. But there's a third run that starts north of you. If I move your two sites onto that one, you'd be looking at six forty-five." },
+      { speaker: "M", text: "Ms. Hollins, thanks for making time. I understand there have been complaints about deliveries at two of your locations." },
+      { speaker: "W", text: "Complaints is a strong word. Your driver started arriving at eleven instead of seven. At seven the kitchen is empty; at eleven we're mid-prep, with nowhere to put the bins except the corridor." },
+      { speaker: "M", text: "That's the March route change. We consolidated three runs into two after we lost a driver." },
+      { speaker: "W", text: "I assumed so, and I'm not asking you to hire anyone. Could you reverse the order? Do us first, the office buildings afterward." },
+      { speaker: "M", text: "They actually do care — their docks only open on a keycard window. But there's a third run that starts north of you. If I move your two sites onto that one, you'd be looking at six forty-five." },
       { speaker: "W", text: "That would solve it completely. When could it start?" },
-      { speaker: "M", text: "Routing is locked a week ahead, so the Monday after next." }
+      { speaker: "M", text: "Routing is locked a week ahead — the Monday after next." }
     ],
-    translation: "男性:ホリンズさん、お時間ありがとうございます。御社の2店舗で配送について苦情が出ていると伺いました。\n女性:苦情というのは言い過ぎです。起きたのは、御社のドライバーが7時ではなく11時に来るようになったということです。7時なら厨房は空で、コンテナを積む床の余裕があります。11時だと仕込みの真っ最中で、廊下以外に置く場所がない——衛生監督官が黙っていませんよ。\n男性:3月のルート変更ですね。ドライバーが1人辞めたので、3便を2便に統合したんです。\n女性:そんなところだろうと思っていました。人を雇えとは申しません。順番を逆にできませんか? 先にうちを回って、オフィスビルは後で。あちらは何時に届こうと気にしないでしょう。\n男性:それが気にするんです。あちらの搬入口はカードキーで開く時間帯が決まっていて。ただ、御社より北から始まる3本目の便があります。御社の2拠点をそちらに移せば、6時45分ごろになります。\n女性:それなら完全に解決します。いつから始められますか?\n男性:配車は1週間前に確定するので、再来週の月曜からです。",
+    translation: "男性:ホリンズさん、お時間ありがとうございます。御社の2店舗で配送について苦情が出ていると伺いました。\n女性:苦情というのは言い過ぎです。御社のドライバーが7時ではなく11時に来るようになったんです。7時なら厨房は空です。11時だと仕込みの真っ最中で、廊下以外にコンテナを置く場所がありません。\n男性:3月のルート変更ですね。ドライバーが1人辞めたので、3便を2便に統合したんです。\n女性:そんなところだろうと思っていました。人を雇えとは申しません。順番を逆にできませんか? 先にうちを回って、オフィスビルは後で。\n男性:あちらも気にするんです——搬入口はカードキーで開く時間帯が決まっていて。ただ、御社より北から始まる3本目の便があります。御社の2拠点をそちらに移せば、6時45分ごろになります。\n女性:それなら完全に解決します。いつから始められますか?\n男性:配車は1週間前に確定するので、再来週の月曜からです。",
     questions: [
       {
         q: "What problem does the woman describe?",
@@ -531,15 +531,15 @@ window.TOEIC_DATA_7.part3 = [
     title: "会話 12",
     audio: [
       { speaker: "M", text: "Thanks for fitting me in. We're launching the new line in September, and I'd like the name protected before then." },
-      { speaker: "W", text: "Let's see what we're working with. Harrowgate, for kitchen textiles, you said. The search came back clean in that class. There is an existing registration for the same word, but it's for garden tools." },
+      { speaker: "W", text: "Harrowgate, for kitchen textiles. The search came back clean in that class. There is an existing registration for the same word, but it's for garden tools." },
       { speaker: "M", text: "Doesn't that block us?" },
-      { speaker: "W", text: "Not ordinarily. Protection is granted class by class, and no shopper is going to confuse a trowel with a tea towel. What does concern me is that you've been selling under that name since May with no notice on the packaging." },
+      { speaker: "W", text: "Not ordinarily — protection is granted class by class. What does concern me is that you've been selling under that name since May with no notice on the packaging." },
       { speaker: "M", text: "Is that a problem?" },
-      { speaker: "W", text: "It doesn't invalidate anything. It just means that if someone copies you between now and registration, your remedies are thinner. Put the TM symbol on everything as of this week — you don't need our permission for that, and it costs you nothing." },
+      { speaker: "W", text: "It doesn't invalidate anything. It just means that if someone copies you before registration, your remedies are thinner. Put the TM symbol on everything as of this week — it costs you nothing." },
       { speaker: "M", text: "Done. And how long does the filing itself take?" },
       { speaker: "W", text: "Eight to twelve months to a decision. But your rights run from the filing date, not from the decision." }
     ],
-    translation: "男性:急な予約を入れていただきありがとうございます。9月に新ラインを発売するので、それまでに名称を保護しておきたいんです。\n女性:状況を確認しましょう。ハロウゲート、キッチン用ファブリック向け、でしたね。その区分では検索結果に問題はありませんでした。同じ語の既存登録はありますが、そちらは園芸用具です。\n男性:それがこちらの妨げにはならないんですか?\n女性:通常はなりません。保護は区分ごとに与えられますし、移植ごてとふきんを取り違える買い物客はいません。私が気にしているのは、5月からその名称で販売しているのに、パッケージに何の表示もないことです。\n男性:それは問題ですか?\n女性:何かが無効になるわけではありません。ただ、今から登録までの間に誰かに模倣された場合、取れる救済手段が薄くなるということです。今週中に全商品にTMの表示を入れてください。それに当方の許可は不要ですし、費用もかかりません。\n男性:やっておきます。それで、出願自体はどのくらいかかりますか?\n女性:結論が出るまで8〜12か月です。ただ、権利は結論の日ではなく出願日から起算されます。",
+    translation: "男性:急な予約を入れていただきありがとうございます。9月に新ラインを発売するので、それまでに名称を保護しておきたいんです。\n女性:ハロウゲート、キッチン用ファブリック向けですね。その区分では検索結果に問題はありませんでした。同じ語の既存登録はありますが、そちらは園芸用具です。\n男性:それがこちらの妨げにはならないんですか?\n女性:通常はなりません——保護は区分ごとに与えられますから。私が気にしているのは、5月からその名称で販売しているのに、パッケージに何の表示もないことです。\n男性:それは問題ですか?\n女性:何かが無効になるわけではありません。ただ、登録までの間に誰かに模倣された場合、取れる救済手段が薄くなるということです。今週中に全商品にTMの表示を入れてください。費用はかかりません。\n男性:やっておきます。それで、出願自体はどのくらいかかりますか?\n女性:結論が出るまで8〜12か月です。ただ、権利は結論の日ではなく出願日から起算されます。",
     questions: [
       {
         q: "What does the woman say about the existing registration?",
@@ -584,12 +584,12 @@ window.TOEIC_DATA_7.part3 = [
       { speaker: "M", text: "Right — although I was told Thursday, not today." },
       { speaker: "W", text: "The schedule moved up. If today is bad I can come back, but the next opening I have is the week after that; Thursday is fully booked now." },
       { speaker: "M", text: "No, go ahead and do it. How long is each lane down?" },
-      { speaker: "W", text: "About fifteen minutes, and I can only do one at a time — the network has to re-register each terminal separately. Four lanes, so call it an hour and a bit." },
+      { speaker: "W", text: "About fifteen minutes each, and one at a time. Four lanes, so call it an hour." },
       { speaker: "M", text: "Then start with lanes three and four. The lunch rush is twelve to two, and we push everything through one and two during it." },
-      { speaker: "W", text: "That works. One thing you should know: the new readers take contactless cards, but they won't read the paper vouchers your loyalty program still uses. Corporate said they'd send a notice out — did you get one?" },
-      { speaker: "M", text: "Nothing at all. I'll check with the district office. If they haven't announced it, I'm not switching these on before Saturday." }
+      { speaker: "W", text: "One thing you should know: the new readers won't read the paper vouchers your loyalty program still uses. Corporate said they'd send a notice out — did you get one?" },
+      { speaker: "M", text: "Nothing at all. I'll check with the district office." }
     ],
-    translation: "女性:レイエスさんですか? ノースライン・ペイメンツのタンヴィです。カードリーダーの交換に伺いました。\n男性:ええ——ただ、今日ではなく木曜だと聞いていましたが。\n女性:予定が前倒しになりました。今日が都合悪ければ出直せますが、次に空いているのはその翌週です。木曜はもう埋まってしまいました。\n男性:いえ、やってください。1レーンあたりどのくらい止まりますか?\n女性:15分ほどで、1台ずつしかできません。ネットワークが端末を1台ずつ登録し直す必要があるので。4レーンなので、1時間ちょっとと見てください。\n男性:では3番と4番から始めてください。昼の混雑は12時から2時で、その間は全部1番と2番に流すので。\n女性:承知しました。1点お伝えしておくと、新しいリーダーは非接触カードには対応しますが、御社のポイントプログラムで今も使っている紙のクーポン券は読み取れません。本部から通知を出すと言っていましたが、届いていますか?\n男性:まったく届いていません。地区事務所に確認します。告知が出ていないなら、土曜より前にこれを稼働させるつもりはありません。",
+    translation: "女性:レイエスさんですか? ノースライン・ペイメンツのタンヴィです。カードリーダーの交換に伺いました。\n男性:ええ——ただ、今日ではなく木曜だと聞いていましたが。\n女性:予定が前倒しになりました。今日が都合悪ければ出直せますが、次に空いているのはその翌週です。木曜はもう埋まってしまいました。\n男性:いえ、やってください。1レーンあたりどのくらい止まりますか?\n女性:15分ほどで、1台ずつです。4レーンなので、1時間と見てください。\n男性:では3番と4番から始めてください。昼の混雑は12時から2時で、その間は全部1番と2番に流すので。\n女性:1点お伝えしておくと、新しいリーダーは、御社のポイントプログラムで今も使っている紙のクーポン券を読み取れません。本部から通知を出すと言っていましたが、届いていますか?\n男性:まったく届いていません。地区事務所に確認します。",
     questions: [
       {
         q: "What does the woman say about rescheduling?",
