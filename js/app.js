@@ -112,6 +112,30 @@
   function activeData() { return SETS[activeSetIdx].data; }
   function statKey(mode) { return SETS[activeSetIdx].id + ":" + mode; }
 
+  /* ---------------- 解き方の設定 ----------------
+     「1問ずつ答え合わせ」か「本番と同じ(最後にまとめて)」かを選べるようにする。
+     既定は1問ずつ。学習用途では答えをすぐ見られるほうが定着しやすく、
+     解いてから結果画面までたどり着かないと答えが分からないのは不便なため。
+     ただし模試(リスニング模試・リーディング模試・4分の1模試)は本番の練習なので、
+     この設定にかかわらず必ず最後にまとめて採点する。 */
+
+  var INSTANT_KEY = "toeic_instant_v1";
+
+  function instantPref() {
+    try { return localStorage.getItem(INSTANT_KEY) !== "0"; } catch (e) { return true; }
+  }
+  function setInstantPref(on) {
+    try { localStorage.setItem(INSTANT_KEY, on ? "1" : "0"); } catch (e) { /* ignore */ }
+  }
+  // 模試は常に「まとめて採点」
+  function isMockMode(mode) {
+    return mode === "listening" || mode === "reading" || mode === "mock";
+  }
+  // いま解いている出題で、1問ずつ答え合わせをするか
+  function instantNow() {
+    return !!(session && !isMockMode(session.mode) && instantPref());
+  }
+
   /* ---------------- モード定義 ---------------- */
 
   var MODES = {
@@ -565,6 +589,18 @@
       '<section class="menu-section">' +
       setSwitchHtml +
       resumeHtml +
+      // 解き方の切り替え。模試には影響しないことを添えて誤解を防ぐ
+      '<div class="mode-switch">' +
+      '<span class="mode-switch-label">解き方</span>' +
+      '<div class="mode-tabs">' +
+      '<button class="mode-tab' + (instantPref() ? " active" : "") + '" data-instant="1">1問ずつ答え合わせ</button>' +
+      '<button class="mode-tab' + (instantPref() ? "" : " active") + '" data-instant="0">本番と同じ</button>' +
+      "</div></div>" +
+      '<p class="mode-note">' +
+      (instantPref()
+        ? "選択するとその場で正誤と解説が出ます。"
+        : "解き終えるまで正誤は出ません。結果画面でまとめて確認します。") +
+      "(模試は設定にかかわらず、最後にまとめて採点します)</p>" +
       "<h2>模試に挑戦</h2>" +
       '<div class="menu-grid">' + card("listening", "mock") + card("reading", "mock") +
       card("mock", "mock") + "</div>" +
@@ -588,6 +624,13 @@
         : "") +
       '<p class="history-note">成績はこの端末のブラウザにのみ保存されます。</p>' +
       "</section>";
+
+    app.querySelectorAll(".mode-tab").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        setInstantPref(btn.getAttribute("data-instant") === "1");
+        showHome();
+      });
+    });
 
     app.querySelectorAll(".menu-card[data-mode]").forEach(function (btn) {
       btn.addEventListener("click", function () { startQuiz(btn.getAttribute("data-mode")); });
@@ -994,7 +1037,8 @@
           '" data-qi="' + qi + '" data-ci="' + ci + '">' +
           '<span class="choice-letter">' + LETTERS[ci] + ".</span><span>" + esc(label) + "</span></button>";
       });
-      html += "</div></div>";
+      // 1問ずつ答え合わせのときは、ここに正誤と解説を差し込む(解答するまで空)
+      html += "</div><div class=\"answer-slot\"></div></div>";
     });
 
     html += '<div class="nav-row">' +
@@ -1066,11 +1110,58 @@
       }
     }
 
-    // 選択肢は「印を付けるだけ」。正誤も解説もここでは出さない(本番と同じ)。
+    /* 1問ずつ答え合わせ:選んだ瞬間に正誤・正解・解説を出し、その設問は解答済みにする。
+       Part 1/2 は選択肢が「(音声)」で伏せてあるので、答え合わせのときに実際の英文に差し替える
+       (紙の問題集で、解いたあとにスクリプトを見るのと同じ扱い)。 */
+    function revealAnswer(qi) {
+      var q = t.questions[qi];
+      var block = app.querySelector('.q-block[data-qi="' + qi + '"]');
+      var sel = myAnswers[qi];
+      var ok = sel === q.answer;
+      block.querySelectorAll(".choice-btn").forEach(function (b) {
+        var ci = parseInt(b.getAttribute("data-ci"), 10);
+        if (t.hideChoices) b.lastChild.textContent = q.choices[ci];   // 伏せていた本文を出す
+        // 選択中の青は外す。正解の緑・誤答の赤を隠してしまうため
+        b.classList.remove("selected");
+        if (ci === q.answer) b.classList.add("correct");
+        if (ci === sel && !ok) b.classList.add("wrong");
+        b.disabled = true;
+      });
+      var slot = block.querySelector(".answer-slot");
+      if (!slot) return;
+      slot.innerHTML =
+        '<div class="feedback ' + (ok ? "ok" : "ng") + '">' +
+        '<div class="verdict">' + (ok ? "正解" : "不正解 — 正解は " + LETTERS[q.answer]) + "</div>" +
+        "<div>" + esc(q.explanation) + "</div>" +
+        (q.translation
+          ? '<details class="script-box"><summary>訳を見る</summary><div class="script-body">' +
+            esc(q.translation) + "</div></details>"
+          : "") +
+        "</div>";
+    }
+
+    var instant = instantNow();
+
+    // 前に戻ったときなど、すでに解答済みの設問は答え合わせの状態で描き直す
+    if (instant) {
+      t.questions.forEach(function (q, qi) {
+        if (myAnswers[qi] !== null && myAnswers[qi] !== undefined) revealAnswer(qi);
+      });
+    }
+
     app.querySelectorAll(".choice-btn").forEach(function (btn) {
       btn.addEventListener("click", function () {
         var qi = parseInt(btn.getAttribute("data-qi"), 10);
         var ci = parseInt(btn.getAttribute("data-ci"), 10);
+        if (instant) {
+          if (myAnswers[qi] !== null && myAnswers[qi] !== undefined) return;  // 解答済みは変更しない
+          myAnswers[qi] = ci;
+          btn.classList.add("selected");
+          revealAnswer(qi);
+          saveProgress();
+          return;
+        }
+        // 本番と同じ進め方:印を付けるだけで、正誤も解説もここでは出さない
         myAnswers[qi] = (myAnswers[qi] === ci) ? null : ci;   // もう一度押すと取り消し
         var block = app.querySelector('.q-block[data-qi="' + qi + '"]');
         block.querySelectorAll(".choice-btn").forEach(function (b) {

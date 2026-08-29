@@ -156,6 +156,31 @@ body.has-audio #soundNote { display: block; }
   .set-tab { padding: 8px 14px; }
 }
 
+/* ===== 解き方の切り替え(1問ずつ / 本番と同じ) ===== */
+.mode-switch {
+  display: flex; align-items: center; gap: 10px;
+  margin: 14px 0 4px;
+}
+.mode-switch-label { font-size: 0.82rem; color: var(--muted); flex: none; white-space: nowrap; }
+.mode-tabs {
+  display: flex; flex: 1 1 auto; min-width: 0;
+  border: 1px solid var(--border); border-radius: 99px; overflow: hidden;
+}
+.mode-tab {
+  flex: 1 1 50%; white-space: nowrap;
+  border: none; background: #fff; color: var(--primary);
+  padding: 8px 10px; font: inherit; font-size: 0.85rem; cursor: pointer;
+}
+.mode-tab.active { background: var(--primary); color: #fff; font-weight: 700; }
+.mode-note { margin: 0 0 12px; font-size: 0.76rem; color: var(--muted); line-height: 1.6; }
+@media (max-width: 560px) {
+  .mode-switch { flex-direction: column; align-items: stretch; gap: 4px; }
+}
+
+/* 1問ずつ答え合わせのときに、設問の下へ差し込む正誤と解説 */
+.answer-slot:empty { display: none; }
+.answer-slot .feedback { margin-top: 8px; }
+
 .menu-section h2 {
   font-size: 1.05rem;
   margin: 20px 0 10px;
@@ -297,7 +322,8 @@ body.has-audio #soundNote { display: block; }
   .choice-btn:hover:not(:disabled):not(.selected) { border-color: var(--primary); background: #f4f8fd; }
 }
 .choice-btn { -webkit-tap-highlight-color: transparent; }
-.choice-btn:disabled { cursor: default; }
+/* 答え合わせ後は押せなくなるが、読むための文字なので薄くしない */
+.choice-btn:disabled { cursor: default; opacity: 1; color: var(--text); }
 .choice-letter { font-weight: 700; color: var(--primary); flex-shrink: 0; }
 .choice-btn.correct { border-color: var(--correct); background: #eafaf1; }
 .choice-btn.wrong { border-color: var(--wrong); background: #fdeef0; }
