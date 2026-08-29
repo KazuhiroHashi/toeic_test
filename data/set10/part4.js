@@ -8,10 +8,10 @@ window.TOEIC_DATA_10.part4 = [
     "audio": [
       {
         "speaker": "W",
-        "text": "Good morning, Mr. Okonjo. This is Delia Marsh from Kestrel Language Services, following up on the product manual you sent over for translation. I've had a look at the file, and there's one thing I'd like to settle before anyone starts working on it. About a third of the document repeats wording from the manual we handled for you two years ago. Rather than charge you the full rate for those sections, we'll reuse what we already have and bill them at half the usual rate — so the figure I sent you yesterday is going to come down. The one thing I do need from you is your approved list of product names in Spanish. Without it, our translators will decide for themselves, and you'll end up correcting all of them later. Could you send that over by Thursday? If no such list exists yet, just say so and I'll have someone put one together at our end."
+        "text": "Good morning, Mr. Okonjo. This is Delia Marsh from Kestrel Language Services, following up on the product manual you sent over for translation. I've had a look at the file, and there's one thing I'd like to settle before anyone starts working on it. About a third of the document repeats wording from the manual we handled for you two years ago. We'll reuse what we already have and bill those sections at half the usual rate — so the figure I sent you yesterday is going to come down. The one thing I do need from you is your approved list of product names in Spanish. Without it, our translators will decide for themselves, and you'll end up correcting all of them later. Could you send that over by Thursday?"
       }
     ],
-    "translation": "おはようございます、オコンジョ様。ケストレル・ランゲージ・サービスのデリア・マーシュです。翻訳のためにお送りいただいた製品マニュアルの件でご連絡しました。ファイルを拝見しましたが、作業を始める前に片付けておきたい点が一つあります。文書の約3分の1が、2年前に当社が担当したマニュアルの文言の繰り返しなのです。その部分に通常料金を頂戴するのではなく、既にある訳文を再利用し、通常の半額で請求いたします。ですから、昨日お送りした金額は下がることになります。一つだけお願いしたいのは、スペイン語の製品名の確定リストです。これがないと、翻訳者が各自で判断してしまい、後でお客様が全部直す羽目になります。木曜日までにお送りいただけますか。まだそうしたリストがないようでしたら、その旨お知らせください。こちらで作成させます。",
+    "translation": "おはようございます、オコンジョ様。ケストレル・ランゲージ・サービスのデリア・マーシュです。翻訳のためにお送りいただいた製品マニュアルの件でご連絡しました。ファイルを拝見しましたが、作業を始める前に片付けておきたい点が一つあります。文書の約3分の1が、2年前に当社が担当したマニュアルの文言の繰り返しなのです。既にある訳文を再利用し、その部分は通常の半額で請求いたします。ですから、昨日お送りした金額は下がることになります。一つだけお願いしたいのは、スペイン語の製品名の確定リストです。これがないと、翻訳者が各自で判断してしまい、後でお客様が全部直す羽目になります。木曜日までにお送りいただけますか。",
     "questions": [
       {
         "q": "Why is the speaker calling?",
@@ -102,10 +102,10 @@ window.TOEIC_DATA_10.part4 = [
     "audio": [
       {
         "speaker": "W",
-        "text": "Is your back office slowly turning into a filing room? At Ironvault, we take the paperwork off your hands. We collect your boxes, log every one of them so that anything inside can be located in seconds through our online index, and store them in a climate-controlled facility outside the city. Need something back? Ask before noon and the physical box is on your desk the following morning — but if a scan will do, you'll have it within the hour. And once material reaches the end of its retention period, we destroy it securely and issue a certificate for your auditors. Most of our clients say the same thing afterward: they hadn't realized how much floor space they were paying rent on until they got it back. Call for a free assessment and we'll tell you exactly how many boxes you're sitting on. Ironvault — out of your way, still within reach."
+        "text": "Is your back office slowly turning into a filing room? At Ironvault, we take the paperwork off your hands. We collect your boxes, log every one of them so that anything inside can be located in seconds through our online index, and store them in a climate-controlled facility outside the city. Need something back? Ask before noon and the physical box is on your desk the following morning — but if a scan will do, you'll have it within the hour. And once material reaches the end of its retention period, we destroy it securely and issue a certificate for your auditors. Most of our clients say the same thing afterward: they hadn't realized how much floor space they were paying rent on until they got it back. Ironvault — out of your way, still within reach."
       }
     ],
-    "translation": "事務所の奥がだんだん書類倉庫になっていませんか。アイアンボールトなら、書類をまるごとお預かりします。箱を回収し、一箱ずつ登録しますので、中身は当社のオンライン目録から数秒で見つかります。保管は市外の空調管理された施設です。取り出しが必要ですか。正午までにご依頼いただければ、現物の箱は翌朝にはお手元に届きます。スキャンで足りるなら、1時間以内にお渡しします。保存期間が終了したものは、確実に廃棄したうえで、監査用の証明書を発行します。ご利用後、多くのお客様が同じことをおっしゃいます。取り戻すまで、どれだけの床面積に賃料を払っていたか気づかなかった、と。無料診断をご依頼いただければ、お手元に何箱あるかを正確にお伝えします。アイアンボールト——邪魔にならず、手の届くところに。",
+    "translation": "事務所の奥がだんだん書類倉庫になっていませんか。アイアンボールトなら、書類をまるごとお預かりします。箱を回収し、一箱ずつ登録しますので、中身は当社のオンライン目録から数秒で見つかります。保管は市外の空調管理された施設です。取り出しが必要ですか。正午までにご依頼いただければ、現物の箱は翌朝にはお手元に届きます。スキャンで足りるなら、1時間以内にお渡しします。保存期間が終了したものは、確実に廃棄したうえで、監査用の証明書を発行します。ご利用後、多くのお客様が同じことをおっしゃいます。取り戻すまで、どれだけの床面積に賃料を払っていたか気づかなかった、と。アイアンボールト——邪魔にならず、手の届くところに。",
     "questions": [
       {
         "q": "What type of business is being advertised?",
@@ -292,10 +292,10 @@ window.TOEIC_DATA_10.part4 = [
     "audio": [
       {
         "speaker": "M",
-        "text": "Hello, Ms. Rutledge. It's Owen Baptiste at Thornfield Systems, calling about the platform upgrade we talked about last month. We're ready to move your account to version nine, and what I need from you is a window. The upgrade itself takes about two hours, and while it's running nobody at your company will be able to sign in, which is why most clients pick a Saturday. Now, one thing I should flag. The custom approval workflow your team built last year won't carry across on its own. My colleague can rebuild it, but she'd need roughly a week's notice, and it has to happen before we upgrade, not afterward. So if you want us to handle it, tell me soon. If your own team would rather set it up again themselves, that's perfectly fine — it isn't difficult, just time-consuming. Call me back on extension four one two once you've decided."
+        "text": "Hello, Ms. Rutledge. It's Owen Baptiste at Thornfield Systems, calling about the platform upgrade we talked about last month. We're ready to move your account to version nine, and what I need from you is a window. The upgrade itself takes about two hours, and while it's running nobody at your company will be able to sign in, which is why most clients pick a Saturday. Now, one thing I should flag. The custom approval workflow your team built last year won't carry across on its own. My colleague can rebuild it, but she'd need roughly a week's notice, and it has to happen before we upgrade, not afterward. So if you want us to handle it, tell me soon. If your own team would rather set it up again themselves, that's perfectly fine."
       }
     ],
-    "translation": "もしもし、ラトリッジ様。ソーンフィールド・システムズのオーウェン・バティストです。先月ご相談したプラットフォームのアップグレードの件でお電話しました。お客様のアカウントをバージョン9へ移行する準備が整いましたので、実施の時間帯を決めていただきたいのです。アップグレード自体は約2時間かかり、その間は御社の誰もサインインできなくなります。そのため、多くのお客様は土曜日を選ばれます。それから、お伝えしておくべき点が一つ。昨年御社のチームが構築された独自の承認ワークフローは、そのままでは引き継がれません。当社の担当者が作り直すことは可能ですが、1週間ほど前もってご連絡いただく必要があり、しかも作業はアップグレードの後ではなく前に行わなければなりません。ですので、当社に任せたい場合は早めにお知らせください。御社のチームでもう一度設定される方がよければ、それでも全く問題ありません。難しくはなく、ただ手間がかかるだけです。お決まりになりましたら、内線412までお電話ください。",
+    "translation": "もしもし、ラトリッジ様。ソーンフィールド・システムズのオーウェン・バティストです。先月ご相談したプラットフォームのアップグレードの件でお電話しました。お客様のアカウントをバージョン9へ移行する準備が整いましたので、実施の時間帯を決めていただきたいのです。アップグレード自体は約2時間かかり、その間は御社の誰もサインインできなくなります。そのため、多くのお客様は土曜日を選ばれます。それから、お伝えしておくべき点が一つ。昨年御社のチームが構築された独自の承認ワークフローは、そのままでは引き継がれません。当社の担当者が作り直すことは可能ですが、1週間ほど前もってご連絡いただく必要があり、しかも作業はアップグレードの後ではなく前に行わなければなりません。ですので、当社に任せたい場合は早めにお知らせください。御社のチームでもう一度設定される方がよければ、それでも全く問題ありません。",
     "questions": [
       {
         "q": "What is the speaker asking the listener to do?",
@@ -339,10 +339,10 @@ window.TOEIC_DATA_10.part4 = [
     "audio": [
       {
         "speaker": "W",
-        "text": "Welcome, everyone, to Halewood Arena. I'm Corinne, and I'll be showing you around for the next ninety minutes. One word about today before we set off. The playing surface is being relaid this week, so we can't take you down to field level as we normally would. In its place we've added the broadcast booth, which visitors don't usually get to see — I think you'll find that a fair exchange. Please stay together, and keep to the left in the corridors, as staff are working around us. You're welcome to take photographs anywhere except the home team's dressing room, where sponsors' materials are on display. We'll finish by coming out through the club shop, and your ticket entitles you to fifteen percent off anything you buy there today. If you'd like to sit down at any point, do say so — there are benches in the trophy room and we can pause there."
+        "text": "Welcome, everyone, to Halewood Arena. I'm Corinne, and I'll be showing you around for the next ninety minutes. One word about today before we set off. The playing surface is being relaid this week, so we can't take you down to field level as we normally would. In its place we've added the broadcast booth, which visitors don't usually get to see. Please stay together, and keep to the left in the corridors, as staff are working around us. You're welcome to take photographs anywhere except the home team's dressing room, where sponsors' materials are on display. We'll finish by coming out through the club shop, and your ticket entitles you to fifteen percent off anything you buy there today."
       }
     ],
-    "translation": "皆様、ヘイルウッド・アリーナへようこそ。案内役のコリンです。これから90分間ご案内します。出発の前に、本日についてひと言。今週はグラウンドの張り替え作業中のため、通常のようにフィールドレベルまでお連れすることができません。その代わりに、普段は見学者がご覧になれない放送ブースを行程に加えました。悪い交換ではないと思います。皆様一緒に行動し、通路では左側をお歩きください。スタッフが周囲で作業をしております。写真撮影はどこでもご自由ですが、ホームチームのロッカールームだけはご遠慮ください。スポンサー関連の物が展示されているためです。最後はクラブショップを通って出ます。本日のチケットで、そこでのお買い物が15パーセント引きになります。途中で腰を下ろしたくなったらお申し出ください。トロフィールームにベンチがありますので、そこで休憩できます。",
+    "translation": "皆様、ヘイルウッド・アリーナへようこそ。案内役のコリンです。これから90分間ご案内します。出発の前に、本日についてひと言。今週はグラウンドの張り替え作業中のため、通常のようにフィールドレベルまでお連れすることができません。その代わりに、普段は見学者がご覧になれない放送ブースを行程に加えました。皆様一緒に行動し、通路では左側をお歩きください。スタッフが周囲で作業をしております。写真撮影はどこでもご自由ですが、ホームチームのロッカールームだけはご遠慮ください。スポンサー関連の物が展示されているためです。最後はクラブショップを通って出ます。本日のチケットで、そこでのお買い物が15パーセント引きになります。",
     "questions": [
       {
         "q": "What does the speaker say about today's tour?",
@@ -435,10 +435,10 @@ window.TOEIC_DATA_10.part4 = [
     "audio": [
       {
         "speaker": "W",
-        "text": "Thank you all for turning out on a wet Thursday evening. We're here for Harold Vance, who leaves us at the end of this month after nineteen years as director of the Northshore Trades Association. When Harold took the post, this association had eighty member firms and one part-time employee — himself. Tonight we have more than six hundred members and a staff of fourteen. But numbers are not what people bring up when they talk about Harold. What they bring up is that he answered the phone. A member with twelve employees got exactly the same attention as a member with twelve hundred, and that reputation is the reason a great many of you are in this room. Harold asked us not to buy him anything, and we haven't. What the board has done instead is establish a grant in his name for apprentices at member companies, with the first two awards to be made in September. Harold, would you come up?"
+        "text": "Thank you all for turning out on a wet Thursday evening. We're here for Harold Vance, who leaves us at the end of this month after nineteen years as director of the Northshore Trades Association. When Harold took the post, this association had eighty member firms and one part-time employee — himself. Tonight we have more than six hundred members and a staff of fourteen. But numbers are not what people bring up when they talk about Harold. What they bring up is that he answered the phone. A member with twelve employees got exactly the same attention as a member with twelve hundred. Harold asked us not to buy him anything, and we haven't. What the board has done instead is establish a grant in his name for apprentices at member companies. Harold, would you come up?"
       }
     ],
-    "translation": "雨の木曜の夜にお集まりいただき、ありがとうございます。本日はハロルド・ヴァンスのための会です。ノースショア産業協会の理事を19年務め、今月末で退きます。ハロルドが就任したとき、この協会の会員企業は80社、職員はパートタイム1名——彼自身だけでした。今夜、会員は600社を超え、職員は14名です。しかし、人がハロルドについて語るとき、口にするのは数字ではありません。皆が口にするのは、彼が電話に出てくれた、ということです。従業員12名の会員も、1,200名の会員と全く同じように扱われました。その評判こそが、この会場にこれだけ多くの方がいらっしゃる理由です。ハロルドからは何も買わないでほしいと言われ、実際そうしませんでした。代わりに理事会が決めたのは、彼の名を冠した、会員企業の見習い技能者向け助成金の創設です。最初の2件は9月に授与されます。ハロルド、前へお越しいただけますか。",
+    "translation": "雨の木曜の夜にお集まりいただき、ありがとうございます。本日はハロルド・ヴァンスのための会です。ノースショア産業協会の理事を19年務め、今月末で退きます。ハロルドが就任したとき、この協会の会員企業は80社、職員はパートタイム1名——彼自身だけでした。今夜、会員は600社を超え、職員は14名です。しかし、人がハロルドについて語るとき、口にするのは数字ではありません。皆が口にするのは、彼が電話に出てくれた、ということです。従業員12名の会員も、1,200名の会員と全く同じように扱われました。ハロルドからは何も買わないでほしいと言われ、実際そうしませんでした。代わりに理事会が決めたのは、彼の名を冠した、会員企業の見習い技能者向け助成金の創設です。ハロルド、前へお越しいただけますか。",
     "questions": [
       {
         "q": "What is the purpose of the event?",
