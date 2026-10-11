@@ -3,6 +3,7 @@ www/
 node_modules/
 ios/
 android/
+build/
 
 # CI が書き出す配布用証明書(秘密鍵入り。絶対にコミットしない)
 certs/

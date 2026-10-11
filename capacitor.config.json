@@ -7,6 +7,9 @@
     "backgroundColor": "#ffffff",
     "limitsNavigationsToAppBoundDomains": true
   },
+  "android": {
+    "backgroundColor": "#ffffff"
+  },
   "server": {
     "iosScheme": "capacitor"
   }
