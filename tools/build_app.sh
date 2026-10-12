@@ -1,18 +1,29 @@
 #!/bin/bash
 # アプリに詰めるファイルだけを www/ に集める。
 #
-#   bash tools/build_app.sh
+#   bash tools/build_app.sh            … iOS 版(引数を省くと今までどおり ios)
+#   bash tools/build_app.sh android    … Android 版
 #
 # Web版(GitHub Pages)とアプリ版は同じソースを使う。
 # ここでは、アプリに要らないもの(tools/ や reviews/ や .git)を除いて
 # www/ を作り直すだけ。www/ は git には入れない(.gitignore 済み)。
+#
+# 中身は iOS と Android で同じ。違うのは app-build.js の platform だけで、
+# 画面の文言(App Store / Google Play)をそこで出し分ける。
 
 set -eu
 cd "$(dirname "$0")/.."
 
+# 引数なしは ios。既存の npm script と iOS のワークフローを変えずに済ませるため。
+PLATFORM="${1:-ios}"
+case "$PLATFORM" in
+  ios|android) ;;
+  *) echo "NG: 使い方は bash tools/build_app.sh [ios|android] です(指定: $PLATFORM)"; exit 1 ;;
+esac
+
 OUT=www
 
-echo "══ www/ を作り直します ══"
+echo "══ www/ を作り直します($PLATFORM 版) ══"
 rm -rf "$OUT"
 mkdir -p "$OUT"
 
@@ -23,19 +34,22 @@ cp index.html privacy.html "$OUT"/
 cp -R css js data assets "$OUT"/
 
 # アプリ版の目印。js/app.js がこれを見て、アプリ用の振る舞いに切り替える
-cat > "$OUT/app-build.js" <<'EOF'
+cat > "$OUT/app-build.js" <<EOF
 /* このファイルはアプリ版のビルドにだけ含まれる。
    Web版(GitHub Pages)には存在しないので、window.TOEIC_APP_BUILD は undefined になる。 */
 window.TOEIC_APP_BUILD = {
-  platform: "ios",
+  /* "ios" か "android"。購入まわりの文言(App Store / Google Play)を
+     js/app.js がこの値で出し分ける。買い切りの仕組み自体は共通。 */
+  platform: "$PLATFORM",
 
   /* 全セットを最初から開けるか。
      アプリ内課金で売るので false。購入の判定は js/iap.js が行う。
      買い切り(アプリ自体に値段を付ける)に変える場合は true にし、iap を消す。 */
   unlockAll: false,
 
-  /* アプリ内課金。App Store Connect で作る商品IDと必ず一致させること。
-     一致していないと購入画面が出ない。 */
+  /* アプリ内課金。App Store Connect / Google Play Console で作る商品IDと
+     必ず一致させること。一致していないと購入画面が出ない。
+     両ストアで同じIDを使う(Play のIDの規則にもこの文字列は収まっている)。 */
   iap: {
     productId: "com.bridgeaitokyo.toeic.unlockall"
   }
@@ -75,4 +89,4 @@ node tools/check_app_bundle.js
 
 echo ""
 echo "www/ の容量: $(du -sh "$OUT" | cut -f1)"
-echo "✓ できました。次は: npx cap sync ios"
+echo "✓ できました。次は: npx cap sync $PLATFORM"

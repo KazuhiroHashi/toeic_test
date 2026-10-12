@@ -5,11 +5,14 @@
   "description": "TOEIC(R) 総合問題集 — iOS アプリ版(Capacitor で既存の静的Webアプリを包む)",
   "scripts": {
     "build": "bash tools/build_app.sh",
-    "ios": "bash tools/build_app.sh && npx cap sync ios && npx cap open ios",
-    "sync": "bash tools/build_app.sh && npx cap sync ios"
+    "ios": "bash tools/build_app.sh ios && npx cap sync ios && npx cap open ios",
+    "sync": "bash tools/build_app.sh ios && npx cap sync ios",
+    "android": "bash tools/build_app.sh android && npx cap sync android && npx cap open android",
+    "sync:android": "bash tools/build_app.sh android && npx cap sync android"
   },
   "comment": "プラグインは課金(@capgo/native-purchases)だけ。StoreKit 2 を使う買い切り型の商品を1つ扱う。他は素のHTML/JS/音声で完結するのでプラグインを足さない。",
   "dependencies": {
+    "@capacitor/android": "^8.5.1",
     "@capacitor/core": "^8.5.0",
     "@capacitor/ios": "^8.5.0",
     "@capgo/native-purchases": "^8.6.4"

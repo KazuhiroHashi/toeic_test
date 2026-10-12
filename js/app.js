@@ -77,6 +77,15 @@
   var SHOP_URL = "";
   var IAP = window.TOEIC_IAP || null;
   function iapMode() { return !!(APP_BUILD && IAP && IAP.enabled()); }
+  /* 購入まわりの案内で使うストアの名前。Android では App Store と書くと
+     利用者が探しても見つからないので、ここだけ出し分ける。
+     APP_BUILD が無いWeb版では使わない(購入導線自体が出ないため)。 */
+  function storeName() {
+    return (APP_BUILD && APP_BUILD.platform === "android") ? "Google Play" : "App Store";
+  }
+  function accountName() {
+    return (APP_BUILD && APP_BUILD.platform === "android") ? "Google アカウント" : "Apple ID";
+  }
   /* ストアから取れた価格。取れるまでは金額を出さない。
      金額を自前で書くと、為替や地域で実際の請求額とずれるため。 */
   var iapPrice = null;
@@ -658,7 +667,7 @@
           buyBtn.textContent = buyLabel();
           if (status === "cancel") return;   // 自分で閉じた場合は何も出さない
           alert(status === "unavailable"
-            ? "この端末では購入手続きを開始できませんでした。App Store にサインインしているかご確認ください。"
+            ? "この端末では購入手続きを開始できませんでした。" + storeName() + " にサインインしているかご確認ください。"
             : "購入を完了できませんでした。時間をおいて、もう一度お試しください。");
         });
       });
@@ -674,7 +683,7 @@
           restoreBtn.disabled = false;
           restoreBtn.textContent = "購入を復元する";
           alert(status === "none"
-            ? "この Apple ID での購入履歴が見つかりませんでした。購入時と同じ Apple ID でサインインしているかご確認ください。"
+            ? "この " + accountName() + " での購入履歴が見つかりませんでした。購入時と同じ " + accountName() + " でサインインしているかご確認ください。"
             : "復元を確認できませんでした。通信状況をご確認のうえ、もう一度お試しください。");
         });
       });

@@ -1,0 +1,129 @@
+# Android の AAB(Google Play に上げるファイル)を作る。
+#
+# このワークフローは **作るだけ**。Play Console への提出・公開は行わない。
+# できあがった AAB は Actions の画面から手で落として、本人が Play Console に上げる。
+#
+# 署名鍵(任意):登録しておくと本番用の署名が付く。無いときは署名なしで作り、
+# 大きさの確認だけできる。Secrets(Settings → Secrets and variables → Actions):
+#   ANDROID_KEYSTORE_BASE64   … 鍵ファイル(.jks)を base64 にしたもの
+#   ANDROID_KEYSTORE_PASSWORD … 鍵ファイルのパスワード
+#   ANDROID_KEY_ALIAS         … 鍵の名前(別名)
+#   ANDROID_KEY_PASSWORD      … 鍵のパスワード
+#
+# versionCode は GitHub の実行番号をそのまま使う(実行のたびに増えるので衝突しない)。
+# Play は同じ versionCode を二度受け取らない。
+
+name: Android build (AAB)
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "公開するバージョン番号(画面に出る番号。例 1.0)"
+        required: true
+        default: "1.0"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          # Capacitor 8 の CLI は Node 22 以上を要求する
+          node-version: 22
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          # Capacitor 8 が生成する Android プロジェクトは JDK 21 でビルドする
+          java-version: "21"
+
+      - name: Android SDK を用意する
+        run: |
+          echo "$ANDROID_HOME/cmdline-tools/latest/bin" >> "$GITHUB_PATH"
+          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null 2>&1 || true
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "platforms;android-36" "build-tools;36.0.0"
+
+      - name: 依存関係を入れる
+        run: |
+          npm install
+          # アイコンの作成に使う。Ubuntu 24.04 では system python に入れるのを
+          # 断られることがあるので、断られたら --break-system-packages で入れ直す。
+          python3 -m pip install --quiet pillow \
+            || python3 -m pip install --quiet --break-system-packages pillow
+
+      - name: Webアセットを組む(www/)
+        run: bash tools/build_app.sh android
+
+      - name: Android プロジェクトを生成する
+        run: |
+          npx cap add android
+          node tools/setup_android.js
+          npx cap sync android
+
+      - name: アプリアイコンを差し替える
+        # Capacitor の雛形には緑のプレースホルダが入っている。必ず実物に置き換える。
+        run: python3 tools/make_android_icons.py
+
+      - name: 署名鍵を取り出す(登録されていれば)
+        env:
+          KS: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          KS_PASS: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          KEY_PASS: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          if [ -z "$KS" ]; then
+            echo "署名鍵が未登録です。署名なしの AAB を作ります(大きさの確認用)。"
+            exit 0
+          fi
+          echo "$KS" | base64 -d > android/upload-key.jks
+          # 中身は秘密。ログに出さない。android/ は .gitignore 済みなので残らない。
+          {
+            echo "storeFile=upload-key.jks"
+            echo "storePassword=$KS_PASS"
+            echo "keyAlias=$KEY_ALIAS"
+            echo "keyPassword=$KEY_PASS"
+          } > android/keystore.properties
+
+      - name: AAB を作る
+        run: |
+          cd android
+          ./gradlew --no-daemon bundleRelease \
+            -PtoeicVersionCode=${{ github.run_number }} \
+            -PtoeicVersionName=${{ inputs.version }}
+
+      - name: 配信される大きさを測る
+        # Play の上限はダウンロードの大きさ。AAB のファイルサイズとは別物なので、
+        # Google の bundletool に実際の配信サイズを計算させる。
+        run: |
+          AAB=android/app/build/outputs/bundle/release/app-release.aab
+          ls -l "$AAB"
+          BT=https://github.com/google/bundletool/releases/download/1.18.1/bundletool-all-1.18.1.jar
+          curl -sSL -o bundletool.jar "$BT"
+          # 署名は測定に関係ないので、bundletool の既定(デバッグ鍵)のまま作らせる
+          java -jar bundletool.jar build-apks --bundle="$AAB" --output=/tmp/app.apks --overwrite
+          echo "── 端末に配信される大きさ(MIN/MAX、バイト)──"
+          echo "── Play の上限は 200MB(209,715,200 バイト)──"
+          java -jar bundletool.jar get-size total --apks=/tmp/app.apks --dimensions=SDK,ABI,SCREEN_DENSITY,LANGUAGE
+
+      - name: できあがった AAB を保存する
+        uses: actions/upload-artifact@v4
+        with:
+          name: toeic-${{ inputs.version }}-${{ github.run_number }}-aab
+          path: android/app/build/outputs/bundle/release/app-release.aab
+          retention-days: 14
+
+      - name: ストア掲載用のアイコン(512×512)を保存する
+        uses: actions/upload-artifact@v4
+        with:
+          name: play-store-icon-512
+          path: build/play-512.png
+          retention-days: 14
+
+      - name: 後片付け
+        if: always()
+        # 秘密鍵をランナーに残さない(念のため)
+        run: rm -f android/upload-key.jks android/keystore.properties
