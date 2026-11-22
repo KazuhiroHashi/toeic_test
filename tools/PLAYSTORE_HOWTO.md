@@ -138,7 +138,15 @@ GitHub → リポジトリの Settings → Secrets and variables → Actions →
 | `ANDROID_KEY_ALIAS` | `toeic-upload` |
 | `ANDROID_KEY_PASSWORD` | 鍵のパスワード(聞かれなかった場合は上と同じ) |
 
-鍵ファイルを文字にするコマンド(Windows の PowerShell。結果がクリップボードに入る):
+鍵ファイルを文字にするコマンド。結果がクリップボードに入る。
+
+Mac(ターミナル):
+
+```
+base64 -i upload-key.jks | pbcopy
+```
+
+Windows の PowerShell:
 
 ```
 [Convert]::ToBase64String([IO.File]::ReadAllBytes("upload-key.jks")) | Set-Clipboard
